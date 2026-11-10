@@ -87,7 +87,26 @@ namespace CatalogWatch
         const string DefaultCatalogUrl = "https://hoangngocquanganh.com/qa98/api/v1/software/catalog.php";   // = SoftwareCenterService.CatalogUrl
         static readonly JsonSerializerOptions Indented = new() { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
 
+        /// <summary>Lỗi cho chủ dự án: trên GitHub Actions in annotation ::error (hiện trong email "Run failed" / trang Actions), máy thường in stderr.</summary>
+        internal static void GhError(string title, string message)
+        {
+            static string Esc(string x, bool prop) { x = (x ?? "").Replace("%", "%25").Replace("\r", "%0D").Replace("\n", "%0A"); return prop ? x.Replace(":", "%3A").Replace(",", "%2C") : x; }
+            if (Environment.GetEnvironmentVariable("GITHUB_ACTIONS") == "true") Console.WriteLine($"::error title={Esc(title, true)}::{Esc(message, false)}");
+            else Console.Error.WriteLine(title + ": " + message);
+        }
+
         static async Task<int> Main(string[] argv)
+        {
+            try { return await Run(argv); }
+            catch (Exception ex)
+            {
+                GhError("Bot gặp lỗi không lường trước", "Bot dừng giữa chừng, các tệp kết quả cũ được giữ nguyên (app vẫn dùng bản trước). Cần xem log và sửa mã bot. Chi tiết: " + ex.GetType().Name + ": " + ex.Message);
+                Console.Error.WriteLine(ex);
+                return 4;
+            }
+        }
+
+        static async Task<int> Run(string[] argv)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Args a;
@@ -284,7 +303,10 @@ namespace CatalogWatch
         static int Fail(string statusPath, WatchStatus st, int code, string error)
         {
             st.Error = error;
-            Console.Error.WriteLine("LỖI: " + error + " — giữ nguyên danh sách cũ.");
+            GhError(code == 2 ? "Không đọc được danh mục đã ký" : "Bot không ghi được tệp kết quả",
+                (code == 2 ? "Bot không tải được danh mục từ server hoặc chữ ký không hợp lệ, nên lượt này không làm gì. "
+                           : "Bot không ghi được tệp trạng thái / kết quả. ")
+                + "Danh sách cũ giữ nguyên, app không bị ảnh hưởng. Nếu lỗi lặp lại nhiều lượt liền thì kiểm tra server / catalog. Chi tiết: " + error);
             WriteStatus(statusPath, st);
             return code;
         }

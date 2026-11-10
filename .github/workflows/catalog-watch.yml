@@ -12,7 +12,7 @@
 #     git ls-remote https://github.com/actions/setup-dotnet refs/tags/v5.4.0
 #   (tag có dòng "^{}" thì lấy SHA của dòng đó — là commit thật).
 
-name: catalog-watch
+name: Dò link bộ cài (catalog-watch)
 
 on:
   schedule:
@@ -28,6 +28,7 @@ permissions:
 
 jobs:
   watch:
+    name: Dò link + đồng bộ Pages
     runs-on: ubuntu-latest
     timeout-minutes: 150
     steps:
@@ -37,17 +38,17 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Build
+      - name: Dựng bot
         run: dotnet build tool/CatalogWatch.csproj -c Release -o out
 
-      - name: Kiểm / dò
+      - name: Kiểm danh mục / dò link
         env:
           GITHUB_TOKEN: ${{ github.token }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
         # Mã thoát khác 0 (catalog sai chữ ký, không ghi được tệp) => job đỏ; danh sách cũ giữ nguyên, chỉ status.json ghi lỗi.
         run: dotnet out/CatalogWatch.dll --state state.json --out link_health.json --report report.md --proposals proposals.json --status status.json --public public $FORCE
 
-      - name: Commit kết quả
+      - name: Lưu kết quả lên repo
         if: success() || failure()   # cả khi tool báo lỗi: để status.json (có lỗi) lên repo cho web admin thấy
         run: |
           git config user.name "catalog-watch-bot"
@@ -58,4 +59,5 @@ jobs:
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "chore: catalog-watch $(date -u +%Y-%m-%dT%H:%MZ)"
           # job catalog-pin cũng đẩy lên main (tệp khác) => rebase rồi đẩy, thử lại 1 lần
-          for i in 1 2; do git pull --rebase -q origin main && git push && exit 0; sleep 5; done; exit 1
+          for i in 1 2; do git pull --rebase -q origin main && git push && exit 0; sleep 5; done
+          echo "::error title=Không đẩy được kết quả lên repo::Bot chạy xong nhưng git push thất bại 2 lần (có thể job khác vừa đẩy). Lượt sau sẽ làm lại, không cần làm gì nếu chỉ thỉnh thoảng."; exit 1

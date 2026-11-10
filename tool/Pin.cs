@@ -161,20 +161,29 @@ namespace CatalogWatch
             return pick;
         }
 
-        /// <summary>Tự kiểm khi chạy (dự án test không tham chiếu tool): sai thì dừng trước khi ghi gì.</summary>
-        public static void SelfTest()
+        /// <summary>Tự kiểm khi chạy (dự án test không tham chiếu tool). Trả danh sách mục hỏng (tiếng Việt); rỗng = đạt.</summary>
+        public static List<string> SelfTest()
         {
-            const string y = "PackageIdentifier: A.B\nInstallerType: nullsoft\nScope: machine\nInstallers:\n- Architecture: x64\n  InstallerUrl: https://h/x64.exe\n  InstallerSha256: " +
-                             "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n  InstallerSwitches:\n    Silent: /S\n- Architecture: x86\n  InstallerType: msi\n  InstallerUrl: 'https://h/x86.msi' # c\n" +
+            const string y = "PackageIdentifier: A.B\nInstallerType: nullsoft\nScope: machine\nInstallers:\n- Architecture: x64\n  InstallerUrl: https://h/x64.exe # c\n  InstallerSha256: " +
+                             "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n  InstallerSwitches:\n    Silent: /S\n- Architecture: x86\n  InstallerType: msi\n  InstallerUrl: 'https://h/x86.msi'\n" +
                              "  InstallerSha256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\nManifestType: installer\n";
+            var bad = new List<string>();
+            void Check(bool ok, string what) { if (!ok) bad.Add(what); }
             var p = Parse(y);
-            bool ok = p.Count == 2 && p[0].Type == "nullsoft" && p[0].Scope == "machine" && p[0].Sha256 == new string('a', 64) && p[1].Type == "msi" && p[1].Url == "https://h/x86.msi"
-                      && Choose(p, CpuArch.X86, out _)?.Url == "https://h/x86.msi" && Choose(p, CpuArch.X64, out _)?.Type == "nullsoft"
-                      && Choose(p, CpuArch.Neutral, out var r1) == null && r1.Contains("split")
-                      && Choose(p.Take(1).ToList(), CpuArch.Neutral, out _)?.Arch == "x64"
-                      && Choose(new List<ManifestInstaller> { new() { Arch = "x64", Type = "msix", Url = "https://h/a", Sha256 = new string('c', 64) } }, CpuArch.X64, out var r2) == null && r2.Contains("msix")
-                      && Choose(p, CpuArch.Arm64, out var r3) == null && r3.Contains("arm64");
-            if (!ok) throw new InvalidOperationException("PinLogic self-test failed");
+            Check(p.Count == 2, "đọc manifest: phải ra 2 installer");
+            if (p.Count != 2) return bad;
+            Check(p[0].Type == "nullsoft" && p[0].Scope == "machine", "đọc manifest: InstallerType / Scope ở gốc tệp phải áp cho từng installer");
+            Check(p[0].Sha256 == new string('a', 64), "đọc manifest: InstallerSha256 phải chuyển chữ thường");
+            Check(p[0].Url == "https://h/x64.exe", "đọc manifest: phải bỏ chú thích # sau URL");
+            Check(p[1].Type == "msi" && p[1].Url == "https://h/x86.msi", "đọc manifest: InstallerType riêng / URL trong nháy đơn");
+            Check(Choose(p, CpuArch.X86, out _)?.Url == "https://h/x86.msi", "chọn installer: bản x86 phải chọn đúng file x86");
+            Check(Choose(p, CpuArch.X64, out _)?.Type == "nullsoft", "chọn installer: bản x64 phải chọn đúng file x64");
+            Check(Choose(p, CpuArch.Neutral, out var r1) == null && r1.Contains("split"), "chọn installer: bản neutral có file khác nhau theo arch phải bỏ qua");
+            Check(Choose(p.Take(1).ToList(), CpuArch.Neutral, out _)?.Arch == "x64", "chọn installer: bản neutral chỉ có 1 file phải ghim được");
+            Check(Choose(new List<ManifestInstaller> { new() { Arch = "x64", Type = "msix", Url = "https://h/a", Sha256 = new string('c', 64) } }, CpuArch.X64, out var r2) == null && r2.Contains("msix"),
+                  "chọn installer: loại msix phải bỏ qua");
+            Check(Choose(p, CpuArch.Arm64, out var r3) == null && r3.Contains("arm64"), "chọn installer: không có file arm64 phải bỏ qua");
+            return bad;
         }
     }
 
@@ -195,8 +204,13 @@ namespace CatalogWatch
 
         public static async Task<int> RunAsync(Args a, SoftwareCatalog catalog, HttpMessageInvoker http, int timeoutSec)
         {
-            PinLogic.SelfTest();
-            if (!OperatingSystem.IsWindows()) { Console.Error.WriteLine("--pin cần Windows (Get-AuthenticodeSignature)."); return 1; }
+            var broken = PinLogic.SelfTest();
+            if (broken.Count > 0)
+            {
+                Program.GhError("Tự kiểm bước ghim bộ cài hỏng", "Mã chọn installer của bot sai nên lượt này KHÔNG ghim gì (pins.json cũ giữ nguyên, app không bị ảnh hưởng). Cần sửa Tools/CatalogWatch/Pin.cs. Mục hỏng: " + string.Join("; ", broken));
+                return 1;
+            }
+            if (!OperatingSystem.IsWindows()) { Program.GhError("Sai máy chạy", "Bước ghim bộ cài cần Windows (Get-AuthenticodeSignature); workflow phải dùng runs-on: windows-latest."); return 1; }
             string statePath = a.Get("pin-state", "state/pins.json"), outPath = a.Get("pin-out", "public/pins.json");
             int maxDownloads = a.Int("pin-max", 40), maxManifests = a.Int("pin-manifests", 300);
             long budget = (long)a.Int("pin-budget-mb", 8192) << 20, maxFile = (long)a.Int("pin-max-file-mb", 1024) << 20;
@@ -204,7 +218,8 @@ namespace CatalogWatch
 
             PinState state;
             try { state = File.Exists(statePath) ? JsonSerializer.Deserialize<PinState>(File.ReadAllText(statePath)) ?? new PinState() : new PinState(); }
-            catch (Exception ex) when (ex is JsonException || ex is IOException) { Console.Error.WriteLine("state/pins.json hỏng: " + ex.Message); return 3; }
+            catch (Exception ex) when (ex is JsonException || ex is IOException)
+            { Program.GhError("Tệp state/pins.json hỏng", "Không đọc được danh sách đã ghim nên lượt này dừng (pins.json công khai giữ nguyên). Sửa hoặc xoá state/pins.json trong repo bot rồi chạy lại. Chi tiết: " + ex.Message); return 3; }
 
             var targets = LinkProbeLogic.Targets(catalog).Where(t => t.IsWinget)
                 .GroupBy(t => PinLogic.Key(t.ManifestId, t.Version, t.Arch)).Select(g => g.First()).ToList();
@@ -293,7 +308,8 @@ namespace CatalogWatch
                 Program.WriteAtomic(statePath, JsonSerializer.Serialize(state, Indented));
                 Program.WriteAtomic(outPath, JsonSerializer.Serialize(pub, Indented));
             }
-            catch (Exception ex) when (ex is IOException || ex is UnauthorizedAccessException) { Console.Error.WriteLine("Không ghi được pins: " + ex.Message); return 3; }
+            catch (Exception ex) when (ex is IOException || ex is UnauthorizedAccessException)
+            { Program.GhError("Không ghi được pins.json", "Kết quả ghim lượt này bị mất, lượt sau sẽ làm lại; pins.json cũ giữ nguyên. Chi tiết: " + ex.Message); return 3; }
             Console.WriteLine($"Pin xong: kiểm {todo.Count}, tải {downloads} ({used >> 20} MB), ghim mới {pinned}, bỏ qua {skipped}, lỗi tạm {transient}, để lượt sau {deferred}; tổng đang ghim {pub.Count}/{targets.Count}.");
             foreach (var r in reasons.OrderByDescending(r => r.Value)) Console.WriteLine($"  bỏ qua {r.Value}: {r.Key}");
             return 0;

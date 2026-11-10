@@ -6,9 +6,11 @@
 # File tải về chỉ băm + đọc chữ ký rồi xoá, KHÔNG chạy. Bản đã ghim không tải lại; bản bỏ qua thử lại sau 7 ngày.
 # Mỗi lượt tối đa 40 file / 8 GB (ưu tiên gói Featured). Server QA98 (cron/software_pin_ingest.php) đọc pins.json, tự kiểm lại rồi mới đưa vào catalog ký.
 # Job riêng, concurrency riêng: không chặn lượt 15 phút của catalog-watch. Hai job đẩy tệp khác nhau => rebase trước khi push.
+# Job chỉ đỏ khi thật sự hỏng (tự kiểm sai, catalog sai chữ ký, không ghi / đẩy được tệp) — lỗi được in bằng tiếng Việt (::error, hiện trong email).
+# Một bản không tải được / lỗi mạng chỉ ghi vào state/pins.json, không làm đỏ job.
 # Không secret. Action ghim SHA giống catalog-watch.yml.
 
-name: catalog-pin
+name: Ghim bộ cài (catalog-pin)
 
 on:
   schedule:
@@ -24,6 +26,7 @@ permissions:
 
 jobs:
   pin:
+    name: Ghim bộ cài EXE/MSI
     runs-on: windows-latest   # cần Get-AuthenticodeSignature (WinVerifyTrust, kiểm thu hồi)
     timeout-minutes: 120
     defaults:
@@ -36,18 +39,19 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Build
+      - name: Dựng bot
         run: dotnet build tool/CatalogWatch.csproj -c Release -o out
 
-      - name: Ghim installer
+      - name: Ghim bộ cài (tải, băm, đọc chữ ký)
         # catalog kiểm chữ ký như catalog-watch (sai => mã 2, không ghi pins); status.json của catalog-watch không bị đụng
         run: dotnet out/CatalogWatch.dll --pin --no-pages --state state.json --status out/pin_status.json --pin-state state/pins.json --pin-out public/pins.json --pin-max 40 --pin-budget-mb 8192 --pin-max-file-mb 1024
 
-      - name: Commit kết quả
+      - name: Lưu kết quả lên repo
         run: |
           git config user.name "catalog-watch-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A -- state/pins.json public/pins.json
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "chore: catalog-pin $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 10; done; exit 1
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 10; done
+          echo "::error title=Không đẩy được kết quả lên repo::Bot chạy xong nhưng git push thất bại 3 lần (có thể job khác vừa đẩy). Lượt sau sẽ làm lại, không cần làm gì nếu chỉ thỉnh thoảng."; exit 1
