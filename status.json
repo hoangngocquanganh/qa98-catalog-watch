@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "tool_version": "1.0.0",
+  "checked_at": "2026-11-10T05:10:36.1489761Z",
+  "enabled": true,
+  "config_from_server": false,
+  "config": {
+    "max_per_run": 100,
+    "interval_hours": 6,
+    "featured_first": true,
+    "concurrency_per_host": 2,
+    "run_now_after": ""
+  },
+  "ran_probe": true,
+  "last_probe_at": "2026-11-10T05:10:36.1489761Z",
+  "catalog_revision": 24,
+  "total_keys": 953,
+  "hidden": 0,
+  "cycle_position": 32,
+  "error": "",
+  "pages": {
+    "catalog_revision": 24,
+    "changed": true,
+    "freshness": "none",
+    "availability": "none",
+    "error": ""
+  },
+  "last_probe": {
+    "at": "2026-11-10T05:10:36.1489761Z",
+    "seconds": 115,
+    "probed": 50,
+    "ok": 47,
+    "hashed": 47,
+    "transient": 0,
+    "broken": 2,
+    "hash_mismatch": 1,
+    "skipped": 0,
+    "wide_outage": false
+  }
+}

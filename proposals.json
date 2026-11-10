@@ -1,0 +1,997 @@
+{
+  "schema": 1,
+  "untrusted": true,
+  "baseRevision": 24,
+  "generated_at": "2026-11-10T05:10:36.1489761Z",
+  "items": [
+    {
+      "key": "w:7zip.7zip|26.06",
+      "winget_id": "7zip.7zip",
+      "slug": "7zip",
+      "version": "26.06",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/7/7zip/7zip/26.06/7zip.7zip.installer.yaml",
+        "https://github.com/ip7z/7zip/releases/download/26.06/7z2606.exe",
+        "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.exe",
+        "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-arm.exe",
+        "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-arm64.exe",
+        "https://github.com/ip7z/7zip/releases/download/26.06/7z2606.msi",
+        "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-x64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adobe.acrobat.reader.64-bit|26.003.22075",
+      "winget_id": "Adobe.Acrobat.Reader.64-bit",
+      "slug": "adobe-acrobat-reader-64-bit",
+      "version": "26.003.22075",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/Acrobat/Reader/64-bit/26.003.22075/Adobe.Acrobat.Reader.64-bit.installer.yaml",
+        "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600322075/AcroRdrDCx642600322075_MUI.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:google.chrome|157.0.8103.39",
+      "winget_id": "Google.Chrome",
+      "slug": "chrome",
+      "version": "157.0.8103.39",
+      "arch": "neutral",
+      "kind": "new_artifact",
+      "outcome": "Broken",
+      "reason": "winget manifest missing",
+      "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.39/Google.Chrome.installer.yaml",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.39/Google.Chrome.installer.yaml"
+      ],
+      "candidate_version": "157.0.8103.51",
+      "candidate_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
+      "candidate_sha256": "0b76a091b8eaf495775abbef027d4d78814530cced68cd7a43033e1aaee0aa77",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.51/Google.Chrome.installer.yaml manifests/g/Google/Chrome/157.0.8103.51@7899c1f5d686426eb6d161633dd1e110e9bea998 approved version missing from winget-pkgs; newer manifest found (needs review, not downloaded)"
+    },
+    {
+      "key": "w:lamquangminh.evkey|6.0.5",
+      "winget_id": "lamquangminh.EVKey",
+      "slug": "evkey",
+      "version": "6.0.5",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip expected 836fb7d7498b8ee63ab97b01ef0f37ba008a736aefbbb33adfb427ce662c0a90 got 59ac1ceeb7fce4407f5565a9ecf885210b450a3b789e035f06d07728e26e78bc",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml",
+        "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:microsoft.directx|9.29.1974.0",
+      "winget_id": "Microsoft.DirectX",
+      "slug": "microsoft-directx",
+      "version": "9.29.1974.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DirectX/9.29.1974.0/Microsoft.DirectX.installer.yaml",
+        "https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x64.appx",
+        "https://download.microsoft.com/download/c/c/2/cc291a37-2ebd-4ac2-ba5f-4c9124733bf1/UAPSignedBinary_Microsoft.DirectX.x86.appx",
+        "https://download.microsoft.com/download/1/7/1/1718ccc4-6315-4d8e-9543-8e28a4e18c4c/dxwebsetup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.dotnet.desktopruntime.8|8.0.33",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.8",
+      "slug": "microsoft-dotnet-desktopruntime-8",
+      "version": "8.0.33",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/8/8.0.33/Microsoft.DotNet.DesktopRuntime.8.installer.yaml",
+        "https://download.microsoft.com/download/9d8b4560-78de-40b0-91f9-d0a48dda818b/ce78f5f8-bc7b-4a55-a2c3-862cccd8d9bd/windowsdesktop-runtime-8.0.33-win-arm64.exe",
+        "https://download.microsoft.com/download/9d8b4560-78de-40b0-91f9-d0a48dda818b/2317f3da-b666-45ac-baa4-72da1586d33c/windowsdesktop-runtime-8.0.33-win-x64.exe",
+        "https://download.microsoft.com/download/9d8b4560-78de-40b0-91f9-d0a48dda818b/3efa31c6-6415-4349-ada5-1d18d0a2444c/windowsdesktop-runtime-8.0.33-win-x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2005.x64|8.0.61000",
+      "winget_id": "Microsoft.VCRedist.2005.x64",
+      "slug": "microsoft-vcredist-2005-x64",
+      "version": "8.0.61000",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2005/x64/8.0.61000/Microsoft.VCRedist.2005.x64.installer.yaml",
+        "https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/1/6/7/167A16B9-61F1-4DCF-8E59-3A60D38507CA/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/5/3/7/5379AA9F-6172-4A56-A968-6FC80C9A201D/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/5/D/A/5DA273D6-C1CB-4F1C-90C0-73B5263E0AC7/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/3/7/5/3755033D-C8D8-4B88-9DC9-B666BEA33349/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/E/A/5/EA5A3F64-0347-404B-8E26-3067207C8FA2/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/1/E/4/1E4D029E-1D34-4CA8-B269-2CFEB91BD066/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/4/A/2/4A22001F-FA3B-4C13-BF4E-42EC249D51C4/vcredist_x64.EXE",
+        "https://download.microsoft.com/download/1/1/3/1131962C-70D7-41B8-B093-7B215D192619/vcredist_x64.EXE"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2005.x86|8.0.61001",
+      "winget_id": "Microsoft.VCRedist.2005.x86",
+      "slug": "microsoft-vcredist-2005-x86",
+      "version": "8.0.61001",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2005/x86/8.0.61001/Microsoft.VCRedist.2005.x86.installer.yaml",
+        "https://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/1/6/7/167A16B9-61F1-4DCF-8E59-3A60D38507CA/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/5/3/7/5379AA9F-6172-4A56-A968-6FC80C9A201D/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/5/D/A/5DA273D6-C1CB-4F1C-90C0-73B5263E0AC7/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/3/7/5/3755033D-C8D8-4B88-9DC9-B666BEA33349/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/E/A/5/EA5A3F64-0347-404B-8E26-3067207C8FA2/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/1/E/4/1E4D029E-1D34-4CA8-B269-2CFEB91BD066/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/4/A/2/4A22001F-FA3B-4C13-BF4E-42EC249D51C4/vcredist_x86.EXE",
+        "https://download.microsoft.com/download/1/1/3/1131962C-70D7-41B8-B093-7B215D192619/vcredist_x86.EXE"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2008.x64|9.0.30729.6161",
+      "winget_id": "Microsoft.VCRedist.2008.x64",
+      "slug": "microsoft-vcredist-2008-x64",
+      "version": "9.0.30729.6161",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2008/x64/9.0.30729.6161/Microsoft.VCRedist.2008.x64.installer.yaml",
+        "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2008.x86|9.0.30729.6161",
+      "winget_id": "Microsoft.VCRedist.2008.x86",
+      "slug": "microsoft-vcredist-2008-x86",
+      "version": "9.0.30729.6161",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2008/x86/9.0.30729.6161/Microsoft.VCRedist.2008.x86.installer.yaml",
+        "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2010.x64|10.0.40219",
+      "winget_id": "Microsoft.VCRedist.2010.x64",
+      "slug": "microsoft-vcredist-2010-x64",
+      "version": "10.0.40219",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2010/x64/10.0.40219/Microsoft.VCRedist.2010.x64.installer.yaml",
+        "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2010.x86|10.0.40219",
+      "winget_id": "Microsoft.VCRedist.2010.x86",
+      "slug": "microsoft-vcredist-2010-x86",
+      "version": "10.0.40219",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2010/x86/10.0.40219/Microsoft.VCRedist.2010.x86.installer.yaml",
+        "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2012.x64|11.0.61030.0",
+      "winget_id": "Microsoft.VCRedist.2012.x64",
+      "slug": "microsoft-vcredist-2012-x64",
+      "version": "11.0.61030.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2012/x64/11.0.61030.0/Microsoft.VCRedist.2012.x64.installer.yaml",
+        "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2012.x86|11.0.61030.0",
+      "winget_id": "Microsoft.VCRedist.2012.x86",
+      "slug": "microsoft-vcredist-2012-x86",
+      "version": "11.0.61030.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2012/x86/11.0.61030.0/Microsoft.VCRedist.2012.x86.installer.yaml",
+        "https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2013.x64|12.0.40664.0",
+      "winget_id": "Microsoft.VCRedist.2013.x64",
+      "slug": "microsoft-vcredist-2013-x64",
+      "version": "12.0.40664.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2013/x64/12.0.40664.0/Microsoft.VCRedist.2013.x64.installer.yaml",
+        "https://download.visualstudio.microsoft.com/download/pr/10912041/cee5d6bca2ddbcd039da727bf4acb48a/vcredist_x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2013.x86|12.0.40664.0",
+      "winget_id": "Microsoft.VCRedist.2013.x86",
+      "slug": "microsoft-vcredist-2013-x86",
+      "version": "12.0.40664.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2013/x86/12.0.40664.0/Microsoft.VCRedist.2013.x86.installer.yaml",
+        "https://download.visualstudio.microsoft.com/download/pr/10912113/5da66ddebb0ad32ebd4b922fd82e8e25/vcredist_x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2015+.x64|14.51.36247.0",
+      "winget_id": "Microsoft.VCRedist.2015+.x64",
+      "slug": "microsoft-vcredist-2015-x64",
+      "version": "14.51.36247.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2015+/x64/14.51.36247.0/Microsoft.VCRedist.2015+.x64.installer.yaml",
+        "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.vcredist.2015+.x86|14.51.36247.0",
+      "winget_id": "Microsoft.VCRedist.2015+.x86",
+      "slug": "microsoft-vcredist-2015-x86",
+      "version": "14.51.36247.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/VCRedist/2015+/x86/14.51.36247.0/Microsoft.VCRedist.2015+.x86.installer.yaml",
+        "https://download.visualstudio.microsoft.com/download/pr/57eef8ae-a341-46c3-b0bc-c041027b54cd/F0BAB33A302B3CDB2E11113760D016F54FD3D2632C65BA7834FAC4F0ABD7F1A3/VC_redist.x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:videolan.vlc|3.0.24",
+      "winget_id": "VideoLAN.VLC",
+      "slug": "vlc",
+      "version": "3.0.24",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/v/VideoLAN/VLC/3.0.24/VideoLAN.VLC.installer.yaml",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/win32/vlc-3.0.24-win32.exe",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/win32/vlc-3.0.24-win32.msi",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/win32/vlc-3.0.24-win32.zip",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.exe",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.msi",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.zip",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.exe",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.msi",
+        "https://download.videolan.org/pub/videolan/vlc/3.0.24/winarm64/vlc-3.0.24-winarm64.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:vngcorp.zalo|26.11.11",
+      "winget_id": "VNGCorp.Zalo",
+      "slug": "vngcorp-zalo",
+      "version": "26.11.11",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/v/VNGCorp/Zalo/26.11.11/VNGCorp.Zalo.installer.yaml",
+        "https://res-zaloapp-aka-jpt.zdn.vn/win/ZaloSetup-26.11.11.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "s:mpv|0.42.0",
+      "winget_id": "",
+      "slug": "mpv",
+      "version": "0.42.0",
+      "arch": "x64,arm64",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://github.com/mpv-player/mpv/releases/download/v0.42.0/mpv-v0.42.0-x86_64-pc-windows-msvc.zip",
+        "https://github.com/mpv-player/mpv/releases/download/v0.42.0/mpv-v0.42.0-aarch64-pc-windows-msvc.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "s:powertoys|0.102.3101.0",
+      "winget_id": "",
+      "slug": "powertoys",
+      "version": "0.102.3101.0",
+      "arch": "x64,arm64",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-x64.exe",
+        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "s:rustdesk|1.5.1",
+      "winget_id": "",
+      "slug": "rustdesk",
+      "version": "1.5.1",
+      "arch": "x64,arm64",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.msi",
+        "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:2brightsparks.syncbackfree|12.1.34.0",
+      "winget_id": "2BrightSparks.SyncBackFree",
+      "slug": "2brightsparks-syncbackfree",
+      "version": "12.1.34.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/2/2BrightSparks/SyncBackFree/12.1.34.0/2BrightSparks.SyncBackFree.installer.yaml",
+        "https://www.2brightsparks.com/assets/software/SyncBack/SyncBack_Setup.12.1.34.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:abdelrhman-ak.winpaletter|1.1.0.0",
+      "winget_id": "Abdelrhman-AK.WinPaletter",
+      "slug": "abdelrhman-ak-winpaletter",
+      "version": "1.1.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Abdelrhman-AK/WinPaletter/1.1.0.0/Abdelrhman-AK.WinPaletter.installer.yaml",
+        "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v1.1.0.0/WinPaletter.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:acronis.cyberprotecthomeoffice|28.3.1.41126",
+      "winget_id": "Acronis.CyberProtectHomeOffice",
+      "slug": "acronis-cyberprotecthomeoffice",
+      "version": "28.3.1.41126",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Acronis/CyberProtectHomeOffice/28.3.1.41126/Acronis.CyberProtectHomeOffice.installer.yaml",
+        "https://dl.acronis.com/u/AcronisCyberProtectHomeOffice.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adguard.adguardvpn|2.9.2004.0",
+      "winget_id": "AdGuard.AdGuardVPN",
+      "slug": "adguard-adguardvpn",
+      "version": "2.9.2004.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AdGuard/AdGuardVPN/2.9.2004.0/AdGuard.AdGuardVPN.installer.yaml",
+        "https://github.com/AdguardTeam/AdGuardVPNForWindows/releases/download/v2.9.0/AdGuardVpn-2.9.0-.2004.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adguard.adguard|8.0.5595",
+      "winget_id": "AdGuard.AdGuard",
+      "slug": "adguard-adguard",
+      "version": "8.0.5595",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AdGuard/AdGuard/8.0.5595/AdGuard.AdGuard.installer.yaml",
+        "https://static.adtidy.org/windows/setup-8.0.5595.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adobe.acrobat.reader.32-bit|26.002.22031",
+      "winget_id": "Adobe.Acrobat.Reader.32-bit",
+      "slug": "adobe-acrobat-reader-32-bit",
+      "version": "26.002.22031",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/Acrobat/Reader/32-bit/26.002.22031/Adobe.Acrobat.Reader.32-bit.installer.yaml",
+        "https://ardownload3.adobe.com/pub/adobe/reader/win/AcrobatDC/2600222031/AcroRdrDC2600222031_MUI.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adobe.brackets|1.14.17770",
+      "winget_id": "Adobe.Brackets",
+      "slug": "adobe-brackets",
+      "version": "1.14.17770",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/Brackets/1.14.17770/Adobe.Brackets.installer.yaml",
+        "https://github.com/adobe/brackets/releases/download/release-1.14.2/Brackets.Release.1.14.2.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adobe.creativecloud|6.11.0.478.6",
+      "winget_id": "Adobe.CreativeCloud",
+      "slug": "adobe-creativecloud",
+      "version": "6.11.0.478.6",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/CreativeCloud/6.11.0.478.6/Adobe.CreativeCloud.installer.yaml",
+        "https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/wam/download"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:adrienallard.fileconverter|2.2",
+      "winget_id": "AdrienAllard.FileConverter",
+      "slug": "adrienallard-fileconverter",
+      "version": "2.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AdrienAllard/FileConverter/2.2/AdrienAllard.FileConverter.installer.yaml",
+        "https://github.com/Tichau/FileConverter/releases/download/v2.2/FileConverter-2.2-x64-setup.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:aegisub.aegisub|3.5.1",
+      "winget_id": "Aegisub.Aegisub",
+      "slug": "aegisub-aegisub",
+      "version": "3.5.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Aegisub/Aegisub/3.5.1/Aegisub.Aegisub.installer.yaml",
+        "https://github.com/TypesettingTools/Aegisub/releases/download/v3.5.1/Aegisub-3.5.1-x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:agalwood.motrix|1.8.19",
+      "winget_id": "agalwood.Motrix",
+      "slug": "agalwood-motrix",
+      "version": "1.8.19",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/agalwood/Motrix/1.8.19/agalwood.Motrix.installer.yaml",
+        "https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-Setup-1.8.19.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:agilebits.1password|8.12.42.36",
+      "winget_id": "AgileBits.1Password",
+      "slug": "agilebits-1password",
+      "version": "8.12.42.36",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AgileBits/1Password/8.12.42.36/AgileBits.1Password.installer.yaml",
+        "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.42.msixbundle",
+        "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.42.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:aimp.aimp|5.10.2418",
+      "winget_id": "AIMP.AIMP",
+      "slug": "aimp-aimp",
+      "version": "5.10.2418",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "Broken",
+      "reason": "HTTP 404",
+      "note": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AIMP/AIMP/5.10.2418/AIMP.AIMP.installer.yaml",
+        "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
+        "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w32.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AIMP/AIMP/5.10.2418/AIMP.AIMP.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:aivarannamaa.thonny|5.0.1",
+      "winget_id": "AivarAnnamaa.Thonny",
+      "slug": "aivarannamaa-thonny",
+      "version": "5.0.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AivarAnnamaa/Thonny/5.0.1/AivarAnnamaa.Thonny.installer.yaml",
+        "https://github.com/thonny/thonny/releases/download/v5.0.1/thonny-5.0.1-x64.exe",
+        "https://github.com/thonny/thonny/releases/download/v5.0.1/thonny-5.0.1-arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:ajeetdsouza.zoxide|0.10.0",
+      "winget_id": "ajeetdsouza.zoxide",
+      "slug": "ajeetdsouza-zoxide",
+      "version": "0.10.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ajeetdsouza/zoxide/0.10.0/ajeetdsouza.zoxide.installer.yaml",
+        "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip",
+        "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-pc-windows-msvc.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:alacritty.alacritty|0.17.0",
+      "winget_id": "Alacritty.Alacritty",
+      "slug": "alacritty-alacritty",
+      "version": "0.17.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Alacritty/Alacritty/0.17.0/Alacritty.Alacritty.installer.yaml",
+        "https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-installer.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:alagrede.znote|4.10.0",
+      "winget_id": "alagrede.znote",
+      "slug": "alagrede-znote",
+      "version": "4.10.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/alagrede/znote/4.10.0/alagrede.znote.installer.yaml",
+        "https://github.com/alagrede/znote-app/releases/download/v4.10.0/znote-Setup-4.10.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:alex313031.thorium.avx2|156.0.8078.80",
+      "winget_id": "Alex313031.Thorium.AVX2",
+      "slug": "alex313031-thorium-avx2",
+      "version": "156.0.8078.80",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Alex313031/Thorium/AVX2/156.0.8078.80/Alex313031.Thorium.AVX2.installer.yaml",
+        "https://github.com/gz83/thorium/releases/download/M156.0.8078.80/thorium_AVX2_mini_installer.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:alexanderkojevnikov.spek|0.8.5",
+      "winget_id": "AlexanderKojevnikov.Spek",
+      "slug": "alexanderkojevnikov-spek",
+      "version": "0.8.5",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AlexanderKojevnikov/Spek/0.8.5/AlexanderKojevnikov.Spek.installer.yaml",
+        "https://github.com/alexkay/spek/releases/download/v0.8.5/spek-0.8.5-beta.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:alexx2000.doublecommander|1.2.11",
+      "winget_id": "alexx2000.DoubleCommander",
+      "slug": "alexx2000-doublecommander",
+      "version": "1.2.11",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/alexx2000/DoubleCommander/1.2.11/alexx2000.DoubleCommander.installer.yaml",
+        "https://github.com/doublecmd/doublecmd/releases/download/v1.2.11/doublecmd-1.2.11.i386-win32.msi",
+        "https://github.com/doublecmd/doublecmd/releases/download/v1.2.11/doublecmd-1.2.11.x86_64-win64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.awscli|2.39.5",
+      "winget_id": "Amazon.AWSCLI",
+      "slug": "amazon-awscli",
+      "version": "2.39.5",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/AWSCLI/2.39.5/Amazon.AWSCLI.installer.yaml",
+        "https://awscli.amazonaws.com/AWSCLIV2-2.39.5.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.corretto.11.jdk|11.0.33.0",
+      "winget_id": "Amazon.Corretto.11.JDK",
+      "slug": "amazon-corretto-11-jdk",
+      "version": "11.0.33.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/11/JDK/11.0.33.0/Amazon.Corretto.11.JDK.installer.yaml",
+        "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x86.msi",
+        "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.corretto.17.jdk|17.0.21.0",
+      "winget_id": "Amazon.Corretto.17.JDK",
+      "slug": "amazon-corretto-17-jdk",
+      "version": "17.0.21.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/17/JDK/17.0.21.0/Amazon.Corretto.17.JDK.installer.yaml",
+        "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.corretto.21.jdk|21.0.13.0",
+      "winget_id": "Amazon.Corretto.21.JDK",
+      "slug": "amazon-corretto-21-jdk",
+      "version": "21.0.13.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/21/JDK/21.0.13.0/Amazon.Corretto.21.JDK.installer.yaml",
+        "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.corretto.25.jdk|25.0.5.0",
+      "winget_id": "Amazon.Corretto.25.JDK",
+      "slug": "amazon-corretto-25-jdk",
+      "version": "25.0.5.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/25/JDK/25.0.5.0/Amazon.Corretto.25.JDK.installer.yaml",
+        "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.corretto.8.jdk|1.8.0.512",
+      "winget_id": "Amazon.Corretto.8.JDK",
+      "slug": "amazon-corretto-8-jdk",
+      "version": "1.8.0.512",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/8/JDK/1.8.0.512/Amazon.Corretto.8.JDK.installer.yaml",
+        "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x86-jdk.msi",
+        "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x64-jdk.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:amazon.games|3.0.9700.3",
+      "winget_id": "Amazon.Games",
+      "slug": "amazon-games",
+      "version": "3.0.9700.3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Games/3.0.9700.3/Amazon.Games.installer.yaml",
+        "https://download.amazongames.com/AmazonGamesSetup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    }
+  ]
+}
