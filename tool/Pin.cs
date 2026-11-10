@@ -245,7 +245,7 @@ namespace CatalogWatch
                     {
                         entries[x.Key] = new PinEntry { Key = x.Key, Status = "skipped", Reason = why, Id = t.ManifestId, Version = t.Version, Arch = PinLogic.ArchName(t.Arch), CheckedUtc = now };
                         Interlocked.Increment(ref skipped);
-                        string bucket = Regex.Replace(why, @"\(.*\)|'[^']*'|\d+", "…");
+                        string bucket = why.StartsWith("authenticode", StringComparison.Ordinal) ? why.Split(':')[0] : Regex.Replace(why, @"\(.*\)|'[^']*'|\b\d+\b", "…");
                         reasons.AddOrUpdate(bucket, 1, (_, n) => n + 1);
                         Console.WriteLine($"{x.Key}  =>  skip: {why}");
                     }
@@ -269,7 +269,7 @@ namespace CatalogWatch
                         if (!d.Ok) { if (d.Transient) Later("download " + d.Error); else Skip("download " + d.Error); return; }
                         if (d.Sha256 != pick.Sha256) { Skip($"sha256 mismatch with manifest (manifest {pick.Sha256} got {d.Sha256})"); return; }
                         var sig = await SignatureAsync(file, ct);
-                        if (sig.Status != "Valid") { Skip($"authenticode {sig.Status}: {sig.Message}".Trim()); return; }
+                        if (sig.Status != "Valid") { Skip($"authenticode {sig.Status}: {sig.Message.Replace(file, "<file>")}".Trim()); return; }
                         if (sig.Subject.Length == 0 || !Regex.IsMatch(sig.Thumbprint, "^[0-9A-F]{40}$")) { Skip("authenticode signer missing"); return; }
                         entries[x.Key] = new PinEntry
                         {
