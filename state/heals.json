@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-10T14:33:02.7901733Z",
+  "updated_at": "2026-11-10T20:56:53.3892786Z",
   "last_run": {
-    "at": "2026-11-10T14:33:02.7901733Z",
-    "seconds": 28,
-    "failing": 18,
+    "at": "2026-11-10T20:56:53.3892786Z",
+    "seconds": 30,
+    "failing": 17,
     "healed": 0,
-    "blocked": 18,
-    "downloads": 12,
+    "blocked": 17,
+    "downloads": 11,
     "downloaded_mb": 566,
-    "harvested": 10,
-    "anchors": 149
+    "harvested": 8,
+    "anchors": 186
   },
   "heals": [],
   "heal_blocked": [
@@ -66,7 +66,7 @@
       "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
       "slug": "emsisoft-emergencykit",
       "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 ea7ceba7532175b6caa93c1d53b999b4d538e0fdd79014612ef2e5448368248d, 326.5 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 a2e86f0448279fca14c22a69f0c92dd03258baecdc322223b6880bd648e23d7a, 327.3 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
     },
     {
       "vkey": "w:glarysoft.glaryutilities|6.49.0.53",
@@ -91,12 +91,6 @@
       "slug": "google-chrome-beta",
       "version": "158.0.8127.2",
       "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 4f23bff4feb6dbd42c907c200eb22ca8ef80e0dfd95c3035a390ba2a41c5dbd7, 169.7 MB); winget-pkgs chưa có bản mới hơn 158.0.8127.2"
-    },
-    {
-      "vkey": "w:google.cloudsdk|592.0.0",
-      "slug": "google-cloudsdk",
-      "version": "592.0.0",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 b4f156dafac3a316f625759570cba4e866abb0862faaa9b0db9f1ef69c4e5414, 0.3 MB); winget-pkgs chưa có bản mới hơn 592.0.0"
     },
     {
       "vkey": "w:google.platformtools|37.0.2",
@@ -355,6 +349,16 @@
       "at": "2026-11-10T14:33:02.7901733Z"
     },
     {
+      "id": "w:amazon.games",
+      "version": "3.0.9700.3",
+      "sha256": "b5d74ab5a63cfbef2756e9c445b1e939e51a328f17af301b5d7b9a8e9b1d4141",
+      "size": 1975328,
+      "subject": "CN=Amazon.com Services LLC, OU=Amazon Game Studios, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "B4E3D2B95782490ECB5C9B13F8956A9699AE4BDF",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
       "id": "w:amazon.sam-cli",
       "version": "1.171.0",
       "sha256": "da18862262028e3aa88ce1518bd1a01c504146300ddc3faa2a3c59a0074f1715",
@@ -375,6 +379,36 @@
       "at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "w:angryziber.angryipscanner",
+      "version": "3.10.0",
+      "sha256": "ad40a95676ab8a89dae9439a4b80cd65126afba5a1af13e3118d66601535bd55",
+      "size": 24912120,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
+      "id": "w:anki.anki",
+      "version": "26.09.4",
+      "sha256": "c35e7b90acf2929a71d70ac755a3dd0685f9fbe1a89d2f9edabb6fe7c0d91cba",
+      "size": 201621504,
+      "subject": "CN=Anki Software LLC, O=Anki Software LLC, L=Flagstaff, S=Arizona, C=US",
+      "thumbprint": "CD0E64BECCCCF95B15F70D0B4174F6452FE86161",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
+      "id": "w:anthropic.claude",
+      "version": "2.42304.2",
+      "sha256": "9eff78c6fd1fde2035806401bd3933578842d9a377b76dacfdb7b14571a002b0",
+      "size": 262896288,
+      "subject": "CN=\"Anthropic, PBC\", O=\"Anthropic, PBC\", L=San Francisco, S=California, C=US, SERIALNUMBER=4860621, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "60C2D9C51F09822FFF4F194DE9EEDB67451292D1",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
       "id": "w:antibodysoftware.wizfile",
       "version": "3.15",
       "sha256": "d65d392bae45a2e95a3950fe09c5822e552db498067300450dc4729c4dca7917",
@@ -393,6 +427,36 @@
       "thumbprint": "BD10DE8E797A2F0028F705896BFEF97E4BBFC934",
       "source": "pin",
       "at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "id": "w:antimicrox.antimicrox",
+      "version": "3.6.1",
+      "sha256": "467648540ab4bcf83641cb22b3359669bf1b9130b87d4be0aa438221ef3eb06b",
+      "size": 16037291,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
+      "id": "w:antonreshetov.masscode",
+      "version": "6.3.1",
+      "sha256": "071e05064e72b377b9ef64c653f2bd91d59db9622847888ce88b49ce6db04b00",
+      "size": 236468102,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
+      "id": "w:anydesk.anydesk",
+      "version": "9.8.3",
+      "sha256": "979a295b6a68881c9ae7a70c7ba117c26316ecdf9d6afa9dd66b048225df5de9",
+      "size": 8553912,
+      "subject": "CN=AnyDesk Software GmbH, O=AnyDesk Software GmbH, L=Stuttgart, S=Baden-Württemberg, C=DE",
+      "thumbprint": "D056FB932C5A4821C328214E4F4988436650583A",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
     },
     {
       "id": "w:aomei.backupper.standard",
@@ -1225,6 +1289,16 @@
       "at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "w:google.cloudsdk",
+      "version": "593.0.0",
+      "sha256": "b4f156dafac3a316f625759570cba4e866abb0862faaa9b0db9f1ef69c4e5414",
+      "size": 267040,
+      "subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
       "id": "w:google.japaneseime",
       "version": "3.35.6350.0",
       "sha256": "7ccfa2691dd57c3b63c76815f3a95b9706ab3acad574c0124faf198e4cab619d",
@@ -1465,6 +1539,176 @@
       "at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "w:joplin.joplin",
+      "version": "3.7.22",
+      "sha256": "ee11551239e7d680f76c6a4ddbc2362dda850981904fdb365298e4d43bf1df4d",
+      "size": 368820432,
+      "subject": "CN=Joplin, O=Joplin, L=Nancy, C=FR",
+      "thumbprint": "AF0C1B9451567F9AF077DD0646D2927153B05DAF",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:jrsoftware.innosetup",
+      "version": "6.7.3",
+      "sha256": "9c73c3bae7ed48d44112a0f48e66742c00090bdb5bef71d9d3c056c66e97b732",
+      "size": 10592232,
+      "subject": "CN=Pyrsys B.V., O=Pyrsys B.V., S=Noord-Holland, C=NL",
+      "thumbprint": "E0AB19C8D38CBF9C44709925122A7A02F8C70CB7",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:jtksoftware.joytokey",
+      "version": "7.4.0",
+      "sha256": "a0ae217a39c0c94265a51fd382aef8a6b74daa3716d8354e142164ea09c84227",
+      "size": 3551968,
+      "subject": "CN=\"FREE COLORS, LTD.\", O=\"FREE COLORS, LTD.\", L=SAITAMA, S=Saitama-ken, C=JP",
+      "thumbprint": "68AEE499EBB8E8A27FE718ABA340E684C89B62F4",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:kde.kate",
+      "version": "26.08.3",
+      "sha256": "c25e1ef6d131ee88f8473def5ccc61f4d3b938e73680d053e67adc0fd246b90a",
+      "size": 106360976,
+      "subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:kde.kdeconnect",
+      "version": "26.08.2",
+      "sha256": "5a3536bd37673599aab651ca12715a6efcf5a7a1323306c4f979edcca052b7d3",
+      "size": 94478088,
+      "subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:kde.kdenlive",
+      "version": "26.08.3",
+      "sha256": "1f4027f287c3066887b1c112664b10c4e71a6772914fd5ea41074df429652186",
+      "size": 135406064,
+      "subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:kde.krita",
+      "version": "5.3.4.1",
+      "sha256": "025523cf1751ff209faf7ecfe1cff851f2cdab64acb8c555b307b349ad56ce8f",
+      "size": 165471576,
+      "subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:kingston.ssdmanager",
+      "version": "1.5.6.5",
+      "sha256": "cbb99454cf4cd1a804755abf89dfd12a1c9a69aec58028bf8e78edc49a022e38",
+      "size": 55567032,
+      "subject": "CN=\"Kingston Technology Company, Inc\", O=\"Kingston Technology Company, Inc\", L=Fountain Valley, S=California, C=US, SERIALNUMBER=3128210, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "2890F4F3D93D784307208DBDC4AB139AA80C7666",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:kopia.kopiaui",
+      "version": "0.23.1",
+      "sha256": "a945db629e4456d6616595a9b9fda4bc0407fc02a8d18fbce8f7f89390307c13",
+      "size": 113267920,
+      "subject": "CN=Kopia LLC, O=Kopia LLC, S=Washington, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=604 694 699",
+      "thumbprint": "A9CACB50EBBA75BDD853D26E5BE294D133A46CAD",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:lengockhoa.laragon",
+      "version": "8.8.0",
+      "sha256": "e4490c1ef9d2d33088ddd9ee9f8707398b812de5910288b4fb85f52f79f2d8c4",
+      "size": 240498840,
+      "subject": "CN=DEVYRA LABS LLC, O=DEVYRA LABS LLC, L=Sheridan, S=Wyoming, C=US",
+      "thumbprint": "393A56C84CF00DBF2EA70AADE2873DE618A2A32C",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:lenovo.systemupdate",
+      "version": "5.08.04.85",
+      "sha256": "4f044c4a1cece3fe4be22408da7e1d8e8338eeaae4491ce18fdaa5b655dc9585",
+      "size": 9312680,
+      "subject": "CN=Lenovo, OU=G17, O=Lenovo, L=Morrisville, S=North Carolina, C=US",
+      "thumbprint": "3466ABFD27B3B918A69BCEEA4C022809E021235E",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:lifesize.lifesize",
+      "version": "3.0.19",
+      "sha256": "8488d8d9e3c6f50a866e585b772b898256a0bf1c6c210824a2c7725b786e1fd3",
+      "size": 121937920,
+      "subject": "CN=Enghouse Systems Limited, O=Enghouse Systems Limited, L=Markham, S=Ontario, C=CA, SERIALNUMBER=604260, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "thumbprint": "0AD107B3A42CE6BC34960D243511EB73E8D961CF",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:localsend.localsend",
+      "version": "1.18.2",
+      "sha256": "122783e6abb4b0a1f1603d896f46a03aeda3004479ebd3175cab4ddac6b60919",
+      "size": 19901144,
+      "subject": "CN=Tien Do Nam, O=Tien Do Nam, L=Berlin, C=DE",
+      "thumbprint": "D95D73B75580AF7B614F33F68D0EB1B5EBD65600",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:logitech.options",
+      "version": "10.26.14",
+      "sha256": "37265ae012e9a58b3f2ee426ff33f258551948c97210a9e6738849b737d17ac5",
+      "size": 257705392,
+      "subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:logmein.hamachi",
+      "version": "2.3.0.111",
+      "sha256": "6ee98db32852a2ff31a969d918bb7c730950bb15f24ea1baf996697cebc8b9fa",
+      "size": 14413824,
+      "subject": "CN=\"LogMeIn, Inc.\", O=\"LogMeIn, Inc.\", L=Boston, S=Massachusetts, C=US",
+      "thumbprint": "8F085C938714DD65A4F6C634F22D99D79DC0C7E6",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:mariadb.server",
+      "version": "13.0.2.0",
+      "sha256": "9fbee3a481f7cb133bde017f614c1e0c72d596992456983dbabde4374290d7bf",
+      "size": 93032448,
+      "subject": "CN=\"MariaDB USA, Inc.\", O=\"MariaDB USA, Inc.\", L=Milpitas, S=California, C=US",
+      "thumbprint": "975E907C551E09FA8669B5F555192A406A3908E6",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.azd",
+      "version": "1.37.400",
+      "sha256": "4487bc005459dc0cb4c60a090b0acdd2800ef3ba56bd1b802e091b5215a0bfa3",
+      "size": 21356544,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
       "id": "w:microsoft.directx",
       "version": "9.29.1974.0",
       "sha256": "2cf71d098c608c56e07f4655855a886c3102553f648df88458df616b26fd612f",
@@ -1483,6 +1727,46 @@
       "thumbprint": "43A50DB15AC95D0C1D187616AE187467975846D0",
       "source": "harvest",
       "at": "2026-11-10T14:22:58.7160037Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.hostingbundle.8",
+      "version": "8.0.34",
+      "sha256": "bf78032f14ed77f880573f536cb3e94c80a420f6a025b62c8c44bb6bf5799281",
+      "size": 111661840,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.powerautomatedesktop",
+      "version": "2.74.00191.26302",
+      "sha256": "1c19cae25102d8b9b4c0155044c3d307c8466631bd7ee4658f1a623731651f90",
+      "size": 501433816,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.powerbi",
+      "version": "2.159.1231.0",
+      "sha256": "55e8ee44aa908d75edaed4bdb1a34863f41c047951f3724f298486fe07049f2d",
+      "size": 702986400,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.sqlservermanagementstudio",
+      "version": "20.2.1",
+      "sha256": "1b3a54a08a258c6768f4af726cfe97123478aaf7e8eda6503054d20e354638ef",
+      "size": 495847104,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "245D262748012A4FE6CE8BA6C951A4C4AFBC3E5D",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
     },
     {
       "id": "w:microsoft.vcredist.2005.x64",
@@ -1585,6 +1869,16 @@
       "at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "w:microsoft.vcredist.2015+.arm64",
+      "version": "14.51.36247.0",
+      "sha256": "b70ef586669a620a0a30a1156969c05c6a3831dc8f8bc992da75779d2a92f944",
+      "size": 11870816,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
       "id": "w:microsoft.vcredist.2015+.x64",
       "version": "14.51.36247.0",
       "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
@@ -1603,6 +1897,76 @@
       "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
       "source": "pin",
       "at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "id": "w:microsoft.windowsadk",
+      "version": "10.1.28000.3481",
+      "sha256": "bb52f13ffafb108c6535d683c8c4b65dfce2505291c77ef512ae1b7a0bdebe0b",
+      "size": 2125288,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "36FA8A6E7CD287169DF9977FD4F2B45D01035866",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.windowssdk.10.0.26100",
+      "version": "10.0.26100.7705",
+      "sha256": "6fa0fa27db77a909f5ecb35183cb26a969a6775936780936fe239e4f9c66b458",
+      "size": 1451232,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "F6EECCC7FF116889C2D5466AE7243D7AA7698689",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.xnaredist",
+      "version": "4.0.30901.0",
+      "sha256": "2b03c130c4bb5f106b9619bea8150201f7e982709cfe9a0cc8bde75ff0a83b27",
+      "size": 7059456,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "ABDCA79AF9DD48A0EA702AD45260B3C03093FB4B",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:minitool.partitionwizard.free",
+      "version": "13.9",
+      "sha256": "220294067657bf439f82f8bd88a7f79a73c352e0414f109e26bb1237d43b494e",
+      "size": 77437936,
+      "subject": "CN=MiniTool Software Limited, O=MiniTool Software Limited, L=Kowloon, C=HK",
+      "thumbprint": "5530CC5794FFAEEFA06F26270E1171A033487FA7",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:mirantis.lens",
+      "version": "2026.11.91422-latest",
+      "sha256": "948a47b3977cd0ba5415ccab7324875ebb7c169cde32e3da3c19595bb268d1c4",
+      "size": 209157256,
+      "subject": "CN=\"Mirantis, Inc.\", O=\"Mirantis, Inc.\", L=Campbell, S=California, C=US",
+      "thumbprint": "6D9CD35E51144E1DA02D3E72F6A6046F4E975F98",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:mirc.mirc",
+      "version": "7.83",
+      "sha256": "c4e001b16aefb94158c6ee0324491b843639548fe5facbb04a03f45b7e3847a9",
+      "size": 4416368,
+      "subject": "CN=mIRC Co. Ltd., OU=Secure Application Development, O=mIRC Co. Ltd., L=Stanmore, C=GB",
+      "thumbprint": "465232351880AF0929DC47E81548349C5C7BB457",
+      "source": "pin",
+      "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:videolan.vlc",
+      "version": "3.0.24",
+      "sha256": "d711e1e1fe52052748c39080c7dce63f6b7e4c315efedf1774a3f1957b782ff3",
+      "size": 46269360,
+      "subject": "CN=VideoLAN, O=VideoLAN, L=Paris, C=FR",
+      "thumbprint": "CCF8C4F9272D8A25477AF13EC71F97A3027C7319",
+      "source": "harvest",
+      "at": "2026-11-10T20:56:53.3892786Z"
     },
     {
       "id": "w:vngcorp.zalo",

@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-10T14:32:28.4341544Z",
-  "catalog_revision": 38,
-  "count": 127,
+  "generated_at": "2026-11-10T20:55:38.9607764Z",
+  "catalog_revision": 41,
+  "count": 156,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -1592,6 +1592,22 @@
       "checked_at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "Google.CloudSDK",
+      "version": "593.0.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe",
+      "sha256": "b4f156dafac3a316f625759570cba4e866abb0862faaa9b0db9f1ef69c4e5414",
+      "size": 267040,
+      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "allowed_hosts": [
+        "dl.google.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
       "id": "Google.JapaneseIME",
       "version": "3.35.6350.0",
       "arch": "neutral",
@@ -1986,6 +2002,351 @@
       "checked_at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "Joplin.Joplin",
+      "version": "3.7.22",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe",
+      "sha256": "ee11551239e7d680f76c6a4ddbc2362dda850981904fdb365298e4d43bf1df4d",
+      "size": 368820432,
+      "signer_subject": "CN=Joplin, O=Joplin, L=Nancy, C=FR",
+      "signer_thumbprint": "AF0C1B9451567F9AF077DD0646D2927153B05DAF",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "JRSoftware.InnoSetup",
+      "version": "6.7.3",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/jrsoftware/issrc/releases/download/is-6_7_3/innosetup-6.7.3.exe",
+      "sha256": "9c73c3bae7ed48d44112a0f48e66742c00090bdb5bef71d9d3c056c66e97b732",
+      "size": 10592232,
+      "signer_subject": "CN=Pyrsys B.V., O=Pyrsys B.V., S=Noord-Holland, C=NL",
+      "signer_thumbprint": "E0AB19C8D38CBF9C44709925122A7A02F8C70CB7",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "JTKsoftware.JoyToKey",
+      "version": "7.4.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://joytokey.net/download/JoyToKeySetup_en.exe",
+      "sha256": "a0ae217a39c0c94265a51fd382aef8a6b74daa3716d8354e142164ea09c84227",
+      "size": 3551968,
+      "signer_subject": "CN=\"FREE COLORS, LTD.\", O=\"FREE COLORS, LTD.\", L=SAITAMA, S=Saitama-ken, C=JP",
+      "signer_thumbprint": "68AEE499EBB8E8A27FE718ABA340E684C89B62F4",
+      "allowed_hosts": [
+        "joytokey.net"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "KDE.Kate",
+      "version": "26.08.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-26.08/windows/kate-release_26.08-12840-windows-cl-msvc2022-x86_64.exe",
+      "sha256": "c25e1ef6d131ee88f8473def5ccc61f4d3b938e73680d053e67adc0fd246b90a",
+      "size": 106360976,
+      "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "allowed_hosts": [
+        "cdn.kde.org"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "KDE.KDEConnect",
+      "version": "26.08.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.kde.org/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe",
+      "sha256": "5a3536bd37673599aab651ca12715a6efcf5a7a1323306c4f979edcca052b7d3",
+      "size": 94478088,
+      "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "allowed_hosts": [
+        "download.kde.org",
+        "www.mirrorservice.org"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "KDE.Kdenlive",
+      "version": "26.08.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.kde.org/stable/kdenlive/26.08/windows/kdenlive-26.08.3.exe",
+      "sha256": "1f4027f287c3066887b1c112664b10c4e71a6772914fd5ea41074df429652186",
+      "size": 135406064,
+      "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "allowed_hosts": [
+        "download.kde.org",
+        "www.mirrorservice.org"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "KDE.Krita",
+      "version": "5.3.4.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.kde.org/stable/krita/5.3.4.1/krita-x64-5.3.4.1-setup.exe",
+      "sha256": "025523cf1751ff209faf7ecfe1cff851f2cdab64acb8c555b307b349ad56ce8f",
+      "size": 165471576,
+      "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "allowed_hosts": [
+        "download.kde.org",
+        "mirror.lyrahosting.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Kingston.SSDManager",
+      "version": "1.5.6.5",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://media.kingston.com/support/downloads/KSM_setup_1.5.6.5.exe",
+      "sha256": "cbb99454cf4cd1a804755abf89dfd12a1c9a69aec58028bf8e78edc49a022e38",
+      "size": 55567032,
+      "signer_subject": "CN=\"Kingston Technology Company, Inc\", O=\"Kingston Technology Company, Inc\", L=Fountain Valley, S=California, C=US, SERIALNUMBER=3128210, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "2890F4F3D93D784307208DBDC4AB139AA80C7666",
+      "allowed_hosts": [
+        "media.kingston.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Kopia.KopiaUI",
+      "version": "0.23.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-Setup-0.23.1.exe",
+      "sha256": "a945db629e4456d6616595a9b9fda4bc0407fc02a8d18fbce8f7f89390307c13",
+      "size": 113267920,
+      "signer_subject": "CN=Kopia LLC, O=Kopia LLC, S=Washington, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=604 694 699",
+      "signer_thumbprint": "A9CACB50EBBA75BDD853D26E5BE294D133A46CAD",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "LeNgocKhoa.Laragon",
+      "version": "8.8.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/leokhoa/laragon/releases/download/8.8.0/laragon-wamp.exe",
+      "sha256": "e4490c1ef9d2d33088ddd9ee9f8707398b812de5910288b4fb85f52f79f2d8c4",
+      "size": 240498840,
+      "signer_subject": "CN=DEVYRA LABS LLC, O=DEVYRA LABS LLC, L=Sheridan, S=Wyoming, C=US",
+      "signer_thumbprint": "393A56C84CF00DBF2EA70AADE2873DE618A2A32C",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Lenovo.SystemUpdate",
+      "version": "5.08.04.85",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.08.04.85.exe",
+      "sha256": "4f044c4a1cece3fe4be22408da7e1d8e8338eeaae4491ce18fdaa5b655dc9585",
+      "size": 9312680,
+      "signer_subject": "CN=Lenovo, OU=G17, O=Lenovo, L=Morrisville, S=North Carolina, C=US",
+      "signer_thumbprint": "3466ABFD27B3B918A69BCEEA4C022809E021235E",
+      "allowed_hosts": [
+        "download.lenovo.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Lifesize.Lifesize",
+      "version": "3.0.19",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.lifesizecloud.com/Lifesize%20Setup%203.0.19.msi",
+      "sha256": "8488d8d9e3c6f50a866e585b772b898256a0bf1c6c210824a2c7725b786e1fd3",
+      "size": 121937920,
+      "signer_subject": "CN=Enghouse Systems Limited, O=Enghouse Systems Limited, L=Markham, S=Ontario, C=CA, SERIALNUMBER=604260, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ontario, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "signer_thumbprint": "0AD107B3A42CE6BC34960D243511EB73E8D961CF",
+      "allowed_hosts": [
+        "download.lifesizecloud.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "LocalSend.LocalSend",
+      "version": "1.18.2",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.exe",
+      "sha256": "122783e6abb4b0a1f1603d896f46a03aeda3004479ebd3175cab4ddac6b60919",
+      "size": 19901144,
+      "signer_subject": "CN=Tien Do Nam, O=Tien Do Nam, L=Berlin, C=DE",
+      "signer_thumbprint": "D95D73B75580AF7B614F33F68D0EB1B5EBD65600",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Logitech.Options",
+      "version": "10.26.14",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.exe",
+      "sha256": "37265ae012e9a58b3f2ee426ff33f258551948c97210a9e6738849b737d17ac5",
+      "size": 257705392,
+      "signer_subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
+      "allowed_hosts": [
+        "download01.logi.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "LogMeIn.Hamachi",
+      "version": "2.3.0.111",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://update-cdn.logmein.com/Hamachi/win32_23000111/Hamachi.msi",
+      "sha256": "6ee98db32852a2ff31a969d918bb7c730950bb15f24ea1baf996697cebc8b9fa",
+      "size": 14413824,
+      "signer_subject": "CN=\"LogMeIn, Inc.\", O=\"LogMeIn, Inc.\", L=Boston, S=Massachusetts, C=US",
+      "signer_thumbprint": "8F085C938714DD65A4F6C634F22D99D79DC0C7E6",
+      "allowed_hosts": [
+        "update-cdn.logmein.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "MariaDB.Server",
+      "version": "13.0.2.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://downloads.mariadb.org/rest-api/mariadb/13.0.2/mariadb-13.0.2-winx64.msi",
+      "sha256": "9fbee3a481f7cb133bde017f614c1e0c72d596992456983dbabde4374290d7bf",
+      "size": 93032448,
+      "signer_subject": "CN=\"MariaDB USA, Inc.\", O=\"MariaDB USA, Inc.\", L=Milpitas, S=California, C=US",
+      "signer_thumbprint": "975E907C551E09FA8669B5F555192A406A3908E6",
+      "allowed_hosts": [
+        "downloads.mariadb.org",
+        "mirrors.xtom.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.Azd",
+      "version": "1.37.400",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/eca0c9b3-b69b-4179-ad2a-073cf3bac069/d20c72f8-e8fe-4aea-9c6b-9760abdf515b/azd-windows-amd64.msi",
+      "sha256": "4487bc005459dc0cb4c60a090b0acdd2800ef3ba56bd1b802e091b5215a0bfa3",
+      "size": 21356544,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.DotNet.HostingBundle.8",
+      "version": "8.0.34",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x86",
+      "url": "https://download.microsoft.com/download/001db58d-5a20-4c81-a5e7-b97c33d7af97/a04c10bb-881f-466e-b6b3-28ba611ff805/dotnet-hosting-8.0.34-win.exe",
+      "sha256": "bf78032f14ed77f880573f536cb3e94c80a420f6a025b62c8c44bb6bf5799281",
+      "size": 111661840,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.PowerAutomateDesktop",
+      "version": "2.74.00191.26302",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/a26b0f48-a6c0-40f7-ae02-a27ec7766ce2/Setup.Microsoft.PowerAutomate.exe",
+      "sha256": "1c19cae25102d8b9b4c0155044c3d307c8466631bd7ee4658f1a623731651f90",
+      "size": 501433816,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.PowerBI",
+      "version": "2.159.1231.0",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-10_x64.exe",
+      "sha256": "55e8ee44aa908d75edaed4bdb1a34863f41c047951f3724f298486fe07049f2d",
+      "size": 702986400,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.SQLServerManagementStudio",
+      "version": "20.2.1",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-ENU.exe",
+      "sha256": "1b3a54a08a258c6768f4af726cfe97123478aaf7e8eda6503054d20e354638ef",
+      "size": 495847104,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "245D262748012A4FE6CE8BA6C951A4C4AFBC3E5D",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
       "id": "Microsoft.VCRedist.2012.x64",
       "version": "11.0.61030.0",
       "arch": "neutral",
@@ -2050,6 +2411,22 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "Microsoft.VCRedist.2015+.arm64",
+      "version": "14.51.36247.0",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "arm64",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/57eef8ae-a341-46c3-b0bc-c041027b54cd/B70EF586669A620A0A30A1156969C05C6A3831DC8F8BC992DA75779D2A92F944/VC_redist.arm64.exe",
+      "sha256": "b70ef586669a620a0a30a1156969c05c6a3831dc8f8bc992da75779d2a92f944",
+      "size": 11870816,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "allowed_hosts": [
+        "download.visualstudio.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
       "id": "Microsoft.VCRedist.2015+.x64",
       "version": "14.51.36247.0",
       "arch": "neutral",
@@ -2080,6 +2457,103 @@
         "download.visualstudio.microsoft.com"
       ],
       "checked_at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "id": "Microsoft.WindowsADK",
+      "version": "10.1.28000.3481",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://go.microsoft.com/fwlink/?linkid=2337875",
+      "sha256": "bb52f13ffafb108c6535d683c8c4b65dfce2505291c77ef512ae1b7a0bdebe0b",
+      "size": 2125288,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "36FA8A6E7CD287169DF9977FD4F2B45D01035866",
+      "allowed_hosts": [
+        "go.microsoft.com",
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.WindowsSDK.10.0.26100",
+      "version": "10.0.26100.7705",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x86",
+      "url": "https://download.microsoft.com/download/f4b30f2a-4fc3-430e-9b03-c842b5f5f9f1/KIT_BUNDLE_WINDOWSSDK_MEDIACREATION/winsdksetup.exe",
+      "sha256": "6fa0fa27db77a909f5ecb35183cb26a969a6775936780936fe239e4f9c66b458",
+      "size": 1451232,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "F6EECCC7FF116889C2D5466AE7243D7AA7698689",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.XNARedist",
+      "version": "4.0.30901.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://download.microsoft.com/download/5/3/A/53A804C8-EC78-43CD-A0F0-2FB4D45603D3/xnafx40_redist.msi",
+      "sha256": "2b03c130c4bb5f106b9619bea8150201f7e982709cfe9a0cc8bde75ff0a83b27",
+      "size": 7059456,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "ABDCA79AF9DD48A0EA702AD45260B3C03093FB4B",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "MiniTool.PartitionWizard.Free",
+      "version": "13.9",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://cdn2.minitool.com/download-center/release/products/pw/current-release/pw-free-offline.exe",
+      "sha256": "220294067657bf439f82f8bd88a7f79a73c352e0414f109e26bb1237d43b494e",
+      "size": 77437936,
+      "signer_subject": "CN=MiniTool Software Limited, O=MiniTool Software Limited, L=Kowloon, C=HK",
+      "signer_thumbprint": "5530CC5794FFAEEFA06F26270E1171A033487FA7",
+      "allowed_hosts": [
+        "cdn2.minitool.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Mirantis.Lens",
+      "version": "2026.11.91422-latest",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.11.91422-latest.exe",
+      "sha256": "948a47b3977cd0ba5415ccab7324875ebb7c169cde32e3da3c19595bb268d1c4",
+      "size": 209157256,
+      "signer_subject": "CN=\"Mirantis, Inc.\", O=\"Mirantis, Inc.\", L=Campbell, S=California, C=US",
+      "signer_thumbprint": "6D9CD35E51144E1DA02D3E72F6A6046F4E975F98",
+      "allowed_hosts": [
+        "downloads.k8slens.dev"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "mIRC.mIRC",
+      "version": "7.83",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.mirc.com/downloads/mirc/49/mirc783.exe",
+      "sha256": "c4e001b16aefb94158c6ee0324491b843639548fe5facbb04a03f45b7e3847a9",
+      "size": 4416368,
+      "signer_subject": "CN=mIRC Co. Ltd., OU=Secure Application Development, O=mIRC Co. Ltd., L=Stanmore, C=GB",
+      "signer_thumbprint": "465232351880AF0929DC47E81548349C5C7BB457",
+      "allowed_hosts": [
+        "www.mirc.com"
+      ],
+      "checked_at": "2026-11-10T20:55:38.9607764Z"
     },
     {
       "id": "VNGCorp.Zalo",
