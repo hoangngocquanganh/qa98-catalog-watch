@@ -37,6 +37,19 @@ namespace CatalogWatch
         [JsonPropertyName("signer_thumbprint")] public string SignerThumbprint { get; set; } = "";
         [JsonPropertyName("allowed_hosts")] public List<string> AllowedHosts { get; set; } = new();
         [JsonPropertyName("checked_at")] public DateTime CheckedUtc { get; set; }
+        /// <summary>Chỉ ở state/pins.json: ok / exe / exe_no_switch (bản chỉ có installer exe, có / thiếu InstallerSwitches.Silent|SilentWithProgress). Thiếu = chưa kiểm.</summary>
+        [JsonPropertyName("silent_check"), JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)] public string SilentCheck { get; set; }
+    }
+
+    /// <summary>Một dòng status.json "silent_missing": bản WINGET chỉ có installer exe (winget có thể hiện cửa sổ cài / không cài im lặng được).</summary>
+    sealed class SilentMissing
+    {
+        [JsonPropertyName("slug")] public string Slug { get; set; } = "";
+        [JsonPropertyName("winget_id")] public string WingetId { get; set; } = "";
+        [JsonPropertyName("version")] public string Version { get; set; } = "";
+        [JsonPropertyName("installer_type")] public string InstallerType { get; set; } = "";
+        /// <summary>false = manifest thiếu cả InstallerSwitches.Silent lẫn SilentWithProgress.</summary>
+        [JsonPropertyName("silent_switch")] public bool SilentSwitch { get; set; }
     }
 
     sealed class PinState
@@ -62,6 +75,8 @@ namespace CatalogWatch
     sealed class ManifestInstaller
     {
         public string Arch = "", Type = "", Url = "", Sha256 = "", Scope = "", Locale = "";
+        /// <summary>Có InstallerSwitches.Silent hoặc SilentWithProgress (của mục hoặc ở gốc tệp).</summary>
+        public bool Silent;
     }
 
     static class PinLogic
@@ -83,18 +98,29 @@ namespace CatalogWatch
             var items = new List<Dictionary<string, string>>();
             Dictionary<string, string> cur = null;
             bool inList = false; int itemIndent = -1;
+            Dictionary<string, string> sw = null; int swIndent = 0;   // khối InstallerSwitches đang đọc (của gốc hoặc của mục)
             foreach (string raw in (yaml ?? "").Split('\n'))
             {
                 string line = raw.TrimEnd('\r');
                 string t = line.TrimStart(' ');
                 if (t.Length == 0 || t[0] == '#') continue;
                 int indent = line.Length - t.Length;
+                if (sw != null)
+                {
+                    if (indent > swIndent)
+                    {
+                        if (KeyRe.Match(t) is { Success: true } ms && ms.Groups[1].Value is "Silent" or "SilentWithProgress" && ms.Groups[2].Value.Trim().Trim('\'', '"').Length > 0) sw["Silent"] = "1";
+                        continue;
+                    }
+                    sw = null;
+                }
                 if (indent == 0 && t[0] != '-')
                 {
                     cur = null; inList = false;
                     if (KeyRe.Match(t) is { Success: true } m)
                     {
                         if (m.Groups[1].Value == "Installers") { inList = true; itemIndent = -1; }
+                        else if (m.Groups[1].Value == "InstallerSwitches") { sw = root; swIndent = 0; }
                         else Put(root, m);
                     }
                     continue;
@@ -106,16 +132,18 @@ namespace CatalogWatch
                     cur = new Dictionary<string, string>(StringComparer.Ordinal);
                     items.Add(cur);
                     t = t.Substring(1).TrimStart(' ');
-                    if (KeyRe.Match(t) is { Success: true } m0) Put(cur, m0);
+                    if (KeyRe.Match(t) is { Success: true } m0) { if (m0.Groups[1].Value == "InstallerSwitches") { sw = cur; swIndent = itemIndent + 2; } else Put(cur, m0); }
                     continue;
                 }
-                if (cur != null && indent == itemIndent + 2 && t[0] != '-' && KeyRe.Match(t) is { Success: true } m1) Put(cur, m1);
+                if (cur != null && indent == itemIndent + 2 && t[0] != '-' && KeyRe.Match(t) is { Success: true } m1)
+                { if (m1.Groups[1].Value == "InstallerSwitches") { sw = cur; swIndent = indent; } else Put(cur, m1); }
             }
             string Get(Dictionary<string, string> d, string k) => d.TryGetValue(k, out var v) ? v : root.TryGetValue(k, out var r) ? r : "";
             return items.Select(d => new ManifestInstaller
             {
                 Arch = Get(d, "Architecture").ToLowerInvariant(), Type = Get(d, "InstallerType").ToLowerInvariant(), Url = Get(d, "InstallerUrl"),
                 Sha256 = Get(d, "InstallerSha256").ToLowerInvariant(), Scope = Get(d, "Scope").ToLowerInvariant(), Locale = Get(d, "InstallerLocale"),
+                Silent = Get(d, "Silent").Length > 0,
             }).ToList();
         }
 
@@ -161,6 +189,20 @@ namespace CatalogWatch
             return pick;
         }
 
+        /// <summary>
+        /// Kiểm cài im lặng: các installer winget sẽ chọn cho arch này (trùng arch, không có thì neutral; bản neutral = mọi installer)
+        /// đều là exe => "exe" (có Silent/SilentWithProgress) hoặc "exe_no_switch" (thiếu ở ít nhất một file); còn lại "ok".
+        /// shortcut: inno/nullsoft "không chuẩn" (thật ra là exe tự viết) không nhận ra được từ manifest, cần chạy thử installer mới biết.
+        /// </summary>
+        public static string SilentCheck(List<ManifestInstaller> all, CpuArch arch)
+        {
+            string want = arch is CpuArch.X64 or CpuArch.X86 or CpuArch.Arm64 ? ArchName(arch) : "";
+            var c = want.Length == 0 ? all : all.Where(i => i.Arch == want).ToList();
+            if (c.Count == 0) c = all.Where(i => i.Arch is "neutral" or "").ToList();
+            if (c.Count == 0 || c.Any(i => i.Type != "exe")) return "ok";
+            return c.All(i => i.Silent) ? "exe" : "exe_no_switch";
+        }
+
         /// <summary>Tự kiểm khi chạy (dự án test không tham chiếu tool). Trả danh sách mục hỏng (tiếng Việt); rỗng = đạt.</summary>
         public static List<string> SelfTest()
         {
@@ -183,6 +225,15 @@ namespace CatalogWatch
             Check(Choose(new List<ManifestInstaller> { new() { Arch = "x64", Type = "msix", Url = "https://h/a", Sha256 = new string('c', 64) } }, CpuArch.X64, out var r2) == null && r2.Contains("msix"),
                   "chọn installer: loại msix phải bỏ qua");
             Check(Choose(p, CpuArch.Arm64, out var r3) == null && r3.Contains("arm64"), "chọn installer: không có file arm64 phải bỏ qua");
+            Check(p[0].Silent && !p[1].Silent, "đọc manifest: InstallerSwitches.Silent của từng installer");
+            Check(SilentCheck(p, CpuArch.X64) == "ok" && SilentCheck(p, CpuArch.X86) == "ok", "kiểm im lặng: nullsoft / msi là ok");
+            var e = Parse("InstallerType: exe\nInstallerSwitches:\n  SilentWithProgress: '/quiet'\nInstallers:\n- Architecture: x64\n  InstallerUrl: https://h/a.exe\n" +
+                          "- Architecture: x86\n  InstallerUrl: https://h/b.exe\n  InstallerSwitches:\n    Custom: /x\nManifestType: installer\n");
+            Check(e.Count == 2 && e.All(i => i.Type == "exe" && i.Silent), "đọc manifest: InstallerSwitches ở gốc tệp phải áp cho từng installer");
+            Check(SilentCheck(e, CpuArch.X64) == "exe", "kiểm im lặng: exe có SilentWithProgress phải ra exe");
+            var n = Parse("InstallerType: exe\nInstallers:\n- Architecture: x64\n  InstallerUrl: https://h/a.exe\n  InstallerSwitches:\n    Silent: ''\n    Custom: /S\n- Architecture: x86\n  InstallerType: msi\n  InstallerUrl: https://h/b.msi\n");
+            Check(n.Count == 2 && SilentCheck(n, CpuArch.X64) == "exe_no_switch", "kiểm im lặng: exe thiếu Silent phải ra exe_no_switch");
+            Check(SilentCheck(n, CpuArch.Neutral) == "ok", "kiểm im lặng: bản neutral còn file msi là ok");
             return bad;
         }
     }
@@ -226,7 +277,9 @@ namespace CatalogWatch
             var keys = targets.Select(t => PinLogic.Key(t.ManifestId, t.Version, t.Arch)).ToHashSet(StringComparer.Ordinal);
             var entries = new ConcurrentDictionary<string, PinEntry>((state.Entries ?? new()).Where(e => e?.Key != null && keys.Contains(e.Key)).GroupBy(e => e.Key).ToDictionary(g => g.Key, g => g.First()), StringComparer.Ordinal);
 
-            bool Due(ProbeTargetKey t) => !entries.TryGetValue(t.Key, out var e) || e.Status != "pinned" && now - e.CheckedUtc >= RetrySkipped;
+            // bản bỏ qua từ trước khi có silent_check: kiểm lại ngay (chủ yếu chỉ tải manifest), trừ khi manifest mất / lỗi
+            bool Due(ProbeTargetKey t) => !entries.TryGetValue(t.Key, out var e) || e.Status != "pinned"
+                && (now - e.CheckedUtc >= RetrySkipped || e.SilentCheck == null && !(e.Reason ?? "").StartsWith("winget manifest", StringComparison.Ordinal));
             var todo = targets.Select(t => new ProbeTargetKey(PinLogic.Key(t.ManifestId, t.Version, t.Arch), t)).Where(Due)
                 .OrderBy(x => x.T.Featured ? 0 : 1).ThenBy(x => x.Key, StringComparer.Ordinal).Take(maxManifests).ToList();
 
@@ -241,9 +294,10 @@ namespace CatalogWatch
                 await Parallel.ForEachAsync(todo, new ParallelOptions { MaxDegreeOfParallelism = 4 }, async (x, ct) =>
                 {
                     var t = x.T;
+                    string silent = null;
                     void Skip(string why)
                     {
-                        entries[x.Key] = new PinEntry { Key = x.Key, Status = "skipped", Reason = why, Id = t.ManifestId, Version = t.Version, Arch = PinLogic.ArchName(t.Arch), CheckedUtc = now };
+                        entries[x.Key] = new PinEntry { Key = x.Key, Status = "skipped", Reason = why, Id = t.ManifestId, Version = t.Version, Arch = PinLogic.ArchName(t.Arch), CheckedUtc = now, SilentCheck = silent };
                         Interlocked.Increment(ref skipped);
                         string bucket = why.StartsWith("authenticode", StringComparison.Ordinal) ? why.Split(':')[0] : Regex.Replace(why, @"\(.*\)|'[^']*'|\b\d+\b", "…");
                         reasons.AddOrUpdate(bucket, 1, (_, n) => n + 1);
@@ -253,7 +307,9 @@ namespace CatalogWatch
 
                     var m = await FetchAsync(http, LinkProbeLogic.WingetManifestUrl(t.ManifestId, t.Version), null, LinkProbeLogic.MaxManifestBytes, TimeSpan.FromSeconds(Math.Max(timeoutSec, 30)), ct);
                     if (!m.Ok) { if (m.Transient) Later("manifest " + m.Error); else Skip(m.Error == "HTTP 404" ? "winget manifest missing" : "winget manifest " + m.Error); return; }
-                    var pick = PinLogic.Choose(PinLogic.Parse(m.Text), t.Arch, out string why);
+                    var parsed = PinLogic.Parse(m.Text);
+                    silent = PinLogic.SilentCheck(parsed, t.Arch);
+                    var pick = PinLogic.Choose(parsed, t.Arch, out string why);
                     if (pick == null) { Skip(why); return; }
 
                     lock (gate)
@@ -275,7 +331,7 @@ namespace CatalogWatch
                         {
                             Key = x.Key, Status = "pinned", Id = t.ManifestId, Version = t.Version, Arch = PinLogic.ArchName(t.Arch),
                             InstallerType = pick.Type, InstallerArch = pick.Arch, Url = pick.Url, Sha256 = d.Sha256, Size = d.Size,
-                            SignerSubject = sig.Subject, SignerThumbprint = sig.Thumbprint, AllowedHosts = d.Hosts, CheckedUtc = now,
+                            SignerSubject = sig.Subject, SignerThumbprint = sig.Thumbprint, AllowedHosts = d.Hosts, CheckedUtc = now, SilentCheck = silent,
                         };
                         Interlocked.Increment(ref pinned);
                         Console.WriteLine($"{x.Key}  =>  pinned {pick.Type} {d.Size / 1048576.0:0.0} MB [{string.Join(",", d.Hosts)}] {sig.Subject}");
@@ -316,6 +372,26 @@ namespace CatalogWatch
         }
 
         sealed record ProbeTargetKey(string Key, ProbeTarget T);
+
+        /// <summary>Danh sách "silent_missing" cho status.json từ state/pins.json (job ghim ghi). null = chưa có / không đọc được (giữ giá trị cũ).</summary>
+        public static List<SilentMissing> SilentMissingList(string statePath, SoftwareCatalog catalog)
+        {
+            PinState st;
+            try { st = File.Exists(statePath) ? JsonSerializer.Deserialize<PinState>(File.ReadAllText(statePath)) : null; }
+            catch (Exception ex) when (ex is JsonException || ex is IOException) { return null; }
+            if (st?.Entries == null) return null;
+            var byKey = LinkProbeLogic.Targets(catalog).Where(t => t.IsWinget)
+                .GroupBy(t => PinLogic.Key(t.ManifestId, t.Version, t.Arch)).ToDictionary(g => g.Key, g => g.First(), StringComparer.Ordinal);
+            return st.Entries.Where(e => e?.Key != null && e.SilentCheck is "exe" or "exe_no_switch" && byKey.ContainsKey(e.Key))
+                .Select(e => (e, t: byKey[e.Key]))
+                .GroupBy(x => x.t.Slug + "|" + x.t.WingetId + "|" + x.t.Version, StringComparer.OrdinalIgnoreCase)   // nhiều arch cùng phiên bản = 1 dòng
+                .Select(g => new SilentMissing
+                {
+                    Slug = g.First().t.Slug, WingetId = g.First().t.WingetId.Length > 0 ? g.First().t.WingetId : g.First().e.Id, Version = g.First().t.Version,
+                    InstallerType = "exe", SilentSwitch = g.All(x => x.e.SilentCheck == "exe"),
+                })
+                .OrderBy(s => s.SilentSwitch).ThenBy(s => s.Slug, StringComparer.Ordinal).ThenBy(s => s.Version, StringComparer.Ordinal).ToList();
+        }
 
         /// <summary>GET theo redirect (tự kiểm từng hop: https, không userinfo; IP nội bộ bị chặn ở ConnectCallback). file = null => đọc chữ vào bộ nhớ.</summary>
         static async Task<Fetch> FetchAsync(HttpMessageInvoker http, string url, string file, long max, TimeSpan timeout, CancellationToken ct)

@@ -51,6 +51,8 @@ namespace CatalogWatch
         [JsonPropertyName("error")] public string Error { get; set; } = "";
         [JsonPropertyName("pages")] public PagesStatus Pages { get; set; } = new();
         [JsonPropertyName("last_probe")] public ProbeSummary LastProbe { get; set; }
+        /// <summary>Bản WINGET chỉ có installer exe (lấy từ state/pins.json của job ghim). Thiếu khoá = job ghim chưa có dữ liệu.</summary>
+        [JsonPropertyName("silent_missing"), JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)] public List<SilentMissing> SilentMissing { get; set; }
     }
 
     sealed class PagesStatus
@@ -124,6 +126,7 @@ namespace CatalogWatch
             var status = new WatchStatus { ToolVersion = ToolVersion, CheckedUtc = now };
             var prevStatus = ReadJson<WatchStatus>(statusPath);
             status.LastProbe = prevStatus?.LastProbe;
+            status.SilentMissing = prevStatus?.SilentMissing;
 
             using var handler = SafeHandler(TimeSpan.FromSeconds(timeoutSec));
             using var http = new HttpMessageInvoker(handler);
@@ -164,6 +167,8 @@ namespace CatalogWatch
             if (!trust.Ok) return Fail(statusPath, status, 2, $"catalog rejected ({trust.Error}: {trust.Detail})");
             var catalog = trust.Catalog;
             status.CatalogRevision = catalog.Revision;
+            status.SilentMissing = Pins.SilentMissingList(a.Get("pin-state", "state/pins.json"), catalog) ?? status.SilentMissing;
+            bool silentChanged = JsonSerializer.Serialize(status.SilentMissing) != JsonSerializer.Serialize(prevStatus?.SilentMissing);   // job ghim vừa cập nhật => ghi status dù chưa tới hạn dò
 
             // 1a) Bước ghim installer winget (job riêng, runner Windows): không đồng bộ public/, không dò link, không đụng state.json / status.json
             if (a.Has("pin")) return cfg.Enabled ? await Pins.RunAsync(a, catalog, http, timeoutSec) : 0;
@@ -180,13 +185,13 @@ namespace CatalogWatch
             if (!cfg.Enabled)
             {
                 Console.WriteLine("Bot đang tắt trong web admin (enabled=false).");
-                if (prevStatus?.Enabled != false || pagesChanged) WriteStatus(statusPath, status);
+                if (prevStatus?.Enabled != false || pagesChanged || silentChanged) WriteStatus(statusPath, status);
                 return 0;
             }
             if (!cfg.IsDue(state.LastProbeUtc, now, a.Has("force")))
             {
                 Console.WriteLine($"Chưa tới hạn dò (lượt trước {state.LastProbeUtc:u}, mỗi {cfg.IntervalHours} giờ).");
-                if (pagesChanged) WriteStatus(statusPath, status);
+                if (pagesChanged || silentChanged) WriteStatus(statusPath, status);
                 return 0;
             }
 
