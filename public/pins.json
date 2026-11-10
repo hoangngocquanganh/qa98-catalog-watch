@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-10T10:42:13.2283092Z",
-  "catalog_revision": 30,
-  "count": 30,
+  "generated_at": "2026-11-10T10:47:18.4487002Z",
+  "catalog_revision": 31,
+  "count": 58,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -402,6 +402,451 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "Bambulab.Bambustudio",
+      "version": "02.09.01.70",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/bambulab/BambuStudio/releases/download/v02.09.01.70/Bambu_Studio_win-v02.09.01.70-20261103183404.exe",
+      "sha256": "63f0362a1a8af079f6bb07fd61a2f1d11911de40f68be4f71644aefb99327a80",
+      "size": 456458448,
+      "signer_subject": "CN=\"Shanghai Lunkuo Technology Co., Ltd\", O=\"Shanghai Lunkuo Technology Co., Ltd\", L=Shanghai, S=Shanghai, C=CN, OID.1.3.6.1.4.1.311.60.2.1.2=Shanghai, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91310120MA1J0TKL4G, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "3DCA1E74C49CDCD6B6F551500F6F7667AF28D8DB",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "BandicamCompany.Bandicam",
+      "version": "27.0.7.2687",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://dl.bandicam.com/bdcamsetup.exe",
+      "sha256": "c9fab702f00dc71bfd07c54bf04e8135423479d17be51a78b53cbcdd95cf8133",
+      "size": 63419688,
+      "signer_subject": "CN=Bandicam Company Corp., O=Bandicam Company Corp., L=Yeongdeungpo-gu, S=Seoul, C=KR",
+      "signer_thumbprint": "4C9A36E4C783A85AB328F87F3B238062B4B9835A",
+      "allowed_hosts": [
+        "dl.bandicam.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Beeper.Beeper",
+      "version": "4.3.284",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.284.exe",
+      "sha256": "baad489f34e1d7d50e36effdb4846ab0704cb77c119e267c190807e2780d01c0",
+      "size": 236194464,
+      "signer_subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "82577BE252D7C8C821BF8FE56A97FDB17BE4587D",
+      "allowed_hosts": [
+        "beeper-desktop.download.beeper.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "BelledonneCommunications.Linphone",
+      "version": "6.2.4",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.linphone.org/releases/windows/app/Linphone-6.2.4-win64.exe",
+      "sha256": "5b275f52f52e22b2180ad33c0f9b46cbc01c87fbd5afc072ef72d16895f15d54",
+      "size": 111872264,
+      "signer_subject": "CN=Belledonne Communications, O=Belledonne Communications, STREET=3 AVENUE MARIE REYNOARD, PostalCode=38100, L=Grenoble, S=Auvergne-Rhone-Alpes, C=FR, SERIALNUMBER=520318437, OID.1.3.6.1.4.1.311.60.2.1.1=Grenoble, OID.1.3.6.1.4.1.311.60.2.1.2=Auvergne-Rhône-Alpes, OID.1.3.6.1.4.1.311.60.2.1.3=FR, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "62259AA5866061168F1531378CF333E1C77FC5BC",
+      "allowed_hosts": [
+        "download.linphone.org"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Bethesda.Launcher",
+      "version": "1.84.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe",
+      "sha256": "8b7b414f940150ebdc004ed7950ed801e99d3d369b5c832ca429952e6cb74173",
+      "size": 8536848,
+      "signer_subject": "CN=Zenimax Media Inc., OU=Zenimax Online Studios, O=Zenimax Media Inc., L=Rockville, S=Maryland, C=US",
+      "signer_thumbprint": "EC508EE76E32F115F54815370DC1F70A353D4FAE",
+      "allowed_hosts": [
+        "download.cdp.bethesda.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Betterbird.Betterbird",
+      "version": "153.6.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.en-US.win64.installer.exe",
+      "sha256": "adb0b6ab0f553f35beb8ff879d37c1a8859879b50bbae46f875f3d27863f17e8",
+      "size": 86207728,
+      "signer_subject": "CN=\"Open Source Developer, Jorg Knobloch\", O=Open Source Developer, L=Berlin, S=Berlin, C=DE",
+      "signer_thumbprint": "C39501225A337C86F91E3BA7911ACB06FF48ACF3",
+      "allowed_hosts": [
+        "www.betterbird.eu"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "BleachBit.BleachBit",
+      "version": "6.0.6.633",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download.bleachbit.org/BleachBit-6.0.6-setup.exe",
+      "sha256": "a8d27535cdc53e89c21090eabca6026d32c4d385863f8dfc6fc8814bda7881c4",
+      "size": 15140856,
+      "signer_subject": "CN=\"Open Source Developer, Andrew Ziem\", O=Open Source Developer, L=Colorado Springs, S=Colorado, C=US",
+      "signer_thumbprint": "B5021E62D407201F5D2FFF256CB4145FED038B44",
+      "allowed_hosts": [
+        "download.bleachbit.org"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Box.Box",
+      "version": "2.55.145",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x64",
+      "url": "https://e3.boxcdn.net/desktop/releases/win/BoxDrive.msi",
+      "sha256": "4142e0771eac413fc26317976d6fc3ca9e77a6b71bfa61495f8ff2e2a4ca29cb",
+      "size": 80367104,
+      "signer_subject": "CN=\"Box, Inc.\", O=\"Box, Inc.\", L=Redwood City, S=California, C=US",
+      "signer_thumbprint": "4CD7810F0FE498C2CBE79EC860A31F0C6889BBAE",
+      "allowed_hosts": [
+        "e3.boxcdn.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "calibre.calibre",
+      "version": "9.18.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.calibre-ebook.com/9.18.0/calibre-64bit-9.18.0.msi",
+      "sha256": "05c0f2223866f8082e05b2d4bc9c57b31a833de8355a1191fd79c260c2636d38",
+      "size": 291291136,
+      "signer_subject": "CN=Kovid Goyal, O=Kovid Goyal, L=Mumbai, S=Maharashtra, C=IN",
+      "signer_thumbprint": "980637D5ACC6319BEAE773CAC5291EDC3E84DC8E",
+      "allowed_hosts": [
+        "download.calibre-ebook.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Canva.Canva",
+      "version": "1.128.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://desktop-release.canva.com/Canva%20Setup%201.128.0.exe",
+      "sha256": "3022ca4ccb1419a98bac7d5e02aebaf71d41b83e4ebe73382086a967f282f02c",
+      "size": 122444888,
+      "signer_subject": "CN=Canva, O=Canva, S=New South Wales, C=AU",
+      "signer_thumbprint": "6D70BC603360F0EB3F13B577AE63FD43AC35B446",
+      "allowed_hosts": [
+        "desktop-release.canva.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Caphyon.AdvancedInstaller",
+      "version": "24.1",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x86",
+      "url": "https://storage.advancedupdater.cloud/downloads/24.1/advinst.msi",
+      "sha256": "139a97ae4b7c72566c3746bb5763a36f0c198670b80601b3b939412940c06cf5",
+      "size": 311607296,
+      "signer_subject": "CN=Caphyon SRL, O=Caphyon SRL, L=Craiova, S=Dolj, C=RO",
+      "signer_thumbprint": "EADC59E44AB5D7C0399CB922A109827B7F004DAA",
+      "allowed_hosts": [
+        "storage.advancedupdater.cloud"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "chrisant996.Clink",
+      "version": "1.9.36",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://github.com/chrisant996/clink/releases/download/v1.9.36/clink.1.9.36.af9152_setup.exe",
+      "sha256": "4c0da99518b9d0ca22da03d65c6c2f2ba09849bb85a5967fa1ddb9595acc1e71",
+      "size": 2868952,
+      "signer_subject": "CN=Open Source Developer Christopher Antos, O=Open Source Developer, L=Issaquah, S=Washington, C=US",
+      "signer_thumbprint": "8E430A0E72FD673912C99F22DDA9FBD3A3D4BBA4",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Clockify.Clockify",
+      "version": "2.4.3",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x64",
+      "url": "https://clockify.me/downloads/clockify-setup.msi",
+      "sha256": "11ae082dcba8ec5eadadf925f95782eea62ee135147539637bbe9fcd048912fb",
+      "size": 130908160,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.2.5.4.15=Private Organization, CN=Cake.com Inc., SERIALNUMBER=7501038, O=Cake.com Inc., L=Palo Alto, S=California, C=US",
+      "signer_thumbprint": "07AB59AD4AF0A010AD74CE6D675593098BCAE3E7",
+      "allowed_hosts": [
+        "clockify.me"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Cloudflare.Warp",
+      "version": "26.8.2115.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://downloads.cloudflareclient.com/v1/download/windows/version/2026.8.2115.0",
+      "sha256": "ab3138dbebdf132af076b5ebcb25b42345d29258acb76267c3bd1f8cfea57a53",
+      "size": 60104704,
+      "signer_subject": "CN=\"Cloudflare, Inc.\", O=\"Cloudflare, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=4710875, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "0B6C68C4BAD79F9AC39E07FE84223FB796D4D0BC",
+      "allowed_hosts": [
+        "downloads.cloudflareclient.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CNRISTI.MeshLab",
+      "version": "2025.07",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/cnr-isti-vclab/meshlab/releases/download/MeshLab-2025.07/MeshLab2025.07-windows_x86_64.exe",
+      "sha256": "3465998cb2dbded0dd9336367bdb9d2ba9e68230c9f188e55e03c274937e70ee",
+      "size": 77021784,
+      "signer_subject": "CN=\"Open Source Developer, Paolo Cignoni\", O=Open Source Developer, S=Livorno, C=IT",
+      "signer_thumbprint": "BDE5812478368ECA7365C58C37961BBBC44554D0",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Corel.WinZip",
+      "version": "29.0.16416",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x64",
+      "url": "https://download.winzip.com/winzip290-64.msi",
+      "sha256": "9cace8d99ffa8b467fe23b2b083cd6d155c9f8021c07495da6d0477e31cd21f1",
+      "size": 84130304,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=British Columbia, OID.2.5.4.15=Private Organization, CN=COREL CORPORATION, SERIALNUMBER=101151819, O=Alludo (COREL CORPORATION), L=Ottawa, S=Ontario, C=CA",
+      "signer_thumbprint": "8D0B755FF4A6007E42070CB30362F9C3718251D3",
+      "allowed_hosts": [
+        "download.winzip.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CoreyButler.NVMforWindows",
+      "version": "1.2.2",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe",
+      "sha256": "2d5ad523aa6182205da77c0eb8210638aaa8792f4e6a4bc12e1ac854c5455a68",
+      "size": 5612296,
+      "signer_subject": "CN=Author Software Inc., O=Author Software Inc., L=Austin, S=Texas, C=US",
+      "signer_thumbprint": "E97841D44C4D4EA4EA86E2E5856E01EF999D538F",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CPUID.CPU-Z.ROG",
+      "version": "3.01.3",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.cpuid.com/cpu-z/cpu-z_3.01.3-rog-en.exe",
+      "sha256": "d3e26dc2238d1e3500ae5e9bd137cdce747314e8d3ed4ce7a282c73484d21f88",
+      "size": 3420984,
+      "signer_subject": "CN=CPUID, O=CPUID, S=Nord, C=FR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=493 590 202 00047",
+      "signer_thumbprint": "E97BB2A8E06B8E255755B8DE94158A663F94729F",
+      "allowed_hosts": [
+        "download.cpuid.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CPUID.HWMonitor",
+      "version": "1.68",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.cpuid.com/hwmonitor/hwmonitor_1.68.exe",
+      "sha256": "fae15460133a648caca1a63fd809ef0b042cf82daf73c239fa5ac7b062cb2b16",
+      "size": 3648736,
+      "signer_subject": "CN=CPUID, O=CPUID, S=Nord, C=FR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=493 590 202 00047",
+      "signer_thumbprint": "E97BB2A8E06B8E255755B8DE94158A663F94729F",
+      "allowed_hosts": [
+        "download.cpuid.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Cryptomator.Cryptomator",
+      "version": "1.19.6",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/cryptomator/cryptomator/releases/download/1.19.6/Cryptomator-1.19.6-x64.msi",
+      "sha256": "ad416a6dff6ad969c2c346a9050b650e49fe5da9ac30c948148ae6b8412ebbce",
+      "size": 53243904,
+      "signer_subject": "CN=Skymatic GmbH, O=Skymatic GmbH, L=Bonn, C=DE",
+      "signer_thumbprint": "C0F1E9D2FEAED456C8DB138E1753CD7ADD1CB484",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CrystalDewWorld.CrystalDiskInfo.ShizukuEdition",
+      "version": "9.9.4",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4Shizuku.exe/download",
+      "sha256": "6917bdb02f1f9a41a2efa3df8e230759baf49ced739af2762c668ba6a82a611c",
+      "size": 255373536,
+      "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "cfhcable.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CrystalDewWorld.CrystalDiskInfo",
+      "version": "9.9.4",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4.exe/download",
+      "sha256": "248d99fc43041e6c9c486beaae3e38e7fb864d8787b31f24d7634e0032952333",
+      "size": 6216032,
+      "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "cfhcable.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CrystalDewWorld.CrystalDiskMark",
+      "version": "9.0.3",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/crystaldiskmark/files/9.0.3/CrystalDiskMark9_0_3.exe",
+      "sha256": "1a255154e116a533f86535bc362f101e32d6171604cde9b6b554335856917e5e",
+      "size": 4523144,
+      "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "psychz.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "CrystalRich.LockHunter",
+      "version": "3.4.3.146",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://lockhunter.com/assets/exe/lockhuntersetup_3-4-3.exe",
+      "sha256": "2ba380c9a643caf04a17f41d22722595bc3b62bf1855d5de04816f1d1c2dbea9",
+      "size": 3376672,
+      "signer_subject": "E=support@crystalrich.com, CN=Crystal Rich Ltd, O=Crystal Rich Ltd, L=Saint Petersburg, S=Saint Petersburg, C=RU",
+      "signer_thumbprint": "2FB527E58010D9A360123CA056F475940D0E6808",
+      "allowed_hosts": [
+        "lockhunter.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Dashlane.Dashlane",
+      "version": "6.2148.0.52031",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://d3qm0vl2sdkrc.cloudfront.net/releases/6.2148.0/6.2148.0.52031/release/DashlaneInst.exe",
+      "sha256": "c4c748e72aa7d52d97ed88b647a1c6eb6cac84cc6f96e59f5d7d617230df7b39",
+      "size": 825096,
+      "signer_subject": "CN=\"Dashlane USA, Inc.\", O=\"Dashlane USA, Inc.\", L=New York, S=New York, C=US",
+      "signer_thumbprint": "4DFD6E98A4395857D6C8EE8BEFEAE3E7FE3EFF82",
+      "allowed_hosts": [
+        "d3qm0vl2sdkrc.cloudfront.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "DaxStudio.DaxStudio",
+      "version": "3.6.2",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/DaxStudio/DaxStudio/releases/download/v3.6.2/DaxStudio_3_6_2_setup.exe",
+      "sha256": "31c266bd592d5f2614445e1e40dbdb03960d2fe223b6bffc9ef7cfa55a994aa7",
+      "size": 21468496,
+      "signer_subject": "E=marco@sqlbi.com, CN=SQLBI CORP., O=SQLBI CORP., L=Las Vegas, S=Nevada, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Nevada, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=E0003712014-8, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "C62263DC3BD0B01291FE852F3D4D04994B845286",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Deezer.Deezer",
+      "version": "8.0.10",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.deezer.com/desktop/update/artifact-win32-x86-8.0.10",
+      "sha256": "21215c49c3b7a3720fc8dad523cb6a384f2432fa5436e4399db8478e774dd96b",
+      "size": 85293224,
+      "signer_subject": "CN=Deezer SA, OU=Engineering, O=Deezer SA, L=PARIS, C=FR",
+      "signer_thumbprint": "4088CA993E415C65033CC562862CBF3FC38B6B6A",
+      "allowed_hosts": [
+        "www.deezer.com",
+        "cdn-content.dzcdn.net"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
       "id": "Microsoft.VCRedist.2012.x64",
       "version": "11.0.61030.0",
       "arch": "neutral",
@@ -496,6 +941,22 @@
         "download.visualstudio.microsoft.com"
       ],
       "checked_at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "id": "VNGCorp.Zalo",
+      "version": "26.11.11",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://res-zaloapp-aka-jpt.zdn.vn/win/ZaloSetup-26.11.11.exe",
+      "sha256": "65ccc7667d2da32a8eaea8cb26b793573455bed9e61e893cf699a52236831c9f",
+      "size": 213369544,
+      "signer_subject": "CN=VNG GROUP JSC, O=VNG GROUP JSC, S=Ho Chi Minh City, C=VN, SERIALNUMBER=0303490096, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ho Chi Minh City, OID.1.3.6.1.4.1.311.60.2.1.3=VN",
+      "signer_thumbprint": "6C794B914539D093D0E656BAB75F6723A3DD0CCA",
+      "allowed_hosts": [
+        "res-zaloapp-aka-jpt.zdn.vn"
+      ],
+      "checked_at": "2026-11-10T10:47:18.4487002Z"
     }
   ]
 }
