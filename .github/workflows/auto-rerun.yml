@@ -1,0 +1,37 @@
+# Tự chạy lại (1 lần) các job lỗi của 2 workflow bot. Lỗi tạm (mạng, GitHub chậm, git push đụng nhau) thường tự hết ở lần 2.
+# Không cần secret: GITHUB_TOKEN với quyền actions: write. Chỉ chạy lại khi lượt gốc là lần đầu (run_attempt < 2) => không lặp vô hạn.
+# Vẫn lỗi ở lần 2 => giữ đỏ; server QA98 (software_health) báo lỗi bằng email tiếng Việt.
+
+name: Tự chạy lại khi lỗi
+
+on:
+  workflow_run:
+    workflows: ["Dò link bộ cài (catalog-watch)", "Ghim bộ cài (catalog-pin)"]
+    types: [completed]
+
+permissions:
+  actions: write
+
+jobs:
+  rerun:
+    name: Chạy lại job lỗi (1 lần)
+    if: github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.run_attempt < 2
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Chạy lại các job lỗi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_NAME: ${{ github.event.workflow_run.name }}
+        run: |
+          sleep 60   # chờ lỗi tạm qua đi
+          for i in 1 2 3; do
+            if gh run rerun "$RUN_ID" --failed; then
+              echo "::notice title=Đã tự chạy lại::Lượt \"$RUN_NAME\" (#$RUN_ID) bị lỗi, đã tự chạy lại các job lỗi. Kết quả xem ở lượt chạy lần 2 của workflow đó."
+              exit 0
+            fi
+            sleep $((i*20))
+          done
+          echo "::error title=Không tự chạy lại được::Không chạy lại được lượt \"$RUN_NAME\" (#$RUN_ID) sau 3 lần thử. Mở tab Actions để chạy lại tay."; exit 1

@@ -40,7 +40,13 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Dựng bot
-        run: dotnet build tool/CatalogWatch.csproj -c Release -o out
+        # tải gói NuGet có thể lỗi mạng tạm => thử lại tối đa 3 lần, giãn 20 s / 40 s
+        run: |
+          for i in 1 2 3; do
+            dotnet build tool/CatalogWatch.csproj -c Release -o out && exit 0
+            [ $i -lt 3 ] && { echo "::warning title=Dựng bot lỗi, thử lại::Lần $i lỗi (thường do tải gói NuGet), thử lại sau $((i*20)) giây."; sleep $((i*20)); }
+          done
+          echo "::error title=Không dựng được bot::Dựng bot lỗi 3 lần liền. Workflow \"Tự chạy lại khi lỗi\" sẽ chạy lại 1 lần; vẫn lỗi thì xem log bước này."; exit 1
 
       - name: Ghim bộ cài (tải, băm, đọc chữ ký)
         # catalog kiểm chữ ký như catalog-watch (sai => mã 2, không ghi pins); status.json của catalog-watch không bị đụng
@@ -53,5 +59,6 @@ jobs:
           git add -A -- state/pins.json public/pins.json
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "chore: catalog-pin $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 10; done
+          # job kia cũng đẩy lên main (tệp khác) => rebase rồi đẩy; thử lại tối đa 3 lần, giãn 10 / 20 s
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; [ $i -lt 3 ] && sleep $((i*10)); done
           echo "::error title=Không đẩy được kết quả lên repo::Bot chạy xong nhưng git push thất bại 3 lần (có thể job khác vừa đẩy). Lượt sau sẽ làm lại, không cần làm gì nếu chỉ thỉnh thoảng."; exit 1
