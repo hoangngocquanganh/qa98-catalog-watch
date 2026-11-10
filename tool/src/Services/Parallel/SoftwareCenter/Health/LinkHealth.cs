@@ -194,7 +194,11 @@ namespace SysInfoWpf.Services.SoftwareCenter.Health
     /// </summary>
     public static class AvailabilityKeys
     {
-        public static readonly string[] PublicKeyPems = { };
+        public static readonly string[] PublicKeyPems =
+        {
+            // kid 1b6d1f4efe906eec - khoá vận hành trên server QA98 (data/keys/software_availability_ops_private.pem), tạo 10/11/2026
+            "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4Kwxffld1pD1Ho+UP+i9NJM56Xcj\nJX4rPzyETqiYSaoJ3H8VWYfnMVi2/fzNEnEuKyFa1TN2e8MRS12H5BKiHg==\n-----END PUBLIC KEY-----",
+        };
     }
 
     /// <summary>Một mục tạm ẩn = khoá biến thể của ĐÚNG một artifact đã duyệt (winget_id / slug + version + sha256 nếu có).</summary>

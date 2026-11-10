@@ -62,7 +62,8 @@ namespace SysInfoWpf.Services.SoftwareCenter.Trust
             var list = new List<CatalogSource>();
             string b = (pagesBaseUrl ?? "").Trim().TrimEnd('/');
             if (SoftwareCatalogParser.IsHttps(b + "/"))
-                list.Add(new CatalogSource { Name = "pages", CatalogUrl = b + "/catalog.json", FreshnessUrl = b + "/freshness.json" });
+                // Server chưa phát freshness (cPanel rỗng) => Pages cũng chế độ chuyển tiếp, không đòi freshness.json (bot chỉ chép khi server có).
+                list.Add(new CatalogSource { Name = "pages", CatalogUrl = b + "/catalog.json", FreshnessUrl = SoftwareCatalogParser.IsHttps(cpanelFreshnessUrl) ? b + "/freshness.json" : "" });
             if (SoftwareCatalogParser.IsHttps(cpanelCatalogUrl))
                 list.Add(new CatalogSource { Name = "cpanel", CatalogUrl = cpanelCatalogUrl, FreshnessUrl = SoftwareCatalogParser.IsHttps(cpanelFreshnessUrl) ? cpanelFreshnessUrl : "" });
             return list;

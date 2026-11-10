@@ -465,7 +465,7 @@ namespace CatalogWatch
             var kinds = proposals.Items.GroupBy(i => i.Kind).OrderBy(g => g.Key, StringComparer.Ordinal).Select(g => $"{g.Key} {g.Count()}");
             sb.AppendLine("- Đề xuất (proposals.json, dữ liệu chưa tin cậy): " + string.Join(", ", kinds) + ".");
             sb.AppendLine();
-            sb.AppendLine("Ngưỡng: link chết / sai file ẩn sau 2 lượt lỗi liên tiếp cách nhau ≥ 6 giờ; lỗi tạm (timeout, 429, 5xx) ẩn sau ≥ 4 lượt và ≥ 24 giờ; đang ẩn cần 2 lượt đạt (có kiểm SHA-256) mới hiện lại.");
+            sb.AppendLine($"Ngưỡng: link chết / sai file ẩn sau {LinkHealthLogic.BrokenFailsToHide} lượt lỗi, mỗi lượt cách lượt trước ≥ {LinkHealthLogic.BrokenMinGap.TotalHours:0} giờ; lỗi tạm (timeout, 429, 5xx) không bao giờ ẩn; đang ẩn cần {LinkHealthLogic.OksToRestore} lượt đạt (có kiểm SHA-256) mới hiện lại.");
             sb.AppendLine();
 
             sb.AppendLine("## Thùng rác — chờ duyệt");
