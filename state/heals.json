@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-10T14:22:58.7160037Z",
+  "updated_at": "2026-11-10T14:33:02.7901733Z",
   "last_run": {
-    "at": "2026-11-10T14:22:58.7160037Z",
-    "seconds": 22,
-    "failing": 10,
+    "at": "2026-11-10T14:33:02.7901733Z",
+    "seconds": 28,
+    "failing": 18,
     "healed": 0,
-    "blocked": 10,
-    "downloads": 6,
-    "downloaded_mb": 341,
-    "harvested": 12,
-    "anchors": 113
+    "blocked": 18,
+    "downloads": 12,
+    "downloaded_mb": 566,
+    "harvested": 10,
+    "anchors": 149
   },
   "heals": [],
   "heal_blocked": [
@@ -66,7 +66,55 @@
       "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
       "slug": "emsisoft-emergencykit",
       "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 a2e86f0448279fca14c22a69f0c92dd03258baecdc322223b6880bd648e23d7a, 327.3 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 ea7ceba7532175b6caa93c1d53b999b4d538e0fdd79014612ef2e5448368248d, 326.5 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+    },
+    {
+      "vkey": "w:glarysoft.glaryutilities|6.49.0.53",
+      "slug": "glarysoft-glaryutilities",
+      "version": "6.49.0.53",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Glarysoft Ltd, O=Glarysoft Ltd, S=Beijing, C=CN, SERIALNUMBER=91110108680456115E, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Haidian District, OID.1.3.6.1.4.1.311.60.2.1.2=Beijing, OID.1.3.6.1.4.1.311.60.2.1.3=CN\" (SHA-256 cd4be96c6b95fff0cc85b476e06129b1194418f2f3466c6e403f13d2be036fb1, 27.2 MB); winget-pkgs chưa có bản mới hơn 6.49.0.53"
+    },
+    {
+      "vkey": "w:glasswire.glasswire|3.11.1164",
+      "slug": "glasswire-glasswire",
+      "version": "3.11.1164",
+      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): HTTP 403; winget-pkgs chưa có bản mới hơn 3.11.1164"
+    },
+    {
+      "vkey": "w:glenndelahoy.snappydriverinstallerorigin|2.0.6.889",
+      "slug": "glenndelahoy-snappydriverinstallerorigin",
+      "version": "2.0.6.889",
+      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:google.chrome.beta|158.0.8127.2",
+      "slug": "google-chrome-beta",
+      "version": "158.0.8127.2",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 4f23bff4feb6dbd42c907c200eb22ca8ef80e0dfd95c3035a390ba2a41c5dbd7, 169.7 MB); winget-pkgs chưa có bản mới hơn 158.0.8127.2"
+    },
+    {
+      "vkey": "w:google.cloudsdk|592.0.0",
+      "slug": "google-cloudsdk",
+      "version": "592.0.0",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 b4f156dafac3a316f625759570cba4e866abb0862faaa9b0db9f1ef69c4e5414, 0.3 MB); winget-pkgs chưa có bản mới hơn 592.0.0"
+    },
+    {
+      "vkey": "w:google.platformtools|37.0.2",
+      "slug": "google-platformtools",
+      "version": "37.0.2",
+      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:gpsoftware.directoryopus|13.25",
+      "slug": "gpsoftware-directoryopus",
+      "version": "13.25",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=GP Software (REDBROOK PTY. LTD.), O=GP Software (REDBROOK PTY. LTD.), L=Ashgrove, S=Queensland, C=AU\" (SHA-256 ef8905f9693c1e3a26b0ada42fd40ea845c047c0b48b794201c6489a3436e18d, 28.1 MB); winget-pkgs chưa có bản mới hơn 13.25"
+    },
+    {
+      "vkey": "w:guilded.guilded|latest",
+      "slug": "guilded-guilded",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
     },
     {
       "vkey": "w:lamquangminh.evkey|6.0.5",
@@ -137,6 +185,16 @@
       "at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "w:adobe.creativecloud",
+      "version": "6.11.0.478.6",
+      "sha256": "bf7e929294f116077806470c0b0cfb2be0c689db653d56b3d19c14ef878b485c",
+      "size": 3389984,
+      "subject": "CN=Adobe Inc., OU=AAM 256, O=Adobe Inc., L=San Jose, S=ca, C=US, SERIALNUMBER=2748129, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "D782F88F1BB6E0ADC3E9E98A0BADA643FD7F1E5D",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
       "id": "w:adrienallard.fileconverter",
       "version": "2.2",
       "sha256": "78bb9755b35a94e59a72f299b6b63b5da472deb5c2b03ce016e5fe9f116a3554",
@@ -157,6 +215,46 @@
       "at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "w:agalwood.motrix",
+      "version": "1.8.19",
+      "sha256": "eb8afbda006962da47bf99f5ecc2d73ae2d51f293965ae4ad637acbf55108645",
+      "size": 127763099,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
+      "id": "w:agilebits.1password",
+      "version": "8.12.42.36",
+      "sha256": "215bb0905cd8141fdd5ad157a570757bf5590d358b47a5a87dbce046f44fd409",
+      "size": 243922944,
+      "subject": "CN=Agilebits, O=Agilebits, L=Toronto, S=Ontario, C=CA",
+      "thumbprint": "E740F0286402B77268C1D54C0F39AB857F0FABDD",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
+      "id": "w:aivarannamaa.thonny",
+      "version": "5.0.1",
+      "sha256": "a2b04784cd2ee7d4c22ed46865de5e8ba6eaf55950543ef9546374f53cf778a5",
+      "size": 31109656,
+      "subject": "CN=Open Source Developer Aivar Annamaa, O=Open Source Developer, L=Tartu, S=Tartumaa, C=EE",
+      "thumbprint": "C6B30EA99439483373BE7974207BBF7524E5812D",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
+      "id": "w:alacritty.alacritty",
+      "version": "0.17.0",
+      "sha256": "acdb4d6e52bd23225497557fc19119ab1a2e6bf3439a7faf47ffe86804301132",
+      "size": 2396160,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
       "id": "w:alagrede.znote",
       "version": "4.10.0",
       "sha256": "532636192d6763a4bdb2b4691447361040d03f4004e846778c9cd30aa61fd2c1",
@@ -167,6 +265,36 @@
       "at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "w:alex313031.thorium.avx2",
+      "version": "156.0.8078.80",
+      "sha256": "bd57692a102a7958c16aeb94dab31751b100d451b7751785a2b45ff19c374275",
+      "size": 236757504,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
+      "id": "w:alexanderkojevnikov.spek",
+      "version": "0.8.5",
+      "sha256": "b869a697ea1a996505f628520a8a1fbabf200483928a806d5022dbbd89bc2121",
+      "size": 20316160,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
+      "id": "w:alexx2000.doublecommander",
+      "version": "1.2.11",
+      "sha256": "1e78d98898cbbc6355de40462cc800cf755ce90326d1b01094463e65ca3a33ee",
+      "size": 17277696,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
+    },
+    {
       "id": "w:amazon.awscli",
       "version": "2.39.7",
       "sha256": "469e6652b2b78ed1f96c760a005ca32d35e942b1dae33666d0f520d1a2cdffb2",
@@ -175,6 +303,16 @@
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "source": "pin",
       "at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "id": "w:amazon.corretto.11.jdk",
+      "version": "11.0.33.0",
+      "sha256": "bc45e70bee0c553ce47dd8987e93fc130eaa39fb00f5e40ede7d252aeda8a17e",
+      "size": 169824256,
+      "subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
     },
     {
       "id": "w:amazon.corretto.17.jdk",
@@ -205,6 +343,16 @@
       "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "source": "pin",
       "at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "id": "w:amazon.corretto.8.jdk",
+      "version": "1.8.0.512",
+      "sha256": "26c8e757404aff06370b427c59315b48bcc78d41377aec068c6e99709aede2d2",
+      "size": 98070528,
+      "subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
+      "source": "harvest",
+      "at": "2026-11-10T14:33:02.7901733Z"
     },
     {
       "id": "w:amazon.sam-cli",
@@ -1047,6 +1195,16 @@
       "at": "2026-11-10T14:21:52.6730199Z"
     },
     {
+      "id": "w:gog.galaxy",
+      "version": "2.1.10.56",
+      "sha256": "ec1ef3744a6ba365c022d5e114a482b74ff0496e00a91924ebdae401e2c9291b",
+      "size": 342291968,
+      "subject": "CN=GOG  sp. z o.o, O=GOG  sp. z o.o, L=WARSZAWA, C=PL",
+      "thumbprint": "3BB0E4A0B8370BF703050CB4719D5BB2CACAC60E",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
       "id": "w:google.chrome",
       "version": "157.0.8103.51",
       "sha256": "095a5a77926f40a81ab4d27b7072be27db2a15d4566759f585abf71c57a0e3aa",
@@ -1055,6 +1213,256 @@
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "source": "harvest",
       "at": "2026-11-10T14:22:58.7160037Z"
+    },
+    {
+      "id": "w:google.chromeremotedesktophost",
+      "version": "157.0.8103.41",
+      "sha256": "1aef26d305b0091bba71589d3caaabe6db5a042648e5801969332086db7c1a90",
+      "size": 24616960,
+      "subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:google.japaneseime",
+      "version": "3.35.6350.0",
+      "sha256": "7ccfa2691dd57c3b63c76815f3a95b9706ab3acad574c0124faf198e4cab619d",
+      "size": 47247360,
+      "subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:google.quickshare",
+      "version": "1.0.2757.0",
+      "sha256": "9b1c6f99fa9e317622a969f5a25e4187263be26891ad849daa58e254279574b1",
+      "size": 146628608,
+      "subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:goto.gotomeeting",
+      "version": "10.19.0.19950",
+      "sha256": "4188e7735eabcc313c7f56111bd13e8b524ba0ab872d6042de69e08657cec3b9",
+      "size": 21370880,
+      "subject": "CN=\"LogMeIn, Inc.\", O=\"LogMeIn, Inc.\", L=Boston, S=Massachusetts, C=US",
+      "thumbprint": "8F085C938714DD65A4F6C634F22D99D79DC0C7E6",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:grafanalabs.k6",
+      "version": "2.3.0",
+      "sha256": "ad65844ca7b50dedc376415cc7d4db47122549811437c89625bcda7f985cea91",
+      "size": 31678464,
+      "subject": "CN=Grafana Labs, O=Grafana Labs, L=New York City, S=New York, C=US",
+      "thumbprint": "0CB8E80497464D34295579D42D1CCC6F12AC1DD0",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:grammarly.grammarly",
+      "version": "1.2.310.2001",
+      "sha256": "b88cfc0981ba8e105dc2a99fa1f315b704cf1d0755958c460e11f2055d08ed9e",
+      "size": 85417096,
+      "subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
+      "thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:grammarly.grammarly.office",
+      "version": "6.8.263",
+      "sha256": "df9a7d7a30cb6d60d0c5efc1ac052d664983f04c137a1be43a477cd08660686c",
+      "size": 14831264,
+      "subject": "CN=\"Grammarly, Inc.\", OU=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
+      "thumbprint": "8AE0165438CED5A689073EDE15757F8067D44DB2",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:greenshot.greenshot",
+      "version": "1.3.328",
+      "sha256": "5d6ec298fb30c010351c100d85dec0fa6f2188833f2bc8edf594d785d9aa478a",
+      "size": 4021336,
+      "subject": "CN=Thomas Braun, O=Thomas Braun, STREET=Hirschenrangen 31, PostalCode=90607, L=Rückersdorf, S=Bavaria, C=DE, SERIALNUMBER=01.09.2021, OID.1.3.6.1.4.1.311.60.2.1.1=Rückersdorf, OID.1.3.6.1.4.1.311.60.2.1.2=Bavaria, OID.1.3.6.1.4.1.311.60.2.1.3=DE, OID.2.5.4.15=Business Entity",
+      "thumbprint": "0279EDB6AED5A2E5CA5857044601DB730389B321",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:hasleo.backupsuitefree",
+      "version": "6.0.2.0",
+      "sha256": "4414f4a183dc232b793f25780139ca0490ddf34cda8903828b561124d0ee0649",
+      "size": 44003560,
+      "subject": "CN=\"Chengdu Hasile Technology Development Co., Ltd.\", O=\"Chengdu Hasile Technology Development Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MA7MRUMK2X, OID.2.5.4.15=Private Organization",
+      "thumbprint": "D2030FFA904D61EB86B555284333C85BEA2D58BA",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:haystacksoftware.arq",
+      "version": "7.51.0.0",
+      "sha256": "b6fe13cd4e207c02cc58716cb31ce76b7ab6634e530b33fa7cf5322ede152e32",
+      "size": 15962112,
+      "subject": "CN=Haystack Software LLC, O=Haystack Software LLC, S=Massachusetts, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=000945241",
+      "thumbprint": "C62646F5669CF308516951B50B33AD59056AA14B",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:heidisql.heidisql",
+      "version": "12.22.0.7382",
+      "sha256": "468055814dcedc057821f2692d28cfdde181332265240538b9acb320cae49904",
+      "size": 17885848,
+      "subject": "CN=Ansgar Becker, O=Ansgar Becker, S=Nordrhein-Westfalen, C=DE",
+      "thumbprint": "38284C323969C1D29A68E84969AD4CADE5C0111D",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:heroku.herokucli",
+      "version": "11.0.0",
+      "sha256": "1e6cfbc97492a16f7ec5843d2b017756c8a53bab20135d28e59639baf1c25ab8",
+      "size": 88177080,
+      "subject": "CN=\"Salesforce, Inc.\", OU=Code Signing, O=\"Salesforce, Inc.\", L=San Francisco, S=California, C=US",
+      "thumbprint": "44E5367076956DBD931BFE58C7E893C91C7A5B08",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:hoppscotch.hoppscotch",
+      "version": "26.10.1-0",
+      "sha256": "7e1dfb1e1a5fb0b30777a3338c2d410b32810ec2bad3a76967beeb95df7383e8",
+      "size": 47538176,
+      "subject": "CN=HOPPSCOTCH LIMITED, O=HOPPSCOTCH LIMITED, STREET=12 New Fetter Lane, L=London, C=GB, PostalCode=EC4A 1JP",
+      "thumbprint": "1C0B76DE466D64E64C407D14CEE29D3F7B5BD353",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:hulubulusoftware.advancedrenamer",
+      "version": "4.28",
+      "sha256": "24402561feb48b821e5377310b1c66fb77c724ed59b2aa07e76703452377f0a2",
+      "size": 13250840,
+      "subject": "CN=Hulubulu Software, O=Hulubulu Software, L=Hedehusene, C=DK",
+      "thumbprint": "D0589BF6ADAD0113A6AD03396C38243F2043063E",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:idrix.veracrypt",
+      "version": "1.26.31",
+      "sha256": "6b0dbcc1d6910ec9f045689dd29172b4ae825b5fdcdae1a2d5f1e5b692782265",
+      "size": 56094720,
+      "subject": "CN=IDRIX SARL, O=IDRIX SARL, STREET=5 AVENUE INGRES, L=Paris, S=Île-de-France, C=FR, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=490 000 619, OID.2.5.4.15=Private Organization",
+      "thumbprint": "86E1D426731E79117452F090188A828426B29B5F",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:insecure.nmap",
+      "version": "7.80",
+      "sha256": "3b4d726bd366e7439367fa78a186dfa9b641d3b2ad354fd915581b6567480f94",
+      "size": 26922800,
+      "subject": "CN=Insecure.Com LLC, O=Insecure.Com LLC, L=Seattle, S=Washington, C=US, PostalCode=98104, STREET=\"113 Cherry St #1337\", SERIALNUMBER=200010310013, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.2.5.4.15=Private Organization",
+      "thumbprint": "EC2AE51775F3252541B266C40528DAA77BAA072F",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:intel.inteldriverandsupportassistant",
+      "version": "26.2.0.7",
+      "sha256": "2fd7c01b67f8ef9d7c7687591cb651c80542f9c62fe9d41c3fae359c532bd59d",
+      "size": 8724776,
+      "subject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "thumbprint": "FB15AD8AE55CDA55EA03EF1EEA8A88879F0F8B85",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:intel.presentmon",
+      "version": "2.6.0.0",
+      "sha256": "0cb43d2622356c1e277a77f840887f9000cea4e2d4236c0850922fc204c6f820",
+      "size": 169672704,
+      "subject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "thumbprint": "BF07AF4995EFFDB3CAA3466D6AB616136A1762CC",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:iobit.advancedsystemcare",
+      "version": "20.0.1.256",
+      "sha256": "abea2697a4d50a3cc6a9054b6387c6be5b1774f901ace7c2ce13831d6e10a7f1",
+      "size": 61146528,
+      "subject": "CN=\"lObit Co., Ltd\", O=\"lObit Co., Ltd\", L=成都市, S=四川省, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MABRWXYJ8B, OID.2.5.4.15=Private Organization",
+      "thumbprint": "0E658F343DDDF4EA2A3B87C58745FF61D596B89E",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:iobit.driverbooster",
+      "version": "14.0.1.462",
+      "sha256": "37f881b9f996155037ac829a42680feae04c23c9f1c9a25a0f05af348fe7ab94",
+      "size": 34182960,
+      "subject": "CN=\"lObit Co., Ltd\", O=\"lObit Co., Ltd\", L=成都市, S=四川省, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MABRWXYJ8B, OID.2.5.4.15=Private Organization",
+      "thumbprint": "0E658F343DDDF4EA2A3B87C58745FF61D596B89E",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:iobit.malwarefighter",
+      "version": "14.0.0.1766",
+      "sha256": "ed1fc6e4e5f0ee2eece9f2858cd8f4666004fbdab303f668463e94bcefc80a0f",
+      "size": 67834992,
+      "subject": "CN=\"IObit Co., Ltd.\", O=\"IObit Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107072412418F, OID.2.5.4.15=Private Organization",
+      "thumbprint": "247D09F992D07CB1F1B6C992DA4003C4A3102B69",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:iterate.cyberduck",
+      "version": "9.6.0.46406",
+      "sha256": "9a66f8fb400feaa5f7f390f9e4100e873f6be06cbf7c61f1651fca8b1f31c930",
+      "size": 92009848,
+      "subject": "CN=iterate GmbH, O=iterate GmbH, S=Bern, C=CH",
+      "thumbprint": "FD4C2A76B71572116026816D9DA01BF064B16742",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:jamsoftware.treesize.free",
+      "version": "4.8.1.610",
+      "sha256": "d800f1765539194a088cd06b2b8a73c40c4a1001425f2a892f495a53db9da2de",
+      "size": 16267504,
+      "subject": "CN=JAM Software GmbH, O=JAM Software GmbH, STREET=Am Wissenschaftspark 26, L=Trier, S=Rheinland-Pfalz, C=DE, OID.1.3.6.1.4.1.311.60.2.1.1=Wittlich, OID.1.3.6.1.4.1.311.60.2.1.2=Rheinland-Pfalz, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=HRB 4920, OID.2.5.4.15=Private Organization",
+      "thumbprint": "CEA9DA931176CA5325DA7ABD5E049F0967C9284A",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:jannisx11.blockbench",
+      "version": "5.2.2",
+      "sha256": "de14d72e27a6598ad5595ca5e66c15ea0e360de5218207f934572265245a2bc1",
+      "size": 229218776,
+      "subject": "CN=Jannis Tobias Petersen, O=Jannis Tobias Petersen, S=Schleswig-Holstein, C=DE",
+      "thumbprint": "C58B108F74F9778617E7419693180E2C5E8CCBCD",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "w:johnmacfarlane.pandoc",
+      "version": "3.13",
+      "sha256": "208eeef81b3d734a24f999afb5bf49db4dcf0be4fb72307bebf9ad02353f9a73",
+      "size": 42700800,
+      "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "thumbprint": "7D11F24157EB620FC9FE4DC0717B9EF6455AEEEE",
+      "source": "pin",
+      "at": "2026-11-10T14:32:28.4341544Z"
     },
     {
       "id": "w:microsoft.directx",

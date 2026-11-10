@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-10T14:21:52.6730199Z",
+  "generated_at": "2026-11-10T14:32:28.4341544Z",
   "catalog_revision": 38,
-  "count": 101,
+  "count": 127,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -1557,6 +1557,433 @@
         "files.gpg4win.org"
       ],
       "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "GOG.Galaxy",
+      "version": "2.1.10.56",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/setup_galaxy_2.1.10.56.exe",
+      "sha256": "ec1ef3744a6ba365c022d5e114a482b74ff0496e00a91924ebdae401e2c9291b",
+      "size": 342291968,
+      "signer_subject": "CN=GOG  sp. z o.o, O=GOG  sp. z o.o, L=WARSZAWA, C=PL",
+      "signer_thumbprint": "3BB0E4A0B8370BF703050CB4719D5BB2CACAC60E",
+      "allowed_hosts": [
+        "content-system.gog.com",
+        "gog-cdn-fastly.gog.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Google.ChromeRemoteDesktopHost",
+      "version": "157.0.8103.41",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://dl.google.com/release2/misc/jtw2mng3gvenx4l4ndermupk7m_157.0.8103.41/remoting-host.msi",
+      "sha256": "1aef26d305b0091bba71589d3caaabe6db5a042648e5801969332086db7c1a90",
+      "size": 24616960,
+      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "allowed_hosts": [
+        "dl.google.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Google.JapaneseIME",
+      "version": "3.35.6350.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://dl.google.com/release2/misc/njkgqollpaugzbfmdwdhbz7vqu_3.35.6350.0/GoogleJapaneseInput64-3.35.6350.0.msi",
+      "sha256": "7ccfa2691dd57c3b63c76815f3a95b9706ab3acad574c0124faf198e4cab619d",
+      "size": 47247360,
+      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "allowed_hosts": [
+        "dl.google.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Google.QuickShare",
+      "version": "1.0.2757.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://dl.google.com/release2/Nearby/adxmodzecvn47pv26t6p7cldf2ja_1.0.2757.0/better_together.msi",
+      "sha256": "9b1c6f99fa9e317622a969f5a25e4187263be26891ad849daa58e254279574b1",
+      "size": 146628608,
+      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "allowed_hosts": [
+        "dl.google.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "GoTo.GoToMeeting",
+      "version": "10.19.0.19950",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x86",
+      "url": "https://link.gotomeeting.com/latest-msi",
+      "sha256": "4188e7735eabcc313c7f56111bd13e8b524ba0ab872d6042de69e08657cec3b9",
+      "size": 21370880,
+      "signer_subject": "CN=\"LogMeIn, Inc.\", O=\"LogMeIn, Inc.\", L=Boston, S=Massachusetts, C=US",
+      "signer_thumbprint": "8F085C938714DD65A4F6C634F22D99D79DC0C7E6",
+      "allowed_hosts": [
+        "link.gotomeeting.com",
+        "builds.cdn.getgo.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "GrafanaLabs.k6",
+      "version": "2.3.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/grafana/k6/releases/download/v2.3.0/k6-v2.3.0-windows-amd64.msi",
+      "sha256": "ad65844ca7b50dedc376415cc7d4db47122549811437c89625bcda7f985cea91",
+      "size": 31678464,
+      "signer_subject": "CN=Grafana Labs, O=Grafana Labs, L=New York City, S=New York, C=US",
+      "signer_thumbprint": "0CB8E80497464D34295579D42D1CCC6F12AC1DD0",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Grammarly.Grammarly.Office",
+      "version": "6.8.263",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x86",
+      "url": "https://download-office.grammarly.com/installer/GrammarlyAddInSetup6.8.263.exe",
+      "sha256": "df9a7d7a30cb6d60d0c5efc1ac052d664983f04c137a1be43a477cd08660686c",
+      "size": 14831264,
+      "signer_subject": "CN=\"Grammarly, Inc.\", OU=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "8AE0165438CED5A689073EDE15757F8067D44DB2",
+      "allowed_hosts": [
+        "download-office.grammarly.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Grammarly.Grammarly",
+      "version": "1.2.310.2001",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download-windows.grammarly.com/versions/1.2.310.2001/net10/x64/GrammarlyInstaller.exe",
+      "sha256": "b88cfc0981ba8e105dc2a99fa1f315b704cf1d0755958c460e11f2055d08ed9e",
+      "size": 85417096,
+      "signer_subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
+      "allowed_hosts": [
+        "download-windows.grammarly.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Greenshot.Greenshot",
+      "version": "1.3.328",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/greenshot/greenshot/releases/download/v1.3.328/Greenshot-INSTALLER-1.3.328-RELEASE.exe",
+      "sha256": "5d6ec298fb30c010351c100d85dec0fa6f2188833f2bc8edf594d785d9aa478a",
+      "size": 4021336,
+      "signer_subject": "CN=Thomas Braun, O=Thomas Braun, STREET=Hirschenrangen 31, PostalCode=90607, L=Rückersdorf, S=Bavaria, C=DE, SERIALNUMBER=01.09.2021, OID.1.3.6.1.4.1.311.60.2.1.1=Rückersdorf, OID.1.3.6.1.4.1.311.60.2.1.2=Bavaria, OID.1.3.6.1.4.1.311.60.2.1.3=DE, OID.2.5.4.15=Business Entity",
+      "signer_thumbprint": "0279EDB6AED5A2E5CA5857044601DB730389B321",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Hasleo.BackupSuiteFree",
+      "version": "6.0.2.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://www.easyuefi.com/backup-software/downloads/Hasleo_Backup_Suite_Free.exe",
+      "sha256": "4414f4a183dc232b793f25780139ca0490ddf34cda8903828b561124d0ee0649",
+      "size": 44003560,
+      "signer_subject": "CN=\"Chengdu Hasile Technology Development Co., Ltd.\", O=\"Chengdu Hasile Technology Development Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MA7MRUMK2X, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "D2030FFA904D61EB86B555284333C85BEA2D58BA",
+      "allowed_hosts": [
+        "www.easyuefi.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "HaystackSoftware.Arq",
+      "version": "7.51.0.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://www.arqbackup.com/download/arqbackup/Arq7.51.0.0.msi",
+      "sha256": "b6fe13cd4e207c02cc58716cb31ce76b7ab6634e530b33fa7cf5322ede152e32",
+      "size": 15962112,
+      "signer_subject": "CN=Haystack Software LLC, O=Haystack Software LLC, S=Massachusetts, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=000945241",
+      "signer_thumbprint": "C62646F5669CF308516951B50B33AD59056AA14B",
+      "allowed_hosts": [
+        "www.arqbackup.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "HeidiSQL.HeidiSQL",
+      "version": "12.22.0.7382",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/HeidiSQL/HeidiSQL/releases/download/v12.22/HeidiSQL_12.22.0.7382_Setup.exe",
+      "sha256": "468055814dcedc057821f2692d28cfdde181332265240538b9acb320cae49904",
+      "size": 17885848,
+      "signer_subject": "CN=Ansgar Becker, O=Ansgar Becker, S=Nordrhein-Westfalen, C=DE",
+      "signer_thumbprint": "38284C323969C1D29A68E84969AD4CADE5C0111D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Heroku.HerokuCLI",
+      "version": "11.0.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://cli-assets.heroku.com/channels/stable/heroku-x64.exe",
+      "sha256": "1e6cfbc97492a16f7ec5843d2b017756c8a53bab20135d28e59639baf1c25ab8",
+      "size": 88177080,
+      "signer_subject": "CN=\"Salesforce, Inc.\", OU=Code Signing, O=\"Salesforce, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "44E5367076956DBD931BFE58C7E893C91C7A5B08",
+      "allowed_hosts": [
+        "cli-assets.heroku.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "hoppscotch.Hoppscotch",
+      "version": "26.10.1-0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/hoppscotch/releases/releases/download/v26.10.1-0/Hoppscotch_win_x64.msi",
+      "sha256": "7e1dfb1e1a5fb0b30777a3338c2d410b32810ec2bad3a76967beeb95df7383e8",
+      "size": 47538176,
+      "signer_subject": "CN=HOPPSCOTCH LIMITED, O=HOPPSCOTCH LIMITED, STREET=12 New Fetter Lane, L=London, C=GB, PostalCode=EC4A 1JP",
+      "signer_thumbprint": "1C0B76DE466D64E64C407D14CEE29D3F7B5BD353",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "HulubuluSoftware.AdvancedRenamer",
+      "version": "4.28",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_setup_4_28.exe",
+      "sha256": "24402561feb48b821e5377310b1c66fb77c724ed59b2aa07e76703452377f0a2",
+      "size": 13250840,
+      "signer_subject": "CN=Hulubulu Software, O=Hulubulu Software, L=Hedehusene, C=DK",
+      "signer_thumbprint": "D0589BF6ADAD0113A6AD03396C38243F2043063E",
+      "allowed_hosts": [
+        "www.advancedrenamer.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "IDRIX.VeraCrypt",
+      "version": "1.26.31",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_1.26.31/VeraCrypt_Setup_x64_1.26.31.msi",
+      "sha256": "6b0dbcc1d6910ec9f045689dd29172b4ae825b5fdcdae1a2d5f1e5b692782265",
+      "size": 56094720,
+      "signer_subject": "CN=IDRIX SARL, O=IDRIX SARL, STREET=5 AVENUE INGRES, L=Paris, S=Île-de-France, C=FR, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=490 000 619, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "86E1D426731E79117452F090188A828426B29B5F",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Insecure.Nmap",
+      "version": "7.80",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://nmap.org/dist/nmap-7.80-setup.exe",
+      "sha256": "3b4d726bd366e7439367fa78a186dfa9b641d3b2ad354fd915581b6567480f94",
+      "size": 26922800,
+      "signer_subject": "CN=Insecure.Com LLC, O=Insecure.Com LLC, L=Seattle, S=Washington, C=US, PostalCode=98104, STREET=\"113 Cherry St #1337\", SERIALNUMBER=200010310013, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "EC2AE51775F3252541B266C40528DAA77BAA072F",
+      "allowed_hosts": [
+        "nmap.org"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Intel.IntelDriverAndSupportAssistant",
+      "version": "26.2.0.7",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x86",
+      "url": "https://dsadata.intel.com/installer",
+      "sha256": "2fd7c01b67f8ef9d7c7687591cb651c80542f9c62fe9d41c3fae359c532bd59d",
+      "size": 8724776,
+      "signer_subject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "signer_thumbprint": "FB15AD8AE55CDA55EA03EF1EEA8A88879F0F8B85",
+      "allowed_hosts": [
+        "dsadata.intel.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Intel.PresentMon",
+      "version": "2.6.0.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/GameTechDev/PresentMon/releases/download/v2.6.0/PresentMon-2.6.0.msi",
+      "sha256": "0cb43d2622356c1e277a77f840887f9000cea4e2d4236c0850922fc204c6f820",
+      "size": 169672704,
+      "signer_subject": "CN=Intel Corporation, O=Intel Corporation, S=California, C=US",
+      "signer_thumbprint": "BF07AF4995EFFDB3CAA3466D6AB616136A1762CC",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "IObit.AdvancedSystemCare",
+      "version": "20.0.1.256",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://cdn.iobit.com/dl/advanced-systemcare-setup.exe",
+      "sha256": "abea2697a4d50a3cc6a9054b6387c6be5b1774f901ace7c2ce13831d6e10a7f1",
+      "size": 61146528,
+      "signer_subject": "CN=\"lObit Co., Ltd\", O=\"lObit Co., Ltd\", L=成都市, S=四川省, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MABRWXYJ8B, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "0E658F343DDDF4EA2A3B87C58745FF61D596B89E",
+      "allowed_hosts": [
+        "cdn.iobit.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "IObit.DriverBooster",
+      "version": "14.0.1.462",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://cdn.iobit.com/dl/driver_booster_setup.exe",
+      "sha256": "37f881b9f996155037ac829a42680feae04c23c9f1c9a25a0f05af348fe7ab94",
+      "size": 34182960,
+      "signer_subject": "CN=\"lObit Co., Ltd\", O=\"lObit Co., Ltd\", L=成都市, S=四川省, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MABRWXYJ8B, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "0E658F343DDDF4EA2A3B87C58745FF61D596B89E",
+      "allowed_hosts": [
+        "cdn.iobit.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "IObit.MalwareFighter",
+      "version": "14.0.0.1766",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://cdn.iobit.com/dl/iobit_malware_fighter_setup.exe",
+      "sha256": "ed1fc6e4e5f0ee2eece9f2858cd8f4666004fbdab303f668463e94bcefc80a0f",
+      "size": 67834992,
+      "signer_subject": "CN=\"IObit Co., Ltd.\", O=\"IObit Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107072412418F, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "247D09F992D07CB1F1B6C992DA4003C4A3102B69",
+      "allowed_hosts": [
+        "cdn.iobit.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "Iterate.Cyberduck",
+      "version": "9.6.0.46406",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://update.cyberduck.io/release/Cyberduck-Installer-9.6.0.46406.exe",
+      "sha256": "9a66f8fb400feaa5f7f390f9e4100e873f6be06cbf7c61f1651fca8b1f31c930",
+      "size": 92009848,
+      "signer_subject": "CN=iterate GmbH, O=iterate GmbH, S=Bern, C=CH",
+      "signer_thumbprint": "FD4C2A76B71572116026816D9DA01BF064B16742",
+      "allowed_hosts": [
+        "update.cyberduck.io",
+        "a48823c7ec3cf4539564-60c534a1284a12ce74ef84032e9b4e46.ssl.cf1.rackcdn.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "JAMSoftware.TreeSize.Free",
+      "version": "4.8.1.610",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloads.jam-software.de/treesize_free/archive/v4.8.1.610/TreeSizeFreeSetup.exe",
+      "sha256": "d800f1765539194a088cd06b2b8a73c40c4a1001425f2a892f495a53db9da2de",
+      "size": 16267504,
+      "signer_subject": "CN=JAM Software GmbH, O=JAM Software GmbH, STREET=Am Wissenschaftspark 26, L=Trier, S=Rheinland-Pfalz, C=DE, OID.1.3.6.1.4.1.311.60.2.1.1=Wittlich, OID.1.3.6.1.4.1.311.60.2.1.2=Rheinland-Pfalz, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=HRB 4920, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "CEA9DA931176CA5325DA7ABD5E049F0967C9284A",
+      "allowed_hosts": [
+        "downloads.jam-software.de"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "JannisX11.Blockbench",
+      "version": "5.2.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/JannisX11/blockbench/releases/download/v5.2.2/Blockbench_5.2.2.exe",
+      "sha256": "de14d72e27a6598ad5595ca5e66c15ea0e360de5218207f934572265245a2bc1",
+      "size": 229218776,
+      "signer_subject": "CN=Jannis Tobias Petersen, O=Jannis Tobias Petersen, S=Schleswig-Holstein, C=DE",
+      "signer_thumbprint": "C58B108F74F9778617E7419693180E2C5E8CCBCD",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "JohnMacFarlane.Pandoc",
+      "version": "3.13",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-windows-x86_64.msi",
+      "sha256": "208eeef81b3d734a24f999afb5bf49db4dcf0be4fb72307bebf9ad02353f9a73",
+      "size": 42700800,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "7D11F24157EB620FC9FE4DC0717B9EF6455AEEEE",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:32:28.4341544Z"
     },
     {
       "id": "Microsoft.VCRedist.2012.x64",
