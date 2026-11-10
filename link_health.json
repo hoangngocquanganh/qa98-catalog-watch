@@ -1,6 +1,52 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-10T14:24:09.7631377Z",
-  "catalog_revision": 38,
-  "hidden": []
+  "generated_at": "2026-11-10T23:47:11.4997693Z",
+  "catalog_revision": 43,
+  "hidden": [
+    {
+      "winget_id": "AIMP.AIMP",
+      "slug": "aimp-aimp",
+      "version": "5.10.2418",
+      "reason": "HTTP 404",
+      "since": "2026-11-10T05:10:36.1489761Z",
+      "fails": 3,
+      "note": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe"
+    },
+    {
+      "winget_id": "Autodesk.DWGTrueView.2027",
+      "slug": "autodesk-dwgtrueview-2027",
+      "version": "1.0.0.0",
+      "reason": "HTTP 404",
+      "since": "2026-11-10T05:34:10.0768548Z",
+      "fails": 3,
+      "note": "https://upload2.delivery.autodesk.com/WebInstall3StubGUI-1781876152414.exe"
+    },
+    {
+      "winget_id": "Bandisoft.Bandizip",
+      "slug": "bandisoft-bandizip",
+      "version": "7.47",
+      "reason": "sha256 mismatch",
+      "since": "2026-11-10T05:34:10.0768548Z",
+      "fails": 3,
+      "note": "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-ALL.EXE expected f35590f4b2660d0698049a454167381efa462e5821b32af5e4562bc4ac929d44 got 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111"
+    },
+    {
+      "winget_id": "BiniSoft.WindowsFirewallControl",
+      "slug": "binisoft-windowsfirewallcontrol",
+      "version": "6.37.0.0",
+      "reason": "sha256 mismatch",
+      "since": "2026-11-10T05:34:10.0768548Z",
+      "fails": 3,
+      "note": "https://www.binisoft.org/download/wfc6setup.exe expected 26bd4b19fb8ab523e621e40ec5426b7289b467e88505d6764a87e7ad6df4d5c1 got f726c3c3a3701fa37ddf821385ea9cc81bf64c0445318856b517491d00d61d8c"
+    },
+    {
+      "winget_id": "lamquangminh.EVKey",
+      "slug": "evkey",
+      "version": "6.0.5",
+      "reason": "sha256 mismatch",
+      "since": "2026-11-10T05:10:36.1489761Z",
+      "fails": 3,
+      "note": "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip expected 836fb7d7498b8ee63ab97b01ef0f37ba008a736aefbbb33adfb427ce662c0a90 got 59ac1ceeb7fce4407f5565a9ecf885210b450a3b789e035f06d07728e26e78bc"
+    }
+  ]
 }
