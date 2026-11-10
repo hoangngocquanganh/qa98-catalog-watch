@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-10T12:29:04.7928657Z",
-  "catalog_revision": 35,
-  "count": 73,
+  "generated_at": "2026-11-10T14:21:52.6730199Z",
+  "catalog_revision": 38,
+  "count": 101,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -1093,6 +1093,470 @@
         "edge.elgato.com"
       ],
       "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "Elixir.Elixir",
+      "version": "1.20.5",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/elixir-lang/elixir/releases/download/v1.20.5/elixir-otp-29.exe",
+      "sha256": "db2d566effabce92c6bde84acc5c28a60fc8f7c21f9246d5a57cad097b54f472",
+      "size": 8717216,
+      "signer_subject": "CN=Erlang Ecosystem Foundation, O=Erlang Ecosystem Foundation, L=Sunnyvale, S=California, C=US",
+      "signer_thumbprint": "E1A6B8DB7C0881BF850E8B3FE854AD365696E4D9",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "eMClient.eMClient",
+      "version": "11.0.1054",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://www.emclient.com/dist/v11.0.1054/setup.msi",
+      "sha256": "b05eec28554adb72f221e698ab88216bac0cf162e50ef5d1f677f6ba5857626d",
+      "size": 1679360,
+      "signer_subject": "CN=eM Client s.r.o., O=eM Client s.r.o., L=Praha 8, C=CZ",
+      "signer_thumbprint": "0CD7EDD0D90EB7021DA3E17C66B0F8FD3AAEB56A",
+      "allowed_hosts": [
+        "www.emclient.com",
+        "cdn-dist.emclient.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "ente-io.auth-desktop",
+      "version": "4.4.26",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.26/ente-auth-v4.4.26-installer.exe",
+      "sha256": "be1424198e9940723caf8ae765cee4d4754b4af8cca8b6cb23390448d6b731b8",
+      "size": 28977976,
+      "signer_subject": "CN=\"ENTE TECHNOLOGIES, INC.\", O=\"ENTE TECHNOLOGIES, INC.\", L=Dover, S=Delaware, C=US",
+      "signer_thumbprint": "5EC2E3EF92171F971C2A900FA0DDB47E7456A5EA",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "EpicGames.EpicGamesLauncher",
+      "version": "1.3.210.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Windows/EpicInstaller-20.3.3.msi?launcherfilename=EpicInstaller-20.3.3.msi",
+      "sha256": "d55d79710edfeaa107a62f2ea007bec1eeeac8b715a43c2ba3858eec7bc60337",
+      "size": 264237056,
+      "signer_subject": "CN=Epic Games Inc., O=Epic Games Inc., L=Cary, S=North Carolina, C=US, SERIALNUMBER=D03752763, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Maryland, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "3CD980E3BACD8FB6FB3F532AFF62753FB7DE47A8",
+      "allowed_hosts": [
+        "epicgames-download1.akamaized.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Erlang.ErlangOTP",
+      "version": "29.1.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/erlang/otp/releases/download/OTP-29.1.2/otp_win64_29.1.2.exe",
+      "sha256": "38297ee6fa8cafbc016cb187ebda30f7bdae85618415d9dbbbe413e9b9e27a4e",
+      "size": 155770072,
+      "signer_subject": "CN=Ericsson AB, O=Ericsson AB, L=Stockholm, C=SE",
+      "signer_thumbprint": "B8705FFE42FEFA60B16FECA00BD4189817C0D681",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Espanso.Espanso",
+      "version": "2.4.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe",
+      "sha256": "995c9c8ae9df4b1c464caa2595e478ed35521e1433f95d0945eed8ecbfc7a1f2",
+      "size": 7296664,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "2ED9D7008BE17C74F5FA843A6820F91B546C6317",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "eTeks.SweetHome3D",
+      "version": "7.5",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-7.5/SweetHome3D-7.5-windows.exe/download",
+      "sha256": "bfc91a3cfe2bfbeecbbbbcf32e1e85d75bf2a9d32fe36e5d621bdf40cb801e5c",
+      "size": 84920048,
+      "signer_subject": "CN=SPACE MUSHROOMS S.R.L., O=SPACE MUSHROOMS S.R.L., L=Milano, C=IT, SERIALNUMBER=11669350966, OID.1.3.6.1.4.1.311.60.2.1.1=Milano, OID.1.3.6.1.4.1.311.60.2.1.2=Milano, OID.1.3.6.1.4.1.311.60.2.1.3=IT, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "951EDB92A3E4FF0867F4D03EBB4622012D16BA98",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "pilotfiber.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Evernote.Evernote",
+      "version": "11.41.9",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://win.desktop.evernote.com/builds/Evernote-11.41.9-win-ddl-stage-20261105124610-5dbe4cf2e9e6083847d479f8365250d7bed5559e-setup.exe",
+      "sha256": "7af25efe7acfad00b91069b3de7aecaf4f0274d73f2dfaa0be3d400706bcb3c7",
+      "size": 417064896,
+      "signer_subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
+      "signer_thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
+      "allowed_hosts": [
+        "win.desktop.evernote.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Famatech.AdvancedIPScanner",
+      "version": "2.5.4594.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.advanced-ip-scanner.com/download/files/Advanced_IP_Scanner_2.5.4594.1.exe",
+      "sha256": "26d5748ffe6bd95e3fee6ce184d388a1a681006dc23a0f08d53c083c593c193b",
+      "size": 21050672,
+      "signer_subject": "CN=Famatech Corp., O=Famatech Corp., L=Road Town, C=VG, SERIALNUMBER=597325, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Road Town, OID.1.3.6.1.4.1.311.60.2.1.2=Tortola, OID.1.3.6.1.4.1.311.60.2.1.3=VG",
+      "signer_thumbprint": "E1B0439E8508536F2B2C061565437C25DE2174CD",
+      "allowed_hosts": [
+        "download.advanced-ip-scanner.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Famatech.Radmin.Client",
+      "version": "3.5.2.1",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x86",
+      "url": "https://download.radmin.com/download/files/Radmin_Viewer_3.5.2.1_ML.msi",
+      "sha256": "052ee17b1544f3e1466df561d7baaa4bb694320803102c96fcd3560beeb3b5c3",
+      "size": 5409792,
+      "signer_subject": "CN=Famatech Corp., O=Famatech Corp., L=Road Town, S=Tortola, C=VG",
+      "signer_thumbprint": "ED402B27BF7C923C8CDF37576C8A2F3C591C662A",
+      "allowed_hosts": [
+        "download.radmin.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Famatech.RadminVPN",
+      "version": "2.1.4952.2",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.radmin-vpn.com/download/files/Radmin_VPN_2.1.4952.2.exe",
+      "sha256": "717a87141fd703bb58bb730d3282e31055bf4ea9c319177ade9b793974a7d5a4",
+      "size": 55371080,
+      "signer_subject": "CN=Famatech Corp., O=Famatech Corp., L=Road Town, C=VG",
+      "signer_thumbprint": "A88557645C3CBB1B9006F8A53344F84B07EE61E5",
+      "allowed_hosts": [
+        "download.radmin-vpn.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "FastStone.Capture",
+      "version": "11.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.faststonesoft.net/DN/FSCaptureSetup113.exe",
+      "sha256": "634caa2206d34baa7908ebef98110e3be1de3b3eb9b323463003a51bc04388b5",
+      "size": 9034624,
+      "signer_subject": "CN=FastStone Corporation, O=FastStone Corporation, L=Calgary, S=Alberta, C=CA, SERIALNUMBER=2023017896, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Alberta, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "signer_thumbprint": "BA12BAAAC329C2CF0196B8BE73D529CFD13C621D",
+      "allowed_hosts": [
+        "www.faststonesoft.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "FastStone.Viewer",
+      "version": "8.5",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.faststonesoft.net/DN/FSViewerSetup85.exe",
+      "sha256": "5679d7b5cbc5bf6e222230eba6f38f52798de830a89de9aaea409ac55f5f6c38",
+      "size": 12524744,
+      "signer_subject": "CN=FastStone Corporation, O=FastStone Corporation, L=Calgary, S=Alberta, C=CA, SERIALNUMBER=2023017896, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Alberta, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "signer_thumbprint": "BA12BAAAC329C2CF0196B8BE73D529CFD13C621D",
+      "allowed_hosts": [
+        "www.faststonesoft.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "FinalWire.AIDA64.Extreme",
+      "version": "8.40",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.aida64.com/aida64extreme840.exe",
+      "sha256": "e36a35dd6ca5f2f627ff82c2a49543d4769cec5b0eaa1575b67627fff9a995a0",
+      "size": 62652384,
+      "signer_subject": "CN=FinalWire Kft., O=FinalWire Kft., L=Budapest, C=HU, SERIALNUMBER=01-09-942549, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=HU",
+      "signer_thumbprint": "948F306B529D54986EFDF8B33A5F02EC73A4476D",
+      "allowed_hosts": [
+        "download.aida64.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "FireAlpaca.FireAlpaca",
+      "version": "2.16.3",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://firealpaca.com/download/win64",
+      "sha256": "15bccceca7ff736a259ed09ac01e6bbb79044d1c32df746e43f50eb4636544c5",
+      "size": 58144480,
+      "signer_subject": "CN=PGN INC., O=PGN INC., S=Tokyo, C=JP",
+      "signer_thumbprint": "FBE1421252F2D42FE399B5E2EE0A709EFBD4EFA8",
+      "allowed_hosts": [
+        "firealpaca.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Flameshot.Flameshot",
+      "version": "15.0.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi",
+      "sha256": "69b8245ab4cb060e70716f493a7b2319e0421649d3e1b194a1b81503f3199a2d",
+      "size": 19062784,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "72D6DE255FE827C23D5DA407AA0725EFAC7ECD65",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "flux.flux",
+      "version": "4.148",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://justgetflux.com/flux-setup4-148.exe",
+      "sha256": "c5bfc86f82a4e47c41c0ff2ab70cd49c7365a496cb9079766e1d7ea40d65ea54",
+      "size": 682984,
+      "signer_subject": "CN=F.lux Software LLC, O=F.lux Software LLC, L=Los Angeles, S=California, C=US",
+      "signer_thumbprint": "D0623E9F7602DBCF835EE247BBE42B7251523516",
+      "allowed_hosts": [
+        "justgetflux.com",
+        "justgetflux.b-cdn.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "fotor.fotor",
+      "version": "4.1.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://static.fotor.com/static/desktop/Fotor4.1.2(202.1)_x64_official.exe",
+      "sha256": "6f22e98a6f91404cc87cff0575817ce7174fa2e455a7cfbf77e97c50f171ae06",
+      "size": 353987896,
+      "signer_subject": "CN=\"Chengdu Everimaging Science And Technology Co., Ltd.\", O=\"Chengdu Everimaging Science And Technology Co., Ltd.\", STREET=Floor 3 Building G5 No1858 Yizhou Avenue middle Section Hi and new Tech Park, L=ChengDu, S=SiChuan, PostalCode=610041, C=CN",
+      "signer_thumbprint": "676EA5C3E20B5098D1EB63E56BBA447EB61BC3D8",
+      "allowed_hosts": [
+        "static.fotor.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "FreeCAD.FreeCAD",
+      "version": "1.1.4",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311-installer.exe",
+      "sha256": "845f7101d33faf257a82a0cadc5f4f3804441f46ee493eb32b92fcf9c7147a24",
+      "size": 519314976,
+      "signer_subject": "CN=The FreeCAD project association AISBL, O=The FreeCAD project association AISBL, L=Brussels, C=BE",
+      "signer_thumbprint": "8797DF1CE6250568A2C618ABBE9E7CCD45C73410",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Freeplane.Freeplane",
+      "version": "1.13.4",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.4.exe/download",
+      "sha256": "8a20ed5d785e13c0f447d8949988726c584d0dfa6c3848a6810b91d19110fa67",
+      "size": 110585824,
+      "signer_subject": "CN=Open Source Developer Dmitry Polivaev, O=Open Source Developer, L=Munich, S=Bavaria, C=DE",
+      "signer_thumbprint": "A81DBAE0287FECA724BEDC9FEB5797ACA026E6CB",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "gigenet.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Garena.Garena",
+      "version": "2.0.1909.2618",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe",
+      "sha256": "2da45c2783c2b9a0b30515603e54487e121542cda852502376fb4152e0c73f95",
+      "size": 73106216,
+      "signer_subject": "CN=Garena Online Pte Ltd, O=Garena Online Pte Ltd, L=Singapore, S=Singapore, C=SG",
+      "signer_thumbprint": "2BB95F164C168BFE64340802000B54E3F3460DD7",
+      "allowed_hosts": [
+        "cdn.gxx.garenanow.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Geany.Geany",
+      "version": "2.1.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/geany/geany/releases/download/2.1.0/geany-2.1_setup.exe",
+      "sha256": "50c7835b31bc736d0b5e5f894aa8ec08a95185873fb64d29a95727d2859107d8",
+      "size": 28220816,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "F2793045AB1A6F8624B4C5BADE4EFE6A7B494EA6",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "Genymobile.Genymotion",
+      "version": "3.10.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://dl.genymotion.com/releases/genymotion-3.10.0/genymotion-3.10.0.exe",
+      "sha256": "a8505f39b29cc56e3fc332c52dfb0ff6ac6e821719e31bc89c98dec7c1abbd16",
+      "size": 162319360,
+      "signer_subject": "CN=Geny mobile SAS, O=Geny mobile SAS, L=Lyon, C=FR, SERIALNUMBER=529 450 363, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Paris, OID.1.3.6.1.4.1.311.60.2.1.2=Île-de-France, OID.1.3.6.1.4.1.311.60.2.1.3=FR",
+      "signer_thumbprint": "EC0EC8E028A868E6259F8D81986612A587FA8FA5",
+      "allowed_hosts": [
+        "dl.genymotion.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "GIMP.GIMP.3",
+      "version": "3.2.8.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.8-setup.exe",
+      "sha256": "1d78874295661d791eaf149982e9b3564888631ea29186da5ff99e8114020a5b",
+      "size": 185816224,
+      "signer_subject": "CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI",
+      "signer_thumbprint": "9DCC14D7BB6BDE953624601AF7541456040666BB",
+      "allowed_hosts": [
+        "download.gimp.org",
+        "opencolo.mm.fcix.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "GitButler.GitButler",
+      "version": "0.22.3",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://releases.gitbutler.com/releases/release/0.22.3-3234/windows/x86_64/GitButler_0.22.3_x64_en-US.msi",
+      "sha256": "2152c30d907b3bcc2cc7f470eccb342c0903a5902340f4d7dcb4d8a96a22a68e",
+      "size": 36335616,
+      "signer_subject": "CN=GitButler Inc., O=GitButler Inc., L=Berkeley, S=California, C=US, SERIALNUMBER=7253865, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "2127A275172F4C14C5675089F36CE1A3C94AAC0F",
+      "allowed_hosts": [
+        "releases.gitbutler.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "GitHub.GitLFS",
+      "version": "3.8.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.8.0/git-lfs-windows-v3.8.0.exe",
+      "sha256": "aa2d69214905d6b348f1b038beb2d68e4828342f9b3fe47dae5a5f023823fe92",
+      "size": 13245480,
+      "signer_subject": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "5F69F3A04D6E13E9C1C5AA26C69A7FD2878A9936",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "glzr-io.glazewm",
+      "version": "3.10.1",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://github.com/glzr-io/glazewm/releases/download/v3.10.1/glazewm-v3.10.1.exe",
+      "sha256": "469f8675f5ad1353bda9cede7cbb0e320e1b9a1d5657da709b60a51d86e95020",
+      "size": 32976688,
+      "signer_subject": "CN=GLZR SOFTWARE PTE. LTD., O=GLZR SOFTWARE PTE. LTD., STREET=\"160 Robinson Road, #14-04, Singapore Business Federation Center\", L=Singapore, S=Singapore, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202426430N, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "7E76485546F5334AA5B6988E59279ABF09092342",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "GnuPG.Gpg4win",
+      "version": "5.1.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://files.gpg4win.org/gpg4win-5.1.1.exe",
+      "sha256": "ed19c0c89ec42fe32c52a7abd6e3da5f491752700546b9eed7ddf82fd303cddf",
+      "size": 44831736,
+      "signer_subject": "E=code@g10code.com, CN=g10 Code GmbH, O=g10 Code GmbH, L=Erkrath, S=Nordrhein-Westfalen, C=DE",
+      "signer_thumbprint": "83CC4E382E5E4AF554C66E429E8F66FFE499910D",
+      "allowed_hosts": [
+        "files.gpg4win.org"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
     },
     {
       "id": "Microsoft.VCRedist.2012.x64",

@@ -1,25 +1,24 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-10T12:29:04.7928657Z",
-  "catalog_revision": 35,
+  "updated_at": "2026-11-10T14:21:52.6730199Z",
+  "catalog_revision": 38,
   "last_run": {
-    "at": "2026-11-10T12:29:04.7928657Z",
-    "seconds": 53,
+    "at": "2026-11-10T14:21:52.6730199Z",
+    "seconds": 65,
     "checked": 300,
     "downloads": 40,
-    "downloaded_mb": 3208,
-    "pinned": 15,
-    "skipped": 224,
-    "transient": 0,
-    "deferred": 61,
+    "downloaded_mb": 3779,
+    "pinned": 28,
+    "skipped": 180,
+    "transient": 1,
+    "deferred": 91,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 110,
-      "installer type … not supported by pinned route": 85,
-      "authenticode NotSigned": 23,
-      "winget manifest missing": 3,
+      "neutral version but installer differs by arch …; split versions per arch to pin": 106,
+      "installer type … not supported by pinned route": 62,
+      "authenticode NotSigned": 9,
       "download HTTP …": 1,
-      "download larger than … MB": 1,
-      "manifest has no https installer with sha256": 1
+      "winget manifest missing": 1,
+      "download larger than … MB": 1
     }
   },
   "entries": [
@@ -1745,11 +1744,11 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "blenderfoundation.blender|5.2.3|neutral",
+      "key": "blenderfoundation.blender|5.3.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "BlenderFoundation.Blender",
-      "version": "5.2.3",
+      "version": "5.3.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1759,7 +1758,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -3850,6 +3849,26 @@
       "silent_check": "ok"
     },
     {
+      "key": "elixir.elixir|1.20.5|neutral",
+      "status": "pinned",
+      "id": "Elixir.Elixir",
+      "version": "1.20.5",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/elixir-lang/elixir/releases/download/v1.20.5/elixir-otp-29.exe",
+      "sha256": "db2d566effabce92c6bde84acc5c28a60fc8f7c21f9246d5a57cad097b54f472",
+      "size": 8717216,
+      "signer_subject": "CN=Erlang Ecosystem Foundation, O=Erlang Ecosystem Foundation, L=Sunnyvale, S=California, C=US",
+      "signer_thumbprint": "E1A6B8DB7C0881BF850E8B3FE854AD365696E4D9",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "eloston.ungoogled-chromium|155.0.8059.84|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -3865,6 +3884,26 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "emclient.emclient|11.0.1054|neutral",
+      "status": "pinned",
+      "id": "eMClient.eMClient",
+      "version": "11.0.1054",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://www.emclient.com/dist/v11.0.1054/setup.msi",
+      "sha256": "b05eec28554adb72f221e698ab88216bac0cf162e50ef5d1f677f6ba5857626d",
+      "size": 1679360,
+      "signer_subject": "CN=eM Client s.r.o., O=eM Client s.r.o., L=Praha 8, C=CZ",
+      "signer_thumbprint": "0CD7EDD0D90EB7021DA3E17C66B0F8FD3AAEB56A",
+      "allowed_hosts": [
+        "www.emclient.com",
+        "cdn-dist.emclient.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -3904,6 +3943,26 @@
       "silent_check": "exe"
     },
     {
+      "key": "ente-io.auth-desktop|4.4.26|neutral",
+      "status": "pinned",
+      "id": "ente-io.auth-desktop",
+      "version": "4.4.26",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/ente-io/ente/releases/download/auth-v4.4.26/ente-auth-v4.4.26-installer.exe",
+      "sha256": "be1424198e9940723caf8ae765cee4d4754b4af8cca8b6cb23390448d6b731b8",
+      "size": 28977976,
+      "signer_subject": "CN=\"ENTE TECHNOLOGIES, INC.\", O=\"ENTE TECHNOLOGIES, INC.\", L=Dover, S=Delaware, C=US",
+      "signer_thumbprint": "5EC2E3EF92171F971C2A900FA0DDB47E7456A5EA",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "enzo1982.freac|1.1.7|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -3919,6 +3978,25 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "epicgames.epicgameslauncher|1.3.210.0|neutral",
+      "status": "pinned",
+      "id": "EpicGames.EpicGamesLauncher",
+      "version": "1.3.210.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Windows/EpicInstaller-20.3.3.msi?launcherfilename=EpicInstaller-20.3.3.msi",
+      "sha256": "d55d79710edfeaa107a62f2ea007bec1eeeac8b715a43c2ba3858eec7bc60337",
+      "size": 264237056,
+      "signer_subject": "CN=Epic Games Inc., O=Epic Games Inc., L=Cary, S=North Carolina, C=US, SERIALNUMBER=D03752763, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Maryland, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "3CD980E3BACD8FB6FB3F532AFF62753FB7DE47A8",
+      "allowed_hosts": [
+        "epicgames-download1.akamaized.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -3940,6 +4018,26 @@
       "silent_check": "exe"
     },
     {
+      "key": "erlang.erlangotp|29.1.2|neutral",
+      "status": "pinned",
+      "id": "Erlang.ErlangOTP",
+      "version": "29.1.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/erlang/otp/releases/download/OTP-29.1.2/otp_win64_29.1.2.exe",
+      "sha256": "38297ee6fa8cafbc016cb187ebda30f7bdae85618415d9dbbbe413e9b9e27a4e",
+      "size": 155770072,
+      "signer_subject": "CN=Ericsson AB, O=Ericsson AB, L=Stockholm, C=SE",
+      "signer_thumbprint": "B8705FFE42FEFA60B16FECA00BD4189817C0D681",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "eset.security|20.0.0.0|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
@@ -3958,6 +4056,47 @@
       "silent_check": "exe"
     },
     {
+      "key": "espanso.espanso|2.4.1|neutral",
+      "status": "pinned",
+      "id": "Espanso.Espanso",
+      "version": "2.4.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe",
+      "sha256": "995c9c8ae9df4b1c464caa2595e478ed35521e1433f95d0945eed8ecbfc7a1f2",
+      "size": 7296664,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "2ED9D7008BE17C74F5FA843A6820F91B546C6317",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eteks.sweethome3d|7.5|neutral",
+      "status": "pinned",
+      "id": "eTeks.SweetHome3D",
+      "version": "7.5",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-7.5/SweetHome3D-7.5-windows.exe/download",
+      "sha256": "bfc91a3cfe2bfbeecbbbbcf32e1e85d75bf2a9d32fe36e5d621bdf40cb801e5c",
+      "size": 84920048,
+      "signer_subject": "CN=SPACE MUSHROOMS S.R.L., O=SPACE MUSHROOMS S.R.L., L=Milano, C=IT, SERIALNUMBER=11669350966, OID.1.3.6.1.4.1.311.60.2.1.1=Milano, OID.1.3.6.1.4.1.311.60.2.1.2=Milano, OID.1.3.6.1.4.1.311.60.2.1.3=IT, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "951EDB92A3E4FF0867F4D03EBB4622012D16BA98",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "pilotfiber.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "eugeny.tabby|1.0.238|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -3973,6 +4112,25 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "evernote.evernote|11.41.9|neutral",
+      "status": "pinned",
+      "id": "Evernote.Evernote",
+      "version": "11.41.9",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://win.desktop.evernote.com/builds/Evernote-11.41.9-win-ddl-stage-20261105124610-5dbe4cf2e9e6083847d479f8365250d7bed5559e-setup.exe",
+      "sha256": "7af25efe7acfad00b91069b3de7aecaf4f0274d73f2dfaa0be3d400706bcb3c7",
+      "size": 417064896,
+      "signer_subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
+      "signer_thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
+      "allowed_hosts": [
+        "win.desktop.evernote.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -4012,6 +4170,63 @@
       "silent_check": "ok"
     },
     {
+      "key": "famatech.advancedipscanner|2.5.4594.1|neutral",
+      "status": "pinned",
+      "id": "Famatech.AdvancedIPScanner",
+      "version": "2.5.4594.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.advanced-ip-scanner.com/download/files/Advanced_IP_Scanner_2.5.4594.1.exe",
+      "sha256": "26d5748ffe6bd95e3fee6ce184d388a1a681006dc23a0f08d53c083c593c193b",
+      "size": 21050672,
+      "signer_subject": "CN=Famatech Corp., O=Famatech Corp., L=Road Town, C=VG, SERIALNUMBER=597325, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Road Town, OID.1.3.6.1.4.1.311.60.2.1.2=Tortola, OID.1.3.6.1.4.1.311.60.2.1.3=VG",
+      "signer_thumbprint": "E1B0439E8508536F2B2C061565437C25DE2174CD",
+      "allowed_hosts": [
+        "download.advanced-ip-scanner.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "famatech.radmin.client|3.5.2.1|neutral",
+      "status": "pinned",
+      "id": "Famatech.Radmin.Client",
+      "version": "3.5.2.1",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x86",
+      "url": "https://download.radmin.com/download/files/Radmin_Viewer_3.5.2.1_ML.msi",
+      "sha256": "052ee17b1544f3e1466df561d7baaa4bb694320803102c96fcd3560beeb3b5c3",
+      "size": 5409792,
+      "signer_subject": "CN=Famatech Corp., O=Famatech Corp., L=Road Town, S=Tortola, C=VG",
+      "signer_thumbprint": "ED402B27BF7C923C8CDF37576C8A2F3C591C662A",
+      "allowed_hosts": [
+        "download.radmin.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "famatech.radminvpn|2.1.4952.2|neutral",
+      "status": "pinned",
+      "id": "Famatech.RadminVPN",
+      "version": "2.1.4952.2",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.radmin-vpn.com/download/files/Radmin_VPN_2.1.4952.2.exe",
+      "sha256": "717a87141fd703bb58bb730d3282e31055bf4ea9c319177ade9b793974a7d5a4",
+      "size": 55371080,
+      "signer_subject": "CN=Famatech Corp., O=Famatech Corp., L=Road Town, C=VG",
+      "signer_thumbprint": "A88557645C3CBB1B9006F8A53344F84B07EE61E5",
+      "allowed_hosts": [
+        "download.radmin-vpn.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "fastcopy.fastcopy|5.12.0|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
@@ -4045,6 +4260,44 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "faststone.capture|11.3|neutral",
+      "status": "pinned",
+      "id": "FastStone.Capture",
+      "version": "11.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.faststonesoft.net/DN/FSCaptureSetup113.exe",
+      "sha256": "634caa2206d34baa7908ebef98110e3be1de3b3eb9b323463003a51bc04388b5",
+      "size": 9034624,
+      "signer_subject": "CN=FastStone Corporation, O=FastStone Corporation, L=Calgary, S=Alberta, C=CA, SERIALNUMBER=2023017896, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Alberta, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "signer_thumbprint": "BA12BAAAC329C2CF0196B8BE73D529CFD13C621D",
+      "allowed_hosts": [
+        "www.faststonesoft.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "faststone.viewer|8.5|neutral",
+      "status": "pinned",
+      "id": "FastStone.Viewer",
+      "version": "8.5",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.faststonesoft.net/DN/FSViewerSetup85.exe",
+      "sha256": "5679d7b5cbc5bf6e222230eba6f38f52798de830a89de9aaea409ac55f5f6c38",
+      "size": 12524744,
+      "signer_subject": "CN=FastStone Corporation, O=FastStone Corporation, L=Calgary, S=Alberta, C=CA, SERIALNUMBER=2023017896, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Alberta, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "signer_thumbprint": "BA12BAAAC329C2CF0196B8BE73D529CFD13C621D",
+      "allowed_hosts": [
+        "www.faststonesoft.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -4120,6 +4373,64 @@
       "silent_check": "ok"
     },
     {
+      "key": "finalwire.aida64.extreme|8.40|neutral",
+      "status": "pinned",
+      "id": "FinalWire.AIDA64.Extreme",
+      "version": "8.40",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.aida64.com/aida64extreme840.exe",
+      "sha256": "e36a35dd6ca5f2f627ff82c2a49543d4769cec5b0eaa1575b67627fff9a995a0",
+      "size": 62652384,
+      "signer_subject": "CN=FinalWire Kft., O=FinalWire Kft., L=Budapest, C=HU, SERIALNUMBER=01-09-942549, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=HU",
+      "signer_thumbprint": "948F306B529D54986EFDF8B33A5F02EC73A4476D",
+      "allowed_hosts": [
+        "download.aida64.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "firealpaca.firealpaca|2.16.3|neutral",
+      "status": "pinned",
+      "id": "FireAlpaca.FireAlpaca",
+      "version": "2.16.3",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://firealpaca.com/download/win64",
+      "sha256": "15bccceca7ff736a259ed09ac01e6bbb79044d1c32df746e43f50eb4636544c5",
+      "size": 58144480,
+      "signer_subject": "CN=PGN INC., O=PGN INC., S=Tokyo, C=JP",
+      "signer_thumbprint": "FBE1421252F2D42FE399B5E2EE0A709EFBD4EFA8",
+      "allowed_hosts": [
+        "firealpaca.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "flameshot.flameshot|15.0.0|neutral",
+      "status": "pinned",
+      "id": "Flameshot.Flameshot",
+      "version": "15.0.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi",
+      "sha256": "69b8245ab4cb060e70716f493a7b2319e0421649d3e1b194a1b81503f3199a2d",
+      "size": 19062784,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "72D6DE255FE827C23D5DA407AA0725EFAC7ECD65",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "florianheidenreich.mp3tag|3.37|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
@@ -4156,6 +4467,44 @@
       "silent_check": "exe"
     },
     {
+      "key": "flux.flux|4.148|neutral",
+      "status": "pinned",
+      "id": "flux.flux",
+      "version": "4.148",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://justgetflux.com/flux-setup4-148.exe",
+      "sha256": "c5bfc86f82a4e47c41c0ff2ab70cd49c7365a496cb9079766e1d7ea40d65ea54",
+      "size": 682984,
+      "signer_subject": "CN=F.lux Software LLC, O=F.lux Software LLC, L=Los Angeles, S=California, C=US",
+      "signer_thumbprint": "D0623E9F7602DBCF835EE247BBE42B7251523516",
+      "allowed_hosts": [
+        "justgetflux.com",
+        "justgetflux.b-cdn.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "forceautohdr.7gxycn08|1.0.0.4|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "ForceAutoHDR.7gxycn08",
+      "version": "1.0.0.4",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "fork.fork|2.24.0|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
@@ -4172,6 +4521,25 @@
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
       "silent_check": "exe"
+    },
+    {
+      "key": "fotor.fotor|4.1.2|neutral",
+      "status": "pinned",
+      "id": "fotor.fotor",
+      "version": "4.1.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://static.fotor.com/static/desktop/Fotor4.1.2(202.1)_x64_official.exe",
+      "sha256": "6f22e98a6f91404cc87cff0575817ce7174fa2e455a7cfbf77e97c50f171ae06",
+      "size": 353987896,
+      "signer_subject": "CN=\"Chengdu Everimaging Science And Technology Co., Ltd.\", O=\"Chengdu Everimaging Science And Technology Co., Ltd.\", STREET=Floor 3 Building G5 No1858 Yizhou Avenue middle Section Hi and new Tech Park, L=ChengDu, S=SiChuan, PostalCode=610041, C=CN",
+      "signer_thumbprint": "676EA5C3E20B5098D1EB63E56BBA447EB61BC3D8",
+      "allowed_hosts": [
+        "static.fotor.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "foundry376.mailspring|1.26.2|neutral",
@@ -4210,6 +4578,65 @@
       "silent_check": "exe"
     },
     {
+      "key": "foxit.phantompdf|14.0.8.33807|neutral",
+      "status": "skipped",
+      "reason": "download larger than 1024 MB",
+      "id": "Foxit.PhantomPDF",
+      "version": "14.0.8.33807",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "freecad.freecad|1.1.4|neutral",
+      "status": "pinned",
+      "id": "FreeCAD.FreeCAD",
+      "version": "1.1.4",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311-installer.exe",
+      "sha256": "845f7101d33faf257a82a0cadc5f4f3804441f46ee493eb32b92fcf9c7147a24",
+      "size": 519314976,
+      "signer_subject": "CN=The FreeCAD project association AISBL, O=The FreeCAD project association AISBL, L=Brussels, C=BE",
+      "signer_thumbprint": "8797DF1CE6250568A2C618ABBE9E7CCD45C73410",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "freeplane.freeplane|1.13.4|neutral",
+      "status": "pinned",
+      "id": "Freeplane.Freeplane",
+      "version": "1.13.4",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.4.exe/download",
+      "sha256": "8a20ed5d785e13c0f447d8949988726c584d0dfa6c3848a6810b91d19110fa67",
+      "size": 110585824,
+      "signer_subject": "CN=Open Source Developer Dmitry Polivaev, O=Open Source Developer, L=Munich, S=Bavaria, C=DE",
+      "signer_thumbprint": "A81DBAE0287FECA724BEDC9FEB5797ACA026E6CB",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "gigenet.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "fxsound.fxsound|1.2.16.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -4226,6 +4653,63 @@
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
       "silent_check": "exe"
+    },
+    {
+      "key": "ganttproject.ganttproject|3.3.3323|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GanttProject.GanttProject",
+      "version": "3.3.3323",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "garena.garena|2.0.1909.2618|neutral",
+      "status": "pinned",
+      "id": "Garena.Garena",
+      "version": "2.0.1909.2618",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe",
+      "sha256": "2da45c2783c2b9a0b30515603e54487e121542cda852502376fb4152e0c73f95",
+      "size": 73106216,
+      "signer_subject": "CN=Garena Online Pte Ltd, O=Garena Online Pte Ltd, L=Singapore, S=Singapore, C=SG",
+      "signer_thumbprint": "2BB95F164C168BFE64340802000B54E3F3460DD7",
+      "allowed_hosts": [
+        "cdn.gxx.garenanow.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "geany.geany|2.1.0|neutral",
+      "status": "pinned",
+      "id": "Geany.Geany",
+      "version": "2.1.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/geany/geany/releases/download/2.1.0/geany-2.1_setup.exe",
+      "sha256": "50c7835b31bc736d0b5e5f894aa8ec08a95185873fb64d29a95727d2859107d8",
+      "size": 28220816,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "F2793045AB1A6F8624B4C5BADE4EFE6A7B494EA6",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "geeks3d.furmark.2|2.10.2.0|neutral",
@@ -4279,6 +4763,25 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "genymobile.genymotion|3.10.0|neutral",
+      "status": "pinned",
+      "id": "Genymobile.Genymotion",
+      "version": "3.10.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://dl.genymotion.com/releases/genymotion-3.10.0/genymotion-3.10.0.exe",
+      "sha256": "a8505f39b29cc56e3fc332c52dfb0ff6ac6e821719e31bc89c98dec7c1abbd16",
+      "size": 162319360,
+      "signer_subject": "CN=Geny mobile SAS, O=Geny mobile SAS, L=Lyon, C=FR, SERIALNUMBER=529 450 363, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Paris, OID.1.3.6.1.4.1.311.60.2.1.2=Île-de-France, OID.1.3.6.1.4.1.311.60.2.1.3=FR",
+      "signer_thumbprint": "EC0EC8E028A868E6259F8D81986612A587FA8FA5",
+      "allowed_hosts": [
+        "dl.genymotion.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -4372,6 +4875,44 @@
       "silent_check": "exe"
     },
     {
+      "key": "gianlucapernigotto.videomass|4.0.1|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GianlucaPernigotto.Videomass",
+      "version": "4.0.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gimp.gimp.3|3.2.8.0|neutral",
+      "status": "pinned",
+      "id": "GIMP.GIMP.3",
+      "version": "3.2.8.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.8-setup.exe",
+      "sha256": "1d78874295661d791eaf149982e9b3564888631ea29186da5ff99e8114020a5b",
+      "size": 185816224,
+      "signer_subject": "CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI",
+      "signer_thumbprint": "9DCC14D7BB6BDE953624601AF7541456040666BB",
+      "allowed_hosts": [
+        "download.gimp.org",
+        "opencolo.mm.fcix.net"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "giorgiotani.peazip|11.3.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
@@ -4405,6 +4946,25 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gitbutler.gitbutler|0.22.3|neutral",
+      "status": "pinned",
+      "id": "GitButler.GitButler",
+      "version": "0.22.3",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://releases.gitbutler.com/releases/release/0.22.3-3234/windows/x86_64/GitButler_0.22.3_x64_en-US.msi",
+      "sha256": "2152c30d907b3bcc2cc7f470eccb342c0903a5902340f4d7dcb4d8a96a22a68e",
+      "size": 36335616,
+      "signer_subject": "CN=GitButler Inc., O=GitButler Inc., L=Berkeley, S=California, C=US, SERIALNUMBER=7253865, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "2127A275172F4C14C5675089F36CE1A3C94AAC0F",
+      "allowed_hosts": [
+        "releases.gitbutler.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -4480,6 +5040,44 @@
       "silent_check": "ok"
     },
     {
+      "key": "github.gitlfs|3.8.0|neutral",
+      "status": "pinned",
+      "id": "GitHub.GitLFS",
+      "version": "3.8.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.8.0/git-lfs-windows-v3.8.0.exe",
+      "sha256": "aa2d69214905d6b348f1b038beb2d68e4828342f9b3fe47dae5a5f023823fe92",
+      "size": 13245480,
+      "signer_subject": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "5F69F3A04D6E13E9C1C5AA26C69A7FD2878A9936",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gitify.gitify|8.1.0|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "Gitify.Gitify",
+      "version": "8.1.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "glarysoft.glaryutilities|6.49.0.53|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
@@ -4496,6 +5094,24 @@
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
       "silent_check": "exe"
+    },
+    {
+      "key": "glasswire.glasswire|3.11.1164|neutral",
+      "status": "skipped",
+      "reason": "download HTTP 403",
+      "id": "GlassWire.GlassWire",
+      "version": "3.11.1164",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "glavsoft.tightvnc|2.8.89|neutral",
@@ -4531,6 +5147,135 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "glzr-io.glazewm|3.10.1|neutral",
+      "status": "pinned",
+      "id": "glzr-io.glazewm",
+      "version": "3.10.1",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://github.com/glzr-io/glazewm/releases/download/v3.10.1/glazewm-v3.10.1.exe",
+      "sha256": "469f8675f5ad1353bda9cede7cbb0e320e1b9a1d5657da709b60a51d86e95020",
+      "size": 32976688,
+      "signer_subject": "CN=GLZR SOFTWARE PTE. LTD., O=GLZR SOFTWARE PTE. LTD., STREET=\"160 Robinson Road, #14-04, Singapore Business Federation Center\", L=Singapore, S=Singapore, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202426430N, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "7E76485546F5334AA5B6988E59279ABF09092342",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gne.dualmonitortools|2.12.0.0|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GNE.DualMonitorTools",
+      "version": "2.12.0.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gnu.emacs|31.1|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GNU.Emacs",
+      "version": "31.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gnu.octave|11.3.0|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GNU.Octave",
+      "version": "11.3.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gnucash.gnucash|5.17|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GnuCash.GnuCash",
+      "version": "5.17",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gnupg.gpg4win|5.1.1|neutral",
+      "status": "pinned",
+      "id": "GnuPG.Gpg4win",
+      "version": "5.1.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://files.gpg4win.org/gpg4win-5.1.1.exe",
+      "sha256": "ed19c0c89ec42fe32c52a7abd6e3da5f491752700546b9eed7ddf82fd303cddf",
+      "size": 44831736,
+      "signer_subject": "E=code@g10code.com, CN=g10 Code GmbH, O=g10 Code GmbH, L=Erkrath, S=Nordrhein-Westfalen, C=DE",
+      "signer_thumbprint": "83CC4E382E5E4AF554C66E429E8F66FFE499910D",
+      "allowed_hosts": [
+        "files.gpg4win.org"
+      ],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "gnuwin32.make|3.81|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "GnuWin32.Make",
+      "version": "3.81",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
       "silent_check": "ok"
     },
     {
@@ -5123,7 +5868,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "imagemagick.imagemagick|7.1.2.34|neutral",
@@ -5140,7 +5886,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "inkscape.inkscape|1.4.4|neutral",
@@ -5157,7 +5904,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "insomnia.insomnia|13.4.0|neutral",
@@ -5174,7 +5922,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "irfanskiljan.irfanview|4.76|neutral",
@@ -5191,7 +5940,25 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "iridiumio.compactgui|latest|neutral",
+      "status": "skipped",
+      "reason": "winget manifest missing",
+      "id": "IridiumIO.CompactGUI",
+      "version": "latest",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z"
     },
     {
       "key": "itchio.itch|26.22.0|neutral",
@@ -5208,7 +5975,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jackieliu.notepadsapp|1.5.6.0|neutral",
@@ -5225,7 +5993,26 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "jandedobbeleer.ohmyposh|32.0.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "JanDeDobbeleer.OhMyPosh",
+      "version": "32.0.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jeffreypfau.mgba|0.10.5|neutral",
@@ -5242,7 +6029,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jernejsimoncic.wget|1.21.4|neutral",
@@ -5259,7 +6047,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jesseduffield.lazygit|0.66.1|neutral",
@@ -5276,7 +6065,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.clion|2026.2.4|neutral",
@@ -5293,7 +6083,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.datagrip|2026.3|neutral",
@@ -5310,7 +6101,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.dataspell|2026.1.3.1|neutral",
@@ -5327,7 +6119,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.dotpeek|2026.2.4.1|neutral",
@@ -5344,7 +6137,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "jetbrains.gateway|2026.3|neutral",
@@ -5361,7 +6155,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.goland|2026.3|neutral",
@@ -5378,7 +6173,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.intellijidea.community|2025.3|neutral",
@@ -5395,7 +6191,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.intellijidea.ultimate|2026.2.3|neutral",
@@ -5412,7 +6209,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.phpstorm|2026.2.4|neutral",
@@ -5429,7 +6227,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.pycharm.community|2025.2.6.1|neutral",
@@ -5446,7 +6245,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.pycharm.professional|2024.3.6.1|neutral",
@@ -5463,7 +6263,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.resharper|2026.2.4.1|neutral",
@@ -5480,7 +6281,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "jetbrains.rider|2026.2.3.1|neutral",
@@ -5497,7 +6299,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.rubymine|2026.3|neutral",
@@ -5514,7 +6317,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jetbrains.toolbox|3.9.1.0|neutral",
@@ -5531,7 +6335,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "jetbrains.webstorm|2026.2.4|neutral",
@@ -5548,7 +6353,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jgraph.draw|32.6.10|neutral",
@@ -5565,7 +6371,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "jqlang.jq|1.8.2|neutral",
@@ -5582,7 +6389,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "julialang.julia|1.13.3|neutral",
@@ -5599,7 +6407,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "junegunn.fzf|0.75.0|neutral",
@@ -5616,7 +6425,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "k3d.k3d|5.9.0|neutral",
@@ -5633,7 +6443,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "kakao.kakaotalk|26.9.2.5342|neutral",
@@ -5650,7 +6461,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "kde.falkon|3.1.0|neutral",
@@ -5667,7 +6479,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "keepassxcteam.keepassxc|2.8.0|neutral",
@@ -5684,7 +6497,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "kicad.kicad|10.0.7|neutral",
@@ -5701,7 +6515,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "kingsoft.wpsoffice|12.2.0.23196|neutral",
@@ -5718,7 +6533,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "kitware.cmake|4.4.4|neutral",
@@ -5735,7 +6551,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "kubernetes.kubectl|1.37.2|neutral",
@@ -5752,7 +6569,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "lamquangminh.evkey|6.0.5|neutral",
@@ -5787,7 +6605,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "librehardwaremonitor.librehardwaremonitor|0.9.6|neutral",
@@ -5804,7 +6623,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "libretro.retroarch|1.22.2|neutral",
@@ -5821,7 +6641,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "librewolf.librewolf|159.0.1-1|neutral",
@@ -5838,7 +6659,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "lizardbyte.sunshine|2026.914.233613|neutral",
@@ -5855,7 +6677,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "llvm.llvm|23.1.5|neutral",
@@ -5872,7 +6695,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "lmms.lmms|1.2.2|neutral",
@@ -5889,7 +6713,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "logisim-evolution.logisim-evolution|5.0.0|neutral",
@@ -5906,7 +6731,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "logitech.ghub|2026.7.992920|neutral",
@@ -5923,7 +6749,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "logitech.optionsplus|2.9.994631|neutral",
@@ -5940,7 +6767,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "logseq.logseq|2.0.2|neutral",
@@ -5957,7 +6785,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "love2d.love2d|11.5|neutral",
@@ -5974,7 +6803,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "luantiteam.luanti|5.17.0|neutral",
@@ -5991,7 +6821,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "m2team.nanazip|7.0.1882.0|neutral",
@@ -6008,7 +6839,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "magic-wormhole.magic-wormhole|0.24.0|neutral",
@@ -6025,7 +6857,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "mailbird.mailbird|3.0.63|neutral",
@@ -6042,7 +6875,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "malwarebytes.adwcleaner|8.8.1.639|neutral",
@@ -6059,7 +6893,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "malwarebytes.malwarebytes|5.7.3.376|neutral",
@@ -6076,7 +6911,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "marekjasinski.freecommanderxe|2026.0.0.941|neutral",
@@ -6093,7 +6929,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "marktext.marktext|0.23.0|neutral",
@@ -6110,7 +6947,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "martchus.syncthingtray|2.1.9|neutral",
@@ -6127,7 +6965,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "mattermost.mattermostdesktop|6.3.2|neutral",
@@ -6144,7 +6983,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "maxon.cinebenchr23|23.200|neutral",
@@ -6161,7 +7001,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "maxthon.maxthon|7.5.3.2400|neutral",
@@ -6178,24 +7019,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
-    },
-    {
-      "key": "medalb.v.medal|4.2309.0|neutral",
-      "status": "skipped",
-      "reason": "installer type 'exe' not supported by pinned route",
-      "id": "MedalB.V.Medal",
-      "version": "4.2309.0",
-      "arch": "neutral",
-      "installer_type": "",
-      "installer_arch": "",
-      "url": "",
-      "sha256": "",
-      "size": 0,
-      "signer_subject": "",
-      "signer_thumbprint": "",
-      "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "mediaarea.mediainfo.gui|26.10|neutral",
@@ -6212,7 +7037,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "mega.megasync|6.7.0.3|neutral",
@@ -6229,7 +7055,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "meltytech.shotcut|26.9.27|neutral",
@@ -6246,7 +7073,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "mercurial.mercurial|7.1.2|neutral",
@@ -6263,7 +7091,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "mersenne.prime95|30.19b20|neutral",
@@ -6280,7 +7109,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "meta.oculus|1.115.0|neutral",
@@ -6297,7 +7127,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "metageek.inssider|5.5.0|neutral",
@@ -6314,7 +7145,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "mhnexus.hxd|2.5|neutral",
@@ -6331,7 +7163,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.azure.azcopy.10|10.34.1|neutral",
@@ -6348,7 +7181,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.azure.storageexplorer|1.47.1|neutral",
@@ -6365,7 +7199,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.azurecli|2.92.0|neutral",
@@ -6382,7 +7217,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.bicep|0.49.2|neutral",
@@ -6399,7 +7235,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.copilot|157.0.4341.42|neutral",
@@ -6416,7 +7253,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.directx|9.29.1974.0|neutral",
@@ -6451,7 +7289,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.10|10.0.14|neutral",
@@ -6468,7 +7307,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.3_1|3.1.32|neutral",
@@ -6485,7 +7325,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.5|5.0.17|neutral",
@@ -6502,7 +7343,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.6|6.0.36|neutral",
@@ -6519,7 +7361,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.7|7.0.20|neutral",
@@ -6536,7 +7379,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.8|8.0.33|neutral",
@@ -6571,7 +7415,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.framework.developerpack_4|4.8.1|neutral",
@@ -6588,7 +7433,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.dotnet.framework.runtime|4.8.1|neutral",
@@ -6605,7 +7451,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.dotnet.runtime.8|8.0.33|neutral",
@@ -6622,7 +7469,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.runtime.9|9.0.22|neutral",
@@ -6639,7 +7487,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.sdk.10|10.0.403|neutral",
@@ -6656,7 +7505,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.sdk.6|6.0.428|neutral",
@@ -6673,7 +7523,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.sdk.7|7.0.410|neutral",
@@ -6690,7 +7541,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.sdk.8|8.0.427|neutral",
@@ -6707,7 +7559,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.sdk.9|9.0.320|neutral",
@@ -6724,7 +7577,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.edgewebview2runtime|157.0.4341.42|neutral",
@@ -6741,7 +7595,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.edge|156.0.4314.58|neutral",
@@ -6758,7 +7613,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.edit|2.0.0|neutral",
@@ -6775,7 +7631,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.mediacreationtool|10.0.26100.7019|neutral",
@@ -6792,7 +7649,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.mouseandkeyboardcenter|14.41.137.0|neutral",
@@ -6809,7 +7667,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.msixpackagingtool|1.2024.405.0|neutral",
@@ -6826,7 +7685,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.nuget|7.9.0|neutral",
@@ -6843,7 +7703,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.officedeploymenttool|16.0.20430.20146|neutral",
@@ -6860,7 +7721,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.office|16.0.20228.20124|neutral",
@@ -6877,7 +7739,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.onedrive|26.183.0920.0005|neutral",
@@ -6894,7 +7757,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.openjdk.17|17.0.21.21|neutral",
@@ -6911,7 +7775,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.openjdk.21|21.0.13.21|neutral",
@@ -6928,7 +7793,494 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.openssh.preview|10.0.0.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.OpenSSH.Preview",
+      "version": "10.0.0.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.outlook|1.2026.812.100|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.Outlook",
+      "version": "1.2026.812.100",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.powershell|7.6.9.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.PowerShell",
+      "version": "7.6.9.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.powertoys|0.102.3101|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "Microsoft.PowerToys",
+      "version": "0.102.3101",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.remotedesktopclient|1.2.7422.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.RemoteDesktopClient",
+      "version": "1.2.7422.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sqlserver.2019.express|15.2204.5490.2|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.SQLServer.2019.Express",
+      "version": "15.2204.5490.2",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.sqlserver.2022.express|16.0.1000.6|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.SQLServer.2022.Express",
+      "version": "16.0.1000.6",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.sqlservermanagementstudio.21|21.6.17|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.SQLServerManagementStudio.21",
+      "version": "21.6.17",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.sysinternals.autoruns|14.3|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.Autoruns",
+      "version": "14.3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.bginfo|4.34|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.BGInfo",
+      "version": "4.34",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.desktops|2.01|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.Desktops",
+      "version": "2.01",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.handle|5.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.Handle",
+      "version": "5.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.processexplorer|17.2|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.ProcessExplorer",
+      "version": "17.2",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.processmonitor|4.13|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.ProcessMonitor",
+      "version": "4.13",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.pstools|2026-11-05|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.PsTools",
+      "version": "2026-11-05",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.rammap|1.63|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.RAMMap",
+      "version": "1.63",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.rdcman|3.23.0.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.RDCMan",
+      "version": "3.23.0.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.sigcheck|2.93|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.Sigcheck",
+      "version": "2.93",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.strings|2.54|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.Strings",
+      "version": "2.54",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.suite|2026-10-15|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.Sysinternals.Suite",
+      "version": "2026-10-15",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.sysmon|15.22|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.Sysmon",
+      "version": "15.22",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.tcpview|4.19|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.TCPView",
+      "version": "4.19",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.vmmap|3.4|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.VMMap",
+      "version": "3.4",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.sysinternals.zoomit|12.3|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.Sysinternals.ZoomIt",
+      "version": "12.3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.teams|26276.513.5241.9675|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.Teams",
+      "version": "26276.513.5241.9675",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.ui.xaml.2.8|8.2310.30001.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm,arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.UI.Xaml.2.8",
+      "version": "8.2310.30001.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.vclibs.desktop.14|14.0.33728.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Microsoft.VCLibs.Desktop.14",
+      "version": "14.0.33728.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.vcredist.2005.x64|8.0.61000|neutral",
@@ -7145,6 +8497,654 @@
         "download.visualstudio.microsoft.com"
       ],
       "checked_at": "2026-11-10T10:42:13.2283092Z"
+    },
+    {
+      "key": "microsoft.visualstudio.2022.buildtools|17.14.44|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.VisualStudio.2022.BuildTools",
+      "version": "17.14.44",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.visualstudio.2022.community|17.14.44|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.VisualStudio.2022.Community",
+      "version": "17.14.44",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.visualstudio.2022.enterprise|17.14.44|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.VisualStudio.2022.Enterprise",
+      "version": "17.14.44",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.visualstudio.2022.professional|17.14.44|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.VisualStudio.2022.Professional",
+      "version": "17.14.44",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.visualstudio.community|18.11.3|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.VisualStudio.Community",
+      "version": "18.11.3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.visualstudio.locator|3.1.7|neutral",
+      "status": "skipped",
+      "reason": "installer type 'portable' not supported by pinned route",
+      "id": "Microsoft.VisualStudio.Locator",
+      "version": "3.1.7",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.visualstudiocode.insiders|1.127.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "Microsoft.VisualStudioCode.Insiders",
+      "version": "1.127.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.visualstudiocode|1.143.1|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "Microsoft.VisualStudioCode",
+      "version": "1.143.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.windbg|1.2611.4001.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'msix' not supported by pinned route",
+      "id": "Microsoft.WinDbg",
+      "version": "1.2611.4001.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.windowsappruntime.1.5|1.5.9|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WindowsAppRuntime.1.5",
+      "version": "1.5.9",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.windowsappruntime.1.6|1.6.9|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WindowsAppRuntime.1.6",
+      "version": "1.6.9",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.windowsapp|2.0.1482.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WindowsApp",
+      "version": "2.0.1482.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.windowspchealthcheck|4.0.2410.23001|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WindowsPCHealthCheck",
+      "version": "4.0.2410.23001",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.windowsterminal|1.25.2733.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'msix' not supported by pinned route",
+      "id": "Microsoft.WindowsTerminal",
+      "version": "1.25.2733.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.wingetcreate|1.12.13.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WingetCreate",
+      "version": "1.12.13.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.wsl|2.7.14|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "Microsoft.WSL",
+      "version": "2.7.14",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mikefarah.yq|4.54.3|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "MikeFarah.yq",
+      "version": "4.54.3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "miktex.miktex|25.12|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "MiKTeX.MiKTeX",
+      "version": "25.12",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "miro.miro|0.11.196|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "Miro.Miro",
+      "version": "0.11.196",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mitmproxy.mitmproxy|12.3.1|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "mitmproxy.mitmproxy",
+      "version": "12.3.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "mobatek.mobaxterm|26.6.0.5560|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Mobatek.MobaXterm",
+      "version": "26.6.0.5560",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "modernflyouts.modernflyouts|0.9.3.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'msix' not supported by pinned route",
+      "id": "ModernFlyouts.ModernFlyouts",
+      "version": "0.9.3.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "moonchildproductions.palemoon|35.0.3|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "MoonchildProductions.PaleMoon",
+      "version": "35.0.3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "moritzbunkus.mkvtoolnix|103.0.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "MoritzBunkus.MKVToolNix",
+      "version": "103.0.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mozilla.firefox.developeredition|156.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Mozilla.Firefox.DeveloperEdition",
+      "version": "156.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mozilla.firefox.esr|153.6.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Mozilla.Firefox.ESR",
+      "version": "153.6.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mozilla.firefox|159.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Mozilla.Firefox",
+      "version": "159.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mozilla.thunderbird|159.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "Mozilla.Thunderbird",
+      "version": "159.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "mpc-be.mpc-be|1.9.3|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "MPC-BE.MPC-BE",
+      "version": "1.9.3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "msys2.msys2|20260927|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "MSYS2.MSYS2",
+      "version": "20260927",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "mullvadvpn.mullvadvpn|2026.5|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "MullvadVPN.MullvadVPN",
+      "version": "2026.5",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "multimc.multimc|0.7.0.4235|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "MultiMC.MultiMC",
+      "version": "0.7.0.4235",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "namazso.openhashtab|3.1.1|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "namazso.OpenHashTab",
+      "version": "3.1.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "nasm.nasm|3.02|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "NASM.NASM",
+      "version": "3.02",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "natron.natron|2.5.0|neutral",
+      "status": "skipped",
+      "reason": "installer type 'zip' not supported by pinned route",
+      "id": "Natron.Natron",
+      "version": "2.5.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "nefarius.hidhide|1.5.230|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Nefarius.HidHide",
+      "version": "1.5.230",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
     },
     {
       "key": "videolan.vlc|3.0.24|neutral",
