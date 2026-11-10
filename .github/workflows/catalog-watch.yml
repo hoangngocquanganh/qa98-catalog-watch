@@ -16,7 +16,7 @@ name: catalog-watch
 
 on:
   schedule:
-    - cron: '17 * * * *'   # mỗi giờ, lệch đầu giờ (đầu giờ bị dồn tải, hay trễ)
+    - cron: '7,22,37,52 * * * *'   # mỗi 15 phút (lệch đầu giờ): chép catalog mới sang Pages nhanh; dò link vẫn theo interval_hours của web admin
   workflow_dispatch:         # chạy tay = ép dò ngay (--force), vẫn tôn trọng enabled=false của web admin
 
 concurrency:
