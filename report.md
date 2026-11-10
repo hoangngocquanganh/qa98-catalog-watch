@@ -1,9 +1,9 @@
 # Báo cáo dò link bộ cài QA98
 
-- Lượt chạy: 2026-11-10 11:35 UTC — catalog revision 33, 952 khoá (gói × phiên bản) cần dò.
-- Đã dò lượt này: **100** — đạt 92 (tải cả file kiểm SHA-256: 75), lỗi tạm 0, link chết 5, sai file 3, bỏ qua (file quá giới hạn tải thử) 0.
+- Lượt chạy: 2026-11-10 12:30 UTC — catalog revision 35, 956 khoá (gói × phiên bản) cần dò.
+- Đã dò lượt này: **100** — đạt 89 (tải cả file kiểm SHA-256: 71), lỗi tạm 1, link chết 6, sai file 4, bỏ qua (file quá giới hạn tải thử) 0.
 - Đang tạm ẩn: **0** (mới ẩn lượt này 0, vừa hiện lại 0).
-- Đề xuất (proposals.json, dữ liệu chưa tin cậy): healthy 92, needs_review 8.
+- Đề xuất (proposals.json, dữ liệu chưa tin cậy): healthy 89, needs_review 10, transient 1.
 
 Ngưỡng: link chết / sai file ẩn sau 3 lượt lỗi, mỗi lượt cách lượt trước ≥ 6 giờ; lỗi tạm (timeout, 429, 5xx) không bao giờ ẩn; đang ẩn cần 2 lượt đạt (có kiểm SHA-256) mới hiện lại.
 
@@ -23,10 +23,12 @@ Không có.
 | Autodesk.DWGTrueView.2027 | 1.0.0.0 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Autodesk/DWGTrueView/2027/1.0.0.0/Autodesk.DWGTrueView.2027.installer.yaml winget manifest exists but installer does not serve the expected file |
 | Bandisoft.Bandizip | 7.47 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bandisoft/Bandizip/7.47/Bandisoft.Bandizip.installer.yaml winget manifest exists but installer does not serve the expected file |
 | BiniSoft.WindowsFirewallControl | 6.37.0.0 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BiniSoft/WindowsFirewallControl/6.37.0.0/BiniSoft.WindowsFirewallControl.installer.yaml winget manifest exists but installer does not serve the expected file |
-| lamquangminh.EVKey | 6.0.5 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml winget manifest exists but installer does not serve the expected file |
 | Crucial.StorageExecutive | 11.11.112025.00 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/Crucial/StorageExecutive/11.11.112025.00/Crucial.StorageExecutive.installer.yaml winget manifest exists but installer does not serve the expected file |
 | DelugeTeam.Deluge | 2.2.0 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DelugeTeam/Deluge/2.2.0/DelugeTeam.Deluge.installer.yaml winget manifest exists but installer does not serve the expected file |
 | DolphinEmulator.Dolphin | 5.0 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DolphinEmulator/Dolphin/5.0/DolphinEmulator.Dolphin.installer.yaml winget manifest exists but installer does not serve the expected file |
+| lamquangminh.EVKey | 6.0.5 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml winget manifest exists but installer does not serve the expected file |
+| ElectronicArts.Origin | 10.5.129.55742 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ElectronicArts/Origin/10.5.129.55742/ElectronicArts.Origin.installer.yaml winget manifest exists but installer does not serve the expected file |
+| Emsisoft.EmergencyKit | 2025.7.0.12683 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Emsisoft/EmergencyKit/2025.7.0.12683/Emsisoft.EmergencyKit.installer.yaml winget manifest exists but installer does not serve the expected file |
 
 same_artifact = cùng SHA-256 đã tải kiểm, chỉ đổi URL; new_artifact = bản mới hơn trong winget-pkgs (chưa tải, phải kiểm file + chữ ký trên máy quản trị trước khi ký catalog); retire_candidate = cả thư mục gói mất khỏi winget-pkgs.
 
@@ -41,4 +43,6 @@ same_artifact = cùng SHA-256 đã tải kiểm, chỉ đổi URL; new_artifact 
 | Crucial.StorageExecutive | 11.11.112025.00 | HTML page | 2026-11-10 11:35 UTC | 1 | https://assets.micron.com/adobe/assets/urn:aaid:aem:4f8683ee-4679-4a2e-8f94-522fa19126d2/renditions/original/as/storage-executive-win-64-11-11.zip | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/Crucial/StorageExecutive/11.11.112025.00/Crucial.StorageExecutive.installer.yaml<br>https://assets.micron.com/adobe/assets/urn:aaid:aem:4f8683ee-4679-4a2e-8f94-522fa19126d2/renditions/original/as/storage-executive-win-64-11-11.zip |
 | DelugeTeam.Deluge | 2.2.0 | url is not https | 2026-11-10 11:35 UTC | 1 | http://download.deluge-torrent.org/windows/deluge-2.2.0-win32-setup.exe | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DelugeTeam/Deluge/2.2.0/DelugeTeam.Deluge.installer.yaml<br>http://download.deluge-torrent.org/windows/deluge-2.2.0-win32-setup.exe<br>http://download.deluge-torrent.org/windows/deluge-2.2.0-win64-setup.exe |
 | DolphinEmulator.Dolphin | 5.0 | HTTP 403 (repeated) | 2026-11-10 11:35 UTC | 1 | https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DolphinEmulator/Dolphin/5.0/DolphinEmulator.Dolphin.installer.yaml<br>https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe |
+| ElectronicArts.Origin | 10.5.129.55742 | HTTP 404 | 2026-11-10 12:30 UTC | 1 | https://download.dm.origin.com/origin/live/OriginSetup.exe | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ElectronicArts/Origin/10.5.129.55742/ElectronicArts.Origin.installer.yaml<br>https://download.dm.origin.com/origin/live/OriginSetup.exe |
+| Emsisoft.EmergencyKit | 2025.7.0.12683 | sha256 mismatch | 2026-11-10 12:30 UTC | 1 | https://dl.emsisoft.com/EmsisoftEmergencyKit.exe expected 5519e67d1833e8ea915bc4a654ffd5838d2095eb02a3aca49b4ff91d69046513 got a2e86f0448279fca14c22a69f0c92dd03258baecdc322223b6880bd648e23d7a | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Emsisoft/EmergencyKit/2025.7.0.12683/Emsisoft.EmergencyKit.installer.yaml<br>https://dl.emsisoft.com/EmsisoftEmergencyKit.exe |
 | lamquangminh.EVKey | 6.0.5 | sha256 mismatch | 2026-11-10 05:10 UTC | 2 | https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip expected 836fb7d7498b8ee63ab97b01ef0f37ba008a736aefbbb33adfb427ce662c0a90 got 59ac1ceeb7fce4407f5565a9ecf885210b450a3b789e035f06d07728e26e78bc | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml<br>https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip |
