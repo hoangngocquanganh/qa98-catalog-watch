@@ -390,7 +390,8 @@ namespace CatalogWatch
                     Slug = g.First().t.Slug, WingetId = g.First().t.WingetId.Length > 0 ? g.First().t.WingetId : g.First().e.Id, Version = g.First().t.Version,
                     InstallerType = "exe", SilentSwitch = g.All(x => x.e.SilentCheck == "exe"),
                 })
-                .OrderBy(s => s.SilentSwitch).ThenBy(s => s.Slug, StringComparer.Ordinal).ThenBy(s => s.Version, StringComparer.Ordinal).ToList();
+                .OrderBy(s => s.SilentSwitch).ThenBy(s => s.Slug, StringComparer.Ordinal).ThenBy(s => s.Version, StringComparer.Ordinal)
+                .Take(300).ToList();   // server đọc tối đa 300 mục; thiếu switch xếp trước
         }
 
         /// <summary>GET theo redirect (tự kiểm từng hop: https, không userinfo; IP nội bộ bị chặn ở ConnectCallback). file = null => đọc chữ vào bộ nhớ.</summary>
