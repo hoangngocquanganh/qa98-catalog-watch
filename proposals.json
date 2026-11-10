@@ -2,8 +2,65 @@
   "schema": 1,
   "untrusted": true,
   "baseRevision": 24,
-  "generated_at": "2026-11-10T05:10:36.1489761Z",
+  "generated_at": "2026-11-10T05:34:10.0768548Z",
   "items": [
+    {
+      "key": "w:aimp.aimp|5.10.2418",
+      "winget_id": "AIMP.AIMP",
+      "slug": "aimp-aimp",
+      "version": "5.10.2418",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "Broken",
+      "reason": "HTTP 404",
+      "note": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AIMP/AIMP/5.10.2418/AIMP.AIMP.installer.yaml",
+        "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
+        "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w32.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AIMP/AIMP/5.10.2418/AIMP.AIMP.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:google.chrome|157.0.8103.39",
+      "winget_id": "Google.Chrome",
+      "slug": "chrome",
+      "version": "157.0.8103.39",
+      "arch": "neutral",
+      "kind": "new_artifact",
+      "outcome": "Broken",
+      "reason": "winget manifest missing",
+      "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.39/Google.Chrome.installer.yaml",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.39/Google.Chrome.installer.yaml"
+      ],
+      "candidate_version": "157.0.8103.51",
+      "candidate_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
+      "candidate_sha256": "0b76a091b8eaf495775abbef027d4d78814530cced68cd7a43033e1aaee0aa77",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.51/Google.Chrome.installer.yaml manifests/g/Google/Chrome/157.0.8103.51@7899c1f5d686426eb6d161633dd1e110e9bea998 approved version missing from winget-pkgs; newer manifest found (needs review, not downloaded)"
+    },
+    {
+      "key": "w:lamquangminh.evkey|6.0.5",
+      "winget_id": "lamquangminh.EVKey",
+      "slug": "evkey",
+      "version": "6.0.5",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip expected 836fb7d7498b8ee63ab97b01ef0f37ba008a736aefbbb33adfb427ce662c0a90 got 59ac1ceeb7fce4407f5565a9ecf885210b450a3b789e035f06d07728e26e78bc",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml",
+        "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
     {
       "key": "w:7zip.7zip|26.06",
       "winget_id": "7zip.7zip",
@@ -46,43 +103,6 @@
       "candidate_url": "",
       "candidate_sha256": "",
       "evidence": ""
-    },
-    {
-      "key": "w:google.chrome|157.0.8103.39",
-      "winget_id": "Google.Chrome",
-      "slug": "chrome",
-      "version": "157.0.8103.39",
-      "arch": "neutral",
-      "kind": "new_artifact",
-      "outcome": "Broken",
-      "reason": "winget manifest missing",
-      "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.39/Google.Chrome.installer.yaml",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.39/Google.Chrome.installer.yaml"
-      ],
-      "candidate_version": "157.0.8103.51",
-      "candidate_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
-      "candidate_sha256": "0b76a091b8eaf495775abbef027d4d78814530cced68cd7a43033e1aaee0aa77",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.51/Google.Chrome.installer.yaml manifests/g/Google/Chrome/157.0.8103.51@7899c1f5d686426eb6d161633dd1e110e9bea998 approved version missing from winget-pkgs; newer manifest found (needs review, not downloaded)"
-    },
-    {
-      "key": "w:lamquangminh.evkey|6.0.5",
-      "winget_id": "lamquangminh.EVKey",
-      "slug": "evkey",
-      "version": "6.0.5",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "HashMismatch",
-      "reason": "sha256 mismatch",
-      "note": "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip expected 836fb7d7498b8ee63ab97b01ef0f37ba008a736aefbbb33adfb427ce662c0a90 got 59ac1ceeb7fce4407f5565a9ecf885210b450a3b789e035f06d07728e26e78bc",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml",
-        "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/lamquangminh/EVKey/6.0.5/lamquangminh.EVKey.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
       "key": "w:microsoft.directx|9.29.1974.0",
@@ -417,18 +437,18 @@
       "evidence": ""
     },
     {
-      "key": "s:mpv|0.42.0",
-      "winget_id": "",
-      "slug": "mpv",
-      "version": "0.42.0",
-      "arch": "x64,arm64",
+      "key": "w:amazon.sam-cli|1.171.0",
+      "winget_id": "Amazon.SAM-CLI",
+      "slug": "amazon-sam-cli",
+      "version": "1.171.0",
+      "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://github.com/mpv-player/mpv/releases/download/v0.42.0/mpv-v0.42.0-x86_64-pc-windows-msvc.zip",
-        "https://github.com/mpv-player/mpv/releases/download/v0.42.0/mpv-v0.42.0-aarch64-pc-windows-msvc.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/SAM-CLI/1.171.0/Amazon.SAM-CLI.installer.yaml",
+        "https://github.com/aws/aws-sam-cli/releases/download/v1.171.0/AWS_SAM_CLI_64_PY3.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -436,18 +456,18 @@
       "evidence": ""
     },
     {
-      "key": "s:powertoys|0.102.3101.0",
-      "winget_id": "",
-      "slug": "powertoys",
-      "version": "0.102.3101.0",
-      "arch": "x64,arm64",
+      "key": "w:amd.amdsoftwarecloudedition|23.Q3",
+      "winget_id": "AMD.AMDSoftwareCloudEdition",
+      "slug": "amd-amdsoftwarecloudedition",
+      "version": "23.Q3",
+      "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-x64.exe",
-        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-arm64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AMD/AMDSoftwareCloudEdition/23.Q3/AMD.AMDSoftwareCloudEdition.installer.yaml",
+        "https://go.microsoft.com/fwlink/"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -455,18 +475,706 @@
       "evidence": ""
     },
     {
-      "key": "s:rustdesk|1.5.1",
-      "winget_id": "",
-      "slug": "rustdesk",
+      "key": "w:anaconda.anaconda3|2026.07-1",
+      "winget_id": "Anaconda.Anaconda3",
+      "slug": "anaconda-anaconda3",
+      "version": "2026.07-1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anaconda/Anaconda3/2026.07-1/Anaconda.Anaconda3.installer.yaml",
+        "https://repo.anaconda.com/archive/Anaconda3-2026.07-1-Windows-x86_64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:andrewiethoff.exactaudiocopy|1.8",
+      "winget_id": "AndreWiethoff.ExactAudioCopy",
+      "slug": "andrewiethoff-exactaudiocopy",
+      "version": "1.8",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AndreWiethoff/ExactAudioCopy/1.8/AndreWiethoff.ExactAudioCopy.installer.yaml",
+        "https://www.exactaudiocopy.de/eac-1.8.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:angryziber.angryipscanner|3.10.0",
+      "winget_id": "angryziber.AngryIPScanner",
+      "slug": "angryziber-angryipscanner",
+      "version": "3.10.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/angryziber/AngryIPScanner/3.10.0/angryziber.AngryIPScanner.installer.yaml",
+        "https://github.com/angryip/ipscan/releases/download/3.10.0/ipscan-3.10.0-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:anki.anki|26.09.4",
+      "winget_id": "Anki.Anki",
+      "slug": "anki-anki",
+      "version": "26.09.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anki/Anki/26.09.4/Anki.Anki.installer.yaml",
+        "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-x64.msi",
+        "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-arm64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:anthropic.claudecode|2.1.317",
+      "winget_id": "Anthropic.ClaudeCode",
+      "slug": "anthropic-claudecode",
+      "version": "2.1.317",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anthropic/ClaudeCode/2.1.317/Anthropic.ClaudeCode.installer.yaml",
+        "https://downloads.claude.ai/claude-code-releases/2.1.317/win32-x64/claude.exe",
+        "https://downloads.claude.ai/claude-code-releases/2.1.317/win32-arm64/claude.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:anthropic.claude|2.42304.2",
+      "winget_id": "Anthropic.Claude",
+      "slug": "anthropic-claude",
+      "version": "2.42304.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anthropic/Claude/2.42304.2/Anthropic.Claude.installer.yaml",
+        "https://downloads.claude.ai/releases/win32/x64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.msix",
+        "https://downloads.claude.ai/releases/win32/arm64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.msix",
+        "https://downloads.claude.ai/releases/win32/x64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.exe",
+        "https://downloads.claude.ai/releases/win32/arm64/2.42304.2/Claude-af65c0e384c1657459441aac3083c6e622789afe.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:antibodysoftware.wizfile|3.15",
+      "winget_id": "AntibodySoftware.WizFile",
+      "slug": "antibodysoftware-wizfile",
+      "version": "3.15",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AntibodySoftware/WizFile/3.15/AntibodySoftware.WizFile.installer.yaml",
+        "https://antibody-software.com/files/wizfile_3_15_setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:antibodysoftware.wiztree|4.33",
+      "winget_id": "AntibodySoftware.WizTree",
+      "slug": "antibodysoftware-wiztree",
+      "version": "4.33",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AntibodySoftware/WizTree/4.33/AntibodySoftware.WizTree.installer.yaml",
+        "https://diskanalyzer.com/files/wiztree_4_33_setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:antimicrox.antimicrox|3.6.1",
+      "winget_id": "AntiMicroX.antimicrox",
+      "slug": "antimicrox-antimicrox",
+      "version": "3.6.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AntiMicroX/antimicrox/3.6.1/AntiMicroX.antimicrox.installer.yaml",
+        "https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/antimicrox-3.6.1-Windows-AMD64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:antonreshetov.masscode|6.3.1",
+      "winget_id": "antonreshetov.massCode",
+      "slug": "antonreshetov-masscode",
+      "version": "6.3.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/antonreshetov/massCode/6.3.1/antonreshetov.massCode.installer.yaml",
+        "https://github.com/massCodeIO/massCode/releases/download/v6.3.1/massCode-6.3.1-x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:anydesk.anydesk|9.8.3",
+      "winget_id": "AnyDesk.AnyDesk",
+      "slug": "anydesk",
+      "version": "9.8.3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AnyDesk/AnyDesk/9.8.3/AnyDesk.AnyDesk.installer.yaml",
+        "https://download.anydesk.com/AnyDesk.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:anysphere.cursor|3.27.12",
+      "winget_id": "Anysphere.Cursor",
+      "slug": "anysphere-cursor",
+      "version": "3.27.12",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anysphere/Cursor/3.27.12/Anysphere.Cursor.installer.yaml",
+        "https://downloads.cursor.com/production/df132ffba90dfc15a12e6b8f020ba4e5d026c4be/win32/x64/user-setup/CursorUserSetup-x64-3.27.12.exe",
+        "https://downloads.cursor.com/production/df132ffba90dfc15a12e6b8f020ba4e5d026c4be/win32/x64/system-setup/CursorSetup-x64-3.27.12.exe",
+        "https://downloads.cursor.com/production/df132ffba90dfc15a12e6b8f020ba4e5d026c4be/win32/arm64/user-setup/CursorUserSetup-arm64-3.27.12.exe",
+        "https://downloads.cursor.com/production/df132ffba90dfc15a12e6b8f020ba4e5d026c4be/win32/arm64/system-setup/CursorSetup-arm64-3.27.12.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:anytxt.anytxtsearcher|1.3.2477",
+      "winget_id": "AnyTXT.AnyTXTSearcher",
+      "slug": "anytxt-anytxtsearcher",
+      "version": "1.3.2477",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AnyTXT/AnyTXTSearcher/1.3.2477/AnyTXT.AnyTXTSearcher.installer.yaml",
+        "https://sourceforge.net/projects/anytxt/files/Anytxt_1.3.2477_Windows_X86_32.exe/download",
+        "https://sourceforge.net/projects/anytxt/files/Anytxt_1.3.2477_Windows_X86_64.exe/download"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:aomei.backupper.standard|8.5.1",
+      "winget_id": "AOMEI.Backupper.Standard",
+      "slug": "aomei-backupper-standard",
+      "version": "8.5.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AOMEI/Backupper/Standard/8.5.1/AOMEI.Backupper.Standard.installer.yaml",
+        "https://www.aomeiget.com/download/adb/AOMEIBackupperStd.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:aomei.partitionassistant|10.12.2",
+      "winget_id": "AOMEI.PartitionAssistant",
+      "slug": "aomei-partitionassistant",
+      "version": "10.12.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AOMEI/PartitionAssistant/10.12.2/AOMEI.PartitionAssistant.installer.yaml",
+        "https://www.aomeiget.com/download/pa/PAssist_Std.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:apache.netbeans|25",
+      "winget_id": "Apache.NetBeans",
+      "slug": "apache-netbeans",
+      "version": "25",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Apache/NetBeans/25/Apache.NetBeans.installer.yaml",
+        "https://archive.apache.org/dist/netbeans/netbeans-installers/25/Apache-NetBeans-25-bin-windows-x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:apache.openoffice|4.117.9818",
+      "winget_id": "Apache.OpenOffice",
+      "slug": "apache-openoffice",
+      "version": "4.117.9818",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Apache/OpenOffice/4.117.9818/Apache.OpenOffice.installer.yaml",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/en-US/Apache_OpenOffice_4.1.17_Win_x86_install_en-US.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ast/Apache_OpenOffice_4.1.17_Win_x86_install_ast.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/bg/Apache_OpenOffice_4.1.17_Win_x86_install_bg.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ca/Apache_OpenOffice_4.1.17_Win_x86_install_ca.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ca-XV/Apache_OpenOffice_4.1.17_Win_x86_install_ca-XV.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ca-XR/Apache_OpenOffice_4.1.17_Win_x86_install_ca-XR.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/cs/Apache_OpenOffice_4.1.17_Win_x86_install_cs.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/da/Apache_OpenOffice_4.1.17_Win_x86_install_da.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/de/Apache_OpenOffice_4.1.17_Win_x86_install_de.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/el/Apache_OpenOffice_4.1.17_Win_x86_install_el.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/en-GB/Apache_OpenOffice_4.1.17_Win_x86_install_en-GB.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/es/Apache_OpenOffice_4.1.17_Win_x86_install_es.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/eu/Apache_OpenOffice_4.1.17_Win_x86_install_eu.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/fi/Apache_OpenOffice_4.1.17_Win_x86_install_fi.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/fr/Apache_OpenOffice_4.1.17_Win_x86_install_fr.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/gd/Apache_OpenOffice_4.1.17_Win_x86_install_gd.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/gl/Apache_OpenOffice_4.1.17_Win_x86_install_gl.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/he/Apache_OpenOffice_4.1.17_Win_x86_install_he.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/hi/Apache_OpenOffice_4.1.17_Win_x86_install_hi.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/hu/Apache_OpenOffice_4.1.17_Win_x86_install_hu.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/it/Apache_OpenOffice_4.1.17_Win_x86_install_it.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ja/Apache_OpenOffice_4.1.17_Win_x86_install_ja.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/km/Apache_OpenOffice_4.1.17_Win_x86_install_km.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ko/Apache_OpenOffice_4.1.17_Win_x86_install_ko.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/lt/Apache_OpenOffice_4.1.17_Win_x86_install_lt.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/nb/Apache_OpenOffice_4.1.17_Win_x86_install_nb.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/nl/Apache_OpenOffice_4.1.17_Win_x86_install_nl.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/pl/Apache_OpenOffice_4.1.17_Win_x86_install_pl.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/pt/Apache_OpenOffice_4.1.17_Win_x86_install_pt.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/pt-BR/Apache_OpenOffice_4.1.17_Win_x86_install_pt-BR.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ru/Apache_OpenOffice_4.1.17_Win_x86_install_ru.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/sk/Apache_OpenOffice_4.1.17_Win_x86_install_sk.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/sl/Apache_OpenOffice_4.1.17_Win_x86_install_sl.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/sr/Apache_OpenOffice_4.1.17_Win_x86_install_sr.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/sv/Apache_OpenOffice_4.1.17_Win_x86_install_sv.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/ta/Apache_OpenOffice_4.1.17_Win_x86_install_ta.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/th/Apache_OpenOffice_4.1.17_Win_x86_install_th.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/tr/Apache_OpenOffice_4.1.17_Win_x86_install_tr.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/vi/Apache_OpenOffice_4.1.17_Win_x86_install_vi.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/zh-CN/Apache_OpenOffice_4.1.17_Win_x86_install_zh-CN.exe",
+        "https://downloads.apache.org/openoffice/4.1.17/binaries/zh-TW/Apache_OpenOffice_4.1.17_Win_x86_install_zh-TW.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:apachefriends.xampp.8.1|8.1.25-0",
+      "winget_id": "ApacheFriends.Xampp.8.1",
+      "slug": "apachefriends-xampp-8-1",
+      "version": "8.1.25-0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ApacheFriends/Xampp/8/1/8.1.25-0/ApacheFriends.Xampp.8.1.installer.yaml",
+        "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.25/xampp-windows-x64-8.1.25-0-VS16-installer.exe/download"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:apachefriends.xampp.8.2|8.2.12-0",
+      "winget_id": "ApacheFriends.Xampp.8.2",
+      "slug": "apachefriends-xampp-8-2",
+      "version": "8.2.12-0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ApacheFriends/Xampp/8/2/8.2.12-0/ApacheFriends.Xampp.8.2.installer.yaml",
+        "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:appest.ticktick|8.2.5.0",
+      "winget_id": "Appest.TickTick",
+      "slug": "appest-ticktick",
+      "version": "8.2.5.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Appest/TickTick/8.2.5.0/Appest.TickTick.installer.yaml",
+        "https://download.ticktick.app/download/win/tick_win_setup_release_x86_8250.exe",
+        "https://download.ticktick.app/download/win64/tick_win_setup_release_x64_8250.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:appflowy.appflowy|0.15.0",
+      "winget_id": "AppFlowy.AppFlowy",
+      "slug": "appflowy-appflowy",
+      "version": "0.15.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AppFlowy/AppFlowy/0.15.0/AppFlowy.AppFlowy.installer.yaml",
+        "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.15.0/AppFlowy-0.15.0-windows-x86_64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:apple.icloud|7.21.0.23",
+      "winget_id": "Apple.iCloud",
+      "slug": "apple-icloud",
+      "version": "7.21.0.23",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Apple/iCloud/7.21.0.23/Apple.iCloud.installer.yaml",
+        "https://updates.cdn-apple.com/2020/windows/001-39935-20200911-1A70AA56-F448-11EA-8CC0-99D41950005E/iCloudSetup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:apple.itunes|12.13.12.3",
+      "winget_id": "Apple.iTunes",
+      "slug": "apple-itunes",
+      "version": "12.13.12.3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Apple/iTunes/12.13.12.3/Apple.iTunes.installer.yaml",
+        "https://secure-appldnld.apple.com/itunes12/142-28288-20261026-a76b3377-3407-4ee8-b601-877f7ba3ca1a/iTunesSetup.exe",
+        "https://secure-appldnld.apple.com/itunes12/142-28289-20261026-6acff6c8-72eb-4045-84eb-fd35239ac645/iTunes64Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:appmakes.typora|1.14.15",
+      "winget_id": "appmakes.Typora",
+      "slug": "appmakes-typora",
+      "version": "1.14.15",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/appmakes/Typora/1.14.15/appmakes.Typora.installer.yaml",
+        "https://downloads.typora.io/windows/typora-setup-ia32-1.14.15.exe",
+        "https://downloads.typora.io/windows/typora-setup-x64-1.14.15.exe",
+        "https://downloads.typora.io/windows/typora-setup-arm64-1.14.9.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:appwork.jdownloader|2.0",
+      "winget_id": "AppWork.JDownloader",
+      "slug": "appwork-jdownloader",
+      "version": "2.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AppWork/JDownloader/2.0/AppWork.JDownloader.installer.yaml",
+        "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-x86_v1_8_0_472.exe",
+        "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-amd64_v1_8_0_482.exe",
+        "https://installer.jdownloader.org/winget/2026-03-31/JDownloader2Setup_windows-aarch64_v21_0_10.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:araxis.merge|2026.1",
+      "winget_id": "Araxis.Merge",
+      "slug": "araxis-merge",
+      "version": "2026.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Araxis/Merge/2026.1/Araxis.Merge.installer.yaml",
+        "https://www.araxis.com/download/Merge2026.1-x64.msi",
+        "https://www.araxis.com/download/Merge2026.1-x64-ja.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:arduinosa.cli|1.5.1",
+      "winget_id": "ArduinoSA.CLI",
+      "slug": "arduinosa-cli",
       "version": "1.5.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArduinoSA/CLI/1.5.1/ArduinoSA.CLI.installer.yaml",
+        "https://github.com/arduino/arduino-cli/releases/download/v1.5.1/arduino-cli_1.5.1_Windows_64bit.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:arduinosa.ide.stable|2.3.10",
+      "winget_id": "ArduinoSA.IDE.stable",
+      "slug": "arduinosa-ide-stable",
+      "version": "2.3.10",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ArduinoSA/IDE/stable/2.3.10/ArduinoSA.IDE.stable.installer.yaml",
+        "https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Windows_64bit.zip",
+        "https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Windows_64bit.exe",
+        "https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Windows_64bit.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:argotronic.argusmonitor|7.4.3.3193",
+      "winget_id": "Argotronic.ArgusMonitor",
+      "slug": "argotronic-argusmonitor",
+      "version": "7.4.3.3193",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Argotronic/ArgusMonitor/7.4.3.3193/Argotronic.ArgusMonitor.installer.yaml",
+        "https://www.argusmonitor.com/downloads/ArgusMonitor_Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:astral-sh.uv|0.13.7",
+      "winget_id": "astral-sh.uv",
+      "slug": "astral-sh-uv",
+      "version": "0.13.7",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/astral-sh/uv/0.13.7/astral-sh.uv.installer.yaml",
+        "https://github.com/astral-sh/uv/releases/download/0.13.7/uv-i686-pc-windows-msvc.zip",
+        "https://github.com/astral-sh/uv/releases/download/0.13.7/uv-x86_64-pc-windows-msvc.zip",
+        "https://github.com/astral-sh/uv/releases/download/0.13.7/uv-aarch64-pc-windows-msvc.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:asus.armourycrate|6.5.7.0",
+      "winget_id": "Asus.ArmouryCrate",
+      "slug": "asus-armourycrate",
+      "version": "6.5.7.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Asus/ArmouryCrate/6.5.7.0/Asus.ArmouryCrate.installer.yaml",
+        "https://dlcdnets.asus.com/pub/ASUS/mb/14Utilities/ArmouryCrateInstallTool.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:atlassian.sourcetree|3.4.33",
+      "winget_id": "Atlassian.Sourcetree",
+      "slug": "atlassian-sourcetree",
+      "version": "3.4.33",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Atlassian/Sourcetree/3.4.33/Atlassian.Sourcetree.installer.yaml",
+        "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.33.exe",
+        "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourcetreeEnterpriseSetup_3.4.33.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:atlauncher.atlauncher|1.3.0.0",
+      "winget_id": "ATLauncher.ATLauncher",
+      "slug": "atlauncher-atlauncher",
+      "version": "1.3.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ATLauncher/ATLauncher/1.3.0.0/ATLauncher.ATLauncher.installer.yaml",
+        "https://atlauncher.com/download/exe-setup"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:audacity.audacity|4.0.2",
+      "winget_id": "Audacity.Audacity",
+      "slug": "audacity",
+      "version": "4.0.2",
       "arch": "x64,arm64",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-x86_64.msi",
-        "https://github.com/rustdesk/rustdesk/releases/download/1.5.1/rustdesk-1.5.1-aarch64.msi"
+        "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi",
+        "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -474,18 +1182,19 @@
       "evidence": ""
     },
     {
-      "key": "w:2brightsparks.syncbackfree|12.1.34.0",
-      "winget_id": "2BrightSparks.SyncBackFree",
-      "slug": "2brightsparks-syncbackfree",
-      "version": "12.1.34.0",
+      "key": "w:audacity.audacity|4.0.2.263060742",
+      "winget_id": "Audacity.Audacity",
+      "slug": "audacity",
+      "version": "4.0.2.263060742",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/2/2BrightSparks/SyncBackFree/12.1.34.0/2BrightSparks.SyncBackFree.installer.yaml",
-        "https://www.2brightsparks.com/assets/software/SyncBack/SyncBack_Setup.12.1.34.0.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Audacity/Audacity/4.0.2.263060742/Audacity.Audacity.installer.yaml",
+        "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi",
+        "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -493,269 +1202,37 @@
       "evidence": ""
     },
     {
-      "key": "w:abdelrhman-ak.winpaletter|1.1.0.0",
-      "winget_id": "Abdelrhman-AK.WinPaletter",
-      "slug": "abdelrhman-ak-winpaletter",
-      "version": "1.1.0.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Abdelrhman-AK/WinPaletter/1.1.0.0/Abdelrhman-AK.WinPaletter.installer.yaml",
-        "https://github.com/Abdelrhman-AK/WinPaletter/releases/download/v1.1.0.0/WinPaletter.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:acronis.cyberprotecthomeoffice|28.3.1.41126",
-      "winget_id": "Acronis.CyberProtectHomeOffice",
-      "slug": "acronis-cyberprotecthomeoffice",
-      "version": "28.3.1.41126",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Acronis/CyberProtectHomeOffice/28.3.1.41126/Acronis.CyberProtectHomeOffice.installer.yaml",
-        "https://dl.acronis.com/u/AcronisCyberProtectHomeOffice.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:adguard.adguardvpn|2.9.2004.0",
-      "winget_id": "AdGuard.AdGuardVPN",
-      "slug": "adguard-adguardvpn",
-      "version": "2.9.2004.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AdGuard/AdGuardVPN/2.9.2004.0/AdGuard.AdGuardVPN.installer.yaml",
-        "https://github.com/AdguardTeam/AdGuardVPNForWindows/releases/download/v2.9.0/AdGuardVpn-2.9.0-.2004.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:adguard.adguard|8.0.5595",
-      "winget_id": "AdGuard.AdGuard",
-      "slug": "adguard-adguard",
-      "version": "8.0.5595",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AdGuard/AdGuard/8.0.5595/AdGuard.AdGuard.installer.yaml",
-        "https://static.adtidy.org/windows/setup-8.0.5595.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:adobe.acrobat.reader.32-bit|26.002.22031",
-      "winget_id": "Adobe.Acrobat.Reader.32-bit",
-      "slug": "adobe-acrobat-reader-32-bit",
-      "version": "26.002.22031",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/Acrobat/Reader/32-bit/26.002.22031/Adobe.Acrobat.Reader.32-bit.installer.yaml",
-        "https://ardownload3.adobe.com/pub/adobe/reader/win/AcrobatDC/2600222031/AcroRdrDC2600222031_MUI.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:adobe.brackets|1.14.17770",
-      "winget_id": "Adobe.Brackets",
-      "slug": "adobe-brackets",
-      "version": "1.14.17770",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/Brackets/1.14.17770/Adobe.Brackets.installer.yaml",
-        "https://github.com/adobe/brackets/releases/download/release-1.14.2/Brackets.Release.1.14.2.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:adobe.creativecloud|6.11.0.478.6",
-      "winget_id": "Adobe.CreativeCloud",
-      "slug": "adobe-creativecloud",
-      "version": "6.11.0.478.6",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/CreativeCloud/6.11.0.478.6/Adobe.CreativeCloud.installer.yaml",
-        "https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v1/wam/download"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:adrienallard.fileconverter|2.2",
-      "winget_id": "AdrienAllard.FileConverter",
-      "slug": "adrienallard-fileconverter",
-      "version": "2.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AdrienAllard/FileConverter/2.2/AdrienAllard.FileConverter.installer.yaml",
-        "https://github.com/Tichau/FileConverter/releases/download/v2.2/FileConverter-2.2-x64-setup.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:aegisub.aegisub|3.5.1",
-      "winget_id": "Aegisub.Aegisub",
-      "slug": "aegisub-aegisub",
-      "version": "3.5.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Aegisub/Aegisub/3.5.1/Aegisub.Aegisub.installer.yaml",
-        "https://github.com/TypesettingTools/Aegisub/releases/download/v3.5.1/Aegisub-3.5.1-x64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:agalwood.motrix|1.8.19",
-      "winget_id": "agalwood.Motrix",
-      "slug": "agalwood-motrix",
-      "version": "1.8.19",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/agalwood/Motrix/1.8.19/agalwood.Motrix.installer.yaml",
-        "https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-Setup-1.8.19.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:agilebits.1password|8.12.42.36",
-      "winget_id": "AgileBits.1Password",
-      "slug": "agilebits-1password",
-      "version": "8.12.42.36",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AgileBits/1Password/8.12.42.36/AgileBits.1Password.installer.yaml",
-        "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.42.msixbundle",
-        "https://c.1password.com/dist/1P/win8/1PasswordSetup-8.12.42.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:aimp.aimp|5.10.2418",
-      "winget_id": "AIMP.AIMP",
-      "slug": "aimp-aimp",
-      "version": "5.10.2418",
+      "key": "w:autodesk.dwgtrueview.2027|1.0.0.0",
+      "winget_id": "Autodesk.DWGTrueView.2027",
+      "slug": "autodesk-dwgtrueview-2027",
+      "version": "1.0.0.0",
       "arch": "neutral",
       "kind": "needs_review",
       "outcome": "Broken",
       "reason": "HTTP 404",
-      "note": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
+      "note": "https://upload2.delivery.autodesk.com/WebInstall3StubGUI-1781876152414.exe",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AIMP/AIMP/5.10.2418/AIMP.AIMP.installer.yaml",
-        "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
-        "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w32.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Autodesk/DWGTrueView/2027/1.0.0.0/Autodesk.DWGTrueView.2027.installer.yaml",
+        "https://upload2.delivery.autodesk.com/WebInstall3StubGUI-1781876152414.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
       "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AIMP/AIMP/5.10.2418/AIMP.AIMP.installer.yaml winget manifest exists but installer does not serve the expected file"
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Autodesk/DWGTrueView/2027/1.0.0.0/Autodesk.DWGTrueView.2027.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
-      "key": "w:aivarannamaa.thonny|5.0.1",
-      "winget_id": "AivarAnnamaa.Thonny",
-      "slug": "aivarannamaa-thonny",
-      "version": "5.0.1",
+      "key": "w:autodesk.fusion|2706.1.17",
+      "winget_id": "Autodesk.Fusion",
+      "slug": "autodesk-fusion",
+      "version": "2706.1.17",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AivarAnnamaa/Thonny/5.0.1/AivarAnnamaa.Thonny.installer.yaml",
-        "https://github.com/thonny/thonny/releases/download/v5.0.1/thonny-5.0.1-x64.exe",
-        "https://github.com/thonny/thonny/releases/download/v5.0.1/thonny-5.0.1-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:ajeetdsouza.zoxide|0.10.0",
-      "winget_id": "ajeetdsouza.zoxide",
-      "slug": "ajeetdsouza-zoxide",
-      "version": "0.10.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/ajeetdsouza/zoxide/0.10.0/ajeetdsouza.zoxide.installer.yaml",
-        "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip",
-        "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-pc-windows-msvc.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Autodesk/Fusion/2706.1.17/Autodesk.Fusion.installer.yaml",
+        "https://dl.appstreaming.autodesk.com/production/installers/Fusion%20Client%20Downloader.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -763,18 +1240,18 @@
       "evidence": ""
     },
     {
-      "key": "w:alacritty.alacritty|0.17.0",
-      "winget_id": "Alacritty.Alacritty",
-      "slug": "alacritty-alacritty",
-      "version": "0.17.0",
+      "key": "w:autohotkey.autohotkey|2.0.31",
+      "winget_id": "AutoHotkey.AutoHotkey",
+      "slug": "autohotkey-autohotkey",
+      "version": "2.0.31",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Alacritty/Alacritty/0.17.0/Alacritty.Alacritty.installer.yaml",
-        "https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-installer.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AutoHotkey/AutoHotkey/2.0.31/AutoHotkey.AutoHotkey.installer.yaml",
+        "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.31/AutoHotkey_2.0.31_setup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -782,18 +1259,18 @@
       "evidence": ""
     },
     {
-      "key": "w:alagrede.znote|4.10.0",
-      "winget_id": "alagrede.znote",
-      "slug": "alagrede-znote",
-      "version": "4.10.0",
+      "key": "w:autoit.autoit|3.3.18.0",
+      "winget_id": "AutoIt.AutoIt",
+      "slug": "autoit-autoit",
+      "version": "3.3.18.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/alagrede/znote/4.10.0/alagrede.znote.installer.yaml",
-        "https://github.com/alagrede/znote-app/releases/download/v4.10.0/znote-Setup-4.10.0.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AutoIt/AutoIt/3.3.18.0/AutoIt.AutoIt.installer.yaml",
+        "https://www.autoitscript.com/autoit3/files/archive/autoit/autoit-v3.3.18.0-setup.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -801,18 +1278,21 @@
       "evidence": ""
     },
     {
-      "key": "w:alex313031.thorium.avx2|156.0.8078.80",
-      "winget_id": "Alex313031.Thorium.AVX2",
-      "slug": "alex313031-thorium-avx2",
-      "version": "156.0.8078.80",
+      "key": "w:automattic.simplenote|2.24.0",
+      "winget_id": "Automattic.Simplenote",
+      "slug": "automattic-simplenote",
+      "version": "2.24.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Alex313031/Thorium/AVX2/156.0.8078.80/Alex313031.Thorium.AVX2.installer.yaml",
-        "https://github.com/gz83/thorium/releases/download/M156.0.8078.80/thorium_AVX2_mini_installer.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Automattic/Simplenote/2.24.0/Automattic.Simplenote.installer.yaml",
+        "https://github.com/Automattic/simplenote-electron/releases/download/v2.24.0/Simplenote-win-2.24.0-x64.exe",
+        "https://github.com/Automattic/simplenote-electron/releases/download/v2.24.0/Simplenote-win-store-2.24.0-x64.appx",
+        "https://github.com/Automattic/simplenote-electron/releases/download/v2.24.0/Simplenote-win-2.24.0-ia32.exe",
+        "https://github.com/Automattic/simplenote-electron/releases/download/v2.24.0/Simplenote-win-store-2.24.0-ia32.appx"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -820,18 +1300,18 @@
       "evidence": ""
     },
     {
-      "key": "w:alexanderkojevnikov.spek|0.8.5",
-      "winget_id": "AlexanderKojevnikov.Spek",
-      "slug": "alexanderkojevnikov-spek",
-      "version": "0.8.5",
+      "key": "w:avidemux.avidemux|2.8.1",
+      "winget_id": "Avidemux.Avidemux",
+      "slug": "avidemux-avidemux",
+      "version": "2.8.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AlexanderKojevnikov/Spek/0.8.5/AlexanderKojevnikov.Spek.installer.yaml",
-        "https://github.com/alexkay/spek/releases/download/v0.8.5/spek-0.8.5-beta.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Avidemux/Avidemux/2.8.1/Avidemux.Avidemux.installer.yaml",
+        "https://github.com/mean00/avidemux2/releases/download/2.8.1/Avidemux_2.8.1.VC%2B%2B.64bits.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -839,19 +1319,18 @@
       "evidence": ""
     },
     {
-      "key": "w:alexx2000.doublecommander|1.2.11",
-      "winget_id": "alexx2000.DoubleCommander",
-      "slug": "alexx2000-doublecommander",
-      "version": "1.2.11",
+      "key": "w:axcrypt.axcrypt|2.1.1693.0",
+      "winget_id": "AxCrypt.AxCrypt",
+      "slug": "axcrypt-axcrypt",
+      "version": "2.1.1693.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/alexx2000/DoubleCommander/1.2.11/alexx2000.DoubleCommander.installer.yaml",
-        "https://github.com/doublecmd/doublecmd/releases/download/v1.2.11/doublecmd-1.2.11.i386-win32.msi",
-        "https://github.com/doublecmd/doublecmd/releases/download/v1.2.11/doublecmd-1.2.11.x86_64-win64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/AxCrypt/AxCrypt/2.1.1693.0/AxCrypt.AxCrypt.installer.yaml",
+        "https://account.axcrypt.net/download/axcrypt-2-setup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -859,18 +1338,18 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.awscli|2.39.5",
-      "winget_id": "Amazon.AWSCLI",
-      "slug": "amazon-awscli",
-      "version": "2.39.5",
+      "key": "w:axosoft.gitkraken|12.6.0",
+      "winget_id": "Axosoft.GitKraken",
+      "slug": "axosoft-gitkraken",
+      "version": "12.6.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/AWSCLI/2.39.5/Amazon.AWSCLI.installer.yaml",
-        "https://awscli.amazonaws.com/AWSCLIV2-2.39.5.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Axosoft/GitKraken/12.6.0/Axosoft.GitKraken.installer.yaml",
+        "https://api.gitkraken.dev/releases/production/windows/x64/12.6.0/GitKrakenSetup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -878,19 +1357,18 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.corretto.11.jdk|11.0.33.0",
-      "winget_id": "Amazon.Corretto.11.JDK",
-      "slug": "amazon-corretto-11-jdk",
-      "version": "11.0.33.0",
+      "key": "w:azul.zulu.21.jdk|21.54.109",
+      "winget_id": "Azul.Zulu.21.JDK",
+      "slug": "azul-zulu-21-jdk",
+      "version": "21.54.109",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/11/JDK/11.0.33.0/Amazon.Corretto.11.JDK.installer.yaml",
-        "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x86.msi",
-        "https://corretto.aws/downloads/resources/11.0.33.0.10/amazon-corretto-11.0.33.0.10-windows-x64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Azul/Zulu/21/JDK/21.54.109/Azul.Zulu.21.JDK.installer.yaml",
+        "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-win_x64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -898,18 +1376,18 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.corretto.17.jdk|17.0.21.0",
-      "winget_id": "Amazon.Corretto.17.JDK",
-      "slug": "amazon-corretto-17-jdk",
-      "version": "17.0.21.0",
-      "arch": "neutral",
+      "key": "w:balena.etcher|2.1.9",
+      "winget_id": "Balena.Etcher",
+      "slug": "balena-etcher",
+      "version": "2.1.9",
+      "arch": "x64,neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/17/JDK/17.0.21.0/Amazon.Corretto.17.JDK.installer.yaml",
-        "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64.msi"
+        "https://github.com/balena-io/etcher/releases/download/v2.1.9/balenaEtcher-2.1.9.Setup.exe",
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Balena/Etcher/2.1.9/Balena.Etcher.installer.yaml"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -917,18 +1395,19 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.corretto.21.jdk|21.0.13.0",
-      "winget_id": "Amazon.Corretto.21.JDK",
-      "slug": "amazon-corretto-21-jdk",
-      "version": "21.0.13.0",
+      "key": "w:bambulab.bambustudio|02.09.01.70",
+      "winget_id": "Bambulab.Bambustudio",
+      "slug": "bambulab-bambustudio",
+      "version": "02.09.01.70",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/21/JDK/21.0.13.0/Amazon.Corretto.21.JDK.installer.yaml",
-        "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bambulab/Bambustudio/02.09.01.70/Bambulab.Bambustudio.installer.yaml",
+        "https://github.com/bambulab/BambuStudio/releases/download/v02.09.01.70/Bambu_Studio_win-v02.09.01.70-20261103183404.exe",
+        "https://github.com/bambulab/BambuStudio/releases/download/v02.09.01.70/Bambu_Studio_win-v02.09.01.70-20261103183404.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -936,18 +1415,18 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.corretto.25.jdk|25.0.5.0",
-      "winget_id": "Amazon.Corretto.25.JDK",
-      "slug": "amazon-corretto-25-jdk",
-      "version": "25.0.5.0",
+      "key": "w:bandicamcompany.bandicam|27.0.7.2687",
+      "winget_id": "BandicamCompany.Bandicam",
+      "slug": "bandicamcompany-bandicam",
+      "version": "27.0.7.2687",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/25/JDK/25.0.5.0/Amazon.Corretto.25.JDK.installer.yaml",
-        "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BandicamCompany/Bandicam/27.0.7.2687/BandicamCompany.Bandicam.installer.yaml",
+        "https://dl.bandicam.com/bdcamsetup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -955,19 +1434,38 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.corretto.8.jdk|1.8.0.512",
-      "winget_id": "Amazon.Corretto.8.JDK",
-      "slug": "amazon-corretto-8-jdk",
-      "version": "1.8.0.512",
+      "key": "w:bandisoft.bandizip|7.47",
+      "winget_id": "Bandisoft.Bandizip",
+      "slug": "bandisoft-bandizip",
+      "version": "7.47",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-ALL.EXE expected f35590f4b2660d0698049a454167381efa462e5821b32af5e4562bc4ac929d44 got 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bandisoft/Bandizip/7.47/Bandisoft.Bandizip.installer.yaml",
+        "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-ALL.EXE",
+        "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-X64.EXE"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bandisoft/Bandizip/7.47/Bandisoft.Bandizip.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:bartoszcichecki.lenovolegiontoolkit|2.26.1",
+      "winget_id": "BartoszCichecki.LenovoLegionToolkit",
+      "slug": "bartoszcichecki-lenovolegiontoolkit",
+      "version": "2.26.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Corretto/8/JDK/1.8.0.512/Amazon.Corretto.8.JDK.installer.yaml",
-        "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x86-jdk.msi",
-        "https://corretto.aws/downloads/resources/8.512.09.1/amazon-corretto-8.512.09.1-windows-x64-jdk.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BartoszCichecki/LenovoLegionToolkit/2.26.1/BartoszCichecki.LenovoLegionToolkit.installer.yaml",
+        "https://github.com/BartoszCichecki/LenovoLegionToolkit/releases/download/2.26.1/LenovoLegionToolkitSetup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -975,18 +1473,521 @@
       "evidence": ""
     },
     {
-      "key": "w:amazon.games|3.0.9700.3",
-      "winget_id": "Amazon.Games",
-      "slug": "amazon-games",
-      "version": "3.0.9700.3",
+      "key": "w:beekeeper-studio.beekeeper-studio|6.2.2",
+      "winget_id": "beekeeper-studio.beekeeper-studio",
+      "slug": "beekeeper-studio-beekeeper-studio",
+      "version": "6.2.2",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Amazon/Games/3.0.9700.3/Amazon.Games.installer.yaml",
-        "https://download.amazongames.com/AmazonGamesSetup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/beekeeper-studio/beekeeper-studio/6.2.2/beekeeper-studio.beekeeper-studio.installer.yaml",
+        "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-Setup-6.2.2.exe",
+        "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.2.2/Beekeeper-Studio-Setup-6.2.2-arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:beeper.beeper|4.3.284",
+      "winget_id": "Beeper.Beeper",
+      "slug": "beeper-beeper",
+      "version": "4.3.284",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Beeper/Beeper/4.3.284/Beeper.Beeper.installer.yaml",
+        "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.284.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:belledonnecommunications.linphone|6.2.4",
+      "winget_id": "BelledonneCommunications.Linphone",
+      "slug": "belledonnecommunications-linphone",
+      "version": "6.2.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BelledonneCommunications/Linphone/6.2.4/BelledonneCommunications.Linphone.installer.yaml",
+        "https://download.linphone.org/releases/windows/app/Linphone-6.2.4-win64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bellsoft.libericajdk.21|21.0.13.305",
+      "winget_id": "BellSoft.LibericaJDK.21",
+      "slug": "bellsoft-libericajdk-21",
+      "version": "21.0.13.305",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BellSoft/LibericaJDK/21/21.0.13.305/BellSoft.LibericaJDK.21.installer.yaml",
+        "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-amd64.msi",
+        "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-i586.msi",
+        "https://download.bell-sw.com/java/21.0.13.0.3+5/bellsoft-jdk21.0.13.0.3+5-windows-aarch64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bethesda.launcher|1.84.0",
+      "winget_id": "Bethesda.Launcher",
+      "slug": "bethesda-launcher",
+      "version": "1.84.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bethesda/Launcher/1.84.0/Bethesda.Launcher.installer.yaml",
+        "https://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:betterbird.betterbird|153.6.0",
+      "winget_id": "Betterbird.Betterbird",
+      "slug": "betterbird-betterbird",
+      "version": "153.6.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Betterbird/Betterbird/153.6.0/Betterbird.Betterbird.installer.yaml",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.en-US.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.de.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.es-ES.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.fr.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.it.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.ja.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.nl.win64.installer.exe",
+        "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.ru.win64.installer.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:binisoft.windowsfirewallcontrol|6.37.0.0",
+      "winget_id": "BiniSoft.WindowsFirewallControl",
+      "slug": "binisoft-windowsfirewallcontrol",
+      "version": "6.37.0.0",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://www.binisoft.org/download/wfc6setup.exe expected 26bd4b19fb8ab523e621e40ec5426b7289b467e88505d6764a87e7ad6df4d5c1 got f726c3c3a3701fa37ddf821385ea9cc81bf64c0445318856b517491d00d61d8c",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BiniSoft/WindowsFirewallControl/6.37.0.0/BiniSoft.WindowsFirewallControl.installer.yaml",
+        "https://www.binisoft.org/download/wfc6setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BiniSoft/WindowsFirewallControl/6.37.0.0/BiniSoft.WindowsFirewallControl.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:bitdefender.bitdefender|26.0.1.233",
+      "winget_id": "Bitdefender.Bitdefender",
+      "slug": "bitdefender-bitdefender",
+      "version": "26.0.1.233",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bitdefender/Bitdefender/26.0.1.233/Bitdefender.Bitdefender.installer.yaml",
+        "https://download.bitdefender.com/windows/bp/agent/en-us/bitdefender_online.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bitsum.processlasso|19.0.0.94",
+      "winget_id": "BitSum.ProcessLasso",
+      "slug": "bitsum-processlasso",
+      "version": "19.0.0.94",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BitSum/ProcessLasso/19.0.0.94/BitSum.ProcessLasso.installer.yaml",
+        "https://dl.bitsum.com/files/processlassosetup32.exe",
+        "https://dl.bitsum.com/files/processlassosetup64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bitvise.ssh.client|9.67",
+      "winget_id": "Bitvise.SSH.Client",
+      "slug": "bitvise-ssh-client",
+      "version": "9.67",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bitvise/SSH/Client/9.67/Bitvise.SSH.Client.installer.yaml",
+        "https://dl.bitvise.com/BvSshClient-967.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bitvise.ssh.server|9.68",
+      "winget_id": "Bitvise.SSH.Server",
+      "slug": "bitvise-ssh-server",
+      "version": "9.68",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bitvise/SSH/Server/9.68/Bitvise.SSH.Server.installer.yaml",
+        "https://dl.bitvise.com/BvSshServer-968.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bitwarden.bitwarden|2026.10.4",
+      "winget_id": "Bitwarden.Bitwarden",
+      "slug": "bitwarden-bitwarden",
+      "version": "2026.10.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bitwarden/Bitwarden/2026.10.4/Bitwarden.Bitwarden.installer.yaml",
+        "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe",
+        "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Portable-2026.10.4.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bitwarden.cli|2026.10.1",
+      "winget_id": "Bitwarden.CLI",
+      "slug": "bitwarden-cli",
+      "version": "2026.10.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bitwarden/CLI/2026.10.1/Bitwarden.CLI.installer.yaml",
+        "https://github.com/bitwarden/clients/releases/download/cli-v2026.10.1/bw-windows-2026.10.1.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bleachbit.bleachbit|6.0.6",
+      "winget_id": "BleachBit.BleachBit",
+      "slug": "bleachbit",
+      "version": "6.0.6",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://github.com/bleachbit/bleachbit/releases/download/v6.0.6/BleachBit-6.0.6-setup.exe",
+        "https://download.bleachbit.org/BleachBit-6.0.6-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bleachbit.bleachbit|6.0.6.633",
+      "winget_id": "BleachBit.BleachBit",
+      "slug": "bleachbit",
+      "version": "6.0.6.633",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BleachBit/BleachBit/6.0.6.633/BleachBit.BleachBit.installer.yaml",
+        "https://download.bleachbit.org/BleachBit-6.0.6-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:blenderfoundation.blender|5.2.3",
+      "winget_id": "BlenderFoundation.Blender",
+      "slug": "blenderfoundation-blender",
+      "version": "5.2.3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BlenderFoundation/Blender/5.2.3/BlenderFoundation.Blender.installer.yaml",
+        "https://download.blender.org/release/Blender5.2/blender-5.2.3-windows-x64.msi",
+        "https://download.blender.org/release/Blender5.2/blender-5.2.3-windows-arm64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:blizzard.battlenet|2.0.0.4232",
+      "winget_id": "Blizzard.BattleNet",
+      "slug": "blizzard-battlenet",
+      "version": "2.0.0.4232",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Blizzard/BattleNet/2.0.0.4232/Blizzard.BattleNet.installer.yaml",
+        "https://downloader.battle.net/download/getInstaller"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:box.box|2.55.145",
+      "winget_id": "Box.Box",
+      "slug": "box-box",
+      "version": "2.55.145",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Box/Box/2.55.145/Box.Box.installer.yaml",
+        "https://e3.boxcdn.net/desktop/releases/win/BoxDrive.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:brave.brave|156.1.98.63",
+      "winget_id": "Brave.Brave",
+      "slug": "brave",
+      "version": "156.1.98.63",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Brave/Brave/156.1.98.63/Brave.Brave.installer.yaml",
+        "https://github.com/brave/brave-browser/releases/download/v1.98.63/BraveBrowserStandaloneSilentSetup32.exe",
+        "https://github.com/brave/brave-browser/releases/download/v1.98.63/BraveBrowserStandaloneSetup32.exe",
+        "https://github.com/brave/brave-browser/releases/download/v1.98.63/BraveBrowserStandaloneSilentSetup.exe",
+        "https://github.com/brave/brave-browser/releases/download/v1.98.63/BraveBrowserStandaloneSetup.exe",
+        "https://github.com/brave/brave-browser/releases/download/v1.98.63/BraveBrowserStandaloneSilentSetupArm64.exe",
+        "https://github.com/brave/brave-browser/releases/download/v1.98.63/BraveBrowserStandaloneSetupArm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:brechtsanders.winlibs.posix.ucrt|16.2.0-14.0.0-r3",
+      "winget_id": "BrechtSanders.WinLibs.POSIX.UCRT",
+      "slug": "brechtsanders-winlibs-posix-ucrt",
+      "version": "16.2.0-14.0.0-r3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BrechtSanders/WinLibs/POSIX/UCRT/16.2.0-14.0.0-r3/BrechtSanders.WinLibs.POSIX.UCRT.installer.yaml",
+        "https://github.com/brechtsanders/winlibs_mingw/releases/download/16.2.0posix-23.1.3-14.0.0-ucrt-r3/winlibs-i686-posix-dwarf-gcc-16.2.0-mingw-w64ucrt-14.0.0-r3.zip",
+        "https://github.com/brechtsanders/winlibs_mingw/releases/download/16.2.0posix-23.1.3-14.0.0-ucrt-r3/winlibs-x86_64-posix-seh-gcc-16.2.0-mingw-w64ucrt-14.0.0-r3.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bruno.bruno|4.3.0",
+      "winget_id": "Bruno.Bruno",
+      "slug": "bruno-bruno",
+      "version": "4.3.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/Bruno/Bruno/4.3.0/Bruno.Bruno.installer.yaml",
+        "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_win.exe",
+        "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_win.msi",
+        "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_win.zip",
+        "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe",
+        "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.msi",
+        "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:burntsushi.ripgrep.msvc|15.2.0",
+      "winget_id": "BurntSushi.ripgrep.MSVC",
+      "slug": "burntsushi-ripgrep-msvc",
+      "version": "15.2.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BurntSushi/ripgrep/MSVC/15.2.0/BurntSushi.ripgrep.MSVC.installer.yaml",
+        "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-i686-pc-windows-msvc.zip",
+        "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-pc-windows-msvc.zip",
+        "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-aarch64-pc-windows-msvc.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bytedance.capcut|9.5.0.4050",
+      "winget_id": "ByteDance.CapCut",
+      "slug": "bytedance-capcut",
+      "version": "9.5.0.4050",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/ByteDance/CapCut/9.5.0.4050/ByteDance.CapCut.installer.yaml",
+        "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/packages/CapCut_9_5_0_4050_capcutpc_0_creatortool.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:bytedance.lark|8.4.19",
+      "winget_id": "ByteDance.Lark",
+      "slug": "bytedance-lark",
+      "version": "8.4.19",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/ByteDance/Lark/8.4.19/ByteDance.Lark.installer.yaml",
+        "https://lf16-larkversion.larksuitecdn.com/obj/lark-version-sg/885a3e27/Lark-win32_ia32-8.4.19-signed.exe",
+        "https://lf16-larkversion.larksuitecdn.com/obj/lark-version-sg/e2a98d68/Lark-win32_x64-8.4.19-signed.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:caddyserver.caddy|2.11.9",
+      "winget_id": "CaddyServer.Caddy",
+      "slug": "caddyserver-caddy",
+      "version": "2.11.9",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/CaddyServer/Caddy/2.11.9/CaddyServer.Caddy.installer.yaml",
+        "https://github.com/caddyserver/caddy/releases/download/v2.11.9/caddy_2.11.9_windows_amd64.zip",
+        "https://github.com/caddyserver/caddy/releases/download/v2.11.9/caddy_2.11.9_windows_arm64.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:calibre.calibre|9.18.0",
+      "winget_id": "calibre.calibre",
+      "slug": "calibre-calibre",
+      "version": "9.18.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/calibre/calibre/9.18.0/calibre.calibre.installer.yaml",
+        "https://download.calibre-ebook.com/9.18.0/calibre-64bit-9.18.0.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
