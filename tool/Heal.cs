@@ -30,6 +30,8 @@ namespace CatalogWatch
         [JsonPropertyName("signer_subject")] public string SignerSubject { get; set; } = "";
         [JsonPropertyName("signer_thumbprint")] public string SignerThumbprint { get; set; } = "";
         [JsonPropertyName("final_host")] public string FinalHost { get; set; } = "";
+        /// <summary>Mọi host đi qua khi theo chuyển hướng, theo thứ tự (app khớp host chính xác ở từng bước), tối đa 10.</summary>
+        [JsonPropertyName("hosts")] public List<string> Hosts { get; set; } = new();
         [JsonPropertyName("evidence_vi")] public string EvidenceVi { get; set; } = "";
         /// <summary>Link gãy được thay (manifest nhiều installer: biết thay installer nào).</summary>
         [JsonPropertyName("from_url")] public string FromUrl { get; set; } = "";
@@ -408,6 +410,7 @@ namespace CatalogWatch
         {
             public bool Ok; public string Err = "", Sha = "", Magic = "", Html, FinalHost = "", SigStatus = "", Subject = "", Thumb = "", SigMsg = "";
             public long Size;
+            public List<string> Hosts = new();
         }
 
         public static string AnchorId(ProbeTarget t) => t.IsWinget ? "w:" + t.ManifestId.ToLowerInvariant() : "s:" + t.Slug.ToLowerInvariant();
@@ -583,7 +586,7 @@ namespace CatalogWatch
             HealEntry Make(HealCand c, Got g, string evidence) => new HealEntry
             {
                 VKey = v.Key, Slug = t.Slug, WingetId = t.WingetId, Version = t.Version, Kind = c.Kind, Url = c.Url, Sha256 = g.Sha, Size = g.Size,
-                SignerSubject = g.Subject, SignerThumbprint = g.Thumb, FinalHost = g.FinalHost, EvidenceVi = evidence, FromUrl = failUrl,
+                SignerSubject = g.Subject, SignerThumbprint = g.Thumb, FinalHost = g.FinalHost, Hosts = g.Hosts, EvidenceVi = evidence, FromUrl = failUrl,
                 CandidateVersion = c.WingetVersion.Length > 0 ? c.WingetVersion : null, CheckedUtc = now,
             };
 
@@ -648,7 +651,7 @@ namespace CatalogWatch
                 int n;
                 using (var fs = File.OpenRead(file)) n = fs.Read(head, 0, head.Length);
                 g.Magic = HealLogic.Magic(head, n);
-                g.Sha = d.Sha256; g.Size = d.Size; g.FinalHost = d.Hosts.Count > 0 ? d.Hosts[^1] : "";
+                g.Sha = d.Sha256; g.Size = d.Size; g.FinalHost = d.Hosts.Count > 0 ? d.Hosts[^1] : ""; g.Hosts = d.Hosts.Take(10).ToList();
                 if (g.Magic == "html") { g.Html = d.Size <= LinkProbeLogic.MaxManifestBytes ? File.ReadAllText(file) : ""; g.Ok = true; return g; }
                 var sig = await Pins.SignatureAsync(file, ct);
                 g.SigStatus = sig.Status; g.Subject = sig.Subject; g.Thumb = sig.Thumbprint; g.SigMsg = sig.Message;
