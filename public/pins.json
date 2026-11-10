@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-10T10:47:18.4487002Z",
-  "catalog_revision": 31,
-  "count": 58,
+  "generated_at": "2026-11-10T12:29:04.7928657Z",
+  "catalog_revision": 35,
+  "count": 73,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -845,6 +845,254 @@
         "cdn-content.dzcdn.net"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Ditto.Ditto",
+      "version": "3.25.113.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/sabrogden/Ditto/releases/download/3.25.113.0/DittoSetup_3_25_113_0.exe",
+      "sha256": "fc354f1e9b9d2984099d4da93b4c569866dfe9bf1f590c1313e85e07f41224d3",
+      "size": 5773896,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "26BB7356CA8CB80459DD2D79265EE53BD46BE6B6",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "DucFabulous.UltraViewer",
+      "version": "6.6.124",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_en.exe",
+      "sha256": "020aac79a14717e316a593155ca778dd3e253b888bf62633b174838d35df7f41",
+      "size": 3648408,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=VN, OID.2.5.4.15=Private Organization, CN=\"DUC FABULOUS CO.,LTD\", SERIALNUMBER=0105838409, O=\"DUC FABULOUS CO.,LTD\", L=Hanoi, C=VN",
+      "signer_thumbprint": "2C1D12F8BBE0827400A8440AF74FFFA8DCC8097C",
+      "allowed_hosts": [
+        "dl2.ultraviewer.net"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EaseUS.PartitionMaster",
+      "version": "2080",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://d1.easeus.com/epm/free/epm2080_free.exe",
+      "sha256": "06502ebbbfd976909898fa018ac35bf32ebce96350f163fa3ebb041cbac05842",
+      "size": 154123224,
+      "signer_subject": "CN=\"Chengdu Yiwo Tech Development Co., Ltd.\", O=\"Chengdu Yiwo Tech Development Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107765360104N, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "023675462BACDBD40771B3AB6A2B5ECD87DE2E59",
+      "allowed_hosts": [
+        "d1.easeus.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EaseUS.TodoBackup",
+      "version": "17.5.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://d1.easeus.com/tb/free/TodoBackup17.5.0_free.exe",
+      "sha256": "bf5161ed3180eefdde435f727af237c6aa3c25e51e65ddede505a87add963e71",
+      "size": 182017760,
+      "signer_subject": "CN=\"CHENGDU YIWO Tech Development Co., Ltd.\", O=\"CHENGDU YIWO Tech Development Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, SERIALNUMBER=91510107765360104N, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Wuhou District, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "89AA5D9ED4A46785A7402669C3E8CFACA3C542C5",
+      "allowed_hosts": [
+        "d1.easeus.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.11.JDK",
+      "version": "11.0.33.10",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jdk_x64_windows_hotspot_11.0.33_10.msi",
+      "sha256": "54cf7f8ade921c1a31cc590f80ae4df4be174af7385d874057dbe5d9e9f3c766",
+      "size": 175165440,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.17.JDK",
+      "version": "17.0.21.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.msi",
+      "sha256": "9f06b736ef2bd07aaf82f1bd575dc92108b442b97f5d4308eb3816613c086977",
+      "size": 168714240,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.17.JRE",
+      "version": "17.0.21.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jre_x64_windows_hotspot_17.0.21_9.msi",
+      "sha256": "af68f37f3cf01baee071c44803f454e37add364d9dcc2550076efb5a04f6ca7b",
+      "size": 31674368,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.21.JDK",
+      "version": "21.0.13.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13_9.msi",
+      "sha256": "9dcbb8ebe24aa9ee5a47a7fab2106a7c8988d7acee461260fef107411df91dc5",
+      "size": 179666944,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.21.JRE",
+      "version": "21.0.13.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.msi",
+      "sha256": "6a85618938fb3a1419455447a9250e15480da1d31fc5b399eb15212a905d50dc",
+      "size": 35004416,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.8.JDK",
+      "version": "8.0.512.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_x64_windows_hotspot_8u512b09.msi",
+      "sha256": "77a730e65149c4cc426209672c7bd1b996ba6423e04c563c381ba083278cf165",
+      "size": 88891392,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.8.JRE",
+      "version": "8.0.512.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_windows_hotspot_8u512b09.msi",
+      "sha256": "c60f51ed33d483cebae883d22cba42fb956c79a42150b22fe42341967973c129",
+      "size": 32038912,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "Elastic.Elasticsearch",
+      "version": "7.16.3",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3.msi",
+      "sha256": "495f33cb30f1d8c8eaf47cff164ebf6c4e07af42bee8d49ea112c4c04cfcf2b0",
+      "size": 285175808,
+      "signer_subject": "CN=\"Elasticsearch, Inc.\", O=\"Elasticsearch, Inc.\", L=Mountain View, S=California, C=US",
+      "signer_thumbprint": "E8ABABC207F7C678ACE611E6491BC969795B2E9D",
+      "allowed_hosts": [
+        "artifacts.elastic.co"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "ElectronicArts.EADesktop",
+      "version": "13.822.0.6335",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.822.0.6335-16422277.exe",
+      "sha256": "0e8e8de99957a39288298086b7725aa91660078cf685f88a49eaac713fe2aec0",
+      "size": 2141208,
+      "signer_subject": "CN=\"Electronic Arts, Inc.\", OU=EAC, O=\"Electronic Arts, Inc.\", L=Redwood City, S=California, C=US",
+      "signer_thumbprint": "E57750ADD3C6687D4E52466A23DFE2A3C2A22BF8",
+      "allowed_hosts": [
+        "origin-a.akamaihd.net"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "Elgato.CameraHub",
+      "version": "2.3.0.7295",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://edge.elgato.com/egc/windows/echw/2.3.0/CameraHub_2.3.0.7295_x64.msi",
+      "sha256": "fe7bc3d2a06588d6e3ba4ac603bb9c3ea9b733b5e216d058a59ff7453ecdf689",
+      "size": 370618368,
+      "signer_subject": "CN=\"Corsair Memory, Inc.\", O=\"Corsair Memory, Inc.\", L=Milpitas, S=California, C=US, SERIALNUMBER=4335898, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "A350E192359BEF4C6E39FC23CA9ECF3F75B654A7",
+      "allowed_hosts": [
+        "edge.elgato.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "Elgato.StreamDeck",
+      "version": "7.6.1.23033",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_7.6.1.23033.msi",
+      "sha256": "a42157fa5a44f1bc0426e7aa0fa25856206bfc811f5162d3f283704172b7b3cf",
+      "size": 219086848,
+      "signer_subject": "CN=\"Corsair Memory, Inc.\", O=\"Corsair Memory, Inc.\", L=Milpitas, S=California, C=US, SERIALNUMBER=4335898, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "D53FDC767FC653AFFBA14596AFEC0FF0688EEDD2",
+      "allowed_hosts": [
+        "edge.elgato.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
     },
     {
       "id": "Microsoft.VCRedist.2012.x64",

@@ -1,21 +1,25 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-10T10:47:18.4487002Z",
-  "catalog_revision": 31,
+  "updated_at": "2026-11-10T12:29:04.7928657Z",
+  "catalog_revision": 35,
   "last_run": {
-    "at": "2026-11-10T10:47:18.4487002Z",
-    "seconds": 474,
+    "at": "2026-11-10T12:29:04.7928657Z",
+    "seconds": 53,
     "checked": 300,
     "downloads": 40,
-    "downloaded_mb": 3392,
-    "pinned": 28,
-    "skipped": 147,
+    "downloaded_mb": 3208,
+    "pinned": 15,
+    "skipped": 224,
     "transient": 0,
-    "deferred": 125,
+    "deferred": 61,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 94,
-      "installer type … not supported by pinned route": 41,
-      "authenticode NotSigned": 12
+      "neutral version but installer differs by arch …; split versions per arch to pin": 110,
+      "installer type … not supported by pinned route": 85,
+      "authenticode NotSigned": 23,
+      "winget manifest missing": 3,
+      "download HTTP …": 1,
+      "download larger than … MB": 1,
+      "manifest has no https installer with sha256": 1
     }
   },
   "entries": [
@@ -34,7 +38,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "7zip.7zip|26.06|neutral",
@@ -51,7 +56,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "abdelrhman-ak.winpaletter|1.1.0.0|neutral",
@@ -68,7 +74,25 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "ablaze.floorp|latest|neutral",
+      "status": "skipped",
+      "reason": "winget manifest missing",
+      "id": "Ablaze.Floorp",
+      "version": "latest",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
     },
     {
       "key": "acronis.cyberprotecthomeoffice|28.3.1.41126|neutral",
@@ -85,7 +109,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "adguard.adguardvpn|2.9.2004.0|neutral",
@@ -139,7 +164,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "adobe.acrobat.reader.64-bit|26.003.22075|neutral",
@@ -156,7 +182,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "adobe.brackets|1.14.17770|neutral",
@@ -192,7 +219,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "adrienallard.fileconverter|2.2|neutral",
@@ -235,7 +263,7 @@
     {
       "key": "agalwood.motrix|1.8.19|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\5c3bd3bb6dfd4bbe864e7647da4969fd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "agalwood.Motrix",
       "version": "1.8.19",
       "arch": "neutral",
@@ -247,7 +275,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "agilebits.1password|8.12.42.36|neutral",
@@ -264,7 +293,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "aimp.aimp|5.10.2418|neutral",
@@ -281,7 +311,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "aivarannamaa.thonny|5.0.1|neutral",
@@ -298,7 +329,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "ajeetdsouza.zoxide|0.10.0|neutral",
@@ -315,12 +347,13 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "alacritty.alacritty|0.17.0|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\3a8e374a8e8b45158cc903c28f79c075.msi is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "Alacritty.Alacritty",
       "version": "0.17.0",
       "arch": "neutral",
@@ -332,7 +365,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "alagrede.znote|4.10.0|neutral",
@@ -368,12 +402,13 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "alexanderkojevnikov.spek|0.8.5|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\983713e9ee92424db032a6b252ae5fff.msi is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "AlexanderKojevnikov.Spek",
       "version": "0.8.5",
       "arch": "neutral",
@@ -385,7 +420,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "alexx2000.doublecommander|1.2.11|neutral",
@@ -402,7 +438,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "amazon.awscli|2.39.7|neutral",
@@ -437,7 +474,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "amazon.corretto.17.jdk|17.0.21.0|neutral",
@@ -508,7 +546,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "amazon.games|3.0.9700.3|neutral",
@@ -525,7 +564,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "amazon.sam-cli|1.171.0|neutral",
@@ -561,7 +601,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "anaconda.anaconda3|2026.07-1|neutral",
@@ -578,7 +619,25 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "anaconda.miniconda3|latest|neutral",
+      "status": "skipped",
+      "reason": "winget manifest missing",
+      "id": "Anaconda.Miniconda3",
+      "version": "latest",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
     },
     {
       "key": "andrewiethoff.exactaudiocopy|1.8|neutral",
@@ -601,7 +660,7 @@
     {
       "key": "angryziber.angryipscanner|3.10.0|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\a564d4fd8c644c39b11d2bccb519a3b6.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "angryziber.AngryIPScanner",
       "version": "3.10.0",
       "arch": "neutral",
@@ -613,7 +672,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "anki.anki|26.09.4|neutral",
@@ -630,7 +690,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "anthropic.claudecode|2.1.317|neutral",
@@ -647,7 +708,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "anthropic.claude|2.42304.2|neutral",
@@ -664,7 +726,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "antibodysoftware.wizfile|3.15|neutral",
@@ -707,7 +770,7 @@
     {
       "key": "antimicrox.antimicrox|3.6.1|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\fb2774f544084463a235da7231e9e4b3.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "AntiMicroX.antimicrox",
       "version": "3.6.1",
       "arch": "neutral",
@@ -719,12 +782,13 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "antonreshetov.masscode|6.3.1|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\39b8dd101fd74926a3204fc904e51b23.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "antonreshetov.massCode",
       "version": "6.3.1",
       "arch": "neutral",
@@ -736,7 +800,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "anydesk.anydesk|9.8.3|neutral",
@@ -753,7 +818,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "anysphere.cursor|3.27.12|neutral",
@@ -770,7 +836,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "anytxt.anytxtsearcher|1.3.2477|neutral",
@@ -787,7 +854,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "aomei.backupper.standard|8.5.1|neutral",
@@ -840,7 +908,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "apache.openoffice|4.117.9818|neutral",
@@ -875,7 +944,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "apachefriends.xampp.8.2|8.2.12-0|neutral",
@@ -892,7 +962,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "appest.ticktick|8.2.5.0|neutral",
@@ -909,7 +980,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "appflowy.appflowy|0.15.0|neutral",
@@ -945,7 +1017,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "apple.itunes|12.13.12.3|neutral",
@@ -962,7 +1035,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "appmakes.typora|1.14.15|neutral",
@@ -979,7 +1053,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "appwork.jdownloader|2.0|neutral",
@@ -996,7 +1071,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "araxis.merge|2026.1|neutral",
@@ -1088,7 +1164,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "asus.armourycrate|6.5.7.0|neutral",
@@ -1105,7 +1182,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "atlassian.sourcetree|3.4.33|neutral",
@@ -1122,12 +1200,13 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "atlauncher.atlauncher|1.3.0.0|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\3e47461b3ffa4f79855346a50dc2c70a.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "ATLauncher.ATLauncher",
       "version": "1.3.0.0",
       "arch": "neutral",
@@ -1139,7 +1218,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "audacity.audacity|4.0.2.263060742|neutral",
@@ -1156,7 +1236,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "autodesk.dwgtrueview.2027|1.0.0.0|neutral",
@@ -1173,7 +1254,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "autodesk.fusion|2706.1.17|neutral",
@@ -1190,7 +1272,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "autohotkey.autohotkey|2.0.31|neutral",
@@ -1207,7 +1290,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "autoit.autoit|3.3.18.0|neutral",
@@ -1224,7 +1308,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "automattic.simplenote|2.24.0|neutral",
@@ -1241,12 +1326,13 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "avidemux.avidemux|2.8.1|neutral",
       "status": "skipped",
-      "reason": "authenticode NotSigned: The file C:\\Users\\runneradmin\\AppData\\Local\\Temp\\qa98pin-f69e4ded422c4b43bb5bec10149061c5\\047f9ccd1d22495b827300bba3afff4f.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "Avidemux.Avidemux",
       "version": "2.8.1",
       "arch": "neutral",
@@ -1258,7 +1344,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "axcrypt.axcrypt|2.1.1693.0|neutral",
@@ -1293,7 +1380,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "azul.zulu.21.jdk|21.54.109|neutral",
@@ -1328,7 +1416,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "bambulab.bambustudio|02.09.01.70|neutral",
@@ -1382,7 +1471,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "bartoszcichecki.lenovolegiontoolkit|2.26.1|neutral",
@@ -1399,7 +1489,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "beekeeper-studio.beekeeper-studio|6.2.2|neutral",
@@ -1416,7 +1507,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "beeper.beeper|4.3.284|neutral",
@@ -1469,7 +1561,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bethesda.launcher|1.84.0|neutral",
@@ -1522,7 +1615,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "bitdefender.bitdefender|26.0.1.233|neutral",
@@ -1539,7 +1633,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
     },
     {
       "key": "bitsum.processlasso|19.0.0.94|neutral",
@@ -1556,7 +1651,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bitvise.ssh.client|9.67|neutral",
@@ -1573,7 +1669,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
     },
     {
       "key": "bitvise.ssh.server|9.68|neutral",
@@ -1590,7 +1687,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "bitwarden.bitwarden|2026.10.4|neutral",
@@ -1607,7 +1705,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bitwarden.cli|2026.10.1|neutral",
@@ -1624,7 +1723,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bleachbit.bleachbit|6.0.6.633|neutral",
@@ -1659,7 +1759,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "blizzard.battlenet|2.0.0.4232|neutral",
@@ -1676,7 +1777,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
     },
     {
       "key": "bluebeam.revu.21|21.11.0|neutral",
@@ -1693,7 +1795,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bluestack.bluestacks|5.22.166.1003|neutral",
@@ -1710,7 +1813,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "box.box|2.55.145|neutral",
@@ -1745,7 +1849,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
     },
     {
       "key": "brechtsanders.winlibs.posix.ucrt|16.2.0-14.0.0-r3|neutral",
@@ -1762,7 +1867,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bruno.bruno|4.3.0|neutral",
@@ -1779,7 +1885,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "burntsushi.ripgrep.msvc|15.2.0|neutral",
@@ -1796,7 +1903,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "bytedance.capcut|9.5.0.4050|neutral",
@@ -1813,7 +1921,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "bytedance.lark|8.4.19|neutral",
@@ -1830,7 +1939,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "caddyserver.caddy|2.11.9|neutral",
@@ -1847,7 +1957,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "calibre.calibre|9.18.0|neutral",
@@ -1882,7 +1993,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "canonical.ubuntu|2204.1.8.0|neutral",
@@ -1899,7 +2011,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "canva.canva|1.128.0|neutral",
@@ -1952,7 +2065,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cgsecurity.testdisk|7.3|neutral",
@@ -1969,7 +2083,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "charlesmilette.translucenttb|2026.2.0.0|neutral",
@@ -1986,7 +2101,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "chatterinoteam.chatterino|2.5.6|neutral",
@@ -2003,7 +2119,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cherubicsoftware.sagethumbs|2.0.0.23|neutral",
@@ -2020,7 +2137,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "chrisant996.clink|1.9.36|neutral",
@@ -2056,7 +2174,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cisco.webex|46.11.0.36194|neutral",
@@ -2073,7 +2192,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "clamwin.clamwin|0.103.2.1|neutral",
@@ -2090,7 +2210,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "clementine.clementine|1.4.1|neutral",
@@ -2107,7 +2228,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "clockify.clockify|2.4.3|neutral",
@@ -2142,7 +2264,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cloudflare.cloudflared|2026.10.7|neutral",
@@ -2159,7 +2282,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cloudflare.warp|26.8.2115.0|neutral",
@@ -2194,7 +2318,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cnristi.meshlab|2025.07|neutral",
@@ -2230,7 +2355,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "cockos.reaper|7.85|neutral",
@@ -2247,7 +2373,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "code52.carnac|2.3.13|neutral",
@@ -2264,7 +2391,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "codecguide.k-litecodecpack.full|20.2.0|neutral",
@@ -2281,7 +2409,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "codecguide.k-litecodecpack.mega|20.2.0|neutral",
@@ -2298,7 +2427,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "codecguide.k-litecodecpack.standard|20.2.0|neutral",
@@ -2315,7 +2445,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "codesector.teracopy|4.0.5|neutral",
@@ -2332,7 +2463,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "codingwonderssoftware.dismtools.stable|0.8.2.26103|neutral",
@@ -2349,7 +2481,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "comodo.comododragon|134.0.6998.179|neutral",
@@ -2366,7 +2499,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "corel.winzip|29.0.16416|neutral",
@@ -2420,7 +2554,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "cpuid.cpu-z.rog|3.01.3|neutral",
@@ -2455,7 +2590,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cpuid.hwmonitor|1.68|neutral",
@@ -2490,7 +2626,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "crucial.storageexecutive|11.11.112025.00|neutral",
@@ -2507,7 +2644,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cryptomator.cryptomator|1.19.6|neutral",
@@ -2621,7 +2759,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cxworld.capframex|1.9.1.5|neutral",
@@ -2638,7 +2777,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cyanfish.naps2|8.6.0|neutral",
@@ -2655,7 +2795,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "cyberghost.cyberghost|8.4.15.14706|neutral",
@@ -2672,7 +2813,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "cygwin.cygwin|3.7.0-0.590.gdae171e433cd|neutral",
@@ -2689,7 +2831,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "darktable.darktable|5.6.2|neutral",
@@ -2706,7 +2849,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "dashlane.dashlane|6.2148.0.52031|neutral",
@@ -2741,7 +2885,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "daxstudio.daxstudio|3.6.2|neutral",
@@ -2777,7 +2922,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "dbeaver.dbeaver.community|26.2.0|neutral",
@@ -2794,7 +2940,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "debaucheeopensourcegroup.barrier|2.4.0|neutral",
@@ -2811,7 +2958,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "deepl.deepl|26.10.1|neutral",
@@ -2828,7 +2976,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "deezer.deezer|8.0.10|neutral",
@@ -2864,7 +3013,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "dell.commandupdate|5.7.0|neutral",
@@ -2881,7 +3031,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "delugeteam.deluge|2.2.0|neutral",
@@ -2898,7 +3049,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "denoland.deno|2.9.8|neutral",
@@ -2915,7 +3067,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "derailed.k9s|0.51.0|neutral",
@@ -2932,7 +3085,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "derceg.explorer++|1.4.0|neutral",
@@ -2949,7 +3103,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "devcom.lua|5.4.6|neutral",
@@ -2966,7 +3121,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "devolutions.remotedesktopmanager|2026.3.12.0|neutral",
@@ -2983,7 +3139,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "devolutions.unigetui|2026.3.3|neutral",
@@ -3000,7 +3157,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "devtoys-app.devtoys|2.0-preview.9|neutral",
@@ -3017,7 +3175,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "dialpad.dialpad|2609.5.0|neutral",
@@ -3034,7 +3193,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "digitalocean.doctl|2.3.0|neutral",
@@ -3051,7 +3211,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "digitalscholar.zotero|10.0.8|neutral",
@@ -3068,7 +3229,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "discord.discord.canary|1.0.1319|neutral",
@@ -3085,7 +3247,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
     },
     {
       "key": "discord.discord|1.0.9268|neutral",
@@ -3102,7 +3265,28 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
+    },
+    {
+      "key": "ditto.ditto|3.25.113.0|neutral",
+      "status": "pinned",
+      "id": "Ditto.Ditto",
+      "version": "3.25.113.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/sabrogden/Ditto/releases/download/3.25.113.0/DittoSetup_3_25_113_0.exe",
+      "sha256": "fc354f1e9b9d2984099d4da93b4c569866dfe9bf1f590c1313e85e07f41224d3",
+      "size": 5773896,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "26BB7356CA8CB80459DD2D79265EE53BD46BE6B6",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "docker.dockercli|29.9.3|neutral",
@@ -3119,7 +3303,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "docker.dockerdesktop|4.99.0|neutral",
@@ -3136,7 +3321,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "doist.todoist|9.36.2|neutral",
@@ -3153,7 +3339,26 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "dolphinemulator.dolphin|5.0|neutral",
+      "status": "skipped",
+      "reason": "download HTTP 403",
+      "id": "DolphinEmulator.Dolphin",
+      "version": "5.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "dominikreichl.keepass|2.61.1|neutral",
@@ -3170,7 +3375,26 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "dosbox.dosbox|0.74-3|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "DOSBox.DOSBox",
+      "version": "0.74-3",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "dotpdn.paintdotnet|5.1.12|neutral",
@@ -3187,7 +3411,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "dropbox.dropbox|270.4.3312|neutral",
@@ -3204,7 +3429,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "ducfabulous.ultraviewer|6.6.124|neutral",
+      "status": "pinned",
+      "id": "DucFabulous.UltraViewer",
+      "version": "6.6.124",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_en.exe",
+      "sha256": "020aac79a14717e316a593155ca778dd3e253b888bf62633b174838d35df7f41",
+      "size": 3648408,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=VN, OID.2.5.4.15=Private Organization, CN=\"DUC FABULOUS CO.,LTD\", SERIALNUMBER=0105838409, O=\"DUC FABULOUS CO.,LTD\", L=Hanoi, C=VN",
+      "signer_thumbprint": "2C1D12F8BBE0827400A8440AF74FFFA8DCC8097C",
+      "allowed_hosts": [
+        "dl2.ultraviewer.net"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "duckduckgo.desktopbrowser|0.179.2.0|neutral",
@@ -3221,7 +3466,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "duongdieuphap.imageglass|10.0.906.0|neutral",
@@ -3238,7 +3484,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "duplicati.duplicati|2.4.1.0|neutral",
@@ -3255,7 +3502,260 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "easeus.partitionmaster|2080|neutral",
+      "status": "pinned",
+      "id": "EaseUS.PartitionMaster",
+      "version": "2080",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://d1.easeus.com/epm/free/epm2080_free.exe",
+      "sha256": "06502ebbbfd976909898fa018ac35bf32ebce96350f163fa3ebb041cbac05842",
+      "size": 154123224,
+      "signer_subject": "CN=\"Chengdu Yiwo Tech Development Co., Ltd.\", O=\"Chengdu Yiwo Tech Development Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107765360104N, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "023675462BACDBD40771B3AB6A2B5ECD87DE2E59",
+      "allowed_hosts": [
+        "d1.easeus.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "easeus.todobackup|17.5.0|neutral",
+      "status": "pinned",
+      "id": "EaseUS.TodoBackup",
+      "version": "17.5.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://d1.easeus.com/tb/free/TodoBackup17.5.0_free.exe",
+      "sha256": "bf5161ed3180eefdde435f727af237c6aa3c25e51e65ddede505a87add963e71",
+      "size": 182017760,
+      "signer_subject": "CN=\"CHENGDU YIWO Tech Development Co., Ltd.\", O=\"CHENGDU YIWO Tech Development Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, SERIALNUMBER=91510107765360104N, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Wuhou District, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "89AA5D9ED4A46785A7402669C3E8CFACA3C542C5",
+      "allowed_hosts": [
+        "d1.easeus.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "ebkr.r2modman|3.2.21|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "ebkr.r2modman",
+      "version": "3.2.21",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.11.jdk|11.0.33.10|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.11.JDK",
+      "version": "11.0.33.10",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jdk_x64_windows_hotspot_11.0.33_10.msi",
+      "sha256": "54cf7f8ade921c1a31cc590f80ae4df4be174af7385d874057dbe5d9e9f3c766",
+      "size": 175165440,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.17.jdk|17.0.21.9|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.17.JDK",
+      "version": "17.0.21.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.msi",
+      "sha256": "9f06b736ef2bd07aaf82f1bd575dc92108b442b97f5d4308eb3816613c086977",
+      "size": 168714240,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.17.jre|17.0.21.9|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.17.JRE",
+      "version": "17.0.21.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jre_x64_windows_hotspot_17.0.21_9.msi",
+      "sha256": "af68f37f3cf01baee071c44803f454e37add364d9dcc2550076efb5a04f6ca7b",
+      "size": 31674368,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.21.jdk|21.0.13.9|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.21.JDK",
+      "version": "21.0.13.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13_9.msi",
+      "sha256": "9dcbb8ebe24aa9ee5a47a7fab2106a7c8988d7acee461260fef107411df91dc5",
+      "size": 179666944,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.21.jre|21.0.13.9|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.21.JRE",
+      "version": "21.0.13.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.msi",
+      "sha256": "6a85618938fb3a1419455447a9250e15480da1d31fc5b399eb15212a905d50dc",
+      "size": 35004416,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.8.jdk|8.0.512.9|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.8.JDK",
+      "version": "8.0.512.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_x64_windows_hotspot_8u512b09.msi",
+      "sha256": "77a730e65149c4cc426209672c7bd1b996ba6423e04c563c381ba083278cf165",
+      "size": 88891392,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "eclipseadoptium.temurin.8.jre|8.0.512.9|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.8.JRE",
+      "version": "8.0.512.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_windows_hotspot_8u512b09.msi",
+      "sha256": "c60f51ed33d483cebae883d22cba42fb956c79a42150b22fe42341967973c129",
+      "size": 32038912,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "efibooteditor.efibooteditor|1.5.7|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "EFIBootEditor.EFIBootEditor",
+      "version": "1.5.7",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "elastic.elasticsearch|7.16.3|neutral",
+      "status": "pinned",
+      "id": "Elastic.Elasticsearch",
+      "version": "7.16.3",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3.msi",
+      "sha256": "495f33cb30f1d8c8eaf47cff164ebf6c4e07af42bee8d49ea112c4c04cfcf2b0",
+      "size": 285175808,
+      "signer_subject": "CN=\"Elasticsearch, Inc.\", O=\"Elasticsearch, Inc.\", L=Mountain View, S=California, C=US",
+      "signer_thumbprint": "E8ABABC207F7C678ACE611E6491BC969795B2E9D",
+      "allowed_hosts": [
+        "artifacts.elastic.co"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "electronicarts.eadesktop|13.822.0.6335|neutral",
+      "status": "pinned",
+      "id": "ElectronicArts.EADesktop",
+      "version": "13.822.0.6335",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.822.0.6335-16422277.exe",
+      "sha256": "0e8e8de99957a39288298086b7725aa91660078cf685f88a49eaac713fe2aec0",
+      "size": 2141208,
+      "signer_subject": "CN=\"Electronic Arts, Inc.\", OU=EAC, O=\"Electronic Arts, Inc.\", L=Redwood City, S=California, C=US",
+      "signer_thumbprint": "E57750ADD3C6687D4E52466A23DFE2A3C2A22BF8",
+      "allowed_hosts": [
+        "origin-a.akamaihd.net"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "electronicarts.origin|10.5.129.55742|neutral",
@@ -3272,7 +3772,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "element.element|1.12.33|neutral",
@@ -3289,7 +3790,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "elementlabs.lmstudio|0.4.28+2|neutral",
@@ -3306,7 +3808,46 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "elgato.camerahub|2.3.0.7295|neutral",
+      "status": "pinned",
+      "id": "Elgato.CameraHub",
+      "version": "2.3.0.7295",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://edge.elgato.com/egc/windows/echw/2.3.0/CameraHub_2.3.0.7295_x64.msi",
+      "sha256": "fe7bc3d2a06588d6e3ba4ac603bb9c3ea9b733b5e216d058a59ff7453ecdf689",
+      "size": 370618368,
+      "signer_subject": "CN=\"Corsair Memory, Inc.\", O=\"Corsair Memory, Inc.\", L=Milpitas, S=California, C=US, SERIALNUMBER=4335898, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "A350E192359BEF4C6E39FC23CA9ECF3F75B654A7",
+      "allowed_hosts": [
+        "edge.elgato.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "elgato.streamdeck|7.6.1.23033|neutral",
+      "status": "pinned",
+      "id": "Elgato.StreamDeck",
+      "version": "7.6.1.23033",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://edge.elgato.com/egc/windows/sd/Stream_Deck_7.6.1.23033.msi",
+      "sha256": "a42157fa5a44f1bc0426e7aa0fa25856206bfc811f5162d3f283704172b7b3cf",
+      "size": 219086848,
+      "signer_subject": "CN=\"Corsair Memory, Inc.\", O=\"Corsair Memory, Inc.\", L=Milpitas, S=California, C=US, SERIALNUMBER=4335898, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "D53FDC767FC653AFFBA14596AFEC0FF0688EEDD2",
+      "allowed_hosts": [
+        "edge.elgato.com"
+      ],
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "eloston.ungoogled-chromium|155.0.8059.84|neutral",
@@ -3323,7 +3864,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "emoacht.monitorian|4.16.11|neutral",
@@ -3340,7 +3882,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "emsisoft.emergencykit|2025.7.0.12683|neutral",
@@ -3357,7 +3900,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "enzo1982.freac|1.1.7|neutral",
@@ -3374,7 +3918,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "eraser.eraser|6.2.2996|neutral",
@@ -3391,7 +3936,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "eset.security|20.0.0.0|neutral",
@@ -3408,7 +3954,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "eugeny.tabby|1.0.238|neutral",
@@ -3425,7 +3972,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "expressvpn.expressvpn|14.3.1+15429|neutral",
@@ -3442,7 +3990,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe_no_switch"
     },
     {
       "key": "ezwinports.make|4.4.1|neutral",
@@ -3459,7 +4008,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "fastcopy.fastcopy|5.12.0|neutral",
@@ -3476,7 +4026,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "fastfetch-cli.fastfetch|2.71.0|neutral",
@@ -3493,7 +4044,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "ferdium.ferdium|7.2.3|neutral",
@@ -3510,7 +4062,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "figma.figma|126.11.8|neutral",
@@ -3527,7 +4080,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "file-new-project.eartrumpet|2.3.0.0|neutral",
@@ -3544,7 +4098,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "filescommunity.files|4.3.0.0|neutral",
@@ -3561,7 +4116,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "florianheidenreich.mp3tag|3.37|neutral",
@@ -3578,7 +4134,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "flow-launcher.flow-launcher|2.1.4|neutral",
@@ -3595,7 +4152,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "fork.fork|2.24.0|neutral",
@@ -3612,7 +4170,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "foundry376.mailspring|1.26.2|neutral",
@@ -3629,7 +4188,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "foxit.foxitreader|2026.2.1.39815|neutral",
@@ -3646,7 +4206,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "fxsound.fxsound|1.2.16.0|neutral",
@@ -3663,7 +4224,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "geeks3d.furmark.2|2.10.2.0|neutral",
@@ -3680,7 +4242,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "geeksoftwaregmbh.pdf24creator|11.30.1|neutral",
@@ -3697,7 +4260,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "geekuninstaller.geekuninstaller|1.6.0.200|neutral",
@@ -3714,7 +4278,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "genymobile.scrcpy|5.0.1|neutral",
@@ -3731,7 +4296,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "geogebra.geometry|6.0.934|neutral",
@@ -3748,7 +4314,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "gerardog.gsudo|2.6.1|neutral",
@@ -3765,7 +4332,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "germancoding.synctrayzor|2.2.0|neutral",
@@ -3782,7 +4350,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "ghisler.totalcommander|11.58.1|neutral",
@@ -3799,7 +4368,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "giorgiotani.peazip|11.3.0|neutral",
@@ -3816,7 +4386,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "git.git|2.56.0.4|neutral",
@@ -3833,7 +4404,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "gitextensionsteam.gitextensions|7.2.1.7|neutral",
@@ -3850,7 +4422,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "github.cli|2.103.3|neutral",
@@ -3867,7 +4440,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "github.copilot|1.0.108|neutral",
@@ -3884,7 +4458,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "github.githubdesktop|3.6.10|neutral",
@@ -3901,7 +4476,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "glarysoft.glaryutilities|6.49.0.53|neutral",
@@ -3918,7 +4494,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "glavsoft.tightvnc|2.8.89|neutral",
@@ -3935,7 +4512,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "glenndelahoy.snappydriverinstallerorigin|2.0.6.889|neutral",
@@ -3952,7 +4530,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "godotengine.godotengine.mono|4.7.2|neutral",
@@ -3969,7 +4548,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "godotengine.godotengine|4.7.2|neutral",
@@ -3986,7 +4566,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "golang.go|1.27.3|neutral",
@@ -4003,7 +4584,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.antigravity|2.30.0|neutral",
@@ -4020,7 +4602,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.chrome.beta|158.0.8127.2|neutral",
@@ -4037,7 +4620,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.chrome.dev|159.0.8144.0|neutral",
@@ -4054,7 +4638,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.chrome|157.0.8103.51|neutral",
@@ -4071,7 +4656,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.geminidesktop|1.18.0|neutral",
@@ -4088,7 +4674,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.googledrive|133.0.2.0|neutral",
@@ -4105,7 +4692,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "google.platformtools|37.0.2|neutral",
@@ -4122,7 +4710,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "google.playgames|157.0.8089.0|neutral",
@@ -4139,7 +4728,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "goto.goto|4.21.0|neutral",
@@ -4156,7 +4746,25 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "guilded.guilded|latest|neutral",
+      "status": "skipped",
+      "reason": "winget manifest missing",
+      "id": "Guilded.Guilded",
+      "version": "latest",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-10T12:29:04.7928657Z"
     },
     {
       "key": "guru3d.afterburner|4.6.6|neutral",
@@ -4173,7 +4781,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "guru3d.rtss|7.3.7|neutral",
@@ -4190,7 +4799,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "gyan.ffmpeg.shared|9.0.2|neutral",
@@ -4207,7 +4817,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "gyan.ffmpeg|9.0.2|neutral",
@@ -4224,7 +4835,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "gyroflow.gyroflow|1.7.0|neutral",
@@ -4241,7 +4853,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "handbrake.handbrake|1.11.2|neutral",
@@ -4258,7 +4871,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hashicorp.consul|2.1.0|neutral",
@@ -4275,7 +4889,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hashicorp.packer|1.16.2|neutral",
@@ -4292,7 +4907,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hashicorp.terraform|1.17.0|neutral",
@@ -4309,7 +4925,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hashicorp.vagrant|2.4.9|neutral",
@@ -4326,7 +4943,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hashicorp.vault|2.2.1|neutral",
@@ -4343,7 +4961,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "helix.helix|25.07.1|neutral",
@@ -4360,7 +4979,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "helm.helm|4.3.1|neutral",
@@ -4377,7 +4997,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hermannschinagl.linkshellextension|3.9.3.5|neutral",
@@ -4394,7 +5015,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "heroicgameslauncher.heroicgameslauncher|2.22.4|neutral",
@@ -4411,7 +5033,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hexchat.hexchat|2.16.2|neutral",
@@ -4428,7 +5051,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "hibbiki.chromium|157.0.8103.39|neutral",
@@ -4445,7 +5069,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "hp.imageassistant|5.3.7|neutral",
@@ -4462,7 +5087,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "hp.supportassistant|9.55.10.0|neutral",
@@ -4479,7 +5105,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "icons8.lunacy|14.1.0.0|neutral",
@@ -4589,23 +5216,6 @@
       "reason": "installer type 'msix' not supported by pinned route",
       "id": "JackieLiu.NotepadsApp",
       "version": "1.5.6.0",
-      "arch": "neutral",
-      "installer_type": "",
-      "installer_arch": "",
-      "url": "",
-      "sha256": "",
-      "size": 0,
-      "signer_subject": "",
-      "signer_thumbprint": "",
-      "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
-    },
-    {
-      "key": "jandedobbeleer.ohmyposh|31.9.1|neutral",
-      "status": "skipped",
-      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
-      "id": "JanDeDobbeleer.OhMyPosh",
-      "version": "31.9.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5159,7 +5769,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "librecad.librecad|2.2.1.6|neutral",
@@ -5822,7 +6433,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.aspnetcore.8|8.0.33|neutral",
@@ -5941,7 +6553,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "microsoft.dotnet.desktopruntime.9|9.0.22|neutral",
@@ -6332,7 +6945,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.vcredist.2005.x86|8.0.61001|neutral",
@@ -6349,7 +6963,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.vcredist.2008.x64|9.0.30729.6161|neutral",
@@ -6366,7 +6981,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.vcredist.2008.x86|9.0.30729.6161|neutral",
@@ -6383,7 +6999,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.vcredist.2010.x64|10.0.40219|neutral",
@@ -6400,7 +7017,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.vcredist.2010.x86|10.0.40219|neutral",
@@ -6417,7 +7035,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "exe"
     },
     {
       "key": "microsoft.vcredist.2012.x64|11.0.61030.0|neutral",
@@ -6542,7 +7161,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
     },
     {
       "key": "vngcorp.zalo|26.11.11|neutral",
