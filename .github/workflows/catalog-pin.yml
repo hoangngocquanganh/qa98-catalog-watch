@@ -8,7 +8,9 @@
 # Job riêng, concurrency riêng: không chặn lượt 15 phút của catalog-watch. Hai job đẩy tệp khác nhau => rebase trước khi push.
 # Job chỉ đỏ khi thật sự hỏng (tự kiểm sai, catalog sai chữ ký, không ghi / đẩy được tệp) — lỗi được in bằng tiếng Việt (::error, hiện trong email).
 # Một bản không tải được / lỗi mạng chỉ ghi vào state/pins.json, không làm đỏ job.
-# Không secret. Action ghim SHA giống catalog-watch.yml.
+# Sau khi ghim: bước tự chữa (--heal, Docs/LINK-HEAL-MATRIX.md) tìm link thay thế cho khoá đang gãy trong state.json, tải + kiểm Authenticode
+# + người ký liên tục => state/heals.json; catalog-watch chép heals / heal_blocked sang status.json cho server QA98.
+# Không secret (GITHUB_TOKEN tự có chỉ để gọi GitHub API winget-pkgs / releases). Action ghim SHA giống catalog-watch.yml.
 
 name: Ghim bộ cài (catalog-pin)
 
@@ -48,15 +50,17 @@ jobs:
           done
           echo "::error title=Không dựng được bot::Dựng bot lỗi 3 lần liền. Workflow \"Tự chạy lại khi lỗi\" sẽ chạy lại 1 lần; vẫn lỗi thì xem log bước này."; exit 1
 
-      - name: Ghim bộ cài (tải, băm, đọc chữ ký)
+      - name: Ghim bộ cài + tự chữa link gãy (tải, băm, đọc chữ ký)
         # catalog kiểm chữ ký như catalog-watch (sai => mã 2, không ghi pins); status.json của catalog-watch không bị đụng
-        run: dotnet out/CatalogWatch.dll --pin --no-pages --state state.json --status out/pin_status.json --pin-state state/pins.json --pin-out public/pins.json --pin-max 40 --pin-budget-mb 8192 --pin-max-file-mb 1024
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: dotnet out/CatalogWatch.dll --pin --heal --no-pages --state state.json --status out/pin_status.json --pin-state state/pins.json --pin-out public/pins.json --pin-max 40 --pin-budget-mb 8192 --pin-max-file-mb 1024 --heal-state state/heals.json --heal-max 30 --heal-budget-mb 4096 --harvest-max 15
 
       - name: Lưu kết quả lên repo
         run: |
           git config user.name "catalog-watch-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- state/pins.json public/pins.json
+          for f in state/pins.json public/pins.json state/heals.json; do [ -e "$f" ] && git add -A -- "$f"; done
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "chore: catalog-pin $(date -u +%Y-%m-%dT%H:%MZ)"
           # job kia cũng đẩy lên main (tệp khác) => rebase rồi đẩy; thử lại tối đa 3 lần, giãn 10 / 20 s

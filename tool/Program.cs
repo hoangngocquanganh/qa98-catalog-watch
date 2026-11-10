@@ -53,6 +53,10 @@ namespace CatalogWatch
         [JsonPropertyName("last_probe")] public ProbeSummary LastProbe { get; set; }
         /// <summary>Bản WINGET chỉ có installer exe (lấy từ state/pins.json của job ghim). Thiếu khoá = job ghim chưa có dữ liệu.</summary>
         [JsonPropertyName("silent_missing"), JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)] public List<SilentMissing> SilentMissing { get; set; }
+        /// <summary>Link thay thế bộ tự chữa đã kiểm (lấy từ state/heals.json của job ghim; chỉ khoá còn gãy). Thiếu khoá = job ghim chưa có dữ liệu.</summary>
+        [JsonPropertyName("heals"), JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)] public List<HealEntry> Heals { get; set; }
+        /// <summary>Khoá gãy bộ tự chữa KHÔNG chữa (không ký / người ký đổi / không có link thay thế…), cần chủ xem.</summary>
+        [JsonPropertyName("heal_blocked"), JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)] public List<HealBlocked> HealBlocked { get; set; }
     }
 
     sealed class PagesStatus
@@ -115,6 +119,13 @@ namespace CatalogWatch
             try { a = Args.Parse(argv); }
             catch (ArgumentException ex) { Console.Error.WriteLine(ex.Message); return Usage(); }
             if (a.Has("help")) return Usage();
+            if (a.Has("selftest"))
+            {
+                var bad = PinLogic.SelfTest().Concat(HealLogic.SelfTest()).ToList();
+                foreach (var b in bad) Console.WriteLine("HỎNG: " + b);
+                Console.WriteLine(bad.Count == 0 ? "Tự kiểm đạt (ghim + tự chữa)." : $"Tự kiểm hỏng {bad.Count} mục.");
+                return bad.Count == 0 ? 0 : 1;
+            }
 
             string catalogArg = a.Get("catalog", DefaultCatalogUrl);
             string configUrl = a.Get("config-url", DefaultConfigUrl), freshnessUrl = a.Get("freshness-url", DefaultFreshnessUrl), availabilityUrl = a.Get("availability-url", DefaultAvailabilityUrl);
@@ -127,6 +138,7 @@ namespace CatalogWatch
             var prevStatus = ReadJson<WatchStatus>(statusPath);
             status.LastProbe = prevStatus?.LastProbe;
             status.SilentMissing = prevStatus?.SilentMissing;
+            status.Heals = prevStatus?.Heals; status.HealBlocked = prevStatus?.HealBlocked;
 
             using var handler = SafeHandler(TimeSpan.FromSeconds(timeoutSec));
             using var http = new HttpMessageInvoker(handler);
@@ -168,10 +180,17 @@ namespace CatalogWatch
             var catalog = trust.Catalog;
             status.CatalogRevision = catalog.Revision;
             status.SilentMissing = Pins.SilentMissingList(a.Get("pin-state", "state/pins.json"), catalog) ?? status.SilentMissing;
-            bool silentChanged = JsonSerializer.Serialize(status.SilentMissing) != JsonSerializer.Serialize(prevStatus?.SilentMissing);   // job ghim vừa cập nhật => ghi status dù chưa tới hạn dò
+            if (Heal.ForStatus(a.Get("heal-state", "state/heals.json"), state) is { } hl) { status.Heals = hl.Heals; status.HealBlocked = hl.Blocked; }
+            bool silentChanged = JsonSerializer.Serialize(status.SilentMissing) != JsonSerializer.Serialize(prevStatus?.SilentMissing)   // job ghim vừa cập nhật => ghi status dù chưa tới hạn dò
+                                 || JsonSerializer.Serialize(status.Heals) != JsonSerializer.Serialize(prevStatus?.Heals) || JsonSerializer.Serialize(status.HealBlocked) != JsonSerializer.Serialize(prevStatus?.HealBlocked);
 
             // 1a) Bước ghim installer winget (job riêng, runner Windows): không đồng bộ public/, không dò link, không đụng state.json / status.json
-            if (a.Has("pin")) return cfg.Enabled ? await Pins.RunAsync(a, catalog, http, timeoutSec) : 0;
+            if (a.Has("pin"))
+            {
+                if (!cfg.Enabled) return 0;
+                int rc = await Pins.RunAsync(a, catalog, http, timeoutSec);
+                return rc == 0 && a.Has("heal") ? await Heal.RunAsync(a, catalog, http, timeoutSec) : rc;
+            }
 
             // 1b) Đồng bộ public/ cho Cloudflare Pages (mỗi lượt kiểm, kể cả khi chưa tới hạn dò)
             bool pagesChanged = false;
@@ -439,6 +458,9 @@ namespace CatalogWatch
             Console.WriteLine("  --max 150  --concurrency-per-host 2  --timeout 30 (giây)  --max-file-mb 2048 (file lớn hơn: bỏ qua băm lượt này)");
             Console.WriteLine("  --pin (chỉ Windows): ghim installer bản WINGET -> --pin-state state/pins.json --pin-out public/pins.json");
             Console.WriteLine("        --pin-max 40 (số file tải)  --pin-budget-mb 8192  --pin-max-file-mb 1024  --pin-manifests 300 (số bản kiểm mỗi lượt)");
+            Console.WriteLine("  --heal (cùng --pin): tự chữa link gãy theo Docs/LINK-HEAL-MATRIX.md -> --heal-state state/heals.json");
+            Console.WriteLine("        --heal-max 30  --heal-budget-mb 4096  --heal-max-file-mb 1024  --harvest-max 15 (chữ ký tham chiếu mới mỗi lượt)  --harvest-max-file-mb 300");
+            Console.WriteLine("  --selftest: chạy tự kiểm (ghim + tự chữa) rồi thoát");
             return 1;
         }
 

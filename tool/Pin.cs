@@ -248,7 +248,7 @@ namespace CatalogWatch
         static readonly TimeSpan RetrySkipped = TimeSpan.FromDays(7);
         static readonly JsonSerializerOptions Indented = new() { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
 
-        sealed class Fetch
+        internal sealed class Fetch
         {
             public bool Ok, Transient; public string Error = "", Text, Sha256 = "", FinalUrl = ""; public long Size; public List<string> Hosts = new();
         }
@@ -395,7 +395,7 @@ namespace CatalogWatch
         }
 
         /// <summary>GET theo redirect (tự kiểm từng hop: https, không userinfo; IP nội bộ bị chặn ở ConnectCallback). file = null => đọc chữ vào bộ nhớ.</summary>
-        static async Task<Fetch> FetchAsync(HttpMessageInvoker http, string url, string file, long max, TimeSpan timeout, CancellationToken ct)
+        internal static async Task<Fetch> FetchAsync(HttpMessageInvoker http, string url, string file, long max, TimeSpan timeout, CancellationToken ct, IReadOnlyDictionary<string, string> headers = null)
         {
             var f = new Fetch();
             using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
@@ -410,7 +410,9 @@ namespace CatalogWatch
                     string host = u.IdnHost.TrimEnd('.').ToLowerInvariant();
                     if (!f.Hosts.Contains(host)) f.Hosts.Add(host);
                     using var req = new HttpRequestMessage(HttpMethod.Get, u);
-                    req.Headers.TryAddWithoutValidation("User-Agent", "QA98-CatalogWatch-Pin/1");
+                    if (headers == null || !headers.ContainsKey("User-Agent")) req.Headers.TryAddWithoutValidation("User-Agent", "QA98-CatalogWatch-Pin/1");
+                    foreach (var h in headers ?? new Dictionary<string, string>())
+                        if (h.Key != "Authorization" || host == "api.github.com") req.Headers.TryAddWithoutValidation(h.Key, h.Value);   // token chỉ gửi tới GitHub API, không theo redirect sang host khác
                     using var r = await http.SendAsync(req, cts.Token);
                     int code = (int)r.StatusCode;
                     if (code >= 300 && code < 400 && r.Headers.Location != null) { url = new Uri(u, r.Headers.Location).ToString(); continue; }
@@ -445,7 +447,7 @@ namespace CatalogWatch
         }
 
         /// <summary>Get-AuthenticodeSignature (WinVerifyTrust, có kiểm thu hồi) — cùng API X509 Subject / Thumbprint với kiểm chữ ký của app.</summary>
-        static async Task<(string Status, string Subject, string Thumbprint, string Message)> SignatureAsync(string file, CancellationToken ct)
+        internal static async Task<(string Status, string Subject, string Thumbprint, string Message)> SignatureAsync(string file, CancellationToken ct)
         {
             const string script = "[Console]::OutputEncoding = [Text.Encoding]::UTF8; $s = Get-AuthenticodeSignature -LiteralPath $env:QA98_SIGFILE; $c = $s.SignerCertificate; " +
                                   "[pscustomobject]@{ status = [string]$s.Status; subject = $(if ($c) { $c.Subject } else { '' }); thumbprint = $(if ($c) { $c.Thumbprint } else { '' }); message = [string]$s.StatusMessage } | ConvertTo-Json -Compress";
