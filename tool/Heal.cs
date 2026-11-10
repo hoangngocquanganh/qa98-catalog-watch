@@ -505,7 +505,7 @@ namespace CatalogWatch
             string failUrl = (v.LastNote ?? "").Split(' ').FirstOrDefault(x => x.StartsWith("http", StringComparison.OrdinalIgnoreCase)) ?? "";
             if (failUrl.Length == 0 && !t.IsWinget) failUrl = t.Url;
             string id = AnchorId(t);
-            string expect = HealLogic.ExpectKind("", failUrl), arch = "", type = "", approvedSha = t.IsWinget ? "" : t.Sha256;
+            string expect = HealLogic.ExpectKind("", failUrl), arch = "", type = "", approvedSha = t.Sha256;   // sha trong catalog ĐÃ KÝ (cả gói winget)
             var mtimeout = TimeSpan.FromSeconds(Math.Max(timeoutSec, 30));
             var gh = ghToken.Length > 0 ? new Dictionary<string, string> { ["Authorization"] = "Bearer " + ghToken, ["Accept"] = "application/vnd.github+json" } : new Dictionary<string, string> { ["Accept"] = "application/vnd.github+json" };
 
@@ -516,7 +516,8 @@ namespace CatalogWatch
                 {
                     var inst = PinLogic.Parse(m.Text);
                     var mine = inst.FirstOrDefault(i => i.Url == failUrl) ?? inst.FirstOrDefault(i => i.Arch == PinLogic.ArchName(t.Arch)) ?? inst.FirstOrDefault();
-                    if (mine != null) { arch = mine.Arch; type = mine.Type; approvedSha = mine.Sha256; if (failUrl.Length == 0) failUrl = mine.Url; expect = HealLogic.ExpectKind(type, mine.Url); }
+                    // KHÔNG lấy sha manifest làm "đã duyệt": manifest có thể đã bị đổi (thay tệp tại chỗ / PR winget-pkgs) — sha đã duyệt là sha trong catalog ký.
+                    if (mine != null) { arch = mine.Arch; type = mine.Type; if (failUrl.Length == 0) failUrl = mine.Url; expect = HealLogic.ExpectKind(type, mine.Url); }
                 }
             }
             if (type == "zip" || expect == "zip")
