@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "tool_version": "1.0.0",
-  "checked_at": "2026-11-10T05:34:10.0768548Z",
+  "tool_version": "1.1.0",
+  "checked_at": "2026-11-10T11:35:40.4958045Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,29 +12,29 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-10T05:34:10.0768548Z",
-  "catalog_revision": 24,
-  "total_keys": 953,
+  "last_probe_at": "2026-11-10T11:35:40.4958045Z",
+  "catalog_revision": 33,
+  "total_keys": 952,
   "hidden": 0,
-  "cycle_position": 111,
+  "cycle_position": 187,
   "error": "",
   "pages": {
-    "catalog_revision": 24,
+    "catalog_revision": 33,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-10T05:34:10.0768548Z",
-    "seconds": 97,
-    "probed": 98,
+    "at": "2026-11-10T11:35:40.4958045Z",
+    "seconds": 38,
+    "probed": 100,
     "ok": 92,
     "hashed": 75,
     "transient": 0,
-    "broken": 3,
+    "broken": 5,
     "hash_mismatch": 3,
-    "skipped": 2,
+    "skipped": 0,
     "wide_outage": false
   }
 }
