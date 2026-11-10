@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Bot dò link bộ cài của catalog đã ký (chạy GitHub Actions trên ubuntu, hoặc tay trên máy bất kỳ). KHÔNG thêm vào .sln.
+       Không phụ thuộc WPF / Windows. Cách dùng: README.md cùng thư mục. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>CatalogWatch</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- Repo bot chép mã nguồn sang thư mục src/ (README). Trong repo QA98 thì trỏ về gốc repo. -->
+    <QaSrc Condition="'$(QaSrc)' == '' And Exists('$(MSBuildThisFileDirectory)src\Services')">$(MSBuildThisFileDirectory)src\</QaSrc>
+    <QaSrc Condition="'$(QaSrc)' == ''">$(MSBuildThisFileDirectory)..\..\</QaSrc>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- src/ (repo bot) chỉ được nạp qua danh sách dưới, không nạp cả cây -->
+    <Compile Remove="src\**" />
+    <!-- Dùng ĐÚNG mã kiểm chữ ký + parser của client. KHÔNG link ShopLicenseCore.cs (mã bản quyền) — kid lấy từ LicensingShim.cs -->
+    <Compile Include="$(QaSrc)QA98.Licensing\SignedEnvelope.cs" Link="Client\SignedEnvelope.cs" />
+    <Compile Include="$(QaSrc)Services\Parallel\SoftwareCenter\SoftwareCatalogModel.cs" Link="Client\SoftwareCatalogModel.cs" />
+    <Compile Include="$(QaSrc)Services\Parallel\SoftwareCenter\SoftwareCatalogTrust.cs" Link="Client\SoftwareCatalogTrust.cs" />
+    <Compile Include="$(QaSrc)Services\Parallel\SoftwareCenter\SoftwareCenterContracts.cs" Link="Client\SoftwareCenterContracts.cs" />
+    <Compile Include="$(QaSrc)Services\Parallel\SoftwareCenter\SoftwareCenterPlanner.cs" Link="Client\SoftwareCenterPlanner.cs" />
+    <Compile Include="$(QaSrc)Services\Parallel\SoftwareCenter\Trust\*.cs" Link="Client\Trust\%(Filename)%(Extension)" />
+    <Compile Include="$(QaSrc)Services\Parallel\SoftwareCenter\Health\*.cs" Link="Client\Health\%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

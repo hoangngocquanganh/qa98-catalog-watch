@@ -1,0 +1,60 @@
+# Mẫu workflow cho REPO BOT CÔNG KHAI riêng (không phải repo QA98). Chép vào <repo-bot>/.github/workflows/catalog-watch.yml.
+# Cách dựng repo bot: Tools/CatalogWatch/README.md.
+#
+# - KHÔNG cần secret nào, bot không ký gì. Chỉ dùng GITHUB_TOKEN tự có (contents: write để commit kết quả; tool dùng nó đọc GitHub API winget-pkgs).
+# - Cron chạy MỖI GIỜ nhưng tool tự quyết có dò hay không theo cấu hình web admin (bot_config.php: interval_hours, run_now_after, enabled).
+#   Chưa tới hạn => thoát nhanh, không đổi tệp => không commit. Mỗi giờ vẫn đồng bộ public/ (catalog đã kiểm chữ ký) cho Cloudflare Pages.
+# - Client / web admin đọc: https://raw.githubusercontent.com/<owner>/<repo>/main/{status.json,link_health.json,report.md,proposals.json}
+# - GitHub tự TẮT lịch sau 60 ngày repo công khai không có hoạt động; commit kết quả của chính bot giữ repo hoạt động.
+#   Nếu lịch đã bị tắt: tab Actions > catalog-watch > Enable workflow, rồi Run workflow một lần.
+# - Action ghim theo commit SHA (tra ngày 2026-11-10 bằng git ls-remote). Trước khi dùng, kiểm SHA mới nhất:
+#     git ls-remote https://github.com/actions/checkout refs/tags/v6.1.0
+#     git ls-remote https://github.com/actions/setup-dotnet refs/tags/v5.4.0
+#   (tag có dòng "^{}" thì lấy SHA của dòng đó — là commit thật).
+
+name: catalog-watch
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # mỗi giờ, lệch đầu giờ (đầu giờ bị dồn tải, hay trễ)
+  workflow_dispatch:         # chạy tay = ép dò ngay (--force), vẫn tôn trọng enabled=false của web admin
+
+concurrency:
+  group: catalog-watch
+  cancel-in-progress: false   # chỉ 1 lượt chạy; lượt sau chờ, không huỷ lượt đang ghi state
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - uses: actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1 # v5.4.0
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build
+        run: dotnet build tool/CatalogWatch.csproj -c Release -o out
+
+      - name: Kiểm / dò
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+        # Mã thoát khác 0 (catalog sai chữ ký, không ghi được tệp) => job đỏ; danh sách cũ giữ nguyên, chỉ status.json ghi lỗi.
+        run: dotnet out/CatalogWatch.dll --state state.json --out link_health.json --report report.md --proposals proposals.json --status status.json --public public $FORCE
+
+      - name: Commit kết quả
+        if: success() || failure()   # cả khi tool báo lỗi: để status.json (có lỗi) lên repo cho web admin thấy
+        run: |
+          git config user.name "catalog-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in state.json link_health.json report.md proposals.json status.json public; do
+            if [ -e "$f" ] || git ls-files --error-unmatch "$f" >/dev/null 2>&1; then git add -A -- "$f"; fi
+          done
+          if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
+          git commit -m "chore: catalog-watch $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
