@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-10T12:30:45.7640224Z",
+  "checked_at": "2026-11-10T14:24:09.7631377Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-10T12:30:45.7640224Z",
-  "catalog_revision": 35,
-  "total_keys": 956,
+  "last_probe_at": "2026-11-10T14:24:09.7631377Z",
+  "catalog_revision": 38,
+  "total_keys": 955,
   "hidden": 0,
-  "cycle_position": 262,
+  "cycle_position": 334,
   "error": "",
   "pages": {
-    "catalog_revision": 35,
+    "catalog_revision": 38,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-10T12:30:45.7640224Z",
-    "seconds": 127,
+    "at": "2026-11-10T14:24:09.7631377Z",
+    "seconds": 435,
     "probed": 100,
-    "ok": 89,
-    "hashed": 71,
-    "transient": 1,
-    "broken": 6,
-    "hash_mismatch": 4,
+    "ok": 82,
+    "hashed": 64,
+    "transient": 0,
+    "broken": 9,
+    "hash_mismatch": 9,
     "skipped": 0,
     "wide_outage": false
   },
@@ -494,6 +494,174 @@
       "silent_switch": true
     },
     {
+      "slug": "insomnia-insomnia",
+      "winget_id": "Insomnia.Insomnia",
+      "version": "13.4.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "irfanskiljan-irfanview",
+      "winget_id": "IrfanSkiljan.IrfanView",
+      "version": "4.76",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "jetbrains-dotpeek",
+      "winget_id": "JetBrains.dotPeek",
+      "version": "2026.2.4.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "jetbrains-resharper",
+      "winget_id": "JetBrains.ReSharper",
+      "version": "2026.2.4.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "jetbrains-toolbox",
+      "winget_id": "JetBrains.Toolbox",
+      "version": "3.9.1.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "kingsoft-wpsoffice",
+      "winget_id": "Kingsoft.WPSOffice",
+      "version": "12.2.0.23196",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "logitech-ghub",
+      "winget_id": "Logitech.GHUB",
+      "version": "2026.7.992920",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "logitech-optionsplus",
+      "winget_id": "Logitech.OptionsPlus",
+      "version": "2.9.994631",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "love2d-love2d",
+      "winget_id": "Love2d.Love2d",
+      "version": "11.5",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "mailbird-mailbird",
+      "winget_id": "Mailbird.Mailbird",
+      "version": "3.0.63",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "malwarebytes",
+      "winget_id": "Malwarebytes.Malwarebytes",
+      "version": "5.7.3.376",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "maxthon-maxthon",
+      "winget_id": "Maxthon.Maxthon",
+      "version": "7.5.3.2400",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "meta-oculus",
+      "winget_id": "Meta.Oculus",
+      "version": "1.115.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "metageek-inssider",
+      "winget_id": "MetaGeek.inSSIDer",
+      "version": "5.5.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-dotnet-framework-developerpack-4",
+      "winget_id": "Microsoft.DotNet.Framework.DeveloperPack_4",
+      "version": "4.8.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-dotnet-framework-runtime",
+      "winget_id": "Microsoft.DotNet.Framework.Runtime",
+      "version": "4.8.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-edgewebview2runtime",
+      "winget_id": "Microsoft.EdgeWebView2Runtime",
+      "version": "157.0.4341.42",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-mouseandkeyboardcenter",
+      "winget_id": "Microsoft.MouseandKeyboardCenter",
+      "version": "14.41.137.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-office",
+      "winget_id": "Microsoft.Office",
+      "version": "16.0.20228.20124",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-officedeploymenttool",
+      "winget_id": "Microsoft.OfficeDeploymentTool",
+      "version": "16.0.20430.20146",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-onedrive",
+      "winget_id": "Microsoft.OneDrive",
+      "version": "26.183.0920.0005",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-sqlserver-2019-express",
+      "winget_id": "Microsoft.SQLServer.2019.Express",
+      "version": "15.2204.5490.2",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-sqlserver-2022-express",
+      "winget_id": "Microsoft.SQLServer.2022.Express",
+      "version": "16.0.1000.6",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-sqlservermanagementstudio-21",
+      "winget_id": "Microsoft.SQLServerManagementStudio.21",
+      "version": "21.6.17",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "microsoft-vcredist-2005-x64",
       "winget_id": "Microsoft.VCRedist.2005.x64",
       "version": "8.0.61000",
@@ -534,6 +702,146 @@
       "version": "10.0.40219",
       "installer_type": "exe",
       "silent_switch": true
+    },
+    {
+      "slug": "microsoft-visualstudio-2022-buildtools",
+      "winget_id": "Microsoft.VisualStudio.2022.BuildTools",
+      "version": "17.14.44",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-visualstudio-2022-community",
+      "winget_id": "Microsoft.VisualStudio.2022.Community",
+      "version": "17.14.44",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-visualstudio-2022-enterprise",
+      "winget_id": "Microsoft.VisualStudio.2022.Enterprise",
+      "version": "17.14.44",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-visualstudio-2022-professional",
+      "winget_id": "Microsoft.VisualStudio.2022.Professional",
+      "version": "17.14.44",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-visualstudio-community",
+      "winget_id": "Microsoft.VisualStudio.Community",
+      "version": "18.11.3",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-windowsappruntime-1-5",
+      "winget_id": "Microsoft.WindowsAppRuntime.1.5",
+      "version": "1.5.9",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-windowsappruntime-1-6",
+      "winget_id": "Microsoft.WindowsAppRuntime.1.6",
+      "version": "1.6.9",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "miktex-miktex",
+      "winget_id": "MiKTeX.MiKTeX",
+      "version": "25.12",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "mitmproxy-mitmproxy",
+      "winget_id": "mitmproxy.mitmproxy",
+      "version": "12.3.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "msys2-msys2",
+      "winget_id": "MSYS2.MSYS2",
+      "version": "20260927",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "nefarius-hidhide",
+      "winget_id": "Nefarius.HidHide",
+      "version": "1.5.230",
+      "installer_type": "exe",
+      "silent_switch": true
+    }
+  ],
+  "heals": [],
+  "heal_blocked": [
+    {
+      "vkey": "w:aimp.aimp|5.10.2418",
+      "slug": "aimp-aimp",
+      "version": "5.10.2418",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 5.10.2418"
+    },
+    {
+      "vkey": "w:autodesk.dwgtrueview.2027|1.0.0.0",
+      "slug": "autodesk-dwgtrueview-2027",
+      "version": "1.0.0.0",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 1.0.0.0)"
+    },
+    {
+      "vkey": "w:bandisoft.bandizip|7.47",
+      "slug": "bandisoft-bandizip",
+      "version": "7.47",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB); winget-pkgs chưa có bản mới hơn 7.47"
+    },
+    {
+      "vkey": "w:binisoft.windowsfirewallcontrol|6.37.0.0",
+      "slug": "binisoft-windowsfirewallcontrol",
+      "version": "6.37.0.0",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Malwarebytes Inc, O=Malwarebytes Inc, L=Santa Clara, S=California, C=US, SERIALNUMBER=5430750, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 f726c3c3a3701fa37ddf821385ea9cc81bf64c0445318856b517491d00d61d8c, 3.4 MB); winget-pkgs chưa có bản mới hơn 6.37.0.0"
+    },
+    {
+      "vkey": "w:crucial.storageexecutive|11.11.112025.00",
+      "slug": "crucial-storageexecutive",
+      "version": "11.11.112025.00",
+      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:delugeteam.deluge|2.2.0",
+      "slug": "delugeteam-deluge",
+      "version": "2.2.0",
+      "reason_vi": "đổi http sang https: network error: The SSL connection could not be established, see inner exception.; winget-pkgs chưa có bản mới hơn 2.2.0"
+    },
+    {
+      "vkey": "w:dolphinemulator.dolphin|5.0",
+      "slug": "dolphinemulator-dolphin",
+      "version": "5.0",
+      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 5.0"
+    },
+    {
+      "vkey": "w:electronicarts.origin|10.5.129.55742",
+      "slug": "electronicarts-origin",
+      "version": "10.5.129.55742",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 10.5.129.55742)"
+    },
+    {
+      "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
+      "slug": "emsisoft-emergencykit",
+      "version": "2025.7.0.12683",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 a2e86f0448279fca14c22a69f0c92dd03258baecdc322223b6880bd648e23d7a, 327.3 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+    },
+    {
+      "vkey": "w:lamquangminh.evkey|6.0.5",
+      "slug": "evkey",
+      "version": "6.0.5",
+      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
     }
   ]
 }
