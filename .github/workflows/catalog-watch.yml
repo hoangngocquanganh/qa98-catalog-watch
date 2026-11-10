@@ -57,4 +57,5 @@ jobs:
           done
           if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
           git commit -m "chore: catalog-watch $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # job catalog-pin cũng đẩy lên main (tệp khác) => rebase rồi đẩy, thử lại 1 lần
+          for i in 1 2; do git pull --rebase -q origin main && git push && exit 0; sleep 5; done; exit 1

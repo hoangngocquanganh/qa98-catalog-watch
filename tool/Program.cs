@@ -79,7 +79,7 @@ namespace CatalogWatch
 
     static class Program
     {
-        const string ToolVersion = "1.0.0";
+        const string ToolVersion = "1.1.0";
         const string ApiBase = "https://hoangngocquanganh.com/qa98/api/v1/software/";
         const string DefaultConfigUrl = ApiBase + "bot_config.php";
         const string DefaultFreshnessUrl = ApiBase + "freshness.php";        // chưa xác minh endpoint thật: 404 = server chưa có freshness
@@ -145,6 +145,9 @@ namespace CatalogWatch
             if (!trust.Ok) return Fail(statusPath, status, 2, $"catalog rejected ({trust.Error}: {trust.Detail})");
             var catalog = trust.Catalog;
             status.CatalogRevision = catalog.Revision;
+
+            // 1a) Bước ghim installer winget (job riêng, runner Windows): không đồng bộ public/, không dò link, không đụng state.json / status.json
+            if (a.Has("pin")) return cfg.Enabled ? await Pins.RunAsync(a, catalog, http, timeoutSec) : 0;
 
             // 1b) Đồng bộ public/ cho Cloudflare Pages (mỗi lượt kiểm, kể cả khi chưa tới hạn dò)
             bool pagesChanged = false;
@@ -407,6 +410,8 @@ namespace CatalogWatch
             Console.WriteLine("  --force (dò dù chưa tới hạn)  --no-pages (không đồng bộ public/)");
             Console.WriteLine("  --max / --concurrency-per-host: đè cấu hình web admin khi chạy tay");
             Console.WriteLine("  --max 150  --concurrency-per-host 2  --timeout 30 (giây)  --max-file-mb 2048 (file lớn hơn: bỏ qua băm lượt này)");
+            Console.WriteLine("  --pin (chỉ Windows): ghim installer bản WINGET -> --pin-state state/pins.json --pin-out public/pins.json");
+            Console.WriteLine("        --pin-max 40 (số file tải)  --pin-budget-mb 8192  --pin-max-file-mb 1024  --pin-manifests 300 (số bản kiểm mỗi lượt)");
             return 1;
         }
 
@@ -426,7 +431,7 @@ namespace CatalogWatch
             },
         };
 
-        static void WriteAtomic(string path, string content)
+        internal static void WriteAtomic(string path, string content)
         {
             string full = Path.GetFullPath(path);
             Directory.CreateDirectory(Path.GetDirectoryName(full));

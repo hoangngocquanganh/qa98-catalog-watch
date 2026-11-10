@@ -1,0 +1,53 @@
+# Mẫu workflow cho REPO BOT CÔNG KHAI (cùng repo với catalog-watch.yml). Chép vào <repo-bot>/.github/workflows/catalog-pin.yml.
+#
+# Ghim installer cho bản WINGET đã duyệt (Docs/WINGET-PINNED.md, mục "Bật cho một gói"): đọc manifest winget-pkgs của đúng id + version,
+# chọn installer (msi / wix / inno / nullsoft / burn) theo arch đã duyệt, tải (≤ 1 GB/file), đối chiếu SHA-256 manifest,
+# đọc chữ ký Authenticode bằng Get-AuthenticodeSignature (phải Valid) => state/pins.json + public/pins.json (Cloudflare Pages).
+# File tải về chỉ băm + đọc chữ ký rồi xoá, KHÔNG chạy. Bản đã ghim không tải lại; bản bỏ qua thử lại sau 7 ngày.
+# Mỗi lượt tối đa 40 file / 8 GB (ưu tiên gói Featured). Server QA98 (cron/software_pin_ingest.php) đọc pins.json, tự kiểm lại rồi mới đưa vào catalog ký.
+# Job riêng, concurrency riêng: không chặn lượt 15 phút của catalog-watch. Hai job đẩy tệp khác nhau => rebase trước khi push.
+# Không secret. Action ghim SHA giống catalog-watch.yml.
+
+name: catalog-pin
+
+on:
+  schedule:
+    - cron: '17 2,14 * * *'   # 2 lần/ngày (09:17 và 21:17 giờ VN)
+  workflow_dispatch:
+
+concurrency:
+  group: catalog-pin
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pin:
+    runs-on: windows-latest   # cần Get-AuthenticodeSignature (WinVerifyTrust, kiểm thu hồi)
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - uses: actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1 # v5.4.0
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Build
+        run: dotnet build tool/CatalogWatch.csproj -c Release -o out
+
+      - name: Ghim installer
+        # catalog kiểm chữ ký như catalog-watch (sai => mã 2, không ghi pins); status.json của catalog-watch không bị đụng
+        run: dotnet out/CatalogWatch.dll --pin --no-pages --state state.json --status out/pin_status.json --pin-state state/pins.json --pin-out public/pins.json --pin-max 40 --pin-budget-mb 8192 --pin-max-file-mb 1024
+
+      - name: Commit kết quả
+        run: |
+          git config user.name "catalog-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- state/pins.json public/pins.json
+          if git diff --cached --quiet; then echo "Không có thay đổi"; exit 0; fi
+          git commit -m "chore: catalog-pin $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 10; done; exit 1

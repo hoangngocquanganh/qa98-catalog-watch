@@ -9,6 +9,10 @@ namespace SysInfoWpf.Services.SoftwareCenter.Trust
     public sealed class CatalogSource
     {
         public string Name = "", CatalogUrl = "", FreshnessUrl = "";
+
+        /// <summary>Chỉ máy chủ chính (cPanel) được dạy giờ cho app. Pages (bot đẩy, có thể đặt header tuỳ ý qua _headers) mà dạy giờ
+        /// thì lùi / tiến được đồng hồ toàn app => danh mục / availability hết hạn hoá "còn hạn" hoặc ngược lại.</summary>
+        public bool TrustedClock => Name == "cpanel";
     }
 
     /// <summary>Kết quả 1 lần tải cặp từ 1 nguồn (envelope đã bóc wrapper {"envelope": …}).</summary>
