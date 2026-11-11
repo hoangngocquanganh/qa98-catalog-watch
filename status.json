@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-10T23:47:11.4997693Z",
+  "checked_at": "2026-11-11T03:10:46.6993882Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-10T23:47:11.4997693Z",
-  "catalog_revision": 43,
-  "total_keys": 955,
-  "hidden": 5,
-  "cycle_position": 398,
+  "catalog_revision": 44,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 43,
+    "catalog_revision": 44,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
@@ -266,13 +266,6 @@
       "slug": "bluestack-bluestacks",
       "winget_id": "BlueStack.BlueStacks",
       "version": "5.22.166.1003",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "bytedance-capcut",
-      "winget_id": "ByteDance.CapCut",
-      "version": "9.5.0.4050",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -706,13 +699,6 @@
     {
       "slug": "microsoft-visualstudio-2022-buildtools",
       "winget_id": "Microsoft.VisualStudio.2022.BuildTools",
-      "version": "17.14.44",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "microsoft-visualstudio-2022-community",
-      "winget_id": "Microsoft.VisualStudio.2022.Community",
       "version": "17.14.44",
       "installer_type": "exe",
       "silent_switch": true
