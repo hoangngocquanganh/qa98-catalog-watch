@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-11T11:13:05.9159717Z",
+  "checked_at": "2026-11-11T18:46:14.3083732Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-11T11:13:05.9159717Z",
-  "catalog_revision": 50,
-  "total_keys": 965,
-  "hidden": 13,
-  "cycle_position": 469,
+  "last_probe_at": "2026-11-11T18:46:14.3083732Z",
+  "catalog_revision": 55,
+  "total_keys": 968,
+  "hidden": 15,
+  "cycle_position": 534,
   "error": "",
   "pages": {
-    "catalog_revision": 50,
+    "catalog_revision": 55,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-11T11:13:05.9159717Z",
-    "seconds": 93,
+    "at": "2026-11-11T18:46:14.3083732Z",
+    "seconds": 61,
     "probed": 100,
-    "ok": 82,
-    "hashed": 67,
-    "transient": 1,
-    "broken": 10,
-    "hash_mismatch": 7,
+    "ok": 78,
+    "hashed": 61,
+    "transient": 0,
+    "broken": 11,
+    "hash_mismatch": 11,
     "skipped": 0,
     "wide_outage": false
   },
@@ -900,13 +900,6 @@
       "silent_switch": true
     },
     {
-      "slug": "postman-postman",
-      "winget_id": "Postman.Postman",
-      "version": "12.36.1",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
       "slug": "privateinternetaccess-privateinternetaccess",
       "winget_id": "PrivateInternetAccess.PrivateInternetAccess",
       "version": "3.6.1+08339",
@@ -1043,13 +1036,6 @@
       "slug": "threema-threema",
       "winget_id": "Threema.Threema",
       "version": "1.2.50",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "tidalmusicas-tidal",
-      "winget_id": "TIDALMusicAS.TIDAL",
-      "version": "2.47.0",
       "installer_type": "exe",
       "silent_switch": true
     },

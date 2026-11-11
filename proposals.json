@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "baseRevision": 50,
-  "generated_at": "2026-11-11T11:13:05.9159717Z",
+  "baseRevision": 55,
+  "generated_at": "2026-11-11T18:46:14.3083732Z",
   "items": [
     {
       "key": "w:aimp.aimp|5.10.2418",
@@ -168,7 +168,7 @@
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe expected 5519e67d1833e8ea915bc4a654ffd5838d2095eb02a3aca49b4ff91d69046513 got 9ee6d198aac3fac141f05861ad17a02ad877984d851361d5b5fc3f81488a878f",
+      "note": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe expected 5519e67d1833e8ea915bc4a654ffd5838d2095eb02a3aca49b4ff91d69046513 got a2e86f0448279fca14c22a69f0c92dd03258baecdc322223b6880bd648e23d7a",
       "tried": [
         "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Emsisoft/EmergencyKit/2025.7.0.12683/Emsisoft.EmergencyKit.installer.yaml",
         "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe"
@@ -309,6 +309,44 @@
       "candidate_url": "",
       "candidate_sha256": "",
       "evidence": ""
+    },
+    {
+      "key": "w:lastpass.lastpass|5.4.5.1509",
+      "winget_id": "LastPass.LastPass",
+      "slug": "lastpass-lastpass",
+      "version": "5.4.5.1509",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi expected 77b8877a7c8edcf1e2baef30c92516c58836a7f1529cbde1d8ce4ab3f26e441b got 9d99ebfcf82220627b878b58485f4fcfc3a686dc1b9ca9b5cf3e7df8f47d577c",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LastPass/LastPass/5.4.5.1509/LastPass.LastPass.installer.yaml",
+        "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LastPass/LastPass/5.4.5.1509/LastPass.LastPass.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:metageek.inssider|5.5.0",
+      "winget_id": "MetaGeek.inSSIDer",
+      "slug": "metageek-inssider",
+      "version": "5.5.0",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://metageek-desktop.nyc3.digitaloceanspaces.com/Installers/inSSIDerLitePlus/inSSIDerSetup.exe expected a26e831e26807644bae1b84f0a2bf28dcd5c96c076f0e87700892dc4fd1efc0b got 948a2cde91190214a83a3d6e91d77c45315f390b88390b1f43446a4b4eb5277f",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MetaGeek/inSSIDer/5.5.0/MetaGeek.inSSIDer.installer.yaml",
+        "https://metageek-desktop.nyc3.digitaloceanspaces.com/Installers/inSSIDerLitePlus/inSSIDerSetup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MetaGeek/inSSIDer/5.5.0/MetaGeek.inSSIDer.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
       "key": "w:7zip.7zip|26.06",
@@ -707,21 +745,19 @@
       "evidence": ""
     },
     {
-      "key": "w:junegunn.fzf|0.75.0",
-      "winget_id": "junegunn.fzf",
-      "slug": "junegunn-fzf",
-      "version": "0.75.0",
+      "key": "w:microsoft.azure.storageexplorer|1.47.1",
+      "winget_id": "Microsoft.Azure.StorageExplorer",
+      "slug": "microsoft-azure-storageexplorer",
+      "version": "1.47.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/j/junegunn/fzf/0.75.0/junegunn.fzf.installer.yaml",
-        "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.zip",
-        "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_arm64.zip",
-        "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.msi",
-        "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_arm64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Azure/StorageExplorer/1.47.1/Microsoft.Azure.StorageExplorer.installer.yaml",
+        "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.47.1/StorageExplorer-windows-x64.exe",
+        "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.47.1/StorageExplorer-windows-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -729,18 +765,19 @@
       "evidence": ""
     },
     {
-      "key": "w:k3d.k3d|5.9.0",
-      "winget_id": "k3d.k3d",
-      "slug": "k3d-k3d",
-      "version": "5.9.0",
+      "key": "w:microsoft.azurecli|2.92.0",
+      "winget_id": "Microsoft.AzureCLI",
+      "slug": "microsoft-azurecli",
+      "version": "2.92.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/k3d/k3d/5.9.0/k3d.k3d.installer.yaml",
-        "https://github.com/k3d-io/k3d/releases/download/v5.9.0/k3d-windows-amd64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/AzureCLI/2.92.0/Microsoft.AzureCLI.installer.yaml",
+        "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.92.0.msi",
+        "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.92.0-x64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -748,19 +785,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kakao.kakaotalk|26.9.2.5342",
-      "winget_id": "Kakao.KakaoTalk",
-      "slug": "kakao-kakaotalk",
-      "version": "26.9.2.5342",
+      "key": "w:microsoft.bicep|0.49.2",
+      "winget_id": "Microsoft.Bicep",
+      "slug": "microsoft-bicep",
+      "version": "0.49.2",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kakao/KakaoTalk/26.9.2.5342/Kakao.KakaoTalk.installer.yaml",
-        "https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe",
-        "https://app-pc.kakaocdn.net/talk/win32/x64/KakaoTalk_Setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Bicep/0.49.2/Microsoft.Bicep.installer.yaml",
+        "https://github.com/Azure/bicep/releases/download/v0.49.2/bicep-win-x64.exe",
+        "https://github.com/Azure/bicep/releases/download/v0.49.2/bicep-win-arm64.exe",
+        "https://github.com/Azure/bicep/releases/download/v0.49.2/bicep-setup-win-x64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -768,18 +806,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.digikam|9.1.0",
-      "winget_id": "KDE.digiKam",
-      "slug": "kde-digikam",
-      "version": "9.1.0",
+      "key": "w:microsoft.copilot|157.0.4341.46",
+      "winget_id": "Microsoft.Copilot",
+      "slug": "microsoft-copilot",
+      "version": "157.0.4341.46",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/digiKam/9.1.0/KDE.digiKam.installer.yaml",
-        "https://download.kde.org/stable/digikam/9.1.0/digiKam-9.1.0-Qt6-Win64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Copilot/157.0.4341.46/Microsoft.Copilot.installer.yaml",
+        "https://download.microsoft.com/download/f53ebcc5-d4d3-4c14-a587-e087dd83ca5d/CopilotStableEnterpriseX64.msi",
+        "https://download.microsoft.com/download/f53ebcc5-d4d3-4c14-a587-e087dd83ca5d/CopilotStableEnterpriseX86.msi",
+        "https://download.microsoft.com/download/f53ebcc5-d4d3-4c14-a587-e087dd83ca5d/CopilotStableEnterpriseARM64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -787,19 +827,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.falkon|3.1.0",
-      "winget_id": "KDE.Falkon",
-      "slug": "kde-falkon",
-      "version": "3.1.0",
+      "key": "w:microsoft.dotnet.aspnetcore.10|10.0.15",
+      "winget_id": "Microsoft.DotNet.AspNetCore.10",
+      "slug": "microsoft-dotnet-aspnetcore-10",
+      "version": "10.0.15",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Falkon/3.1.0/KDE.Falkon.installer.yaml",
-        "https://download.kde.org/Attic/falkon/3.1/Falkon.Installer.3.1.0.exe",
-        "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.x64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/AspNetCore/10/10.0.15/Microsoft.DotNet.AspNetCore.10.installer.yaml",
+        "https://download.microsoft.com/download/85025cd0-4bfb-466d-af9d-3b3b3d00f3e7/412a9b9c-8093-48c2-8c6d-8f92419bc84f/aspnetcore-runtime-10.0.15-win-arm64.exe",
+        "https://download.microsoft.com/download/85025cd0-4bfb-466d-af9d-3b3b3d00f3e7/8f22aec2-efcc-438c-8f4d-ce2949796c89/aspnetcore-runtime-10.0.15-win-x64.exe",
+        "https://download.microsoft.com/download/85025cd0-4bfb-466d-af9d-3b3b3d00f3e7/77f14f6d-7b52-48c9-8635-66ec760f6650/aspnetcore-runtime-10.0.15-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -807,18 +848,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.kate|26.08.3",
-      "winget_id": "KDE.Kate",
-      "slug": "kde-kate",
-      "version": "26.08.3",
+      "key": "w:microsoft.dotnet.aspnetcore.8|8.0.34",
+      "winget_id": "Microsoft.DotNet.AspNetCore.8",
+      "slug": "microsoft-dotnet-aspnetcore-8",
+      "version": "8.0.34",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Kate/26.08.3/KDE.Kate.installer.yaml",
-        "https://cdn.kde.org/ci-builds/utilities/kate/release-26.08/windows/kate-release_26.08-12840-windows-cl-msvc2022-x86_64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/AspNetCore/8/8.0.34/Microsoft.DotNet.AspNetCore.8.installer.yaml",
+        "https://download.microsoft.com/download/0d362f9c-391c-40c3-93e7-664fc58f5510/7fc00706-d141-493b-a7e6-57fefc19f788/aspnetcore-runtime-8.0.34-win-arm64.exe",
+        "https://download.microsoft.com/download/0d362f9c-391c-40c3-93e7-664fc58f5510/f0ba20f2-9841-4f16-9ac7-fb18b053f15f/aspnetcore-runtime-8.0.34-win-x64.exe",
+        "https://download.microsoft.com/download/0d362f9c-391c-40c3-93e7-664fc58f5510/b7a88407-ab8a-4dc0-af87-2185cf802766/aspnetcore-runtime-8.0.34-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -826,18 +869,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.kdeconnect|26.08.2",
-      "winget_id": "KDE.KDEConnect",
-      "slug": "kde-kdeconnect",
-      "version": "26.08.2",
+      "key": "w:microsoft.dotnet.desktopruntime.10|10.0.15",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.10",
+      "slug": "microsoft-dotnet-desktopruntime-10",
+      "version": "10.0.15",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/KDEConnect/26.08.2/KDE.KDEConnect.installer.yaml",
-        "https://download.kde.org/stable/release-service/26.08.2/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/10/10.0.15/Microsoft.DotNet.DesktopRuntime.10.installer.yaml",
+        "https://download.microsoft.com/download/b477fae7-19d5-41a2-ba11-105d9bab54f8/e81498af-3470-4ea6-89b8-6ef532e7680f/windowsdesktop-runtime-10.0.15-win-arm64.exe",
+        "https://download.microsoft.com/download/b477fae7-19d5-41a2-ba11-105d9bab54f8/276d0de6-d558-4859-a3fe-65103e17a1ec/windowsdesktop-runtime-10.0.15-win-x64.exe",
+        "https://download.microsoft.com/download/b477fae7-19d5-41a2-ba11-105d9bab54f8/1c3d996c-0b02-4fee-9fac-2a2ddd84adad/windowsdesktop-runtime-10.0.15-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -845,18 +890,19 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.kdenlive|26.08.3",
-      "winget_id": "KDE.Kdenlive",
-      "slug": "kde-kdenlive",
-      "version": "26.08.3",
+      "key": "w:microsoft.dotnet.desktopruntime.3_1|3.1.32",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "slug": "microsoft-dotnet-desktopruntime-3-1",
+      "version": "3.1.32",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Kdenlive/26.08.3/KDE.Kdenlive.installer.yaml",
-        "https://download.kde.org/stable/kdenlive/26.08/windows/kdenlive-26.08.3.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/3_1/3.1.32/Microsoft.DotNet.DesktopRuntime.3_1.installer.yaml",
+        "https://builds.dotnet.microsoft.com/dotnet/Runtime/3.1.32/windowsdesktop-runtime-3.1.32-win-x64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/Runtime/3.1.32/windowsdesktop-runtime-3.1.32-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -864,18 +910,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.kdiff3|1.12.6",
-      "winget_id": "KDE.KDiff3",
-      "slug": "kde-kdiff3",
-      "version": "1.12.6",
+      "key": "w:microsoft.dotnet.desktopruntime.5|5.0.17",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.5",
+      "slug": "microsoft-dotnet-desktopruntime-5",
+      "version": "5.0.17",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/KDiff3/1.12.6/KDE.KDiff3.installer.yaml",
-        "https://download.kde.org/stable/kdiff3/kdiff3-1.12.6-windows-x86_64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/5/5.0.17/Microsoft.DotNet.DesktopRuntime.5.installer.yaml",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/5.0.17/windowsdesktop-runtime-5.0.17-win-arm64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/5.0.17/windowsdesktop-runtime-5.0.17-win-x64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/5.0.17/windowsdesktop-runtime-5.0.17-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -883,18 +931,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.krita|5.3.4.1",
-      "winget_id": "KDE.Krita",
-      "slug": "krita",
-      "version": "5.3.4.1",
+      "key": "w:microsoft.dotnet.desktopruntime.6|6.0.36",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.6",
+      "slug": "microsoft-dotnet-desktopruntime-6",
+      "version": "6.0.36",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Krita/5.3.4.1/KDE.Krita.installer.yaml",
-        "https://download.kde.org/stable/krita/5.3.4.1/krita-x64-5.3.4.1-setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/6/6.0.36/Microsoft.DotNet.DesktopRuntime.6.installer.yaml",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-x86.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-x64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -902,18 +952,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kde.okular|26.08.3",
-      "winget_id": "KDE.Okular",
-      "slug": "kde-okular",
-      "version": "26.08.3",
+      "key": "w:microsoft.dotnet.desktopruntime.7|7.0.20",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.7",
+      "slug": "microsoft-dotnet-desktopruntime-7",
+      "version": "7.0.20",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Okular/26.08.3/KDE.Okular.installer.yaml",
-        "https://cdn.kde.org/ci-builds/graphics/okular/release-26.08/windows/okular-release_26.08-8219-windows-cl-msvc2022-x86_64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/7/7.0.20/Microsoft.DotNet.DesktopRuntime.7.installer.yaml",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-arm64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-x64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -921,19 +973,20 @@
       "evidence": ""
     },
     {
-      "key": "w:keepassxcteam.keepassxc|2.8.0",
-      "winget_id": "KeePassXCTeam.KeePassXC",
-      "slug": "keepassxcteam-keepassxc",
-      "version": "2.8.0",
+      "key": "w:microsoft.dotnet.desktopruntime.9|9.0.23",
+      "winget_id": "Microsoft.DotNet.DesktopRuntime.9",
+      "slug": "microsoft-dotnet-desktopruntime-9",
+      "version": "9.0.23",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KeePassXCTeam/KeePassXC/2.8.0/KeePassXCTeam.KeePassXC.installer.yaml",
-        "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi",
-        "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-ARM64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/DesktopRuntime/9/9.0.23/Microsoft.DotNet.DesktopRuntime.9.installer.yaml",
+        "https://download.microsoft.com/download/257e5b34-a28e-4b26-90a7-b20332ca8015/8979597a-5893-49d0-abfd-93f7a32fe8df/windowsdesktop-runtime-9.0.23-win-arm64.exe",
+        "https://download.microsoft.com/download/257e5b34-a28e-4b26-90a7-b20332ca8015/caddd012-8bc6-4f3e-b17c-3b6d3c4c895a/windowsdesktop-runtime-9.0.23-win-x64.exe",
+        "https://download.microsoft.com/download/257e5b34-a28e-4b26-90a7-b20332ca8015/9da81bcc-739d-411c-8f6b-0fb98f12bf08/windowsdesktop-runtime-9.0.23-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -941,19 +994,18 @@
       "evidence": ""
     },
     {
-      "key": "w:kicad.kicad|10.0.8",
-      "winget_id": "KiCad.KiCad",
-      "slug": "kicad-kicad",
-      "version": "10.0.8",
+      "key": "w:microsoft.dotnet.framework.developerpack_4|4.8.1",
+      "winget_id": "Microsoft.DotNet.Framework.DeveloperPack_4",
+      "slug": "microsoft-dotnet-framework-developerpack-4",
+      "version": "4.8.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KiCad/KiCad/10.0.8/KiCad.KiCad.installer.yaml",
-        "https://github.com/KiCad/kicad-source-mirror/releases/download/10.0.8/kicad-10.0.8-x86_64.exe",
-        "https://github.com/KiCad/kicad-source-mirror/releases/download/10.0.8/kicad-10.0.8-arm64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/Framework/DeveloperPack_4/4.8.1/Microsoft.DotNet.Framework.DeveloperPack_4.installer.yaml",
+        "https://download.microsoft.com/download/8/1/8/81877d8b-a9b2-4153-9ad2-63a6441d11dd/NDP481-DevPack-ENU.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -961,18 +1013,18 @@
       "evidence": ""
     },
     {
-      "key": "w:kingsoft.wpsoffice|12.2.0.23196",
-      "winget_id": "Kingsoft.WPSOffice",
-      "slug": "kingsoft-wpsoffice",
-      "version": "12.2.0.23196",
+      "key": "w:microsoft.dotnet.framework.runtime|4.8.1",
+      "winget_id": "Microsoft.DotNet.Framework.Runtime",
+      "slug": "microsoft-dotnet-framework-runtime",
+      "version": "4.8.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kingsoft/WPSOffice/12.2.0.23196/Kingsoft.WPSOffice.installer.yaml",
-        "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/12.2.0.23196/500.1001/WPSOffice_23196.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/Framework/Runtime/4.8.1/Microsoft.DotNet.Framework.Runtime.installer.yaml",
+        "https://download.microsoft.com/download/4/b/2/cd00d4ed-ebdd-49ee-8a33-eabc3d1030e3/NDP481-x86-x64-AllOS-ENU.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -980,18 +1032,18 @@
       "evidence": ""
     },
     {
-      "key": "w:kingston.ssdmanager|1.5.6.5",
-      "winget_id": "Kingston.SSDManager",
-      "slug": "kingston-ssdmanager",
-      "version": "1.5.6.5",
+      "key": "w:microsoft.dotnet.hostingbundle.8|8.0.34",
+      "winget_id": "Microsoft.DotNet.HostingBundle.8",
+      "slug": "microsoft-dotnet-hostingbundle-8",
+      "version": "8.0.34",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kingston/SSDManager/1.5.6.5/Kingston.SSDManager.installer.yaml",
-        "https://media.kingston.com/support/downloads/KSM_setup_1.5.6.5.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/HostingBundle/8/8.0.34/Microsoft.DotNet.HostingBundle.8.installer.yaml",
+        "https://download.microsoft.com/download/001db58d-5a20-4c81-a5e7-b97c33d7af97/a04c10bb-881f-466e-b6b3-28ba611ff805/dotnet-hosting-8.0.34-win.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -999,23 +1051,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kitware.cmake|4.4.4",
-      "winget_id": "Kitware.CMake",
-      "slug": "kitware-cmake",
-      "version": "4.4.4",
+      "key": "w:microsoft.dotnet.runtime.8|8.0.34",
+      "winget_id": "Microsoft.DotNet.Runtime.8",
+      "slug": "microsoft-dotnet-runtime-8",
+      "version": "8.0.34",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kitware/CMake/4.4.4/Kitware.CMake.installer.yaml",
-        "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-i386.zip",
-        "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-x86_64.zip",
-        "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-arm64.zip",
-        "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-i386.msi",
-        "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-x86_64.msi",
-        "https://github.com/Kitware/CMake/releases/download/v4.4.4/cmake-4.4.4-windows-arm64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/Runtime/8/8.0.34/Microsoft.DotNet.Runtime.8.installer.yaml",
+        "https://download.microsoft.com/download/d8dc2fbb-a1c3-4e7b-9af8-ecc8c7c71e3d/9696d119-c8d0-49ae-a7a0-1b12c118cb5e/dotnet-runtime-8.0.34-win-x64.exe",
+        "https://download.microsoft.com/download/d8dc2fbb-a1c3-4e7b-9af8-ecc8c7c71e3d/829e7071-044d-4e2e-8eed-d157b56643e7/dotnet-runtime-8.0.34-win-x86.exe",
+        "https://download.microsoft.com/download/d8dc2fbb-a1c3-4e7b-9af8-ecc8c7c71e3d/a6e1eb12-1b80-4a0b-a29f-6841d9a65089/dotnet-runtime-8.0.34-win-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1023,18 +1072,20 @@
       "evidence": ""
     },
     {
-      "key": "w:klocman.bulkcrapuninstaller|6.3.0.0",
-      "winget_id": "Klocman.BulkCrapUninstaller",
-      "slug": "klocman-bulkcrapuninstaller",
-      "version": "6.3.0.0",
+      "key": "w:microsoft.dotnet.runtime.9|9.0.23",
+      "winget_id": "Microsoft.DotNet.Runtime.9",
+      "slug": "microsoft-dotnet-runtime-9",
+      "version": "9.0.23",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Klocman/BulkCrapUninstaller/6.3.0.0/Klocman.BulkCrapUninstaller.installer.yaml",
-        "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.3/BCUninstaller_6.3.0_setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/Runtime/9/9.0.23/Microsoft.DotNet.Runtime.9.installer.yaml",
+        "https://download.microsoft.com/download/e724b818-d50e-43ba-ba6e-0219dac3b858/15b7263a-d531-404b-8361-f2ef02426f9f/dotnet-runtime-9.0.23-win-x64.exe",
+        "https://download.microsoft.com/download/e724b818-d50e-43ba-ba6e-0219dac3b858/a31b93f2-897e-44ad-b4a4-bed64627c574/dotnet-runtime-9.0.23-win-x86.exe",
+        "https://download.microsoft.com/download/e724b818-d50e-43ba-ba6e-0219dac3b858/855c79cc-6542-462c-90a1-f30d1405c21c/dotnet-runtime-9.0.23-win-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1042,18 +1093,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kopia.kopiaui|0.23.1",
-      "winget_id": "Kopia.KopiaUI",
-      "slug": "kopia-kopiaui",
-      "version": "0.23.1",
+      "key": "w:microsoft.dotnet.sdk.10|10.0.404",
+      "winget_id": "Microsoft.DotNet.SDK.10",
+      "slug": "microsoft-dotnet-sdk-10",
+      "version": "10.0.404",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kopia/KopiaUI/0.23.1/Kopia.KopiaUI.installer.yaml",
-        "https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-Setup-0.23.1.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/SDK/10/10.0.404/Microsoft.DotNet.SDK.10.installer.yaml",
+        "https://download.microsoft.com/download/a45387e5-e2f1-4ab3-808f-96d2e6f109cc/ec879728-48fe-470d-a64c-885af3b39ffb/dotnet-sdk-10.0.404-win-arm64.exe",
+        "https://download.microsoft.com/download/a45387e5-e2f1-4ab3-808f-96d2e6f109cc/638cfd74-d0f4-4385-a792-030dac790081/dotnet-sdk-10.0.404-win-x64.exe",
+        "https://download.microsoft.com/download/a45387e5-e2f1-4ab3-808f-96d2e6f109cc/28becc84-168d-49e9-8bad-739d138305c0/dotnet-sdk-10.0.404-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1061,20 +1114,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kubernetes.kubectl|1.37.2",
-      "winget_id": "Kubernetes.kubectl",
-      "slug": "kubernetes-kubectl",
-      "version": "1.37.2",
+      "key": "w:microsoft.dotnet.sdk.6|6.0.428",
+      "winget_id": "Microsoft.DotNet.SDK.6",
+      "slug": "microsoft-dotnet-sdk-6",
+      "version": "6.0.428",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kubernetes/kubectl/1.37.2/Kubernetes.kubectl.installer.yaml",
-        "https://dl.k8s.io/release/v1.37.2/bin/windows/386/kubectl.exe",
-        "https://dl.k8s.io/release/v1.37.2/bin/windows/amd64/kubectl.exe",
-        "https://dl.k8s.io/release/v1.37.2/bin/windows/arm64/kubectl.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/SDK/6/6.0.428/Microsoft.DotNet.SDK.6.installer.yaml",
+        "https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-win-arm64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-win-x64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/Sdk/6.0.428/dotnet-sdk-6.0.428-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1082,18 +1135,20 @@
       "evidence": ""
     },
     {
-      "key": "w:kubernetes.minikube|1.39.0",
-      "winget_id": "Kubernetes.minikube",
-      "slug": "kubernetes-minikube",
-      "version": "1.39.0",
+      "key": "w:microsoft.dotnet.sdk.7|7.0.410",
+      "winget_id": "Microsoft.DotNet.SDK.7",
+      "slug": "microsoft-dotnet-sdk-7",
+      "version": "7.0.410",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/Kubernetes/minikube/1.39.0/Kubernetes.minikube.installer.yaml",
-        "https://github.com/kubernetes/minikube/releases/download/v1.39.0/minikube-installer.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/SDK/7/7.0.410/Microsoft.DotNet.SDK.7.installer.yaml",
+        "https://builds.dotnet.microsoft.com/dotnet/Sdk/7.0.410/dotnet-sdk-7.0.410-win-arm64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/Sdk/7.0.410/dotnet-sdk-7.0.410-win-x64.exe",
+        "https://builds.dotnet.microsoft.com/dotnet/Sdk/7.0.410/dotnet-sdk-7.0.410-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1101,18 +1156,20 @@
       "evidence": ""
     },
     {
-      "key": "w:lapce.lapce|0.4.6",
-      "winget_id": "Lapce.Lapce",
-      "slug": "lapce-lapce",
-      "version": "0.4.6",
+      "key": "w:microsoft.dotnet.sdk.8|8.0.428",
+      "winget_id": "Microsoft.DotNet.SDK.8",
+      "slug": "microsoft-dotnet-sdk-8",
+      "version": "8.0.428",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Lapce/Lapce/0.4.6/Lapce.Lapce.installer.yaml",
-        "https://github.com/lapce/lapce/releases/download/v0.4.6/Lapce-windows.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/SDK/8/8.0.428/Microsoft.DotNet.SDK.8.installer.yaml",
+        "https://download.microsoft.com/download/8bdd4263-20c6-4e8b-93df-c599d1ee6900/8abaf360-f0ca-4fe5-b493-222f81155008/dotnet-sdk-8.0.428-win-x64.exe",
+        "https://download.microsoft.com/download/8bdd4263-20c6-4e8b-93df-c599d1ee6900/f33f72fe-74db-4f06-bb46-1f9362ccbd2b/dotnet-sdk-8.0.428-win-arm64.exe",
+        "https://download.microsoft.com/download/8bdd4263-20c6-4e8b-93df-c599d1ee6900/6db1276a-674e-4b9f-8eb1-047aa7eef8ec/dotnet-sdk-8.0.428-win-x86.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1120,37 +1177,219 @@
       "evidence": ""
     },
     {
-      "key": "w:lastpass.lastpass|5.4.5.1509",
-      "winget_id": "LastPass.LastPass",
-      "slug": "lastpass-lastpass",
-      "version": "5.4.5.1509",
+      "key": "w:microsoft.dotnet.sdk.9|9.0.321",
+      "winget_id": "Microsoft.DotNet.SDK.9",
+      "slug": "microsoft-dotnet-sdk-9",
+      "version": "9.0.321",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/DotNet/SDK/9/9.0.321/Microsoft.DotNet.SDK.9.installer.yaml",
+        "https://download.microsoft.com/download/972d0100-008e-42ad-86e3-2f5a994f2b58/3303bac9-7ee6-4f08-bdca-5578fbcca216/dotnet-sdk-9.0.321-win-x64.exe",
+        "https://download.microsoft.com/download/972d0100-008e-42ad-86e3-2f5a994f2b58/3e2f5170-0813-4eb5-961c-1dff7ccec975/dotnet-sdk-9.0.321-win-arm64.exe",
+        "https://download.microsoft.com/download/972d0100-008e-42ad-86e3-2f5a994f2b58/34ae8998-ffa2-49d8-a052-8d53b6f7279f/dotnet-sdk-9.0.321-win-x86.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.edgewebview2runtime|157.0.4341.42",
+      "winget_id": "Microsoft.EdgeWebView2Runtime",
+      "slug": "microsoft-edgewebview2runtime",
+      "version": "157.0.4341.42",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/EdgeWebView2Runtime/157.0.4341.42/Microsoft.EdgeWebView2Runtime.installer.yaml",
+        "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4d69ace-3ef5-401e-94b5-e85b1dd8de18/MicrosoftEdgeWebView2RuntimeInstallerX86.exe",
+        "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/0126536e-e048-416f-923b-202f7f6fa64b/MicrosoftEdgeWebView2RuntimeInstallerX64.exe",
+        "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3c3e2a37-c863-4dd0-b614-c3e00e45d598/MicrosoftEdgeWebView2RuntimeInstallerARM64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.edge|156.0.4314.58",
+      "winget_id": "Microsoft.Edge",
+      "slug": "edge",
+      "version": "156.0.4314.58",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Edge/156.0.4314.58/Microsoft.Edge.installer.yaml",
+        "https://download.microsoft.com/download/6a05dff7-d4e0-4e1f-a773-efe3f9c17341/MicrosoftEdgeEnterpriseX64.msi",
+        "https://download.microsoft.com/download/6a05dff7-d4e0-4e1f-a773-efe3f9c17341/MicrosoftEdgeEnterpriseX86.msi",
+        "https://download.microsoft.com/download/6a05dff7-d4e0-4e1f-a773-efe3f9c17341/MicrosoftEdgeEnterpriseARM64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.edit|2.0.0",
+      "winget_id": "Microsoft.Edit",
+      "slug": "microsoft-edit",
+      "version": "2.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Edit/2.0.0/Microsoft.Edit.installer.yaml",
+        "https://github.com/microsoft/edit/releases/download/v2.0.0/edit-2.0.0-x86_64-windows.zip",
+        "https://github.com/microsoft/edit/releases/download/v2.0.0/edit-2.0.0-aarch64-windows.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.mediacreationtool|10.0.26100.7019",
+      "winget_id": "Microsoft.MediaCreationTool",
+      "slug": "microsoft-mediacreationtool",
+      "version": "10.0.26100.7019",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/MediaCreationTool/10.0.26100.7019/Microsoft.MediaCreationTool.installer.yaml",
+        "https://download.microsoft.com/download/0a8b07d9-a3bf-47b9-b71b-8e13354cec88/MediaCreationTool.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.mouseandkeyboardcenter|14.41.137.0",
+      "winget_id": "Microsoft.MouseandKeyboardCenter",
+      "slug": "microsoft-mouseandkeyboardcenter",
+      "version": "14.41.137.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/MouseandKeyboardCenter/14.41.137.0/Microsoft.MouseandKeyboardCenter.installer.yaml",
+        "https://download.microsoft.com/download/c/3/5/c35ae8d6-d607-4095-8eb8-ca1860dc2175/MouseKeyboardCenter_64bit_ENG_14.41.exe",
+        "https://download.microsoft.com/download/c/3/5/c35ae8d6-d607-4095-8eb8-ca1860dc2175/MouseKeyboardCenter_32bit_ENG_14.41.exe",
+        "https://download.microsoft.com/download/c/3/5/c35ae8d6-d607-4095-8eb8-ca1860dc2175/MouseKeyboardCenter_ARM64_ENG_14.41.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.msixpackagingtool|1.2024.405.0",
+      "winget_id": "Microsoft.MSIXPackagingTool",
+      "slug": "microsoft-msixpackagingtool",
+      "version": "1.2024.405.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/MSIXPackagingTool/1.2024.405.0/Microsoft.MSIXPackagingTool.installer.yaml",
+        "https://download.microsoft.com/download/e/2/e/e2e923b2-7a3a-4730-969d-ab37001fbb5e/MSIXPackagingtoolv1.2024.405.0.msixbundle"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.nuget|8.0.0",
+      "winget_id": "Microsoft.NuGet",
+      "slug": "microsoft-nuget",
+      "version": "8.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/NuGet/8.0.0/Microsoft.NuGet.installer.yaml",
+        "https://dist.nuget.org/win-x86-commandline/v8.0.0/nuget.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.officedeploymenttool|16.0.20430.20146",
+      "winget_id": "Microsoft.OfficeDeploymentTool",
+      "slug": "microsoft-officedeploymenttool",
+      "version": "16.0.20430.20146",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/OfficeDeploymentTool/16.0.20430.20146/Microsoft.OfficeDeploymentTool.installer.yaml",
+        "https://download.microsoft.com/download/6c1eeb25-cf8b-41d9-8d0d-cc1dbc032140/officedeploymenttool_20430-20146.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.office|16.0.20228.20124",
+      "winget_id": "Microsoft.Office",
+      "slug": "microsoft-office",
+      "version": "16.0.20228.20124",
       "arch": "neutral",
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi expected 77b8877a7c8edcf1e2baef30c92516c58836a7f1529cbde1d8ce4ab3f26e441b got 9d99ebfcf82220627b878b58485f4fcfc3a686dc1b9ca9b5cf3e7df8f47d577c",
+      "note": "https://officecdn.microsoft.com/pr/wsus/setup.exe expected f266bc16834fbfae5aa7aca7c27ed5f393cac0bb2acebc2d5bb2dd7813cf7497 got c883ab32dffe4a371bb37411de83edc5d62ff31d315c5e3b59e830326bb4e322",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LastPass/LastPass/5.4.5.1509/LastPass.LastPass.installer.yaml",
-        "https://download.cloud.lastpass.com/windows_installer/LastPassInstaller.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Office/16.0.20228.20124/Microsoft.Office.installer.yaml",
+        "https://officecdn.microsoft.com/pr/wsus/setup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
       "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LastPass/LastPass/5.4.5.1509/LastPass.LastPass.installer.yaml winget manifest exists but installer does not serve the expected file"
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Office/16.0.20228.20124/Microsoft.Office.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
-      "key": "w:lengockhoa.laragon|8.8.0",
-      "winget_id": "LeNgocKhoa.Laragon",
-      "slug": "lengockhoa-laragon",
-      "version": "8.8.0",
+      "key": "w:microsoft.onedrive|26.183.0920.0005",
+      "winget_id": "Microsoft.OneDrive",
+      "slug": "microsoft-onedrive",
+      "version": "26.183.0920.0005",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LeNgocKhoa/Laragon/8.8.0/LeNgocKhoa.Laragon.installer.yaml",
-        "https://github.com/leokhoa/laragon/releases/download/8.8.0/laragon-wamp.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/OneDrive/26.183.0920.0005/Microsoft.OneDrive.installer.yaml",
+        "https://oneclient.sfx.ms/Win/Installers/26.183.0920.0005/OneDriveSetup.exe",
+        "https://oneclient.sfx.ms/Win/Installers/26.183.0920.0005/amd64/OneDriveSetup.exe",
+        "https://oneclient.sfx.ms/Win/Installers/26.183.0920.0005/arm64/OneDriveSetup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1158,18 +1397,19 @@
       "evidence": ""
     },
     {
-      "key": "w:lenovo.systemupdate|5.08.04.85",
-      "winget_id": "Lenovo.SystemUpdate",
-      "slug": "lenovo-systemupdate",
-      "version": "5.08.04.85",
+      "key": "w:microsoft.openjdk.17|17.0.21.21",
+      "winget_id": "Microsoft.OpenJDK.17",
+      "slug": "microsoft-openjdk-17",
+      "version": "17.0.21.21",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Lenovo/SystemUpdate/5.08.04.85/Lenovo.SystemUpdate.installer.yaml",
-        "https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.08.04.85.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/OpenJDK/17/17.0.21.21/Microsoft.OpenJDK.17.installer.yaml",
+        "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-windows-x64.msi",
+        "https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-windows-aarch64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1177,19 +1417,19 @@
       "evidence": ""
     },
     {
-      "key": "w:librecad.librecad|2.2.1.6",
-      "winget_id": "LibreCAD.LibreCAD",
-      "slug": "librecad-librecad",
-      "version": "2.2.1.6",
+      "key": "w:microsoft.openjdk.21|21.0.13.21",
+      "winget_id": "Microsoft.OpenJDK.21",
+      "slug": "microsoft-openjdk-21",
+      "version": "21.0.13.21",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LibreCAD/LibreCAD/2.2.1.6/LibreCAD.LibreCAD.installer.yaml",
-        "https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.6/LibreCAD-v2.2.1.6-msvc.exe",
-        "https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.6/LibreCAD-v2.2.1.6-win64-msvc.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/OpenJDK/21/21.0.13.21/Microsoft.OpenJDK.21.installer.yaml",
+        "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-x64.msi",
+        "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-aarch64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1197,18 +1437,20 @@
       "evidence": ""
     },
     {
-      "key": "w:librehardwaremonitor.librehardwaremonitor|0.9.6",
-      "winget_id": "LibreHardwareMonitor.LibreHardwareMonitor",
-      "slug": "librehardwaremonitor-librehardwaremonitor",
-      "version": "0.9.6",
+      "key": "w:microsoft.openssh.preview|10.4.0.0",
+      "winget_id": "Microsoft.OpenSSH.Preview",
+      "slug": "microsoft-openssh-preview",
+      "version": "10.4.0.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LibreHardwareMonitor/LibreHardwareMonitor/0.9.6/LibreHardwareMonitor.LibreHardwareMonitor.installer.yaml",
-        "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases/download/v0.9.6/LibreHardwareMonitor.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/OpenSSH/Preview/10.4.0.0/Microsoft.OpenSSH.Preview.installer.yaml",
+        "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.4.0.0p1-Preview/OpenSSH-Win32-v10.4.0.0.msi",
+        "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.4.0.0p1-Preview/OpenSSH-Win64-v10.4.0.0.msi",
+        "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.4.0.0p1-Preview/OpenSSH-ARM64-v10.4.0.0.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1216,19 +1458,20 @@
       "evidence": ""
     },
     {
-      "key": "w:libretro.retroarch|1.22.2",
-      "winget_id": "Libretro.RetroArch",
-      "slug": "libretro-retroarch",
-      "version": "1.22.2",
+      "key": "w:microsoft.outlook|1.2026.812.100",
+      "winget_id": "Microsoft.Outlook",
+      "slug": "microsoft-outlook",
+      "version": "1.2026.812.100",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Libretro/RetroArch/1.22.2/Libretro.RetroArch.installer.yaml",
-        "https://buildbot.libretro.com/stable/1.22.2/windows/x86/RetroArch-Win32-setup.exe",
-        "https://buildbot.libretro.com/stable/1.22.2/windows/x86_64/RetroArch-Win64-setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Outlook/1.2026.812.100/Microsoft.Outlook.installer.yaml",
+        "https://res.cdn.office.net/nativehost/5mttl/installer/v2/1.2026.812.100/Microsoft.OutlookForWindows_x64.msix",
+        "https://res.cdn.office.net/nativehost/5mttl/installer/v2/1.2026.812.100/Microsoft.OutlookForWindows_x86.msix",
+        "https://res.cdn.office.net/nativehost/5mttl/installer/v2/1.2026.812.100/Microsoft.OutlookForWindows_arm64.msix"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1236,19 +1479,18 @@
       "evidence": ""
     },
     {
-      "key": "w:librewolf.librewolf|160.0-1",
-      "winget_id": "LibreWolf.LibreWolf",
-      "slug": "librewolf-librewolf",
-      "version": "160.0-1",
+      "key": "w:microsoft.powerautomatedesktop|2.74.00191.26302",
+      "winget_id": "Microsoft.PowerAutomateDesktop",
+      "slug": "microsoft-powerautomatedesktop",
+      "version": "2.74.00191.26302",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LibreWolf/LibreWolf/160.0-1/LibreWolf.LibreWolf.installer.yaml",
-        "https://dl.librewolf.net/librewolf/160.0-1/librewolf-160.0-1-windows-x86_64-setup.exe",
-        "https://dl.librewolf.net/librewolf/160.0-1/librewolf-160.0-1-windows-arm64-setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/PowerAutomateDesktop/2.74.00191.26302/Microsoft.PowerAutomateDesktop.installer.yaml",
+        "https://download.microsoft.com/download/a26b0f48-a6c0-40f7-ae02-a27ec7766ce2/Setup.Microsoft.PowerAutomate.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1256,19 +1498,18 @@
       "evidence": ""
     },
     {
-      "key": "w:lifesize.lifesize|3.0.19",
-      "winget_id": "Lifesize.Lifesize",
-      "slug": "lifesize-lifesize",
-      "version": "3.0.19",
+      "key": "w:microsoft.powerbi|2.159.1231.0",
+      "winget_id": "Microsoft.PowerBI",
+      "slug": "microsoft-powerbi",
+      "version": "2.159.1231.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Lifesize/Lifesize/3.0.19/Lifesize.Lifesize.installer.yaml",
-        "https://download.lifesizecloud.com/Lifesize%20Setup%203.0.19.exe",
-        "https://download.lifesizecloud.com/Lifesize%20Setup%203.0.19.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/PowerBI/2.159.1231.0/Microsoft.PowerBI.installer.yaml",
+        "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-10_x64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1276,18 +1517,18 @@
       "evidence": ""
     },
     {
-      "key": "w:lightninguk.imgburn|2.5.8.0",
-      "winget_id": "LIGHTNINGUK.ImgBurn",
-      "slug": "lightninguk-imgburn",
-      "version": "2.5.8.0",
+      "key": "w:microsoft.powershell|7.7.0.0",
+      "winget_id": "Microsoft.PowerShell",
+      "slug": "microsoft-powershell",
+      "version": "7.7.0.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LIGHTNINGUK/ImgBurn/2.5.8.0/LIGHTNINGUK.ImgBurn.installer.yaml",
-        "https://download.imgburn.com/SetupImgBurn_2.5.8.0.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/PowerShell/7.7.0.0/Microsoft.PowerShell.installer.yaml",
+        "https://github.com/PowerShell/PowerShell/releases/download/v7.7.0/PowerShell-7.7.0.msixbundle"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1295,19 +1536,21 @@
       "evidence": ""
     },
     {
-      "key": "w:lizardbyte.sunshine|2026.914.233613",
-      "winget_id": "LizardByte.Sunshine",
-      "slug": "lizardbyte-sunshine",
-      "version": "2026.914.233613",
+      "key": "w:microsoft.powertoys|0.102.3101",
+      "winget_id": "Microsoft.PowerToys",
+      "slug": "microsoft-powertoys",
+      "version": "0.102.3101",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LizardByte/Sunshine/2026.914.233613/LizardByte.Sunshine.installer.yaml",
-        "https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi",
-        "https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-ARM64-installer.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/PowerToys/0.102.3101/Microsoft.PowerToys.installer.yaml",
+        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysUserSetup-0.102.3101.0-x64.exe",
+        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-x64.exe",
+        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysUserSetup-0.102.3101.0-arm64.exe",
+        "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1315,19 +1558,20 @@
       "evidence": ""
     },
     {
-      "key": "w:llvm.llvm|23.1.5",
-      "winget_id": "LLVM.LLVM",
-      "slug": "llvm-llvm",
-      "version": "23.1.5",
+      "key": "w:microsoft.remotedesktopclient|1.2.7430.0",
+      "winget_id": "Microsoft.RemoteDesktopClient",
+      "slug": "microsoft-remotedesktopclient",
+      "version": "1.2.7430.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LLVM/LLVM/23.1.5/LLVM.LLVM.installer.yaml",
-        "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.5/LLVM-23.1.5-win64.msi",
-        "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.5/LLVM-23.1.5-woa64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/RemoteDesktopClient/1.2.7430.0/Microsoft.RemoteDesktopClient.installer.yaml",
+        "https://res.cdn.office.net/remote-desktop-windows-client/22ef1300-124c-4080-b99f-3fefdf2e2737/RemoteDesktop_1.2.7430.0_x86.msi",
+        "https://res.cdn.office.net/remote-desktop-windows-client/229f15ef-f921-4ff3-95b8-7a6cd809a2df/RemoteDesktop_1.2.7430.0_x64.msi",
+        "https://res.cdn.office.net/remote-desktop-windows-client/1feafc4e-29f7-497e-bb27-3b77343d612c/RemoteDesktop_1.2.7430.0_ARM64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1335,19 +1579,37 @@
       "evidence": ""
     },
     {
-      "key": "w:lmms.lmms|1.2.2",
-      "winget_id": "LMMS.LMMS",
-      "slug": "lmms-lmms",
-      "version": "1.2.2",
+      "key": "w:microsoft.sqlserver.2019.express|15.2204.5490.2",
+      "winget_id": "Microsoft.SQLServer.2019.Express",
+      "slug": "microsoft-sqlserver-2019-express",
+      "version": "15.2204.5490.2",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "Broken",
+      "reason": "HTTP 404",
+      "note": "https://download.microsoft.com/download/7/f/8/7f8a9c43-8c8a-4f7c-9f92-83c18d96b681/SQL2019-SSEI-Expr.exe",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/SQLServer/2019/Express/15.2204.5490.2/Microsoft.SQLServer.2019.Express.installer.yaml",
+        "https://download.microsoft.com/download/7/f/8/7f8a9c43-8c8a-4f7c-9f92-83c18d96b681/SQL2019-SSEI-Expr.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/SQLServer/2019/Express/15.2204.5490.2/Microsoft.SQLServer.2019.Express.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:microsoft.sqlserver.2022.express|16.0.1000.6",
+      "winget_id": "Microsoft.SQLServer.2022.Express",
+      "slug": "microsoft-sqlserver-2022-express",
+      "version": "16.0.1000.6",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LMMS/LMMS/1.2.2/LMMS.LMMS.installer.yaml",
-        "https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-win32.exe",
-        "https://github.com/LMMS/lmms/releases/download/v1.2.2/lmms-1.2.2-win64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/SQLServer/2022/Express/16.0.1000.6/Microsoft.SQLServer.2022.Express.installer.yaml",
+        "https://download.microsoft.com/download/29654887-7cde-4397-bba3-d7f087970845/SQL2022-SSEI-Expr.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1355,18 +1617,18 @@
       "evidence": ""
     },
     {
-      "key": "w:localsend.localsend|1.18.2",
-      "winget_id": "LocalSend.LocalSend",
-      "slug": "localsend-localsend",
-      "version": "1.18.2",
+      "key": "w:microsoft.sqlservermanagementstudio.21|21.6.17",
+      "winget_id": "Microsoft.SQLServerManagementStudio.21",
+      "slug": "microsoft-sqlservermanagementstudio-21",
+      "version": "21.6.17",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LocalSend/LocalSend/1.18.2/LocalSend.LocalSend.installer.yaml",
-        "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/SQLServerManagementStudio/21/21.6.17/Microsoft.SQLServerManagementStudio.21.installer.yaml",
+        "https://download.visualstudio.microsoft.com/download/pr/5967a899-96aa-47e2-a7c5-1b7192f292ee/cb58e449b5f554b28fa66a2a04d7c1bf55073f16242c8eb3b4d63fbfc10de5d0/vs_SSMS.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1374,19 +1636,28 @@
       "evidence": ""
     },
     {
-      "key": "w:logisim-evolution.logisim-evolution|5.0.0",
-      "winget_id": "logisim-evolution.logisim-evolution",
-      "slug": "logisim-evolution-logisim-evolution",
-      "version": "5.0.0",
+      "key": "w:microsoft.sqlservermanagementstudio|20.2.1",
+      "winget_id": "Microsoft.SQLServerManagementStudio",
+      "slug": "microsoft-sqlservermanagementstudio",
+      "version": "20.2.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/logisim-evolution/logisim-evolution/5.0.0/logisim-evolution.logisim-evolution.installer.yaml",
-        "https://github.com/logisim-evolution/logisim-evolution/releases/download/v5.0.0/logisim-evolution-5.0.0-amd64.msi",
-        "https://github.com/logisim-evolution/logisim-evolution/releases/download/v5.0.0/logisim-evolution-5.0.0-aarch64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/SQLServerManagementStudio/20.2.1/Microsoft.SQLServerManagementStudio.installer.yaml",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-DEU.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-ENU.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-ESN.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-FRA.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-ITA.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-JPN.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-KOR.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-PTB.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-RUS.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-CHS.exe",
+        "https://download.microsoft.com/download/7519f0ff-997c-4f36-b5aa-9a51d47dd34c/SSMS-Setup-CHT.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1394,18 +1665,18 @@
       "evidence": ""
     },
     {
-      "key": "w:logitech.ghub|2026.7.992920",
-      "winget_id": "Logitech.GHUB",
-      "slug": "logitech-ghub",
-      "version": "2026.7.992920",
+      "key": "w:microsoft.sysinternals.autoruns|14.3",
+      "winget_id": "Microsoft.Sysinternals.Autoruns",
+      "slug": "microsoft-sysinternals-autoruns",
+      "version": "14.3",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Logitech/GHUB/2026.7.992920/Logitech.GHUB.installer.yaml",
-        "https://download01.logi.com/web/ftp/pub/techsupport/gaming/lghub_installer.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Autoruns/14.3/Microsoft.Sysinternals.Autoruns.installer.yaml",
+        "https://download.sysinternals.com/files/Autoruns.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1413,18 +1684,18 @@
       "evidence": ""
     },
     {
-      "key": "w:logitech.optionsplus|2.9.994631",
-      "winget_id": "Logitech.OptionsPlus",
-      "slug": "logitech-optionsplus",
-      "version": "2.9.994631",
+      "key": "w:microsoft.sysinternals.bginfo|4.34",
+      "winget_id": "Microsoft.Sysinternals.BGInfo",
+      "slug": "microsoft-sysinternals-bginfo",
+      "version": "4.34",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Logitech/OptionsPlus/2.9.994631/Logitech.OptionsPlus.installer.yaml",
-        "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/BGInfo/4.34/Microsoft.Sysinternals.BGInfo.installer.yaml",
+        "https://download.sysinternals.com/files/BGInfo.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1432,18 +1703,18 @@
       "evidence": ""
     },
     {
-      "key": "w:logitech.options|10.26.14",
-      "winget_id": "Logitech.Options",
-      "slug": "logitech-options",
-      "version": "10.26.14",
+      "key": "w:microsoft.sysinternals.desktops|2.01",
+      "winget_id": "Microsoft.Sysinternals.Desktops",
+      "slug": "microsoft-sysinternals-desktops",
+      "version": "2.01",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Logitech/Options/10.26.14/Logitech.Options.installer.yaml",
-        "https://download01.logi.com/web/ftp/pub/techsupport/options/options_installer.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Desktops/2.01/Microsoft.Sysinternals.Desktops.installer.yaml",
+        "https://download.sysinternals.com/files/Desktops.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1451,18 +1722,18 @@
       "evidence": ""
     },
     {
-      "key": "w:logmein.hamachi|2.3.0.111",
-      "winget_id": "LogMeIn.Hamachi",
-      "slug": "logmein-hamachi",
-      "version": "2.3.0.111",
+      "key": "w:microsoft.sysinternals.handle|5.0",
+      "winget_id": "Microsoft.Sysinternals.Handle",
+      "slug": "microsoft-sysinternals-handle",
+      "version": "5.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LogMeIn/Hamachi/2.3.0.111/LogMeIn.Hamachi.installer.yaml",
-        "https://update-cdn.logmein.com/Hamachi/win32_23000111/Hamachi.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Handle/5.0/Microsoft.Sysinternals.Handle.installer.yaml",
+        "https://download.sysinternals.com/files/Handle.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1470,488 +1741,37 @@
       "evidence": ""
     },
     {
-      "key": "w:logseq.logseq|2.0.2",
-      "winget_id": "Logseq.Logseq",
-      "slug": "logseq-logseq",
-      "version": "2.0.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Logseq/Logseq/2.0.2/Logseq.Logseq.installer.yaml",
-        "https://github.com/logseq/logseq/releases/download/2.0.2/Logseq-win-x64-2.0.2-nsis.exe",
-        "https://github.com/logseq/logseq/releases/download/2.0.2/Logseq-win-arm64-2.0.2-nsis.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:love2d.love2d|11.5",
-      "winget_id": "Love2d.Love2d",
-      "slug": "love2d-love2d",
-      "version": "11.5",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/Love2d/Love2d/11.5/Love2d.Love2d.installer.yaml",
-        "https://github.com/love2d/love/releases/download/11.5/love-11.5-win32.exe",
-        "https://github.com/love2d/love/releases/download/11.5/love-11.5-win64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:luantiteam.luanti|5.17.0",
-      "winget_id": "LuantiTeam.Luanti",
-      "slug": "luantiteam-luanti",
-      "version": "5.17.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/l/LuantiTeam/Luanti/5.17.0/LuantiTeam.Luanti.installer.yaml",
-        "https://github.com/luanti-org/luanti/releases/download/5.17.0/luanti-5.17.0-win32.zip",
-        "https://github.com/luanti-org/luanti/releases/download/5.17.0/luanti-5.17.0-win64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:m2team.nanazip|7.0.1882.0",
-      "winget_id": "M2Team.NanaZip",
-      "slug": "nanazip",
-      "version": "7.0.1882.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/M2Team/NanaZip/7.0.1882.0/M2Team.NanaZip.installer.yaml",
-        "https://github.com/M2Team/NanaZip/releases/download/7.0.1882.0/NanaZip_7.0.1882.0.msixbundle"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:magic-wormhole.magic-wormhole|0.24.0",
-      "winget_id": "magic-wormhole.magic-wormhole",
-      "slug": "magic-wormhole-magic-wormhole",
-      "version": "0.24.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/magic-wormhole/magic-wormhole/0.24.0/magic-wormhole.magic-wormhole.installer.yaml",
-        "https://github.com/aquacash5/magic-wormhole-exe/releases/download/0.24.0/wormhole.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mailbird.mailbird|3.0.63",
-      "winget_id": "Mailbird.Mailbird",
-      "slug": "mailbird-mailbird",
-      "version": "3.0.63",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Mailbird/Mailbird/3.0.63/Mailbird.Mailbird.installer.yaml",
-        "https://download.getmailbird.com/installers/versions/3_0_63/MailbirdSetup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:malwarebytes.adwcleaner|8.8.1.639",
-      "winget_id": "Malwarebytes.AdwCleaner",
-      "slug": "malwarebytes-adwcleaner",
-      "version": "8.8.1.639",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Malwarebytes/AdwCleaner/8.8.1.639/Malwarebytes.AdwCleaner.installer.yaml",
-        "https://adwcleaner.malwarebytes.com/adwcleaner"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:malwarebytes.malwarebytes|5.7.3.376",
-      "winget_id": "Malwarebytes.Malwarebytes",
-      "slug": "malwarebytes",
-      "version": "5.7.3.376",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Malwarebytes/Malwarebytes/5.7.3.376/Malwarebytes.Malwarebytes.installer.yaml",
-        "https://data-cdn.mbamupdates.com/web/mb5-setup-consumer/offline/mb5-setup-consumer-5.7.3.376-167.0.5780-1.0.115771.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:marekjasinski.freecommanderxe|2026.0.0.941",
-      "winget_id": "MarekJasinski.FreeCommanderXE",
-      "slug": "marekjasinski-freecommanderxe",
-      "version": "2026.0.0.941",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MarekJasinski/FreeCommanderXE/2026.0.0.941/MarekJasinski.FreeCommanderXE.installer.yaml",
-        "https://freecommander.com/downloads/FreeCommanderXE-32_setup941.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mariadb.server|13.0.2.0",
-      "winget_id": "MariaDB.Server",
-      "slug": "mariadb-server",
-      "version": "13.0.2.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MariaDB/Server/13.0.2.0/MariaDB.Server.installer.yaml",
-        "https://downloads.mariadb.org/rest-api/mariadb/13.0.2/mariadb-13.0.2-winx64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:marktext.marktext|0.23.0",
-      "winget_id": "MarkText.MarkText",
-      "slug": "marktext-marktext",
-      "version": "0.23.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MarkText/MarkText/0.23.0/MarkText.MarkText.installer.yaml",
-        "https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-x64-0.23.0-setup.exe",
-        "https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:martchus.syncthingtray|2.1.9",
-      "winget_id": "Martchus.syncthingtray",
-      "slug": "martchus-syncthingtray",
-      "version": "2.1.9",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Martchus/syncthingtray/2.1.9/Martchus.syncthingtray.installer.yaml",
-        "https://github.com/Martchus/syncthingtray/releases/download/v2.1.9/syncthingtray-2.1.9-x86_64-w64-mingw32.exe.zip",
-        "https://github.com/Martchus/syncthingtray/releases/download/v2.1.9/syncthingtray-2.1.9-aarch64-w64-mingw32.exe.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mattermost.mattermostdesktop|6.3.2",
-      "winget_id": "Mattermost.MattermostDesktop",
-      "slug": "mattermost-mattermostdesktop",
-      "version": "6.3.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Mattermost/MattermostDesktop/6.3.2/Mattermost.MattermostDesktop.installer.yaml",
-        "https://github.com/mattermost/desktop/releases/download/v6.3.2/mattermost-desktop-6.3.2-win-x64.msi",
-        "https://github.com/mattermost/desktop/releases/download/v6.3.2/mattermost-desktop-6.3.2-win-arm64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:maxon.cinebenchr23|23.200",
-      "winget_id": "Maxon.CinebenchR23",
-      "slug": "maxon-cinebenchr23",
-      "version": "23.200",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Maxon/CinebenchR23/23.200/Maxon.CinebenchR23.installer.yaml",
-        "https://installer.maxon.net/cinebench/CinebenchR23.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:maxthon.maxthon|7.5.3.2400",
-      "winget_id": "Maxthon.Maxthon",
-      "slug": "maxthon-maxthon",
-      "version": "7.5.3.2400",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Maxthon/Maxthon/7.5.3.2400/Maxthon.Maxthon.installer.yaml",
-        "https://github.com/maxthon/update/releases/download/7.5.3.2400/maxthon_7.5.3.2400_x64.exe",
-        "https://pub.mxfast.net/file/mx-pub/inst/win/7.5.3.2400/maxthon_7.5.3.2400_x64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mediaarea.mediainfo.gui|26.10",
-      "winget_id": "MediaArea.MediaInfo.GUI",
-      "slug": "mediaarea-mediainfo-gui",
-      "version": "26.10",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MediaArea/MediaInfo/GUI/26.10/MediaArea.MediaInfo.GUI.installer.yaml",
-        "https://mediaarea.net/download/binary/mediainfo-gui/26.10/MediaInfo_GUI_26.10_Windows.exe",
-        "https://mediaarea.net/download/binary/mediainfo-gui/26.10/MediaInfo_GUI_26.10_Windows_ARM64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mega.megasync|6.7.0.3",
-      "winget_id": "Mega.MEGASync",
-      "slug": "mega-megasync",
-      "version": "6.7.0.3",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Mega/MEGASync/6.7.0.3/Mega.MEGASync.installer.yaml",
-        "https://mega.nz/MEGAsyncSetup32.exe",
-        "https://mega.nz/MEGAsyncSetup64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:meld.meld|3.24.1",
-      "winget_id": "Meld.Meld",
-      "slug": "meld-meld",
-      "version": "3.24.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Meld/Meld/3.24.1/Meld.Meld.installer.yaml",
-        "https://gitlab.gnome.org/api/v4/projects/301/packages/generic/meld/3.24.1/meld-3.24.1.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:meltytech.shotcut|26.9.27",
-      "winget_id": "Meltytech.Shotcut",
-      "slug": "meltytech-shotcut",
-      "version": "26.9.27",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Meltytech/Shotcut/26.9.27/Meltytech.Shotcut.installer.yaml",
-        "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.exe",
-        "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win_ARM-26.9.27.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mercurial.mercurial|7.1.2",
-      "winget_id": "Mercurial.Mercurial",
-      "slug": "mercurial-mercurial",
-      "version": "7.1.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Mercurial/Mercurial/7.1.2/Mercurial.Mercurial.installer.yaml",
-        "https://mercurial-scm.org/release/windows/Mercurial-7.1.2-x86.exe",
-        "https://mercurial-scm.org/release/windows/Mercurial-7.1.2-x64.exe",
-        "https://mercurial-scm.org/release/windows/mercurial-7.1.2-x86.msi",
-        "https://mercurial-scm.org/release/windows/mercurial-7.1.2-x64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:mersenne.prime95|30.19b20",
-      "winget_id": "mersenne.prime95",
-      "slug": "mersenne-prime95",
-      "version": "30.19b20",
-      "arch": "neutral",
-      "kind": "transient",
-      "outcome": "Transient",
-      "reason": "timeout",
-      "note": "https://download.mersenne.ca/gimps/v30/30.19/p95v3019b20.win32.zip",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/mersenne/prime95/30.19b20/mersenne.prime95.installer.yaml",
-        "https://download.mersenne.ca/gimps/v30/30.19/p95v3019b20.win32.zip",
-        "https://download.mersenne.ca/gimps/v30/30.19/p95v3019b20.win64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:meta.oculus|1.115.0",
-      "winget_id": "Meta.Oculus",
-      "slug": "meta-oculus",
-      "version": "1.115.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Meta/Oculus/1.115.0/Meta.Oculus.installer.yaml",
-        "https://securecdn.oculus.com/binaries/download/"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:metageek.inssider|5.5.0",
-      "winget_id": "MetaGeek.inSSIDer",
-      "slug": "metageek-inssider",
-      "version": "5.5.0",
+      "key": "w:microsoft.sysinternals.processexplorer|17.2",
+      "winget_id": "Microsoft.Sysinternals.ProcessExplorer",
+      "slug": "microsoft-sysinternals-processexplorer",
+      "version": "17.2",
       "arch": "neutral",
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://metageek-desktop.nyc3.digitaloceanspaces.com/Installers/inSSIDerLitePlus/inSSIDerSetup.exe expected a26e831e26807644bae1b84f0a2bf28dcd5c96c076f0e87700892dc4fd1efc0b got 948a2cde91190214a83a3d6e91d77c45315f390b88390b1f43446a4b4eb5277f",
+      "note": "https://download.sysinternals.com/files/ProcessExplorer.zip expected dab147316264b89ae46ae2ad7d8a94116848ef0b703bcac8de9ff22689ce9d51 got 22551d0181dde6cb6af1bc134a190d867d883673f9c35c33039e4e8f9ac75df1",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MetaGeek/inSSIDer/5.5.0/MetaGeek.inSSIDer.installer.yaml",
-        "https://metageek-desktop.nyc3.digitaloceanspaces.com/Installers/inSSIDerLitePlus/inSSIDerSetup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/ProcessExplorer/17.2/Microsoft.Sysinternals.ProcessExplorer.installer.yaml",
+        "https://download.sysinternals.com/files/ProcessExplorer.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
       "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MetaGeek/inSSIDer/5.5.0/MetaGeek.inSSIDer.installer.yaml winget manifest exists but installer does not serve the expected file"
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/ProcessExplorer/17.2/Microsoft.Sysinternals.ProcessExplorer.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
-      "key": "w:mhnexus.hxd|2.5",
-      "winget_id": "MHNexus.HxD",
-      "slug": "mhnexus-hxd",
-      "version": "2.5",
+      "key": "w:microsoft.sysinternals.processmonitor|4.13",
+      "winget_id": "Microsoft.Sysinternals.ProcessMonitor",
+      "slug": "microsoft-sysinternals-processmonitor",
+      "version": "4.13",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MHNexus/HxD/2.5/MHNexus.HxD.installer.yaml",
-        "https://mh-nexus.de/downloads/HxDSetup.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:microsoft.azd|1.37.400",
-      "winget_id": "Microsoft.Azd",
-      "slug": "microsoft-azd",
-      "version": "1.37.400",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Azd/1.37.400/Microsoft.Azd.installer.yaml",
-        "https://download.microsoft.com/download/eca0c9b3-b69b-4179-ad2a-073cf3bac069/d20c72f8-e8fe-4aea-9c6b-9760abdf515b/azd-windows-amd64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/ProcessMonitor/4.13/Microsoft.Sysinternals.ProcessMonitor.installer.yaml",
+        "https://download.sysinternals.com/files/ProcessMonitor.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1959,20 +1779,233 @@
       "evidence": ""
     },
     {
-      "key": "w:microsoft.azure.azcopy.10|10.34.1",
-      "winget_id": "Microsoft.Azure.AZCopy.10",
-      "slug": "microsoft-azure-azcopy-10",
-      "version": "10.34.1",
+      "key": "w:microsoft.sysinternals.pstools|2026-11-05",
+      "winget_id": "Microsoft.Sysinternals.PsTools",
+      "slug": "microsoft-sysinternals-pstools",
+      "version": "2026-11-05",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Azure/AZCopy/10/10.34.1/Microsoft.Azure.AZCopy.10.installer.yaml",
-        "https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.1/azcopy_windows_386_10.34.1.zip",
-        "https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.1/azcopy_windows_amd64_10.34.1.zip",
-        "https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.1/azcopy_windows_arm64_10.34.1.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/PsTools/2026-11-05/Microsoft.Sysinternals.PsTools.installer.yaml",
+        "https://download.sysinternals.com/files/PSTools.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.rammap|1.63",
+      "winget_id": "Microsoft.Sysinternals.RAMMap",
+      "slug": "microsoft-sysinternals-rammap",
+      "version": "1.63",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/RAMMap/1.63/Microsoft.Sysinternals.RAMMap.installer.yaml",
+        "https://download.sysinternals.com/files/RAMMap.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.rdcman|3.23.0.0",
+      "winget_id": "Microsoft.Sysinternals.RDCMan",
+      "slug": "microsoft-sysinternals-rdcman",
+      "version": "3.23.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/RDCMan/3.23.0.0/Microsoft.Sysinternals.RDCMan.installer.yaml",
+        "https://download.sysinternals.com/files/RDCMan.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.sigcheck|2.93",
+      "winget_id": "Microsoft.Sysinternals.Sigcheck",
+      "slug": "microsoft-sysinternals-sigcheck",
+      "version": "2.93",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Sigcheck/2.93/Microsoft.Sysinternals.Sigcheck.installer.yaml",
+        "https://download.sysinternals.com/files/Sigcheck.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.strings|2.54",
+      "winget_id": "Microsoft.Sysinternals.Strings",
+      "slug": "microsoft-sysinternals-strings",
+      "version": "2.54",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Strings/2.54/Microsoft.Sysinternals.Strings.installer.yaml",
+        "https://download.sysinternals.com/files/Strings.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.suite|2026-10-15",
+      "winget_id": "Microsoft.Sysinternals.Suite",
+      "slug": "microsoft-sysinternals-suite",
+      "version": "2026-10-15",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip expected 5e882f231b34b325a336a69257baed088b84ba2a0ce065ef65ba37795bbd8dcf got f2ec09acc20e6e698b7bffea3abb41ce5c034a3090308a9de3d4415b146c9e1b",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Suite/2026-10-15/Microsoft.Sysinternals.Suite.installer.yaml",
+        "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+        "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Suite/2026-10-15/Microsoft.Sysinternals.Suite.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:microsoft.sysinternals.sysmon|15.22",
+      "winget_id": "Microsoft.Sysinternals.Sysmon",
+      "slug": "microsoft-sysinternals-sysmon",
+      "version": "15.22",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Sysmon/15.22/Microsoft.Sysinternals.Sysmon.installer.yaml",
+        "https://download.sysinternals.com/files/Sysmon.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.tcpview|4.19",
+      "winget_id": "Microsoft.Sysinternals.TCPView",
+      "slug": "microsoft-sysinternals-tcpview",
+      "version": "4.19",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/TCPView/4.19/Microsoft.Sysinternals.TCPView.installer.yaml",
+        "https://download.sysinternals.com/files/TCPView.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.vmmap|3.4",
+      "winget_id": "Microsoft.Sysinternals.VMMap",
+      "slug": "microsoft-sysinternals-vmmap",
+      "version": "3.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/VMMap/3.4/Microsoft.Sysinternals.VMMap.installer.yaml",
+        "https://download.sysinternals.com/files/VMMap.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.sysinternals.zoomit|12.3",
+      "winget_id": "Microsoft.Sysinternals.ZoomIt",
+      "slug": "microsoft-sysinternals-zoomit",
+      "version": "12.3",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://download.sysinternals.com/files/ZoomIt.zip expected 47539809c8bebd0f58adf652ab990e0fb75215b55c23fad400e794d116d262e0 got 5cea173602dd59bf018db9dab938b81bfac0b98002aa2eaa7ecff981f1d01992",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/ZoomIt/12.3/Microsoft.Sysinternals.ZoomIt.installer.yaml",
+        "https://download.sysinternals.com/files/ZoomIt.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/ZoomIt/12.3/Microsoft.Sysinternals.ZoomIt.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:microsoft.teams|26288.2004.5269.3420",
+      "winget_id": "Microsoft.Teams",
+      "slug": "teams",
+      "version": "26288.2004.5269.3420",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Teams/26288.2004.5269.3420/Microsoft.Teams.installer.yaml",
+        "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x86/26288.2004.5269.3420/MSTeams-x86.msix",
+        "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-x64/26288.2004.5269.3420/MSTeams-x64.msix",
+        "https://teamsinstaller.public.onecdn.static.microsoft/production-windows-arm64/26288.2004.5269.3420/MSTeams-arm64.msix"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:microsoft.ui.xaml.2.8|8.2310.30001.0",
+      "winget_id": "Microsoft.UI.Xaml.2.8",
+      "slug": "microsoft-ui-xaml-2-8",
+      "version": "8.2310.30001.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/UI/Xaml/2/8/8.2310.30001.0/Microsoft.UI.Xaml.2.8.installer.yaml",
+        "https://github.com/microsoft/microsoft-ui-xaml/releases/download/v2.8.6/Microsoft.UI.Xaml.2.8.x64.appx",
+        "https://github.com/microsoft/microsoft-ui-xaml/releases/download/v2.8.6/Microsoft.UI.Xaml.2.8.x86.appx",
+        "https://github.com/microsoft/microsoft-ui-xaml/releases/download/v2.8.6/Microsoft.UI.Xaml.2.8.arm.appx",
+        "https://github.com/microsoft/microsoft-ui-xaml/releases/download/v2.8.6/Microsoft.UI.Xaml.2.8.arm64.appx"
       ],
       "candidate_version": "",
       "candidate_url": "",
