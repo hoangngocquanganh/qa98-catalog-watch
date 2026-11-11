@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-10T23:47:11.4997693Z",
-  "catalog_revision": 43,
+  "generated_at": "2026-11-11T11:13:05.9159717Z",
+  "catalog_revision": 50,
   "hidden": [
     {
       "winget_id": "AIMP.AIMP",
@@ -9,7 +9,7 @@
       "version": "5.10.2418",
       "reason": "HTTP 404",
       "since": "2026-11-10T05:10:36.1489761Z",
-      "fails": 3,
+      "fails": 4,
       "note": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe"
     },
     {
@@ -18,7 +18,7 @@
       "version": "1.0.0.0",
       "reason": "HTTP 404",
       "since": "2026-11-10T05:34:10.0768548Z",
-      "fails": 3,
+      "fails": 4,
       "note": "https://upload2.delivery.autodesk.com/WebInstall3StubGUI-1781876152414.exe"
     },
     {
@@ -27,7 +27,7 @@
       "version": "7.47",
       "reason": "sha256 mismatch",
       "since": "2026-11-10T05:34:10.0768548Z",
-      "fails": 3,
+      "fails": 4,
       "note": "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-ALL.EXE expected f35590f4b2660d0698049a454167381efa462e5821b32af5e4562bc4ac929d44 got 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111"
     },
     {
@@ -36,16 +36,88 @@
       "version": "6.37.0.0",
       "reason": "sha256 mismatch",
       "since": "2026-11-10T05:34:10.0768548Z",
-      "fails": 3,
+      "fails": 4,
       "note": "https://www.binisoft.org/download/wfc6setup.exe expected 26bd4b19fb8ab523e621e40ec5426b7289b467e88505d6764a87e7ad6df4d5c1 got f726c3c3a3701fa37ddf821385ea9cc81bf64c0445318856b517491d00d61d8c"
+    },
+    {
+      "winget_id": "Crucial.StorageExecutive",
+      "slug": "crucial-storageexecutive",
+      "version": "11.11.112025.00",
+      "reason": "HTML page",
+      "since": "2026-11-10T11:35:40.4958045Z",
+      "fails": 3,
+      "note": "https://assets.micron.com/adobe/assets/urn:aaid:aem:4f8683ee-4679-4a2e-8f94-522fa19126d2/renditions/original/as/storage-executive-win-64-11-11.zip"
+    },
+    {
+      "winget_id": "DelugeTeam.Deluge",
+      "slug": "delugeteam-deluge",
+      "version": "2.2.0",
+      "reason": "url is not https",
+      "since": "2026-11-10T11:35:40.4958045Z",
+      "fails": 3,
+      "note": "http://download.deluge-torrent.org/windows/deluge-2.2.0-win32-setup.exe"
+    },
+    {
+      "winget_id": "DolphinEmulator.Dolphin",
+      "slug": "dolphinemulator-dolphin",
+      "version": "5.0",
+      "reason": "HTTP 403 (repeated)",
+      "since": "2026-11-10T11:35:40.4958045Z",
+      "fails": 3,
+      "note": "https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe"
+    },
+    {
+      "winget_id": "ElectronicArts.Origin",
+      "slug": "electronicarts-origin",
+      "version": "10.5.129.55742",
+      "reason": "HTTP 404",
+      "since": "2026-11-10T12:30:45.7640224Z",
+      "fails": 3,
+      "note": "https://download.dm.origin.com/origin/live/OriginSetup.exe"
+    },
+    {
+      "winget_id": "Emsisoft.EmergencyKit",
+      "slug": "emsisoft-emergencykit",
+      "version": "2025.7.0.12683",
+      "reason": "sha256 mismatch",
+      "since": "2026-11-10T12:30:45.7640224Z",
+      "fails": 3,
+      "note": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe expected 5519e67d1833e8ea915bc4a654ffd5838d2095eb02a3aca49b4ff91d69046513 got 9ee6d198aac3fac141f05861ad17a02ad877984d851361d5b5fc3f81488a878f"
+    },
+    {
+      "winget_id": "GlassWire.GlassWire",
+      "slug": "glasswire-glasswire",
+      "version": "3.11.1164",
+      "reason": "HTTP 403 (repeated)",
+      "since": "2026-11-10T14:24:09.7631377Z",
+      "fails": 3,
+      "note": "https://s3.us-east-1.amazonaws.com/s3.glasswire.com/download/3dd7fcc8278d7388561d888f2eef9813/GlassWireSetup.exe"
+    },
+    {
+      "winget_id": "GPSoftware.DirectoryOpus",
+      "slug": "gpsoftware-directoryopus",
+      "version": "13.25",
+      "reason": "sha256 mismatch",
+      "since": "2026-11-10T14:24:09.7631377Z",
+      "fails": 3,
+      "note": "https://cdn.gpsoft.com.au/files/Opus13/DOpusInstall-13.25.exe expected d3dd29ccba820c14d3fc40d8a9109d94529fa4712d5e60ce34f5aa71a115c167 got ef8905f9693c1e3a26b0ada42fd40ea845c047c0b48b794201c6489a3436e18d"
+    },
+    {
+      "winget_id": "Guilded.Guilded",
+      "slug": "guilded-guilded",
+      "version": "latest",
+      "reason": "winget manifest missing",
+      "since": "2026-11-10T14:24:09.7631377Z",
+      "fails": 3,
+      "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Guilded/Guilded/latest/Guilded.Guilded.installer.yaml"
     },
     {
       "winget_id": "lamquangminh.EVKey",
       "slug": "evkey",
       "version": "6.0.5",
       "reason": "sha256 mismatch",
-      "since": "2026-11-10T05:10:36.1489761Z",
-      "fails": 3,
+      "since": "2026-11-11T11:13:05.9159717Z",
+      "fails": 0,
       "note": "https://github.com/lamquangminh/EVKey/releases/download/Release/EVKey.zip expected 836fb7d7498b8ee63ab97b01ef0f37ba008a736aefbbb33adfb427ce662c0a90 got 59ac1ceeb7fce4407f5565a9ecf885210b450a3b789e035f06d07728e26e78bc"
     }
   ]
