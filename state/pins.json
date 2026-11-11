@@ -1,22 +1,22 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-11T09:31:06.8323988Z",
-  "catalog_revision": 48,
+  "updated_at": "2026-11-11T21:27:51.6491038Z",
+  "catalog_revision": 57,
   "last_run": {
-    "at": "2026-11-11T09:31:06.8323988Z",
-    "seconds": 124,
-    "checked": 243,
+    "at": "2026-11-11T21:27:51.6491038Z",
+    "seconds": 43,
+    "checked": 158,
     "downloads": 40,
-    "downloaded_mb": 5435,
+    "downloaded_mb": 4996,
     "pinned": 30,
-    "skipped": 67,
-    "transient": 1,
-    "deferred": 145,
+    "skipped": 17,
+    "transient": 2,
+    "deferred": 109,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 41,
-      "installer type … not supported by pinned route": 17,
-      "authenticode NotSigned": 8,
-      "download HTTP …": 1
+      "authenticode NotSigned": 7,
+      "neutral version but installer differs by arch …; split versions per arch to pin": 5,
+      "installer type … not supported by pinned route": 4,
+      "download larger than … MB": 1
     }
   },
   "entries": [
@@ -584,23 +584,24 @@
       "silent_check": "exe"
     },
     {
-      "key": "amazon.sam-cli|1.171.0|neutral",
+      "key": "amazon.sam-cli|1.172.1|neutral",
       "status": "pinned",
       "id": "Amazon.SAM-CLI",
-      "version": "1.171.0",
+      "version": "1.172.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.171.0/AWS_SAM_CLI_64_PY3.msi",
-      "sha256": "da18862262028e3aa88ce1518bd1a01c504146300ddc3faa2a3c59a0074f1715",
-      "size": 98467840,
+      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.172.1/AWS_SAM_CLI_64_PY3.msi",
+      "sha256": "3fffa130797f0317b7538dd8145be547513ced2ee2f537a4aa79576de8eb4360",
+      "size": 98504704,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
     },
     {
       "key": "amd.amdsoftwarecloudedition|23.Q3|neutral",
@@ -1110,23 +1111,24 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
-      "key": "arduinosa.cli|1.5.1|neutral",
+      "key": "arduinosa.cli|1.6.0|neutral",
       "status": "pinned",
       "id": "ArduinoSA.CLI",
-      "version": "1.5.1",
+      "version": "1.6.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/arduino/arduino-cli/releases/download/v1.5.1/arduino-cli_1.5.1_Windows_64bit.msi",
-      "sha256": "f5ec9eddc0704170272c993c3e01c96237e0a7e2c08e465fd05382e5891faca8",
-      "size": 18468864,
+      "url": "https://github.com/arduino/arduino-cli/releases/download/v1.6.0/arduino-cli_1.6.0_Windows_64bit.msi",
+      "sha256": "fe89bcfbbfe30a9f179cb6fd0fb4a9ebd2fb6d1f57348d8f7c37e8c16c6118b6",
+      "size": 20901888,
       "signer_subject": "CN=Arduino SA, O=Arduino SA, S=Ticino, C=CH",
       "signer_thumbprint": "A3A0279D18F850B33D0CBF616417BBB1113CD0F6",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
     },
     {
       "key": "arduinosa.ide.stable|2.3.10|neutral",
@@ -4539,23 +4541,23 @@
       "silent_check": "exe"
     },
     {
-      "key": "flux.flux|4.148|neutral",
+      "key": "flux.flux|4.150|neutral",
       "status": "pinned",
       "id": "flux.flux",
-      "version": "4.148",
+      "version": "4.150",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://justgetflux.com/flux-setup4-148.exe",
-      "sha256": "c5bfc86f82a4e47c41c0ff2ab70cd49c7365a496cb9079766e1d7ea40d65ea54",
-      "size": 682984,
+      "url": "https://justgetflux.com/flux-setup4-150.exe",
+      "sha256": "7d60c73874141b39ce374fc102ae7690e8f635ad702127e9ac2a4444c4a83f81",
+      "size": 682320,
       "signer_subject": "CN=F.lux Software LLC, O=F.lux Software LLC, L=Los Angeles, S=California, C=US",
       "signer_thumbprint": "D0623E9F7602DBCF835EE247BBE42B7251523516",
       "allowed_hosts": [
         "justgetflux.com",
         "justgetflux.b-cdn.net"
       ],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -4875,11 +4877,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "geogebra.geometry|6.0.934|neutral",
+      "key": "geogebra.geometry|6.0.936|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "GeoGebra.Geometry",
-      "version": "6.0.934",
+      "version": "6.0.936",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4889,7 +4891,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "exe"
     },
     {
@@ -5444,11 +5446,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "google.antigravity|2.31.0|neutral",
+      "key": "google.antigravity|2.31.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Google.Antigravity",
-      "version": "2.31.0",
+      "version": "2.31.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5458,7 +5460,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -7673,24 +7675,6 @@
       "silent_check": "ok"
     },
     {
-      "key": "lamquangminh.evkey|6.0.5|neutral",
-      "status": "skipped",
-      "reason": "installer type 'zip' not supported by pinned route",
-      "id": "lamquangminh.EVKey",
-      "version": "6.0.5",
-      "arch": "neutral",
-      "installer_type": "",
-      "installer_arch": "",
-      "url": "",
-      "sha256": "",
-      "size": 0,
-      "signer_subject": "",
-      "signer_thumbprint": "",
-      "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
-      "silent_check": "ok"
-    },
-    {
       "key": "lapce.lapce|0.4.6|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
@@ -8599,6 +8583,24 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.dotnet.aspnetcore.10|10.0.15|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.DotNet.AspNetCore.10",
+      "version": "10.0.15",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -10141,6 +10143,24 @@
       "silent_check": "exe"
     },
     {
+      "key": "microsoft.windowsappruntime.1.8|1.8.10|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WindowsAppRuntime.1.8",
+      "version": "1.8.10",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "exe"
+    },
+    {
       "key": "microsoft.windowsapp|2.0.1484.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -10196,11 +10216,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "microsoft.windowsterminal|1.25.2733.0|neutral",
+      "key": "microsoft.windowsterminal|1.25.3131.0|neutral",
       "status": "skipped",
       "reason": "installer type 'msix' not supported by pinned route",
       "id": "Microsoft.WindowsTerminal",
-      "version": "1.25.2733.0",
+      "version": "1.25.3131.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -10210,7 +10230,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -11492,6 +11512,24 @@
       "silent_check": "ok"
     },
     {
+      "key": "nsis.nsis|3.13|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "NSIS.NSIS",
+      "version": "3.13",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "ntwind.vistaswitcher|1.1.5|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
@@ -11600,6 +11638,26 @@
       "silent_check": "exe"
     },
     {
+      "key": "obsidian.obsidian|1.15.0|neutral",
+      "status": "pinned",
+      "id": "Obsidian.Obsidian",
+      "version": "1.15.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.0/Obsidian-1.15.0.exe",
+      "sha256": "b0f60c75a12f96d54cb16b9fc32919966f2ebf029d9af75d67a19ba6555e1da0",
+      "size": 339587200,
+      "signer_subject": "CN=Dynalist Inc, O=Dynalist Inc, L=Oakville, S=Ontario, C=CA",
+      "signer_thumbprint": "895D1E639FB4C49415020AB286136E02AB0A1B1F",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "obsproject.obsstudio|33.0.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -11654,6 +11712,81 @@
       "silent_check": "ok"
     },
     {
+      "key": "ocenaudio.ocenaudio|3.22.2|neutral",
+      "status": "pinned",
+      "id": "Ocenaudio.Ocenaudio",
+      "version": "3.22.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.exe",
+      "sha256": "83e7c30bb82ba5cc3a41a4c330a90b8d4bf15692442413fd1c79e8ad9a9ee432",
+      "size": 60772912,
+      "signer_subject": "CN=Rui Seara Junior, O=Rui Seara Junior, S=Santa Catarina, C=BR",
+      "signer_thumbprint": "3C106B30200122F2401BAF61EECB33D6E9592D59",
+      "allowed_hosts": [
+        "www.ocenaudio.com",
+        "3c80cb58ada14a02e3df326d2a3095cf.r2.cloudflarestorage.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "oliverschwendener.ueli|9.29.1|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "OliverSchwendener.ueli",
+      "version": "9.29.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "ollama.ollama|0.40.16|neutral",
+      "status": "skipped",
+      "reason": "download larger than 1024 MB",
+      "id": "Ollama.Ollama",
+      "version": "0.40.16",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "omicronlab.avro|5.6.0|neutral",
+      "status": "pinned",
+      "id": "OmicronLab.Avro",
+      "version": "5.6.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://www.omicronlab.com/download/setup_avrokeyboard_5.6.0.exe",
+      "sha256": "e617b987f1e23dedd1514fad7b5ca81e464727418b86366f0d4808e19fd47b48",
+      "size": 7016864,
+      "signer_subject": "CN=Mehdi Hasan Khan, O=Mehdi Hasan Khan, STREET=\"63/A, Peelkhana Road, Azimpur\", S=Dhaka, PostalCode=1205, C=BD",
+      "signer_thumbprint": "5C3075A483AB56A022C3B9C0E2738C2417BA5D25",
+      "allowed_hosts": [
+        "www.omicronlab.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "onlyoffice.desktopeditors|10.0.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -11705,6 +11838,24 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "ookla.speedtest.desktop|1.15.200.001|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "Ookla.Speedtest.Desktop",
+      "version": "1.15.200.001",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -11816,6 +11967,42 @@
       "silent_check": "ok"
     },
     {
+      "key": "openrgb.openrgb|1.1.0|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "OpenRGB.OpenRGB",
+      "version": "1.1.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "openscad.openscad|2021.01|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "OpenSCAD.OpenSCAD",
+      "version": "2021.01",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "openshot.openshot|4.1.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
@@ -11906,6 +12093,25 @@
       "silent_check": "ok"
     },
     {
+      "key": "openwhispersystems.signal|8.34.0|neutral",
+      "status": "pinned",
+      "id": "OpenWhisperSystems.Signal",
+      "version": "8.34.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://updates.signal.org/desktop/signal-desktop-win-8.34.0.exe",
+      "sha256": "e0ab6da0009ab2a4134d17cb73d5c620bca8e9d9fd0a236da54f4fcac7697f00",
+      "size": 285818568,
+      "signer_subject": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
+      "allowed_hosts": [
+        "updates.signal.org"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "opera.operagx|139.0.6053.63|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
@@ -11960,6 +12166,82 @@
       "silent_check": "exe"
     },
     {
+      "key": "oracle.jdk.17|17.0.12.0|neutral",
+      "status": "pinned",
+      "id": "Oracle.JDK.17",
+      "version": "17.0.12.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.msi",
+      "sha256": "1bba48b74318f329899b92ed06773d97980722be8c213923f79bcf1cbaf67316",
+      "size": 160088064,
+      "signer_subject": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US",
+      "signer_thumbprint": "CD7BE0F00F2A5EE102C3037E098AF3F457D3B1AB",
+      "allowed_hosts": [
+        "download.oracle.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "oracle.jdk.21|21.0.12.0|neutral",
+      "status": "pinned",
+      "id": "Oracle.JDK.21",
+      "version": "21.0.12.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.oracle.com/java/21/archive/jdk-21.0.12_windows-x64_bin.msi",
+      "sha256": "0e15b56fc917f95e0f49478f966e31716054d95a80960fe7e2c36a585f2a5efd",
+      "size": 173785088,
+      "signer_subject": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US",
+      "signer_thumbprint": "2B1BD188256EB612578949A943DE0DDC52D1DF79",
+      "allowed_hosts": [
+        "download.oracle.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "oracle.mysqlworkbench|26.10.0|neutral",
+      "status": "pinned",
+      "id": "Oracle.MySQLWorkbench",
+      "version": "26.10.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-26.10.0-winx64.msi",
+      "sha256": "399e325b2492827eba3772fc5f0535a618503630d89864bbc265869c2557def9",
+      "size": 273432576,
+      "signer_subject": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US, SERIALNUMBER=2101822, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "E8A8C17382A6DE62A3B443565E4A96843F834656",
+      "allowed_hosts": [
+        "cdn.mysql.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "oracle.mysql|8.4.9|neutral",
+      "status": "pinned",
+      "id": "Oracle.MySQL",
+      "version": "8.4.9",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi",
+      "sha256": "7c3caede97bb4af923505a92e0b9c9fab1e5074a841b632387af7fb059afbd1e",
+      "size": 136138752,
+      "signer_subject": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US, SERIALNUMBER=2101822, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "E8A8C17382A6DE62A3B443565E4A96843F834656",
+      "allowed_hosts": [
+        "cdn.mysql.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "oracle.virtualbox|7.2.22|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
@@ -11978,6 +12260,26 @@
       "silent_check": "exe"
     },
     {
+      "key": "osgeo.qgis|4.2.3|neutral",
+      "status": "pinned",
+      "id": "OSGeo.QGIS",
+      "version": "4.2.3",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://qgis.org/downloads/QGIS-OSGeo4W-4.2.3-2.msi",
+      "sha256": "c9b4b837350d00eecb77ae5c965219b3f74776e1921f7460b3859c898f38b1cf",
+      "size": 610009088,
+      "signer_subject": "CN=THE OPEN SOURCE GEOSPATIAL FOUNDATION, O=THE OPEN SOURCE GEOSPATIAL FOUNDATION, L=Beaverton, S=Oregon, C=US",
+      "signer_thumbprint": "C5D86C38E852CF3EF74E227DFDF7136ED24476BD",
+      "allowed_hosts": [
+        "qgis.org",
+        "nbg1.your-objectstorage.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "oven-sh.bun|1.4.4|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -11993,6 +12295,63 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "overwolf.curseforge|0.220.1-9343|neutral",
+      "status": "pinned",
+      "id": "Overwolf.CurseForge",
+      "version": "0.220.1-9343",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://curseforge.overwolf.com/downloads/curseforge-latest-win64.exe",
+      "sha256": "dd450e0f6ef4e653b828a6ae802d545bfb22b80bdec887b1d78c72910dc1012f",
+      "size": 81455240,
+      "signer_subject": "CN=Overwolf Ltd, O=Overwolf Ltd, L=Ramat Gan, C=IL",
+      "signer_thumbprint": "A2AC3B36FB87C6C17A7A01F317500CE926A64254",
+      "allowed_hosts": [
+        "curseforge.overwolf.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "owncloud.ownclouddesktop|6.0.3.18040|neutral",
+      "status": "pinned",
+      "id": "ownCloud.ownCloudDesktop",
+      "version": "6.0.3.18040",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.owncloud.com/desktop/ownCloud/stable/6.0.3.18040/win/ownCloud-6.0.3.18040.x64.msi",
+      "sha256": "474d390f144ca91aab550a9d3e83291690401310432bbde28f1d1c4f1480ff45",
+      "size": 40128512,
+      "signer_subject": "CN=ownCloud GmbH, O=ownCloud GmbH, L=Nürnberg, S=Bayern, C=DE, SERIALNUMBER=HRB 28050, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Nürnberg, OID.1.3.6.1.4.1.311.60.2.1.2=Bayern, OID.1.3.6.1.4.1.311.60.2.1.3=DE",
+      "signer_thumbprint": "AF12562499C2ABC40F06A4D66EF75DFC06A0F020",
+      "allowed_hosts": [
+        "download.owncloud.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "parsec.parsec|150.104.1.0|neutral",
+      "status": "pinned",
+      "id": "Parsec.Parsec",
+      "version": "150.104.1.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://builds.parsec.app/package/parsec-windows.exe",
+      "sha256": "b8a9cd519010666def0ef6e119eb42b33b5b811216f34e4f6c8e2e25ac290fbc",
+      "size": 4403720,
+      "signer_subject": "CN=Unity Technologies SF, O=Unity Technologies SF, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "F83EAE671EDFDE1E819B41FF6F6A2ED611A651DF",
+      "allowed_hosts": [
+        "builds.parsec.app"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -12032,6 +12391,63 @@
       "silent_check": "ok"
     },
     {
+      "key": "pcsx2team.pcsx2|2.8.2|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "PCSX2Team.PCSX2",
+      "version": "2.8.2",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "pdfgear.pdfgear|3.0.1|neutral",
+      "status": "pinned",
+      "id": "PDFgear.PDFgear",
+      "version": "3.0.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloadfiles.pdfgear.com/releases/windows/pdfgear_setup_v3.0.1.exe",
+      "sha256": "e55f80ac7a59c367ed1d18ff77441cd55d22a3b0f9fd3a3cfad42eed2466f684",
+      "size": 138846880,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=SG, OID.2.5.4.15=Private Organization, CN=PDF GEAR TECH PTE. LTD., SERIALNUMBER=202026788N, O=PDF GEAR TECH PTE. LTD., L=Singapore, C=SG",
+      "signer_thumbprint": "A5231B4E2A3D856DA46B542414E26D87ECF2E63B",
+      "allowed_hosts": [
+        "downloadfiles.pdfgear.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "pdfsam.pdfsam|6.0.10.0|neutral",
+      "status": "pinned",
+      "id": "PDFsam.PDFsam",
+      "version": "6.0.10.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/torakiki/pdfsam/releases/download/v6.0.10/pdfsam-basic-6.0.10-windows-x64.msi",
+      "sha256": "b61bc499398d892a3c849fc17e65797aeadb7615e1c624ebca663ad307e413e8",
+      "size": 96768000,
+      "signer_subject": "CN=Sober Lemur S.r.l., O=Sober Lemur S.r.l., L=Bibbiano, S=Reggio Emilia, C=IT",
+      "signer_thumbprint": "4C5D6DB243B1033B419DDED4FC2B714EB05C6D07",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "pencil2d.pencil|0.7.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
@@ -12047,6 +12463,44 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "perforce.p4merge|214.226.4565|neutral",
+      "status": "pinned",
+      "id": "Perforce.P4Merge",
+      "version": "214.226.4565",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://cdist2.perforce.com/perforce/r21.4/bin.ntx64/p4vinst64.exe",
+      "sha256": "b94845b8483db932159f43f6b5eec7478b7338ce0cdf5f7da3413cdda012451b",
+      "size": 144890760,
+      "signer_subject": "E=support@perforce.com, CN=\"Perforce Software, Inc.\", O=\"Perforce Software, Inc.\", L=Alameda, S=California, C=US",
+      "signer_thumbprint": "16B65D7E4C471DF5E8E05D625076337D37073BF3",
+      "allowed_hosts": [
+        "cdist2.perforce.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "perforce.p4v|242.63.2|neutral",
+      "status": "pinned",
+      "id": "Perforce.P4V",
+      "version": "242.63.2",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://filehost.perforce.com/perforce/r26.3/bin.ntx64/p4vinst64.msi",
+      "sha256": "9569c926588b954f07d51d1a18ba9502d23da31edca2c2c4ad16b970e2dabd92",
+      "size": 220147712,
+      "signer_subject": "E=support@perforce.com, CN=\"Perforce Software, Inc.\", O=\"Perforce Software, Inc.\", L=Alameda, S=California, C=US",
+      "signer_thumbprint": "729D8DDBA811C22DE02940B10026BA8B9F26E49E",
+      "allowed_hosts": [
+        "filehost.perforce.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -12158,6 +12612,27 @@
       "silent_check": "ok"
     },
     {
+      "key": "pidgin.pidgin|2.14.14|neutral",
+      "status": "pinned",
+      "id": "Pidgin.Pidgin",
+      "version": "2.14.14",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/pidgin/files/Pidgin/2.14.14/pidgin-2.14.14-offline.exe/download",
+      "sha256": "7551389982bd9a85991df7436ca1776e68bdc057374c03e8018173e95162bc84",
+      "size": 32351744,
+      "signer_subject": "CN=Gary Kramlich, O=Gary Kramlich, S=Wisconsin, C=US",
+      "signer_thumbprint": "FB9BD32A13C173BACFF9581397D4488B5B0CD63E",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "cytranet-dal.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "pinta.pinta|3.1.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -12194,6 +12669,138 @@
       "silent_check": "exe"
     },
     {
+      "key": "piriform.defraggler|2.22|neutral",
+      "status": "pinned",
+      "id": "Piriform.Defraggler",
+      "version": "2.22",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "neutral",
+      "url": "https://download.ccleaner.com/dfsetup222.exe",
+      "sha256": "167b7192937b39e657def16ffb0fdbbab326f007747505d5c8785811d6b03ab8",
+      "size": 7466056,
+      "signer_subject": "CN=Piriform Software Ltd, OU=RE 901, O=Piriform Software Ltd, L=London, C=GB",
+      "signer_thumbprint": "0CB6BDE041B58DBD4EC64BD5A3BE38C50F17BB3D",
+      "allowed_hosts": [
+        "download.ccleaner.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "piriform.recuva|1.55.0.133|neutral",
+      "status": "pinned",
+      "id": "Piriform.Recuva",
+      "version": "1.55.0.133",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download.ccleaner.com/rcsetup155.exe",
+      "sha256": "6440c5e69e01da6ec4345a7264145d65221a139a46c13e26a21ad18b04663244",
+      "size": 25699472,
+      "signer_subject": "CN=Gen Digital Inc., O=Gen Digital Inc., S=Arizona, C=US",
+      "signer_thumbprint": "E61D395D81F124940343F8800D7B07FFCB6A2B4F",
+      "allowed_hosts": [
+        "download.ccleaner.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "piriform.speccy|1.34.84|neutral",
+      "status": "pinned",
+      "id": "Piriform.Speccy",
+      "version": "1.34.84",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "neutral",
+      "url": "https://download.ccleaner.com/spsetup134.exe",
+      "sha256": "a7f525daeb124f90d2a07d2975f40b9ee568d56244902d3418728ce6dfd737f0",
+      "size": 21548200,
+      "signer_subject": "CN=Gen Digital Inc., O=Gen Digital Inc., S=Arizona, C=US",
+      "signer_thumbprint": "E61D395D81F124940343F8800D7B07FFCB6A2B4F",
+      "allowed_hosts": [
+        "download.ccleaner.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "playnite.playnite|10.63|neutral",
+      "status": "skipped",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
+      "id": "Playnite.Playnite",
+      "version": "10.63",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "playstation.psremoteplay|9.5.0.08040|neutral",
+      "status": "pinned",
+      "id": "PlayStation.PSRemotePlay",
+      "version": "9.5.0.08040",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x64",
+      "url": "https://remoteplay.dl.playstation.net/remoteplay/module/win/RemotePlayInstaller_9.5.0.08040_x64.msi",
+      "sha256": "a67d36c6fb14e67ec78858b831153fe372a0af5f7c41649ef710e3e8fc30bc25",
+      "size": 86272512,
+      "signer_subject": "CN=Sony Interactive Entertainment Inc., O=Sony Interactive Entertainment Inc., L=Minato, S=Tokyo, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=0104-01-087161, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "5F5AF6A159E87A7158E72EE312CC9AEE513B383F",
+      "allowed_hosts": [
+        "remoteplay.dl.playstation.net"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "plex.plexmediaserver|1.43.5.11079|neutral",
+      "status": "pinned",
+      "id": "Plex.PlexMediaServer",
+      "version": "1.43.5.11079",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloads.plex.tv/plex-media-server-new/1.43.5.11079-b3b13e506/windows/PlexMediaServer-1.43.5.11079-b3b13e506-x86_64.exe",
+      "sha256": "d201c1aacde7d22355202bf38a4ff871811db268d53d45dd399cc839a6810e9d",
+      "size": 100671600,
+      "signer_subject": "CN=\"Plex, Inc.\", O=\"Plex, Inc.\", L=Campbell, S=California, C=US",
+      "signer_thumbprint": "CC243B148F0733D0C566AFA008C8239AAF7B6579",
+      "allowed_hosts": [
+        "downloads.plex.tv"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "plex.plex|1.115.0|neutral",
+      "status": "pinned",
+      "id": "Plex.Plex",
+      "version": "1.115.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://downloads.plex.tv/plex-desktop/1.115.0.426-4e960a1d/windows/Plex-1.115.0.426-4e960a1d-x86_64.exe",
+      "sha256": "979971f001a45909aeeda9bfa72125dc5ec8d3779250bc5a3da4e9504513f193",
+      "size": 187490496,
+      "signer_subject": "CN=\"Plex, Inc.\", O=\"Plex, Inc.\", L=Campbell, S=California, C=US",
+      "signer_thumbprint": "C07923815FDA04BEFE83E09CC75E2E936A831726",
+      "allowed_hosts": [
+        "downloads.plex.tv"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "pnpm.pnpm|12.18.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -12209,6 +12816,63 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "posit.positron|2026.11.1|neutral",
+      "status": "pinned",
+      "id": "Posit.Positron",
+      "version": "2026.11.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://cdn.posit.co/positron/releases/win/x86_64/Positron-2026.11.1-4-Setup-x64.exe",
+      "sha256": "48d51103efd22163593dac62b495372dbfc487c5611e6e7382b8b1948c01421f",
+      "size": 518020304,
+      "signer_subject": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
+      "signer_thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
+      "allowed_hosts": [
+        "cdn.posit.co"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "posit.rstudio|2026.10.1+239|neutral",
+      "status": "pinned",
+      "id": "Posit.RStudio",
+      "version": "2026.10.1+239",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.10.1-239.exe",
+      "sha256": "215bc4bb4d0c2d4bb343141b0b6f220c39ded9ec281f4bd0bd9951325de68222",
+      "size": 496273616,
+      "signer_subject": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
+      "signer_thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
+      "allowed_hosts": [
+        "download1.rstudio.org"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "postgresql.pgadmin|9.19|neutral",
+      "status": "pinned",
+      "id": "PostgreSQL.pgAdmin",
+      "version": "9.19",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.19/windows/pgadmin4-9.19-x64.exe",
+      "sha256": "8b1a1df434c53244ac1ec691f11a48350bbd3de4781d6661e1e1368d7eaf31fe",
+      "size": 230357576,
+      "signer_subject": "CN=\"Open Source Developer, David John Page\", O=Open Source Developer, L=Faringdon, S=Oxfordshire, C=GB",
+      "signer_thumbprint": "B3F1E372C0C51897404A297EBC8EE7E6E5C3A052",
+      "allowed_hosts": [
+        "ftp.postgresql.org"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -12248,11 +12912,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "postman.postman|12.36.1|neutral",
+      "key": "postman.postman|12.36.2|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Postman.Postman",
-      "version": "12.36.1",
+      "version": "12.36.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12262,7 +12926,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "exe"
     },
     {
@@ -12299,6 +12963,25 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "premiumsoft.navicatpremium|17.3.12|neutral",
+      "status": "pinned",
+      "id": "PremiumSoft.NavicatPremium",
+      "version": "17.3.12",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download3.navicat.com/download/navicat17_premium_en_x64.exe",
+      "sha256": "43fc9db7d4acaae8bddf09c0b8bb9f8c9888fadc98c26939998601537bed1407",
+      "size": 152731568,
+      "signer_subject": "CN=PremiumSoft CyberTech Limited, O=PremiumSoft CyberTech Limited, STREET=\"Rm 1605 16/F Grand Century Place Twr 1, 193 Prince Edward W, Mongkok\", L=Yau Tsim Mong, S=Kowloon, C=HK, OID.1.3.6.1.4.1.311.60.2.1.3=HK, SERIALNUMBER=30828884, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "91FBC86FE26339EAF43A002C74F1C35F2C0A83A7",
+      "allowed_hosts": [
+        "download3.navicat.com"
+      ],
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -13652,11 +14335,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "tailscale.tailscale|1.104.5|neutral",
+      "key": "tailscale.tailscale|1.104.6|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Tailscale.Tailscale",
-      "version": "1.104.5",
+      "version": "1.104.6",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13666,7 +14349,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -13742,11 +14425,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "telegram.telegramdesktop|7.4.1|neutral",
+      "key": "telegram.telegramdesktop|7.4.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Telegram.TelegramDesktop",
-      "version": "7.4.1",
+      "version": "7.4.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13756,7 +14439,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "ok"
     },
     {
@@ -13814,11 +14497,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "tidalmusicas.tidal|2.47.0|neutral",
+      "key": "tidalmusicas.tidal|2.48.0|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "TIDALMusicAS.TIDAL",
-      "version": "2.47.0",
+      "version": "2.48.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13828,7 +14511,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-11T21:27:51.6491038Z",
       "silent_check": "exe"
     },
     {
