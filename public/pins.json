@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-10T20:55:38.9607764Z",
-  "catalog_revision": 41,
-  "count": 156,
+  "generated_at": "2026-11-11T09:31:06.8323988Z",
+  "catalog_revision": 48,
+  "count": 180,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -108,19 +108,19 @@
     },
     {
       "id": "Amazon.AWSCLI",
-      "version": "2.39.7",
+      "version": "2.40.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.39.7.msi",
-      "sha256": "469e6652b2b78ed1f96c760a005ca32d35e942b1dae33666d0f520d1a2cdffb2",
-      "size": 50462720,
+      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.0.msi",
+      "sha256": "2da0ece2673bcadc38fabf8f1cb6c4dc89c0f624ea7ce01ea44961387023de4d",
+      "size": 50487296,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "allowed_hosts": [
         "awscli.amazonaws.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "Amazon.Corretto.17.JDK",
@@ -402,6 +402,22 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "Baidu.BaiduPinyin",
+      "version": "6.1.13.13",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://imeres.baidu.com/imeres/imeres/ime-res/guanwang/dl/online/BaiduPinyinSetup_6.1.13.13.exe",
+      "sha256": "b0f41e399dc7d339c9a320ef362dd29ac4f52a7a2a449325facaf8bad93bb649",
+      "size": 140553104,
+      "signer_subject": "CN=\"Beijing Baidu Netcom Science and Technology Co., Ltd.\", OU=BPIT, O=\"Beijing Baidu Netcom Science and Technology Co., Ltd.\", L=Beijing, S=Beijing, C=CN",
+      "signer_thumbprint": "2A8E1C8BA744BF13499CC71295A987DA81813C86",
+      "allowed_hosts": [
+        "imeres.baidu.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
       "id": "Bambulab.Bambustudio",
       "version": "02.09.01.70",
       "arch": "neutral",
@@ -484,19 +500,19 @@
     },
     {
       "id": "Betterbird.Betterbird",
-      "version": "153.6.0",
+      "version": "153.7.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.6.0esr-bb12.en-US.win64.installer.exe",
-      "sha256": "adb0b6ab0f553f35beb8ff879d37c1a8859879b50bbae46f875f3d27863f17e8",
-      "size": 86207728,
+      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.7.0esr-bb13.en-US.win64.installer.exe",
+      "sha256": "cfe0cc21e06627611670a103635510f7386ec078d5ccee3b78e2f09977190a7c",
+      "size": 85999872,
       "signer_subject": "CN=\"Open Source Developer, Jorg Knobloch\", O=Open Source Developer, L=Berlin, S=Berlin, C=DE",
       "signer_thumbprint": "C39501225A337C86F91E3BA7911ACB06FF48ACF3",
       "allowed_hosts": [
         "www.betterbird.eu"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "BleachBit.BleachBit",
@@ -529,6 +545,22 @@
         "e3.boxcdn.net"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "ByteDance.DoubaoInputMethod",
+      "version": "1.0.0.23",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://lf-wave.doubaocdn.com/obj/doubao-ime/app/windows/DoubaoIME_Installer_1.0.0.23_release.exe",
+      "sha256": "16cc266ca5818af98c3c8320478aa9e188ff93e36b5beefbbfa88405586c7e72",
+      "size": 317547744,
+      "signer_subject": "CN=北京春田知韵科技有限公司, O=北京春田知韵科技有限公司, S=北京市, C=CN, SERIALNUMBER=91110102MACQD9K640, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=西城区, OID.1.3.6.1.4.1.311.60.2.1.2=北京市, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "5D37C15025DAF2656F152207714B7FA36753540A",
+      "allowed_hosts": [
+        "lf-wave.doubaocdn.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "calibre.calibre",
@@ -1112,23 +1144,6 @@
       "checked_at": "2026-11-10T14:21:52.6730199Z"
     },
     {
-      "id": "eMClient.eMClient",
-      "version": "11.0.1054",
-      "arch": "neutral",
-      "installer_type": "wix",
-      "installer_arch": "x86",
-      "url": "https://www.emclient.com/dist/v11.0.1054/setup.msi",
-      "sha256": "b05eec28554adb72f221e698ab88216bac0cf162e50ef5d1f677f6ba5857626d",
-      "size": 1679360,
-      "signer_subject": "CN=eM Client s.r.o., O=eM Client s.r.o., L=Praha 8, C=CZ",
-      "signer_thumbprint": "0CD7EDD0D90EB7021DA3E17C66B0F8FD3AAEB56A",
-      "allowed_hosts": [
-        "www.emclient.com",
-        "cdn-dist.emclient.com"
-      ],
-      "checked_at": "2026-11-10T14:21:52.6730199Z"
-    },
-    {
       "id": "ente-io.auth-desktop",
       "version": "4.4.26",
       "arch": "neutral",
@@ -1526,6 +1541,22 @@
       "checked_at": "2026-11-10T14:21:52.6730199Z"
     },
     {
+      "id": "Glarysoft.GlaryUtilities",
+      "version": "6.50.0.54",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download.glarysoft.com/gusetup.exe",
+      "sha256": "cd4be96c6b95fff0cc85b476e06129b1194418f2f3466c6e403f13d2be036fb1",
+      "size": 28503120,
+      "signer_subject": "CN=Glarysoft Ltd, O=Glarysoft Ltd, S=Beijing, C=CN, SERIALNUMBER=91110108680456115E, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Haidian District, OID.1.3.6.1.4.1.311.60.2.1.2=Beijing, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "90CB5CB0A58D79135C213220E02C6209C6F8DC8E",
+      "allowed_hosts": [
+        "download.glarysoft.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
       "id": "glzr-io.glazewm",
       "version": "3.10.1",
       "arch": "neutral",
@@ -1838,6 +1869,22 @@
       "checked_at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "iFlytek.iFlyIME",
+      "version": "3.0.1750",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download.voicecloud.cn/200ime/iFlyIME_Setup_3.0.1750.exe",
+      "sha256": "6365802f3272c3c4a5733f99a6430558b4fe70347a6fc3b72cb8835674a3b334",
+      "size": 111545800,
+      "signer_subject": "CN=\"iFLYTEK Co.,Ltd.\", OU=云计算研究院, O=\"iFLYTEK Co.,Ltd.\", L=Hefei, S=Anhui, C=CN",
+      "signer_thumbprint": "8FFA1ACBD6C75A4A0BD6B69D0F07A31295C75883",
+      "allowed_hosts": [
+        "download.voicecloud.cn"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
       "id": "Insecure.Nmap",
       "version": "7.80",
       "arch": "neutral",
@@ -2117,6 +2164,22 @@
         "mirror.lyrahosting.com"
       ],
       "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "KDE.Okular",
+      "version": "26.08.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-26.08/windows/okular-release_26.08-8219-windows-cl-msvc2022-x86_64.exe",
+      "sha256": "06be2a0ab6b6aa5c0027ade30cc88313f4c6f2ccedd44801dbc17326cb0123b5",
+      "size": 163579224,
+      "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
+      "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
+      "allowed_hosts": [
+        "cdn.kde.org"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "Kingston.SSDManager",
@@ -2412,51 +2475,51 @@
     },
     {
       "id": "Microsoft.VCRedist.2015+.arm64",
-      "version": "14.51.36247.0",
+      "version": "14.52.37029.0",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "arm64",
-      "url": "https://download.visualstudio.microsoft.com/download/pr/57eef8ae-a341-46c3-b0bc-c041027b54cd/B70EF586669A620A0A30A1156969C05C6A3831DC8F8BC992DA75779D2A92F944/VC_redist.arm64.exe",
-      "sha256": "b70ef586669a620a0a30a1156969c05c6a3831dc8f8bc992da75779d2a92f944",
-      "size": 11870816,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/3C81BCF5B06156858362400D7066F65ECE38E8ACCB5E687FC65BEF5735F31FFC/VC_redist.arm64.exe",
+      "sha256": "3c81bcf5b06156858362400d7066f65ece38e8accb5e687fc65bef5735f31ffc",
+      "size": 11967280,
       "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "signer_thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "allowed_hosts": [
         "download.visualstudio.microsoft.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "Microsoft.VCRedist.2015+.x64",
-      "version": "14.51.36247.0",
+      "version": "14.52.37029.0",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "x64",
-      "url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
-      "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
-      "size": 18731856,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/9C02C9ED120F671B900E6B9471D890E3B2414117A7E53F4AE2E855466FA2B7C9/VC_redist.x64.exe",
+      "sha256": "9c02c9ed120f671b900e6b9471d890e3b2414117a7e53f4ae2e855466fa2b7c9",
+      "size": 18863624,
       "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "signer_thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "allowed_hosts": [
         "download.visualstudio.microsoft.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "Microsoft.VCRedist.2015+.x86",
-      "version": "14.51.36247.0",
+      "version": "14.52.37029.0",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "x86",
-      "url": "https://download.visualstudio.microsoft.com/download/pr/57eef8ae-a341-46c3-b0bc-c041027b54cd/F0BAB33A302B3CDB2E11113760D016F54FD3D2632C65BA7834FAC4F0ABD7F1A3/VC_redist.x86.exe",
-      "sha256": "f0bab33a302b3cdb2e11113760d016f54fd3d2632c65ba7834fac4f0abd7f1a3",
-      "size": 6941536,
+      "url": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/7B0117E6E20E9E349029C000A8A2715A52CF37C15B6BB697B2908E8BC7066CDF/VC_redist.x86.exe",
+      "sha256": "7b0117e6e20e9e349029c000a8a2715a52cf37c15b6bb697b2908e8bc7066cdf",
+      "size": 6919464,
       "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
       "allowed_hosts": [
         "download.visualstudio.microsoft.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "Microsoft.WindowsADK",
@@ -2554,6 +2617,338 @@
         "www.mirc.com"
       ],
       "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Mojang.MinecraftLauncher",
+      "version": "2.0.0.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://launcher.mojang.com/download/MinecraftInstaller.msi",
+      "sha256": "e7040addf5fbb1dac0d7e61d0793b1550526accaf80a315e36b636285bd9d90e",
+      "size": 2248704,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "C2048FB509F1C37A8C3E9EC6648118458AA01780",
+      "allowed_hosts": [
+        "launcher.mojang.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "MongoDB.Compass.Full",
+      "version": "1.53.2.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/mongodb-js/compass/releases/download/v1.53.2/mongodb-compass-1.53.2-win32-x64.msi",
+      "sha256": "d837afaf916809c777ac01ddbb1640d3231b8ced585a9437e5253675f0cf5025",
+      "size": 204144640,
+      "signer_subject": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
+      "signer_thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "MongoDB.Server",
+      "version": "9.0.4",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-9.0.4-signed.msi",
+      "sha256": "914085f58aaa9699d3bee720ef660db6bf83c478f4afa2aa40909ea773e5d476",
+      "size": 966684672,
+      "signer_subject": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
+      "signer_thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
+      "allowed_hosts": [
+        "fastdl.mongodb.org"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "MongoDB.Shell",
+      "version": "2.14.1",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://downloads.mongodb.com/compass/mongosh-2.14.1-x64.msi",
+      "sha256": "e396e3af8d0ef6dc91bf23042486bf212db0a16fe9e7b8c533f32831cc0398c5",
+      "size": 65949696,
+      "signer_subject": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
+      "signer_thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
+      "allowed_hosts": [
+        "downloads.mongodb.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "MoonlightGameStreamingProject.Moonlight",
+      "version": "6.2.0.0",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.2.0/MoonlightSetup-6.2.0.exe",
+      "sha256": "ee2a1b56ec83010f4f8a275bb71892a7dc7a3bc874dfaebe706b74d5d10831bd",
+      "size": 55920336,
+      "signer_subject": "CN=Cameron Gutman, O=Cameron Gutman, L=Edmond, S=ok, C=US",
+      "signer_thumbprint": "E77FF636963054101F0E023B4AD41D1BC29FF359",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Mozilla.VPN",
+      "version": "2.40.1",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://archive.mozilla.org/pub/vpn/releases/2.40.1/windows/MozillaVPN.msi",
+      "sha256": "f86b5c8a957630b9b8cb83de933adc9bca36ba7a057e0b936cc0623b7c51543d",
+      "size": 25669632,
+      "signer_subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "allowed_hosts": [
+        "archive.mozilla.org"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "mRemoteNG.mRemoteNG",
+      "version": "1.76.20.24615",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi",
+      "sha256": "2c4d1efb90124f885215f88304c9ecc8bbeecc9cca285f6d17baae43b49f6227",
+      "size": 43593728,
+      "signer_subject": "CN=David Sparer, O=David Sparer, L=Prescott, S=Wisconsin, C=US",
+      "signer_thumbprint": "DEFFB77C09F5ADC3691A0EA8A36E2617577AF8AB",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Mu.Mu",
+      "version": "1.2.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi",
+      "sha256": "8bef34673998ca5644f9d222fc4a13e24a64023a72940e685bcec27827cd765e",
+      "size": 166187008,
+      "signer_subject": "CN=Nicholas Tollervey, O=Nicholas Tollervey, S=Northamptonshire, C=GB",
+      "signer_thumbprint": "2E025B8861EFB2BE01C5A0B7AE2EAC0E2DBBDD41",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "MullvadVPN.MullvadBrowser",
+      "version": "16.0.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/mullvad/mullvad-browser/releases/download/16.0.1/mullvad-browser-windows-x86_64-16.0.1.exe",
+      "sha256": "72b997c487b4949e76a98a62ddc585d5a4b297eab6e54a608e36b6fb31c70462",
+      "size": 109991296,
+      "signer_subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Mumble.Mumble.Client",
+      "version": "1.5.939",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://github.com/mumble-voip/mumble/releases/download/v1.5.939/mumble_client-1.5.939.x64.exe",
+      "sha256": "a0647c20db59eedaa0e3696246c12d5daf9a2e1f1b15e145341621a9724108fe",
+      "size": 49424160,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "C3BB3F07389C7A655A1483D041EE64E28EA59A97",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Musescore.Musescore",
+      "version": "4.7.6.261022093",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/musescore/MuseScore/releases/download/v4.7.6/MuseScore-Studio-4.7.6.261022093-x86_64.msi",
+      "sha256": "41c9ca34fbf0b720f229ed3b0c4ff923b5d41a8c24ad9262e1fce390cd5c34e5",
+      "size": 135020544,
+      "signer_subject": "CN=MUSECY SM LTD, O=MUSECY SM LTD, L=Limassol, C=CY, SERIALNUMBER=HE 411908, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY",
+      "signer_thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "nathancorvussolis.corvusskk",
+      "version": "3.3.4",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://github.com/nathancorvussolis/corvusskk/releases/download/3.3.4/corvusskk-3.3.4.exe",
+      "sha256": "f2e8f204e7cee3551c5a5cf2681c86cbb18e5cadbf600f16518f4a3ad35aa820",
+      "size": 4559648,
+      "signer_subject": "CN=\"Open Source Developer, Nobuyuki SASAKI\", O=Open Source Developer, L=Yokohama, S=Kanagawa, C=JP",
+      "signer_thumbprint": "34DCB401FB7F42EB9F5BD5B72BC196AAF7ACE5A7",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "NDI.NDITools",
+      "version": "6.3.2.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloads.ndi.tv/Tools/NDI%206%20Tools.exe",
+      "sha256": "605cb6128999778b38126ffef167c76d3d8648d39a582ffc71529dd26f64bf32",
+      "size": 565330112,
+      "signer_subject": "CN=Vizrt AG, O=Vizrt AG, L=Zürich, C=CH",
+      "signer_thumbprint": "D5D721C160B3C125B77CBD404ACB030F5D746930",
+      "allowed_hosts": [
+        "downloads.ndi.tv"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Neo4j.Neo4jDesktop",
+      "version": "2.2.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://dist.neo4j.org/neo4j-desktop-2/win/neo4j-desktop-2.2.1-x64.exe",
+      "sha256": "7aa195fff45d8fe59a49f32210597aea65d76cfdee98b25cb835661873ab9562",
+      "size": 577484424,
+      "signer_subject": "CN=\"Neo4j, Inc.\", O=\"Neo4j, Inc.\", L=San Mateo, S=California, C=US, SERIALNUMBER=5007564, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "99417414A122F81E59682735169C88234DD5B3B1",
+      "allowed_hosts": [
+        "dist.neo4j.org"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Nextcloud.NextcloudDesktop",
+      "version": "35.0.3",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/nextcloud-releases/desktop/releases/download/v35.0.3/Nextcloud-35.0.3-x64.msi",
+      "sha256": "09dbaecd4585078f33cbcd62482fc244d2146a92aeef2f3324a68478b12685d2",
+      "size": 62775296,
+      "signer_subject": "CN=Nextcloud GmbH, O=Nextcloud GmbH, S=Baden-Wuerttemberg, C=DE",
+      "signer_thumbprint": "2932517EB259A454D963A39C7D003E096D968404",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "Nextcloud.Talk",
+      "version": "2.3.4",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/nextcloud-releases/talk-desktop/releases/download/v2.3.4/Nextcloud.Talk-windows-x64.msi",
+      "sha256": "a1f1f601e6bcd18a6a1e98d8c350967c459094137b787dbffb2c64391a71f157",
+      "size": 189591552,
+      "signer_subject": "CN=Nextcloud GmbH, O=Nextcloud GmbH, S=Baden-Wuerttemberg, C=DE",
+      "signer_thumbprint": "2932517EB259A454D963A39C7D003E096D968404",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "NexusMods.Vortex",
+      "version": "2.10.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v2.10.1/vortex-setup-2.10.1.exe",
+      "sha256": "01d62323acc37f0056a2752b82b26fa5992df818f4718f82ab3e3ea24d406030",
+      "size": 378341544,
+      "signer_subject": "CN=Black Tree Gaming Ltd, O=Black Tree Gaming Ltd, L=Exeter, C=GB",
+      "signer_thumbprint": "0BE49CE68E00ED151B5C3BFD8EE84BABE286171E",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "NGWIN.PicPick",
+      "version": "7.6.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download.picpick.net/7.6.2/picpick_inst.exe",
+      "sha256": "1ca8ee0aadc84b849b21030ada2077932945fece1490d82e420f6613b5e83739",
+      "size": 68951880,
+      "signer_subject": "CN=NGWIN Software co., O=NGWIN Software co., L=Burnaby, S=British Columbia, C=CA",
+      "signer_thumbprint": "136A5635458DB1D6C83F6BDA48F2152C7588F677",
+      "allowed_hosts": [
+        "download.picpick.net"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "NordSecurity.NordPass",
+      "version": "7.12.15",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://downloads.npass.app/windows/NordPassSetup.msi",
+      "sha256": "592f934b7de0c2e7d60d9ffbe0f1a0fb23f402a68e6faf6ad4304d562aaf3212",
+      "size": 89653248,
+      "signer_subject": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., STREET=\"PH F&F Tower, 50th Street & 56th Street, Suite 32-D\", L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "47B77B8D91FE90DEC43731694F8D2E561DBEED08",
+      "allowed_hosts": [
+        "downloads.npass.app"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "NordSecurity.NordVPN",
+      "version": "8.15.2.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.15.2.0/NordVPNInstall.exe",
+      "sha256": "db8286f09d749b285234cfe4bc487557d4c4a878d55fe9c56c1b5934f76a2e2f",
+      "size": 96634664,
+      "signer_subject": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "6C8460C71705A019F5F78AF957A57E55D564FB3A",
+      "allowed_hosts": [
+        "downloads.nordcdn.com",
+        "downloads77-windows.nordcdn.com"
+      ],
+      "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
       "id": "VNGCorp.Zalo",
