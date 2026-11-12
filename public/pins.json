@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-12T09:54:49.3674978Z",
-  "catalog_revision": 66,
-  "count": 229,
+  "generated_at": "2026-11-12T21:30:14.6167696Z",
+  "catalog_revision": 72,
+  "count": 252,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -452,19 +452,19 @@
     },
     {
       "id": "Beeper.Beeper",
-      "version": "4.3.284",
+      "version": "4.3.308",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.284.exe",
-      "sha256": "baad489f34e1d7d50e36effdb4846ab0704cb77c119e267c190807e2780d01c0",
-      "size": 236194464,
+      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.308.exe",
+      "sha256": "d19b09ba35ce4b4ab045e4bd52e152216a43b21ffba3f2ad1e4c7b2f96ec75fe",
+      "size": 214547232,
       "signer_subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "82577BE252D7C8C821BF8FE56A97FDB17BE4587D",
+      "signer_thumbprint": "5E2C184D6B6C72279F6F675B0D699057B05C9D46",
       "allowed_hosts": [
         "beeper-desktop.download.beeper.com"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "BelledonneCommunications.Linphone",
@@ -596,19 +596,19 @@
     },
     {
       "id": "Caphyon.AdvancedInstaller",
-      "version": "24.1",
+      "version": "24.2",
       "arch": "neutral",
       "installer_type": "msi",
       "installer_arch": "x86",
-      "url": "https://storage.advancedupdater.cloud/downloads/24.1/advinst.msi",
-      "sha256": "139a97ae4b7c72566c3746bb5763a36f0c198670b80601b3b939412940c06cf5",
-      "size": 311607296,
+      "url": "https://storage.advancedupdater.cloud/downloads/24.2/advinst.msi",
+      "sha256": "e478bb9b3db85a1ab58580a79ede4516247f0506d6e25c3d927c2158460b35b6",
+      "size": 316878848,
       "signer_subject": "CN=Caphyon SRL, O=Caphyon SRL, L=Craiova, S=Dolj, C=RO",
-      "signer_thumbprint": "EADC59E44AB5D7C0399CB922A109827B7F004DAA",
+      "signer_thumbprint": "8A39E87DE78C6FD17C84B83ECD5DFD7463FD2996",
       "allowed_hosts": [
         "storage.advancedupdater.cloud"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "chrisant996.Clink",
@@ -1230,19 +1230,19 @@
     },
     {
       "id": "Evernote.Evernote",
-      "version": "11.41.9",
+      "version": "11.42.3",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://win.desktop.evernote.com/builds/Evernote-11.41.9-win-ddl-stage-20261105124610-5dbe4cf2e9e6083847d479f8365250d7bed5559e-setup.exe",
-      "sha256": "7af25efe7acfad00b91069b3de7aecaf4f0274d73f2dfaa0be3d400706bcb3c7",
-      "size": 417064896,
+      "url": "https://win.desktop.evernote.com/builds/Evernote-11.42.3-win-ddl-stage-20261109120314-59b98c458b1a198f0c07138fdde4b619ec3c2870-setup.exe",
+      "sha256": "4dd45a4915fc9872668ebd95e3759eb3fc82cd0de2380e67e8412411384ea068",
+      "size": 417991680,
       "signer_subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
       "signer_thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
       "allowed_hosts": [
         "win.desktop.evernote.com"
       ],
-      "checked_at": "2026-11-10T14:21:52.6730199Z"
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "Famatech.AdvancedIPScanner",
@@ -1689,20 +1689,20 @@
     },
     {
       "id": "GrafanaLabs.k6",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/grafana/k6/releases/download/v2.3.0/k6-v2.3.0-windows-amd64.msi",
-      "sha256": "ad65844ca7b50dedc376415cc7d4db47122549811437c89625bcda7f985cea91",
-      "size": 31678464,
+      "url": "https://github.com/grafana/k6/releases/download/v2.4.0/k6-v2.4.0-windows-amd64.msi",
+      "sha256": "e707c21cf6acc35d40413ce82f9a75d375164929600897db7de3907c07e8ba8e",
+      "size": 32108544,
       "signer_subject": "CN=Grafana Labs, O=Grafana Labs, L=New York City, S=New York, C=US",
-      "signer_thumbprint": "0CB8E80497464D34295579D42D1CCC6F12AC1DD0",
+      "signer_thumbprint": "EB796E6712061365152DB8B05F52A827AD19887F",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T14:32:28.4341544Z"
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "Grammarly.Grammarly.Office",
@@ -2786,20 +2786,20 @@
     },
     {
       "id": "Musescore.Musescore",
-      "version": "4.7.6.261022093",
+      "version": "4.7.7.261109195",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/musescore/MuseScore/releases/download/v4.7.6/MuseScore-Studio-4.7.6.261022093-x86_64.msi",
-      "sha256": "41c9ca34fbf0b720f229ed3b0c4ff923b5d41a8c24ad9262e1fce390cd5c34e5",
-      "size": 135020544,
+      "url": "https://github.com/musescore/MuseScore/releases/download/v4.7.7/MuseScore-Studio-4.7.7.261109195-x86_64.msi",
+      "sha256": "1e54d88c63c20b348f12d23008b3533fd255e1bc88734a9496a46391c4b072a9",
+      "size": 135069696,
       "signer_subject": "CN=MUSECY SM LTD, O=MUSECY SM LTD, L=Limassol, C=CY, SERIALNUMBER=HE 411908, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY",
       "signer_thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "nathancorvussolis.corvusskk",
@@ -3750,6 +3750,380 @@
         "sos-ch-dk-2.exo.io"
       ],
       "checked_at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "Session.Session",
+      "version": "1.18.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/session-foundation/session-desktop/releases/download/v1.18.3/session-desktop-win-x64-1.18.3.exe",
+      "sha256": "479f2a990a8e53f24d1cdb7b9055ea89ad0c94be4d62bef7710ce196444dc8d9",
+      "size": 128026328,
+      "signer_subject": "CN=Session Technology Stiftung, O=Session Technology Stiftung, S=Zug, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-360.761.156",
+      "signer_thumbprint": "6B523B80D62DC33866DD1CEA574F4C253DA53A83",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SFLinux.Jami",
+      "version": "1.0.9197.28092",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://dl.jami.net/windows/archive/jami_x86_64-202503061740.msi",
+      "sha256": "d42d821b5fd9cbf813c381a727fa951e303ecefc842c1ebb0e0444606a1d0604",
+      "size": 134258688,
+      "signer_subject": "CN=SAVOIR-FAIRE LINUX INC., O=SAVOIR-FAIRE LINUX INC., S=Quebec, C=CA, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1148918635",
+      "signer_thumbprint": "7C7BAF68EECDA593CB207427C85320382EF0112D",
+      "allowed_hosts": [
+        "dl.jami.net"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "ShareX.ShareX",
+      "version": "22.4.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/ShareX/ShareX/releases/download/v22.4.0/ShareX-22.4.0-setup-x64.exe",
+      "sha256": "5fac6ee58600976586d706f164b0f8a992fff7679bf2724a1f678c4a63894a8e",
+      "size": 145391368,
+      "signer_subject": "CN=Ember Swan, O=Ember Swan, L=Paris, S=Paris, C=FR",
+      "signer_thumbprint": "6AFCFB990161C3BDA704324632320988A9097163",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SiberSystems.GoodSync",
+      "version": "12.11.12.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
+      "sha256": "d853127575f08026bce068b39ea9eb8d063e9a461e55157ac2e6b75a576ae6cf",
+      "size": 83409376,
+      "signer_subject": "CN=Siber Systems, O=Siber Systems, S=Virginia, C=US",
+      "signer_thumbprint": "B745796BD3492350C170EFF5691813F3C2FC298E",
+      "allowed_hosts": [
+        "www.goodsync.com",
+        "services.goodsync.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SideQuestVR.SideQuest",
+      "version": "0.10.42",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/SideQuestVR/SideQuest/releases/download/v0.10.42/SideQuest-Setup-0.10.42-x64-win.exe",
+      "sha256": "2d0cd4cbe441b1403217c2c9e9acfe2201da9b765e9de4cd88595e0d7b60cfee",
+      "size": 105327256,
+      "signer_subject": "CN=SideQuest Ltd, O=SideQuest Ltd, L=Belfast, C=GB, SERIALNUMBER=NI666823, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB",
+      "signer_thumbprint": "3B4D93D43E365476F5227A22AB4884EE5FB043E1",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Skillbrains.Lightshot",
+      "version": "5.5.0.7",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://updater.prntscr.com/builds/setup-lightshot-5.5.0.7.exe",
+      "sha256": "928c2808421dfd487ffa697379548cbe682c0e13aeb595eb89973ba9c515b8a1",
+      "size": 2786328,
+      "signer_subject": "CN=Kilonova LLC, O=Kilonova LLC, L=Seattle, S=Washington, C=US",
+      "signer_thumbprint": "65F3B3CC35EFDEC600A6E68FF7A5C1DEF5054EC9",
+      "allowed_hosts": [
+        "updater.prntscr.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SoftMaker.FreeOffice.2024",
+      "version": "1.0.6190",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://www.softmaker.net/down/freeoffice2024.msi",
+      "sha256": "1eb97208f9d51fbc57d5581b961d38983558c488c1e9b33afe6e78c11b4b181f",
+      "size": 119070720,
+      "signer_subject": "CN=SoftMaker Software GmbH, O=SoftMaker Software GmbH, S=Bayern, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=HRB 8788",
+      "signer_thumbprint": "29FBA3E888D0B4872DAC4F7E3EA4E25A291AA493",
+      "allowed_hosts": [
+        "www.softmaker.net"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SoftPerfect.NetworkScanner",
+      "version": "26.9",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://www.softperfect.com/download/files/netscan_setup.exe",
+      "sha256": "a9ec1f466061d9cd78440ebed3aee6ce9b21d30e3b887818beb9f3c0c52836d5",
+      "size": 23094296,
+      "signer_subject": "CN=SoftPerfect Pty. Ltd., O=SoftPerfect Pty. Ltd., L=Brisbane City, S=Queensland, C=AU, SERIALNUMBER=140 322 916, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=AU",
+      "signer_thumbprint": "4F49B232B8A659746C828809CB1723A11097D755",
+      "allowed_hosts": [
+        "www.softperfect.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Sogou.SogouInput",
+      "version": "16.10.0.5858",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://ime.gtimg.com/pc/build/_sogou_pinyin_16.10.0.5858_0.exe",
+      "sha256": "3821ed439cb924563adfc7706d55c49f6255a9ec2db8ced466889af36d3cbe6e",
+      "size": 220401832,
+      "signer_subject": "CN=\"Beijing Sogou Technology Development Co., Ltd.\", O=\"Beijing Sogou Technology Development Co., Ltd.\", S=Beijing, C=CN",
+      "signer_thumbprint": "4326AD24950A7740528E89EE68967CEBF7E71115",
+      "allowed_hosts": [
+        "ime.gtimg.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Sogou.SogouWBInput",
+      "version": "5.5.0.2585",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://ime.sogoucdn.com/sogou_wubi_5.5.0.2585.exe",
+      "sha256": "445413a74dc8059285b3f0fc988656caf35bd06bc1b9c32944d1fbd6bb256b16",
+      "size": 42692728,
+      "signer_subject": "CN=\"Beijing Sogou Technology Development Co., Ltd.\", O=\"Beijing Sogou Technology Development Co., Ltd.\", S=Beijing, C=CN",
+      "signer_thumbprint": "652B97B5EB244E074FDF9D640A52E94447ED42F1",
+      "allowed_hosts": [
+        "ime.sogoucdn.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SourceGear.DiffMerge",
+      "version": "4.2.0.697",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi",
+      "sha256": "364c07906bac332b9fcf36f7dc1b0bb666c8ec4ab66177aa9da12b9e3dc0c48d",
+      "size": 7757824,
+      "signer_subject": "CN=SourceGear, OU=Vault, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=SourceGear, L=Champaign, S=Illinois, C=US",
+      "signer_thumbprint": "D2CDED89E4AAA2F12FD43E2DCF8E157E07E8BFBC",
+      "allowed_hosts": [
+        "download.sourcegear.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Stardesk.Stardesk",
+      "version": "1.0.5",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/vantixxcode/Stardesk-Releases/releases/download/v1.0.5/StarDesk_Setup_1.0.5.6225_1222170245_webcoop.exe",
+      "sha256": "ce6fe7d23a78efd3407f3c633741bdaa3323b3d10d4778809e5b09db53c37338",
+      "size": 70608000,
+      "signer_subject": "CN=GearUP Portal Pte. Ltd., O=GearUP Portal Pte. Ltd., L=Singapore, C=SG, SERIALNUMBER=202237112N, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "signer_thumbprint": "44932F1FBEBBD044B3FECB421367C4822334CFAC",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SteelSeries.GG",
+      "version": "123.0.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://engine.steelseriescdn.com/SteelSeriesGG123.0.0Setup.exe",
+      "sha256": "e8846a8793b707e2829702112fe47314ed3dd2433ab80dc42099e33b68288bcc",
+      "size": 433651280,
+      "signer_subject": "CN=GN Hearing A/S, O=GN Hearing A/S, L=Ballerup, C=DK, SERIALNUMBER=55082715, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
+      "signer_thumbprint": "C540E47CE151E3301E14F5C54129920E5ECB60B3",
+      "allowed_hosts": [
+        "engine.steelseriescdn.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Streamlabs.Streamlabs",
+      "version": "1.21.9",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://slobs-cdn.streamlabs.com/Streamlabs+Desktop+Setup+1.21.9.exe",
+      "sha256": "57e0c280bc4a85e66411a1ed0f874d56b8f2a33590d42146c6d07bab96ca9ceb",
+      "size": 286640296,
+      "signer_subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
+      "allowed_hosts": [
+        "slobs-cdn.streamlabs.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Stremio.Stremio",
+      "version": "4.4.181",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://dl.strem.io/shell-win/v4.4.181/Stremio+4.4.181.exe",
+      "sha256": "2351f66e0fb4559c8941778547fc935333560991e541c99373f4858b501f8399",
+      "size": 123114464,
+      "signer_subject": "CN=Smart Code OOD, O=Smart Code OOD, S=Sofia (stolitsa), C=BG",
+      "signer_thumbprint": "29954003D1EC05783566FAD7415B92067003DEF0",
+      "allowed_hosts": [
+        "dl.strem.io"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SublimeHQ.SublimeMerge",
+      "version": "2136",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.sublimetext.com/sublime_merge_build_2136_x64_setup.exe",
+      "sha256": "397077458d718caf752c2abcf18d4685e91b3a267ed1db52f81841b3bb61df29",
+      "size": 29797192,
+      "signer_subject": "CN=Sublime HQ Pty Ltd, O=Sublime HQ Pty Ltd, L=Woollahra, S=New South Wales, C=AU",
+      "signer_thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
+      "allowed_hosts": [
+        "download.sublimetext.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SublimeHQ.SublimeText.4",
+      "version": "4.0.0.421500",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.sublimetext.com/sublime_text_build_4215_x64_setup.exe",
+      "sha256": "bafea3ffc2d151fbbf7269868d7eaaa20d7b884254ad5512c1548b6bebfa7cde",
+      "size": 21975760,
+      "signer_subject": "CN=Sublime HQ Pty Ltd, O=Sublime HQ Pty Ltd, L=Woollahra, S=New South Wales, C=AU",
+      "signer_thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
+      "allowed_hosts": [
+        "download.sublimetext.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SUSE.RancherDesktop",
+      "version": "1.25.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop.Setup.1.25.0.msi",
+      "sha256": "8e8a703cafc101495bfc9aecc515a91f9c781e572c39d93698bfa96655ec21f8",
+      "size": 710930432,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.2.5.4.15=Private Organization, CN=SUSE LLC, SERIALNUMBER=001073307, O=SUSE LLC, L=Provo, S=Utah, C=US",
+      "signer_thumbprint": "14E89EBEAF0D39AE95A0B8261CF7DEF3B4FE9250",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "TablePlus.TablePlus",
+      "version": "27.3.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://files.tableplus.com/windows/27.3.0/TablePlusSetup.exe",
+      "sha256": "4cfa924b3331cf6ac1140f8859a1162adc8da7907b24dcb6d4db33b2420f9384",
+      "size": 122203192,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Nova Scotia, OID.2.5.4.15=Private Organization, CN=TablePlus Inc, SERIALNUMBER=3321629, O=TablePlus Inc, L=Toronto, S=Ontario, C=CA",
+      "signer_thumbprint": "346F0E3DF0458F9AD0EA4BB8511DD3DE43580CBE",
+      "allowed_hosts": [
+        "files.tableplus.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "TechSmith.Camtasia",
+      "version": "26.2.5.21144",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.techsmith.com/camtasiastudio/releases/2625/camtasia.exe",
+      "sha256": "5761a1068935dc4cf088a8f121af39cdf19eb869ba367b3aebd21b8ff8e15679",
+      "size": 323462440,
+      "signer_subject": "CN=TechSmith Corporation, O=TechSmith Corporation, L=East Lansing, S=Michigan, C=US, SERIALNUMBER=800429440, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Michigan, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
+      "allowed_hosts": [
+        "download.techsmith.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "TechSmith.Snagit.2026",
+      "version": "26.4.0",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.techsmith.com/snagit/releases/2640/snagit.exe",
+      "sha256": "6ba828b9e74770d4f7f900cc68c821dffdbee12fb34b2514a5f4c885013586a2",
+      "size": 433774720,
+      "signer_subject": "CN=TechSmith Corporation, O=TechSmith Corporation, L=East Lansing, S=Michigan, C=US, SERIALNUMBER=800429440, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Michigan, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
+      "allowed_hosts": [
+        "download.techsmith.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Telerik.Fiddler.Classic",
+      "version": "6.0.20262.10021",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://downloads.getfiddler.com/fiddler-classic/FiddlerSetup.6.0.20262.10021-latest.exe",
+      "sha256": "b8c733bce208c395d94711dd0fe644b0a92fa613ca55b333f44d5dccaa196ef7",
+      "size": 4824784,
+      "signer_subject": "CN=PROGRESS SOFTWARE CORPORATION, O=PROGRESS SOFTWARE CORPORATION, L=Burlington, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5743582, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "EEB3EC48AA807336AA732AC9B310131DFAA034D1",
+      "allowed_hosts": [
+        "downloads.getfiddler.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Telerik.Fiddler.Everywhere",
+      "version": "8.4.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://downloads.getfiddler.com/win/Fiddler%20Everywhere%208.4.0.exe",
+      "sha256": "58e625ae29baf34f933ad5ac303f9c7b54ec6e3db29d8e8bb04ba3345adb8a8c",
+      "size": 214153712,
+      "signer_subject": "CN=PROGRESS SOFTWARE CORPORATION, O=PROGRESS SOFTWARE CORPORATION, L=Burlington, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5743582, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "EEB3EC48AA807336AA732AC9B310131DFAA034D1",
+      "allowed_hosts": [
+        "downloads.getfiddler.com"
+      ],
+      "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "VNGCorp.Zalo",

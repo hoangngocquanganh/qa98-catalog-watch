@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-12T09:55:38.3937036Z",
+  "updated_at": "2026-11-12T21:30:54.8962005Z",
   "last_run": {
-    "at": "2026-11-12T09:55:38.3937036Z",
-    "seconds": 34,
-    "failing": 25,
+    "at": "2026-11-12T21:30:54.8962005Z",
+    "seconds": 35,
+    "failing": 26,
     "healed": 1,
-    "blocked": 24,
+    "blocked": 25,
     "downloads": 21,
-    "downloaded_mb": 794,
+    "downloaded_mb": 628,
     "harvested": 6,
-    "anchors": 280
+    "anchors": 309
   },
   "heals": [
     {
@@ -86,7 +86,7 @@
       "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
       "slug": "emsisoft-emergencykit",
       "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 ea7ceba7532175b6caa93c1d53b999b4d538e0fdd79014612ef2e5448368248d, 326.5 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 9ee6d198aac3fac141f05861ad17a02ad877984d851361d5b5fc3f81488a878f, 326.7 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
     },
     {
       "vkey": "w:glasswire.glasswire|3.11.1164",
@@ -177,6 +177,12 @@
       "slug": "nosqlbooster-nosqlbooster",
       "version": "8.1.7",
       "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.1.7"
+    },
+    {
+      "vkey": "w:piriform.ccleaner|7.11.1522.1958",
+      "slug": "piriform-ccleaner",
+      "version": "7.11.1522.1958",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Gen Digital Inc., O=Gen Digital Inc., S=Arizona, C=US\" (SHA-256 a249ce0aa374a7ed9a6e6a59cf3d1ba2cf72adbd0b9fa509ff249162e171275e, 1.8 MB); winget-pkgs chưa có bản mới hơn 7.11.1522.1958"
     }
   ],
   "anchors": [
@@ -851,14 +857,34 @@
       "at": "2026-11-12T09:55:38.3937036Z"
     },
     {
+      "id": "w:beeftext.beeftext",
+      "version": "16.0",
+      "sha256": "233a8ebf4719a40bf79eab7fa41f083f63976f129670c40e584741e87b9397ec",
+      "size": 9846600,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-12T21:30:54.8962005Z"
+    },
+    {
+      "id": "w:beekeeper-studio.beekeeper-studio",
+      "version": "6.2.2",
+      "sha256": "a3ca2e6169037061683640ec0727aacba4e63d818fee5b805ad3aae75dd4d592",
+      "size": 279884256,
+      "subject": "CN=\"Beekeeper Studio, Inc\", O=\"Beekeeper Studio, Inc\", S=Texas, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4754116",
+      "thumbprint": "3055C054FC29B95361A6FB1D820131FEDDC2B4C6",
+      "source": "harvest",
+      "at": "2026-11-12T21:30:54.8962005Z"
+    },
+    {
       "id": "w:beeper.beeper",
-      "version": "4.3.284",
-      "sha256": "baad489f34e1d7d50e36effdb4846ab0704cb77c119e267c190807e2780d01c0",
-      "size": 236194464,
+      "version": "4.3.308",
+      "sha256": "d19b09ba35ce4b4ab045e4bd52e152216a43b21ffba3f2ad1e4c7b2f96ec75fe",
+      "size": 214547232,
       "subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "thumbprint": "82577BE252D7C8C821BF8FE56A97FDB17BE4587D",
+      "thumbprint": "5E2C184D6B6C72279F6F675B0D699057B05C9D46",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "w:belledonnecommunications.linphone",
@@ -869,6 +895,16 @@
       "thumbprint": "62259AA5866061168F1531378CF333E1C77FC5BC",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:bellsoft.libericajdk.21",
+      "version": "21.0.13.305",
+      "sha256": "d5b6b0514ab0f3b31e1960e0f9733fe41e87880a3bec6d0827a7072248fc41d8",
+      "size": 216592384,
+      "subject": "CN=BELLSOFT, O=BELLSOFT, S=California, C=US",
+      "thumbprint": "74D99807983D8A5D9A930481B549E443CC357CD9",
+      "source": "harvest",
+      "at": "2026-11-12T21:30:54.8962005Z"
     },
     {
       "id": "w:bethesda.launcher",
@@ -889,6 +925,36 @@
       "thumbprint": "C39501225A337C86F91E3BA7911ACB06FF48ACF3",
       "source": "pin",
       "at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "w:bitdefender.bitdefender",
+      "version": "26.0.1.233",
+      "sha256": "c4a9cc33ea721f06ed1b5c7a65e85be3bc1a4bbe44d0b18bf36415b512688e7f",
+      "size": 14193008,
+      "subject": "CN=Bitdefender SRL, OU=DEVSUP CLINSTALLER, O=Bitdefender SRL, L=Bucharest, C=RO",
+      "thumbprint": "DACA8A3CBFC824CBDF4043DFDAE2322BCDA1FBB8",
+      "source": "harvest",
+      "at": "2026-11-12T21:30:54.8962005Z"
+    },
+    {
+      "id": "w:bitsum.processlasso",
+      "version": "19.0.0.94",
+      "sha256": "92cc0aaaaaadca6d54cba2ce3280f9b1ed0f9849a9869de13f56da21c2e2804b",
+      "size": 3787792,
+      "subject": "CN=Bitsum Technologies (Bitsum LLC), O=Bitsum Technologies (Bitsum LLC), L=Morristown, S=Tennessee, C=US, SERIALNUMBER=000681038, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Tennessee, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "06BDE9E0AD698C1A89EA2535FEB447D3260A0527",
+      "source": "harvest",
+      "at": "2026-11-12T21:30:54.8962005Z"
+    },
+    {
+      "id": "w:bitvise.ssh.client",
+      "version": "9.67",
+      "sha256": "b2d9abdae62edd1a1521534f44fc35ef973c9ae9aade98626af14bafa83cbbeb",
+      "size": 29035544,
+      "subject": "CN=Bitvise Limited, O=Bitvise Limited, L=Colleyville, S=Texas, C=US, SERIALNUMBER=802795978, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Texas, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "A6D37D7FDF19B73DB3E3A8D6D77B67DFD423BB22",
+      "source": "harvest",
+      "at": "2026-11-12T21:30:54.8962005Z"
     },
     {
       "id": "w:bleachbit.bleachbit",
@@ -942,13 +1008,13 @@
     },
     {
       "id": "w:caphyon.advancedinstaller",
-      "version": "24.1",
-      "sha256": "139a97ae4b7c72566c3746bb5763a36f0c198670b80601b3b939412940c06cf5",
-      "size": 311607296,
+      "version": "24.2",
+      "sha256": "e478bb9b3db85a1ab58580a79ede4516247f0506d6e25c3d927c2158460b35b6",
+      "size": 316878848,
       "subject": "CN=Caphyon SRL, O=Caphyon SRL, L=Craiova, S=Dolj, C=RO",
-      "thumbprint": "EADC59E44AB5D7C0399CB922A109827B7F004DAA",
+      "thumbprint": "8A39E87DE78C6FD17C84B83ECD5DFD7463FD2996",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "w:chrisant996.clink",
@@ -1332,13 +1398,13 @@
     },
     {
       "id": "w:evernote.evernote",
-      "version": "11.41.9",
-      "sha256": "7af25efe7acfad00b91069b3de7aecaf4f0274d73f2dfaa0be3d400706bcb3c7",
-      "size": 417064896,
+      "version": "11.42.3",
+      "sha256": "4dd45a4915fc9872668ebd95e3759eb3fc82cd0de2380e67e8412411384ea068",
+      "size": 417991680,
       "subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
       "thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
       "source": "pin",
-      "at": "2026-11-10T14:21:52.6730199Z"
+      "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "w:famatech.advancedipscanner",
@@ -1622,13 +1688,13 @@
     },
     {
       "id": "w:grafanalabs.k6",
-      "version": "2.3.0",
-      "sha256": "ad65844ca7b50dedc376415cc7d4db47122549811437c89625bcda7f985cea91",
-      "size": 31678464,
+      "version": "2.4.0",
+      "sha256": "e707c21cf6acc35d40413ce82f9a75d375164929600897db7de3907c07e8ba8e",
+      "size": 32108544,
       "subject": "CN=Grafana Labs, O=Grafana Labs, L=New York City, S=New York, C=US",
-      "thumbprint": "0CB8E80497464D34295579D42D1CCC6F12AC1DD0",
+      "thumbprint": "EB796E6712061365152DB8B05F52A827AD19887F",
       "source": "pin",
-      "at": "2026-11-10T14:32:28.4341544Z"
+      "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "w:grammarly.grammarly",
@@ -2372,13 +2438,13 @@
     },
     {
       "id": "w:musescore.musescore",
-      "version": "4.7.6.261022093",
-      "sha256": "41c9ca34fbf0b720f229ed3b0c4ff923b5d41a8c24ad9262e1fce390cd5c34e5",
-      "size": 135020544,
+      "version": "4.7.7.261109195",
+      "sha256": "1e54d88c63c20b348f12d23008b3533fd255e1bc88734a9496a46391c4b072a9",
+      "size": 135069696,
       "subject": "CN=MUSECY SM LTD, O=MUSECY SM LTD, L=Limassol, C=CY, SERIALNUMBER=HE 411908, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY",
       "thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "w:nathancorvussolis.corvusskk",
@@ -2959,6 +3025,236 @@
       "thumbprint": "A38AFE71912DDFEA9854CC1A2020A619D583DA66",
       "source": "pin",
       "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:session.session",
+      "version": "1.18.3",
+      "sha256": "479f2a990a8e53f24d1cdb7b9055ea89ad0c94be4d62bef7710ce196444dc8d9",
+      "size": 128026328,
+      "subject": "CN=Session Technology Stiftung, O=Session Technology Stiftung, S=Zug, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-360.761.156",
+      "thumbprint": "6B523B80D62DC33866DD1CEA574F4C253DA53A83",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sflinux.jami",
+      "version": "1.0.9197.28092",
+      "sha256": "d42d821b5fd9cbf813c381a727fa951e303ecefc842c1ebb0e0444606a1d0604",
+      "size": 134258688,
+      "subject": "CN=SAVOIR-FAIRE LINUX INC., O=SAVOIR-FAIRE LINUX INC., S=Quebec, C=CA, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1148918635",
+      "thumbprint": "7C7BAF68EECDA593CB207427C85320382EF0112D",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sharex.sharex",
+      "version": "22.4.0",
+      "sha256": "5fac6ee58600976586d706f164b0f8a992fff7679bf2724a1f678c4a63894a8e",
+      "size": 145391368,
+      "subject": "CN=Ember Swan, O=Ember Swan, L=Paris, S=Paris, C=FR",
+      "thumbprint": "6AFCFB990161C3BDA704324632320988A9097163",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sibersystems.goodsync",
+      "version": "12.11.12.2",
+      "sha256": "d853127575f08026bce068b39ea9eb8d063e9a461e55157ac2e6b75a576ae6cf",
+      "size": 83409376,
+      "subject": "CN=Siber Systems, O=Siber Systems, S=Virginia, C=US",
+      "thumbprint": "B745796BD3492350C170EFF5691813F3C2FC298E",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sidequestvr.sidequest",
+      "version": "0.10.42",
+      "sha256": "2d0cd4cbe441b1403217c2c9e9acfe2201da9b765e9de4cd88595e0d7b60cfee",
+      "size": 105327256,
+      "subject": "CN=SideQuest Ltd, O=SideQuest Ltd, L=Belfast, C=GB, SERIALNUMBER=NI666823, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB",
+      "thumbprint": "3B4D93D43E365476F5227A22AB4884EE5FB043E1",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:skillbrains.lightshot",
+      "version": "5.5.0.7",
+      "sha256": "928c2808421dfd487ffa697379548cbe682c0e13aeb595eb89973ba9c515b8a1",
+      "size": 2786328,
+      "subject": "CN=Kilonova LLC, O=Kilonova LLC, L=Seattle, S=Washington, C=US",
+      "thumbprint": "65F3B3CC35EFDEC600A6E68FF7A5C1DEF5054EC9",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:softmaker.freeoffice.2024",
+      "version": "1.0.6190",
+      "sha256": "1eb97208f9d51fbc57d5581b961d38983558c488c1e9b33afe6e78c11b4b181f",
+      "size": 119070720,
+      "subject": "CN=SoftMaker Software GmbH, O=SoftMaker Software GmbH, S=Bayern, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=HRB 8788",
+      "thumbprint": "29FBA3E888D0B4872DAC4F7E3EA4E25A291AA493",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:softperfect.networkscanner",
+      "version": "26.9",
+      "sha256": "a9ec1f466061d9cd78440ebed3aee6ce9b21d30e3b887818beb9f3c0c52836d5",
+      "size": 23094296,
+      "subject": "CN=SoftPerfect Pty. Ltd., O=SoftPerfect Pty. Ltd., L=Brisbane City, S=Queensland, C=AU, SERIALNUMBER=140 322 916, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=AU",
+      "thumbprint": "4F49B232B8A659746C828809CB1723A11097D755",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sogou.sogouinput",
+      "version": "16.10.0.5858",
+      "sha256": "3821ed439cb924563adfc7706d55c49f6255a9ec2db8ced466889af36d3cbe6e",
+      "size": 220401832,
+      "subject": "CN=\"Beijing Sogou Technology Development Co., Ltd.\", O=\"Beijing Sogou Technology Development Co., Ltd.\", S=Beijing, C=CN",
+      "thumbprint": "4326AD24950A7740528E89EE68967CEBF7E71115",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sogou.sogouwbinput",
+      "version": "5.5.0.2585",
+      "sha256": "445413a74dc8059285b3f0fc988656caf35bd06bc1b9c32944d1fbd6bb256b16",
+      "size": 42692728,
+      "subject": "CN=\"Beijing Sogou Technology Development Co., Ltd.\", O=\"Beijing Sogou Technology Development Co., Ltd.\", S=Beijing, C=CN",
+      "thumbprint": "652B97B5EB244E074FDF9D640A52E94447ED42F1",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sourcegear.diffmerge",
+      "version": "4.2.0.697",
+      "sha256": "364c07906bac332b9fcf36f7dc1b0bb666c8ec4ab66177aa9da12b9e3dc0c48d",
+      "size": 7757824,
+      "subject": "CN=SourceGear, OU=Vault, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=SourceGear, L=Champaign, S=Illinois, C=US",
+      "thumbprint": "D2CDED89E4AAA2F12FD43E2DCF8E157E07E8BFBC",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:stardesk.stardesk",
+      "version": "1.0.5",
+      "sha256": "ce6fe7d23a78efd3407f3c633741bdaa3323b3d10d4778809e5b09db53c37338",
+      "size": 70608000,
+      "subject": "CN=GearUP Portal Pte. Ltd., O=GearUP Portal Pte. Ltd., L=Singapore, C=SG, SERIALNUMBER=202237112N, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "thumbprint": "44932F1FBEBBD044B3FECB421367C4822334CFAC",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:steelseries.gg",
+      "version": "123.0.0",
+      "sha256": "e8846a8793b707e2829702112fe47314ed3dd2433ab80dc42099e33b68288bcc",
+      "size": 433651280,
+      "subject": "CN=GN Hearing A/S, O=GN Hearing A/S, L=Ballerup, C=DK, SERIALNUMBER=55082715, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
+      "thumbprint": "C540E47CE151E3301E14F5C54129920E5ECB60B3",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:streamlabs.streamlabs",
+      "version": "1.21.9",
+      "sha256": "57e0c280bc4a85e66411a1ed0f874d56b8f2a33590d42146c6d07bab96ca9ceb",
+      "size": 286640296,
+      "subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:stremio.stremio",
+      "version": "4.4.181",
+      "sha256": "2351f66e0fb4559c8941778547fc935333560991e541c99373f4858b501f8399",
+      "size": 123114464,
+      "subject": "CN=Smart Code OOD, O=Smart Code OOD, S=Sofia (stolitsa), C=BG",
+      "thumbprint": "29954003D1EC05783566FAD7415B92067003DEF0",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sublimehq.sublimemerge",
+      "version": "2136",
+      "sha256": "397077458d718caf752c2abcf18d4685e91b3a267ed1db52f81841b3bb61df29",
+      "size": 29797192,
+      "subject": "CN=Sublime HQ Pty Ltd, O=Sublime HQ Pty Ltd, L=Woollahra, S=New South Wales, C=AU",
+      "thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:sublimehq.sublimetext.4",
+      "version": "4.0.0.421500",
+      "sha256": "bafea3ffc2d151fbbf7269868d7eaaa20d7b884254ad5512c1548b6bebfa7cde",
+      "size": 21975760,
+      "subject": "CN=Sublime HQ Pty Ltd, O=Sublime HQ Pty Ltd, L=Woollahra, S=New South Wales, C=AU",
+      "thumbprint": "AB4550F114DB3599664A9965AF64BC35154288F6",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:suse.rancherdesktop",
+      "version": "1.25.0",
+      "sha256": "8e8a703cafc101495bfc9aecc515a91f9c781e572c39d93698bfa96655ec21f8",
+      "size": 710930432,
+      "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.2.5.4.15=Private Organization, CN=SUSE LLC, SERIALNUMBER=001073307, O=SUSE LLC, L=Provo, S=Utah, C=US",
+      "thumbprint": "14E89EBEAF0D39AE95A0B8261CF7DEF3B4FE9250",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:tableplus.tableplus",
+      "version": "27.3.0",
+      "sha256": "4cfa924b3331cf6ac1140f8859a1162adc8da7907b24dcb6d4db33b2420f9384",
+      "size": 122203192,
+      "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Nova Scotia, OID.2.5.4.15=Private Organization, CN=TablePlus Inc, SERIALNUMBER=3321629, O=TablePlus Inc, L=Toronto, S=Ontario, C=CA",
+      "thumbprint": "346F0E3DF0458F9AD0EA4BB8511DD3DE43580CBE",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:techsmith.camtasia",
+      "version": "26.2.5.21144",
+      "sha256": "5761a1068935dc4cf088a8f121af39cdf19eb869ba367b3aebd21b8ff8e15679",
+      "size": 323462440,
+      "subject": "CN=TechSmith Corporation, O=TechSmith Corporation, L=East Lansing, S=Michigan, C=US, SERIALNUMBER=800429440, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Michigan, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:techsmith.snagit.2026",
+      "version": "26.4.0",
+      "sha256": "6ba828b9e74770d4f7f900cc68c821dffdbee12fb34b2514a5f4c885013586a2",
+      "size": 433774720,
+      "subject": "CN=TechSmith Corporation, O=TechSmith Corporation, L=East Lansing, S=Michigan, C=US, SERIALNUMBER=800429440, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Michigan, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:telerik.fiddler.classic",
+      "version": "6.0.20262.10021",
+      "sha256": "b8c733bce208c395d94711dd0fe644b0a92fa613ca55b333f44d5dccaa196ef7",
+      "size": 4824784,
+      "subject": "CN=PROGRESS SOFTWARE CORPORATION, O=PROGRESS SOFTWARE CORPORATION, L=Burlington, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5743582, OID.2.5.4.15=Private Organization",
+      "thumbprint": "EEB3EC48AA807336AA732AC9B310131DFAA034D1",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:telerik.fiddler.everywhere",
+      "version": "8.4.0",
+      "sha256": "58e625ae29baf34f933ad5ac303f9c7b54ec6e3db29d8e8bb04ba3345adb8a8c",
+      "size": 214153712,
+      "subject": "CN=PROGRESS SOFTWARE CORPORATION, O=PROGRESS SOFTWARE CORPORATION, L=Burlington, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5743582, OID.2.5.4.15=Private Organization",
+      "thumbprint": "EEB3EC48AA807336AA732AC9B310131DFAA034D1",
+      "source": "pin",
+      "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
       "id": "w:videolan.vlc",
