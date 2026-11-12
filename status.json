@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-12T01:04:29.5342635Z",
+  "checked_at": "2026-11-12T08:13:45.6124482Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,29 +12,29 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-12T01:04:29.5342635Z",
-  "catalog_revision": 59,
-  "total_keys": 967,
-  "hidden": 17,
-  "cycle_position": 604,
+  "last_probe_at": "2026-11-12T08:13:45.6124482Z",
+  "catalog_revision": 63,
+  "total_keys": 968,
+  "hidden": 22,
+  "cycle_position": 661,
   "error": "",
   "pages": {
-    "catalog_revision": 59,
+    "catalog_revision": 63,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-12T01:04:29.5342635Z",
-    "seconds": 195,
-    "probed": 100,
-    "ok": 76,
-    "hashed": 58,
+    "at": "2026-11-12T08:13:45.6124482Z",
+    "seconds": 24,
+    "probed": 99,
+    "ok": 74,
+    "hashed": 56,
     "transient": 0,
     "broken": 12,
-    "hash_mismatch": 12,
-    "skipped": 0,
+    "hash_mismatch": 13,
+    "skipped": 1,
     "wide_outage": false
   },
   "silent_missing": [
@@ -364,13 +364,6 @@
       "slug": "dell-commandupdate-universal",
       "winget_id": "Dell.CommandUpdate.Universal",
       "version": "5.7.0",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "dialpad-dialpad",
-      "winget_id": "Dialpad.Dialpad",
-      "version": "2609.5.0",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -847,13 +840,6 @@
       "slug": "open-shell-open-shell-menu",
       "winget_id": "Open-Shell.Open-Shell-Menu",
       "version": "4.4.198",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "opera-opera",
-      "winget_id": "Opera.Opera",
-      "version": "140.0.6074.17",
       "installer_type": "exe",
       "silent_switch": true
     },
