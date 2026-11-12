@@ -1,18 +1,38 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-11T21:28:34.8536607Z",
+  "updated_at": "2026-11-12T09:55:38.3937036Z",
   "last_run": {
-    "at": "2026-11-11T21:28:34.8536607Z",
-    "seconds": 35,
-    "failing": 22,
-    "healed": 0,
-    "blocked": 22,
-    "downloads": 19,
-    "downloaded_mb": 627,
-    "harvested": 7,
-    "anchors": 252
+    "at": "2026-11-12T09:55:38.3937036Z",
+    "seconds": 34,
+    "failing": 25,
+    "healed": 1,
+    "blocked": 24,
+    "downloads": 21,
+    "downloaded_mb": 794,
+    "harvested": 6,
+    "anchors": 280
   },
-  "heals": [],
+  "heals": [
+    {
+      "vkey": "w:google.chrome|156.0.8078.80",
+      "slug": "chrome",
+      "winget_id": "Google.Chrome",
+      "version": "156.0.8078.80",
+      "kind": "same_url_new_hash",
+      "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
+      "sha256": "67edcdaae7019a78e160cc653be39d73e508e33e22f1051f9b88457cabdb83f4",
+      "size": 176267264,
+      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "final_host": "dl.google.com",
+      "hosts": [
+        "dl.google.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\"; cùng chứng chỉ với bản tham chiếu 157.0.8103.51 (harvest, thumbprint trùng); 168.1 MB (tham chiếu 164.0 MB)",
+      "from_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
+      "checked_at": "2026-11-12T09:55:38.3937036Z"
+    }
+  ],
   "heal_blocked": [
     {
       "vkey": "w:aimp.aimp|5.10.2418",
@@ -66,7 +86,7 @@
       "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
       "slug": "emsisoft-emergencykit",
       "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 a2e86f0448279fca14c22a69f0c92dd03258baecdc322223b6880bd648e23d7a, 327.3 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 ea7ceba7532175b6caa93c1d53b999b4d538e0fdd79014612ef2e5448368248d, 326.5 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
     },
     {
       "vkey": "w:glasswire.glasswire|3.11.1164",
@@ -145,6 +165,18 @@
       "slug": "microsoft-sysinternals-zoomit",
       "version": "12.3",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:multimc.multimc|0.7.0.4235",
+      "slug": "multimc-multimc",
+      "version": "0.7.0.4235",
+      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:nosqlbooster.nosqlbooster|8.1.7",
+      "slug": "nosqlbooster-nosqlbooster",
+      "version": "8.1.7",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.1.7"
     }
   ],
   "anchors": [
@@ -157,6 +189,16 @@
       "thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
       "source": "harvest",
       "at": "2026-11-11T21:28:34.8536607Z"
+    },
+    {
+      "id": "s:balena-etcher",
+      "version": "2.1.9",
+      "sha256": "3fa63ea453e75c0338f8f1444b511f38decdd002e17922a910aec5e29b85b751",
+      "size": 274253464,
+      "subject": "CN=Balena Ltd, O=Balena Ltd, L=London, C=GB, SERIALNUMBER=07794151, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB",
+      "thumbprint": "668D58190E972578AABAE6478426C2A76CE52A57",
+      "source": "harvest",
+      "at": "2026-11-12T09:55:38.3937036Z"
     },
     {
       "id": "s:rustdesk",
@@ -709,6 +751,46 @@
       "at": "2026-11-11T21:28:34.8536607Z"
     },
     {
+      "id": "w:autodesk.fusion",
+      "version": "2706.1.17",
+      "sha256": "1e236876c03f7e3fd3ea1975057d7acfad54de8e933445e4e81e5a29a7fbbec3",
+      "size": 13651856,
+      "subject": "CN=\"Autodesk, Inc.\", O=\"Autodesk, Inc.\", L=San Francisco, S=California, C=US",
+      "thumbprint": "4A9E6CD4B967ACFF54EC7D3213C061F925682B54",
+      "source": "harvest",
+      "at": "2026-11-12T09:55:38.3937036Z"
+    },
+    {
+      "id": "w:autohotkey.autohotkey",
+      "version": "2.0.31",
+      "sha256": "9224a3bd1757088320bf04c51efa43511160766bfee8d6555168293cd54b4c16",
+      "size": 3044864,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-12T09:55:38.3937036Z"
+    },
+    {
+      "id": "w:automattic.simplenote",
+      "version": "2.24.0",
+      "sha256": "03ca6a0d4451f9dc85ba2fabe184d63db49cf583fd7ac3bca62cbdfc8d96919e",
+      "size": 108031976,
+      "subject": "CN=\"Automattic, Inc.\", O=\"Automattic, Inc.\", S=California, C=US",
+      "thumbprint": "4B12FB1509F892106A0D5A777CB7D62C9310EF5C",
+      "source": "harvest",
+      "at": "2026-11-12T09:55:38.3937036Z"
+    },
+    {
+      "id": "w:avidemux.avidemux",
+      "version": "2.8.1",
+      "sha256": "dd962bc788d7d955b04e163e7e1a6620b573adc379bf2ea2a2c25585782b4dca",
+      "size": 39995334,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-12T09:55:38.3937036Z"
+    },
+    {
       "id": "w:axcrypt.axcrypt",
       "version": "2.1.1693.0",
       "sha256": "1ded4505b8f342b4899cf316365d497c8d4e4b7e1e738952306e13d5c3adfa02",
@@ -757,6 +839,16 @@
       "thumbprint": "4C9A36E4C783A85AB328F87F3B238062B4B9835A",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:bartoszcichecki.lenovolegiontoolkit",
+      "version": "2.26.1",
+      "sha256": "e7aa9309d4da33ced84e990afbdce08b67966663c2a87909361d451d62d10ec2",
+      "size": 6548148,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-12T09:55:38.3937036Z"
     },
     {
       "id": "w:beeper.beeper",
@@ -1360,13 +1452,13 @@
     },
     {
       "id": "w:freeplane.freeplane",
-      "version": "1.13.4",
-      "sha256": "8a20ed5d785e13c0f447d8949988726c584d0dfa6c3848a6810b91d19110fa67",
-      "size": 110585824,
+      "version": "1.13.5",
+      "sha256": "4261a47714ae3fcff1cf6ce33f4b186a10bc66baed605b60d167c598a0290816",
+      "size": 110590336,
       "subject": "CN=Open Source Developer Dmitry Polivaev, O=Open Source Developer, L=Munich, S=Bavaria, C=DE",
       "thumbprint": "A81DBAE0287FECA724BEDC9FEB5797ACA026E6CB",
       "source": "pin",
-      "at": "2026-11-10T14:21:52.6730199Z"
+      "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
       "id": "w:garena.garena",
@@ -1690,13 +1782,13 @@
     },
     {
       "id": "w:iobit.driverbooster",
-      "version": "14.0.1.462",
-      "sha256": "37f881b9f996155037ac829a42680feae04c23c9f1c9a25a0f05af348fe7ab94",
-      "size": 34182960,
+      "version": "14.1.0.557",
+      "sha256": "6a979ee043cc6be0a6b117b9a640fb1b8249e2ab5d13c2b362ea20b8a56ccd22",
+      "size": 34485304,
       "subject": "CN=\"lObit Co., Ltd\", O=\"lObit Co., Ltd\", L=成都市, S=四川省, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MABRWXYJ8B, OID.2.5.4.15=Private Organization",
       "thumbprint": "0E658F343DDDF4EA2A3B87C58745FF61D596B89E",
       "source": "pin",
-      "at": "2026-11-10T14:32:28.4341544Z"
+      "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
       "id": "w:iobit.malwarefighter",
@@ -1740,13 +1832,13 @@
     },
     {
       "id": "w:johnmacfarlane.pandoc",
-      "version": "3.13",
-      "sha256": "208eeef81b3d734a24f999afb5bf49db4dcf0be4fb72307bebf9ad02353f9a73",
-      "size": 42700800,
+      "version": "3.14",
+      "sha256": "7794998679a6afa1d7c3f7adee689aa17ed75e8a06faf2ed7c60a303bccfcf23",
+      "size": 43319296,
       "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
       "thumbprint": "7D11F24157EB620FC9FE4DC0717B9EF6455AEEEE",
       "source": "pin",
-      "at": "2026-11-10T14:32:28.4341544Z"
+      "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
       "id": "w:joplin.joplin",
@@ -2410,13 +2502,13 @@
     },
     {
       "id": "w:openwhispersystems.signal",
-      "version": "8.34.0",
-      "sha256": "e0ab6da0009ab2a4134d17cb73d5c620bca8e9d9fd0a236da54f4fcac7697f00",
-      "size": 285818568,
+      "version": "8.35.0",
+      "sha256": "47509a9d5626efdc4bfffe938bf633e3b8c80d6798b43620ceb5d250f058e26f",
+      "size": 285995088,
       "subject": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
       "thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
       "source": "pin",
-      "at": "2026-11-11T21:27:51.6491038Z"
+      "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
       "id": "w:oracle.jdk.17",
@@ -2647,6 +2739,226 @@
       "thumbprint": "91FBC86FE26339EAF43A002C74F1C35F2C0A83A7",
       "source": "pin",
       "at": "2026-11-11T21:27:51.6491038Z"
+    },
+    {
+      "id": "w:primatelabs.geekbench.6",
+      "version": "6.4.0",
+      "sha256": "4e46a831ba4d8baadbbdb40a499d9228f800037d48b905182887ab3d00f67654",
+      "size": 302368472,
+      "subject": "CN=Primate Labs Inc., O=Primate Labs Inc., L=Toronto, S=Ontario, C=CA",
+      "thumbprint": "6A5310E76EC534253DB62D104D471E093C3AF53C",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:processingfoundation.processing",
+      "version": "4.5.7",
+      "sha256": "27f88ededad83edb04ae04f7ff1c32e02552104b18b439384ac378d2da28467a",
+      "size": 474120192,
+      "subject": "CN=Processing Foundation Inc., O=Processing Foundation Inc., L=New York, S=New York, C=US",
+      "thumbprint": "0C7DF19EA667C8C7AC970B5DBBD28705B0308D09",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:projectlibre.projectlibre",
+      "version": "1.9.8",
+      "sha256": "32e46ba3ce7b3a81dc8ec648f6baf8f6f6056c8cf9203f75f8187e9e4637833f",
+      "size": 76898304,
+      "subject": "CN=PROJECTLIBRE, O=PROJECTLIBRE, L=San Mateo, S=California, C=US",
+      "thumbprint": "E246F3C2685DE57B7AC0005FA6ED74BE3D3394D6",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:proton.protonauthenticator",
+      "version": "1.1.6",
+      "sha256": "52e5c0b28be769910fbbf24724f552ed4a75dd8571be1004dcf6992fba3a2cb5",
+      "size": 17375232,
+      "subject": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
+      "thumbprint": "265819A6B3F3E77398794A5B70765CED2B7B66BB",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:proxyman.proxyman",
+      "version": "26.2.0",
+      "sha256": "62fcf29dde7e0ccdd77bbe7468ca8056411e0306c235f30da061e53fed0f89c2",
+      "size": 194582160,
+      "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Nova Scotia, OID.2.5.4.15=Private Organization, CN=TablePlus Inc, SERIALNUMBER=3321629, O=TablePlus Inc, L=Toronto, S=Ontario, C=CA",
+      "thumbprint": "346F0E3DF0458F9AD0EA4BB8511DD3DE43580CBE",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:prusa3d.prusaslicer",
+      "version": "2.9.7",
+      "sha256": "7862babe08627be87120356dc9f443c094652c1f151a78ff234b0e461c46805e",
+      "size": 96710992,
+      "subject": "CN=Prusa Research a.s., O=Prusa Research a.s., L=Praha, C=CZ, SERIALNUMBER=06649114, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "thumbprint": "1BA835462EA7B9F9F7BD119786190564C3B0456A",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:python.launcher",
+      "version": "3.15.2",
+      "sha256": "01242412808d8d23edbf54e3cfb6df881086939263c2f7f75a55f53fb47bcce1",
+      "size": 561152,
+      "subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "thumbprint": "6C435B1CAA2CA423A76C14A6693CD55644C8B4D6",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:qnap.qfinderpro",
+      "version": "7.14.1.0727",
+      "sha256": "d6a57fa15a62b87d35e62a43f355fd45bc3cf3f8dc461f726c00a66e4c01d985",
+      "size": 30120624,
+      "subject": "CN=\"QNAP Systems, Inc.\", O=\"QNAP Systems, Inc.\", S=New Taipei City, C=TW",
+      "thumbprint": "524E039F473E94AC0F23E935097FFA0577895554",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:rainmeter.rainmeter",
+      "version": "4.5.28.3936",
+      "sha256": "de6e010f8c28882bc28dcd8f319c899f34dfddec51e1e4dd4e7a23f68ebfe14d",
+      "size": 2634752,
+      "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "thumbprint": "18863C93A35C2E827507B569D6676F12FA46E887",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:rakuten.viber",
+      "version": "29.5.0.0",
+      "sha256": "856a79e863729714170a60b40eee53414d17b1cab4c6b6a1077123dc47ff49e7",
+      "size": 151568384,
+      "subject": "CN=Viber Media S.a r.l., O=Viber Media S.a r.l., L=Luxembourg City, C=LU, SERIALNUMBER=B184956, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=LU",
+      "thumbprint": "E2A763BE530E1ABDADD811A4E80661220502FE67",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:rambox.rambox",
+      "version": "3.2.0",
+      "sha256": "d1e704dc6430615fb0b24c137795066edcb96314b7a1924337b62055776d9695",
+      "size": 117958568,
+      "subject": "CN=Rambox LLC, O=Rambox LLC, S=Wyoming, C=US",
+      "thumbprint": "3BF67FC91C480CBB0A6886844C9F07D7263FB4F0",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:ramensoftware.windhawk",
+      "version": "1.7.3",
+      "sha256": "5116cc1703384aac88b8d7a3b57f172aea5da32b6df7355fb2f8247d23813c8f",
+      "size": 11570480,
+      "subject": "CN=\"Open Source Developer, Michael Maltsev\", O=Open Source Developer, L=Tel Aviv, C=IL",
+      "thumbprint": "89B0B5D27CEFF2ABECD4E739BF23FD7DC7609DC9",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:raspberrypifoundation.raspberrypiimager",
+      "version": "2.0.8",
+      "sha256": "3a2eddf6598a6f1570ce683a76b2bfbe0e4b9ebfb24cde91ac0005140675cbf7",
+      "size": 20753872,
+      "subject": "CN=Raspberry Pi Limited, O=Raspberry Pi Limited, S=Cambridgeshire, C=GB",
+      "thumbprint": "58E5D577E99C1F0BD7580BB2E2887FD336D2E612",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:readdle.spark",
+      "version": "3.32.4",
+      "sha256": "3f466550e7c1c4a4745287dd7d860589cef0bfac085b4547c9b7824492b3c08b",
+      "size": 229472240,
+      "subject": "CN=Spark Mail Limited, O=Spark Mail Limited, L=Dalkey, C=IE, SERIALNUMBER=630862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IE",
+      "thumbprint": "7BFB6B11B72A19FBA8451D1552B4FFED77C52E0D",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:redisinsight.redisinsight",
+      "version": "3.4.2",
+      "sha256": "ae5eeea495c69e7476972f4b9998ded21d31d05e76197dd72cba765fb0032f36",
+      "size": 117145536,
+      "subject": "CN=Redis Inc., O=Redis Inc., L=San Francisco, S=California, C=US",
+      "thumbprint": "4F970C94702579E88F3F97A3BA47BB374375F95E",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:rem0o.fancontrol",
+      "version": "285",
+      "sha256": "0ad1fca893a9e187e193c9bde4774b864116b78526c22471c0683c23d65d6081",
+      "size": 20894624,
+      "subject": "CN=Rémi Mercier, O=Rémi Mercier, L=Québec, S=Québec, C=CA",
+      "thumbprint": "1BBC2992F6327CB949B19E4C3043121B67789D93",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:resplendence.whocrashed",
+      "version": "7.10",
+      "sha256": "057050931eebb9fba355bafb55e1b3ab7fe39e2975fa446371d118eb594f679f",
+      "size": 11419784,
+      "subject": "CN=Daniel Terhell, O=Daniel Terhell, S=Bologna, C=IT",
+      "thumbprint": "0106F8C1BC63FFC2B2AEC6012996F569517D5A6F",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:revouninstaller.revouninstaller",
+      "version": "2.7.2",
+      "sha256": "2ddea619387aa1f12a03fbe9d283ce5f65f900085c419c2f615d3c7273a3a509",
+      "size": 11837952,
+      "subject": "CN=VS REVO GROUP OOD, O=VS REVO GROUP OOD, L=Ruse, C=BG, SERIALNUMBER=200204019, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=BG",
+      "thumbprint": "47FFEC5C7C4B6688DC1923D7863183C6B2F651B7",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:rproject.r",
+      "version": "4.6.2",
+      "sha256": "b0b0053baa1963b6d8a28c9642d50107ef9ce2f41c8b9a90e952846c8918b38a",
+      "size": 91363600,
+      "subject": "CN=Martyn Plummer, O=Martyn Plummer, S=West Midlands, C=GB",
+      "thumbprint": "F356FC6CD245D722F4A82697473DA5995CB42975",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:safing.portmaster",
+      "version": "2.2.8",
+      "sha256": "461370a8bfd961ce197f926e9675860a19c333082f39ac8153582734563a8d21",
+      "size": 78455400,
+      "subject": "CN=IVPN Limited, O=IVPN Limited, PostalCode=GX111AA, L=Gibraltar, S=Gibraltar, C=GI, SERIALNUMBER=112432, OID.1.3.6.1.4.1.311.60.2.1.3=GI, OID.2.5.4.15=Private Organization",
+      "thumbprint": "D3BF5973EB1EC3DBD6EC45D77D556881A350ACD2",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:sandboxie.classic",
+      "version": "5.73.8",
+      "sha256": "47b8dd6bc070d17c66e03a097df043214685208ea1c1522228e7ee009053fe5f",
+      "size": 3144024,
+      "subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
+      "thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:seafile.seafile",
+      "version": "9.0.22",
+      "sha256": "03bea055d061cf2d764fac82279b5cfb66e0a14b56beff314f1b3b189eddc5ad",
+      "size": 145948672,
+      "subject": "CN=Seafile Ltd., O=Seafile Ltd., S=Beijing, C=CN",
+      "thumbprint": "A38AFE71912DDFEA9854CC1A2020A619D583DA66",
+      "source": "pin",
+      "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
       "id": "w:videolan.vlc",
