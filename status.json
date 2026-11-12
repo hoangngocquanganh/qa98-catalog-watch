@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-12T16:53:26.3533327Z",
+  "checked_at": "2026-11-12T22:41:19.3102232Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-12T16:53:26.3533327Z",
-  "catalog_revision": 70,
-  "total_keys": 967,
+  "last_probe_at": "2026-11-12T22:41:19.3102232Z",
+  "catalog_revision": 73,
+  "total_keys": 966,
   "hidden": 23,
-  "cycle_position": 717,
+  "cycle_position": 771,
   "error": "",
   "pages": {
-    "catalog_revision": 70,
+    "catalog_revision": 73,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-12T16:53:26.3533327Z",
-    "seconds": 32,
+    "at": "2026-11-12T22:41:19.3102232Z",
+    "seconds": 29,
     "probed": 100,
-    "ok": 74,
-    "hashed": 56,
+    "ok": 69,
+    "hashed": 51,
     "transient": 0,
-    "broken": 12,
-    "hash_mismatch": 14,
+    "broken": 15,
+    "hash_mismatch": 16,
     "skipped": 0,
     "wide_outage": false
   },
@@ -293,7 +293,7 @@
     {
       "slug": "bytedance-lark",
       "winget_id": "ByteDance.Lark",
-      "version": "8.4.19",
+      "version": "8.5.12",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -895,14 +895,14 @@
     {
       "slug": "postgresql-postgresql-17",
       "winget_id": "PostgreSQL.PostgreSQL.17",
-      "version": "17.11-5",
+      "version": "17.12-1",
       "installer_type": "exe",
       "silent_switch": true
     },
     {
       "slug": "postgresql-postgresql-18",
       "winget_id": "PostgreSQL.PostgreSQL.18",
-      "version": "18.6-5",
+      "version": "18.7-1",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1005,6 +1005,13 @@
       "silent_switch": true
     },
     {
+      "slug": "spotify-spotify",
+      "winget_id": "Spotify.Spotify",
+      "version": "1.3.9.2055.g806b5b278de8",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "stardock-start11-v2",
       "winget_id": "Stardock.Start11.v2",
       "version": "2.8.1.0",
@@ -1028,7 +1035,7 @@
     {
       "slug": "surfshark-surfshark",
       "winget_id": "Surfshark.Surfshark",
-      "version": "6.22.0.999",
+      "version": "6.22.1.999",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1140,7 +1147,7 @@
     {
       "slug": "yandex-browser",
       "winget_id": "Yandex.Browser",
-      "version": "26.10.3.771",
+      "version": "26.11.0.1993",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1226,7 +1233,7 @@
       "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
       "slug": "emsisoft-emergencykit",
       "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 ea7ceba7532175b6caa93c1d53b999b4d538e0fdd79014612ef2e5448368248d, 326.5 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 9ee6d198aac3fac141f05861ad17a02ad877984d851361d5b5fc3f81488a878f, 326.7 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
     },
     {
       "vkey": "w:glasswire.glasswire|3.11.1164",
@@ -1317,6 +1324,12 @@
       "slug": "nosqlbooster-nosqlbooster",
       "version": "8.1.7",
       "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.1.7"
+    },
+    {
+      "vkey": "w:piriform.ccleaner|7.11.1522.1958",
+      "slug": "piriform-ccleaner",
+      "version": "7.11.1522.1958",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Gen Digital Inc., O=Gen Digital Inc., S=Arizona, C=US\" (SHA-256 a249ce0aa374a7ed9a6e6a59cf3d1ba2cf72adbd0b9fa509ff249162e171275e, 1.8 MB); winget-pkgs chưa có bản mới hơn 7.11.1522.1958"
     }
   ]
 }
