@@ -1,48 +1,24 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-13T11:47:00.1217775Z",
+  "updated_at": "2026-11-13T20:57:59.2933352Z",
   "last_run": {
-    "at": "2026-11-13T11:47:00.1217775Z",
-    "seconds": 27,
-    "failing": 29,
+    "at": "2026-11-13T20:57:59.2933352Z",
+    "seconds": 17,
+    "failing": 8,
     "healed": 0,
-    "blocked": 29,
-    "downloads": 25,
-    "downloaded_mb": 808,
-    "harvested": 3,
-    "anchors": 363
+    "blocked": 8,
+    "downloads": 5,
+    "downloaded_mb": 17,
+    "harvested": 4,
+    "anchors": 399
   },
   "heals": [],
   "heal_blocked": [
     {
-      "vkey": "w:aimp.aimp|5.10.2418",
-      "slug": "aimp-aimp",
-      "version": "5.10.2418",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 5.10.2418"
-    },
-    {
-      "vkey": "w:autodesk.dwgtrueview.2027|1.0.0.0",
-      "slug": "autodesk-dwgtrueview-2027",
-      "version": "1.0.0.0",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 1.0.0.0)"
-    },
-    {
       "vkey": "w:bandisoft.bandizip|7.47",
       "slug": "bandisoft-bandizip",
       "version": "7.47",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB); winget-pkgs chưa có bản mới hơn 7.47"
-    },
-    {
-      "vkey": "w:binisoft.windowsfirewallcontrol|6.37.0.0",
-      "slug": "binisoft-windowsfirewallcontrol",
-      "version": "6.37.0.0",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Malwarebytes Inc, O=Malwarebytes Inc, L=Santa Clara, S=California, C=US, SERIALNUMBER=5430750, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 88c81c92df17a9b28ef5fcbedec1fffdd85ed5eb79957330b3abd5b279e01230, 3.5 MB); winget-pkgs chưa có bản mới hơn 6.37.0.0"
-    },
-    {
-      "vkey": "w:crucial.storageexecutive|11.11.112025.00",
-      "slug": "crucial-storageexecutive",
-      "version": "11.11.112025.00",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB)"
     },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
@@ -51,70 +27,10 @@
       "reason_vi": "đổi http sang https: network error: The SSL connection could not be established, see inner exception.; winget-pkgs chưa có bản mới hơn 2.2.0"
     },
     {
-      "vkey": "w:dolphinemulator.dolphin|5.0",
-      "slug": "dolphinemulator-dolphin",
-      "version": "5.0",
-      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 5.0"
-    },
-    {
-      "vkey": "w:electronicarts.origin|10.5.129.55742",
-      "slug": "electronicarts-origin",
-      "version": "10.5.129.55742",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 10.5.129.55742)"
-    },
-    {
-      "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
-      "slug": "emsisoft-emergencykit",
-      "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 b1f4f687114185f8cd991c655b6e781d6cca1e30473487c3d47043754fe5fcde, 327.2 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
-    },
-    {
-      "vkey": "w:glasswire.glasswire|3.11.1164",
-      "slug": "glasswire-glasswire",
-      "version": "3.11.1164",
-      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): HTTP 403; winget-pkgs chưa có bản mới hơn 3.11.1164"
-    },
-    {
-      "vkey": "w:gpsoftware.directoryopus|13.25",
-      "slug": "gpsoftware-directoryopus",
-      "version": "13.25",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=GP Software (REDBROOK PTY. LTD.), O=GP Software (REDBROOK PTY. LTD.), L=Ashgrove, S=Queensland, C=AU\" (SHA-256 ef8905f9693c1e3a26b0ada42fd40ea845c047c0b48b794201c6489a3436e18d, 28.1 MB); winget-pkgs chưa có bản mới hơn 13.25"
-    },
-    {
-      "vkey": "w:guilded.guilded|latest",
-      "slug": "guilded-guilded",
-      "version": "latest",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
-    },
-    {
-      "vkey": "w:iobit.uninstaller|16.0.0.34",
-      "slug": "iobit-uninstaller",
-      "version": "16.0.0.34",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=\"IObit Co., Ltd.\", O=\"IObit Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107072412418F, OID.2.5.4.15=Private Organization\" (SHA-256 effe8eea77153b3cf544dfdd6f8c056b3e1fd726e7e067e1735e947963bbfec7, 32.7 MB); winget-pkgs chưa có bản mới hơn 16.0.0.34"
-    },
-    {
       "vkey": "w:iridiumio.compactgui|latest",
       "slug": "iridiumio-compactgui",
       "version": "latest",
       "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
-    },
-    {
-      "vkey": "w:jernejsimoncic.wget|1.21.4",
-      "slug": "jernejsimoncic-wget",
-      "version": "1.21.4",
-      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: trang HTML; link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI\" (SHA-256 2f4bf7037894c412368eef9525612282d5dd3341eb4f38270363d5960ab57725, 7.8 MB); link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI\" (SHA-256 28068376aab98ff7747ae1792fcb902aadbadc3ef25ca0422724387984cbcd5d, 8.2 MB); link tải lấy từ trang HTML trung gian: HTTP 404; winget-pkgs chưa có bản mới hơn 1.21.4"
-    },
-    {
-      "vkey": "w:lastpass.lastpass|5.4.5.1509",
-      "slug": "lastpass-lastpass",
-      "version": "5.4.5.1509",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=domain@lastpass.com, CN=LastPass US LP, O=LastPass US LP, L=Boston, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6402861, OID.2.5.4.15=Private Organization\" (SHA-256 9d99ebfcf82220627b878b58485f4fcfc3a686dc1b9ca9b5cf3e7df8f47d577c, 173.0 MB); winget-pkgs chưa có bản mới hơn 5.4.5.1509"
-    },
-    {
-      "vkey": "w:metageek.inssider|5.5.0",
-      "slug": "metageek-inssider",
-      "version": "5.5.0",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Oscium LLC, O=Oscium LLC, S=Oklahoma, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Oklahoma, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=3512260526\" (SHA-256 948a2cde91190214a83a3d6e91d77c45315f390b88390b1f43446a4b4eb5277f, 29.6 MB); winget-pkgs chưa có bản mới hơn 5.5.0"
     },
     {
       "vkey": "w:microsoft.office|16.0.20228.20124",
@@ -123,70 +39,28 @@
       "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US\" (SHA-256 c883ab32dffe4a371bb37411de83edc5d62ff31d315c5e3b59e830326bb4e322, 6.3 MB)"
     },
     {
-      "vkey": "w:microsoft.sqlserver.2019.express|15.2204.5490.2",
-      "slug": "microsoft-sqlserver-2019-express",
-      "version": "15.2204.5490.2",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 15.2204.5490.2)"
-    },
-    {
-      "vkey": "w:microsoft.sysinternals.processexplorer|17.2",
-      "slug": "microsoft-sysinternals-processexplorer",
-      "version": "17.2",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:microsoft.sysinternals.zoomit|12.3",
-      "slug": "microsoft-sysinternals-zoomit",
-      "version": "12.3",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:multimc.multimc|0.7.0.4235",
-      "slug": "multimc-multimc",
-      "version": "0.7.0.4235",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:nosqlbooster.nosqlbooster|8.1.7",
-      "slug": "nosqlbooster-nosqlbooster",
-      "version": "8.1.7",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.1.7"
-    },
-    {
-      "vkey": "w:piriform.ccleaner|7.11.1522.1958",
-      "slug": "piriform-ccleaner",
-      "version": "7.11.1522.1958",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Gen Digital Inc., O=Gen Digital Inc., S=Arizona, C=US\" (SHA-256 a249ce0aa374a7ed9a6e6a59cf3d1ba2cf72adbd0b9fa509ff249162e171275e, 1.8 MB); winget-pkgs chưa có bản mới hơn 7.11.1522.1958"
-    },
-    {
-      "vkey": "w:racket.racket|9.3",
-      "slug": "racket-racket",
-      "version": "9.3",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=adm@racket-lang.org, CN=RACKET PROGRAMMING LANGUAGE FOUNDATION, O=RACKET PROGRAMMING LANGUAGE FOUNDATION, L=Salt Lake City, S=Utah, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=DELAWARE, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10169744, OID.2.5.4.15=Private Organization\" (SHA-256 15cd4ace652427465c7c576bad4aede2b8519cb6b59b190c9a22862cf57e7924, 176.3 MB); winget-pkgs chưa có bản mới hơn 9.3"
-    },
-    {
       "vkey": "w:razerinc.razerinstaller.synapse3|1.22.0.737",
       "slug": "razerinc-razerinstaller-synapse3",
       "version": "1.22.0.737",
       "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 1.22.0.737"
     },
     {
-      "vkey": "w:realix.hwinfo|8.54",
-      "slug": "realix-hwinfo",
-      "version": "8.54",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.54"
+      "vkey": "w:techpowerup.gpu-z|2.71.0",
+      "slug": "techpowerup-gpu-z",
+      "version": "2.71.0",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 2.71.0"
     },
     {
-      "vkey": "w:realvnc.vncviewer|7.15.1.18",
-      "slug": "realvnc-vncviewer",
-      "version": "7.15.1.18",
+      "vkey": "w:techpowerup.nvcleanstall|1.19.0",
+      "slug": "techpowerup-nvcleanstall",
+      "version": "1.19.0",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"redirect to non-https\" (winget-pkgs chưa có bản mới hơn 1.19.0)"
+    },
+    {
+      "vkey": "w:techpowerup.throttlestop|9.7",
+      "slug": "techpowerup-throttlestop",
+      "version": "9.7",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:resplendence.latencymon|7.31",
-      "slug": "resplendence-latencymon",
-      "version": "7.31",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=SOFTREV LABS S.R.L.S., O=SOFTREV LABS S.R.L.S., S=Bologna, C=IT, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IT, SERIALNUMBER=04383751205\" (SHA-256 c124342da2a844da0699901476b27226da1d0d30bf8e940c9f847d67d46a1157, 3.6 MB); winget-pkgs chưa có bản mới hơn 7.31"
     }
   ],
   "anchors": [
@@ -219,6 +93,16 @@
       "thumbprint": "B5021E62D407201F5D2FFF256CB4145FED038B44",
       "source": "harvest",
       "at": "2026-11-13T09:39:55.5508446Z"
+    },
+    {
+      "id": "s:genspark-genoffice",
+      "version": "0.13.18",
+      "sha256": "1a8aedc94290fcc65ec51db70b8f50a7577fc1ef916ca1295b45e9edda28d072",
+      "size": 165233592,
+      "subject": "CN=GENSPARK INC., O=GENSPARK INC., L=WILMINGTON, S=Delaware, C=US, SERIALNUMBER=3402658, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "1F08D8839331806061FD79275477528BDF77A4AD",
+      "source": "harvest",
+      "at": "2026-11-13T20:57:59.2933352Z"
     },
     {
       "id": "s:rustdesk",
@@ -1001,16 +885,6 @@
       "at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "id": "w:blenderfoundation.blender",
-      "version": "5.3.0",
-      "sha256": "3ff4ec8a488be1148aa2bdb2cb229be21b8050e75931da617934cac254dd726c",
-      "size": 383557632,
-      "subject": "CN=Blender Foundation, O=Blender Foundation, L=Amsterdam, S=Noord-Holland, C=NL",
-      "thumbprint": "A6015BEBB6FBAB750B0299FCABCBE53E979E58FF",
-      "source": "pin",
-      "at": "2026-11-13T11:46:19.970466Z"
-    },
-    {
       "id": "w:blizzard.battlenet",
       "version": "2.0.0.4232",
       "sha256": "f4643a2086c0cecb1ab68cc601bf38c1a0a6f7ef5914ad03375cc9449385bec6",
@@ -1101,6 +975,16 @@
       "at": "2026-11-13T11:47:00.1217775Z"
     },
     {
+      "id": "w:cherubicsoftware.sagethumbs",
+      "version": "2.0.0.23",
+      "sha256": "705d743e28b487e34a4a7245a0dbc303a10e45ba0fd9e4da4101c8cdf506839a",
+      "size": 2242393,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-13T20:57:59.2933352Z"
+    },
+    {
       "id": "w:chrisant996.clink",
       "version": "1.9.36",
       "sha256": "4c0da99518b9d0ca22da03d65c6c2f2ba09849bb85a5967fa1ddb9595acc1e71",
@@ -1111,14 +995,34 @@
       "at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "w:cisco.clamav",
+      "version": "1.5.4",
+      "sha256": "a025fa23a4b9d64fce448d5a211afcf30dc26ba6528186e6223d1b945f9d95d6",
+      "size": 224457050,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-13T20:57:59.2933352Z"
+    },
+    {
+      "id": "w:cisco.webex",
+      "version": "46.11.0.36194",
+      "sha256": "377c529583527ca22f11980bb3a9d73328470a9b5ba6c747c9e826b2512885a5",
+      "size": 296546304,
+      "subject": "CN=\"Cisco Systems, Inc.\", O=\"Cisco Systems, Inc.\", L=San Jose, S=California, C=US",
+      "thumbprint": "EBEFAF2586DEA8382016BF964776769FA8335AC8",
+      "source": "harvest",
+      "at": "2026-11-13T20:57:59.2933352Z"
+    },
+    {
       "id": "w:clockify.clockify",
-      "version": "2.4.3",
-      "sha256": "11ae082dcba8ec5eadadf925f95782eea62ee135147539637bbe9fcd048912fb",
-      "size": 130908160,
+      "version": "2.4.4",
+      "sha256": "4917d78c9a8b59b4601d37f3357f11ebbf7fa7b321c0070af5b78c1a5067cc64",
+      "size": 130916352,
       "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.2.5.4.15=Private Organization, CN=Cake.com Inc., SERIALNUMBER=7501038, O=Cake.com Inc., L=Palo Alto, S=California, C=US",
       "thumbprint": "07AB59AD4AF0A010AD74CE6D675593098BCAE3E7",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:cloudflare.warp",
@@ -1231,6 +1135,16 @@
       "at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "w:cyanfish.naps2",
+      "version": "8.6.0",
+      "sha256": "684e26d2145bceab5199971b8620dd715cbeb824ecdc080fe122912b1486da22",
+      "size": 48975816,
+      "subject": "E=admin@naps2.com, CN=NAPS2 Software, O=NAPS2 Software, L=Vancouver, S=British Columbia, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=British Columbia, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=FM1012131, OID.2.5.4.15=Private Organization",
+      "thumbprint": "D495C01BE62B62CFC8AF7E10856D33D38DBFAB88",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:dashlane.dashlane",
       "version": "6.2148.0.52031",
       "sha256": "c4c748e72aa7d52d97ed88b647a1c6eb6cac84cc6f96e59f5d7d617230df7b39",
@@ -1271,6 +1185,16 @@
       "at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "w:devolutions.unigetui",
+      "version": "2026.3.4",
+      "sha256": "0ac7b9e196c46019b99460dcf14bb10eb5275aeebdf2a0644ad70b9758b4e9cc",
+      "size": 38432864,
+      "subject": "E=security@devolutions.net, CN=DEVOLUTIONS INC., O=DEVOLUTIONS INC., L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
+      "thumbprint": "50F753333811FF11F1920274AFDE3FFD4468B210",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:digitalscholar.zotero",
       "version": "10.0.8",
       "sha256": "1ba5d091fd24b50db1159c71650f55303d99c82e66494dc09eddab76a4179d73",
@@ -1299,6 +1223,16 @@
       "thumbprint": "2C1D12F8BBE0827400A8440AF74FFFA8DCC8097C",
       "source": "pin",
       "at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "w:duplicati.duplicati",
+      "version": "2.4.1.0",
+      "sha256": "b5574d08baf9782f43b961741814a111c5dc3a19f4ebb3f49fb1556d0bae8a0d",
+      "size": 109589504,
+      "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.2.5.4.15=Private Organization, CN=Duplicati Inc., SERIALNUMBER=2952188, O=Duplicati Inc., L=San Francisco, S=California, C=US",
+      "thumbprint": "7812DFC61915A4BFC049834D63DBD2E9340D82FC",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:easeus.partitionmaster",
@@ -1721,6 +1655,16 @@
       "at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "w:glavsoft.tightvnc",
+      "version": "2.8.89",
+      "sha256": "dff8d7e40a81e0b86ba1d9d5cc0d4f22d08354c50c9cbdc0825bbb6ccfb1073c",
+      "size": 2543616,
+      "subject": "E=info@glavsoft.com, CN=OOO GlavSoft, O=OOO GlavSoft, L=Tomsk, S=Tomsk Oblast, C=RU",
+      "thumbprint": "90513AC184484A36A6461CB7B834B68761761006",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:glzr-io.glazewm",
       "version": "3.10.1",
       "sha256": "469f8675f5ad1353bda9cede7cbb0e320e1b9a1d5657da709b60a51d86e95020",
@@ -2041,6 +1985,16 @@
       "at": "2026-11-13T11:46:19.970466Z"
     },
     {
+      "id": "w:jgraph.draw",
+      "version": "32.6.10",
+      "sha256": "e7ea99906304507ed0e2c14193f9aba578c47df38e93a5fe748b52a8b85aa88f",
+      "size": 144077080,
+      "subject": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
+      "thumbprint": "145B546AD357C6D87CF6F702D7BFCB2876635C47",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:johnmacfarlane.pandoc",
       "version": "3.14",
       "sha256": "7794998679a6afa1d7c3f7adee689aa17ed75e8a06faf2ed7c60a303bccfcf23",
@@ -2251,6 +2205,16 @@
       "at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "w:mediaarea.mediainfo.gui",
+      "version": "26.10",
+      "sha256": "e84193f2c068c677804924763e4cf9c7bc3d7138482ab174939a5b66cd896d6e",
+      "size": 15716384,
+      "subject": "CN=MEDIAAREA.NET, O=MEDIAAREA.NET, L=Curienne, S=Auvergne-Rhône-Alpes, C=FR",
+      "thumbprint": "2B4651E0FF6F2822809AB584ED68C9941151EE48",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:meltytech.shotcut",
       "version": "26.9.27",
       "sha256": "77e1ee1f713d92bdbaff23266f416e33cde3d367f7ef518b1841ddc961d05af9",
@@ -2281,6 +2245,16 @@
       "at": "2026-11-10T14:22:58.7160037Z"
     },
     {
+      "id": "w:microsoft.dotnet.aspnetcore.8",
+      "version": "8.0.34",
+      "sha256": "bca9f91d9acd40fe7d3f47f3371253d628fb2a9ebecfe33aac444e3225456704",
+      "size": 10506336,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:microsoft.dotnet.desktopruntime.10",
       "version": "10.0.15",
       "sha256": "e61b030c1673edfa3c0844502eff83198c46af9e7df70dfc6e2efc5b11ea513a",
@@ -2289,6 +2263,46 @@
       "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
       "source": "pin",
       "at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.desktopruntime.3_1",
+      "version": "3.1.32",
+      "sha256": "22f4050ae4b6cdfd109f229f7f7a56f3b3afde00f592babfe890177c76ad8e40",
+      "size": 54712856,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "AFBF0B8B6A18F7E23CCA1DDCD0AC1A55B4035173",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.desktopruntime.5",
+      "version": "5.0.17",
+      "sha256": "925cc68a346cf5692fc1b52f498db32edd278ade3f4331539b7914e23f3af417",
+      "size": 55338488,
+      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "5A858500A0262E237FBA6BFEF80FA39C59ECEE76",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.desktopruntime.6",
+      "version": "6.0.36",
+      "sha256": "0d20debb26fc8b2bc84f25fbd9d4596a6364af8517ebf012e8b871127b798941",
+      "size": 57380656,
+      "subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "71168EE7A92BE92DE9C4B401DCF30DC15DF28DA0",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.desktopruntime.7",
+      "version": "7.0.20",
+      "sha256": "57e7c16e7226c9a29dbc3faedd9e5876cec494c7660528052f52160521e7b714",
+      "size": 58011208,
+      "subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "71168EE7A92BE92DE9C4B401DCF30DC15DF28DA0",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:microsoft.dotnet.desktopruntime.8",
@@ -2319,6 +2333,26 @@
       "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "source": "pin",
       "at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.runtime.8",
+      "version": "8.0.34",
+      "sha256": "cd57fd46bed9134f61b735ebc94592fa3872c6ba2c3562326a8eb47cf139ca75",
+      "size": 28451136,
+      "subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:microsoft.dotnet.runtime.9",
+      "version": "9.0.23",
+      "sha256": "4b808b4c5e35ad8d2d3f5462fb6015a865c8123a265c642c25be3500d8cc79d9",
+      "size": 29813856,
+      "subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "thumbprint": "43A50DB15AC95D0C1D187616AE187467975846D0",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:microsoft.powerautomatedesktop",
@@ -2601,6 +2635,16 @@
       "at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "w:moritzbunkus.mkvtoolnix",
+      "version": "103.0.0",
+      "sha256": "3bb4b6efe464c8b852a9813f6be4093fa61bb79229ea755b3a70c5fa42489421",
+      "size": 36874768,
+      "subject": "CN=LINET Services GmbH, O=LINET Services GmbH, L=Braunschweig, C=DE",
+      "thumbprint": "AF366D0021563D0D7AD1A8B0043A63DF41681F29",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:mozilla.firefox",
       "version": "160.0",
       "sha256": "8732312ee2d7960c6ea830a4e0d3c0ff5fe0b10856dab44e2c432fcdeb63ff63",
@@ -2609,6 +2653,16 @@
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "source": "pin",
       "at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "w:mozilla.firefox.esr",
+      "version": "153.7.0",
+      "sha256": "3d6fabd249aa1338c0667991fb73891fce941d7dc35ba278da24074874c67508",
+      "size": 90326816,
+      "subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:mozilla.thunderbird",
@@ -2679,6 +2733,16 @@
       "thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
       "source": "pin",
       "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:namazso.openhashtab",
+      "version": "3.1.1",
+      "sha256": "abd24e22853404d7468e461521694c6295740b5eef7aabda3dbcd548c09cf67f",
+      "size": 8503296,
+      "subject": "E=admin@namazso.eu, CN=namazso.eu, O=namazso, L=Debrecen, C=HU",
+      "thumbprint": "F380DCC9F706E2756A5047B832FFE719E1BC35F5",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:nathancorvussolis.corvusskk",
@@ -2859,6 +2923,16 @@
       "thumbprint": "EDBAE58D521F461AEE0189F98C82E6B5B281AEF1",
       "source": "pin",
       "at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "w:openvpntechnologies.openvpn",
+      "version": "2.7.901",
+      "sha256": "47abc38a15c217b848fe099332a8523500fcbf2ebf8a1eaa7d5648c6e75079aa",
+      "size": 5906432,
+      "subject": "CN=OpenVPN Inc., O=OpenVPN Inc., L=Pleasanton, S=California, C=US, SERIALNUMBER=3761256, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "32BF9F103192726DAA416FEF348066E5F2D831CF",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:openwhispersystems.signal",
@@ -3101,6 +3175,16 @@
       "at": "2026-11-11T21:27:51.6491038Z"
     },
     {
+      "id": "w:ppssppteam.ppsspp",
+      "version": "1.20.4",
+      "sha256": "1635152e05ae756f1e068a1495c50d6cbf648f2d1fe6edc93e764b3014ea01f3",
+      "size": 22204472,
+      "subject": "CN=Millionth Line AB, O=Millionth Line AB, S=Stockholms län, C=SE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SE, SERIALNUMBER=556906-5153",
+      "thumbprint": "1BD27266AA9F976CD7D71952147A9E5542E03143",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:premiumsoft.navicatpremium",
       "version": "17.3.12",
       "sha256": "43fc9db7d4acaae8bddf09c0b8bb9f8c9888fadc98c26939998601537bed1407",
@@ -3151,6 +3235,16 @@
       "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
+      "id": "w:proton.protonvpn",
+      "version": "5.1.9",
+      "sha256": "8454eba06a37c0a636ec8dcfe6a7a823a68a78ee8fe2eeda2d651cd5cd6c3d70",
+      "size": 130022392,
+      "subject": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
+      "thumbprint": "F0B999E273EAFDABCDA5A3B86315E5604DFB9A49",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:proxyman.proxyman",
       "version": "26.2.0",
       "sha256": "62fcf29dde7e0ccdd77bbe7468ca8056411e0306c235f30da061e53fed0f89c2",
@@ -3189,6 +3283,26 @@
       "thumbprint": "6C435B1CAA2CA423A76C14A6693CD55644C8B4D6",
       "source": "pin",
       "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:python.python.3.10",
+      "version": "3.10.11",
+      "sha256": "d8dede5005564b408ba50317108b765ed9c3c510342a598f9fd42681cbe0648b",
+      "size": 29037240,
+      "subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "thumbprint": "36168EE17C1A240517388540C903BB6717DD2563",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:python.python.3.11",
+      "version": "3.11.9",
+      "sha256": "5ee42c4eee1e6b4464bb23722f90b45303f79442df63083f05322f1785f5fdde",
+      "size": 26216840,
+      "subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "thumbprint": "36168EE17C1A240517388540C903BB6717DD2563",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:python.python.3.12",
@@ -3341,6 +3455,16 @@
       "at": "2026-11-12T09:54:49.3674978Z"
     },
     {
+      "id": "w:safernetworking.spybotantibeacon",
+      "version": "3.9",
+      "sha256": "f89a36fb059c2f784acbc2988e9b2e7f4dba8e7c0814f6f142d132a2b1787da4",
+      "size": 16530304,
+      "subject": "CN=Safer-Networking Ltd., O=Safer-Networking Ltd., L=Greystones, C=IE",
+      "thumbprint": "4D52FD1037ED98BEE5C069E41C8262CF86E8BEAB",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:safing.portmaster",
       "version": "2.2.8",
       "sha256": "461370a8bfd961ce197f926e9675860a19c333082f39ac8153582734563a8d21",
@@ -3359,6 +3483,16 @@
       "thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
       "source": "pin",
       "at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "w:sandboxie.plus",
+      "version": "1.18.8",
+      "sha256": "f27078ff74a07906fd51476079e1a7a8f5e20c8bb75a9d2ae86169d47179ae76",
+      "size": 24930680,
+      "subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
+      "thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:scilab.scilab",
@@ -3439,6 +3573,16 @@
       "thumbprint": "65F3B3CC35EFDEC600A6E68FF7A5C1DEF5054EC9",
       "source": "pin",
       "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:softdeluxe.freedownloadmanager",
+      "version": "6.36.0.7128",
+      "sha256": "c94bcf11560c6ef709854408b8a3732023dd94494b74c39beb1ec26992349a02",
+      "size": 52205224,
+      "subject": "E=administrator@softdeluxe.com, CN=Softdeluxe LLC, O=Softdeluxe LLC, L=Minsk, S=Minsk, C=BY",
+      "thumbprint": "BE0D55314F859BE0341756C1853F01F67EDBEFB8",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:softmaker.freeoffice.2024",
@@ -3571,6 +3715,16 @@
       "at": "2026-11-12T21:30:14.6167696Z"
     },
     {
+      "id": "w:tailscale.tailscale",
+      "version": "1.104.7",
+      "sha256": "d943c5d244e44d65bde24656366d8d4ee80476702767d62160766cbafe9cc429",
+      "size": 114769352,
+      "subject": "CN=Tailscale Inc., O=Tailscale Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=1131559-5, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "thumbprint": "108F172FDE945B21A5C0696731D6220D67D1C39E",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:techsmith.camtasia",
       "version": "26.2.5.21144",
       "sha256": "5761a1068935dc4cf088a8f121af39cdf19eb869ba367b3aebd21b8ff8e15679",
@@ -3589,6 +3743,16 @@
       "thumbprint": "E31703CF1542D9FF82CD4A0F25825108C1CEA2AF",
       "source": "pin",
       "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:telegram.telegramdesktop",
+      "version": "7.4.3",
+      "sha256": "b4ce3f2770cefb3797f71c021f90f634ffebc20ef9ce714aeba0c82d1829daf8",
+      "size": 65599048,
+      "subject": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
+      "thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:telerik.fiddler.classic",
@@ -3621,6 +3785,26 @@
       "at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "w:tencent.qqwubi",
+      "version": "2.4",
+      "sha256": "2e900e402da26b8fc4e83843fc59996d91fa4976e0a3a60c3ea745773f401411",
+      "size": 20923952,
+      "subject": "CN=Tencent Technology(Shenzhen) Company Limited, O=Tencent Technology(Shenzhen) Company Limited, L=Shenzhen, S=Guangdong Province, C=CN",
+      "thumbprint": "F773B9181B403A783289A30EE53884DD5A360BF1",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:tencent.wechat",
+      "version": "3.9.12.57",
+      "sha256": "c29fc05630cfc95ef6483f6b5b52aabfe74265bb260e210e78ae437d305d8990",
+      "size": 283125176,
+      "subject": "CN=Tencent Technology (Shenzhen) Company Limited, O=Tencent Technology (Shenzhen) Company Limited, L=Shenzhen, S=Guangdong Province, C=CN",
+      "thumbprint": "617C4EDB4F205FCA0E5C07B9C52AA8D695FD122C",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "w:termius.termius",
       "version": "10.4.1",
       "sha256": "9ec2c3ef5903e73e8cd72d27569b25f8535b087f7cd2e8b726fa0e5985d84a49",
@@ -3629,6 +3813,56 @@
       "thumbprint": "612953477986B46D0CB558CCD6656AC047C2F118",
       "source": "pin",
       "at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "w:texstudio.texstudio",
+      "version": "4.9.8",
+      "sha256": "243d64e65bbefff706c92b58fb1a56b6e024fbb1fb11dffc623e59c18b0ab397",
+      "size": 153249568,
+      "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "thumbprint": "B15B4CCA19CC15CBCA8013F69F39FA46FA444B4E",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:tgrmnsoftware.bulkrenameutility",
+      "version": "4.1.0.1",
+      "sha256": "85c2802b285930aaac73ae76d39c6d4bf8a39f3d6e82d4eb0639c40da49911b8",
+      "size": 12814424,
+      "subject": "CN=TGRMN  Software (ACEBROOK PTY LTD), O=TGRMN  Software (ACEBROOK PTY LTD), S=South Australia, C=AU, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=AU, SERIALNUMBER=69 108 950 367",
+      "thumbprint": "6E848876ED55DC2D12CB489F3F4FE1616EE7EC88",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:thedocumentfoundation.libreoffice",
+      "version": "26.8.3.1",
+      "sha256": "0e6918c273eabbdbbd800ee0dacbbf130a14c13c2e4cec861b06dd59e015bf94",
+      "size": 376311808,
+      "subject": "CN=The Document Foundation, O=The Document Foundation, L=Berlin, S=Berlin, C=DE",
+      "thumbprint": "6B5DA216489DE6C1D7DB498ED672B7ED0F599513",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:ubisoft.connect",
+      "version": "175.1.0.13416",
+      "sha256": "e907f33e1fc74fddd61eaf548647201ebc4baac8c439c3fa8e7043c67dc11576",
+      "size": 263096496,
+      "subject": "CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US",
+      "thumbprint": "C941B74D33A9BA49CFD649E7DF99A0EFDDF31431",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:ultimaker.cura",
+      "version": "5.14.0",
+      "sha256": "d7dc8f59bb3d428d057d19ba0700eceabce1e0f3a78736572a47d06381db7753",
+      "size": 175661824,
+      "subject": "CN=UltiMaker BV, O=UltiMaker BV, S=Gelderland, C=NL",
+      "thumbprint": "FB6565EE84F4C97197C45EE861D67A9A4BA313AC",
+      "source": "pin",
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:vercel.hyper",
@@ -3652,13 +3886,13 @@
     },
     {
       "id": "w:vngcorp.zalo",
-      "version": "26.11.11",
-      "sha256": "65ccc7667d2da32a8eaea8cb26b793573455bed9e61e893cf699a52236831c9f",
-      "size": 213369544,
+      "version": "26.11.12",
+      "sha256": "dddef07c11683561c6abe19c07bbc6202214136325d6b4b39311587a16a15eb8",
+      "size": 213516168,
       "subject": "CN=VNG GROUP JSC, O=VNG GROUP JSC, S=Ho Chi Minh City, C=VN, SERIALNUMBER=0303490096, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ho Chi Minh City, OID.1.3.6.1.4.1.311.60.2.1.3=VN",
       "thumbprint": "6C794B914539D093D0E656BAB75F6723A3DD0CCA",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "w:wampserver.wampserver",

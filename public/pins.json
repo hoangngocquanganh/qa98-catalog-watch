@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-13T11:46:19.970466Z",
-  "catalog_revision": 113,
-  "count": 304,
+  "generated_at": "2026-11-13T20:55:58.7181039Z",
+  "catalog_revision": 143,
+  "count": 336,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -582,22 +582,6 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "id": "BlenderFoundation.Blender",
-      "version": "5.3.0",
-      "arch": "x64",
-      "installer_type": "wix",
-      "installer_arch": "x64",
-      "url": "https://download.blender.org/release/Blender5.3/blender-5.3.0-windows-x64.msi",
-      "sha256": "3ff4ec8a488be1148aa2bdb2cb229be21b8050e75931da617934cac254dd726c",
-      "size": 383557632,
-      "signer_subject": "CN=Blender Foundation, O=Blender Foundation, L=Amsterdam, S=Noord-Holland, C=NL",
-      "signer_thumbprint": "A6015BEBB6FBAB750B0299FCABCBE53E979E58FF",
-      "allowed_hosts": [
-        "download.blender.org"
-      ],
-      "checked_at": "2026-11-13T11:46:19.970466Z"
-    },
-    {
       "id": "Box.Box",
       "version": "2.55.145",
       "arch": "neutral",
@@ -696,19 +680,19 @@
     },
     {
       "id": "Clockify.Clockify",
-      "version": "2.4.3",
+      "version": "2.4.4",
       "arch": "neutral",
       "installer_type": "msi",
       "installer_arch": "x64",
       "url": "https://clockify.me/downloads/clockify-setup.msi",
-      "sha256": "11ae082dcba8ec5eadadf925f95782eea62ee135147539637bbe9fcd048912fb",
-      "size": 130908160,
+      "sha256": "4917d78c9a8b59b4601d37f3357f11ebbf7fa7b321c0070af5b78c1a5067cc64",
+      "size": 130916352,
       "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.2.5.4.15=Private Organization, CN=Cake.com Inc., SERIALNUMBER=7501038, O=Cake.com Inc., L=Palo Alto, S=California, C=US",
       "signer_thumbprint": "07AB59AD4AF0A010AD74CE6D675593098BCAE3E7",
       "allowed_hosts": [
         "clockify.me"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Cloudflare.Warp",
@@ -896,6 +880,23 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "Cyanfish.NAPS2",
+      "version": "8.6.0",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/cyanfish/naps2/releases/download/v8.6.0/naps2-8.6.0-win-x64.exe",
+      "sha256": "684e26d2145bceab5199971b8620dd715cbeb824ecdc080fe122912b1486da22",
+      "size": 48975816,
+      "signer_subject": "E=admin@naps2.com, CN=NAPS2 Software, O=NAPS2 Software, L=Vancouver, S=British Columbia, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=British Columbia, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=FM1012131, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "D495C01BE62B62CFC8AF7E10856D33D38DBFAB88",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Dashlane.Dashlane",
       "version": "6.2148.0.52031",
       "arch": "neutral",
@@ -963,6 +964,22 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "Devolutions.UniGetUI",
+      "version": "2026.3.4",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://cdn.devolutions.net/download/Devolutions.UniGetUI.win-x64.2026.3.4.0.exe",
+      "sha256": "0ac7b9e196c46019b99460dcf14bb10eb5275aeebdf2a0644ad70b9758b4e9cc",
+      "size": 38432864,
+      "signer_subject": "E=security@devolutions.net, CN=DEVOLUTIONS INC., O=DEVOLUTIONS INC., L=Lavaltrie, S=Quebec, C=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Quebec, OID.1.3.6.1.4.1.311.60.2.1.3=CA, SERIALNUMBER=1162544689, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "50F753333811FF11F1920274AFDE3FFD4468B210",
+      "allowed_hosts": [
+        "cdn.devolutions.net"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "DigitalScholar.Zotero",
       "version": "10.0.8",
       "arch": "x64",
@@ -1010,6 +1027,23 @@
         "dl2.ultraviewer.net"
       ],
       "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "Duplicati.Duplicati",
+      "version": "2.4.1.0",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/duplicati/duplicati/releases/download/v2.4.1.0_stable_2026-10-29/duplicati-2.4.1.0_stable_2026-10-29-win-x64-gui.msi",
+      "sha256": "b5574d08baf9782f43b961741814a111c5dc3a19f4ebb3f49fb1556d0bae8a0d",
+      "size": 109589504,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.2.5.4.15=Private Organization, CN=Duplicati Inc., SERIALNUMBER=2952188, O=Duplicati Inc., L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "7812DFC61915A4BFC049834D63DBD2E9340D82FC",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "EaseUS.PartitionMaster",
@@ -1690,6 +1724,22 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "GlavSoft.TightVNC",
+      "version": "2.8.89",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://www.tightvnc.com/download/2.8.89/tightvnc-2.8.89-gpl-setup-64bit.msi",
+      "sha256": "dff8d7e40a81e0b86ba1d9d5cc0d4f22d08354c50c9cbdc0825bbb6ccfb1073c",
+      "size": 2543616,
+      "signer_subject": "E=info@glavsoft.com, CN=OOO GlavSoft, O=OOO GlavSoft, L=Tomsk, S=Tomsk Oblast, C=RU",
+      "signer_thumbprint": "90513AC184484A36A6461CB7B834B68761761006",
+      "allowed_hosts": [
+        "www.tightvnc.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "glzr-io.glazewm",
       "version": "3.10.1",
       "arch": "neutral",
@@ -2199,6 +2249,23 @@
       "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
+      "id": "JGraph.Draw",
+      "version": "32.6.10",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.6.10/draw.io-32.6.10-windows-installer.exe",
+      "sha256": "e7ea99906304507ed0e2c14193f9aba578c47df38e93a5fe748b52a8b85aa88f",
+      "size": 144077080,
+      "signer_subject": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
+      "signer_thumbprint": "145B546AD357C6D87CF6F702D7BFCB2876635C47",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "JohnMacFarlane.Pandoc",
       "version": "3.14",
       "arch": "neutral",
@@ -2547,6 +2614,22 @@
       "checked_at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "MediaArea.MediaInfo.GUI",
+      "version": "26.10",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://mediaarea.net/download/binary/mediainfo-gui/26.10/MediaInfo_GUI_26.10_Windows.exe",
+      "sha256": "e84193f2c068c677804924763e4cf9c7bc3d7138482ab174939a5b66cd896d6e",
+      "size": 15716384,
+      "signer_subject": "CN=MEDIAAREA.NET, O=MEDIAAREA.NET, L=Curienne, S=Auvergne-Rhône-Alpes, C=FR",
+      "signer_thumbprint": "2B4651E0FF6F2822809AB584ED68C9941151EE48",
+      "allowed_hosts": [
+        "mediaarea.net"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Meltytech.Shotcut",
       "version": "26.9.27",
       "arch": "x64",
@@ -2580,6 +2663,22 @@
       "checked_at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "Microsoft.DotNet.AspNetCore.8",
+      "version": "8.0.34",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/0d362f9c-391c-40c3-93e7-664fc58f5510/f0ba20f2-9841-4f16-9ac7-fb18b053f15f/aspnetcore-runtime-8.0.34-win-x64.exe",
+      "sha256": "bca9f91d9acd40fe7d3f47f3371253d628fb2a9ebecfe33aac444e3225456704",
+      "size": 10506336,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Microsoft.DotNet.DesktopRuntime.10",
       "version": "10.0.15",
       "arch": "x64",
@@ -2594,6 +2693,70 @@
         "download.microsoft.com"
       ],
       "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "version": "3.1.32",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/3.1.32/windowsdesktop-runtime-3.1.32-win-x64.exe",
+      "sha256": "22f4050ae4b6cdfd109f229f7f7a56f3b3afde00f592babfe890177c76ad8e40",
+      "size": 54712856,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "AFBF0B8B6A18F7E23CCA1DDCD0AC1A55B4035173",
+      "allowed_hosts": [
+        "builds.dotnet.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.5",
+      "version": "5.0.17",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/5.0.17/windowsdesktop-runtime-5.0.17-win-x64.exe",
+      "sha256": "925cc68a346cf5692fc1b52f498db32edd278ade3f4331539b7914e23f3af417",
+      "size": 55338488,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "5A858500A0262E237FBA6BFEF80FA39C59ECEE76",
+      "allowed_hosts": [
+        "builds.dotnet.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.6",
+      "version": "6.0.36",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-x64.exe",
+      "sha256": "0d20debb26fc8b2bc84f25fbd9d4596a6364af8517ebf012e8b871127b798941",
+      "size": 57380656,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "71168EE7A92BE92DE9C4B401DCF30DC15DF28DA0",
+      "allowed_hosts": [
+        "builds.dotnet.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.7",
+      "version": "7.0.20",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-x64.exe",
+      "sha256": "57e7c16e7226c9a29dbc3faedd9e5876cec494c7660528052f52160521e7b714",
+      "size": 58011208,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "71168EE7A92BE92DE9C4B401DCF30DC15DF28DA0",
+      "allowed_hosts": [
+        "builds.dotnet.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Microsoft.DotNet.DesktopRuntime.8",
@@ -2642,6 +2805,38 @@
         "download.microsoft.com"
       ],
       "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.DotNet.Runtime.8",
+      "version": "8.0.34",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/d8dc2fbb-a1c3-4e7b-9af8-ecc8c7c71e3d/9696d119-c8d0-49ae-a7a0-1b12c118cb5e/dotnet-runtime-8.0.34-win-x64.exe",
+      "sha256": "cd57fd46bed9134f61b735ebc94592fa3872c6ba2c3562326a8eb47cf139ca75",
+      "size": 28451136,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Microsoft.DotNet.Runtime.9",
+      "version": "9.0.23",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/e724b818-d50e-43ba-ba6e-0219dac3b858/15b7263a-d531-404b-8361-f2ef02426f9f/dotnet-runtime-9.0.23-win-x64.exe",
+      "sha256": "4b808b4c5e35ad8d2d3f5462fb6015a865c8123a265c642c25be3500d8cc79d9",
+      "size": 29813856,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "43A50DB15AC95D0C1D187616AE187467975846D0",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Microsoft.PowerAutomateDesktop",
@@ -3000,6 +3195,38 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "MoritzBunkus.MKVToolNix",
+      "version": "103.0.0",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://mkvtoolnix.download/windows/releases/103.0/mkvtoolnix-64-bit-103.0-setup.exe",
+      "sha256": "3bb4b6efe464c8b852a9813f6be4093fa61bb79229ea755b3a70c5fa42489421",
+      "size": 36874768,
+      "signer_subject": "CN=LINET Services GmbH, O=LINET Services GmbH, L=Braunschweig, C=DE",
+      "signer_thumbprint": "AF366D0021563D0D7AD1A8B0043A63DF41681F29",
+      "allowed_hosts": [
+        "mkvtoolnix.download"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Mozilla.Firefox.ESR",
+      "version": "153.7.0",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.7.0esr/win64/en-US/Firefox%20Setup%20153.7.0esr.exe",
+      "sha256": "3d6fabd249aa1338c0667991fb73891fce941d7dc35ba278da24074874c67508",
+      "size": 90326816,
+      "signer_subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "allowed_hosts": [
+        "download-installer.cdn.mozilla.net"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Mozilla.Firefox",
       "version": "160.0",
       "arch": "x64",
@@ -3131,6 +3358,22 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "namazso.OpenHashTab",
+      "version": "3.1.1",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://oht.namazso.eu/releases/3.1.1/OpenHashTab_Machine_x64.msi",
+      "sha256": "abd24e22853404d7468e461521694c6295740b5eef7aabda3dbcd548c09cf67f",
+      "size": 8503296,
+      "signer_subject": "E=admin@namazso.eu, CN=namazso.eu, O=namazso, L=Debrecen, C=HU",
+      "signer_thumbprint": "F380DCC9F706E2756A5047B832FFE719E1BC35F5",
+      "allowed_hosts": [
+        "oht.namazso.eu"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "nathancorvussolis.corvusskk",
@@ -3430,6 +3673,23 @@
         "nodejs.org"
       ],
       "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "OpenVPNTechnologies.OpenVPN",
+      "version": "2.7.901",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.9-I001-amd64.msi",
+      "sha256": "47abc38a15c217b848fe099332a8523500fcbf2ebf8a1eaa7d5648c6e75079aa",
+      "size": 5906432,
+      "signer_subject": "CN=OpenVPN Inc., O=OpenVPN Inc., L=Pleasanton, S=California, C=US, SERIALNUMBER=3761256, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "32BF9F103192726DAA416FEF348066E5F2D831CF",
+      "allowed_hosts": [
+        "swupdate.openvpn.org",
+        "swupdate.openvpn.net"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "OpenWhisperSystems.Signal",
@@ -3821,6 +4081,22 @@
       "checked_at": "2026-11-11T21:27:51.6491038Z"
     },
     {
+      "id": "PPSSPPTeam.PPSSPP",
+      "version": "1.20.4",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://www.ppsspp.org/files/1_20_4/PPSSPPSetup.exe",
+      "sha256": "1635152e05ae756f1e068a1495c50d6cbf648f2d1fe6edc93e764b3014ea01f3",
+      "size": 22204472,
+      "signer_subject": "CN=Millionth Line AB, O=Millionth Line AB, S=Stockholms län, C=SE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SE, SERIALNUMBER=556906-5153",
+      "signer_thumbprint": "1BD27266AA9F976CD7D71952147A9E5542E03143",
+      "allowed_hosts": [
+        "www.ppsspp.org"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "PremiumSoft.NavicatPremium",
       "version": "17.3.12",
       "arch": "neutral",
@@ -3904,6 +4180,22 @@
       "checked_at": "2026-11-12T09:54:49.3674978Z"
     },
     {
+      "id": "Proton.ProtonVPN",
+      "version": "5.1.9",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://vpn.protondownload.com/download/ProtonVPN_v5.1.9_x64.exe",
+      "sha256": "8454eba06a37c0a636ec8dcfe6a7a823a68a78ee8fe2eeda2d651cd5cd6c3d70",
+      "size": 130022392,
+      "signer_subject": "CN=Proton AG, O=Proton AG, S=Genève, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-354.686.492",
+      "signer_thumbprint": "F0B999E273EAFDABCDA5A3B86315E5604DFB9A49",
+      "allowed_hosts": [
+        "vpn.protondownload.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Proxyman.Proxyman",
       "version": "26.2.0",
       "arch": "neutral",
@@ -3967,6 +4259,38 @@
         "www.python.org"
       ],
       "checked_at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "Python.Python.3.10",
+      "version": "3.10.11",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe",
+      "sha256": "d8dede5005564b408ba50317108b765ed9c3c510342a598f9fd42681cbe0648b",
+      "size": 29037240,
+      "signer_subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "signer_thumbprint": "36168EE17C1A240517388540C903BB6717DD2563",
+      "allowed_hosts": [
+        "www.python.org"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Python.Python.3.11",
+      "version": "3.11.9",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe",
+      "sha256": "5ee42c4eee1e6b4464bb23722f90b45303f79442df63083f05322f1785f5fdde",
+      "size": 26216840,
+      "signer_subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "signer_thumbprint": "36168EE17C1A240517388540C903BB6717DD2563",
+      "allowed_hosts": [
+        "www.python.org"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Python.Python.3.12",
@@ -4215,6 +4539,22 @@
       "checked_at": "2026-11-12T09:54:49.3674978Z"
     },
     {
+      "id": "SaferNetworking.SpybotAntiBeacon",
+      "version": "3.9",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.spybot.info/AntiBeacon/SpybotAntiBeacon-3.9-setup.exe",
+      "sha256": "f89a36fb059c2f784acbc2988e9b2e7f4dba8e7c0814f6f142d132a2b1787da4",
+      "size": 16530304,
+      "signer_subject": "CN=Safer-Networking Ltd., O=Safer-Networking Ltd., L=Greystones, C=IE",
+      "signer_thumbprint": "4D52FD1037ED98BEE5C069E41C8262CF86E8BEAB",
+      "allowed_hosts": [
+        "download.spybot.info"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Safing.Portmaster",
       "version": "2.2.8",
       "arch": "neutral",
@@ -4246,6 +4586,23 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "Sandboxie.Plus",
+      "version": "1.18.8",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Plus-x64-v1.18.8.exe",
+      "sha256": "f27078ff74a07906fd51476079e1a7a8f5e20c8bb75a9d2ae86169d47179ae76",
+      "size": 24930680,
+      "signer_subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Scilab.Scilab",
@@ -4379,6 +4736,22 @@
         "updater.prntscr.com"
       ],
       "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "SoftDeluxe.FreeDownloadManager",
+      "version": "6.36.0.7128",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
+      "sha256": "c94bcf11560c6ef709854408b8a3732023dd94494b74c39beb1ec26992349a02",
+      "size": 52205224,
+      "signer_subject": "E=administrator@softdeluxe.com, CN=Softdeluxe LLC, O=Softdeluxe LLC, L=Minsk, S=Minsk, C=BY",
+      "signer_thumbprint": "BE0D55314F859BE0341756C1853F01F67EDBEFB8",
+      "allowed_hosts": [
+        "dn3.freedownloadmanager.org"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "SoftMaker.FreeOffice.2024",
@@ -4591,6 +4964,22 @@
       "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
+      "id": "Tailscale.Tailscale",
+      "version": "1.104.7",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://pkgs.tailscale.com/stable/tailscale-setup-full-1.104.7.exe",
+      "sha256": "d943c5d244e44d65bde24656366d8d4ee80476702767d62160766cbafe9cc429",
+      "size": 114769352,
+      "signer_subject": "CN=Tailscale Inc., O=Tailscale Inc., L=Toronto, S=Ontario, C=CA, SERIALNUMBER=1131559-5, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CA",
+      "signer_thumbprint": "108F172FDE945B21A5C0696731D6220D67D1C39E",
+      "allowed_hosts": [
+        "pkgs.tailscale.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "TechSmith.Camtasia",
       "version": "26.2.5.21144",
       "arch": "neutral",
@@ -4621,6 +5010,23 @@
         "download.techsmith.com"
       ],
       "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "Telegram.TelegramDesktop",
+      "version": "7.4.3",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.3/td-setup-win-x64-7.4.3.exe",
+      "sha256": "b4ce3f2770cefb3797f71c021f90f634ffebc20ef9ce714aeba0c82d1829daf8",
+      "size": 65599048,
+      "signer_subject": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Telerik.Fiddler.Classic",
@@ -4671,6 +5077,38 @@
       "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "Tencent.QQWubi",
+      "version": "2.4",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://ime.sogoucdn.com/QQWubi_Setup_2.4.629.400.exe",
+      "sha256": "2e900e402da26b8fc4e83843fc59996d91fa4976e0a3a60c3ea745773f401411",
+      "size": 20923952,
+      "signer_subject": "CN=Tencent Technology(Shenzhen) Company Limited, O=Tencent Technology(Shenzhen) Company Limited, L=Shenzhen, S=Guangdong Province, C=CN",
+      "signer_thumbprint": "F773B9181B403A783289A30EE53884DD5A360BF1",
+      "allowed_hosts": [
+        "ime.sogoucdn.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Tencent.WeChat",
+      "version": "3.9.12.57",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe",
+      "sha256": "c29fc05630cfc95ef6483f6b5b52aabfe74265bb260e210e78ae437d305d8990",
+      "size": 283125176,
+      "signer_subject": "CN=Tencent Technology (Shenzhen) Company Limited, O=Tencent Technology (Shenzhen) Company Limited, L=Shenzhen, S=Guangdong Province, C=CN",
+      "signer_thumbprint": "617C4EDB4F205FCA0E5C07B9C52AA8D695FD122C",
+      "allowed_hosts": [
+        "dldir1v6.qq.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
       "id": "Termius.Termius",
       "version": "10.4.1",
       "arch": "neutral",
@@ -4685,6 +5123,89 @@
         "autoupdate.termius.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "TeXstudio.TeXstudio",
+      "version": "4.9.8",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/texstudio-org/texstudio/releases/download/4.9.8/texstudio-4.9.8-win-qt6-signed.exe",
+      "sha256": "243d64e65bbefff706c92b58fb1a56b6e024fbb1fb11dffc623e59c18b0ab397",
+      "size": 153249568,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "B15B4CCA19CC15CBCA8013F69F39FA46FA444B4E",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "TGRMNSoftware.BulkRenameUtility",
+      "version": "4.1.0.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://www.s3.tgrmn.com/bru4/BRU_setup_4.1.0.1.exe",
+      "sha256": "85c2802b285930aaac73ae76d39c6d4bf8a39f3d6e82d4eb0639c40da49911b8",
+      "size": 12814424,
+      "signer_subject": "CN=TGRMN  Software (ACEBROOK PTY LTD), O=TGRMN  Software (ACEBROOK PTY LTD), S=South Australia, C=AU, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=AU, SERIALNUMBER=69 108 950 367",
+      "signer_thumbprint": "6E848876ED55DC2D12CB489F3F4FE1616EE7EC88",
+      "allowed_hosts": [
+        "www.s3.tgrmn.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "TheDocumentFoundation.LibreOffice",
+      "version": "26.8.3.1",
+      "arch": "x64",
+      "installer_type": "msi",
+      "installer_arch": "x64",
+      "url": "https://download.documentfoundation.org/libreoffice/stable/26.8.3/win/x86_64/LibreOffice_26.8.3_Win_x86-64.msi",
+      "sha256": "0e6918c273eabbdbbd800ee0dacbbf130a14c13c2e4cec861b06dd59e015bf94",
+      "size": 376311808,
+      "signer_subject": "CN=The Document Foundation, O=The Document Foundation, L=Berlin, S=Berlin, C=DE",
+      "signer_thumbprint": "6B5DA216489DE6C1D7DB498ED672B7ED0F599513",
+      "allowed_hosts": [
+        "download.documentfoundation.org",
+        "mirror.fcix.net"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Ubisoft.Connect",
+      "version": "175.1.0.13416",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+      "sha256": "e907f33e1fc74fddd61eaf548647201ebc4baac8c439c3fa8e7043c67dc11576",
+      "size": 263096496,
+      "signer_subject": "CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "C941B74D33A9BA49CFD649E7DF99A0EFDDF31431",
+      "allowed_hosts": [
+        "static3.cdn.ubi.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Ultimaker.Cura",
+      "version": "5.14.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-win64-X64.exe",
+      "sha256": "d7dc8f59bb3d428d057d19ba0700eceabce1e0f3a78736572a47d06381db7753",
+      "size": 175661824,
+      "signer_subject": "CN=UltiMaker BV, O=UltiMaker BV, S=Gelderland, C=NL",
+      "signer_thumbprint": "FB6565EE84F4C97197C45EE861D67A9A4BA313AC",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Vercel.Hyper",
@@ -4723,19 +5244,19 @@
     },
     {
       "id": "VNGCorp.Zalo",
-      "version": "26.11.11",
+      "version": "26.11.12",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://res-zaloapp-aka-jpt.zdn.vn/win/ZaloSetup-26.11.11.exe",
-      "sha256": "65ccc7667d2da32a8eaea8cb26b793573455bed9e61e893cf699a52236831c9f",
-      "size": 213369544,
+      "url": "https://res-zaloapp-aka-jpt.zdn.vn/win/ZaloSetup-26.11.12.exe",
+      "sha256": "dddef07c11683561c6abe19c07bbc6202214136325d6b4b39311587a16a15eb8",
+      "size": 213516168,
       "signer_subject": "CN=VNG GROUP JSC, O=VNG GROUP JSC, S=Ho Chi Minh City, C=VN, SERIALNUMBER=0303490096, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ho Chi Minh City, OID.1.3.6.1.4.1.311.60.2.1.3=VN",
       "signer_thumbprint": "6C794B914539D093D0E656BAB75F6723A3DD0CCA",
       "allowed_hosts": [
         "res-zaloapp-aka-jpt.zdn.vn"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
       "id": "Wampserver.Wampserver",
