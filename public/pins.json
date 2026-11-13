@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-13T09:38:58.78776Z",
-  "catalog_revision": 100,
-  "count": 273,
+  "generated_at": "2026-11-13T11:46:19.970466Z",
+  "catalog_revision": 113,
+  "count": 304,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -204,6 +204,23 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "Anki.Anki",
+      "version": "26.09.4",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/ankitects/anki/releases/download/26.09.4/anki-26.09.4-win-x64.msi",
+      "sha256": "c35e7b90acf2929a71d70ac755a3dd0685f9fbe1a89d2f9edabb6fe7c0d91cba",
+      "size": 201621504,
+      "signer_subject": "CN=Anki Software LLC, O=Anki Software LLC, L=Flagstaff, S=Arizona, C=US",
+      "signer_thumbprint": "CD0E64BECCCCF95B15F70D0B4174F6452FE86161",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "AntibodySoftware.WizFile",
       "version": "3.15",
       "arch": "neutral",
@@ -370,6 +387,23 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
+      "id": "Audacity.Audacity",
+      "version": "4.0.2.263060742",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi",
+      "sha256": "ff6cad670befee96fee563056965fa5e17bfa8c7ea3aba10c461c18799409e22",
+      "size": 49823744,
+      "signer_subject": "CN=MUSECY SM LTD, O=MUSECY SM LTD, L=Limassol, C=CY, SERIALNUMBER=HE 411908, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CY",
+      "signer_thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "AxCrypt.AxCrypt",
       "version": "2.1.1693.0",
       "arch": "neutral",
@@ -515,6 +549,23 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "Bitwarden.Bitwarden",
+      "version": "2026.10.4",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe",
+      "sha256": "aaedfeaf73511b9095a5009454bb037a053c9a60e7c5ed23717b7b6047193a13",
+      "size": 734224,
+      "signer_subject": "CN=Bitwarden Inc., O=Bitwarden Inc., L=Santa Barbara, S=California, C=US, SERIALNUMBER=7654941, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "80375A0C9630A51ECB7EC79B37A8174C8DACCCED",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "BleachBit.BleachBit",
       "version": "6.0.6.633",
       "arch": "neutral",
@@ -529,6 +580,22 @@
         "download.bleachbit.org"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "BlenderFoundation.Blender",
+      "version": "5.3.0",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.blender.org/release/Blender5.3/blender-5.3.0-windows-x64.msi",
+      "sha256": "3ff4ec8a488be1148aa2bdb2cb229be21b8050e75931da617934cac254dd726c",
+      "size": 383557632,
+      "signer_subject": "CN=Blender Foundation, O=Blender Foundation, L=Amsterdam, S=Noord-Holland, C=NL",
+      "signer_thumbprint": "A6015BEBB6FBAB750B0299FCABCBE53E979E58FF",
+      "allowed_hosts": [
+        "download.blender.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Box.Box",
@@ -596,19 +663,19 @@
     },
     {
       "id": "Caphyon.AdvancedInstaller",
-      "version": "24.2",
+      "version": "24.2.1",
       "arch": "neutral",
       "installer_type": "msi",
       "installer_arch": "x86",
-      "url": "https://storage.advancedupdater.cloud/downloads/24.2/advinst.msi",
-      "sha256": "e478bb9b3db85a1ab58580a79ede4516247f0506d6e25c3d927c2158460b35b6",
-      "size": 316878848,
+      "url": "https://storage.advancedupdater.cloud/downloads/24.2.1/advinst.msi",
+      "sha256": "339962a606722b9458961023288fc899363a5acd2bc1699e8c49e8e619d757b1",
+      "size": 316870656,
       "signer_subject": "CN=Caphyon SRL, O=Caphyon SRL, L=Craiova, S=Dolj, C=RO",
-      "signer_thumbprint": "8A39E87DE78C6FD17C84B83ECD5DFD7463FD2996",
+      "signer_thumbprint": "2AE559A212FE4E56616399BAAAF430A03F83247F",
       "allowed_hosts": [
         "storage.advancedupdater.cloud"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z"
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "chrisant996.Clink",
@@ -862,6 +929,23 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "DBeaver.DBeaver.Community",
+      "version": "26.2.4",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/dbeaver/dbeaver/releases/download/26.2.4/dbeaver-ce-26.2.4-windows-x86_64.exe",
+      "sha256": "9f50ca4c9f84abfdc6a27636206183b252a296d31157009418ffd15db50353f9",
+      "size": 115077816,
+      "signer_subject": "CN=DBeaver Corp, O=DBeaver Corp, L=New York, S=New York, C=US",
+      "signer_thumbprint": "3D6F5CE8A7F8BAB9AAF4BAF37BD131E71254CA1F",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "Deezer.Deezer",
       "version": "8.0.10",
       "arch": "neutral",
@@ -877,6 +961,22 @@
         "cdn-content.dzcdn.net"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "DigitalScholar.Zotero",
+      "version": "10.0.8",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.zotero.org/client/release/10.0.8/Zotero-10.0.8_x64_setup.exe",
+      "sha256": "1ba5d091fd24b50db1159c71650f55303d99c82e66494dc09eddab76a4179d73",
+      "size": 109546480,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Virginia, OID.2.5.4.15=Private Organization, CN=Corporation for Digital Scholarship, SERIALNUMBER=07147937, O=Corporation for Digital Scholarship, L=Vienna, S=Virginia, C=US",
+      "signer_thumbprint": "1667BFAB98EFEB0E290B9B9C8EFF503AD1CFD33D",
+      "allowed_hosts": [
+        "download.zotero.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Ditto.Ditto",
@@ -1080,19 +1180,19 @@
     },
     {
       "id": "ElectronicArts.EADesktop",
-      "version": "13.822.0.6335",
+      "version": "13.827.2.6342",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "x64",
-      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.822.0.6335-16422277.exe",
-      "sha256": "0e8e8de99957a39288298086b7725aa91660078cf685f88a49eaac713fe2aec0",
+      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.827.2.6342-16601618.exe",
+      "sha256": "6eafd193300fdfb7be5a014a2261b8c08e51d867a0d5590cb92aa055917c5cbd",
       "size": 2141208,
       "signer_subject": "CN=\"Electronic Arts, Inc.\", OU=EAC, O=\"Electronic Arts, Inc.\", L=Redwood City, S=California, C=US",
       "signer_thumbprint": "E57750ADD3C6687D4E52466A23DFE2A3C2A22BF8",
       "allowed_hosts": [
         "origin-a.akamaihd.net"
       ],
-      "checked_at": "2026-11-10T12:29:04.7928657Z"
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Elgato.CameraHub",
@@ -1508,6 +1608,23 @@
       "checked_at": "2026-11-10T14:21:52.6730199Z"
     },
     {
+      "id": "Git.Git",
+      "version": "2.56.0.4",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-64-bit.exe",
+      "sha256": "4961a4a8cc778d8b6e00a5819e5fe4d078b754555aff7aedc2d77a5d74c2de80",
+      "size": 66850032,
+      "signer_subject": "CN=Johannes Schindelin, O=Johannes Schindelin, L=Bruehl, C=DE",
+      "signer_thumbprint": "5D068D19F18BDA12B5D08B7F9F86F072BA63A098",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "GitButler.GitButler",
       "version": "0.22.3",
       "arch": "neutral",
@@ -1522,6 +1639,22 @@
         "releases.gitbutler.com"
       ],
       "checked_at": "2026-11-10T14:21:52.6730199Z"
+    },
+    {
+      "id": "GitHub.GitHubDesktop",
+      "version": "3.6.11",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://desktop.githubusercontent.com/releases/3.6.11-0102f49a/GitHubDesktopSetup-x64.msi",
+      "sha256": "30e8f88b559fd0cea5a4c3b5f50e0e6d56137405067a70f8ff1ce163d8403487",
+      "size": 269291520,
+      "signer_subject": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "133C44430E2BB1C1BC97CE779812CF49644B7980",
+      "allowed_hosts": [
+        "desktop.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "GitHub.GitLFS",
@@ -1752,6 +1885,23 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-10T14:32:28.4341544Z"
+    },
+    {
+      "id": "HandBrake.HandBrake",
+      "version": "1.11.2",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-x86_64-Win_GUI.exe",
+      "sha256": "6becb8e5a041941d5f2fd6fe83c66fc15b2b16190e2e79f5ad47eb4cd18df8cd",
+      "size": 25331264,
+      "signer_subject": "CN=\"Open Source Developer, Scott Rae\", O=Open Source Developer, L=Livingston, S=West Lothian, C=GB",
+      "signer_thumbprint": "9528F963AD448D599543E77F4FE3462B12F995DD",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Hasleo.BackupSuiteFree",
@@ -2032,6 +2182,23 @@
       "checked_at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "JetBrains.PyCharm.Community",
+      "version": "2025.2.6.1",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.jetbrains.com/python/pycharm-community-2025.2.6.1.exe",
+      "sha256": "cd9baffec7dd2ab33494a6c3b11fc4f14318c3866343064fc625729e35c868da",
+      "size": 805305944,
+      "signer_subject": "CN=JetBrains s.r.o., O=JetBrains s.r.o., L=Prague, C=CZ, SERIALNUMBER=26502275, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "signer_thumbprint": "8C1B506D0BD10A911D09FB7EDBCAB383F1CDAF20",
+      "allowed_hosts": [
+        "download.jetbrains.com",
+        "download-cdn.jetbrains.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "JohnMacFarlane.Pandoc",
       "version": "3.14",
       "arch": "neutral",
@@ -2180,6 +2347,40 @@
         "cdn.kde.org"
       ],
       "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "KeePassXCTeam.KeePassXC",
+      "version": "2.8.0",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi",
+      "sha256": "4f105af5ba780428718c8be5614cf95deceed5cb3b474a9bd624c5df81cec6e5",
+      "size": 69419008,
+      "signer_subject": "CN=\"DroidMonkey Apps, LLC\", O=\"DroidMonkey Apps, LLC\", S=Virginia, C=US",
+      "signer_thumbprint": "14CF22744ED6C58E48230BBAD703CB37E02CC2A1",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "KiCad.KiCad",
+      "version": "10.0.8",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/KiCad/kicad-source-mirror/releases/download/10.0.8/kicad-10.0.8-x86_64.exe",
+      "sha256": "5652b9ed52fca4aa63ec2ec61c8bfd4fab4f6a2fbfdb441def2972b0e9b2dfc7",
+      "size": 969079176,
+      "signer_subject": "E=seth@kipro-pcb.com, CN=KICAD SERVICES CORPORATION, O=KICAD SERVICES CORPORATION, L=Long Beach, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4276589, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "4FF2AE9EC27A37207CBEB533EFCEE1F689C9AAAC",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Kingston.SSDManager",
@@ -2346,6 +2547,23 @@
       "checked_at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "Meltytech.Shotcut",
+      "version": "26.9.27",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.exe",
+      "sha256": "77e1ee1f713d92bdbaff23266f416e33cde3d367f7ef518b1841ddc961d05af9",
+      "size": 152926384,
+      "signer_subject": "CN=\"Meltytech, LLC\", O=\"Meltytech, LLC\", L=Oceanside, S=California, C=US",
+      "signer_thumbprint": "796DC3140F9A322B07BCA512A86EA4E37B79AB25",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "Microsoft.Azd",
       "version": "1.37.400",
       "arch": "neutral",
@@ -2360,6 +2578,54 @@
         "download.microsoft.com"
       ],
       "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.10",
+      "version": "10.0.15",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/b477fae7-19d5-41a2-ba11-105d9bab54f8/276d0de6-d558-4859-a3fe-65103e17a1ec/windowsdesktop-runtime-10.0.15-win-x64.exe",
+      "sha256": "e61b030c1673edfa3c0844502eff83198c46af9e7df70dfc6e2efc5b11ea513a",
+      "size": 60066584,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.8",
+      "version": "8.0.34",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/f5126c7f-c450-4883-a6ac-db5a8625bd16/3a6bc153-80ae-4859-80d1-3f251d2485e0/windowsdesktop-runtime-8.0.34-win-x64.exe",
+      "sha256": "37aa8a02acc1973ddd7e3de993a02007ccef26b48fa35b09d087fa8ab4602795",
+      "size": 58431296,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "Microsoft.DotNet.DesktopRuntime.9",
+      "version": "9.0.23",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://download.microsoft.com/download/257e5b34-a28e-4b26-90a7-b20332ca8015/caddd012-8bc6-4f3e-b17c-3b6d3c4c895a/windowsdesktop-runtime-9.0.23-win-x64.exe",
+      "sha256": "eefb60bd0f3fb33c0787074cebc0467ffba32bcb01088613121649fc3bdb4a27",
+      "size": 60732976,
+      "signer_subject": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "BB793DB742624269BB5F4515BBE9A3DF418F588D",
+      "allowed_hosts": [
+        "download.microsoft.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Microsoft.DotNet.HostingBundle.8",
@@ -2408,6 +2674,23 @@
         "download.microsoft.com"
       ],
       "checked_at": "2026-11-10T20:55:38.9607764Z"
+    },
+    {
+      "id": "Microsoft.PowerToys",
+      "version": "0.102.3101",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-x64.exe",
+      "sha256": "f1d24a49346167322eb64a2458bd82810519920d1da4c0aeb1788e54c345d142",
+      "size": 323977120,
+      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Microsoft.SQLServerManagementStudio",
@@ -2717,6 +3000,38 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "Mozilla.Firefox",
+      "version": "160.0",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/160.0/win64/en-US/Firefox%20Setup%20160.0.exe",
+      "sha256": "8732312ee2d7960c6ea830a4e0d3c0ff5fe0b10856dab44e2c432fcdeb63ff63",
+      "size": 95805016,
+      "signer_subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "allowed_hosts": [
+        "download-installer.cdn.mozilla.net"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "Mozilla.Thunderbird",
+      "version": "160.0",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/160.0/win64/en-US/Thunderbird%20Setup%20160.0.exe",
+      "sha256": "27c75ecb78609505b1c89e139fa172b634c74eb1b5e823c49aefee15286111a0",
+      "size": 85257664,
+      "signer_subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
+      "allowed_hosts": [
+        "download-installer.cdn.mozilla.net"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "Mozilla.VPN",
       "version": "2.40.1",
       "arch": "neutral",
@@ -2934,6 +3249,23 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "NickeManarin.ScreenToGif",
+      "version": "2.43.2",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.43.2/ScreenToGif.2.43.2.Setup.x64.msi",
+      "sha256": "b494e929ac250d0e09cf2803cd172cc5580d9c35df179b022b451304a06df4a7",
+      "size": 75137024,
+      "signer_subject": "CN=N-Tech, O=N-Tech, L=Porto Alegre, S=Rio Grande do Sul, C=BR, PostalCode=91340-000",
+      "signer_thumbprint": "71C75040F38DEA7520F8C260FE35C1A3D52E82E1",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "NordSecurity.NordPass",
       "version": "7.12.15",
       "arch": "neutral",
@@ -2967,6 +3299,23 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "Notepad++.Notepad++",
+      "version": "8.9.9.1",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.x64.exe",
+      "sha256": "ce3267f5c4e7e42f847e00f4b20234da6150647203033cdde34a69593efc3152",
+      "size": 7048536,
+      "signer_subject": "E=don.h@free.fr, CN=\"NOTEPAD++\", O=\"NOTEPAD++\", L=Paris, S=Île-de-France, C=FR",
+      "signer_thumbprint": "1E8E0D13B608BA908572C1A129FAEC5D228DF8A2",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "Obsidian.Obsidian",
       "version": "1.15.1",
       "arch": "neutral",
@@ -2982,6 +3331,23 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "OBSProject.OBSStudio",
+      "version": "33.0.0",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-x64-Installer.exe",
+      "sha256": "3bf55dae6d9db651505828090de74540296c742ed2a94a28cf055cb6ddc6bed3",
+      "size": 186671888,
+      "signer_subject": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "178EB178111547B52B3821A278653EEDC3E5B1F7",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Ocenaudio.Ocenaudio",
@@ -3015,6 +3381,55 @@
         "www.omicronlab.com"
       ],
       "checked_at": "2026-11-11T21:27:51.6491038Z"
+    },
+    {
+      "id": "ONLYOFFICE.DesktopEditors",
+      "version": "10.0.0",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors_x64.exe",
+      "sha256": "e9f6df29bb09770cfc14c9ebb9bce881ff7ad9705d76b3faf038831fe248e46b",
+      "size": 299860896,
+      "signer_subject": "CN=Ascensio System SIA, O=Ascensio System SIA, L=Riga, C=LV, SERIALNUMBER=40103265308, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=LV",
+      "signer_thumbprint": "DBCC0AF7512520B703AB7B775C541DA9246A88C6",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "OpenJS.NodeJS.LTS",
+      "version": "26.13.1",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://nodejs.org/dist/v26.13.1/node-v26.13.1-x64.msi",
+      "sha256": "0398ced8446e119478c724d1aa37c5afd6aa1a76fceab12787eb9714c5ed8b45",
+      "size": 36564992,
+      "signer_subject": "CN=OpenJS Foundation, O=OpenJS Foundation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "EDBAE58D521F461AEE0189F98C82E6B5B281AEF1",
+      "allowed_hosts": [
+        "nodejs.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "OpenJS.NodeJS",
+      "version": "26.12.1",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://nodejs.org/dist/v26.12.1/node-v26.12.1-x64.msi",
+      "sha256": "f32a2844504ed8d73449ddb480385f69cb436bc9409a89e2049ae83447078457",
+      "size": 36941824,
+      "signer_subject": "CN=OpenJS Foundation, O=OpenJS Foundation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "B258ED542817C6EFA6D885A317ED33457B295A0C",
+      "allowed_hosts": [
+        "nodejs.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "OpenWhisperSystems.Signal",
@@ -3243,6 +3658,23 @@
         "cytranet-dal.dl.sourceforge.net"
       ],
       "checked_at": "2026-11-11T21:27:51.6491038Z"
+    },
+    {
+      "id": "Pinta.Pinta",
+      "version": "3.1.2",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/PintaProject/Pinta/releases/download/3.1.2/Pinta-x86_64.exe",
+      "sha256": "6c5c9252716a0a6860a25b3184a171045e8d4fca7b15ff3beb635bbe48bb16f6",
+      "size": 60723896,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "2139481911FA6F96B266DC4E992B76D9EC3CB7E3",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Piriform.Defraggler",
@@ -3505,6 +3937,22 @@
       "checked_at": "2026-11-12T09:54:49.3674978Z"
     },
     {
+      "id": "PuTTY.PuTTY",
+      "version": "0.85.0.0",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://the.earth.li/~sgtatham/putty/0.85/w64/putty-64bit-0.85-installer.msi",
+      "sha256": "2213ebacf962b709411d654a40087508a694756bc4e41c5a1c24ad86596b2511",
+      "size": 3846144,
+      "signer_subject": "CN=Simon Tatham, O=Simon Tatham, S=Cambridgeshire, C=GB",
+      "signer_thumbprint": "66C298D018034F29B8EA1D6E90F5497FE305D2E8",
+      "allowed_hosts": [
+        "the.earth.li"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
       "id": "Python.Launcher",
       "version": "3.15.2",
       "arch": "neutral",
@@ -3519,6 +3967,54 @@
         "www.python.org"
       ],
       "checked_at": "2026-11-12T09:54:49.3674978Z"
+    },
+    {
+      "id": "Python.Python.3.12",
+      "version": "3.12.10",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe",
+      "sha256": "67b5635e80ea51072b87941312d00ec8927c4db9ba18938f7ad2d27b328b95fb",
+      "size": 26964224,
+      "signer_subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "signer_thumbprint": "DE01DAAE82D04F466A576E178F6B07A839238953",
+      "allowed_hosts": [
+        "www.python.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "Python.Python.3.13",
+      "version": "3.13.17",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://www.python.org/ftp/python/3.13.17/python-3.13.17-amd64.exe",
+      "sha256": "5da012101ba2e17113a9a1cd901e9ce1441086f2b7ecb5de06ec94163899a190",
+      "size": 29941280,
+      "signer_subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "signer_thumbprint": "BC3C0F36FC89EE2CAB2F6A91C724C8C0DB625032",
+      "allowed_hosts": [
+        "www.python.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
+    },
+    {
+      "id": "Python.Python.3.14",
+      "version": "3.14.10",
+      "arch": "x64",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://www.python.org/ftp/python/3.14.10/python-3.14.10-amd64.exe",
+      "sha256": "92480239264744fe0386a1bd8275786fefa126e3129e56a68e22b52c73329965",
+      "size": 33498520,
+      "signer_subject": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US",
+      "signer_thumbprint": "6C435B1CAA2CA423A76C14A6693CD55644C8B4D6",
+      "allowed_hosts": [
+        "www.python.org"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "QNAP.QfinderPro",
@@ -4206,6 +4702,24 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "VideoLAN.VLC",
+      "version": "3.0.24",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.videolan.org/pub/videolan/vlc/3.0.24/win64/vlc-3.0.24-win64.exe",
+      "sha256": "d711e1e1fe52052748c39080c7dce63f6b7e4c315efedf1774a3f1957b782ff3",
+      "size": 46269360,
+      "signer_subject": "CN=VideoLAN, O=VideoLAN, L=Paris, C=FR",
+      "signer_thumbprint": "CCF8C4F9272D8A25477AF13EC71F97A3027C7319",
+      "allowed_hosts": [
+        "download.videolan.org",
+        "get.videolan.org",
+        "mirrors.middlendian.com"
+      ],
+      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "VNGCorp.Zalo",
