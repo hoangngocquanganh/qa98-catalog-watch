@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "baseRevision": 73,
-  "generated_at": "2026-11-12T22:41:19.3102232Z",
+  "baseRevision": 106,
+  "generated_at": "2026-11-13T10:51:24.6615268Z",
   "items": [
     {
       "key": "w:aimp.aimp|5.10.2418",
@@ -72,7 +72,7 @@
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://www.binisoft.org/download/wfc6setup.exe expected 26bd4b19fb8ab523e621e40ec5426b7289b467e88505d6764a87e7ad6df4d5c1 got f726c3c3a3701fa37ddf821385ea9cc81bf64c0445318856b517491d00d61d8c",
+      "note": "https://www.binisoft.org/download/wfc6setup.exe expected 26bd4b19fb8ab523e621e40ec5426b7289b467e88505d6764a87e7ad6df4d5c1 got 88c81c92df17a9b28ef5fcbedec1fffdd85ed5eb79957330b3abd5b279e01230",
       "tried": [
         "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/b/BiniSoft/WindowsFirewallControl/6.37.0.0/BiniSoft.WindowsFirewallControl.installer.yaml",
         "https://www.binisoft.org/download/wfc6setup.exe"
@@ -168,7 +168,7 @@
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe expected 5519e67d1833e8ea915bc4a654ffd5838d2095eb02a3aca49b4ff91d69046513 got 8982850e449080e64600782e4d7a43a7804824d5bed028b736c3332349123ffe",
+      "note": "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe expected 5519e67d1833e8ea915bc4a654ffd5838d2095eb02a3aca49b4ff91d69046513 got b1f4f687114185f8cd991c655b6e781d6cca1e30473487c3d47043754fe5fcde",
       "tried": [
         "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Emsisoft/EmergencyKit/2025.7.0.12683/Emsisoft.EmergencyKit.installer.yaml",
         "https://dl.emsisoft.com/EmsisoftEmergencyKit.exe"
@@ -196,27 +196,6 @@
       "candidate_url": "",
       "candidate_sha256": "",
       "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GlassWire/GlassWire/3.11.1164/GlassWire.GlassWire.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
-      "key": "w:google.chrome|156.0.8078.80",
-      "winget_id": "Google.Chrome",
-      "slug": "chrome",
-      "version": "156.0.8078.80",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "HashMismatch",
-      "reason": "sha256 mismatch",
-      "note": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi expected 8e5de3313c2d95ab9ed3592400fe655490f34f7cd015992d280342600b44ad8b got 67edcdaae7019a78e160cc653be39d73e508e33e22f1051f9b88457cabdb83f4",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/156.0.8078.80/Google.Chrome.installer.yaml",
-        "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
-        "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
-        "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/156.0.8078.80/Google.Chrome.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
       "key": "w:gpsoftware.directoryopus|13.25",
@@ -409,26 +388,6 @@
       "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/ProcessExplorer/17.2/Microsoft.Sysinternals.ProcessExplorer.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
-      "key": "w:microsoft.sysinternals.suite|2026-10-15",
-      "winget_id": "Microsoft.Sysinternals.Suite",
-      "slug": "microsoft-sysinternals-suite",
-      "version": "2026-10-15",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "HashMismatch",
-      "reason": "sha256 mismatch",
-      "note": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip expected 5e882f231b34b325a336a69257baed088b84ba2a0ce065ef65ba37795bbd8dcf got f2ec09acc20e6e698b7bffea3abb41ce5c034a3090308a9de3d4415b146c9e1b",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Suite/2026-10-15/Microsoft.Sysinternals.Suite.installer.yaml",
-        "https://download.sysinternals.com/files/SysinternalsSuite.zip",
-        "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/Microsoft/Sysinternals/Suite/2026-10-15/Microsoft.Sysinternals.Suite.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
       "key": "w:microsoft.sysinternals.zoomit|12.3",
       "winget_id": "Microsoft.Sysinternals.ZoomIt",
       "slug": "microsoft-sysinternals-zoomit",
@@ -456,7 +415,7 @@
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://files.multimc.org/downloads/mmc-develop-win32.zip expected a28bb322ca853d7b1346b8b59074fe4ae2b8083258de564ad5cb5545afd776c5 got 5724aadd42a11699b63c6cde66af1793c8509c861bee66ab76f85af3eeccddf5",
+      "note": "https://files.multimc.org/downloads/mmc-develop-win32.zip expected a28bb322ca853d7b1346b8b59074fe4ae2b8083258de564ad5cb5545afd776c5 got ea3df8b6c0d867baa00f141cdddea5d97a63b16612be9c834b914b294663566e",
       "tried": [
         "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/m/MultiMC/MultiMC/0.7.0.4235/MultiMC.MultiMC.installer.yaml",
         "https://files.multimc.org/downloads/mmc-develop-win32.zip"
@@ -505,6 +464,102 @@
       "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Piriform/CCleaner/7.11.1522.1958/Piriform.CCleaner.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
+      "key": "w:racket.racket|9.3",
+      "winget_id": "Racket.Racket",
+      "slug": "racket-racket",
+      "version": "9.3",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://download.racket-lang.org/releases/9.3/installers/racket-9.3-arm64-win32-cs.exe expected fcccd112afd3c8fecfdaf56d2a2fc3213fe006d8e4eac525ceaee56f10628a01 got 15cd4ace652427465c7c576bad4aede2b8519cb6b59b190c9a22862cf57e7924",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Racket/Racket/9.3/Racket.Racket.installer.yaml",
+        "https://download.racket-lang.org/releases/9.3/installers/racket-9.3-x86_64-win32-cs.exe",
+        "https://download.racket-lang.org/releases/9.3/installers/racket-9.3-arm64-win32-cs.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Racket/Racket/9.3/Racket.Racket.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:razerinc.razerinstaller.synapse3|1.22.0.737",
+      "winget_id": "RazerInc.RazerInstaller.Synapse3",
+      "slug": "razerinc-razerinstaller-synapse3",
+      "version": "1.22.0.737",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "Broken",
+      "reason": "HTTP 403 (repeated)",
+      "note": "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RazerInc/RazerInstaller/Synapse3/1.22.0.737/RazerInc.RazerInstaller.Synapse3.installer.yaml",
+        "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RazerInc/RazerInstaller/Synapse3/1.22.0.737/RazerInc.RazerInstaller.Synapse3.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:realix.hwinfo|8.54",
+      "winget_id": "REALiX.HWiNFO",
+      "slug": "realix-hwinfo",
+      "version": "8.54",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "Broken",
+      "reason": "HTTP 404",
+      "note": "https://www.hwinfo.com/files/hwi64_854.exe",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/REALiX/HWiNFO/8.54/REALiX.HWiNFO.installer.yaml",
+        "https://www.hwinfo.com/files/hwi64_854.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/REALiX/HWiNFO/8.54/REALiX.HWiNFO.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:realvnc.vncviewer|7.15.1.18",
+      "winget_id": "RealVNC.VNCViewer",
+      "slug": "realvnc-vncviewer",
+      "version": "7.15.1.18",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "Broken",
+      "reason": "HTTP 404",
+      "note": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RealVNC/VNCViewer/7.15.1.18/RealVNC.VNCViewer.installer.yaml",
+        "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RealVNC/VNCViewer/7.15.1.18/RealVNC.VNCViewer.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
+      "key": "w:resplendence.latencymon|7.31",
+      "winget_id": "Resplendence.LatencyMon",
+      "slug": "resplendence-latencymon",
+      "version": "7.31",
+      "arch": "neutral",
+      "kind": "needs_review",
+      "outcome": "HashMismatch",
+      "reason": "sha256 mismatch",
+      "note": "https://www.resplendence.com/download/LatencyMon.exe expected d4e472879954380f5fbc49e2d5be8c5dbd75d5cf8908dd77278472598c6d17af got c124342da2a844da0699901476b27226da1d0d30bf8e940c9f847d67d46a1157",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Resplendence/LatencyMon/7.31/Resplendence.LatencyMon.installer.yaml",
+        "https://www.resplendence.com/download/LatencyMon.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Resplendence/LatencyMon/7.31/Resplendence.LatencyMon.installer.yaml winget manifest exists but installer does not serve the expected file"
+    },
+    {
       "key": "w:7zip.7zip|26.06",
       "winget_id": "7zip.7zip",
       "slug": "7zip",
@@ -541,6 +596,27 @@
       "tried": [
         "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Adobe/Acrobat/Reader/64-bit/26.003.22075/Adobe.Acrobat.Reader.64-bit.installer.yaml",
         "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600322075/AcroRdrDCx642600322075_MUI.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:google.chrome|157.0.8103.79",
+      "winget_id": "Google.Chrome",
+      "slug": "chrome",
+      "version": "157.0.8103.79",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/157.0.8103.79/Google.Chrome.installer.yaml",
+        "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise.msi",
+        "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi",
+        "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -898,1109 +974,9 @@
       "evidence": ""
     },
     {
-      "key": "w:primatelabs.geekbench.6|6.4.0",
-      "winget_id": "PrimateLabs.Geekbench.6",
-      "slug": "primatelabs-geekbench-6",
-      "version": "6.4.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/PrimateLabs/Geekbench/6/6.4.0/PrimateLabs.Geekbench.6.installer.yaml",
-        "https://cdn.geekbench.com/Geekbench-6.4.0-WindowsSetup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:prismlauncher.prismlauncher|11.1.1",
-      "winget_id": "PrismLauncher.PrismLauncher",
-      "slug": "prismlauncher-prismlauncher",
-      "version": "11.1.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/PrismLauncher/PrismLauncher/11.1.1/PrismLauncher.PrismLauncher.installer.yaml",
-        "https://github.com/PrismLauncher/PrismLauncher/releases/download/11.1.1/PrismLauncher-Windows-MSVC-Setup-11.1.1.exe",
-        "https://github.com/PrismLauncher/PrismLauncher/releases/download/11.1.1/PrismLauncher-Windows-MSVC-arm64-Setup-11.1.1.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:privateinternetaccess.privateinternetaccess|3.6.1+08339",
-      "winget_id": "PrivateInternetAccess.PrivateInternetAccess",
-      "slug": "privateinternetaccess-privateinternetaccess",
-      "version": "3.6.1+08339",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/PrivateInternetAccess/PrivateInternetAccess/3.6.1+08339/PrivateInternetAccess.PrivateInternetAccess.installer.yaml",
-        "https://installers.privateinternetaccess.com/download/pia-windows-arm64-3.6.1-08339.exe",
-        "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.6.1-08339.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:processingfoundation.processing|4.5.7",
-      "winget_id": "ProcessingFoundation.Processing",
-      "slug": "processingfoundation-processing",
-      "version": "4.5.7",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/ProcessingFoundation/Processing/4.5.7/ProcessingFoundation.Processing.installer.yaml",
-        "https://github.com/processing/processing4/releases/download/processing-1435-4.5.7/processing-4.5.7-windows-x64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:projectjupyter.jupyterlab|4.6.3-1",
-      "winget_id": "ProjectJupyter.JupyterLab",
-      "slug": "projectjupyter-jupyterlab",
-      "version": "4.6.3-1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/ProjectJupyter/JupyterLab/4.6.3-1/ProjectJupyter.JupyterLab.installer.yaml",
-        "https://github.com/jupyterlab/jupyterlab-desktop/releases/download/v4.6.3-1/JupyterLab-Setup-Windows-x64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:projectlibre.projectlibre|1.9.8",
-      "winget_id": "ProjectLibre.ProjectLibre",
-      "slug": "projectlibre-projectlibre",
-      "version": "1.9.8",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/ProjectLibre/ProjectLibre/1.9.8/ProjectLibre.ProjectLibre.installer.yaml",
-        "https://sourceforge.net/projects/projectlibre/files/ProjectLibre/1.9.8/ProjectLibre-1.9.8.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:proton.protonauthenticator|1.1.6",
-      "winget_id": "Proton.ProtonAuthenticator",
-      "slug": "proton-protonauthenticator",
-      "version": "1.1.6",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Proton/ProtonAuthenticator/1.1.6/Proton.ProtonAuthenticator.installer.yaml",
-        "https://proton.me/download/authenticator/windows/ProtonAuthenticator_1.1.6_x64_en-US.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:proton.protondrive|3.1.0",
-      "winget_id": "Proton.ProtonDrive",
-      "slug": "proton-protondrive",
-      "version": "3.1.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Proton/ProtonDrive/3.1.0/Proton.ProtonDrive.installer.yaml",
-        "https://proton.me/download/drive/windows/3.1.0/x64/Proton%20Drive%20Setup%203.1.0.exe",
-        "https://proton.me/download/drive/windows/3.1.0/arm64/Proton%20Drive%20Setup%203.1.0.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:proton.protonmail|1.16.1",
-      "winget_id": "Proton.ProtonMail",
-      "slug": "proton-protonmail",
-      "version": "1.16.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Proton/ProtonMail/1.16.1/Proton.ProtonMail.installer.yaml",
-        "https://proton.me/download/mail/windows/1.16.1/ProtonMail-desktop.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:proton.protonpass|1.43.0",
-      "winget_id": "Proton.ProtonPass",
-      "slug": "proton-protonpass",
-      "version": "1.43.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Proton/ProtonPass/1.43.0/Proton.ProtonPass.installer.yaml",
-        "https://proton.me/download/pass/windows/ProtonPass_1.43.0.msix"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:proton.protonvpn|5.1.9",
-      "winget_id": "Proton.ProtonVPN",
-      "slug": "proton-protonvpn",
-      "version": "5.1.9",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Proton/ProtonVPN/5.1.9/Proton.ProtonVPN.installer.yaml",
-        "https://vpn.protondownload.com/download/ProtonVPN_v5.1.9_x64.exe",
-        "https://vpn.protondownload.com/download/ProtonVPN_v5.1.9_arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:proxyman.proxyman|26.2.0",
-      "winget_id": "Proxyman.Proxyman",
-      "slug": "proxyman-proxyman",
-      "version": "26.2.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Proxyman/Proxyman/26.2.0/Proxyman.Proxyman.installer.yaml",
-        "https://assets.proxyman.com/windows/26.2.0/build/Proxyman%20Setup%2026.2.0.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:prusa3d.prusaslicer|2.9.7",
-      "winget_id": "Prusa3D.PrusaSlicer",
-      "slug": "prusa3d-prusaslicer",
-      "version": "2.9.7",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Prusa3D/PrusaSlicer/2.9.7/Prusa3D.PrusaSlicer.installer.yaml",
-        "https://github.com/prusa3d/PrusaSlicer/releases/download/version_2.9.7/PrusaSlicer-2.9.7-setup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:pulsar-edit.pulsar|1.133.1",
-      "winget_id": "Pulsar-Edit.Pulsar",
-      "slug": "pulsar-edit-pulsar",
-      "version": "1.133.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Pulsar-Edit/Pulsar/1.133.1/Pulsar-Edit.Pulsar.installer.yaml",
-        "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.1/Windows.Pulsar.Setup.1.133.1.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:pulumi.pulumi|3.275.0",
-      "winget_id": "Pulumi.Pulumi",
-      "slug": "pulumi-pulumi",
-      "version": "3.275.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Pulumi/Pulumi/3.275.0/Pulumi.Pulumi.installer.yaml",
-        "https://github.com/pulumi/pulumi-winget/releases/download/v3.275.0/pulumi-3.275.0-windows-x64.msi",
-        "https://github.com/pulumi/pulumi-winget/releases/download/v3.275.0/pulumi-3.275.0-windows-arm64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:putty.putty|0.85",
-      "winget_id": "PuTTY.PuTTY",
-      "slug": "putty",
-      "version": "0.85",
-      "arch": "x64,arm64,x86",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/0.85/w64/putty-64bit-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/latest/wa64/putty-arm64-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty-arm64-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/0.85/w32/putty-0.85-installer.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:putty.putty|0.85.0.0",
-      "winget_id": "PuTTY.PuTTY",
-      "slug": "putty",
-      "version": "0.85.0.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/PuTTY/PuTTY/0.85.0.0/PuTTY.PuTTY.installer.yaml",
-        "https://the.earth.li/~sgtatham/putty/0.85/w32/putty-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/0.85/w64/putty-64bit-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty-arm64-0.85-installer.msi",
-        "https://the.earth.li/~sgtatham/putty/0.85/w32/putty.zip",
-        "https://the.earth.li/~sgtatham/putty/0.85/w64/putty.zip",
-        "https://the.earth.li/~sgtatham/putty/0.85/wa64/putty.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.launcher|3.15.2",
-      "winget_id": "Python.Launcher",
-      "slug": "python-launcher",
-      "version": "3.15.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Launcher/3.15.2/Python.Launcher.installer.yaml",
-        "https://www.python.org/ftp/python/3.15.2/win32/launcher.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.python.3.10|3.10.11",
-      "winget_id": "Python.Python.3.10",
-      "slug": "python-python-3-10",
-      "version": "3.10.11",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/10/3.10.11/Python.Python.3.10.installer.yaml",
-        "https://www.python.org/ftp/python/3.10.11/python-3.10.11.exe",
-        "https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.python.3.11|3.11.9",
-      "winget_id": "Python.Python.3.11",
-      "slug": "python-python-3-11",
-      "version": "3.11.9",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/11/3.11.9/Python.Python.3.11.installer.yaml",
-        "https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe",
-        "https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe",
-        "https://www.python.org/ftp/python/3.11.9/python-3.11.9-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.python.3.12|3.12.10",
-      "winget_id": "Python.Python.3.12",
-      "slug": "python-python-3-12",
-      "version": "3.12.10",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/12/3.12.10/Python.Python.3.12.installer.yaml",
-        "https://www.python.org/ftp/python/3.12.10/python-3.12.10.exe",
-        "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe",
-        "https://www.python.org/ftp/python/3.12.10/python-3.12.10-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.python.3.13|3.13.17",
-      "winget_id": "Python.Python.3.13",
-      "slug": "python-python-3-13",
-      "version": "3.13.17",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/13/3.13.17/Python.Python.3.13.installer.yaml",
-        "https://www.python.org/ftp/python/3.13.17/python-3.13.17.exe",
-        "https://www.python.org/ftp/python/3.13.17/python-3.13.17-amd64.exe",
-        "https://www.python.org/ftp/python/3.13.17/python-3.13.17-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.python.3.14|3.14.10",
-      "winget_id": "Python.Python.3.14",
-      "slug": "python-python-3-14",
-      "version": "3.14.10",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/14/3.14.10/Python.Python.3.14.installer.yaml",
-        "https://www.python.org/ftp/python/3.14.10/python-3.14.10.exe",
-        "https://www.python.org/ftp/python/3.14.10/python-3.14.10-amd64.exe",
-        "https://www.python.org/ftp/python/3.14.10/python-3.14.10-arm64.exe",
-        "https://www.python.org/ftp/python/3.14.10/python-3.14.10-win32.zip",
-        "https://www.python.org/ftp/python/3.14.10/python-3.14.10-amd64.zip",
-        "https://www.python.org/ftp/python/3.14.10/python-3.14.10-arm64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:python.python.3.9|3.9.13",
-      "winget_id": "Python.Python.3.9",
-      "slug": "python-python-3-9",
-      "version": "3.9.13",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/p/Python/Python/3/9/3.9.13/Python.Python.3.9.installer.yaml",
-        "https://www.python.org/ftp/python/3.9.13/python-3.9.13.exe",
-        "https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:qbittorrent.qbittorrent|5.3.0",
-      "winget_id": "qBittorrent.qBittorrent",
-      "slug": "qbittorrent",
-      "version": "5.3.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/q/qBittorrent/qBittorrent/5.3.0/qBittorrent.qBittorrent.installer.yaml",
-        "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-5.3.0/qbittorrent_5.3.0_x64_setup.exe/download"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:ql-win.quicklook|4.5.0",
-      "winget_id": "QL-Win.QuickLook",
-      "slug": "ql-win-quicklook",
-      "version": "4.5.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/q/QL-Win/QuickLook/4.5.0/QL-Win.QuickLook.installer.yaml",
-        "https://github.com/QL-Win/QuickLook/releases/download/4.5.0/QuickLook-4.5.0.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:qnap.qfinderpro|7.14.1.0727",
-      "winget_id": "QNAP.QfinderPro",
-      "slug": "qnap-qfinderpro",
-      "version": "7.14.1.0727",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/q/QNAP/QfinderPro/7.14.1.0727/QNAP.QfinderPro.installer.yaml",
-        "https://download.qnap.com/Storage/Utility/QNAPQfinderProWindows-7.14.1.0727.exe",
-        "https://download.qnap.com.cn/Storage/Utility/QNAPQfinderProWindows-7.14.1.0727.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:racket.racket|9.3",
-      "winget_id": "Racket.Racket",
-      "slug": "racket-racket",
-      "version": "9.3",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "HashMismatch",
-      "reason": "sha256 mismatch",
-      "note": "https://download.racket-lang.org/releases/9.3/installers/racket-9.3-arm64-win32-cs.exe expected fcccd112afd3c8fecfdaf56d2a2fc3213fe006d8e4eac525ceaee56f10628a01 got 15cd4ace652427465c7c576bad4aede2b8519cb6b59b190c9a22862cf57e7924",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Racket/Racket/9.3/Racket.Racket.installer.yaml",
-        "https://download.racket-lang.org/releases/9.3/installers/racket-9.3-x86_64-win32-cs.exe",
-        "https://download.racket-lang.org/releases/9.3/installers/racket-9.3-arm64-win32-cs.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Racket/Racket/9.3/Racket.Racket.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
-      "key": "w:rainmeter.rainmeter|4.5.28.3936",
-      "winget_id": "Rainmeter.Rainmeter",
-      "slug": "rainmeter-rainmeter",
-      "version": "4.5.28.3936",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rainmeter/Rainmeter/4.5.28.3936/Rainmeter.Rainmeter.installer.yaml",
-        "https://github.com/rainmeter/rainmeter/releases/download/v4.5.28.3936/Rainmeter-4.5.28.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rakuten.viber|29.5.0.0",
-      "winget_id": "Rakuten.Viber",
-      "slug": "rakuten-viber",
-      "version": "29.5.0.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rakuten/Viber/29.5.0.0/Rakuten.Viber.installer.yaml",
-        "https://download.cdn.viber.com/desktop/windows/29.5.0/ViberSetup.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rambox.rambox|3.2.0",
-      "winget_id": "Rambox.Rambox",
-      "slug": "rambox-rambox",
-      "version": "3.2.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rambox/Rambox/3.2.0/Rambox.Rambox.installer.yaml",
-        "https://github.com/ramboxapp/download/releases/download/v3.2.0/Rambox-3.2.0-win-x64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:ramensoftware.windhawk|1.7.3",
-      "winget_id": "RamenSoftware.Windhawk",
-      "slug": "ramensoftware-windhawk",
-      "version": "1.7.3",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RamenSoftware/Windhawk/1.7.3/RamenSoftware.Windhawk.installer.yaml",
-        "https://github.com/ramensoftware/windhawk/releases/download/v1.7.3/windhawk_setup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rarlab.winrar|7.23.0",
-      "winget_id": "RARLab.WinRAR",
-      "slug": "winrar",
-      "version": "7.23.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RARLab/WinRAR/7.23.0/RARLab.WinRAR.installer.yaml",
-        "https://www.rarlab.com/rar/winrar-x64-723.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723ar.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723am.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723az.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723bg.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723ca.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723sc.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723tc.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723cro.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723cz.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723dk.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723nl.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723eu.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723fi.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723fr.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723gl.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723d.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723el.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723hu.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723id.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723it.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723jp.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723kr.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723lt.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723mn.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723pl.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723pt.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723br.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723ro.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723ru.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723srbcyr.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723sk.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723slv.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723es.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723sw.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723th.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723tr.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723uk.exe",
-        "https://www.rarlab.com/rar/winrar-x64-723vn.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:raspberrypifoundation.raspberrypiimager|2.0.8",
-      "winget_id": "RaspberryPiFoundation.RaspberryPiImager",
-      "slug": "raspberrypifoundation-raspberrypiimager",
-      "version": "2.0.8",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RaspberryPiFoundation/RaspberryPiImager/2.0.8/RaspberryPiFoundation.RaspberryPiImager.installer.yaml",
-        "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.8/imager-v2.0.8.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rawtherapee.rawtherapee|5.13",
-      "winget_id": "RawTherapee.RawTherapee",
-      "slug": "rawtherapee-rawtherapee",
-      "version": "5.13",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RawTherapee/RawTherapee/5.13/RawTherapee.RawTherapee.installer.yaml",
-        "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/RawTherapee_5.13_win64_x86_64_release.exe",
-        "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/RawTherapee_5.13_win64_arm64_release.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:razerinc.razerinstaller.synapse3|1.22.0.737",
-      "winget_id": "RazerInc.RazerInstaller.Synapse3",
-      "slug": "razerinc-razerinstaller-synapse3",
-      "version": "1.22.0.737",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "Broken",
-      "reason": "HTTP 403 (repeated)",
-      "note": "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RazerInc/RazerInstaller/Synapse3/1.22.0.737/RazerInc.RazerInstaller.Synapse3.installer.yaml",
-        "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RazerInc/RazerInstaller/Synapse3/1.22.0.737/RazerInc.RazerInstaller.Synapse3.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
-      "key": "w:razerinc.razerinstaller.synapse4|2.6.0.890",
-      "winget_id": "RazerInc.RazerInstaller.Synapse4",
-      "slug": "razerinc-razerinstaller-synapse4",
-      "version": "2.6.0.890",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RazerInc/RazerInstaller/Synapse4/2.6.0.890/RazerInc.RazerInstaller.Synapse4.installer.yaml",
-        "https://dl.razerzone.com/drivers/Synapse4/RazerSynapseInstaller.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rclone.rclone|1.76.0",
-      "winget_id": "Rclone.Rclone",
-      "slug": "rclone-rclone",
-      "version": "1.76.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rclone/Rclone/1.76.0/Rclone.Rclone.installer.yaml",
-        "https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-windows-386.zip",
-        "https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-windows-amd64.zip",
-        "https://github.com/rclone/rclone/releases/download/v1.76.0/rclone-v1.76.0-windows-arm64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rcmaehl.msedgeredirect|0.8.0.0",
-      "winget_id": "rcmaehl.MSEdgeRedirect",
-      "slug": "rcmaehl-msedgeredirect",
-      "version": "0.8.0.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/rcmaehl/MSEdgeRedirect/0.8.0.0/rcmaehl.MSEdgeRedirect.installer.yaml",
-        "https://github.com/rcmaehl/MSEdgeRedirect/releases/download/0.8.0.0/MSEdgeRedirect.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:readdle.spark|3.32.4",
-      "winget_id": "Readdle.Spark",
-      "slug": "readdle-spark",
-      "version": "3.32.4",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Readdle/Spark/3.32.4/Readdle.Spark.installer.yaml",
-        "https://downloads.sparkmailapp.com/Spark3/win/dist/3.32.4.141552/Spark.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:realix.hwinfo|8.54",
-      "winget_id": "REALiX.HWiNFO",
-      "slug": "realix-hwinfo",
-      "version": "8.54",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "Broken",
-      "reason": "HTTP 404",
-      "note": "https://www.hwinfo.com/files/hwi64_854.exe",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/REALiX/HWiNFO/8.54/REALiX.HWiNFO.installer.yaml",
-        "https://www.hwinfo.com/files/hwi64_854.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/REALiX/HWiNFO/8.54/REALiX.HWiNFO.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
-      "key": "w:realvnc.vncserver|7.19.0.13",
-      "winget_id": "RealVNC.VNCServer",
-      "slug": "realvnc-vncserver",
-      "version": "7.19.0.13",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RealVNC/VNCServer/7.19.0.13/RealVNC.VNCServer.installer.yaml",
-        "https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.19.0-Windows-msi.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:realvnc.vncviewer|7.15.1.18",
-      "winget_id": "RealVNC.VNCViewer",
-      "slug": "realvnc-vncviewer",
-      "version": "7.15.1.18",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "Broken",
-      "reason": "HTTP 404",
-      "note": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RealVNC/VNCViewer/7.15.1.18/RealVNC.VNCViewer.installer.yaml",
-        "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-msi.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RealVNC/VNCViewer/7.15.1.18/RealVNC.VNCViewer.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
-      "key": "w:redhat.podman-desktop|1.30.5",
-      "winget_id": "RedHat.Podman-Desktop",
-      "slug": "redhat-podman-desktop",
-      "version": "1.30.5",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RedHat/Podman-Desktop/1.30.5/RedHat.Podman-Desktop.installer.yaml",
-        "https://github.com/containers/podman-desktop/releases/download/v1.30.5/podman-desktop-1.30.5-setup-x64.exe",
-        "https://github.com/containers/podman-desktop/releases/download/v1.30.5/podman-desktop-1.30.5-setup-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:redhat.podman|5.8.10",
-      "winget_id": "RedHat.Podman",
-      "slug": "redhat-podman",
-      "version": "5.8.10",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RedHat/Podman/5.8.10/RedHat.Podman.installer.yaml",
-        "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-amd64.exe",
-        "https://github.com/podman-container-tools/podman/releases/download/v5.8.10/podman-installer-windows-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:redis.redis|3.0.504",
-      "winget_id": "Redis.Redis",
-      "slug": "redis-redis",
-      "version": "3.0.504",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Redis/Redis/3.0.504/Redis.Redis.installer.yaml",
-        "https://github.com/microsoftarchive/redis/releases/download/win-3.0.504/Redis-x64-3.0.504.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:redisinsight.redisinsight|3.4.2",
-      "winget_id": "RedisInsight.RedisInsight",
-      "slug": "redisinsight-redisinsight",
-      "version": "3.4.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RedisInsight/RedisInsight/3.4.2/RedisInsight.RedisInsight.installer.yaml",
-        "https://github.com/redis/RedisInsight/releases/download/3.4.2/Redis-Insight-win-installer.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rem0o.fancontrol|285",
-      "winget_id": "Rem0o.FanControl",
-      "slug": "fancontrol",
-      "version": "285",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rem0o/FanControl/285/Rem0o.FanControl.installer.yaml",
-        "https://github.com/Rem0o/FanControl.Releases/releases/download/V285/FanControl_285_net_10_0_Installer.exe",
-        "https://github.com/Rem0o/FanControl.Releases/releases/download/V285/FanControl_285_net_10_0.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:reshade.setup|6.6.2",
-      "winget_id": "Reshade.Setup",
-      "slug": "reshade-setup",
-      "version": "6.6.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Reshade/Setup/6.6.2/Reshade.Setup.installer.yaml",
-        "https://reshade.me/downloads/ReShade_Setup_6.6.2.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:resplendence.latencymon|7.31",
-      "winget_id": "Resplendence.LatencyMon",
-      "slug": "resplendence-latencymon",
-      "version": "7.31",
-      "arch": "neutral",
-      "kind": "needs_review",
-      "outcome": "HashMismatch",
-      "reason": "sha256 mismatch",
-      "note": "https://www.resplendence.com/download/LatencyMon.exe expected d4e472879954380f5fbc49e2d5be8c5dbd75d5cf8908dd77278472598c6d17af got c124342da2a844da0699901476b27226da1d0d30bf8e940c9f847d67d46a1157",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Resplendence/LatencyMon/7.31/Resplendence.LatencyMon.installer.yaml",
-        "https://www.resplendence.com/download/LatencyMon.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Resplendence/LatencyMon/7.31/Resplendence.LatencyMon.installer.yaml winget manifest exists but installer does not serve the expected file"
-    },
-    {
-      "key": "w:resplendence.whocrashed|7.10",
-      "winget_id": "Resplendence.WhoCrashed",
-      "slug": "resplendence-whocrashed",
-      "version": "7.10",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Resplendence/WhoCrashed/7.10/Resplendence.WhoCrashed.installer.yaml",
-        "https://www.resplendence.com/download/whocrashedSetup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:restic.restic|0.19.1",
-      "winget_id": "restic.restic",
-      "slug": "restic-restic",
-      "version": "0.19.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/restic/restic/0.19.1/restic.restic.installer.yaml",
-        "https://github.com/restic/restic/releases/download/v0.19.1/restic_0.19.1_windows_386.zip",
-        "https://github.com/restic/restic/releases/download/v0.19.1/restic_0.19.1_windows_amd64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:revouninstaller.revouninstaller|2.7.2",
-      "winget_id": "RevoUninstaller.RevoUninstaller",
-      "slug": "revouninstaller-revouninstaller",
-      "version": "2.7.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RevoUninstaller/RevoUninstaller/2.7.2/RevoUninstaller.RevoUninstaller.installer.yaml",
-        "https://revouninstaller.b-cdn.net/ruf272/revosetup.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:rime.weasel|0.17.4",
-      "winget_id": "Rime.Weasel",
-      "slug": "rime-weasel",
-      "version": "0.17.4",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rime/Weasel/0.17.4/Rime.Weasel.installer.yaml",
-        "https://github.com/rime/weasel/releases/download/0.17.4/weasel-0.17.4.0-installer.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:riotgames.leagueoflegends.na|143.0.0.2321459",
-      "winget_id": "RiotGames.LeagueOfLegends.NA",
-      "slug": "riotgames-leagueoflegends-na",
+      "key": "w:riotgames.valorant.ap|143.0.0.2321459",
+      "winget_id": "RiotGames.Valorant.AP",
+      "slug": "riotgames-valorant-ap",
       "version": "143.0.0.2321459",
       "arch": "neutral",
       "kind": "healthy",
@@ -2008,8 +984,1000 @@
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RiotGames/LeagueOfLegends/NA/143.0.0.2321459/RiotGames.LeagueOfLegends.NA.installer.yaml",
-        "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.na.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RiotGames/Valorant/AP/143.0.0.2321459/RiotGames.Valorant.AP.installer.yaml",
+        "https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.ap.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rizonesoft.notepad3|7.26.602.1",
+      "winget_id": "Rizonesoft.Notepad3",
+      "slug": "rizonesoft-notepad3",
+      "version": "7.26.602.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rizonesoft/Notepad3/7.26.602.1/Rizonesoft.Notepad3.installer.yaml",
+        "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_7.26.602.1/Notepad3_7.26.602.1_x86_Setup.exe",
+        "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_7.26.602.1/Notepad3_7.26.602.1_x64_Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rocketchat.rocketchat|4.19.3",
+      "winget_id": "RocketChat.RocketChat",
+      "slug": "rocketchat-rocketchat",
+      "version": "4.19.3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RocketChat/RocketChat/4.19.3/RocketChat.RocketChat.installer.yaml",
+        "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.19.3/rocketchat-4.19.3-win-ia32.exe",
+        "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.19.3/rocketchat-4.19.3-win-x64.exe",
+        "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/4.19.3/rocketchat-4.19.3-win-arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rocksdanister.livelywallpaper|2.2.1.0",
+      "winget_id": "rocksdanister.LivelyWallpaper",
+      "slug": "rocksdanister-livelywallpaper",
+      "version": "2.2.1.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/rocksdanister/LivelyWallpaper/2.2.1.0/rocksdanister.LivelyWallpaper.installer.yaml",
+        "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_setup_x86_full_v2210.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rockstargames.launcher|1.0.110.3150",
+      "winget_id": "RockstarGames.Launcher",
+      "slug": "rockstargames-launcher",
+      "version": "1.0.110.3150",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RockstarGames/Launcher/1.0.110.3150/RockstarGames.Launcher.installer.yaml",
+        "https://gamedownloads.rockstargames.com/public/installer/Rockstar-Games-Launcher.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rproject.rtools|4.5.6768",
+      "winget_id": "RProject.Rtools",
+      "slug": "rproject-rtools",
+      "version": "4.5.6768",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RProject/Rtools/4.5.6768/RProject.Rtools.installer.yaml",
+        "https://cloud.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6768-6492.exe",
+        "https://cloud.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-aarch64-6768-6492.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rproject.r|4.6.2",
+      "winget_id": "RProject.R",
+      "slug": "rproject-r",
+      "version": "4.6.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RProject/R/4.6.2/RProject.R.installer.yaml",
+        "https://cloud.r-project.org/bin/windows/base/old/4.6.2/R-4.6.2-win.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rubyinstallerteam.ruby.3.3|3.3.13-1",
+      "winget_id": "RubyInstallerTeam.Ruby.3.3",
+      "slug": "rubyinstallerteam-ruby-3-3",
+      "version": "3.3.13-1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RubyInstallerTeam/Ruby/3/3/3.3.13-1/RubyInstallerTeam.Ruby.3.3.installer.yaml",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.13-1/rubyinstaller-3.3.13-1-x86.exe",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.13-1/rubyinstaller-3.3.13-1-x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rubyinstallerteam.ruby.3.4|3.4.12-1",
+      "winget_id": "RubyInstallerTeam.Ruby.3.4",
+      "slug": "rubyinstallerteam-ruby-3-4",
+      "version": "3.4.12-1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RubyInstallerTeam/Ruby/3/4/3.4.12-1/RubyInstallerTeam.Ruby.3.4.installer.yaml",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.12-1/rubyinstaller-3.4.12-1-x86.exe",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.12-1/rubyinstaller-3.4.12-1-x64.exe",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.12-1/rubyinstaller-3.4.12-1-arm.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rubyinstallerteam.rubywithdevkit.3.3|3.3.12-1",
+      "winget_id": "RubyInstallerTeam.RubyWithDevKit.3.3",
+      "slug": "rubyinstallerteam-rubywithdevkit-3-3",
+      "version": "3.3.12-1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/RubyInstallerTeam/RubyWithDevKit/3/3/3.3.12-1/RubyInstallerTeam.RubyWithDevKit.3.3.installer.yaml",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.12-1/rubyinstaller-devkit-3.3.12-1-x86.exe",
+        "https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.12-1/rubyinstaller-devkit-3.3.12-1-x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rufus.rufus|4.15",
+      "winget_id": "Rufus.Rufus",
+      "slug": "rufus",
+      "version": "4.15",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rufus/Rufus/4.15/Rufus.Rufus.installer.yaml",
+        "https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15_x86.exe",
+        "https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe",
+        "https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15_arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rustlang.rust.msvc|1.99.1",
+      "winget_id": "Rustlang.Rust.MSVC",
+      "slug": "rustlang-rust-msvc",
+      "version": "1.99.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rustlang/Rust/MSVC/1.99.1/Rustlang.Rust.MSVC.installer.yaml",
+        "https://static.rust-lang.org/dist/rust-1.99.1-i686-pc-windows-msvc.msi",
+        "https://static.rust-lang.org/dist/rust-1.99.1-x86_64-pc-windows-msvc.msi",
+        "https://static.rust-lang.org/dist/rust-1.99.1-aarch64-pc-windows-msvc.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:rustlang.rustup|1.29.3",
+      "winget_id": "Rustlang.Rustup",
+      "slug": "rustlang-rustup",
+      "version": "1.29.3",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/r/Rustlang/Rustup/1.29.3/Rustlang.Rustup.installer.yaml",
+        "https://static.rust-lang.org/rustup/archive/1.29.3/i686-pc-windows-msvc/rustup-init.exe",
+        "https://static.rust-lang.org/rustup/archive/1.29.3/x86_64-pc-windows-msvc/rustup-init.exe",
+        "https://static.rust-lang.org/rustup/archive/1.29.3/aarch64-pc-windows-msvc/rustup-init.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:saerasoft.caesiumimagecompressor|2.8.5",
+      "winget_id": "SaeraSoft.CaesiumImageCompressor",
+      "slug": "saerasoft-caesiumimagecompressor",
+      "version": "2.8.5",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SaeraSoft/CaesiumImageCompressor/2.8.5/SaeraSoft.CaesiumImageCompressor.installer.yaml",
+        "https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.8.5/caesium-image-compressor-2.8.5-win-setup.exe",
+        "https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.8.5/caesium-image-compressor-2.8.5-win-portable.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:safing.portmaster|2.2.8",
+      "winget_id": "Safing.Portmaster",
+      "slug": "safing-portmaster",
+      "version": "2.2.8",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Safing/Portmaster/2.2.8/Safing.Portmaster.installer.yaml",
+        "https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.2.8_x64-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:samsung.dex|2.4.1.22",
+      "winget_id": "Samsung.DeX",
+      "slug": "samsung-dex",
+      "version": "2.4.1.22",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Samsung/DeX/2.4.1.22/Samsung.DeX.installer.yaml",
+        "https://downloadcenter.samsung.com/content/SW/202310/20231026121542224/SamsungDeXSetupWin.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:samsung.smartswitch|4.3.24062.1",
+      "winget_id": "Samsung.SmartSwitch",
+      "slug": "samsung-smartswitch",
+      "version": "4.3.24062.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Samsung/SmartSwitch/4.3.24062.1/Samsung.SmartSwitch.installer.yaml",
+        "https://downloadcenter.samsung.com/content/SW/202406/20240626140001115/Smart.Switch.PC_Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sandboxie.classic|5.73.8",
+      "winget_id": "Sandboxie.Classic",
+      "slug": "sandboxie-classic",
+      "version": "5.73.8",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Sandboxie/Classic/5.73.8/Sandboxie.Classic.installer.yaml",
+        "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Classic-x64-v5.73.8.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sandboxie.plus|1.18.8",
+      "winget_id": "Sandboxie.Plus",
+      "slug": "sandboxie-plus",
+      "version": "1.18.8",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Sandboxie/Plus/1.18.8/Sandboxie.Plus.installer.yaml",
+        "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Plus-x64-v1.18.8.exe",
+        "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Plus-ARM64-v1.18.8.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:schniz.fnm|1.39.0",
+      "winget_id": "Schniz.fnm",
+      "slug": "schniz-fnm",
+      "version": "1.39.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Schniz/fnm/1.39.0/Schniz.fnm.installer.yaml",
+        "https://github.com/Schniz/fnm/releases/download/v1.39.0/fnm-windows.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:schollz.croc|11.6.0",
+      "winget_id": "schollz.croc",
+      "slug": "schollz-croc",
+      "version": "11.6.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/schollz/croc/11.6.0/schollz.croc.installer.yaml",
+        "https://github.com/schollz/croc/releases/download/v11.6.0/croc_v11.6.0_Windows-32bit.zip",
+        "https://github.com/schollz/croc/releases/download/v11.6.0/croc_v11.6.0_Windows-64bit.zip",
+        "https://github.com/schollz/croc/releases/download/v11.6.0/croc_v11.6.0_Windows-ARM64.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:scilab.scilab|2027.0.0",
+      "winget_id": "Scilab.Scilab",
+      "slug": "scilab-scilab",
+      "version": "2027.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Scilab/Scilab/2027.0.0/Scilab.Scilab.installer.yaml",
+        "https://www.scilab.org/download/2027.0.0/scilab-2027.0.0.bin.x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:scootersoftware.beyondcompare.5|5.2.8.33052",
+      "winget_id": "ScooterSoftware.BeyondCompare.5",
+      "slug": "scootersoftware-beyondcompare-5",
+      "version": "5.2.8.33052",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/ScooterSoftware/BeyondCompare/5/5.2.8.33052/ScooterSoftware.BeyondCompare.5.installer.yaml",
+        "https://www.scootersoftware.com/files/BCompare-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-de-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-fr-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-jp-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-zh-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-cs-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-es-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-ga-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-id-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-it-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-kr-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-nl-5.2.8.33052.exe",
+        "https://www.scootersoftware.com/files/BCompare-cn-5.2.8.33052.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:scribus.scribus|1.6.6",
+      "winget_id": "Scribus.Scribus",
+      "slug": "scribus-scribus",
+      "version": "1.6.6",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Scribus/Scribus/1.6.6/Scribus.Scribus.installer.yaml",
+        "https://sourceforge.net/projects/scribus/files/scribus/1.6.6/scribus-1.6.6-windows.exe/download",
+        "https://sourceforge.net/projects/scribus/files/scribus/1.6.6/scribus-1.6.6-windows-x64.exe/download"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:scummvm.scummvm|2026.4.0",
+      "winget_id": "ScummVM.ScummVM",
+      "slug": "scummvm-scummvm",
+      "version": "2026.4.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/ScummVM/ScummVM/2026.4.0/ScummVM.ScummVM.installer.yaml",
+        "https://downloads.scummvm.org/frs/scummvm/2026.4.0/scummvm-2026.4.0-win32.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:seafile.seafile|9.0.22",
+      "winget_id": "Seafile.Seafile",
+      "slug": "seafile-seafile",
+      "version": "9.0.22",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Seafile/Seafile/9.0.22/Seafile.Seafile.installer.yaml",
+        "https://sos-ch-dk-2.exo.io/seafile-downloads/seafile-9.0.22-en.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:seagate.seatools|5.3.1",
+      "winget_id": "Seagate.SeaTools",
+      "slug": "seagate-seatools",
+      "version": "5.3.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Seagate/SeaTools/5.3.1/Seagate.SeaTools.installer.yaml",
+        "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/downloads/seatools/_shared/downloads/SeaToolsWindowsInstaller.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sergeyserkov.tagscanner|6.1.20",
+      "winget_id": "SergeySerkov.TagScanner",
+      "slug": "sergeyserkov-tagscanner",
+      "version": "6.1.20",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SergeySerkov/TagScanner/6.1.20/SergeySerkov.TagScanner.installer.yaml",
+        "https://www.xdlab.ru/files/tagscan-6.1.20-setup.exe",
+        "https://www.xdlab.ru/files/tagscan-6.1.20_x64-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:session.session|1.18.4",
+      "winget_id": "Session.Session",
+      "slug": "session-session",
+      "version": "1.18.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Session/Session/1.18.4/Session.Session.installer.yaml",
+        "https://github.com/session-foundation/session-desktop/releases/download/v1.18.4/session-desktop-win-x64-1.18.4.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sflinux.jami|1.0.9197.28092",
+      "winget_id": "SFLinux.Jami",
+      "slug": "sflinux-jami",
+      "version": "1.0.9197.28092",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SFLinux/Jami/1.0.9197.28092/SFLinux.Jami.installer.yaml",
+        "https://dl.jami.net/windows/archive/jami_x86_64-202503061740.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sharex.sharex|22.4.0",
+      "winget_id": "ShareX.ShareX",
+      "slug": "sharex",
+      "version": "22.4.0",
+      "arch": "x64,neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://github.com/ShareX/ShareX/releases/download/v22.4.0/ShareX-22.4.0-setup-x64.exe",
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/ShareX/ShareX/22.4.0/ShareX.ShareX.installer.yaml"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sharkdp.bat|0.26.1",
+      "winget_id": "sharkdp.bat",
+      "slug": "sharkdp-bat",
+      "version": "0.26.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/sharkdp/bat/0.26.1/sharkdp.bat.installer.yaml",
+        "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-i686-pc-windows-msvc.zip",
+        "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-x86_64-pc-windows-msvc.zip",
+        "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-pc-windows-msvc.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sharkdp.fd|10.5.0",
+      "winget_id": "sharkdp.fd",
+      "slug": "sharkdp-fd",
+      "version": "10.5.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/sharkdp/fd/10.5.0/sharkdp.fd.installer.yaml",
+        "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-i686-pc-windows-msvc.zip",
+        "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-x86_64-pc-windows-msvc.zip",
+        "https://github.com/sharkdp/fd/releases/download/v10.5.0/fd-v10.5.0-aarch64-pc-windows-msvc.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:shinchiro.mpv|0.42.0",
+      "winget_id": "shinchiro.mpv",
+      "slug": "shinchiro-mpv",
+      "version": "0.42.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/shinchiro/mpv/0.42.0/shinchiro.mpv.installer.yaml",
+        "https://github.com/0GMou/mpv2winget/releases/download/v0.42.0/mpv_installer_x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sibersystems.goodsync|12.11.12.2",
+      "winget_id": "SiberSystems.GoodSync",
+      "slug": "sibersystems-goodsync",
+      "version": "12.11.12.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SiberSystems/GoodSync/12.11.12.2/SiberSystems.GoodSync.installer.yaml",
+        "https://www.goodsync.com/download/GoodSync-vsub-Setup.msi",
+        "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sidequestvr.sidequest|0.10.42",
+      "winget_id": "SideQuestVR.SideQuest",
+      "slug": "sidequestvr-sidequest",
+      "version": "0.10.42",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SideQuestVR/SideQuest/0.10.42/SideQuestVR.SideQuest.installer.yaml",
+        "https://github.com/SideQuestVR/SideQuest/releases/download/v0.10.42/SideQuest-Setup-0.10.42-x64-win.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sigil-ebook.sigil|2.8.6",
+      "winget_id": "Sigil-Ebook.Sigil",
+      "slug": "sigil-ebook-sigil",
+      "version": "2.8.6",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Sigil-Ebook/Sigil/2.8.6/Sigil-Ebook.Sigil.installer.yaml",
+        "https://github.com/Sigil-Ebook/Sigil/releases/download/2.8.6/Sigil-2.8.6-Windows-x64-Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:skillbrains.lightshot|5.5.0.7",
+      "winget_id": "Skillbrains.Lightshot",
+      "slug": "skillbrains-lightshot",
+      "version": "5.5.0.7",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Skillbrains/Lightshot/5.5.0.7/Skillbrains.Lightshot.installer.yaml",
+        "https://updater.prntscr.com/builds/setup-lightshot-5.5.0.7.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:slacktechnologies.slack|4.53.287",
+      "winget_id": "SlackTechnologies.Slack",
+      "slug": "slacktechnologies-slack",
+      "version": "4.53.287",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SlackTechnologies/Slack/4.53.287/SlackTechnologies.Slack.installer.yaml",
+        "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.53.287/SlackSetup.exe",
+        "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.53.287/Slack.msix",
+        "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.53.287/Slack.msix"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:smartbear.soapui|5.10.0",
+      "winget_id": "SmartBear.SoapUI",
+      "slug": "smartbear-soapui",
+      "version": "5.10.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SmartBear/SoapUI/5.10.0/SmartBear.SoapUI.installer.yaml",
+        "https://dl.eviware.com/soapuios/5.10.0/SoapUI-x64-5.10.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:smplayer.smplayer|26.8.29",
+      "winget_id": "SMPlayer.SMPlayer",
+      "slug": "smplayer-smplayer",
+      "version": "26.8.29",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SMPlayer/SMPlayer/26.8.29/SMPlayer.SMPlayer.installer.yaml",
+        "https://github.com/smplayer-dev/smplayer/releases/download/v26.8.29/smplayer-26.8.29-win32-qt5.6-unsigned.exe",
+        "https://github.com/smplayer-dev/smplayer/releases/download/v26.8.29/smplayer-26.8.29-x64-unsigned.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:softfever.orcaslicer|2.5.0",
+      "winget_id": "SoftFever.OrcaSlicer",
+      "slug": "softfever-orcaslicer",
+      "version": "2.5.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SoftFever/OrcaSlicer/2.5.0/SoftFever.OrcaSlicer.installer.yaml",
+        "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.5.0/OrcaSlicer_Windows_Installer_V2.5.0_x64.exe",
+        "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/v2.5.0/OrcaSlicer_Windows_Installer_V2.5.0_arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:softmaker.freeoffice.2024|1.0.6190",
+      "winget_id": "SoftMaker.FreeOffice.2024",
+      "slug": "softmaker-freeoffice-2024",
+      "version": "1.0.6190",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SoftMaker/FreeOffice/2024/1.0.6190/SoftMaker.FreeOffice.2024.installer.yaml",
+        "https://www.softmaker.net/down/freeoffice2024.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:softperfect.networkscanner|26.9",
+      "winget_id": "SoftPerfect.NetworkScanner",
+      "slug": "softperfect-networkscanner",
+      "version": "26.9",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SoftPerfect/NetworkScanner/26.9/SoftPerfect.NetworkScanner.installer.yaml",
+        "https://www.softperfect.com/download/files/netscan_setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sogou.sogouinput|16.10.0.5858",
+      "winget_id": "Sogou.SogouInput",
+      "slug": "sogou-sogouinput",
+      "version": "16.10.0.5858",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Sogou/SogouInput/16.10.0.5858/Sogou.SogouInput.installer.yaml",
+        "https://ime.gtimg.com/pc/build/_sogou_pinyin_16.10.0.5858_0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sogou.sogouwbinput|5.5.0.2585",
+      "winget_id": "Sogou.SogouWBInput",
+      "slug": "sogou-sogouwbinput",
+      "version": "5.5.0.2585",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Sogou/SogouWBInput/5.5.0.2585/Sogou.SogouWBInput.installer.yaml",
+        "https://ime.sogoucdn.com/sogou_wubi_5.5.0.2585.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:sourcegear.diffmerge|4.2.0.697",
+      "winget_id": "SourceGear.DiffMerge",
+      "slug": "sourcegear-diffmerge",
+      "version": "4.2.0.697",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SourceGear/DiffMerge/4.2.0.697/SourceGear.DiffMerge.installer.yaml",
+        "https://download.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:specialk.specialk|26.11.4.1",
+      "winget_id": "SpecialK.SpecialK",
+      "slug": "specialk-specialk",
+      "version": "26.11.4.1",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/SpecialK/SpecialK/26.11.4.1/SpecialK.SpecialK.installer.yaml",
+        "https://sk-data.special-k.info/repository/SpecialK_26.11.4.1.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:splashtop.splashtopbusiness|3.8.601.0",
+      "winget_id": "Splashtop.SplashtopBusiness",
+      "slug": "splashtop-splashtopbusiness",
+      "version": "3.8.601.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Splashtop/SplashtopBusiness/3.8.601.0/Splashtop.SplashtopBusiness.installer.yaml",
+        "https://download.splashtop.com/winclient/STB/Splashtop_Business_Win_INSTALLER_v3.8.6.1.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:splashtop.splashtoppersonal|3.7.600.0",
+      "winget_id": "Splashtop.SplashtopPersonal",
+      "slug": "splashtop-splashtoppersonal",
+      "version": "3.7.600.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Splashtop/SplashtopPersonal/3.7.600.0/Splashtop.SplashtopPersonal.installer.yaml",
+        "https://download.splashtop.com/winclient/STP/Splashtop_Personal_Win_v3.7.6.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:spotify.spotify|1.3.9.2055.g806b5b278de8",
+      "winget_id": "Spotify.Spotify",
+      "slug": "spotify-spotify",
+      "version": "1.3.9.2055.g806b5b278de8",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/s/Spotify/Spotify/1.3.9.2055.g806b5b278de8/Spotify.Spotify.installer.yaml",
+        "https://download.scdn.co/SpotifyFullSetupX64.exe",
+        "https://download.scdn.co/SpotifyFullSetupARM64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
