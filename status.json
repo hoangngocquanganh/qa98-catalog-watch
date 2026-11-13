@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-13T18:16:16.8621763Z",
+  "checked_at": "2026-11-13T23:41:42.68431Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-13T18:16:16.8621763Z",
-  "catalog_revision": 141,
-  "total_keys": 954,
-  "hidden": 5,
-  "cycle_position": 888,
+  "catalog_revision": 150,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 141,
+    "catalog_revision": 150,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
@@ -434,6 +434,13 @@
       "slug": "ghisler-totalcommander",
       "winget_id": "Ghisler.TotalCommander",
       "version": "11.58.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "google-earthpro",
+      "winget_id": "Google.EarthPro",
+      "version": "7.3.7.1327",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -998,6 +1005,13 @@
       "silent_switch": true
     },
     {
+      "slug": "tonec-internetdownloadmanager",
+      "winget_id": "Tonec.InternetDownloadManager",
+      "version": "6.43.18",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "trimble-sketchup-2026",
       "winget_id": "Trimble.SketchUp.2026",
       "version": "26.2.243",
@@ -1022,6 +1036,13 @@
       "slug": "virtualdesktop-streamer",
       "winget_id": "VirtualDesktop.Streamer",
       "version": "1.34.25",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "vivaldi",
+      "winget_id": "Vivaldi.Vivaldi",
+      "version": "8.3.4191.44",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1085,34 +1106,10 @@
   "heals": [],
   "heal_blocked": [
     {
-      "vkey": "w:aimp.aimp|5.10.2418",
-      "slug": "aimp-aimp",
-      "version": "5.10.2418",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 5.10.2418"
-    },
-    {
-      "vkey": "w:autodesk.dwgtrueview.2027|1.0.0.0",
-      "slug": "autodesk-dwgtrueview-2027",
-      "version": "1.0.0.0",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 1.0.0.0)"
-    },
-    {
       "vkey": "w:bandisoft.bandizip|7.47",
       "slug": "bandisoft-bandizip",
       "version": "7.47",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB); winget-pkgs chưa có bản mới hơn 7.47"
-    },
-    {
-      "vkey": "w:binisoft.windowsfirewallcontrol|6.37.0.0",
-      "slug": "binisoft-windowsfirewallcontrol",
-      "version": "6.37.0.0",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Malwarebytes Inc, O=Malwarebytes Inc, L=Santa Clara, S=California, C=US, SERIALNUMBER=5430750, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\" (SHA-256 88c81c92df17a9b28ef5fcbedec1fffdd85ed5eb79957330b3abd5b279e01230, 3.5 MB); winget-pkgs chưa có bản mới hơn 6.37.0.0"
-    },
-    {
-      "vkey": "w:crucial.storageexecutive|11.11.112025.00",
-      "slug": "crucial-storageexecutive",
-      "version": "11.11.112025.00",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB)"
     },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
@@ -1121,70 +1118,10 @@
       "reason_vi": "đổi http sang https: network error: The SSL connection could not be established, see inner exception.; winget-pkgs chưa có bản mới hơn 2.2.0"
     },
     {
-      "vkey": "w:dolphinemulator.dolphin|5.0",
-      "slug": "dolphinemulator-dolphin",
-      "version": "5.0",
-      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 5.0"
-    },
-    {
-      "vkey": "w:electronicarts.origin|10.5.129.55742",
-      "slug": "electronicarts-origin",
-      "version": "10.5.129.55742",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 10.5.129.55742)"
-    },
-    {
-      "vkey": "w:emsisoft.emergencykit|2025.7.0.12683",
-      "slug": "emsisoft-emergencykit",
-      "version": "2025.7.0.12683",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=mc@emsisoft.com, CN=Emsisoft Limited, O=Emsisoft Limited, STREET=6 Cube Court, L=Richmond, S=Tasman, C=NZ, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=9429041331842, OID.2.5.4.15=Private Organization\" (SHA-256 b1f4f687114185f8cd991c655b6e781d6cca1e30473487c3d47043754fe5fcde, 327.2 MB); winget-pkgs chưa có bản mới hơn 2025.7.0.12683"
-    },
-    {
-      "vkey": "w:glasswire.glasswire|3.11.1164",
-      "slug": "glasswire-glasswire",
-      "version": "3.11.1164",
-      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): HTTP 403; winget-pkgs chưa có bản mới hơn 3.11.1164"
-    },
-    {
-      "vkey": "w:gpsoftware.directoryopus|13.25",
-      "slug": "gpsoftware-directoryopus",
-      "version": "13.25",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=GP Software (REDBROOK PTY. LTD.), O=GP Software (REDBROOK PTY. LTD.), L=Ashgrove, S=Queensland, C=AU\" (SHA-256 ef8905f9693c1e3a26b0ada42fd40ea845c047c0b48b794201c6489a3436e18d, 28.1 MB); winget-pkgs chưa có bản mới hơn 13.25"
-    },
-    {
-      "vkey": "w:guilded.guilded|latest",
-      "slug": "guilded-guilded",
-      "version": "latest",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
-    },
-    {
-      "vkey": "w:iobit.uninstaller|16.0.0.34",
-      "slug": "iobit-uninstaller",
-      "version": "16.0.0.34",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=\"IObit Co., Ltd.\", O=\"IObit Co., Ltd.\", L=Chengdu, S=Sichuan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107072412418F, OID.2.5.4.15=Private Organization\" (SHA-256 effe8eea77153b3cf544dfdd6f8c056b3e1fd726e7e067e1735e947963bbfec7, 32.7 MB); winget-pkgs chưa có bản mới hơn 16.0.0.34"
-    },
-    {
       "vkey": "w:iridiumio.compactgui|latest",
       "slug": "iridiumio-compactgui",
       "version": "latest",
       "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
-    },
-    {
-      "vkey": "w:jernejsimoncic.wget|1.21.4",
-      "slug": "jernejsimoncic-wget",
-      "version": "1.21.4",
-      "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: trang HTML; link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI\" (SHA-256 2f4bf7037894c412368eef9525612282d5dd3341eb4f38270363d5960ab57725, 7.8 MB); link cùng tên tệp trên trang chủ nhà phát hành (PackageUrl / PublisherUrl trong winget): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Jernej Simončič, O=Jernej Simončič, L=Ljubljana, C=SI\" (SHA-256 28068376aab98ff7747ae1792fcb902aadbadc3ef25ca0422724387984cbcd5d, 8.2 MB); link tải lấy từ trang HTML trung gian: HTTP 404; winget-pkgs chưa có bản mới hơn 1.21.4"
-    },
-    {
-      "vkey": "w:lastpass.lastpass|5.4.5.1509",
-      "slug": "lastpass-lastpass",
-      "version": "5.4.5.1509",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=domain@lastpass.com, CN=LastPass US LP, O=LastPass US LP, L=Boston, S=Massachusetts, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6402861, OID.2.5.4.15=Private Organization\" (SHA-256 9d99ebfcf82220627b878b58485f4fcfc3a686dc1b9ca9b5cf3e7df8f47d577c, 173.0 MB); winget-pkgs chưa có bản mới hơn 5.4.5.1509"
-    },
-    {
-      "vkey": "w:metageek.inssider|5.5.0",
-      "slug": "metageek-inssider",
-      "version": "5.5.0",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Oscium LLC, O=Oscium LLC, S=Oklahoma, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Oklahoma, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=3512260526\" (SHA-256 948a2cde91190214a83a3d6e91d77c45315f390b88390b1f43446a4b4eb5277f, 29.6 MB); winget-pkgs chưa có bản mới hơn 5.5.0"
     },
     {
       "vkey": "w:microsoft.office|16.0.20228.20124",
@@ -1193,70 +1130,28 @@
       "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US\" (SHA-256 c883ab32dffe4a371bb37411de83edc5d62ff31d315c5e3b59e830326bb4e322, 6.3 MB)"
     },
     {
-      "vkey": "w:microsoft.sqlserver.2019.express|15.2204.5490.2",
-      "slug": "microsoft-sqlserver-2019-express",
-      "version": "15.2204.5490.2",
-      "reason_vi": "không sinh được link thay thế cho lỗi \"HTTP 404\" (winget-pkgs chưa có bản mới hơn 15.2204.5490.2)"
-    },
-    {
-      "vkey": "w:microsoft.sysinternals.processexplorer|17.2",
-      "slug": "microsoft-sysinternals-processexplorer",
-      "version": "17.2",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:microsoft.sysinternals.zoomit|12.3",
-      "slug": "microsoft-sysinternals-zoomit",
-      "version": "12.3",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:multimc.multimc|0.7.0.4235",
-      "slug": "multimc-multimc",
-      "version": "0.7.0.4235",
-      "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:nosqlbooster.nosqlbooster|8.1.7",
-      "slug": "nosqlbooster-nosqlbooster",
-      "version": "8.1.7",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.1.7"
-    },
-    {
-      "vkey": "w:piriform.ccleaner|7.11.1522.1958",
-      "slug": "piriform-ccleaner",
-      "version": "7.11.1522.1958",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Gen Digital Inc., O=Gen Digital Inc., S=Arizona, C=US\" (SHA-256 a249ce0aa374a7ed9a6e6a59cf3d1ba2cf72adbd0b9fa509ff249162e171275e, 1.8 MB); winget-pkgs chưa có bản mới hơn 7.11.1522.1958"
-    },
-    {
-      "vkey": "w:racket.racket|9.3",
-      "slug": "racket-racket",
-      "version": "9.3",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"E=adm@racket-lang.org, CN=RACKET PROGRAMMING LANGUAGE FOUNDATION, O=RACKET PROGRAMMING LANGUAGE FOUNDATION, L=Salt Lake City, S=Utah, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=DELAWARE, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10169744, OID.2.5.4.15=Private Organization\" (SHA-256 15cd4ace652427465c7c576bad4aede2b8519cb6b59b190c9a22862cf57e7924, 176.3 MB); winget-pkgs chưa có bản mới hơn 9.3"
-    },
-    {
       "vkey": "w:razerinc.razerinstaller.synapse3|1.22.0.737",
       "slug": "razerinc-razerinstaller-synapse3",
       "version": "1.22.0.737",
       "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 1.22.0.737"
     },
     {
-      "vkey": "w:realix.hwinfo|8.54",
-      "slug": "realix-hwinfo",
-      "version": "8.54",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 8.54"
+      "vkey": "w:techpowerup.gpu-z|2.71.0",
+      "slug": "techpowerup-gpu-z",
+      "version": "2.71.0",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 2.71.0"
     },
     {
-      "vkey": "w:realvnc.vncviewer|7.15.1.18",
-      "slug": "realvnc-vncviewer",
-      "version": "7.15.1.18",
+      "vkey": "w:techpowerup.nvcleanstall|1.19.0",
+      "slug": "techpowerup-nvcleanstall",
+      "version": "1.19.0",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"redirect to non-https\" (winget-pkgs chưa có bản mới hơn 1.19.0)"
+    },
+    {
+      "vkey": "w:techpowerup.throttlestop|9.7",
+      "slug": "techpowerup-throttlestop",
+      "version": "9.7",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
-    },
-    {
-      "vkey": "w:resplendence.latencymon|7.31",
-      "slug": "resplendence-latencymon",
-      "version": "7.31",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=SOFTREV LABS S.R.L.S., O=SOFTREV LABS S.R.L.S., S=Bologna, C=IT, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IT, SERIALNUMBER=04383751205\" (SHA-256 c124342da2a844da0699901476b27226da1d0d30bf8e940c9f847d67d46a1157, 3.6 MB); winget-pkgs chưa có bản mới hơn 7.31"
     }
   ]
 }
