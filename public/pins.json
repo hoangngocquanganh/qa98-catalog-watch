@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-12T21:30:14.6167696Z",
-  "catalog_revision": 72,
-  "count": 252,
+  "generated_at": "2026-11-13T09:38:58.78776Z",
+  "catalog_revision": 100,
+  "count": 273,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -108,19 +108,19 @@
     },
     {
       "id": "Amazon.AWSCLI",
-      "version": "2.40.0",
+      "version": "2.40.2",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.0.msi",
-      "sha256": "2da0ece2673bcadc38fabf8f1cb6c4dc89c0f624ea7ce01ea44961387023de4d",
-      "size": 50487296,
+      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.2.msi",
+      "sha256": "9ed438e8c0f1f12ff4e415efe92aba49a9ded130efa435005ab9091a8f458431",
+      "size": 50565120,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "allowed_hosts": [
         "awscli.amazonaws.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "Amazon.Corretto.17.JDK",
@@ -338,20 +338,20 @@
     },
     {
       "id": "ArduinoSA.IDE.stable",
-      "version": "2.3.10",
+      "version": "2.3.11",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Windows_64bit.msi",
-      "sha256": "aebbd1efeac5cfb02a6cad0d93af8221054fc983a5b3c5ce6da8a6bfb9425165",
-      "size": 167145472,
+      "url": "https://github.com/arduino/arduino-ide/releases/download/2.3.11/arduino-ide_2.3.11_Windows_64bit.msi",
+      "sha256": "5a5c69bb46c4f3cfcd64400f02e0e5cef62ddda31a234d73856f36727914006f",
+      "size": 169410560,
       "signer_subject": "CN=Arduino SA, O=Arduino SA, S=Ticino, C=CH",
       "signer_thumbprint": "A3A0279D18F850B33D0CBF616417BBB1113CD0F6",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "Argotronic.ArgusMonitor",
@@ -580,19 +580,19 @@
     },
     {
       "id": "Canva.Canva",
-      "version": "1.128.0",
+      "version": "1.129.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://desktop-release.canva.com/Canva%20Setup%201.128.0.exe",
-      "sha256": "3022ca4ccb1419a98bac7d5e02aebaf71d41b83e4ebe73382086a967f282f02c",
-      "size": 122444888,
+      "url": "https://desktop-release.canva.com/Canva%20Setup%201.129.0.exe",
+      "sha256": "536c29dd56670c8328cf14192103498c664e769721d8f10449978985700f6f84",
+      "size": 122423312,
       "signer_subject": "CN=Canva, O=Canva, S=New South Wales, C=AU",
       "signer_thumbprint": "6D70BC603360F0EB3F13B577AE63FD43AC35B446",
       "allowed_hosts": [
         "desktop-release.canva.com"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "Caphyon.AdvancedInstaller",
@@ -2232,6 +2232,22 @@
       "checked_at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "Lenovo.DockManager",
+      "version": "1.6.5.4",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.lenovo.com/consumer/options/dockmanager_1.6.5.4_setup.exe",
+      "sha256": "757e98bbedaa3b5cb2494597a36eed346cd389bb8d42b7973c0dca29741d3cb5",
+      "size": 6234424,
+      "signer_subject": "CN=Lenovo, OU=G06, O=Lenovo, L=Morrisville, S=North Carolina, C=US",
+      "signer_thumbprint": "C28B55C1B298678BF0C836B5783AF332AB41EBE3",
+      "allowed_hosts": [
+        "download.lenovo.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
       "id": "Lenovo.SystemUpdate",
       "version": "5.08.04.85",
       "arch": "neutral",
@@ -2476,7 +2492,7 @@
     {
       "id": "Microsoft.VCRedist.2015+.arm64",
       "version": "14.52.37029.0",
-      "arch": "neutral",
+      "arch": "arm64",
       "installer_type": "burn",
       "installer_arch": "arm64",
       "url": "https://download.visualstudio.microsoft.com/download/pr/78d061c5-9ef3-42ab-98ed-3309d1095dc4/3C81BCF5B06156858362400D7066F65ECE38E8ACCB5E687FC65BEF5735F31FFC/VC_redist.arm64.exe",
@@ -2487,7 +2503,7 @@
       "allowed_hosts": [
         "download.visualstudio.microsoft.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "Microsoft.VCRedist.2015+.x64",
@@ -2952,20 +2968,20 @@
     },
     {
       "id": "Obsidian.Obsidian",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.0/Obsidian-1.15.0.exe",
-      "sha256": "b0f60c75a12f96d54cb16b9fc32919966f2ebf029d9af75d67a19ba6555e1da0",
-      "size": 339587200,
+      "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.exe",
+      "sha256": "218c7d30acc065355ce94719dd996d5e2a2347cde3811ea5dc29380583f02b58",
+      "size": 339406872,
       "signer_subject": "CN=Dynalist Inc, O=Dynalist Inc, L=Oakville, S=Ontario, C=CA",
-      "signer_thumbprint": "895D1E639FB4C49415020AB286136E02AB0A1B1F",
+      "signer_thumbprint": "AE5E634FCE9DF44D7378BD536EB59DFFAD136841",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T21:27:51.6491038Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "Ocenaudio.Ocenaudio",
@@ -3342,19 +3358,19 @@
     },
     {
       "id": "Posit.RStudio",
-      "version": "2026.10.1+239",
+      "version": "2026.11.0+203",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.10.1-239.exe",
-      "sha256": "215bc4bb4d0c2d4bb343141b0b6f220c39ded9ec281f4bd0bd9951325de68222",
-      "size": 496273616,
+      "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.11.0-203.exe",
+      "sha256": "6ce262e3f6cb5da729bcfc9ba6f007024fbeadf610f4ec62fcdf219a3616efdf",
+      "size": 378329176,
       "signer_subject": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
       "signer_thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
       "allowed_hosts": [
         "download1.rstudio.org"
       ],
-      "checked_at": "2026-11-11T21:27:51.6491038Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "PostgreSQL.pgAdmin",
@@ -3736,6 +3752,23 @@
       "checked_at": "2026-11-12T09:54:49.3674978Z"
     },
     {
+      "id": "Scilab.Scilab",
+      "version": "2027.0.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://www.scilab.org/download/2027.0.0/scilab-2027.0.0.bin.x64.exe",
+      "sha256": "08547daa285c2f129b0da8d4beaa8952d308e1314f2b95fc61d27fdad08a12af",
+      "size": 337073760,
+      "signer_subject": "CN=DASSAULT SYSTEMES SE, O=DASSAULT SYSTEMES SE, L=Vélizy-Villacoublay, C=FR",
+      "signer_thumbprint": "68452E8FAE7419F75D3F4F35A944FC6ACFF9194D",
+      "allowed_hosts": [
+        "www.scilab.org",
+        "oos.eu-west-2.outscale.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
       "id": "Seafile.Seafile",
       "version": "9.0.22",
       "arch": "neutral",
@@ -3753,20 +3786,20 @@
     },
     {
       "id": "Session.Session",
-      "version": "1.18.3",
+      "version": "1.18.4",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/session-foundation/session-desktop/releases/download/v1.18.3/session-desktop-win-x64-1.18.3.exe",
-      "sha256": "479f2a990a8e53f24d1cdb7b9055ea89ad0c94be4d62bef7710ce196444dc8d9",
-      "size": 128026328,
+      "url": "https://github.com/session-foundation/session-desktop/releases/download/v1.18.4/session-desktop-win-x64-1.18.4.exe",
+      "sha256": "c0a456d3e4b35f82b3ce81177b1593fe7b77071db43799cdcadc6cec04e5018b",
+      "size": 128025816,
       "signer_subject": "CN=Session Technology Stiftung, O=Session Technology Stiftung, S=Zug, C=CH, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CH, SERIALNUMBER=CHE-360.761.156",
       "signer_thumbprint": "6B523B80D62DC33866DD1CEA574F4C253DA53A83",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z"
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
       "id": "SFLinux.Jami",
@@ -4126,6 +4159,55 @@
       "checked_at": "2026-11-12T21:30:14.6167696Z"
     },
     {
+      "id": "Tencent.QQPinyin",
+      "version": "6.7",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://ime.sogoucdn.com/QQPinyin_Setup_6.7.6500.400.exe",
+      "sha256": "565fbe138da3e99f01dd4ba4245f289fc2113a00b24a171e0182ac9395af0422",
+      "size": 59531680,
+      "signer_subject": "CN=Tencent Technology (Shenzhen) Company Limited, O=Tencent Technology (Shenzhen) Company Limited, L=Shenzhen, S=Guangdong Province, C=CN, SERIALNUMBER=9144030071526726XG, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=Shenzhen, OID.1.3.6.1.4.1.311.60.2.1.2=Guangdong Province, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "902745066D65FB8841D5EAD85DB9CA125C21CF42",
+      "allowed_hosts": [
+        "ime.sogoucdn.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Termius.Termius",
+      "version": "10.4.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://autoupdate.termius.com/windows/Install%20Termius.exe",
+      "sha256": "9ec2c3ef5903e73e8cd72d27569b25f8535b087f7cd2e8b726fa0e5985d84a49",
+      "size": 343825648,
+      "signer_subject": "CN=Termius Corporation, O=Termius Corporation, L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "612953477986B46D0CB558CCD6656AC047C2F118",
+      "allowed_hosts": [
+        "autoupdate.termius.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Vercel.Hyper",
+      "version": "3.4.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/vercel/hyper/releases/download/v3.4.1/Hyper-Setup-3.4.1.exe",
+      "sha256": "917fb88da238d3e2cbca9173a2ba1c9b4d298e94b283b480489e327051ee7b4f",
+      "size": 73828760,
+      "signer_subject": "CN=Vercel Inc, O=Vercel Inc, L=Walnut, S=California, C=US",
+      "signer_thumbprint": "964E6E1E416F20D57E18063CCBDC786FD723602B",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
       "id": "VNGCorp.Zalo",
       "version": "26.11.11",
       "arch": "neutral",
@@ -4140,6 +4222,269 @@
         "res-zaloapp-aka-jpt.zdn.vn"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Wampserver.Wampserver",
+      "version": "3.4.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://wampserver.aviatechno.net/files/install/wampserver3.4.0_x64.exe",
+      "sha256": "08bc458acb5974e3f93857c234c4daf72da8a4da842b736c1424d98b475e4fcd",
+      "size": 374658528,
+      "signer_subject": "CN=Dominique Ottello, O=Dominique Ottello, S=Paris, C=FR",
+      "signer_thumbprint": "FA18901ED555D1C51C1D253D7DC98C4F9A005250",
+      "allowed_hosts": [
+        "wampserver.aviatechno.net"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Winamp.Winamp",
+      "version": "5.92.0.10042",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://download.winamp.com/winamp/Winamp592_10042_final_full_en-us.exe",
+      "sha256": "d064eefc27c71fc8915e5cce8d20f635030f4654d917bc1c7ac3f7ad869181c0",
+      "size": 13033208,
+      "signer_subject": "CN=Winamp SA, O=Winamp SA, L=Anderlecht, C=BE",
+      "signer_thumbprint": "063462200CF15763A20FB1633CB547FA25A586BF",
+      "allowed_hosts": [
+        "download.winamp.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WinFsp.WinFsp",
+      "version": "2.1.25156",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x86",
+      "url": "https://github.com/winfsp/winfsp/releases/download/v2.1/winfsp-2.1.25156.msi",
+      "sha256": "073a70e00f77423e34bed98b86e600def93393ba5822204fac57a29324db9f7a",
+      "size": 2191360,
+      "signer_subject": "CN=NAVIMATICS LLC, O=NAVIMATICS LLC, L=KIRKLAND, S=Washington, C=US, SERIALNUMBER=604 419 559, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "ECC9BCB47D6506452753F3DF19677B35AEB36E2B",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WinSCP.WinSCP",
+      "version": "6.7.1",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://sourceforge.net/projects/winscp/files/WinSCP/6.7.1/WinSCP-6.7.1-Setup.exe/download",
+      "sha256": "95ea85587c30ac6dd0c4b8148e16971f7854a6eee9e68298bf007566ebbe7603",
+      "size": 13176776,
+      "signer_subject": "CN=Martin Přikryl, O=Martin Přikryl, L=Praha, C=CZ, SERIALNUMBER=87331519, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CZ",
+      "signer_thumbprint": "FD9BB1AE8DA14A218825FEC4A1BFB26DC8F005E7",
+      "allowed_hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "netactuate.dl.sourceforge.net"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WiseCleaner.WiseDiskCleaner",
+      "version": "11.4.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://downloads.wisecleaner.com/soft/WDCFree_11.4.0.860.exe",
+      "sha256": "bb0db1256e4c0cf58908706b2fde76487cbed753b4bf87f14cfe8575a0bcf463",
+      "size": 12441696,
+      "signer_subject": "CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "D148CE160096C9E7B425030F75C18C74CE4DE488",
+      "allowed_hosts": [
+        "downloads.wisecleaner.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WiseCleaner.WiseProgramUninstaller",
+      "version": "3.2.7",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://downloads.wisecleaner.com/soft/WPUSetup_3.2.7.271.exe",
+      "sha256": "38eb4c58eac53af4232702b77f4ae0f0d3ba6c2e179560e1f8853dcbce43f2e1",
+      "size": 11134648,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CN, OID.2.5.4.15=Private Organization, CN=\"Lespeed Technology Co., Ltd\", SERIALNUMBER=91110101593898951F, O=\"Lespeed Technology Co., Ltd\", L=Beijing, C=CN",
+      "signer_thumbprint": "B910852E34BA52BEF2F23CA9FDE37B2219A718D3",
+      "allowed_hosts": [
+        "downloads.wisecleaner.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WiseCleaner.WiseRegistryCleaner",
+      "version": "11.3.3",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://downloads.wisecleaner.com/soft/WRCFree_11.3.3.735.exe",
+      "sha256": "d2b36e6a5314ca79e45f5451f990bfb1faa7d4cb6b11249c6cf884c821c686cc",
+      "size": 11250800,
+      "signer_subject": "CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "D148CE160096C9E7B425030F75C18C74CE4DE488",
+      "allowed_hosts": [
+        "downloads.wisecleaner.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WiXToolset.WiXCLI",
+      "version": "7.0.1.0",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/wixtoolset/wix/releases/download/v7.0.1/wix-cli-x64.msi",
+      "sha256": "93673c89ab33b1fd3f07ad5e609b7cae694bd716b2914259b61a41c02303b64c",
+      "size": 12386304,
+      "signer_subject": "CN=FireGiant, O=FireGiant, L=West Lake Hills, S=Texas, C=US",
+      "signer_thumbprint": "AD691B49828EDAB02E90CCD4CFE31F70CF383A0C",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WiXToolset.WiXToolset",
+      "version": "3.14.1.8722",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x86",
+      "url": "https://github.com/wixtoolset/wix3/releases/download/wix3141rtm/wix314.exe",
+      "sha256": "6bf6d03d6923d9ef827ae1d943b90b42b8ebb1b0f68ef6d55f868fa34c738a29",
+      "size": 32438176,
+      "signer_subject": "CN=WiX Toolset (.NET Foundation), O=WiX Toolset (.NET Foundation), L=Redmond, S=Washington, C=US, SERIALNUMBER=603 389 068, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "C832C5A08718E880B35FF10FA8F41C5B6FF6F561",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Wondershare.Filmora",
+      "version": "16.0.16.22973",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.wondershare.com/cbs_down/filmora_64bit_16.0.16_full846.exe",
+      "sha256": "4da2beb1ceffd330465698a6211ffd7c8531d4edcab37ac33108889a0ca393e8",
+      "size": 912291848,
+      "signer_subject": "CN=\"Wondershare Technology Group Co.,Ltd\", O=\"Wondershare Technology Group Co.,Ltd\", L=拉萨市, S=西藏自治区, C=CN, SERIALNUMBER=91540195754285145H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=西藏自治区, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "991BF8D37DC065AB5368E58506B9E0421A9D78FC",
+      "allowed_hosts": [
+        "download.wondershare.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Xmind.Xmind",
+      "version": "27.1.5088",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://www.xmind.app/xmind/downloads/Xmind-for-Windows-x64bit-27.01.05088-202611110744.exe",
+      "sha256": "fdc4c858aec4de99a549b7f5ae7aa9aacb41535c131bacb234202eccd7633922",
+      "size": 225207888,
+      "signer_subject": "CN=XMIND LIMITED, O=XMIND LIMITED, L=Hong Kong, S=Hong Kong, C=HK",
+      "signer_thumbprint": "A3DE172229FC42563DB23B8ABC4720C15D53BE64",
+      "allowed_hosts": [
+        "www.xmind.app",
+        "dl3.xmind.app"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "XnSoft.XnConvert",
+      "version": "1.118.0.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.118.0-win-x64.exe",
+      "sha256": "5dd127ae5083ad0502277cfd4f8d1cfc65c84bbc07b61fd785906ba3e0dedea6",
+      "size": 27219000,
+      "signer_subject": "CN=GOUGELET PIERRE-EMMANUEL, O=GOUGELET PIERRE-EMMANUEL, L=Betheny, C=FR",
+      "signer_thumbprint": "3637CE6DE8DB533D81294C1614C0E952CD505418",
+      "allowed_hosts": [
+        "download.xnview.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "XnSoft.XnView.Classic",
+      "version": "2.52.7",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://download.xnview.com/old_versions/XnView_Classic/XnView_Classic-2.52.7-win-full.exe",
+      "sha256": "741bca33be3b59b27ace8ffba13f7111854a36345647b3af35a5a79539724fc9",
+      "size": 22301360,
+      "signer_subject": "CN=GOUGELET PIERRE-EMMANUEL, O=GOUGELET PIERRE-EMMANUEL, L=Betheny, C=FR",
+      "signer_thumbprint": "3637CE6DE8DB533D81294C1614C0E952CD505418",
+      "allowed_hosts": [
+        "download.xnview.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "XnSoft.XnViewMP",
+      "version": "1.12.3.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.12.3-win-x64.exe",
+      "sha256": "ec9129b1262ade2df8c5b6e4d71edf223b99576a3a6e74398c76802b36aa9d81",
+      "size": 71849136,
+      "signer_subject": "CN=GOUGELET PIERRE-EMMANUEL, O=GOUGELET PIERRE-EMMANUEL, L=Betheny, C=FR",
+      "signer_thumbprint": "3637CE6DE8DB533D81294C1614C0E952CD505418",
+      "allowed_hosts": [
+        "download.xnview.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Yubico.Authenticator",
+      "version": "7.4.2",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.4.2/yubico-authenticator-7.4.2-win64.msi",
+      "sha256": "9f252a0f2ef06c11a580bb95952ec4ebdc6f1e4d533341aee920f790f5c327f4",
+      "size": 61698048,
+      "signer_subject": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
+      "signer_thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "ZeroTier.ZeroTierOne",
+      "version": "1.16.2",
+      "arch": "neutral",
+      "installer_type": "msi",
+      "installer_arch": "x86",
+      "url": "https://download.zerotier.com/RELEASES/1.16.2/dist/ZeroTierOne.msi",
+      "sha256": "42514072b0fe44b8f66e0395bcd23a0b1d1642c28ed00831f1527b2f41b14670",
+      "size": 12003840,
+      "signer_subject": "E=contact@zerotier.com, CN=\"ZEROTIER, INC.\", O=\"ZEROTIER, INC.\", L=Irvine, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=5682807, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "427F9B642B3EC4432B47171D2046AF9F1921F9B0",
+      "allowed_hosts": [
+        "download.zerotier.com"
+      ],
+      "checked_at": "2026-11-13T09:38:58.78776Z"
     }
   ]
 }
