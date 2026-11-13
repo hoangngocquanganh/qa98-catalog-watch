@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-12T22:41:19.3102232Z",
+  "checked_at": "2026-11-13T02:58:44.2039468Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-12T22:41:19.3102232Z",
-  "catalog_revision": 73,
-  "total_keys": 966,
-  "hidden": 23,
-  "cycle_position": 771,
+  "catalog_revision": 76,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 73,
+    "catalog_revision": 76,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
@@ -284,13 +284,6 @@
       "silent_switch": true
     },
     {
-      "slug": "bytedance-capcut",
-      "winget_id": "ByteDance.CapCut",
-      "version": "9.7.1.4203",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
       "slug": "bytedance-lark",
       "winget_id": "ByteDance.Lark",
       "version": "8.5.12",
@@ -385,13 +378,6 @@
       "slug": "electronicarts-origin",
       "winget_id": "ElectronicArts.Origin",
       "version": "10.5.129.55742",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "element-element",
-      "winget_id": "Element.Element",
-      "version": "1.12.34",
       "installer_type": "exe",
       "silent_switch": true
     },
