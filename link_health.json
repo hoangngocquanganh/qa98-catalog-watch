@@ -1,24 +1,15 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-13T18:16:16.8621763Z",
-  "catalog_revision": 141,
+  "generated_at": "2026-11-14T03:39:05.9579368Z",
+  "catalog_revision": 170,
   "hidden": [
-    {
-      "winget_id": "Bandisoft.Bandizip",
-      "slug": "bandisoft-bandizip",
-      "version": "7.47",
-      "reason": "sha256 mismatch",
-      "since": "2026-11-13T18:16:16.8621763Z",
-      "fails": 0,
-      "note": "https://bandisoft.app/bandizip/BANDIZIP-SETUP-STD-ALL.EXE expected f35590f4b2660d0698049a454167381efa462e5821b32af5e4562bc4ac929d44 got 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111"
-    },
     {
       "winget_id": "DelugeTeam.Deluge",
       "slug": "delugeteam-deluge",
       "version": "2.2.0",
       "reason": "url is not https",
       "since": "2026-11-10T11:35:40.4958045Z",
-      "fails": 9,
+      "fails": 10,
       "note": "http://download.deluge-torrent.org/windows/deluge-2.2.0-win32-setup.exe"
     },
     {
@@ -27,7 +18,7 @@
       "version": "latest",
       "reason": "winget manifest missing",
       "since": "2026-11-10T23:47:11.4997693Z",
-      "fails": 8,
+      "fails": 9,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/i/IridiumIO/CompactGUI/latest/IridiumIO.CompactGUI.installer.yaml"
     },
     {
@@ -36,7 +27,7 @@
       "version": "16.0.20228.20124",
       "reason": "sha256 mismatch",
       "since": "2026-11-11T18:46:14.3083732Z",
-      "fails": 6,
+      "fails": 7,
       "note": "https://officecdn.microsoft.com/pr/wsus/setup.exe expected f266bc16834fbfae5aa7aca7c27ed5f393cac0bb2acebc2d5bb2dd7813cf7497 got c883ab32dffe4a371bb37411de83edc5d62ff31d315c5e3b59e830326bb4e322"
     },
     {
@@ -45,7 +36,7 @@
       "version": "1.22.0.737",
       "reason": "HTTP 403 (repeated)",
       "since": "2026-11-12T22:41:19.3102232Z",
-      "fails": 3,
+      "fails": 4,
       "note": "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe"
     }
   ]

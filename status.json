@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-13T23:41:42.68431Z",
+  "checked_at": "2026-11-14T03:39:05.9579368Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,30 +11,30 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": false,
-  "last_probe_at": "2026-11-13T18:16:16.8621763Z",
-  "catalog_revision": 150,
-  "total_keys": 0,
-  "hidden": 0,
-  "cycle_position": 0,
+  "ran_probe": true,
+  "last_probe_at": "2026-11-14T03:39:05.9579368Z",
+  "catalog_revision": 170,
+  "total_keys": 983,
+  "hidden": 4,
+  "cycle_position": 6,
   "error": "",
   "pages": {
-    "catalog_revision": 150,
+    "catalog_revision": 170,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-13T18:16:16.8621763Z",
-    "seconds": 117,
-    "probed": 99,
-    "ok": 91,
-    "hashed": 76,
-    "transient": 1,
-    "broken": 6,
+    "at": "2026-11-14T03:39:05.9579368Z",
+    "seconds": 103,
+    "probed": 100,
+    "ok": 92,
+    "hashed": 72,
+    "transient": 0,
+    "broken": 7,
     "hash_mismatch": 1,
-    "skipped": 1,
+    "skipped": 0,
     "wide_outage": false
   },
   "silent_missing": [
@@ -70,13 +70,6 @@
       "slug": "discord",
       "winget_id": "Discord.Discord",
       "version": "1.0.9268",
-      "installer_type": "exe",
-      "silent_switch": false
-    },
-    {
-      "slug": "discord-discord-canary",
-      "winget_id": "Discord.Discord.Canary",
-      "version": "1.0.1327",
       "installer_type": "exe",
       "silent_switch": false
     },
