@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-14T03:39:05.9579368Z",
+  "checked_at": "2026-11-14T10:59:37.690715Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,27 +12,27 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-14T03:39:05.9579368Z",
-  "catalog_revision": 170,
-  "total_keys": 983,
-  "hidden": 4,
-  "cycle_position": 6,
+  "last_probe_at": "2026-11-14T10:59:37.690715Z",
+  "catalog_revision": 190,
+  "total_keys": 1005,
+  "hidden": 7,
+  "cycle_position": 78,
   "error": "",
   "pages": {
-    "catalog_revision": 170,
+    "catalog_revision": 190,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-14T03:39:05.9579368Z",
-    "seconds": 103,
+    "at": "2026-11-14T10:59:37.690715Z",
+    "seconds": 21,
     "probed": 100,
-    "ok": 92,
-    "hashed": 72,
+    "ok": 90,
+    "hashed": 26,
     "transient": 0,
-    "broken": 7,
+    "broken": 9,
     "hash_mismatch": 1,
     "skipped": 0,
     "wide_outage": false
@@ -70,6 +70,13 @@
       "slug": "discord",
       "winget_id": "Discord.Discord",
       "version": "1.0.9268",
+      "installer_type": "exe",
+      "silent_switch": false
+    },
+    {
+      "slug": "discord-discord-canary",
+      "winget_id": "Discord.Discord.Canary",
+      "version": "1.0.1330",
       "installer_type": "exe",
       "silent_switch": false
     },
@@ -252,6 +259,13 @@
       "slug": "bytedance-lark",
       "winget_id": "ByteDance.Lark",
       "version": "8.5.12",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "celsys-clipstudiopaint",
+      "winget_id": "Celsys.ClipStudioPaint",
+      "version": "5.1.4",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -739,6 +753,13 @@
       "silent_switch": true
     },
     {
+      "slug": "movavi-movavivideosuite",
+      "winget_id": "Movavi.MovaviVideoSuite",
+      "version": "27.0.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "msys2-msys2",
       "winget_id": "MSYS2.MSYS2",
       "version": "20260927",
@@ -868,6 +889,20 @@
       "slug": "proton-protonmail",
       "winget_id": "Proton.ProtonMail",
       "version": "1.16.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "quora-poe",
+      "winget_id": "Quora.Poe",
+      "version": "1.1.40",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "randomengy-vidcoder",
+      "winget_id": "RandomEngy.VidCoder",
+      "version": "12.23.0",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1099,12 +1134,6 @@
   "heals": [],
   "heal_blocked": [
     {
-      "vkey": "w:bandisoft.bandizip|7.47",
-      "slug": "bandisoft-bandizip",
-      "version": "7.47",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB)"
-    },
-    {
       "vkey": "w:delugeteam.deluge|2.2.0",
       "slug": "delugeteam-deluge",
       "version": "2.2.0",
@@ -1145,6 +1174,12 @@
       "slug": "techpowerup-throttlestop",
       "version": "9.7",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:warp.warp|latest",
+      "slug": "warp-warp",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T03:39:05.9579368Z",
-  "catalog_revision": 170,
+  "generated_at": "2026-11-14T10:59:37.690715Z",
+  "catalog_revision": 190,
   "hidden": [
     {
       "winget_id": "DelugeTeam.Deluge",
@@ -9,7 +9,7 @@
       "version": "2.2.0",
       "reason": "url is not https",
       "since": "2026-11-10T11:35:40.4958045Z",
-      "fails": 10,
+      "fails": 11,
       "note": "http://download.deluge-torrent.org/windows/deluge-2.2.0-win32-setup.exe"
     },
     {
@@ -18,7 +18,7 @@
       "version": "latest",
       "reason": "winget manifest missing",
       "since": "2026-11-10T23:47:11.4997693Z",
-      "fails": 9,
+      "fails": 10,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/i/IridiumIO/CompactGUI/latest/IridiumIO.CompactGUI.installer.yaml"
     },
     {
@@ -27,7 +27,7 @@
       "version": "16.0.20228.20124",
       "reason": "sha256 mismatch",
       "since": "2026-11-11T18:46:14.3083732Z",
-      "fails": 7,
+      "fails": 8,
       "note": "https://officecdn.microsoft.com/pr/wsus/setup.exe expected f266bc16834fbfae5aa7aca7c27ed5f393cac0bb2acebc2d5bb2dd7813cf7497 got c883ab32dffe4a371bb37411de83edc5d62ff31d315c5e3b59e830326bb4e322"
     },
     {
@@ -36,8 +36,35 @@
       "version": "1.22.0.737",
       "reason": "HTTP 403 (repeated)",
       "since": "2026-11-12T22:41:19.3102232Z",
-      "fails": 4,
+      "fails": 5,
       "note": "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe"
+    },
+    {
+      "winget_id": "TechPowerUp.GPU-Z",
+      "slug": "techpowerup-gpu-z",
+      "version": "2.71.0",
+      "reason": "HTTP 404",
+      "since": "2026-11-13T18:16:16.8621763Z",
+      "fails": 3,
+      "note": "https://us1-dl.techpowerup.com/files/GPU-Z.2.71.0.exe"
+    },
+    {
+      "winget_id": "TechPowerUp.NVCleanstall",
+      "slug": "techpowerup-nvcleanstall",
+      "version": "1.19.0",
+      "reason": "redirect to non-https",
+      "since": "2026-11-13T18:16:16.8621763Z",
+      "fails": 3,
+      "note": "https://closest-dl.techpowerup.com/files/NVCleanstall_1.19.0.exe"
+    },
+    {
+      "winget_id": "TechPowerUp.ThrottleStop",
+      "slug": "techpowerup-throttlestop",
+      "version": "9.7",
+      "reason": "HTTP 404",
+      "since": "2026-11-13T18:16:16.8621763Z",
+      "fails": 3,
+      "note": "https://uk2-dl.techpowerup.com/files/ThrottleStop_9.7.zip"
     }
   ]
 }
