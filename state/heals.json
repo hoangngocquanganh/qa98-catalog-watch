@@ -1,19 +1,31 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-14T09:03:49.3560912Z",
+  "updated_at": "2026-11-14T19:13:30.4743308Z",
   "last_run": {
-    "at": "2026-11-14T09:03:49.3560912Z",
-    "seconds": 21,
-    "failing": 8,
+    "at": "2026-11-14T19:13:30.4743308Z",
+    "seconds": 13,
+    "failing": 10,
     "healed": 0,
-    "blocked": 8,
+    "blocked": 10,
     "downloads": 4,
     "downloaded_mb": 6,
-    "harvested": 4,
-    "anchors": 430
+    "harvested": 3,
+    "anchors": 435
   },
   "heals": [],
   "heal_blocked": [
+    {
+      "vkey": "w:ablaze.floorp|latest",
+      "slug": "ablaze-floorp",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
+    {
+      "vkey": "w:anaconda.miniconda3|latest",
+      "slug": "anaconda-miniconda3",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
       "slug": "delugeteam-deluge",
@@ -1095,6 +1107,16 @@
       "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
+      "id": "w:cloudflare.cloudflared",
+      "version": "2026.11.0",
+      "sha256": "a8500dc66eb21b1b48e5f362809afb6d583099f283ed253bbf69a9c0e0c90999",
+      "size": 19810816,
+      "subject": "CN=\"Cloudflare, Inc.\", O=\"Cloudflare, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=4710875, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "0B6C68C4BAD79F9AC39E07FE84223FB796D4D0BC",
+      "source": "harvest",
+      "at": "2026-11-14T19:13:30.4743308Z"
+    },
+    {
       "id": "w:cloudflare.warp",
       "version": "26.8.2115.0",
       "sha256": "ab3138dbebdf132af076b5ebcb25b42345d29258acb76267c3bd1f8cfea57a53",
@@ -1105,6 +1127,16 @@
       "at": "2026-11-10T10:47:18.4487002Z"
     },
     {
+      "id": "w:clsid2.mpc-hc",
+      "version": "2.8.5",
+      "sha256": "ef3b3273130f5e4312e608de0253bdc3b96187ef73655603719812973649437e",
+      "size": 23200143,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-14T19:13:30.4743308Z"
+    },
+    {
       "id": "w:cnristi.meshlab",
       "version": "2025.07",
       "sha256": "3465998cb2dbded0dd9336367bdb9d2ba9e68230c9f188e55e03c274937e70ee",
@@ -1113,6 +1145,16 @@
       "thumbprint": "BDE5812478368ECA7365C58C37961BBBC44554D0",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:coccoc.coccoc",
+      "version": "120.0.6099.234",
+      "sha256": "9abf488b94b11c40bedc53e38f2e34804ec94a8c4783191022c85c91a6e414b7",
+      "size": 1008296,
+      "subject": "E=admin@coccoc.com, CN=COC COC COMPANY LIMITED, O=COC COC COMPANY LIMITED, L=HA NOI, S=HA NOI, C=VN",
+      "thumbprint": "10F6DBF8E6CB3295171830EE0C7F00F4CBF97BCC",
+      "source": "harvest",
+      "at": "2026-11-14T19:13:30.4743308Z"
     },
     {
       "id": "w:comfy.comfyui-desktop",
@@ -1353,6 +1395,16 @@
       "thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "source": "pin",
       "at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "w:eclipseadoptium.temurin.11.jre",
+      "version": "11.0.33.10",
+      "sha256": "09542d212951bfcd1fa66978fba3c9c3a27fac01501b8887ddea89f56051a702",
+      "size": 31551488,
+      "subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "source": "pin",
+      "at": "2026-11-14T19:13:26.0855903Z"
     },
     {
       "id": "w:eclipseadoptium.temurin.17.jdk",
@@ -2146,13 +2198,13 @@
     },
     {
       "id": "w:kde.kdeconnect",
-      "version": "26.08.2",
+      "version": "26.08.1",
       "sha256": "5a3536bd37673599aab651ca12715a6efcf5a7a1323306c4f979edcca052b7d3",
       "size": 94478088,
       "subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
       "thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-14T19:13:26.0855903Z"
     },
     {
       "id": "w:kde.kdenlive",
@@ -4363,6 +4415,16 @@
       "thumbprint": "B4ACAAA43CA1F0929454C706BD65B39760C3A7E2",
       "source": "pin",
       "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:zulip.zulip",
+      "version": "5.14.2",
+      "sha256": "af0dc5cc02df300ad443ff54ded9eecd932bf051c75a5b2eff8cac50f4ac6101",
+      "size": 820736,
+      "subject": "CN=\"Kandra Labs, Inc.\", O=\"Kandra Labs, Inc.\", L=San Francisco, S=California, C=US",
+      "thumbprint": "9221BAADA4B49618E4890C83D3A3AE9636F6FBF4",
+      "source": "pin",
+      "at": "2026-11-14T19:13:26.0855903Z"
     }
   ]
 }

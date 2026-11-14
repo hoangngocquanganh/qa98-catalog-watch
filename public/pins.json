@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-14T09:02:40.6390042Z",
-  "catalog_revision": 186,
-  "count": 363,
+  "generated_at": "2026-11-14T19:13:26.0855903Z",
+  "catalog_revision": 192,
+  "count": 365,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -1173,6 +1173,23 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-10T12:29:04.7928657Z"
+    },
+    {
+      "id": "EclipseAdoptium.Temurin.11.JRE",
+      "version": "11.0.33.10",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi",
+      "sha256": "09542d212951bfcd1fa66978fba3c9c3a27fac01501b8887ddea89f56051a702",
+      "size": 31551488,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T19:13:26.0855903Z"
     },
     {
       "id": "EclipseAdoptium.Temurin.17.JDK",
@@ -2447,7 +2464,7 @@
     },
     {
       "id": "KDE.KDEConnect",
-      "version": "26.08.2",
+      "version": "26.08.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
@@ -2458,9 +2475,9 @@
       "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "allowed_hosts": [
         "download.kde.org",
-        "www.mirrorservice.org"
+        "mirrors.ocf.berkeley.edu"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-14T19:13:26.0855903Z"
     },
     {
       "id": "KDE.Kdenlive",
@@ -5957,6 +5974,23 @@
         "dl.deskin.io"
       ],
       "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "Zulip.Zulip",
+      "version": "5.14.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/zulip/zulip-desktop/releases/download/v5.14.2/Zulip-Web-Setup-5.14.2.exe",
+      "sha256": "af0dc5cc02df300ad443ff54ded9eecd932bf051c75a5b2eff8cac50f4ac6101",
+      "size": 820736,
+      "signer_subject": "CN=\"Kandra Labs, Inc.\", O=\"Kandra Labs, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "9221BAADA4B49618E4890C83D3A3AE9636F6FBF4",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T19:13:26.0855903Z"
     }
   ]
 }

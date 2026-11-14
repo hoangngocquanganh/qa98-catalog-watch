@@ -1,25 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-14T09:02:40.6390042Z",
-  "catalog_revision": 186,
+  "updated_at": "2026-11-14T19:13:26.0855903Z",
+  "catalog_revision": 192,
   "last_run": {
-    "at": "2026-11-14T09:02:40.6390042Z",
-    "seconds": 68,
-    "checked": 72,
-    "downloads": 40,
-    "downloaded_mb": 6034,
-    "pinned": 30,
-    "skipped": 41,
+    "at": "2026-11-14T19:13:26.0855903Z",
+    "seconds": 4,
+    "checked": 11,
+    "downloads": 3,
+    "downloaded_mb": 120,
+    "pinned": 3,
+    "skipped": 8,
     "transient": 0,
-    "deferred": 1,
+    "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 22,
-      "installer type … not supported by pinned route": 8,
-      "authenticode NotSigned": 6,
-      "sha256 mismatch with manifest …": 2,
-      "download HTTP …": 1,
-      "winget manifest missing": 1,
-      "download larger than … MB": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 6,
+      "installer type … not supported by pinned route": 2
     }
   },
   "entries": [
@@ -4026,6 +4021,26 @@
       "silent_check": "ok"
     },
     {
+      "key": "eclipseadoptium.temurin.11.jre|11.0.33.10|neutral",
+      "status": "pinned",
+      "id": "EclipseAdoptium.Temurin.11.JRE",
+      "version": "11.0.33.10",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi",
+      "sha256": "09542d212951bfcd1fa66978fba3c9c3a27fac01501b8887ddea89f56051a702",
+      "size": 31551488,
+      "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
+      "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "eclipseadoptium.temurin.17.jdk|17.0.21.9|neutral",
       "status": "pinned",
       "id": "EclipseAdoptium.Temurin.17.JDK",
@@ -6355,6 +6370,24 @@
       "silent_check": "ok"
     },
     {
+      "key": "harman.adobeair|51.4.1.2|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "HARMAN.AdobeAIR",
+      "version": "51.4.1.2",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "silent_check": "exe"
+    },
+    {
       "key": "hashicorp.consul|2.1.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
@@ -7939,10 +7972,10 @@
       "silent_check": "ok"
     },
     {
-      "key": "kde.kdeconnect|26.08.2|neutral",
+      "key": "kde.kdeconnect|26.08.1|neutral",
       "status": "pinned",
       "id": "KDE.KDEConnect",
-      "version": "26.08.2",
+      "version": "26.08.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
@@ -7953,9 +7986,9 @@
       "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "allowed_hosts": [
         "download.kde.org",
-        "www.mirrorservice.org"
+        "mirrors.ocf.berkeley.edu"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
       "silent_check": "ok"
     },
     {
@@ -8072,6 +8105,24 @@
       ],
       "checked_at": "2026-11-13T11:46:19.970466Z",
       "silent_check": "ok"
+    },
+    {
+      "key": "khronosgroup.vulkanrt|1.4.363.0|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "KhronosGroup.VulkanRT",
+      "version": "1.4.363.0",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "silent_check": "exe"
     },
     {
       "key": "kicad.kicad|10.0.8|neutral",
@@ -9085,6 +9136,24 @@
       "silent_check": "exe"
     },
     {
+      "key": "microsoft.accessdatabaseengine.2016|16.0.5044.1000|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "id": "Microsoft.AccessDatabaseEngine.2016",
+      "version": "16.0.5044.1000",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "silent_check": "exe"
+    },
+    {
       "key": "microsoft.azd|1.37.400|neutral",
       "status": "pinned",
       "id": "Microsoft.Azd",
@@ -9264,6 +9333,24 @@
         "download.microsoft.com"
       ],
       "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.dotnet.aspnetcore.9|9.0.23|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.DotNet.AspNetCore.9",
+      "version": "9.0.23",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
       "silent_check": "ok"
     },
     {
@@ -9581,6 +9668,24 @@
       "silent_check": "ok"
     },
     {
+      "key": "microsoft.dotnet.runtime.10|10.0.15|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.DotNet.Runtime.10",
+      "version": "10.0.15",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "microsoft.dotnet.runtime.8|8.0.34|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -9850,6 +9955,24 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "microsoft.msodbcsql.18|18.7.1.1|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.msodbcsql.18",
+      "version": "18.7.1.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
       "silent_check": "ok"
     },
     {
@@ -10813,6 +10936,24 @@
       "silent_check": "ok"
     },
     {
+      "key": "microsoft.vstor|10.0.60917|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Microsoft.VSTOR",
+      "version": "10.0.60917",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "silent_check": "exe"
+    },
+    {
       "key": "microsoft.windbg|1.2611.4001.0|neutral",
       "status": "skipped",
       "reason": "installer type 'msix' not supported by pinned route",
@@ -10884,6 +11025,24 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "microsoft.windowsappruntime.1.7|1.7.9|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Microsoft.WindowsAppRuntime.1.7",
+      "version": "1.7.9",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
       "silent_check": "exe"
     },
     {
@@ -19325,6 +19484,26 @@
         "dl.deskin.io"
       ],
       "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "zulip.zulip|5.14.2|neutral",
+      "status": "pinned",
+      "id": "Zulip.Zulip",
+      "version": "5.14.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/zulip/zulip-desktop/releases/download/v5.14.2/Zulip-Web-Setup-5.14.2.exe",
+      "sha256": "af0dc5cc02df300ad443ff54ded9eecd932bf051c75a5b2eff8cac50f4ac6101",
+      "size": 820736,
+      "signer_subject": "CN=\"Kandra Labs, Inc.\", O=\"Kandra Labs, Inc.\", L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "9221BAADA4B49618E4890C83D3A3AE9636F6FBF4",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T19:13:26.0855903Z",
       "silent_check": "ok"
     }
   ]
