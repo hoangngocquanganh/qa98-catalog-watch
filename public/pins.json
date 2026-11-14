@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-13T20:55:58.7181039Z",
-  "catalog_revision": 143,
-  "count": 336,
+  "generated_at": "2026-11-14T09:02:40.6390042Z",
+  "catalog_revision": 186,
+  "count": 363,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -549,6 +549,22 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "Bin-Huang.Chatbox",
+      "version": "1.24.4",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.4-Setup.exe",
+      "sha256": "7d67a0df61c9daf5d3aed57434fcd7d6b0bb98856ec69d16cd3c07bafef24187",
+      "size": 241083488,
+      "signer_subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
+      "allowed_hosts": [
+        "download.chatboxai.app"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "Bitwarden.Bitwarden",
       "version": "2026.10.4",
       "arch": "x64",
@@ -614,6 +630,22 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "ByteDance.Trae",
+      "version": "3.6.13",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/2.3.99397/win32/TRAE-Setup-x64.exe",
+      "sha256": "b9ab1d0c032671d3e33b7c188107a6f2333b3c760a10ceac1ad49bb5fd7b4e06",
+      "size": 462074064,
+      "signer_subject": "CN=SPRING (SG) PTE. LTD, O=SPRING (SG) PTE. LTD, L=Singapore, C=SG, SERIALNUMBER=202325236K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "signer_thumbprint": "54651F859DD2D0CA549DDEC1DCEE2683B975AECC",
+      "allowed_hosts": [
+        "lf-cdn.trae.ai"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "calibre.calibre",
       "version": "9.18.0",
       "arch": "neutral",
@@ -644,6 +676,22 @@
         "desktop-release.canva.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Canva.Cavalry",
+      "version": "2.8.1",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://cavalry.studio/downloads/latest/Cavalry.msi",
+      "sha256": "b79d08290b6f1320154b9fec46cee1b4bba81a9670af636611f4c53e8057420a",
+      "size": 158474240,
+      "signer_subject": "CN=Scene Group Limited, O=Scene Group Limited, S=West Sussex, C=GB, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB, SERIALNUMBER=12051157",
+      "signer_thumbprint": "F60FDB4CF1CBAD31E268D191892054F02E2E3DCA",
+      "allowed_hosts": [
+        "cavalry.studio"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Caphyon.AdvancedInstaller",
@@ -726,6 +774,22 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Comfy.ComfyUI-Desktop",
+      "version": "1.1.9",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://download.todesktop.com/241130tqe9q3y/Comfy%20Desktop%20Setup%201.1.9%20-%20Build%202611063zxyb71c9-x64.exe",
+      "sha256": "0984db7e388c88dedc97a70f350c6c3ba7c9635aece45056aed74aeeb730ffe1",
+      "size": 180826352,
+      "signer_subject": "CN=Drip Artificial Inc, O=Drip Artificial Inc, L=San Francisco, S=California, C=US, SERIALNUMBER=7174150, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "1D402FC088C188225E418022A10EF440671A3728",
+      "allowed_hosts": [
+        "download.todesktop.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Corel.WinZip",
@@ -962,6 +1026,22 @@
         "cdn-content.dzcdn.net"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "Descript.Descript",
+      "version": "2.22.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://static-cdn.descript.com/desktop/win32/x64/Descript%20Setup%202.22.1.exe",
+      "sha256": "a6061ebbbdecdf6ccc5441549003e3e35c5256c4e18525e6a47c0e608df1759e",
+      "size": 114873896,
+      "signer_subject": "CN=\"Descript, Inc.\", O=\"Descript, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=6513511, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "49BA6E89EEB8461BF3C3021B379F90E0F8DF13D5",
+      "allowed_hosts": [
+        "static-cdn.descript.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Devolutions.UniGetUI",
@@ -2215,6 +2295,23 @@
       "checked_at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "Jan.Jan",
+      "version": "0.8.8",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_x64-setup.exe",
+      "sha256": "08aca371733b76200e44e95d677cdd15e96609f86f919de57b97a5358ca21e9b",
+      "size": 571697752,
+      "signer_subject": "E=service@jan.ai, CN=Jan AI Pte. Ltd., O=Jan AI Pte. Ltd., STREET=\"143 Cecil Street, #03-01, GB Building\", L=Singapore, S=Singapore, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202530877D, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "4BCC412A4C704971C736BB0999AE77E758008884",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "JannisX11.Blockbench",
       "version": "5.2.2",
       "arch": "neutral",
@@ -2597,6 +2694,22 @@
       "checked_at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "LWKS.Lightworks",
+      "version": "2025.2.56356",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://cdn.lwks.com/releases/2025.2/Lightworks-2025.2-56356.exe",
+      "sha256": "59f1c4cdb246b845c9b85a9dcd2a89c38b3e14cb43665248eed2c199dba9138d",
+      "size": 101905032,
+      "signer_subject": "CN=LWKS Software Ltd., O=LWKS Software Ltd., S=Wiltshire, C=GB, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB, SERIALNUMBER=12792578",
+      "signer_thumbprint": "2AC14E4727E50C42282FD5BEE4B8CD3F4630E77D",
+      "allowed_hosts": [
+        "cdn.lwks.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "MariaDB.Server",
       "version": "13.0.2.0",
       "arch": "neutral",
@@ -2628,6 +2741,22 @@
         "mediaarea.net"
       ],
       "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "Medibang.MediBangPaintPro",
+      "version": "29.1.0.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://medibangpaint.com/static/installer/MediBangPaintPro/MediBangPaintProSetup-29.1-64bit.exe",
+      "sha256": "551ea714f3c8fb3dfd394789616753066010d2b3491ea35da0bd3e78fcc25044",
+      "size": 43910192,
+      "signer_subject": "CN=MEDIBANG INC., O=MEDIBANG INC., STREET=\"12-10, Sakuragaokacho\", L=Shibuya-ku, S=Tokyo, PostalCode=150-0031, C=JP",
+      "signer_thumbprint": "6939CFE5F0D9B03B91B97058297ED119751CF528",
+      "allowed_hosts": [
+        "medibangpaint.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Meltytech.Shotcut",
@@ -2869,23 +2998,6 @@
         "download.microsoft.com"
       ],
       "checked_at": "2026-11-10T20:55:38.9607764Z"
-    },
-    {
-      "id": "Microsoft.PowerToys",
-      "version": "0.102.3101",
-      "arch": "x64",
-      "installer_type": "burn",
-      "installer_arch": "x64",
-      "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-x64.exe",
-      "sha256": "f1d24a49346167322eb64a2458bd82810519920d1da4c0aeb1788e54c345d142",
-      "size": 323977120,
-      "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
-      "allowed_hosts": [
-        "github.com",
-        "release-assets.githubusercontent.com"
-      ],
-      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Microsoft.SQLServerManagementStudio",
@@ -3195,6 +3307,22 @@
       "checked_at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "MoonshotAI.Kimi",
+      "version": "3.2.27",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://kimi-img.moonshot.cn/app/upgrade/Kimi-Setup-3.2.27.exe",
+      "sha256": "91437498a5326b3d74ca98e19296ad440c0cc706392258a294f9d13a39731bac",
+      "size": 444020656,
+      "signer_subject": "CN=北京月之暗面科技有限公司, O=北京月之暗面科技有限公司, S=北京市, C=CN, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91110108MACG2KBH8F",
+      "signer_thumbprint": "6DA99CCA99A69947C11F97395A55FD2DC683420D",
+      "allowed_hosts": [
+        "kimi-img.moonshot.cn"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "MoritzBunkus.MKVToolNix",
       "version": "103.0.0",
       "arch": "x64",
@@ -3358,6 +3486,22 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "MusicBrainz.Picard",
+      "version": "3.0.5",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://data.musicbrainz.org/pub/musicbrainz/picard/picard-setup-3.0.5.exe",
+      "sha256": "9af6baa80c39d59bf8f1c0759d0b4d015256963bd7e44437a4eda8221b37fe3c",
+      "size": 64793976,
+      "signer_subject": "CN=MetaBrainz Foundation Inc., O=MetaBrainz Foundation Inc., L=Covina, S=California, C=US",
+      "signer_thumbprint": "AA15A851A5401BAC714E4B851CD37232E8329F21",
+      "allowed_hosts": [
+        "data.musicbrainz.org"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "namazso.OpenHashTab",
@@ -3675,6 +3819,22 @@
       "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
+      "id": "OpenMedia.4KVideoDownloaderPlus",
+      "version": "26.3.5.396",
+      "arch": "neutral",
+      "installer_type": "burn",
+      "installer_arch": "x64",
+      "url": "https://dl.4kdownload.com/app/4kvideodownloaderplus_26.3.5_x64_offline.exe?source=winget",
+      "sha256": "d22abfe8896a1f3bc6ea77d7b17abc602c4d1c1804d1c8916d1ece2340008d2b",
+      "size": 216760360,
+      "signer_subject": "CN=InterPromo GMBH, O=InterPromo GMBH, L=Baden-Baden, C=DE",
+      "signer_thumbprint": "A9826B653F758A868905E31F16D0230FEFB3C0B8",
+      "allowed_hosts": [
+        "dl.4kdownload.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "OpenVPNTechnologies.OpenVPN",
       "version": "2.7.901",
       "arch": "x64",
@@ -3837,6 +3997,22 @@
       "checked_at": "2026-11-11T21:27:51.6491038Z"
     },
     {
+      "id": "PaulPacifico.ShutterEncoder",
+      "version": "20.5",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://www.shutterencoder.com/Shutter%20Encoder%2020.5%20Windows%2064bits.exe",
+      "sha256": "18779ec1472e6ee4712ca7e74d1d03c19baee8add2315d675acc58673f9d8e0b",
+      "size": 165867008,
+      "signer_subject": "CN=Paul Pacifico, O=Paul Pacifico, L=MERIGNAC, S=Nouvelle-Aquitaine, C=FR",
+      "signer_thumbprint": "4D9510F4CD23C00651A65998DE66C48599113BEE",
+      "allowed_hosts": [
+        "www.shutterencoder.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "PDFgear.PDFgear",
       "version": "3.0.1",
       "arch": "neutral",
@@ -3918,6 +4094,23 @@
         "cytranet-dal.dl.sourceforge.net"
       ],
       "checked_at": "2026-11-11T21:27:51.6491038Z"
+    },
+    {
+      "id": "pinokiocomputer.pinokio",
+      "version": "8.3.1",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.1/Pinokio.exe",
+      "sha256": "8202324e9edf7f550dec651c27dece299ff88b0ee654255f4a74d31d3f92f5f8",
+      "size": 146851960,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "0BB52F57C6B662F0651849858A6FCCC2C03ADA2D",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Pinta.Pinta",
@@ -4442,19 +4635,19 @@
     },
     {
       "id": "Readdle.Spark",
-      "version": "3.32.4",
+      "version": "3.32.5",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://downloads.sparkmailapp.com/Spark3/win/dist/3.32.4.141552/Spark.exe",
-      "sha256": "3f466550e7c1c4a4745287dd7d860589cef0bfac085b4547c9b7824492b3c08b",
-      "size": 229472240,
+      "url": "https://downloads.sparkmailapp.com/Spark3/win/dist/3.32.5.141587/Spark.exe",
+      "sha256": "e8cb9103a406d2ad7eefa748546c962b75818767f4c4d132c1f05b3a591ce4d4",
+      "size": 229474840,
       "signer_subject": "CN=Spark Mail Limited, O=Spark Mail Limited, L=Dalkey, C=IE, SERIALNUMBER=630862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IE",
       "signer_thumbprint": "7BFB6B11B72A19FBA8451D1552B4FFED77C52E0D",
       "allowed_hosts": [
         "downloads.sparkmailapp.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "RedisInsight.RedisInsight",
@@ -5013,20 +5206,20 @@
     },
     {
       "id": "Telegram.TelegramDesktop",
-      "version": "7.4.3",
+      "version": "7.4.4",
       "arch": "x64",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.3/td-setup-win-x64-7.4.3.exe",
-      "sha256": "b4ce3f2770cefb3797f71c021f90f634ffebc20ef9ce714aeba0c82d1829daf8",
-      "size": 65599048,
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.4/td-setup-win-x64-7.4.4.exe",
+      "sha256": "5e19f664bb01fafe8e5cece28ed976a4cf667e05e12d5b363536be74bc7689d7",
+      "size": 65617296,
       "signer_subject": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z"
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Telerik.Fiddler.Classic",
@@ -5175,6 +5368,22 @@
       "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
+      "id": "TopazLabs.TopazPhotoAI",
+      "version": "4.0.4",
+      "arch": "neutral",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://downloads.topazlabs.com/deploy/TopazPhotoAI/4.0.4/TopazPhotoAI-4.0.4.msi",
+      "sha256": "5d9463485957c65b2b247535c43b5e11cc78ad094b03e11dd6e85ea36c6e339c",
+      "size": 989892608,
+      "signer_subject": "CN=Topaz Labs LLC, O=Topaz Labs LLC, L=Dallas, S=Texas, C=US",
+      "signer_thumbprint": "86279816FA4EF3F83E9B88DD7D039CD496EA6CDC",
+      "allowed_hosts": [
+        "downloads.topazlabs.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "Ubisoft.Connect",
       "version": "175.1.0.13416",
       "arch": "neutral",
@@ -5206,6 +5415,38 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "uvncbvba.UltraVNC",
+      "version": "1.8.3.2",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://uvnc.eu/download/1800/UltraVNC_1832_x64_Setup.exe",
+      "sha256": "ae1bb545c59e082620997d98589e3aef871e71494cb100144c95608c8323b4f7",
+      "size": 6256464,
+      "signer_subject": "CN=Open Source Developer Rudi De Vos, O=Open Source Developer, L=Antwerpen, C=BE",
+      "signer_thumbprint": "FC73648251A581B15067983FBFA67D1008D1EB59",
+      "allowed_hosts": [
+        "uvnc.eu"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "Valve.Steam",
+      "version": "2.10.91.91",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x86",
+      "url": "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe",
+      "sha256": "7d3654531c32d941b8cae81c4137fc542172bfa9635f169cb392f245a0a12bcb",
+      "size": 2380800,
+      "signer_subject": "CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US",
+      "signer_thumbprint": "935767D66FAD4AD2D1F03A095C49370DC74DF607",
+      "allowed_hosts": [
+        "cdn.akamai.steamstatic.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Vercel.Hyper",
@@ -5259,6 +5500,55 @@
       "checked_at": "2026-11-13T20:55:58.7181039Z"
     },
     {
+      "id": "VSCodium.VSCodium",
+      "version": "1.143.17232",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodiumSetup-x64-1.143.17232.exe",
+      "sha256": "012125ae30f70d1c2f6366ec8c47aa0e293f0e799b704c0eb3721089f69bbdca",
+      "size": 164378472,
+      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "signer_thumbprint": "09E174E7BEBC3FACA0754CBB91E8C9571BFE5A16",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "VSDC.ScreenRecorder",
+      "version": "1.3.4.0",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloads.videosoftdev.com/video_tools/free_screen_recorder_x64.exe",
+      "sha256": "21b678af937b51ed83719380126bcf25f4e4df136064138134b7bfaac8ac531a",
+      "size": 77512912,
+      "signer_subject": "CN=FLASH-INTEGRO LLC, O=FLASH-INTEGRO LLC, S=Toshkent, C=UZ",
+      "signer_thumbprint": "BBA5B7F9BC2BF9447B4AC9061935B4178FBFBCDE",
+      "allowed_hosts": [
+        "downloads.videosoftdev.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "Wagnardsoft.DisplayDriverUninstaller",
+      "version": "18.1.5.3",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v18.1.5.3_setup.exe",
+      "sha256": "1e854c00aa7086a85559551abbfb8f0f3ebbb88a1c6126c6e7a1d0a61f25c0a1",
+      "size": 1747240,
+      "signer_subject": "CN=Wagnardsoft, O=Wagnardsoft, S=Quebec, C=CA",
+      "signer_thumbprint": "B6BBA6E363E88987CBE563658D41C4F0FFA3BD56",
+      "allowed_hosts": [
+        "www.wagnardsoft.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "Wampserver.Wampserver",
       "version": "3.4.0",
       "arch": "neutral",
@@ -5291,6 +5581,23 @@
       "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "WinDirStat.WinDirStat",
+      "version": "2.9.3",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://github.com/windirstat/windirstat/releases/download/release/v2.9.3/WinDirStat-x64.msi",
+      "sha256": "96c4c4beb63c7c5ad6b1a206f96560d7a9a2b6063f3cd175a82f392977a9af5d",
+      "size": 2486272,
+      "signer_subject": "CN=Open Source Developer Bryan Berns, O=Open Source Developer, L=Clifton Park, S=New York, C=US",
+      "signer_thumbprint": "82802376D2DD840614CC00C6EC8AD763CEA6D33C",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "WinFsp.WinFsp",
       "version": "2.1.25156",
       "arch": "neutral",
@@ -5306,6 +5613,23 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WinMerge.WinMerge",
+      "version": "2.16.60",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.60/WinMerge-2.16.60-x64-Setup.exe",
+      "sha256": "ed01097f60b63b3e7d58b3036064c40f05504a47c23c231a1081142295815f7f",
+      "size": 18697696,
+      "signer_subject": "CN=Takashi Sawanaka, O=Takashi Sawanaka, L=Chiba, S=Chiba, C=JP",
+      "signer_thumbprint": "4F8C8F56C77DCC6C96FE293589E06E4411C230C9",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "WinSCP.WinSCP",
@@ -5324,6 +5648,38 @@
         "netactuate.dl.sourceforge.net"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "WireGuard.WireGuard",
+      "version": "1.1.1",
+      "arch": "x64",
+      "installer_type": "wix",
+      "installer_arch": "x64",
+      "url": "https://download.wireguard.com/windows-client/wireguard-amd64-1.1.1.msi",
+      "sha256": "7bfed60ad61b785c914b38b61555a975488e1d3ec472dbfb2fcdf498fca75242",
+      "size": 3293184,
+      "signer_subject": "CN=WireGuard LLC, O=WireGuard LLC, S=Colorado, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ohio, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4227913",
+      "signer_thumbprint": "1B3AFA5E2A76BB51F00020002DCCADB165689C33",
+      "allowed_hosts": [
+        "download.wireguard.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "WiseCleaner.WiseCare365",
+      "version": "7.2.8",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x86",
+      "url": "https://downloads.wisecleaner.com/soft/WiseCare365_7.2.8.709.exe",
+      "sha256": "f08a4c8708da56aae4c35c76c657145c0523f883934c92b7458680b63ff10a16",
+      "size": 17377368,
+      "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CN, OID.2.5.4.15=Private Organization, CN=\"Lespeed Technology Co., Ltd\", SERIALNUMBER=91110101593898951F, O=\"Lespeed Technology Co., Ltd\", L=Beijing, C=CN",
+      "signer_thumbprint": "B910852E34BA52BEF2F23CA9FDE37B2219A718D3",
+      "allowed_hosts": [
+        "downloads.wisecleaner.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "WiseCleaner.WiseDiskCleaner",
@@ -5408,6 +5764,22 @@
       "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "Wondershare.DemoCreator",
+      "version": "8.8.7",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.wondershare.com/cbs_down/democreator_8.8.7_full7743.exe",
+      "sha256": "a64115bc629e467dfe610d20370487dc36639b5a2dd743417a7f75d3b5483c25",
+      "size": 559992368,
+      "signer_subject": "CN=\"Wondershare Technology Group Co.,Ltd\", O=\"Wondershare Technology Group Co.,Ltd\", L=拉萨市, S=西藏自治区, C=CN, SERIALNUMBER=91540195754285145H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=西藏自治区, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "7B9EFBC216771ADE4205AFC1328BC3C3D004B0FE",
+      "allowed_hosts": [
+        "download.wondershare.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "Wondershare.Filmora",
       "version": "16.0.16.22973",
       "arch": "neutral",
@@ -5422,6 +5794,22 @@
         "download.wondershare.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Wondershare.UniConverter.15",
+      "version": "15.7.3.47",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://download.wondershare.com/cbs_down/uniconverter15_64bit_15.7.3_full14204.exe",
+      "sha256": "9a87a7fd1ab0f74ee17da864be05cb70f36e166ad7f808ed3bc23cbbd6e10cc6",
+      "size": 282685672,
+      "signer_subject": "CN=\"Wondershare Technology Group Co.,Ltd\", O=\"Wondershare Technology Group Co.,Ltd\", L=拉萨市, S=西藏自治区, C=CN, SERIALNUMBER=91540195754285145H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=西藏自治区, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "B5B24B1B7D9A96C8BFA76A4D245EB630A3A1800C",
+      "allowed_hosts": [
+        "download.wondershare.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "Xmind.Xmind",
@@ -5506,6 +5894,22 @@
       "checked_at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "Yubico.YubikeyManager",
+      "version": "1.2.6",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-1.2.6-win64.exe",
+      "sha256": "fc8f1c992c5b9f5d542549072cf58178a45af31851561b22a768e35dbfd648b7",
+      "size": 68382872,
+      "signer_subject": "CN=Yubico AB, OU=Yubico Engineering, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
+      "signer_thumbprint": "CB7CADE8F51D0985D806BCD28E1FEC57D3034187",
+      "allowed_hosts": [
+        "developers.yubico.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "ZeroTier.ZeroTierOne",
       "version": "1.16.2",
       "arch": "neutral",
@@ -5520,6 +5924,39 @@
         "download.zerotier.com"
       ],
       "checked_at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "Zettlr.Zettlr",
+      "version": "4.10.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-x64.exe",
+      "sha256": "80fe5a7ce88ce6b47bd71a669ac7a3cb63b2c0a868daddcfcd29e052056eb423",
+      "size": 166182008,
+      "signer_subject": "CN=Benjamin Milburn-Town, O=Benjamin Milburn-Town, L=Richmond, S=Virginia, C=US",
+      "signer_thumbprint": "F847EF2E7AC30EFC291E841F8B345B27622C1284",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "ZulerTechnology.DeskIn",
+      "version": "3.3.3.0",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://dl.deskin.io/windows/DeskIn_Setup_v3.3.3.0_x64.exe",
+      "sha256": "193c8574e8dd048d0c142354e89abb63dfe9899eccf85a702b341fce21bb2390",
+      "size": 63854944,
+      "signer_subject": "CN=ZULER TECHNOLOGY PTE. LTD., O=ZULER TECHNOLOGY PTE. LTD., L=SINGAPORE, C=SG, SERIALNUMBER=202120309K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "signer_thumbprint": "B4ACAAA43CA1F0929454C706BD65B39760C3A7E2",
+      "allowed_hosts": [
+        "dl.deskin.io"
+      ],
+      "checked_at": "2026-11-14T09:02:40.6390042Z"
     }
   ]
 }

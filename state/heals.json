@@ -1,25 +1,19 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-13T20:57:59.2933352Z",
+  "updated_at": "2026-11-14T09:03:49.3560912Z",
   "last_run": {
-    "at": "2026-11-13T20:57:59.2933352Z",
-    "seconds": 17,
+    "at": "2026-11-14T09:03:49.3560912Z",
+    "seconds": 21,
     "failing": 8,
     "healed": 0,
     "blocked": 8,
-    "downloads": 5,
-    "downloaded_mb": 17,
+    "downloads": 4,
+    "downloaded_mb": 6,
     "harvested": 4,
-    "anchors": 399
+    "anchors": 430
   },
   "heals": [],
   "heal_blocked": [
-    {
-      "vkey": "w:bandisoft.bandizip|7.47",
-      "slug": "bandisoft-bandizip",
-      "version": "7.47",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252\" (SHA-256 20ef6974dd63e8f6e55b365551f8ad1fb72501c8af24c37967ef124675a44111, 10.8 MB)"
-    },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
       "slug": "delugeteam-deluge",
@@ -61,6 +55,12 @@
       "slug": "techpowerup-throttlestop",
       "version": "9.7",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:warp.warp|latest",
+      "slug": "warp-warp",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
     }
   ],
   "anchors": [
@@ -83,6 +83,16 @@
       "thumbprint": "668D58190E972578AABAE6478426C2A76CE52A57",
       "source": "harvest",
       "at": "2026-11-12T09:55:38.3937036Z"
+    },
+    {
+      "id": "s:bandisoft-bandizip",
+      "version": "7.47",
+      "sha256": "2a4557d43f5dd50f4e386cbde16bc71dda43555fa921dc8b22349d1c2b4ba401",
+      "size": 7413240,
+      "subject": "CN=Bandisoft International Inc., O=Bandisoft International Inc., S=Seoul, C=KR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=KR, SERIALNUMBER=683-88-02252",
+      "thumbprint": "5913750EA6A5235CAB33D32662DBB0106E7F688F",
+      "source": "harvest",
+      "at": "2026-11-14T09:03:49.3560912Z"
     },
     {
       "id": "s:bleachbit",
@@ -353,6 +363,16 @@
       "thumbprint": "B4E3D2B95782490ECB5C9B13F8956A9699AE4BDF",
       "source": "harvest",
       "at": "2026-11-10T20:56:53.3892786Z"
+    },
+    {
+      "id": "w:amazon.kiro",
+      "version": "1.4.154",
+      "sha256": "cf98bd8c5199886bb589b39b83b25cbed6c8f2bccef989a7231631a2d6f230d3",
+      "size": 224283832,
+      "subject": "CN=\"Amazon.com, Inc.\", OU=AWS Kiro, O=\"Amazon.com, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=2620453, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "936E025D82E8C1A04C1AFF51FBA6D5F72455C512",
+      "source": "harvest",
+      "at": "2026-11-14T09:03:49.3560912Z"
     },
     {
       "id": "w:amazon.sam-cli",
@@ -825,6 +845,16 @@
       "at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "w:bin-huang.chatbox",
+      "version": "1.24.4",
+      "sha256": "7d67a0df61c9daf5d3aed57434fcd7d6b0bb98856ec69d16cd3c07bafef24187",
+      "size": 241083488,
+      "subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
+      "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:bitdefender.bitdefender",
       "version": "26.0.1.233",
       "sha256": "c4a9cc33ea721f06ed1b5c7a65e85be3bc1a4bbe44d0b18bf36415b512688e7f",
@@ -935,6 +965,16 @@
       "at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "w:bytedance.trae",
+      "version": "3.6.13",
+      "sha256": "b9ab1d0c032671d3e33b7c188107a6f2333b3c760a10ceac1ad49bb5fd7b4e06",
+      "size": 462074064,
+      "subject": "CN=SPRING (SG) PTE. LTD, O=SPRING (SG) PTE. LTD, L=Singapore, C=SG, SERIALNUMBER=202325236K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "thumbprint": "54651F859DD2D0CA549DDEC1DCEE2683B975AECC",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:calibre.calibre",
       "version": "9.18.0",
       "sha256": "05c0f2223866f8082e05b2d4bc9c57b31a833de8355a1191fd79c260c2636d38",
@@ -953,6 +993,16 @@
       "thumbprint": "6D70BC603360F0EB3F13B577AE63FD43AC35B446",
       "source": "pin",
       "at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "w:canva.cavalry",
+      "version": "2.8.1",
+      "sha256": "b79d08290b6f1320154b9fec46cee1b4bba81a9670af636611f4c53e8057420a",
+      "size": 158474240,
+      "subject": "CN=Scene Group Limited, O=Scene Group Limited, S=West Sussex, C=GB, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB, SERIALNUMBER=12051157",
+      "thumbprint": "F60FDB4CF1CBAD31E268D191892054F02E2E3DCA",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:caphyon.advancedinstaller",
@@ -1015,6 +1065,26 @@
       "at": "2026-11-13T20:57:59.2933352Z"
     },
     {
+      "id": "w:clamwin.clamwin",
+      "version": "0.103.2.1",
+      "sha256": "ac9d76d87904efc62d976f7c6f8f1d9f459e9ad13cbe3e4e886005d3f14e0393",
+      "size": 236832861,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-14T09:03:49.3560912Z"
+    },
+    {
+      "id": "w:clementine.clementine",
+      "version": "1.4.1",
+      "sha256": "97584328ba1f01d2798bd3b7e8d5ab99232b64b23e47fabfc93b902427c8e8ab",
+      "size": 63817783,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-14T09:03:49.3560912Z"
+    },
+    {
       "id": "w:clockify.clockify",
       "version": "2.4.4",
       "sha256": "4917d78c9a8b59b4601d37f3357f11ebbf7fa7b321c0070af5b78c1a5067cc64",
@@ -1043,6 +1113,16 @@
       "thumbprint": "BDE5812478368ECA7365C58C37961BBBC44554D0",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:comfy.comfyui-desktop",
+      "version": "1.1.9",
+      "sha256": "0984db7e388c88dedc97a70f350c6c3ba7c9635aece45056aed74aeeb730ffe1",
+      "size": 180826352,
+      "subject": "CN=Drip Artificial Inc, O=Drip Artificial Inc, L=San Francisco, S=California, C=US, SERIALNUMBER=7174150, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "1D402FC088C188225E418022A10EF440671A3728",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:corel.winzip",
@@ -1183,6 +1263,16 @@
       "thumbprint": "4088CA993E415C65033CC562862CBF3FC38B6B6A",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:descript.descript",
+      "version": "2.22.1",
+      "sha256": "a6061ebbbdecdf6ccc5441549003e3e35c5256c4e18525e6a47c0e608df1759e",
+      "size": 114873896,
+      "subject": "CN=\"Descript, Inc.\", O=\"Descript, Inc.\", L=San Francisco, S=California, C=US, SERIALNUMBER=6513511, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "49BA6E89EEB8461BF3C3021B379F90E0F8DF13D5",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:devolutions.unigetui",
@@ -1965,6 +2055,16 @@
       "at": "2026-11-10T14:32:28.4341544Z"
     },
     {
+      "id": "w:jan.jan",
+      "version": "0.8.8",
+      "sha256": "08aca371733b76200e44e95d677cdd15e96609f86f919de57b97a5358ca21e9b",
+      "size": 571697752,
+      "subject": "E=service@jan.ai, CN=Jan AI Pte. Ltd., O=Jan AI Pte. Ltd., STREET=\"143 Cecil Street, #03-01, GB Building\", L=Singapore, S=Singapore, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202530877D, OID.2.5.4.15=Private Organization",
+      "thumbprint": "4BCC412A4C704971C736BB0999AE77E758008884",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:jannisx11.blockbench",
       "version": "5.2.2",
       "sha256": "de14d72e27a6598ad5595ca5e66c15ea0e360de5218207f934572265245a2bc1",
@@ -2195,6 +2295,16 @@
       "at": "2026-11-10T20:55:38.9607764Z"
     },
     {
+      "id": "w:lwks.lightworks",
+      "version": "2025.2.56356",
+      "sha256": "59f1c4cdb246b845c9b85a9dcd2a89c38b3e14cb43665248eed2c199dba9138d",
+      "size": 101905032,
+      "subject": "CN=LWKS Software Ltd., O=LWKS Software Ltd., S=Wiltshire, C=GB, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=GB, SERIALNUMBER=12792578",
+      "thumbprint": "2AC14E4727E50C42282FD5BEE4B8CD3F4630E77D",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:mariadb.server",
       "version": "13.0.2.0",
       "sha256": "9fbee3a481f7cb133bde017f614c1e0c72d596992456983dbabde4374290d7bf",
@@ -2213,6 +2323,16 @@
       "thumbprint": "2B4651E0FF6F2822809AB584ED68C9941151EE48",
       "source": "pin",
       "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:medibang.medibangpaintpro",
+      "version": "29.1.0.0",
+      "sha256": "551ea714f3c8fb3dfd394789616753066010d2b3491ea35da0bd3e78fcc25044",
+      "size": 43910192,
+      "subject": "CN=MEDIBANG INC., O=MEDIBANG INC., STREET=\"12-10, Sakuragaokacho\", L=Shibuya-ku, S=Tokyo, PostalCode=150-0031, C=JP",
+      "thumbprint": "6939CFE5F0D9B03B91B97058297ED119751CF528",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:meltytech.shotcut",
@@ -2373,16 +2493,6 @@
       "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
       "source": "pin",
       "at": "2026-11-10T20:55:38.9607764Z"
-    },
-    {
-      "id": "w:microsoft.powertoys",
-      "version": "0.102.3101",
-      "sha256": "f1d24a49346167322eb64a2458bd82810519920d1da4c0aeb1788e54c345d142",
-      "size": 323977120,
-      "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
-      "source": "pin",
-      "at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "w:microsoft.sqlservermanagementstudio",
@@ -2635,6 +2745,16 @@
       "at": "2026-11-11T09:31:06.8323988Z"
     },
     {
+      "id": "w:moonshotai.kimi",
+      "version": "3.2.27",
+      "sha256": "91437498a5326b3d74ca98e19296ad440c0cc706392258a294f9d13a39731bac",
+      "size": 444020656,
+      "subject": "CN=北京月之暗面科技有限公司, O=北京月之暗面科技有限公司, S=北京市, C=CN, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91110108MACG2KBH8F",
+      "thumbprint": "6DA99CCA99A69947C11F97395A55FD2DC683420D",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:moritzbunkus.mkvtoolnix",
       "version": "103.0.0",
       "sha256": "3bb4b6efe464c8b852a9813f6be4093fa61bb79229ea755b3a70c5fa42489421",
@@ -2733,6 +2853,16 @@
       "thumbprint": "0DDE474DE490D683D3EE700D89CF069FEA557049",
       "source": "pin",
       "at": "2026-11-12T21:30:14.6167696Z"
+    },
+    {
+      "id": "w:musicbrainz.picard",
+      "version": "3.0.5",
+      "sha256": "9af6baa80c39d59bf8f1c0759d0b4d015256963bd7e44437a4eda8221b37fe3c",
+      "size": 64793976,
+      "subject": "CN=MetaBrainz Foundation Inc., O=MetaBrainz Foundation Inc., L=Covina, S=California, C=US",
+      "thumbprint": "AA15A851A5401BAC714E4B851CD37232E8329F21",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:namazso.openhashtab",
@@ -2925,6 +3055,16 @@
       "at": "2026-11-13T11:46:19.970466Z"
     },
     {
+      "id": "w:openmedia.4kvideodownloaderplus",
+      "version": "26.3.5.396",
+      "sha256": "d22abfe8896a1f3bc6ea77d7b17abc602c4d1c1804d1c8916d1ece2340008d2b",
+      "size": 216760360,
+      "subject": "CN=InterPromo GMBH, O=InterPromo GMBH, L=Baden-Baden, C=DE",
+      "thumbprint": "A9826B653F758A868905E31F16D0230FEFB3C0B8",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:openvpntechnologies.openvpn",
       "version": "2.7.901",
       "sha256": "47abc38a15c217b848fe099332a8523500fcbf2ebf8a1eaa7d5648c6e75079aa",
@@ -3025,6 +3165,16 @@
       "at": "2026-11-11T21:27:51.6491038Z"
     },
     {
+      "id": "w:paulpacifico.shutterencoder",
+      "version": "20.5",
+      "sha256": "18779ec1472e6ee4712ca7e74d1d03c19baee8add2315d675acc58673f9d8e0b",
+      "size": 165867008,
+      "subject": "CN=Paul Pacifico, O=Paul Pacifico, L=MERIGNAC, S=Nouvelle-Aquitaine, C=FR",
+      "thumbprint": "4D9510F4CD23C00651A65998DE66C48599113BEE",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:pdfgear.pdfgear",
       "version": "3.0.1",
       "sha256": "e55f80ac7a59c367ed1d18ff77441cd55d22a3b0f9fd3a3cfad42eed2466f684",
@@ -3073,6 +3223,16 @@
       "thumbprint": "FB9BD32A13C173BACFF9581397D4488B5B0CD63E",
       "source": "pin",
       "at": "2026-11-11T21:27:51.6491038Z"
+    },
+    {
+      "id": "w:pinokiocomputer.pinokio",
+      "version": "8.3.1",
+      "sha256": "8202324e9edf7f550dec651c27dece299ff88b0ee654255f4a74d31d3f92f5f8",
+      "size": 146851960,
+      "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "thumbprint": "0BB52F57C6B662F0651849858A6FCCC2C03ADA2D",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:pinta.pinta",
@@ -3396,13 +3556,13 @@
     },
     {
       "id": "w:readdle.spark",
-      "version": "3.32.4",
-      "sha256": "3f466550e7c1c4a4745287dd7d860589cef0bfac085b4547c9b7824492b3c08b",
-      "size": 229472240,
+      "version": "3.32.5",
+      "sha256": "e8cb9103a406d2ad7eefa748546c962b75818767f4c4d132c1f05b3a591ce4d4",
+      "size": 229474840,
       "subject": "CN=Spark Mail Limited, O=Spark Mail Limited, L=Dalkey, C=IE, SERIALNUMBER=630862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IE",
       "thumbprint": "7BFB6B11B72A19FBA8451D1552B4FFED77C52E0D",
       "source": "pin",
-      "at": "2026-11-12T09:54:49.3674978Z"
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:redisinsight.redisinsight",
@@ -3746,13 +3906,13 @@
     },
     {
       "id": "w:telegram.telegramdesktop",
-      "version": "7.4.3",
-      "sha256": "b4ce3f2770cefb3797f71c021f90f634ffebc20ef9ce714aeba0c82d1829daf8",
-      "size": 65599048,
+      "version": "7.4.4",
+      "sha256": "5e19f664bb01fafe8e5cece28ed976a4cf667e05e12d5b363536be74bc7689d7",
+      "size": 65617296,
       "subject": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
       "source": "pin",
-      "at": "2026-11-13T20:55:58.7181039Z"
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:telerik.fiddler.classic",
@@ -3845,6 +4005,16 @@
       "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
+      "id": "w:topazlabs.topazphotoai",
+      "version": "4.0.4",
+      "sha256": "5d9463485957c65b2b247535c43b5e11cc78ad094b03e11dd6e85ea36c6e339c",
+      "size": 989892608,
+      "subject": "CN=Topaz Labs LLC, O=Topaz Labs LLC, L=Dallas, S=Texas, C=US",
+      "thumbprint": "86279816FA4EF3F83E9B88DD7D039CD496EA6CDC",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:ubisoft.connect",
       "version": "175.1.0.13416",
       "sha256": "e907f33e1fc74fddd61eaf548647201ebc4baac8c439c3fa8e7043c67dc11576",
@@ -3863,6 +4033,26 @@
       "thumbprint": "FB6565EE84F4C97197C45EE861D67A9A4BA313AC",
       "source": "pin",
       "at": "2026-11-13T20:55:58.7181039Z"
+    },
+    {
+      "id": "w:uvncbvba.ultravnc",
+      "version": "1.8.3.2",
+      "sha256": "ae1bb545c59e082620997d98589e3aef871e71494cb100144c95608c8323b4f7",
+      "size": 6256464,
+      "subject": "CN=Open Source Developer Rudi De Vos, O=Open Source Developer, L=Antwerpen, C=BE",
+      "thumbprint": "FC73648251A581B15067983FBFA67D1008D1EB59",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:valve.steam",
+      "version": "2.10.91.91",
+      "sha256": "7d3654531c32d941b8cae81c4137fc542172bfa9635f169cb392f245a0a12bcb",
+      "size": 2380800,
+      "subject": "CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US",
+      "thumbprint": "935767D66FAD4AD2D1F03A095C49370DC74DF607",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:vercel.hyper",
@@ -3895,6 +4085,36 @@
       "at": "2026-11-13T20:55:58.7181039Z"
     },
     {
+      "id": "w:vscodium.vscodium",
+      "version": "1.143.17232",
+      "sha256": "012125ae30f70d1c2f6366ec8c47aa0e293f0e799b704c0eb3721089f69bbdca",
+      "size": 164378472,
+      "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
+      "thumbprint": "09E174E7BEBC3FACA0754CBB91E8C9571BFE5A16",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:vsdc.screenrecorder",
+      "version": "1.3.4.0",
+      "sha256": "21b678af937b51ed83719380126bcf25f4e4df136064138134b7bfaac8ac531a",
+      "size": 77512912,
+      "subject": "CN=FLASH-INTEGRO LLC, O=FLASH-INTEGRO LLC, S=Toshkent, C=UZ",
+      "thumbprint": "BBA5B7F9BC2BF9447B4AC9061935B4178FBFBCDE",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:wagnardsoft.displaydriveruninstaller",
+      "version": "18.1.5.3",
+      "sha256": "1e854c00aa7086a85559551abbfb8f0f3ebbb88a1c6126c6e7a1d0a61f25c0a1",
+      "size": 1747240,
+      "subject": "CN=Wagnardsoft, O=Wagnardsoft, S=Quebec, C=CA",
+      "thumbprint": "B6BBA6E363E88987CBE563658D41C4F0FFA3BD56",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:wampserver.wampserver",
       "version": "3.4.0",
       "sha256": "08bc458acb5974e3f93857c234c4daf72da8a4da842b736c1424d98b475e4fcd",
@@ -3915,6 +4135,16 @@
       "at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "w:windirstat.windirstat",
+      "version": "2.9.3",
+      "sha256": "96c4c4beb63c7c5ad6b1a206f96560d7a9a2b6063f3cd175a82f392977a9af5d",
+      "size": 2486272,
+      "subject": "CN=Open Source Developer Bryan Berns, O=Open Source Developer, L=Clifton Park, S=New York, C=US",
+      "thumbprint": "82802376D2DD840614CC00C6EC8AD763CEA6D33C",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:winfsp.winfsp",
       "version": "2.1.25156",
       "sha256": "073a70e00f77423e34bed98b86e600def93393ba5822204fac57a29324db9f7a",
@@ -3925,6 +4155,16 @@
       "at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "w:winmerge.winmerge",
+      "version": "2.16.60",
+      "sha256": "ed01097f60b63b3e7d58b3036064c40f05504a47c23c231a1081142295815f7f",
+      "size": 18697696,
+      "subject": "CN=Takashi Sawanaka, O=Takashi Sawanaka, L=Chiba, S=Chiba, C=JP",
+      "thumbprint": "4F8C8F56C77DCC6C96FE293589E06E4411C230C9",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:winscp.winscp",
       "version": "6.7.1",
       "sha256": "95ea85587c30ac6dd0c4b8148e16971f7854a6eee9e68298bf007566ebbe7603",
@@ -3933,6 +4173,26 @@
       "thumbprint": "FD9BB1AE8DA14A218825FEC4A1BFB26DC8F005E7",
       "source": "pin",
       "at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "w:wireguard.wireguard",
+      "version": "1.1.1",
+      "sha256": "7bfed60ad61b785c914b38b61555a975488e1d3ec472dbfb2fcdf498fca75242",
+      "size": 3293184,
+      "subject": "CN=WireGuard LLC, O=WireGuard LLC, S=Colorado, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Ohio, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=4227913",
+      "thumbprint": "1B3AFA5E2A76BB51F00020002DCCADB165689C33",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:wisecleaner.wisecare365",
+      "version": "7.2.8",
+      "sha256": "f08a4c8708da56aae4c35c76c657145c0523f883934c92b7458680b63ff10a16",
+      "size": 17377368,
+      "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CN, OID.2.5.4.15=Private Organization, CN=\"Lespeed Technology Co., Ltd\", SERIALNUMBER=91110101593898951F, O=\"Lespeed Technology Co., Ltd\", L=Beijing, C=CN",
+      "thumbprint": "B910852E34BA52BEF2F23CA9FDE37B2219A718D3",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:wisecleaner.wisediskcleaner",
@@ -3985,6 +4245,16 @@
       "at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "w:wondershare.democreator",
+      "version": "8.8.7",
+      "sha256": "a64115bc629e467dfe610d20370487dc36639b5a2dd743417a7f75d3b5483c25",
+      "size": 559992368,
+      "subject": "CN=\"Wondershare Technology Group Co.,Ltd\", O=\"Wondershare Technology Group Co.,Ltd\", L=拉萨市, S=西藏自治区, C=CN, SERIALNUMBER=91540195754285145H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=西藏自治区, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "thumbprint": "7B9EFBC216771ADE4205AFC1328BC3C3D004B0FE",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:wondershare.filmora",
       "version": "16.0.16.22973",
       "sha256": "4da2beb1ceffd330465698a6211ffd7c8531d4edcab37ac33108889a0ca393e8",
@@ -3993,6 +4263,16 @@
       "thumbprint": "991BF8D37DC065AB5368E58506B9E0421A9D78FC",
       "source": "pin",
       "at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "w:wondershare.uniconverter.15",
+      "version": "15.7.3.47",
+      "sha256": "9a87a7fd1ab0f74ee17da864be05cb70f36e166ad7f808ed3bc23cbbd6e10cc6",
+      "size": 282685672,
+      "subject": "CN=\"Wondershare Technology Group Co.,Ltd\", O=\"Wondershare Technology Group Co.,Ltd\", L=拉萨市, S=西藏自治区, C=CN, SERIALNUMBER=91540195754285145H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=西藏自治区, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "thumbprint": "B5B24B1B7D9A96C8BFA76A4D245EB630A3A1800C",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
       "id": "w:xmind.xmind",
@@ -4045,6 +4325,16 @@
       "at": "2026-11-13T09:38:58.78776Z"
     },
     {
+      "id": "w:yubico.yubikeymanager",
+      "version": "1.2.6",
+      "sha256": "fc8f1c992c5b9f5d542549072cf58178a45af31851561b22a768e35dbfd648b7",
+      "size": 68382872,
+      "subject": "CN=Yubico AB, OU=Yubico Engineering, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
+      "thumbprint": "CB7CADE8F51D0985D806BCD28E1FEC57D3034187",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
       "id": "w:zerotier.zerotierone",
       "version": "1.16.2",
       "sha256": "42514072b0fe44b8f66e0395bcd23a0b1d1642c28ed00831f1527b2f41b14670",
@@ -4053,6 +4343,26 @@
       "thumbprint": "427F9B642B3EC4432B47171D2046AF9F1921F9B0",
       "source": "pin",
       "at": "2026-11-13T09:38:58.78776Z"
+    },
+    {
+      "id": "w:zettlr.zettlr",
+      "version": "4.10.0",
+      "sha256": "80fe5a7ce88ce6b47bd71a669ac7a3cb63b2c0a868daddcfcd29e052056eb423",
+      "size": 166182008,
+      "subject": "CN=Benjamin Milburn-Town, O=Benjamin Milburn-Town, L=Richmond, S=Virginia, C=US",
+      "thumbprint": "F847EF2E7AC30EFC291E841F8B345B27622C1284",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:zulertechnology.deskin",
+      "version": "3.3.3.0",
+      "sha256": "193c8574e8dd048d0c142354e89abb63dfe9899eccf85a702b341fce21bb2390",
+      "size": 63854944,
+      "subject": "CN=ZULER TECHNOLOGY PTE. LTD., O=ZULER TECHNOLOGY PTE. LTD., L=SINGAPORE, C=SG, SERIALNUMBER=202120309K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
+      "thumbprint": "B4ACAAA43CA1F0929454C706BD65B39760C3A7E2",
+      "source": "pin",
+      "at": "2026-11-14T09:02:40.6390042Z"
     }
   ]
 }
