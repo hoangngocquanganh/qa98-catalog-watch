@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-14T16:59:44.2760163Z",
+  "checked_at": "2026-11-14T21:23:18.2276253Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-14T16:59:44.2760163Z",
-  "catalog_revision": 192,
-  "total_keys": 1005,
-  "hidden": 8,
-  "cycle_position": 148,
+  "catalog_revision": 194,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 192,
+    "catalog_revision": 194,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
@@ -277,13 +277,6 @@
       "silent_switch": true
     },
     {
-      "slug": "cockos-reaper",
-      "winget_id": "Cockos.REAPER",
-      "version": "7.85",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
       "slug": "code52-carnac",
       "winget_id": "code52.Carnac",
       "version": "2.3.13",
@@ -459,6 +452,13 @@
       "silent_switch": true
     },
     {
+      "slug": "harman-adobeair",
+      "winget_id": "HARMAN.AdobeAIR",
+      "version": "51.4.1.2",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "hibbiki-chromium",
       "winget_id": "Hibbiki.Chromium",
       "version": "157.0.8103.51",
@@ -522,6 +522,13 @@
       "silent_switch": true
     },
     {
+      "slug": "khronosgroup-vulkanrt",
+      "winget_id": "KhronosGroup.VulkanRT",
+      "version": "1.4.363.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "kingsoft-wpsoffice",
       "winget_id": "Kingsoft.WPSOffice",
       "version": "12.2.0.23196",
@@ -574,6 +581,13 @@
       "slug": "meta-oculus",
       "winget_id": "Meta.Oculus",
       "version": "1.115.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-accessdatabaseengine-2016",
+      "winget_id": "Microsoft.AccessDatabaseEngine.2016",
+      "version": "16.0.5044.1000",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -718,6 +732,13 @@
       "silent_switch": true
     },
     {
+      "slug": "microsoft-vstor",
+      "winget_id": "Microsoft.VSTOR",
+      "version": "10.0.60917",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "microsoft-windowsappruntime-1-5",
       "winget_id": "Microsoft.WindowsAppRuntime.1.5",
       "version": "1.5.9",
@@ -728,6 +749,13 @@
       "slug": "microsoft-windowsappruntime-1-6",
       "winget_id": "Microsoft.WindowsAppRuntime.1.6",
       "version": "1.6.9",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "microsoft-windowsappruntime-1-7",
+      "winget_id": "Microsoft.WindowsAppRuntime.1.7",
+      "version": "1.7.9",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1133,6 +1161,18 @@
   ],
   "heals": [],
   "heal_blocked": [
+    {
+      "vkey": "w:ablaze.floorp|latest",
+      "slug": "ablaze-floorp",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
+    {
+      "vkey": "w:anaconda.miniconda3|latest",
+      "slug": "anaconda-miniconda3",
+      "version": "latest",
+      "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
       "slug": "delugeteam-deluge",
