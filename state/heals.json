@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-15T09:32:53.1065331Z",
+  "updated_at": "2026-11-15T19:50:16.6361725Z",
   "last_run": {
-    "at": "2026-11-15T09:32:53.1065331Z",
-    "seconds": 14,
+    "at": "2026-11-15T19:50:16.6361725Z",
+    "seconds": 13,
     "failing": 10,
     "healed": 0,
     "blocked": 10,
     "downloads": 4,
     "downloaded_mb": 6,
     "harvested": 3,
-    "anchors": 438
+    "anchors": 441
   },
   "heals": [],
   "heal_blocked": [
@@ -1185,6 +1185,36 @@
       "thumbprint": "",
       "source": "harvest",
       "at": "2026-11-15T09:32:53.1065331Z"
+    },
+    {
+      "id": "w:codecguide.k-litecodecpack.mega",
+      "version": "20.2.0",
+      "sha256": "6c6878f9fd8ccf3a74a4a3a500ab8303c7b0dd2beab9d8db39a016141e495b3d",
+      "size": 67143502,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-15T19:50:16.6361725Z"
+    },
+    {
+      "id": "w:codecguide.k-litecodecpack.standard",
+      "version": "20.2.0",
+      "sha256": "3caf9d253f788937d1a1b665cf67ffc3b75dfb48a998ac09f3ac3f47f3252941",
+      "size": 39540812,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-15T19:50:16.6361725Z"
+    },
+    {
+      "id": "w:codeium.windsurf",
+      "version": "2.3.15",
+      "sha256": "d5c38c53bd6152401d979873875f2a92d880720402037c340fafdaa5ffbd5ea1",
+      "size": 216852624,
+      "subject": "CN=\"Exafunction, Inc.\", O=\"Exafunction, Inc.\", L=Mountain View, S=California, C=US",
+      "thumbprint": "B8612EF7E0B7BC4121F3832298C6DB2FAA12F6CA",
+      "source": "harvest",
+      "at": "2026-11-15T19:50:16.6361725Z"
     },
     {
       "id": "w:comfy.comfyui-desktop",

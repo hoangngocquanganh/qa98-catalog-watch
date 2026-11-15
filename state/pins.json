@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-15T09:32:42.1136043Z",
-  "catalog_revision": 197,
+  "updated_at": "2026-11-15T19:50:12.6415113Z",
+  "catalog_revision": 201,
   "last_run": {
-    "at": "2026-11-15T09:32:42.1136043Z",
-    "seconds": 10,
-    "checked": 7,
-    "downloads": 3,
-    "downloaded_mb": 728,
-    "pinned": 2,
-    "skipped": 5,
+    "at": "2026-11-15T19:50:12.6415113Z",
+    "seconds": 3,
+    "checked": 3,
+    "downloads": 1,
+    "downloaded_mb": 22,
+    "pinned": 0,
+    "skipped": 3,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 3,
       "authenticode NotSigned": 1,
+      "neutral version but installer differs by arch …; split versions per arch to pin": 1,
       "installer type … not supported by pinned route": 1
     }
   },
@@ -4910,11 +4910,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "forceautohdr.7gxycn08|1.0.0.4|neutral",
+      "key": "forceautohdr.7gxycn08|1.0.0.5|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "ForceAutoHDR.7gxycn08",
-      "version": "1.0.0.4",
+      "version": "1.0.0.5",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4924,7 +4924,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-15T19:50:12.6415113Z",
       "silent_check": "ok"
     },
     {
@@ -7203,11 +7203,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jandedobbeleer.ohmyposh|32.0.0|neutral",
+      "key": "jandedobbeleer.ohmyposh|32.1.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JanDeDobbeleer.OhMyPosh",
-      "version": "32.0.0",
+      "version": "32.1.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7217,7 +7217,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-15T19:50:12.6415113Z",
       "silent_check": "ok"
     },
     {
@@ -13807,11 +13807,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "perplexity.comet|156.0.8078.132|neutral",
+      "key": "perplexity.comet|157.0.8103.368|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Perplexity.Comet",
-      "version": "156.0.8078.132",
+      "version": "157.0.8103.368",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13821,7 +13821,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-15T19:50:12.6415113Z",
       "silent_check": "exe"
     },
     {
