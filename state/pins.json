@@ -1,20 +1,21 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-14T19:13:26.0855903Z",
-  "catalog_revision": 192,
+  "updated_at": "2026-11-15T09:32:42.1136043Z",
+  "catalog_revision": 197,
   "last_run": {
-    "at": "2026-11-14T19:13:26.0855903Z",
-    "seconds": 4,
-    "checked": 11,
+    "at": "2026-11-15T09:32:42.1136043Z",
+    "seconds": 10,
+    "checked": 7,
     "downloads": 3,
-    "downloaded_mb": 120,
-    "pinned": 3,
-    "skipped": 8,
+    "downloaded_mb": 728,
+    "pinned": 2,
+    "skipped": 5,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 6,
-      "installer type … not supported by pinned route": 2
+      "neutral version but installer differs by arch …; split versions per arch to pin": 3,
+      "authenticode NotSigned": 1,
+      "installer type … not supported by pinned route": 1
     }
   },
   "entries": [
@@ -2608,11 +2609,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "cockos.reaper|7.85|neutral",
+      "key": "cockos.reaper|7.86|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Cockos.REAPER",
-      "version": "7.85",
+      "version": "7.86",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -2622,7 +2623,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "exe"
     },
     {
@@ -5500,11 +5501,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "github.copilotapp|1.4.1|neutral",
+      "key": "github.copilotapp|1.4.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "GitHub.CopilotApp",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5514,7 +5515,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "ok"
     },
     {
@@ -6663,11 +6664,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "hibbiki.chromium|157.0.8103.51|neutral",
+      "key": "hibbiki.chromium|157.0.8103.79|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Hibbiki.Chromium",
-      "version": "157.0.8103.51",
+      "version": "157.0.8103.79",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -6677,7 +6678,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-12T09:54:49.3674978Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "exe"
     },
     {
@@ -7953,22 +7954,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "kde.kate|26.08.3|neutral",
+      "key": "kde.kate|26.11.80|neutral",
       "status": "pinned",
       "id": "KDE.Kate",
-      "version": "26.08.3",
+      "version": "26.11.80",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-26.08/windows/kate-release_26.08-12840-windows-cl-msvc2022-x86_64.exe",
-      "sha256": "c25e1ef6d131ee88f8473def5ccc61f4d3b938e73680d053e67adc0fd246b90a",
-      "size": 106360976,
+      "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-26.12/windows/kate-release_26.12-12935-windows-cl-msvc2022-x86_64.exe",
+      "sha256": "349bc1d2a64c128eccdff0021582b09ccea96ce628ed397efb16bcc17cceb467",
+      "size": 106524888,
       "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
       "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "allowed_hosts": [
         "cdn.kde.org"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "ok"
     },
     {
@@ -12051,22 +12052,22 @@
       "silent_check": "exe"
     },
     {
-      "key": "neo4j.neo4jdesktop|2.2.1|neutral",
+      "key": "neo4j.neo4jdesktop|2.3.1|neutral",
       "status": "pinned",
       "id": "Neo4j.Neo4jDesktop",
-      "version": "2.2.1",
+      "version": "2.3.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://dist.neo4j.org/neo4j-desktop-2/win/neo4j-desktop-2.2.1-x64.exe",
-      "sha256": "7aa195fff45d8fe59a49f32210597aea65d76cfdee98b25cb835661873ab9562",
-      "size": 577484424,
+      "url": "https://dist.neo4j.org/neo4j-desktop-2/win/neo4j-desktop-2.3.1-x64.exe",
+      "sha256": "fdc9c86872fb0c4bc11b3e7358c215995eea3fe37232d5af526ab260d3703fac",
+      "size": 643993704,
       "signer_subject": "CN=\"Neo4j, Inc.\", O=\"Neo4j, Inc.\", L=San Mateo, S=California, C=US, SERIALNUMBER=5007564, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "99417414A122F81E59682735169C88234DD5B3B1",
       "allowed_hosts": [
         "dist.neo4j.org"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "ok"
     },
     {
@@ -18971,11 +18972,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "xanashi.icaros|3.3.6.000|neutral",
+      "key": "xanashi.icaros|3.9.9.201|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "Xanashi.Icaros",
-      "version": "3.3.6.000",
+      "version": "3.9.9.201",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -18985,7 +18986,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "ok"
     },
     {
@@ -19210,11 +19211,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "xpipe-io.xpipe|24.10|neutral",
+      "key": "xpipe-io.xpipe|24.11|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "xpipe-io.xpipe",
-      "version": "24.10",
+      "version": "24.11",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -19224,7 +19225,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "ok"
     },
     {

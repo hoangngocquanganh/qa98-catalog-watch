@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-14T19:13:26.0855903Z",
-  "catalog_revision": 192,
+  "generated_at": "2026-11-15T09:32:42.1136043Z",
+  "catalog_revision": 197,
   "count": 365,
   "pins": [
     {
@@ -2448,19 +2448,19 @@
     },
     {
       "id": "KDE.Kate",
-      "version": "26.08.3",
+      "version": "26.11.80",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-26.08/windows/kate-release_26.08-12840-windows-cl-msvc2022-x86_64.exe",
-      "sha256": "c25e1ef6d131ee88f8473def5ccc61f4d3b938e73680d053e67adc0fd246b90a",
-      "size": 106360976,
+      "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-26.12/windows/kate-release_26.12-12935-windows-cl-msvc2022-x86_64.exe",
+      "sha256": "349bc1d2a64c128eccdff0021582b09ccea96ce628ed397efb16bcc17cceb467",
+      "size": 106524888,
       "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
       "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "allowed_hosts": [
         "cdn.kde.org"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-15T09:32:42.1136043Z"
     },
     {
       "id": "KDE.KDEConnect",
@@ -3571,19 +3571,19 @@
     },
     {
       "id": "Neo4j.Neo4jDesktop",
-      "version": "2.2.1",
+      "version": "2.3.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://dist.neo4j.org/neo4j-desktop-2/win/neo4j-desktop-2.2.1-x64.exe",
-      "sha256": "7aa195fff45d8fe59a49f32210597aea65d76cfdee98b25cb835661873ab9562",
-      "size": 577484424,
+      "url": "https://dist.neo4j.org/neo4j-desktop-2/win/neo4j-desktop-2.3.1-x64.exe",
+      "sha256": "fdc9c86872fb0c4bc11b3e7358c215995eea3fe37232d5af526ab260d3703fac",
+      "size": 643993704,
       "signer_subject": "CN=\"Neo4j, Inc.\", O=\"Neo4j, Inc.\", L=San Mateo, S=California, C=US, SERIALNUMBER=5007564, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "99417414A122F81E59682735169C88234DD5B3B1",
       "allowed_hosts": [
         "dist.neo4j.org"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-15T09:32:42.1136043Z"
     },
     {
       "id": "Nextcloud.NextcloudDesktop",
