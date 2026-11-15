@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-15T07:56:39.6653674Z",
+  "checked_at": "2026-11-15T15:36:39.3730237Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,25 +12,25 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-15T07:56:39.6653674Z",
-  "catalog_revision": 197,
+  "last_probe_at": "2026-11-15T15:36:39.3730237Z",
+  "catalog_revision": 199,
   "total_keys": 1005,
   "hidden": 10,
-  "cycle_position": 289,
+  "cycle_position": 360,
   "error": "",
   "pages": {
-    "catalog_revision": 197,
+    "catalog_revision": 199,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-15T07:56:39.6653674Z",
-    "seconds": 217,
+    "at": "2026-11-15T15:36:39.3730237Z",
+    "seconds": 29,
     "probed": 100,
     "ok": 90,
-    "hashed": 17,
+    "hashed": 27,
     "transient": 0,
     "broken": 9,
     "hash_mismatch": 1,
@@ -277,6 +277,13 @@
       "silent_switch": true
     },
     {
+      "slug": "cockos-reaper",
+      "winget_id": "Cockos.REAPER",
+      "version": "7.86",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "code52-carnac",
       "winget_id": "code52.Carnac",
       "version": "2.3.13",
@@ -455,6 +462,13 @@
       "slug": "harman-adobeair",
       "winget_id": "HARMAN.AdobeAIR",
       "version": "51.4.1.2",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "hibbiki-chromium",
+      "winget_id": "Hibbiki.Chromium",
+      "version": "157.0.8103.79",
       "installer_type": "exe",
       "silent_switch": true
     },
