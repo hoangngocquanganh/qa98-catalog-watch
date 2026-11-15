@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-15T15:36:39.3730237Z",
+  "checked_at": "2026-11-15T20:33:44.4575394Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-15T15:36:39.3730237Z",
-  "catalog_revision": 199,
-  "total_keys": 1005,
-  "hidden": 10,
-  "cycle_position": 360,
+  "catalog_revision": 201,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 199,
+    "catalog_revision": 201,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
@@ -888,7 +888,7 @@
     {
       "slug": "perplexity-comet",
       "winget_id": "Perplexity.Comet",
-      "version": "156.0.8078.132",
+      "version": "157.0.8103.368",
       "installer_type": "exe",
       "silent_switch": true
     },
