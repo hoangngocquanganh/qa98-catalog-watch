@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-16T06:52:50.7285448Z",
+  "checked_at": "2026-11-16T16:57:02.2337459Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,26 +12,26 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-16T06:52:50.7285448Z",
-  "catalog_revision": 204,
+  "last_probe_at": "2026-11-16T16:57:02.2337459Z",
+  "catalog_revision": 207,
   "total_keys": 1005,
   "hidden": 10,
-  "cycle_position": 503,
+  "cycle_position": 587,
   "error": "",
   "pages": {
-    "catalog_revision": 204,
+    "catalog_revision": 207,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-16T06:52:50.7285448Z",
-    "seconds": 73,
+    "at": "2026-11-16T16:57:02.2337459Z",
+    "seconds": 23,
     "probed": 100,
-    "ok": 89,
-    "hashed": 22,
-    "transient": 1,
+    "ok": 90,
+    "hashed": 17,
+    "transient": 0,
     "broken": 9,
     "hash_mismatch": 1,
     "skipped": 0,
@@ -231,13 +231,6 @@
       "slug": "balena-etcher",
       "winget_id": "Balena.Etcher",
       "version": "2.1.9",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "bitvise-ssh-server",
-      "winget_id": "Bitvise.SSH.Server",
-      "version": "9.68",
       "installer_type": "exe",
       "silent_switch": true
     },
