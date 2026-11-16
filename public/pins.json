@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-15T19:50:12.6415113Z",
-  "catalog_revision": 201,
+  "generated_at": "2026-11-16T09:51:25.1241658Z",
+  "catalog_revision": 204,
   "count": 365,
   "pins": [
     {
@@ -1573,19 +1573,19 @@
     },
     {
       "id": "FireAlpaca.FireAlpaca",
-      "version": "2.16.3",
+      "version": "2.16.4",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
       "url": "https://firealpaca.com/download/win64",
-      "sha256": "15bccceca7ff736a259ed09ac01e6bbb79044d1c32df746e43f50eb4636544c5",
-      "size": 58144480,
+      "sha256": "b477f27bf750061166757ccda1f7205eedbe1337e3443a4b32b58ab2b436119d",
+      "size": 58155144,
       "signer_subject": "CN=PGN INC., O=PGN INC., S=Tokyo, C=JP",
       "signer_thumbprint": "FBE1421252F2D42FE399B5E2EE0A709EFBD4EFA8",
       "allowed_hosts": [
         "firealpaca.com"
       ],
-      "checked_at": "2026-11-10T14:21:52.6730199Z"
+      "checked_at": "2026-11-16T09:51:25.1241658Z"
     },
     {
       "id": "Flameshot.Flameshot",

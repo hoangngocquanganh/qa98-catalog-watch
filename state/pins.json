@@ -1,21 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-15T19:50:12.6415113Z",
-  "catalog_revision": 201,
+  "updated_at": "2026-11-16T09:51:25.1241658Z",
+  "catalog_revision": 204,
   "last_run": {
-    "at": "2026-11-15T19:50:12.6415113Z",
-    "seconds": 3,
+    "at": "2026-11-16T09:51:25.1241658Z",
+    "seconds": 5,
     "checked": 3,
-    "downloads": 1,
-    "downloaded_mb": 22,
-    "pinned": 0,
-    "skipped": 3,
+    "downloads": 2,
+    "downloaded_mb": 78,
+    "pinned": 1,
+    "skipped": 2,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
       "authenticode NotSigned": 1,
-      "neutral version but installer differs by arch …; split versions per arch to pin": 1,
-      "installer type … not supported by pinned route": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 1
     }
   },
   "entries": [
@@ -4815,22 +4814,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "firealpaca.firealpaca|2.16.3|neutral",
+      "key": "firealpaca.firealpaca|2.16.4|neutral",
       "status": "pinned",
       "id": "FireAlpaca.FireAlpaca",
-      "version": "2.16.3",
+      "version": "2.16.4",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
       "url": "https://firealpaca.com/download/win64",
-      "sha256": "15bccceca7ff736a259ed09ac01e6bbb79044d1c32df746e43f50eb4636544c5",
-      "size": 58144480,
+      "sha256": "b477f27bf750061166757ccda1f7205eedbe1337e3443a4b32b58ab2b436119d",
+      "size": 58155144,
       "signer_subject": "CN=PGN INC., O=PGN INC., S=Tokyo, C=JP",
       "signer_thumbprint": "FBE1421252F2D42FE399B5E2EE0A709EFBD4EFA8",
       "allowed_hosts": [
         "firealpaca.com"
       ],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-16T09:51:25.1241658Z",
       "silent_check": "ok"
     },
     {
@@ -4910,11 +4909,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "forceautohdr.7gxycn08|1.0.0.5|neutral",
+      "key": "forceautohdr.7gxycn08|1.0.0.6|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "ForceAutoHDR.7gxycn08",
-      "version": "1.0.0.5",
+      "version": "1.0.0.6",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4924,7 +4923,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-15T19:50:12.6415113Z",
+      "checked_at": "2026-11-16T09:51:25.1241658Z",
       "silent_check": "ok"
     },
     {
@@ -9210,11 +9209,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "microsoft.azurecli|2.92.0|neutral",
+      "key": "microsoft.azurecli|2.93.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Microsoft.AzureCLI",
-      "version": "2.92.0",
+      "version": "2.93.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -9224,7 +9223,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-16T09:51:25.1241658Z",
       "silent_check": "ok"
     },
     {
