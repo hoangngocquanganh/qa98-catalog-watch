@@ -1,20 +1,22 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-16T09:51:25.1241658Z",
-  "catalog_revision": 204,
+  "updated_at": "2026-11-16T23:26:21.8587136Z",
+  "catalog_revision": 210,
   "last_run": {
-    "at": "2026-11-16T09:51:25.1241658Z",
-    "seconds": 5,
-    "checked": 3,
-    "downloads": 2,
-    "downloaded_mb": 78,
-    "pinned": 1,
-    "skipped": 2,
+    "at": "2026-11-16T23:26:21.8587136Z",
+    "seconds": 17,
+    "checked": 20,
+    "downloads": 6,
+    "downloaded_mb": 491,
+    "pinned": 3,
+    "skipped": 17,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "authenticode NotSigned": 1,
-      "neutral version but installer differs by arch …; split versions per arch to pin": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 7,
+      "installer type … not supported by pinned route": 7,
+      "authenticode NotSigned": 2,
+      "download larger than … MB": 1
     }
   },
   "entries": [
@@ -1752,11 +1754,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "bitvise.ssh.client|9.67|neutral",
+      "key": "bitvise.ssh.client|9.69|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Bitvise.SSH.Client",
-      "version": "9.67",
+      "version": "9.69",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1766,15 +1768,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "exe_no_switch"
     },
     {
-      "key": "bitvise.ssh.server|9.68|neutral",
+      "key": "bitvise.ssh.server|9.69|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Bitvise.SSH.Server",
-      "version": "9.68",
+      "version": "9.69",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1784,7 +1786,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "exe"
     },
     {
@@ -2209,11 +2211,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "celsys.clipstudiopaint|5.1.4|neutral",
+      "key": "celsys.clipstudiopaint|5.1.5|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Celsys.ClipStudioPaint",
-      "version": "5.1.4",
+      "version": "5.1.5",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -2223,7 +2225,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "exe"
     },
     {
@@ -2935,36 +2937,37 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "crystaldewworld.crystaldiskinfo.shizukuedition|9.9.4|neutral",
+      "key": "crystaldewworld.crystaldiskinfo.shizukuedition|9.9.5|neutral",
       "status": "pinned",
       "id": "CrystalDewWorld.CrystalDiskInfo.ShizukuEdition",
-      "version": "9.9.4",
+      "version": "9.9.5",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
-      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4Shizuku.exe/download",
-      "sha256": "6917bdb02f1f9a41a2efa3df8e230759baf49ced739af2762c668ba6a82a611c",
-      "size": 255373536,
+      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.5/CrystalDiskInfo9_9_5Shizuku.exe/download",
+      "sha256": "f87de4b33acd7335d004fee43b7201711b45d2cd7f8370fa04228995bd784612",
+      "size": 255374784,
       "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
       "allowed_hosts": [
         "sourceforge.net",
         "downloads.sourceforge.net",
-        "cfhcable.dl.sourceforge.net"
+        "phoenixnap.dl.sourceforge.net"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
+      "silent_check": "ok"
     },
     {
-      "key": "crystaldewworld.crystaldiskinfo|9.9.4|neutral",
+      "key": "crystaldewworld.crystaldiskinfo|9.9.5|neutral",
       "status": "pinned",
       "id": "CrystalDewWorld.CrystalDiskInfo",
-      "version": "9.9.4",
+      "version": "9.9.5",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
-      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4.exe/download",
-      "sha256": "248d99fc43041e6c9c486beaae3e38e7fb864d8787b31f24d7634e0032952333",
-      "size": 6216032,
+      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.5/CrystalDiskInfo9_9_5.exe/download",
+      "sha256": "17cf38131d89003c666d499ccb62b5b9418b0127d7f362aeefeaa048481a8912",
+      "size": 6213144,
       "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
       "allowed_hosts": [
@@ -2972,7 +2975,8 @@
         "downloads.sourceforge.net",
         "cfhcable.dl.sourceforge.net"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
+      "silent_check": "ok"
     },
     {
       "key": "crystaldewworld.crystaldiskmark|9.0.3|neutral",
@@ -3361,11 +3365,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "dell.systemupdate|2.1.2.0|neutral",
+      "key": "dell.systemupdate|2.3.0.2|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Dell.SystemUpdate",
-      "version": "2.1.2.0",
+      "version": "2.3.0.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3375,7 +3379,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "exe"
     },
     {
@@ -3690,11 +3694,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "docker.dockercli|29.9.3|neutral",
+      "key": "docker.dockercli|29.10.0|neutral",
       "status": "skipped",
-      "reason": "installer type 'zip' not supported by pinned route",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Docker.DockerCLI",
-      "version": "29.9.3",
+      "version": "29.10.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3704,7 +3708,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -3835,11 +3839,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "duckduckgo.desktopbrowser|0.179.3.0|neutral",
+      "key": "duckduckgo.desktopbrowser|0.180.3.0|neutral",
       "status": "skipped",
       "reason": "installer type 'msix' not supported by pinned route",
       "id": "DuckDuckGo.DesktopBrowser",
-      "version": "0.179.3.0",
+      "version": "0.180.3.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3849,7 +3853,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -5593,11 +5597,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "gitify.gitify|8.1.0|neutral",
+      "key": "gitify.gitify|8.2.0|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "Gitify.Gitify",
-      "version": "8.1.0",
+      "version": "8.2.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5607,7 +5611,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -5888,11 +5892,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "google.androidstudio|2026.2.2.8|neutral",
+      "key": "google.androidstudio|2026.2.2.9|neutral",
       "status": "skipped",
       "reason": "download larger than 1024 MB",
       "id": "Google.AndroidStudio",
-      "version": "2026.2.2.8",
+      "version": "2026.2.2.9",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5902,7 +5906,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -7474,11 +7478,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jetbrains.intellijidea.ultimate|2026.2.3|neutral",
+      "key": "jetbrains.intellijidea.ultimate|2025.2.5|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JetBrains.IntelliJIDEA.Ultimate",
-      "version": "2026.2.3",
+      "version": "2025.2.5",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7488,7 +7492,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -7584,11 +7588,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "jetbrains.rider|2026.2.3.1|neutral",
+      "key": "jetbrains.rider|2026.2.4|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JetBrains.Rider",
-      "version": "2026.2.3.1",
+      "version": "2026.2.4",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7598,7 +7602,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -8898,11 +8902,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "mattermost.mattermostdesktop|6.3.2|neutral",
+      "key": "mattermost.mattermostdesktop|6.4.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Mattermost.MattermostDesktop",
-      "version": "6.3.2",
+      "version": "6.4.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -8912,7 +8916,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -12570,11 +12574,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "notion.notion|7.43.2|neutral",
+      "key": "notion.notion|7.44.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Notion.Notion",
-      "version": "7.43.2",
+      "version": "7.44.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12584,7 +12588,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -12790,11 +12794,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "ocbase.occt.personal|17.1.11.0|neutral",
+      "key": "ocbase.occt.personal|17.1.12.0|neutral",
       "status": "skipped",
       "reason": "installer type 'portable' not supported by pinned route",
       "id": "OCBase.OCCT.Personal",
-      "version": "17.1.11.0",
+      "version": "17.1.12.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12804,7 +12808,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -14236,11 +14240,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "postman.postman|12.36.4|neutral",
+      "key": "postman.postman|12.37.0|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Postman.Postman",
-      "version": "12.36.4",
+      "version": "12.37.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14250,7 +14254,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "exe"
     },
     {
@@ -15257,11 +15261,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "redhat.podman-desktop|1.30.5|neutral",
+      "key": "redhat.podman-desktop|1.30.7|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "RedHat.Podman-Desktop",
-      "version": "1.30.5",
+      "version": "1.30.7",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -15271,7 +15275,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -15751,22 +15755,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "safing.portmaster|2.2.8|neutral",
+      "key": "safing.portmaster|2.2.9|neutral",
       "status": "pinned",
       "id": "Safing.Portmaster",
-      "version": "2.2.8",
+      "version": "2.2.9",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.2.8_x64-setup.exe",
-      "sha256": "461370a8bfd961ce197f926e9675860a19c333082f39ac8153582734563a8d21",
-      "size": 78455400,
+      "url": "https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.2.9_x64-setup.exe",
+      "sha256": "3e94e1dd7c7efb2533e9d240103e041ce0a6098fdc567c2d90bd648f2ebddbd3",
+      "size": 73297928,
       "signer_subject": "CN=IVPN Limited, O=IVPN Limited, PostalCode=GX111AA, L=Gibraltar, S=Gibraltar, C=GI, SERIALNUMBER=112432, OID.1.3.6.1.4.1.311.60.2.1.3=GI, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "D3BF5973EB1EC3DBD6EC45D77D556881A350ACD2",
       "allowed_hosts": [
         "updates.safing.io"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
@@ -16716,11 +16720,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "subhra74.xtremedownloadmanager|9.0.10|neutral",
+      "key": "subhra74.xtremedownloadmanager|9.0.11|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "subhra74.XtremeDownloadManager",
-      "version": "9.0.10",
+      "version": "9.0.11",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16730,15 +16734,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {
-      "key": "subhra74.xtremedownloadmanager|9.0.10|x64",
+      "key": "subhra74.xtremedownloadmanager|9.0.11|x64",
       "status": "skipped",
-      "reason": "sha256 mismatch with manifest (manifest 165efb0ceaa6f0b7068f5de4cb8c4474a9366c902449c47c4739f13e14310f30 got 86072249c4678a60e73bd197c3b475b8266e4a98222e18762464217b5b4835cb)",
+      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "subhra74.XtremeDownloadManager",
-      "version": "9.0.10",
+      "version": "9.0.11",
       "arch": "x64",
       "installer_type": "",
       "installer_arch": "",
@@ -16748,7 +16752,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-16T23:26:21.8587136Z",
       "silent_check": "ok"
     },
     {

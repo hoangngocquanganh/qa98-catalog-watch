@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-16T09:51:25.1241658Z",
-  "catalog_revision": 204,
+  "generated_at": "2026-11-16T23:26:21.8587136Z",
+  "catalog_revision": 210,
   "count": 365,
   "pins": [
     {
@@ -875,31 +875,31 @@
     },
     {
       "id": "CrystalDewWorld.CrystalDiskInfo.ShizukuEdition",
-      "version": "9.9.4",
+      "version": "9.9.5",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
-      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4Shizuku.exe/download",
-      "sha256": "6917bdb02f1f9a41a2efa3df8e230759baf49ced739af2762c668ba6a82a611c",
-      "size": 255373536,
+      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.5/CrystalDiskInfo9_9_5Shizuku.exe/download",
+      "sha256": "f87de4b33acd7335d004fee43b7201711b45d2cd7f8370fa04228995bd784612",
+      "size": 255374784,
       "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
       "allowed_hosts": [
         "sourceforge.net",
         "downloads.sourceforge.net",
-        "cfhcable.dl.sourceforge.net"
+        "phoenixnap.dl.sourceforge.net"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-16T23:26:21.8587136Z"
     },
     {
       "id": "CrystalDewWorld.CrystalDiskInfo",
-      "version": "9.9.4",
+      "version": "9.9.5",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
-      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.4/CrystalDiskInfo9_9_4.exe/download",
-      "sha256": "248d99fc43041e6c9c486beaae3e38e7fb864d8787b31f24d7634e0032952333",
-      "size": 6216032,
+      "url": "https://sourceforge.net/projects/crystaldiskinfo/files/9.9.5/CrystalDiskInfo9_9_5.exe/download",
+      "sha256": "17cf38131d89003c666d499ccb62b5b9418b0127d7f362aeefeaa048481a8912",
+      "size": 6213144,
       "signer_subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
       "allowed_hosts": [
@@ -907,7 +907,7 @@
         "downloads.sourceforge.net",
         "cfhcable.dl.sourceforge.net"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-16T23:26:21.8587136Z"
     },
     {
       "id": "CrystalDewWorld.CrystalDiskMark",
@@ -4766,19 +4766,19 @@
     },
     {
       "id": "Safing.Portmaster",
-      "version": "2.2.8",
+      "version": "2.2.9",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.2.8_x64-setup.exe",
-      "sha256": "461370a8bfd961ce197f926e9675860a19c333082f39ac8153582734563a8d21",
-      "size": 78455400,
+      "url": "https://updates.safing.io/latest/windows_amd64/packages/Portmaster_2.2.9_x64-setup.exe",
+      "sha256": "3e94e1dd7c7efb2533e9d240103e041ce0a6098fdc567c2d90bd648f2ebddbd3",
+      "size": 73297928,
       "signer_subject": "CN=IVPN Limited, O=IVPN Limited, PostalCode=GX111AA, L=Gibraltar, S=Gibraltar, C=GI, SERIALNUMBER=112432, OID.1.3.6.1.4.1.311.60.2.1.3=GI, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "D3BF5973EB1EC3DBD6EC45D77D556881A350ACD2",
       "allowed_hosts": [
         "updates.safing.io"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-16T23:26:21.8587136Z"
     },
     {
       "id": "Sandboxie.Classic",

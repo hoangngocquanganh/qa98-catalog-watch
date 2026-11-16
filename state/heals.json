@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-16T09:51:30.5965296Z",
+  "updated_at": "2026-11-16T23:26:39.8209211Z",
   "last_run": {
-    "at": "2026-11-16T09:51:30.5965296Z",
+    "at": "2026-11-16T23:26:39.8209211Z",
     "seconds": 16,
     "failing": 10,
     "healed": 0,
@@ -10,7 +10,7 @@
     "downloads": 4,
     "downloaded_mb": 6,
     "harvested": 3,
-    "anchors": 444
+    "anchors": 447
   },
   "heals": [],
   "heal_blocked": [
@@ -1257,6 +1257,16 @@
       "at": "2026-11-14T09:02:40.6390042Z"
     },
     {
+      "id": "w:comodo.comododragon",
+      "version": "134.0.6998.179",
+      "sha256": "e1a025e88aab06ee49789a3a568b50c87647c072206b3f336ce905223eddd549",
+      "size": 153992608,
+      "subject": "CN=Comodo Security Solutions Inc, O=Comodo Security Solutions Inc, S=New Jersey, C=US, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=3902393",
+      "thumbprint": "5CCF9917614EF9224C6766DA222885D60DEFD63C",
+      "source": "harvest",
+      "at": "2026-11-16T23:26:39.8209211Z"
+    },
+    {
       "id": "w:corel.winzip",
       "version": "29.0.16416",
       "sha256": "9cace8d99ffa8b467fe23b2b083cd6d155c9f8021c07495da6d0477e31cd21f1",
@@ -1275,6 +1285,26 @@
       "thumbprint": "E97841D44C4D4EA4EA86E2E5856E01EF999D538F",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:corsair.icue.5",
+      "version": "5.52.93",
+      "sha256": "7ecefe7badd2b80d33dce7a82d8abc4caf2404793f17c472b6d06a7cef8145b4",
+      "size": 3392688,
+      "subject": "CN=\"Corsair Memory, Inc.\", O=\"Corsair Memory, Inc.\", L=Milpitas, S=California, C=US, SERIALNUMBER=4335898, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "A350E192359BEF4C6E39FC23CA9ECF3F75B654A7",
+      "source": "harvest",
+      "at": "2026-11-16T23:26:39.8209211Z"
+    },
+    {
+      "id": "w:cpuid.cpu-z",
+      "version": "3.02",
+      "sha256": "7109edaeffddd39b75d170d5465263185cc80103f37f49065709e91ddcecee8d",
+      "size": 4860104,
+      "subject": "CN=CPUID, O=CPUID, S=Nord, C=FR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=493 590 202 00047",
+      "thumbprint": "E97BB2A8E06B8E255755B8DE94158A663F94729F",
+      "source": "harvest",
+      "at": "2026-11-16T23:26:39.8209211Z"
     },
     {
       "id": "w:cpuid.cpu-z.rog",
@@ -1308,23 +1338,23 @@
     },
     {
       "id": "w:crystaldewworld.crystaldiskinfo",
-      "version": "9.9.4",
-      "sha256": "248d99fc43041e6c9c486beaae3e38e7fb864d8787b31f24d7634e0032952333",
-      "size": 6216032,
+      "version": "9.9.5",
+      "sha256": "17cf38131d89003c666d499ccb62b5b9418b0127d7f362aeefeaa048481a8912",
+      "size": 6213144,
       "subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
       "thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-16T23:26:21.8587136Z"
     },
     {
       "id": "w:crystaldewworld.crystaldiskinfo.shizukuedition",
-      "version": "9.9.4",
-      "sha256": "6917bdb02f1f9a41a2efa3df8e230759baf49ced739af2762c668ba6a82a611c",
-      "size": 255373536,
+      "version": "9.9.5",
+      "sha256": "f87de4b33acd7335d004fee43b7201711b45d2cd7f8370fa04228995bd784612",
+      "size": 255374784,
       "subject": "CN=CrystalMark Inc., O=CrystalMark Inc., STREET=\"5-31-1, Minami 2-Jo Nishi\", L=\"Sapporo, Chuo-ku\", S=Hokkaido, C=JP, OID.1.3.6.1.4.1.311.60.2.1.3=JP, SERIALNUMBER=430001093727, OID.2.5.4.15=Private Organization",
       "thumbprint": "AEDECD29C5EEECB55F96D97650E7ECDF5B1C3BE5",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-16T23:26:21.8587136Z"
     },
     {
       "id": "w:crystaldewworld.crystaldiskmark",
@@ -3768,13 +3798,13 @@
     },
     {
       "id": "w:safing.portmaster",
-      "version": "2.2.8",
-      "sha256": "461370a8bfd961ce197f926e9675860a19c333082f39ac8153582734563a8d21",
-      "size": 78455400,
+      "version": "2.2.9",
+      "sha256": "3e94e1dd7c7efb2533e9d240103e041ce0a6098fdc567c2d90bd648f2ebddbd3",
+      "size": 73297928,
       "subject": "CN=IVPN Limited, O=IVPN Limited, PostalCode=GX111AA, L=Gibraltar, S=Gibraltar, C=GI, SERIALNUMBER=112432, OID.1.3.6.1.4.1.311.60.2.1.3=GI, OID.2.5.4.15=Private Organization",
       "thumbprint": "D3BF5973EB1EC3DBD6EC45D77D556881A350ACD2",
       "source": "pin",
-      "at": "2026-11-12T09:54:49.3674978Z"
+      "at": "2026-11-16T23:26:21.8587136Z"
     },
     {
       "id": "w:sandboxie.classic",
