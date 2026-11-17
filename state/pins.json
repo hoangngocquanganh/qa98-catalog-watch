@@ -1,22 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-16T23:26:21.8587136Z",
-  "catalog_revision": 210,
+  "updated_at": "2026-11-17T10:48:31.6238053Z",
+  "catalog_revision": 215,
   "last_run": {
-    "at": "2026-11-16T23:26:21.8587136Z",
-    "seconds": 17,
-    "checked": 20,
-    "downloads": 6,
-    "downloaded_mb": 491,
-    "pinned": 3,
-    "skipped": 17,
+    "at": "2026-11-17T10:48:31.6238053Z",
+    "seconds": 6,
+    "checked": 15,
+    "downloads": 4,
+    "downloaded_mb": 601,
+    "pinned": 4,
+    "skipped": 11,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 7,
-      "installer type … not supported by pinned route": 7,
-      "authenticode NotSigned": 2,
-      "download larger than … MB": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 8,
+      "installer type … not supported by pinned route": 3
     }
   },
   "entries": [
@@ -1425,11 +1423,11 @@
       "checked_at": "2026-11-10T10:42:13.2283092Z"
     },
     {
-      "key": "axosoft.gitkraken|12.6.0|neutral",
+      "key": "axosoft.gitkraken|12.6.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Axosoft.GitKraken",
-      "version": "12.6.0",
+      "version": "12.6.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1439,7 +1437,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "exe"
     },
     {
@@ -1535,11 +1533,11 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "barry-ran.qtscrcpy|4.1.1|neutral",
+      "key": "barry-ran.qtscrcpy|4.2.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Barry-ran.QtScrcpy",
-      "version": "4.1.1",
+      "version": "4.2.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1549,7 +1547,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -1589,11 +1587,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "beekeeper-studio.beekeeper-studio|6.2.2|neutral",
+      "key": "beekeeper-studio.beekeeper-studio|6.3.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "beekeeper-studio.beekeeper-studio",
-      "version": "6.2.2",
+      "version": "6.3.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1603,7 +1601,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -3638,11 +3636,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "discord.discord.canary|1.0.1330|neutral",
+      "key": "discord.discord.canary|1.0.1331|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Discord.Discord.Canary",
-      "version": "1.0.1330",
+      "version": "1.0.1331",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3652,15 +3650,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "exe_no_switch"
     },
     {
-      "key": "discord.discord|1.0.9268|neutral",
+      "key": "discord.discord|1.0.9269|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Discord.Discord",
-      "version": "1.0.9268",
+      "version": "1.0.9269",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3670,7 +3668,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -4315,11 +4313,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "eloston.ungoogled-chromium|155.0.8059.84|neutral",
+      "key": "eloston.ungoogled-chromium|156.0.8078.47|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "eloston.ungoogled-chromium",
-      "version": "155.0.8059.84",
+      "version": "156.0.8078.47",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4329,7 +4327,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -7316,11 +7314,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jesseduffield.lazygit|0.66.1|neutral",
+      "key": "jesseduffield.lazygit|0.66.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "JesseDuffield.lazygit",
-      "version": "0.66.1",
+      "version": "0.66.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7330,7 +7328,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -9158,22 +9156,22 @@
       "silent_check": "exe"
     },
     {
-      "key": "microsoft.azd|1.37.400|neutral",
+      "key": "microsoft.azd|1.38.100|neutral",
       "status": "pinned",
       "id": "Microsoft.Azd",
-      "version": "1.37.400",
+      "version": "1.38.100",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://download.microsoft.com/download/eca0c9b3-b69b-4179-ad2a-073cf3bac069/d20c72f8-e8fe-4aea-9c6b-9760abdf515b/azd-windows-amd64.msi",
-      "sha256": "4487bc005459dc0cb4c60a090b0acdd2800ef3ba56bd1b802e091b5215a0bfa3",
-      "size": 21356544,
+      "url": "https://download.microsoft.com/download/633b0605-6c3b-4816-9316-6792f340436a/4d8debf8-03fe-428a-ae29-057a23d00873/azd-windows-amd64.msi",
+      "sha256": "19458b6a32eae6a0dbdc60a75d37e83bf4128b0ad96f5541cc83d17d0086b2ea",
+      "size": 21360640,
       "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
       "allowed_hosts": [
         "download.microsoft.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -12130,23 +12128,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "nextcloud.talk|2.3.4|neutral",
+      "key": "nextcloud.talk|2.3.5|neutral",
       "status": "pinned",
       "id": "Nextcloud.Talk",
-      "version": "2.3.4",
+      "version": "2.3.5",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/nextcloud-releases/talk-desktop/releases/download/v2.3.4/Nextcloud.Talk-windows-x64.msi",
-      "sha256": "a1f1f601e6bcd18a6a1e98d8c350967c459094137b787dbffb2c64391a71f157",
-      "size": 189591552,
+      "url": "https://github.com/nextcloud-releases/talk-desktop/releases/download/v2.3.5/Nextcloud.Talk-windows-x64.msi",
+      "sha256": "93d3577cd8eb16759c5efc55c359d35e1ebd371cf65179714ff405c2050320ac",
+      "size": 189612032,
       "signer_subject": "CN=Nextcloud GmbH, O=Nextcloud GmbH, S=Baden-Wuerttemberg, C=DE",
       "signer_thumbprint": "2932517EB259A454D963A39C7D003E096D968404",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -13828,11 +13826,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "peterpawlowski.foobar2000|2.26.2|neutral",
+      "key": "peterpawlowski.foobar2000|2.26.3|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "PeterPawlowski.foobar2000",
-      "version": "2.26.2",
+      "version": "2.26.3",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13842,7 +13840,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -14556,22 +14554,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "proxyman.proxyman|26.2.0|neutral",
+      "key": "proxyman.proxyman|26.3.0|neutral",
       "status": "pinned",
       "id": "Proxyman.Proxyman",
-      "version": "26.2.0",
+      "version": "26.3.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://assets.proxyman.com/windows/26.2.0/build/Proxyman%20Setup%2026.2.0.exe",
-      "sha256": "62fcf29dde7e0ccdd77bbe7468ca8056411e0306c235f30da061e53fed0f89c2",
-      "size": 194582160,
+      "url": "https://assets.proxyman.com/windows/26.3.0/build/Proxyman%20Setup%2026.3.0.exe",
+      "sha256": "0abd723235fa3f33ec243f1d23e098f4c26b22101c03cb74e6b8e7f8748fbfda",
+      "size": 194733168,
       "signer_subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Nova Scotia, OID.2.5.4.15=Private Organization, CN=TablePlus Inc, SERIALNUMBER=3321629, O=TablePlus Inc, L=Toronto, S=Ontario, C=CA",
       "signer_thumbprint": "346F0E3DF0458F9AD0EA4BB8511DD3DE43580CBE",
       "allowed_hosts": [
         "assets.proxyman.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -15628,11 +15626,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "rubyinstallerteam.rubywithdevkit.3.3|3.3.12-1|neutral",
+      "key": "rubyinstallerteam.rubywithdevkit.3.3|3.3.13-1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "RubyInstallerTeam.RubyWithDevKit.3.3",
-      "version": "3.3.12-1",
+      "version": "3.3.13-1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -15642,7 +15640,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -16223,11 +16221,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "slacktechnologies.slack|4.53.287|neutral",
+      "key": "slacktechnologies.slack|4.53.292|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "SlackTechnologies.Slack",
-      "version": "4.53.287",
+      "version": "4.53.292",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16237,7 +16235,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -17933,11 +17931,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "unity.unityhub|3.22.6.65535|neutral",
+      "key": "unity.unityhub|4.0.1.65535|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Unity.UnityHub",
-      "version": "3.22.6.65535",
+      "version": "4.0.1.65535",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -17947,7 +17945,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
@@ -19101,23 +19099,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "xmind.xmind|27.1.5088|neutral",
+      "key": "xmind.xmind|27.1.5089|neutral",
       "status": "pinned",
       "id": "Xmind.Xmind",
-      "version": "27.1.5088",
+      "version": "27.1.5089",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://www.xmind.app/xmind/downloads/Xmind-for-Windows-x64bit-27.01.05088-202611110744.exe",
-      "sha256": "fdc4c858aec4de99a549b7f5ae7aa9aacb41535c131bacb234202eccd7633922",
-      "size": 225207888,
+      "url": "https://www.xmind.app/xmind/downloads/Xmind-for-Windows-x64bit-27.01.05089-202611160719.exe",
+      "sha256": "4aa219de610ba2040ff9f634afa8ec5b34dceecc8a728722f1409b2a1b21050c",
+      "size": 225206152,
       "signer_subject": "CN=XMIND LIMITED, O=XMIND LIMITED, L=Hong Kong, S=Hong Kong, C=HK",
-      "signer_thumbprint": "A3DE172229FC42563DB23B8ABC4720C15D53BE64",
+      "signer_thumbprint": "143DAB3AA519A157E3BE6D886D037B06DF021C69",
       "allowed_hosts": [
         "www.xmind.app",
         "dl3.xmind.app"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-17T10:48:31.6238053Z",
       "silent_check": "ok"
     },
     {
