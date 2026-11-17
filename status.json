@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-17T00:45:54.6105714Z",
+  "checked_at": "2026-11-17T08:34:26.545491Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,29 +12,29 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-17T00:45:54.6105714Z",
-  "catalog_revision": 212,
+  "last_probe_at": "2026-11-17T08:34:26.545491Z",
+  "catalog_revision": 215,
   "total_keys": 1006,
   "hidden": 10,
-  "cycle_position": 658,
+  "cycle_position": 728,
   "error": "",
   "pages": {
-    "catalog_revision": 212,
+    "catalog_revision": 215,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-17T00:45:54.6105714Z",
-    "seconds": 51,
-    "probed": 100,
-    "ok": 90,
-    "hashed": 16,
+    "at": "2026-11-17T08:34:26.545491Z",
+    "seconds": 75,
+    "probed": 99,
+    "ok": 87,
+    "hashed": 33,
     "transient": 0,
-    "broken": 9,
+    "broken": 11,
     "hash_mismatch": 1,
-    "skipped": 0,
+    "skipped": 1,
     "wide_outage": false
   },
   "silent_missing": [
@@ -63,13 +63,6 @@
       "slug": "brave",
       "winget_id": "Brave.Brave",
       "version": "157.1.99.56",
-      "installer_type": "exe",
-      "silent_switch": false
-    },
-    {
-      "slug": "discord-discord-canary",
-      "winget_id": "Discord.Discord.Canary",
-      "version": "1.0.1330",
       "installer_type": "exe",
       "silent_switch": false
     },
