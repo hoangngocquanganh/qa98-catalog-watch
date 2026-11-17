@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-17T10:48:31.6238053Z",
-  "catalog_revision": 215,
-  "count": 365,
+  "generated_at": "2026-11-17T22:28:20.4091298Z",
+  "catalog_revision": 222,
+  "count": 363,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -239,20 +239,20 @@
     },
     {
       "id": "AntibodySoftware.WizTree",
-      "version": "4.33",
+      "version": "4.34",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
-      "url": "https://diskanalyzer.com/files/wiztree_4_33_setup.exe",
-      "sha256": "3c56dfc08f06c58b9a9133a137c8559e016749e1605cf81e1b1d6b1deead2ff1",
-      "size": 5153232,
+      "url": "https://diskanalyzer.com/files/wiztree_4_34_setup.exe",
+      "sha256": "77e75b83b59673a49dc88ba60471776df3646baee30a82453db01ff6ad83ef2c",
+      "size": 5338696,
       "signer_subject": "CN=Antibody Software Limited, O=Antibody Software Limited, S=Bay of Plenty, C=NZ, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=NZ, SERIALNUMBER=1988665",
       "signer_thumbprint": "BD10DE8E797A2F0028F705896BFEF97E4BBFC934",
       "allowed_hosts": [
         "diskanalyzer.com",
         "antibodysoftware-17031.kxcdn.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-17T22:28:20.4091298Z"
     },
     {
       "id": "AOMEI.Backupper.Standard",
@@ -550,19 +550,19 @@
     },
     {
       "id": "Bin-Huang.Chatbox",
-      "version": "1.24.4",
+      "version": "1.24.5",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.4-Setup.exe",
-      "sha256": "7d67a0df61c9daf5d3aed57434fcd7d6b0bb98856ec69d16cd3c07bafef24187",
-      "size": 241083488,
+      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.5-Setup.exe",
+      "sha256": "c68dfa9b2abd5d8bbcfef0ab330e08ffac450bc361996d9fe83fc43e3a5f1813",
+      "size": 241279304,
       "signer_subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "allowed_hosts": [
         "download.chatboxai.app"
       ],
-      "checked_at": "2026-11-14T09:02:40.6390042Z"
+      "checked_at": "2026-11-17T22:28:20.4091298Z"
     },
     {
       "id": "Bitwarden.Bitwarden",
@@ -2134,19 +2134,19 @@
     },
     {
       "id": "HulubuluSoftware.AdvancedRenamer",
-      "version": "4.28",
+      "version": "4.29",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_setup_4_28.exe",
-      "sha256": "24402561feb48b821e5377310b1c66fb77c724ed59b2aa07e76703452377f0a2",
-      "size": 13250840,
+      "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_setup_4_29.exe",
+      "sha256": "7fe8a1b728369db15c43eca7335db7480d82b740e2d31b4a21a956dd679ad6ec",
+      "size": 14716288,
       "signer_subject": "CN=Hulubulu Software, O=Hulubulu Software, L=Hedehusene, C=DK",
-      "signer_thumbprint": "D0589BF6ADAD0113A6AD03396C38243F2043063E",
+      "signer_thumbprint": "9CDF86E651E9C2A29EA92DFF04285065F4AA16B5",
       "allowed_hosts": [
         "www.advancedrenamer.com"
       ],
-      "checked_at": "2026-11-10T14:32:28.4341544Z"
+      "checked_at": "2026-11-17T22:28:20.4091298Z"
     },
     {
       "id": "IDRIX.VeraCrypt",
@@ -2774,23 +2774,6 @@
         "medibangpaint.com"
       ],
       "checked_at": "2026-11-14T09:02:40.6390042Z"
-    },
-    {
-      "id": "Meltytech.Shotcut",
-      "version": "26.9.27",
-      "arch": "x64",
-      "installer_type": "inno",
-      "installer_arch": "x64",
-      "url": "https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-win64-26.9.27.exe",
-      "sha256": "77e1ee1f713d92bdbaff23266f416e33cde3d367f7ef518b1841ddc961d05af9",
-      "size": 152926384,
-      "signer_subject": "CN=\"Meltytech, LLC\", O=\"Meltytech, LLC\", L=Oceanside, S=California, C=US",
-      "signer_thumbprint": "796DC3140F9A322B07BCA512A86EA4E37B79AB25",
-      "allowed_hosts": [
-        "github.com",
-        "release-assets.githubusercontent.com"
-      ],
-      "checked_at": "2026-11-13T11:46:19.970466Z"
     },
     {
       "id": "Microsoft.Azd",
@@ -3447,23 +3430,6 @@
       "size": 166187008,
       "signer_subject": "CN=Nicholas Tollervey, O=Nicholas Tollervey, S=Northamptonshire, C=GB",
       "signer_thumbprint": "2E025B8861EFB2BE01C5A0B7AE2EAC0E2DBBDD41",
-      "allowed_hosts": [
-        "github.com",
-        "release-assets.githubusercontent.com"
-      ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
-    },
-    {
-      "id": "MullvadVPN.MullvadBrowser",
-      "version": "16.0.1",
-      "arch": "neutral",
-      "installer_type": "nullsoft",
-      "installer_arch": "x64",
-      "url": "https://github.com/mullvad/mullvad-browser/releases/download/16.0.1/mullvad-browser-windows-x86_64-16.0.1.exe",
-      "sha256": "72b997c487b4949e76a98a62ddc585d5a4b297eab6e54a608e36b6fb31c70462",
-      "size": 109991296,
-      "signer_subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
-      "signer_thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
