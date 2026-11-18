@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-17T22:28:20.4091298Z",
-  "catalog_revision": 222,
-  "count": 363,
+  "generated_at": "2026-11-18T10:16:40.654227Z",
+  "catalog_revision": 228,
+  "count": 365,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -108,84 +108,84 @@
     },
     {
       "id": "Amazon.AWSCLI",
-      "version": "2.40.2",
+      "version": "2.41.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.2.msi",
-      "sha256": "9ed438e8c0f1f12ff4e415efe92aba49a9ded130efa435005ab9091a8f458431",
-      "size": 50565120,
+      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.41.0.msi",
+      "sha256": "31dd42c72e0208440dd4bbf11ff0cc3562c53c599066d9b81d118a1ade3958ca",
+      "size": 50921472,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "allowed_hosts": [
         "awscli.amazonaws.com"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Amazon.Corretto.17.JDK",
-      "version": "17.0.21.0",
+      "version": "17.0.21.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64.msi",
-      "sha256": "10572cd3b8d32ca30e1910d2a3840c60ef2566b43cc891233d3e7a67bf1284e2",
-      "size": 168902656,
+      "url": "https://corretto.aws/downloads/resources/17.0.21.1.2/amazon-corretto-17.0.21.1.2-windows-x64.msi",
+      "sha256": "c9dbb603e5b4dc3566e1988417755cdebe5a44069cd83f94933c2c3429ab1851",
+      "size": 168919040,
       "signer_subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "allowed_hosts": [
         "corretto.aws"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Amazon.Corretto.21.JDK",
-      "version": "21.0.13.0",
+      "version": "21.0.13.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64.msi",
-      "sha256": "9b2470f031616c8ce92274ef64635551659e644af94b6bac8fd72a84f59211e3",
-      "size": 179888128,
+      "url": "https://corretto.aws/downloads/resources/21.0.13.1.2/amazon-corretto-21.0.13.1.2-windows-x64.msi",
+      "sha256": "fd52d8bbc21f715e0f865f468f3420170a7bc3edf16aab0baeb630a3a432dff3",
+      "size": 179900416,
       "signer_subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "allowed_hosts": [
         "corretto.aws"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Amazon.Corretto.25.JDK",
-      "version": "25.0.5.0",
+      "version": "25.0.5.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64.msi",
-      "sha256": "d6b85a0562080ade28c7b757c0b1902cc8e71687b8fbad36c5a6c1b3c4f0f167",
-      "size": 198639616,
+      "url": "https://corretto.aws/downloads/resources/25.0.5.1.2/amazon-corretto-25.0.5.1.2-windows-x64.msi",
+      "sha256": "ded32dedfc8a2e3d15017700e29ecb08edb29b3a852c82ee3d6443dc9c354b61",
+      "size": 198664192,
       "signer_subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "allowed_hosts": [
         "corretto.aws"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Amazon.SAM-CLI",
-      "version": "1.172.1",
+      "version": "1.173.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.172.1/AWS_SAM_CLI_64_PY3.msi",
-      "sha256": "3fffa130797f0317b7538dd8145be547513ced2ee2f537a4aa79576de8eb4360",
-      "size": 98504704,
+      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.173.0/AWS_SAM_CLI_64_PY3.msi",
+      "sha256": "6bb9f536bb68ba2d7fae27141c696e38e0d544f413cee444211fad2032e0f445",
+      "size": 98516992,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T21:27:51.6491038Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "AndreWiethoff.ExactAudioCopy",
@@ -421,19 +421,19 @@
     },
     {
       "id": "Azul.Zulu.21.JDK",
-      "version": "21.54.109",
+      "version": "21.54.201",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-win_x64.msi",
-      "sha256": "03e4a852cf11e76abd4f988f1b06d47d956eed83e46f25adf082576dbeb2f6d7",
-      "size": 186527744,
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-win_x64.msi",
+      "sha256": "7a519262e5b850c57241a71c189972b86fa188b393d52b6045c8941b860857d0",
+      "size": 186523648,
       "signer_subject": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US, SERIALNUMBER=3500498, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "D4605D9421BA7A7AE70F4C82499E2C6B3F5C9BA9",
       "allowed_hosts": [
         "cdn.azul.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Baidu.BaiduPinyin",
@@ -1904,7 +1904,7 @@
     },
     {
       "id": "Google.CloudSDK",
-      "version": "593.0.0",
+      "version": "594.0.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
@@ -1916,7 +1916,7 @@
       "allowed_hosts": [
         "dl.google.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Google.JapaneseIME",
@@ -2364,20 +2364,20 @@
     },
     {
       "id": "JGraph.Draw",
-      "version": "32.6.10",
+      "version": "32.7.4",
       "arch": "x64",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.6.10/draw.io-32.6.10-windows-installer.exe",
-      "sha256": "e7ea99906304507ed0e2c14193f9aba578c47df38e93a5fe748b52a8b85aa88f",
-      "size": 144077080,
+      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.7.4/draw.io-32.7.4-windows-installer.exe",
+      "sha256": "f4d5cbfa71763c76c0d0834ff27064b55e6e42b28541101f091262002c608346",
+      "size": 144178400,
       "signer_subject": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "signer_thumbprint": "145B546AD357C6D87CF6F702D7BFCB2876635C47",
+      "signer_thumbprint": "50576B630D8BB457C943F26C3336397A11C6B45B",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "JohnMacFarlane.Pandoc",
@@ -2774,6 +2774,23 @@
         "medibangpaint.com"
       ],
       "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "Meltytech.Shotcut",
+      "version": "26.11.15",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/mltframework/shotcut/releases/download/v26.11.15/shotcut-win64-26.11.15.exe",
+      "sha256": "f440b9b9aa9e92040683d43094502f6dcfa8ff4800fb80299f9402d1ac0df624",
+      "size": 142844768,
+      "signer_subject": "CN=\"Meltytech, LLC\", O=\"Meltytech, LLC\", L=Oceanside, S=California, C=US",
+      "signer_thumbprint": "796DC3140F9A322B07BCA512A86EA4E37B79AB25",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Microsoft.Azd",
@@ -3435,6 +3452,23 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-11T09:31:06.8323988Z"
+    },
+    {
+      "id": "MullvadVPN.MullvadBrowser",
+      "version": "16.0.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/mullvad/mullvad-browser/releases/download/16.0.2/mullvad-browser-windows-x86_64-16.0.2.exe",
+      "sha256": "d2f8c8e98e619c1ac8cbae56ce4f5d0f599fd65f674ca4c9408bdf9be8ac35af",
+      "size": 110068184,
+      "signer_subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Mumble.Mumble.Client",
@@ -4651,20 +4685,20 @@
     },
     {
       "id": "Rem0o.FanControl",
-      "version": "285",
+      "version": "286",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V285/FanControl_285_net_10_0_Installer.exe",
-      "sha256": "0ad1fca893a9e187e193c9bde4774b864116b78526c22471c0683c23d65d6081",
-      "size": 20894624,
+      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V286/FanControl_286_net_10_0_Installer.exe",
+      "sha256": "162121ae8c176e90f3447c6ae3f60df7af7c51d3ae5be0cd6fa36e01de0fe88c",
+      "size": 21074016,
       "signer_subject": "CN=Rémi Mercier, O=Rémi Mercier, L=Québec, S=Québec, C=CA",
-      "signer_thumbprint": "1BBC2992F6327CB949B19E4C3043121B67789D93",
+      "signer_thumbprint": "12A6A5682985DC2EA86E3597F08654067EC8D087",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Resplendence.WhoCrashed",
@@ -5028,35 +5062,35 @@
     },
     {
       "id": "SteelSeries.GG",
-      "version": "123.0.0",
+      "version": "124.0.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://engine.steelseriescdn.com/SteelSeriesGG123.0.0Setup.exe",
-      "sha256": "e8846a8793b707e2829702112fe47314ed3dd2433ab80dc42099e33b68288bcc",
-      "size": 433651280,
+      "url": "https://engine.steelseriescdn.com/SteelSeriesGG124.0.0Setup.exe",
+      "sha256": "01af0c88c8e91fb932f26b2894ac73d1339f0e11903719fdcfd45067a19effc9",
+      "size": 438025280,
       "signer_subject": "CN=GN Hearing A/S, O=GN Hearing A/S, L=Ballerup, C=DK, SERIALNUMBER=55082715, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
       "signer_thumbprint": "C540E47CE151E3301E14F5C54129920E5ECB60B3",
       "allowed_hosts": [
         "engine.steelseriescdn.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Streamlabs.Streamlabs",
-      "version": "1.21.9",
+      "version": "1.22.5",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://slobs-cdn.streamlabs.com/Streamlabs+Desktop+Setup+1.21.9.exe",
-      "sha256": "57e0c280bc4a85e66411a1ed0f874d56b8f2a33590d42146c6d07bab96ca9ceb",
-      "size": 286640296,
+      "url": "https://slobs-cdn.streamlabs.com/Streamlabs+Desktop+Setup+1.22.5.exe",
+      "sha256": "45d893eb0047ad6f4c3ff804255e7e85dff02eb0fd95f8aefc4d852d73eeca7b",
+      "size": 338928144,
       "signer_subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
       "allowed_hosts": [
         "slobs-cdn.streamlabs.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "Stremio.Stremio",

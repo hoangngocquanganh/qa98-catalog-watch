@@ -1,24 +1,21 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-17T22:28:20.4091298Z",
-  "catalog_revision": 222,
+  "updated_at": "2026-11-18T10:16:40.654227Z",
+  "catalog_revision": 228,
   "last_run": {
-    "at": "2026-11-17T22:28:20.4091298Z",
-    "seconds": 34,
-    "checked": 300,
-    "downloads": 40,
-    "downloaded_mb": 3002,
-    "pinned": 3,
-    "skipped": 288,
+    "at": "2026-11-18T10:16:40.654227Z",
+    "seconds": 239,
+    "checked": 254,
+    "downloads": 31,
+    "downloaded_mb": 3903,
+    "pinned": 13,
+    "skipped": 241,
     "transient": 0,
-    "deferred": 9,
+    "deferred": 0,
     "skip_reasons": {
       "neutral version but installer differs by arch …; split versions per arch to pin": 146,
-      "installer type … not supported by pinned route": 100,
-      "authenticode NotSigned": 35,
-      "winget manifest missing": 4,
-      "download larger than … MB": 2,
-      "manifest has no https installer with sha256": 1
+      "installer type … not supported by pinned route": 77,
+      "authenticode NotSigned": 18
     }
   },
   "entries": [
@@ -55,7 +52,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -328,7 +325,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -477,30 +474,30 @@
       "silent_check": "ok"
     },
     {
-      "key": "amazon.awscli|2.40.2|neutral",
+      "key": "amazon.awscli|2.41.0|neutral",
       "status": "pinned",
       "id": "Amazon.AWSCLI",
-      "version": "2.40.2",
+      "version": "2.41.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.40.2.msi",
-      "sha256": "9ed438e8c0f1f12ff4e415efe92aba49a9ded130efa435005ab9091a8f458431",
-      "size": 50565120,
+      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.41.0.msi",
+      "sha256": "31dd42c72e0208440dd4bbf11ff0cc3562c53c599066d9b81d118a1ade3958ca",
+      "size": 50921472,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "allowed_hosts": [
         "awscli.amazonaws.com"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
-      "key": "amazon.corretto.11.jdk|11.0.33.0|neutral",
+      "key": "amazon.corretto.11.jdk|11.0.33.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Amazon.Corretto.11.JDK",
-      "version": "11.0.33.0",
+      "version": "11.0.33.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -510,69 +507,72 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
-      "key": "amazon.corretto.17.jdk|17.0.21.0|neutral",
+      "key": "amazon.corretto.17.jdk|17.0.21.1|neutral",
       "status": "pinned",
       "id": "Amazon.Corretto.17.JDK",
-      "version": "17.0.21.0",
+      "version": "17.0.21.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://corretto.aws/downloads/resources/17.0.21.0.11/amazon-corretto-17.0.21.0.11-windows-x64.msi",
-      "sha256": "10572cd3b8d32ca30e1910d2a3840c60ef2566b43cc891233d3e7a67bf1284e2",
-      "size": 168902656,
+      "url": "https://corretto.aws/downloads/resources/17.0.21.1.2/amazon-corretto-17.0.21.1.2-windows-x64.msi",
+      "sha256": "c9dbb603e5b4dc3566e1988417755cdebe5a44069cd83f94933c2c3429ab1851",
+      "size": 168919040,
       "signer_subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "allowed_hosts": [
         "corretto.aws"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
     },
     {
-      "key": "amazon.corretto.21.jdk|21.0.13.0|neutral",
+      "key": "amazon.corretto.21.jdk|21.0.13.1|neutral",
       "status": "pinned",
       "id": "Amazon.Corretto.21.JDK",
-      "version": "21.0.13.0",
+      "version": "21.0.13.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-windows-x64.msi",
-      "sha256": "9b2470f031616c8ce92274ef64635551659e644af94b6bac8fd72a84f59211e3",
-      "size": 179888128,
+      "url": "https://corretto.aws/downloads/resources/21.0.13.1.2/amazon-corretto-21.0.13.1.2-windows-x64.msi",
+      "sha256": "fd52d8bbc21f715e0f865f468f3420170a7bc3edf16aab0baeb630a3a432dff3",
+      "size": 179900416,
       "signer_subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "allowed_hosts": [
         "corretto.aws"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
     },
     {
-      "key": "amazon.corretto.25.jdk|25.0.5.0|neutral",
+      "key": "amazon.corretto.25.jdk|25.0.5.1|neutral",
       "status": "pinned",
       "id": "Amazon.Corretto.25.JDK",
-      "version": "25.0.5.0",
+      "version": "25.0.5.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-windows-x64.msi",
-      "sha256": "d6b85a0562080ade28c7b757c0b1902cc8e71687b8fbad36c5a6c1b3c4f0f167",
-      "size": 198639616,
+      "url": "https://corretto.aws/downloads/resources/25.0.5.1.2/amazon-corretto-25.0.5.1.2-windows-x64.msi",
+      "sha256": "ded32dedfc8a2e3d15017700e29ecb08edb29b3a852c82ee3d6443dc9c354b61",
+      "size": 198664192,
       "signer_subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "allowed_hosts": [
         "corretto.aws"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
     },
     {
-      "key": "amazon.corretto.8.jdk|1.8.0.512|neutral",
+      "key": "amazon.corretto.8.jdk|1.8.0.514|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Amazon.Corretto.8.JDK",
-      "version": "1.8.0.512",
+      "version": "1.8.0.514",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -582,7 +582,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -622,23 +622,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "amazon.sam-cli|1.172.1|neutral",
+      "key": "amazon.sam-cli|1.173.0|neutral",
       "status": "pinned",
       "id": "Amazon.SAM-CLI",
-      "version": "1.172.1",
+      "version": "1.173.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.172.1/AWS_SAM_CLI_64_PY3.msi",
-      "sha256": "3fffa130797f0317b7538dd8145be547513ced2ee2f537a4aa79576de8eb4360",
-      "size": 98504704,
+      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.173.0/AWS_SAM_CLI_64_PY3.msi",
+      "sha256": "6bb9f536bb68ba2d7fae27141c696e38e0d544f413cee444211fad2032e0f445",
+      "size": 98516992,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -783,7 +783,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -912,7 +912,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -1446,22 +1446,23 @@
       "silent_check": "exe"
     },
     {
-      "key": "azul.zulu.21.jdk|21.54.109|neutral",
+      "key": "azul.zulu.21.jdk|21.54.201|neutral",
       "status": "pinned",
       "id": "Azul.Zulu.21.JDK",
-      "version": "21.54.109",
+      "version": "21.54.201",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.109-ca-jdk21.0.13.0.3-win_x64.msi",
-      "sha256": "03e4a852cf11e76abd4f988f1b06d47d956eed83e46f25adf082576dbeb2f6d7",
-      "size": 186527744,
+      "url": "https://cdn.azul.com/zulu/bin/zulu21.54.201-ca-jdk21.0.13.1-win_x64.msi",
+      "sha256": "7a519262e5b850c57241a71c189972b86fa188b393d52b6045c8941b860857d0",
+      "size": 186523648,
       "signer_subject": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US, SERIALNUMBER=3500498, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "D4605D9421BA7A7AE70F4C82499E2C6B3F5C9BA9",
       "allowed_hosts": [
         "cdn.azul.com"
       ],
-      "checked_at": "2026-11-10T10:42:13.2283092Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
     },
     {
       "key": "baidu.baidupinyin|6.1.13.13|neutral",
@@ -1588,15 +1589,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
-      "key": "beekeeper-studio.beekeeper-studio|6.3.0|neutral",
+      "key": "beekeeper-studio.beekeeper-studio|6.3.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "beekeeper-studio.beekeeper-studio",
-      "version": "6.3.0",
+      "version": "6.3.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1606,7 +1607,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -1953,7 +1954,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -2831,11 +2832,11 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "corsair.icue.5|5.52.93|neutral",
+      "key": "corsair.icue.5|5.54.46|neutral",
       "status": "skipped",
-      "reason": "winget manifest missing",
+      "reason": "installer type 'exe' not supported by pinned route",
       "id": "Corsair.iCUE.5",
-      "version": "5.52.93",
+      "version": "5.54.46",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -2845,7 +2846,8 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z"
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "exe"
     },
     {
       "key": "cpuid.cpu-z.rog|3.01.3|neutral",
@@ -3234,7 +3236,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -3585,11 +3587,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "digitalocean.doctl|2.5.0|neutral",
+      "key": "digitalocean.doctl|2.6.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "DigitalOcean.Doctl",
-      "version": "2.5.0",
+      "version": "2.6.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3599,7 +3601,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -3640,11 +3642,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "discord.discord.canary|1.0.1331|neutral",
+      "key": "discord.discord.canary|1.0.1334|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Discord.Discord.Canary",
-      "version": "1.0.1331",
+      "version": "1.0.1334",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3654,7 +3656,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -4747,11 +4749,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "figma.figma|126.11.9|neutral",
+      "key": "figma.figma|126.12.7|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Figma.Figma",
-      "version": "126.11.9",
+      "version": "126.12.7",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4761,7 +4763,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -5488,11 +5490,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "github.cli|2.104.0|neutral",
+      "key": "github.cli|2.105.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "GitHub.cli",
-      "version": "2.104.0",
+      "version": "2.105.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5502,7 +5504,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -5524,11 +5526,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "github.copilot|1.0.112|neutral",
+      "key": "github.copilot|1.0.113|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "GitHub.Copilot",
-      "version": "1.0.112",
+      "version": "1.0.113",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5538,7 +5540,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -5556,7 +5558,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -5890,7 +5892,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -5912,11 +5914,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "google.antigravity|2.32.1|neutral",
+      "key": "google.antigravity|2.32.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Google.Antigravity",
-      "version": "2.32.1",
+      "version": "2.32.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5926,7 +5928,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -5985,10 +5987,10 @@
       "silent_check": "ok"
     },
     {
-      "key": "google.cloudsdk|593.0.0|neutral",
+      "key": "google.cloudsdk|594.0.0|neutral",
       "status": "pinned",
       "id": "Google.CloudSDK",
-      "version": "593.0.0",
+      "version": "594.0.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
@@ -6000,7 +6002,7 @@
       "allowed_hosts": [
         "dl.google.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -6091,7 +6093,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -6166,7 +6168,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -6444,7 +6446,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -7512,7 +7514,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -7586,7 +7588,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -7658,15 +7660,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
-      "key": "jgraph.draw|32.6.10|neutral",
+      "key": "jgraph.draw|32.7.4|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JGraph.Draw",
-      "version": "32.6.10",
+      "version": "32.7.4",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7676,27 +7678,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
-      "key": "jgraph.draw|32.6.10|x64",
+      "key": "jgraph.draw|32.7.4|x64",
       "status": "pinned",
       "id": "JGraph.Draw",
-      "version": "32.6.10",
+      "version": "32.7.4",
       "arch": "x64",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.6.10/draw.io-32.6.10-windows-installer.exe",
-      "sha256": "e7ea99906304507ed0e2c14193f9aba578c47df38e93a5fe748b52a8b85aa88f",
-      "size": 144077080,
+      "url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.7.4/draw.io-32.7.4-windows-installer.exe",
+      "sha256": "f4d5cbfa71763c76c0d0834ff27064b55e6e42b28541101f091262002c608346",
+      "size": 144178400,
       "signer_subject": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "signer_thumbprint": "145B546AD357C6D87CF6F702D7BFCB2876635C47",
+      "signer_thumbprint": "50576B630D8BB457C943F26C3336397A11C6B45B",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -7714,7 +7716,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -7937,7 +7939,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8032,7 +8034,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8145,7 +8147,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8238,7 +8240,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8294,7 +8296,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8312,7 +8314,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8442,7 +8444,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8479,7 +8481,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8519,11 +8521,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "llvm.llvm|23.1.5|neutral",
+      "key": "llvm.llvm|23.1.6|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "LLVM.LLVM",
-      "version": "23.1.5",
+      "version": "23.1.6",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -8533,7 +8535,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -8555,11 +8557,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "lobehub.lobehub|2.3.3|neutral",
+      "key": "lobehub.lobehub|2.3.4|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "LobeHub.LobeHub",
-      "version": "2.3.3",
+      "version": "2.3.4",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -8569,7 +8571,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T09:02:40.6390042Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -9046,7 +9048,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -9065,6 +9067,26 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "meltytech.shotcut|26.11.15|x64",
+      "status": "pinned",
+      "id": "Meltytech.Shotcut",
+      "version": "26.11.15",
+      "arch": "x64",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://github.com/mltframework/shotcut/releases/download/v26.11.15/shotcut-win64-26.11.15.exe",
+      "sha256": "f440b9b9aa9e92040683d43094502f6dcfa8ff4800fb80299f9402d1ac0df624",
+      "size": 142844768,
+      "signer_subject": "CN=\"Meltytech, LLC\", O=\"Meltytech, LLC\", L=Oceanside, S=California, C=US",
+      "signer_thumbprint": "796DC3140F9A322B07BCA512A86EA4E37B79AB25",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -9976,15 +9998,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
-      "key": "microsoft.officedeploymenttool|16.0.20430.20146|neutral",
+      "key": "microsoft.officedeploymenttool|16.0.20527.20150|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Microsoft.OfficeDeploymentTool",
-      "version": "16.0.20430.20146",
+      "version": "16.0.20527.20150",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -9994,7 +10016,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -10158,7 +10180,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10176,7 +10198,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10483,7 +10505,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10537,7 +10559,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10792,7 +10814,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -10810,7 +10832,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -10828,7 +10850,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -10846,15 +10868,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
-      "key": "microsoft.visualstudio.community|18.12.0|neutral",
+      "key": "microsoft.visualstudio.community|18.12.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Microsoft.VisualStudio.Community",
-      "version": "18.12.0",
+      "version": "18.12.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -10864,7 +10886,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -10882,7 +10904,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10900,7 +10922,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10954,7 +10976,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -10992,7 +11014,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -11010,7 +11032,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -11082,7 +11104,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11155,7 +11177,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11192,7 +11214,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11210,7 +11232,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -11285,7 +11307,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11303,7 +11325,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -11321,7 +11343,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11339,7 +11361,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11357,7 +11379,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11452,7 +11474,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11509,7 +11531,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11564,7 +11586,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11582,7 +11604,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11619,7 +11641,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11656,7 +11678,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11712,7 +11734,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11748,7 +11770,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11786,7 +11808,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -11810,6 +11832,26 @@
       "silent_check": "ok"
     },
     {
+      "key": "mullvadvpn.mullvadbrowser|16.0.2|neutral",
+      "status": "pinned",
+      "id": "MullvadVPN.MullvadBrowser",
+      "version": "16.0.2",
+      "arch": "neutral",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/mullvad/mullvad-browser/releases/download/16.0.2/mullvad-browser-windows-x86_64-16.0.2.exe",
+      "sha256": "d2f8c8e98e619c1ac8cbae56ce4f5d0f599fd65f674ca4c9408bdf9be8ac35af",
+      "size": 110068184,
+      "signer_subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "mullvadvpn.mullvadvpn|2026.5|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -11824,7 +11866,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11901,7 +11943,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11938,7 +11980,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -11976,7 +12018,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12013,7 +12055,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -12050,7 +12092,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12068,7 +12110,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12146,7 +12188,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12164,7 +12206,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12201,7 +12243,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12239,7 +12281,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12257,7 +12299,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12275,7 +12317,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12293,7 +12335,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12311,7 +12353,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12329,7 +12371,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12347,7 +12389,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12365,7 +12407,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12383,7 +12425,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12401,7 +12443,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12419,7 +12461,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12437,7 +12479,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12455,7 +12497,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -12586,7 +12628,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -12604,7 +12646,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12622,7 +12664,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -12640,7 +12682,25 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "exe"
+    },
+    {
+      "key": "nvidia.geforcenow|2.0.90.138|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Nvidia.GeForceNow",
+      "version": "2.0.90.138",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -12658,7 +12718,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -12696,7 +12756,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12734,7 +12794,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12845,7 +12905,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12901,7 +12961,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12937,7 +12997,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -12955,7 +13015,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -13046,7 +13106,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13138,7 +13198,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13180,7 +13240,7 @@
     {
       "key": "opentofu.tofu|1.13.9|neutral",
       "status": "skipped",
-      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "OpenTofu.Tofu",
       "version": "1.13.9",
       "arch": "neutral",
@@ -13192,7 +13252,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13210,7 +13270,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13228,7 +13288,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13246,7 +13306,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13321,7 +13381,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -13343,11 +13403,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "oracle.javaruntimeenvironment|8.0.5110.33|neutral",
+      "key": "oracle.javaruntimeenvironment|8.0.5130.4|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Oracle.JavaRuntimeEnvironment",
-      "version": "8.0.5110.33",
+      "version": "8.0.5130.4",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13357,7 +13417,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -13451,7 +13511,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -13489,7 +13549,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13564,7 +13624,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13601,7 +13661,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13712,7 +13772,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13804,7 +13864,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13822,7 +13882,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13840,7 +13900,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13858,7 +13918,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -13917,7 +13977,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14087,7 +14147,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14184,6 +14244,24 @@
       "silent_check": "exe"
     },
     {
+      "key": "postman.postman|12.37.1|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Postman.Postman",
+      "version": "12.37.1",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "exe"
+    },
+    {
       "key": "ppssppteam.ppsspp|1.20.4|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -14198,7 +14276,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14235,7 +14313,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14291,7 +14369,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14309,7 +14387,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -14405,7 +14483,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14423,7 +14501,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -14441,7 +14519,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14459,7 +14537,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14571,7 +14649,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14627,7 +14705,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14664,7 +14742,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14701,7 +14779,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14738,7 +14816,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14775,7 +14853,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -14812,7 +14890,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15018,7 +15096,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15056,7 +15134,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15092,7 +15170,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -15110,7 +15188,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -15128,7 +15206,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15146,7 +15224,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15261,23 +15339,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "rem0o.fancontrol|285|neutral",
+      "key": "rem0o.fancontrol|286|neutral",
       "status": "pinned",
       "id": "Rem0o.FanControl",
-      "version": "285",
+      "version": "286",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V285/FanControl_285_net_10_0_Installer.exe",
-      "sha256": "0ad1fca893a9e187e193c9bde4774b864116b78526c22471c0683c23d65d6081",
-      "size": 20894624,
+      "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V286/FanControl_286_net_10_0_Installer.exe",
+      "sha256": "162121ae8c176e90f3447c6ae3f60df7af7c51d3ae5be0cd6fa36e01de0fe88c",
+      "size": 21074016,
       "signer_subject": "CN=Rémi Mercier, O=Rémi Mercier, L=Québec, S=Québec, C=CA",
-      "signer_thumbprint": "1BBC2992F6327CB949B19E4C3043121B67789D93",
+      "signer_thumbprint": "12A6A5682985DC2EA86E3597F08654067EC8D087",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15295,7 +15373,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15332,7 +15410,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15387,7 +15465,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15405,7 +15483,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15423,7 +15501,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15477,7 +15555,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15495,7 +15573,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15532,7 +15610,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15550,7 +15628,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15569,6 +15647,42 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "rufus.rufus|4.16|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
+      "id": "Rufus.Rufus",
+      "version": "4.16",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "rufus.rufus|4.16|x64",
+      "status": "skipped",
+      "reason": "installer type 'portable' not supported by pinned route",
+      "id": "Rufus.Rufus",
+      "version": "4.16",
+      "arch": "x64",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15604,7 +15718,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15678,7 +15792,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15696,7 +15810,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15734,7 +15848,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15772,7 +15886,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15790,7 +15904,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15846,7 +15960,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15901,7 +16015,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -15919,7 +16033,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -15996,7 +16110,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16014,7 +16128,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16145,7 +16259,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -16163,7 +16277,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16218,7 +16332,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16349,7 +16463,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -16367,7 +16481,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -16421,7 +16535,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16459,7 +16573,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16477,26 +16591,26 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
-      "key": "steelseries.gg|123.0.0|neutral",
+      "key": "steelseries.gg|124.0.0|neutral",
       "status": "pinned",
       "id": "SteelSeries.GG",
-      "version": "123.0.0",
+      "version": "124.0.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://engine.steelseriescdn.com/SteelSeriesGG123.0.0Setup.exe",
-      "sha256": "e8846a8793b707e2829702112fe47314ed3dd2433ab80dc42099e33b68288bcc",
-      "size": 433651280,
+      "url": "https://engine.steelseriescdn.com/SteelSeriesGG124.0.0Setup.exe",
+      "sha256": "01af0c88c8e91fb932f26b2894ac73d1339f0e11903719fdcfd45067a19effc9",
+      "size": 438025280,
       "signer_subject": "CN=GN Hearing A/S, O=GN Hearing A/S, L=Ballerup, C=DK, SERIALNUMBER=55082715, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
       "signer_thumbprint": "C540E47CE151E3301E14F5C54129920E5ECB60B3",
       "allowed_hosts": [
         "engine.steelseriescdn.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16532,7 +16646,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16550,7 +16664,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16572,22 +16686,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "streamlabs.streamlabs|1.21.9|neutral",
+      "key": "streamlabs.streamlabs|1.22.5|neutral",
       "status": "pinned",
       "id": "Streamlabs.Streamlabs",
-      "version": "1.21.9",
+      "version": "1.22.5",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://slobs-cdn.streamlabs.com/Streamlabs+Desktop+Setup+1.21.9.exe",
-      "sha256": "57e0c280bc4a85e66411a1ed0f874d56b8f2a33590d42146c6d07bab96ca9ceb",
-      "size": 286640296,
+      "url": "https://slobs-cdn.streamlabs.com/Streamlabs+Desktop+Setup+1.22.5.exe",
+      "sha256": "45d893eb0047ad6f4c3ff804255e7e85dff02eb0fd95f8aefc4d852d73eeca7b",
+      "size": 338928144,
       "signer_subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
       "allowed_hosts": [
         "slobs-cdn.streamlabs.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16698,7 +16812,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16734,7 +16848,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16790,7 +16904,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16808,7 +16922,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16826,7 +16940,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16844,7 +16958,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16880,7 +16994,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16898,7 +17012,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -16990,13 +17104,13 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
       "key": "teamviewer.teamviewer|15.83.5|neutral",
       "status": "skipped",
-      "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
+      "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "TeamViewer.TeamViewer",
       "version": "15.83.5",
       "arch": "neutral",
@@ -17008,7 +17122,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17044,7 +17158,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -17080,7 +17194,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17349,6 +17463,24 @@
       "silent_check": "ok"
     },
     {
+      "key": "thebrowsercompany.arc|1.130.0.417|neutral",
+      "status": "skipped",
+      "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
+      "id": "TheBrowserCompany.Arc",
+      "version": "1.130.0.417",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "ok"
+    },
+    {
       "key": "thedocumentfoundation.libreoffice|26.8.3.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
@@ -17401,7 +17533,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -17437,7 +17569,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17455,7 +17587,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17473,7 +17605,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17491,7 +17623,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -17546,7 +17678,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17564,7 +17696,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17582,7 +17714,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17600,7 +17732,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17618,7 +17750,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17636,7 +17768,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17654,7 +17786,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17672,7 +17804,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -17690,7 +17822,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17727,7 +17859,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17765,7 +17897,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17855,7 +17987,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17911,7 +18043,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17929,7 +18061,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17947,7 +18079,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -17965,7 +18097,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -17983,7 +18115,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18060,7 +18192,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18078,7 +18210,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18096,7 +18228,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18169,7 +18301,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18187,7 +18319,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18205,7 +18337,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18335,7 +18467,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18389,7 +18521,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18407,7 +18539,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18444,7 +18576,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18482,7 +18614,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18520,7 +18652,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18579,7 +18711,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18597,7 +18729,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -18615,7 +18747,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18843,7 +18975,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18897,7 +19029,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18933,7 +19065,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18951,7 +19083,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -18969,7 +19101,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -19064,7 +19196,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -19102,6 +19234,24 @@
       "allowed_hosts": [],
       "checked_at": "2026-11-15T09:32:42.1136043Z",
       "silent_check": "ok"
+    },
+    {
+      "key": "yandex.browser|26.11.0.2027|neutral",
+      "status": "skipped",
+      "reason": "installer type 'exe' not supported by pinned route",
+      "id": "Yandex.Browser",
+      "version": "26.11.0.2027",
+      "arch": "neutral",
+      "installer_type": "",
+      "installer_arch": "",
+      "url": "",
+      "sha256": "",
+      "size": 0,
+      "signer_subject": "",
+      "signer_thumbprint": "",
+      "allowed_hosts": [],
+      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "silent_check": "exe"
     },
     {
       "key": "yarn.yarn|1.22.22|neutral",
@@ -19156,7 +19306,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -19211,7 +19361,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "exe"
     },
     {
@@ -19286,7 +19436,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {
@@ -19322,7 +19472,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-18T10:16:40.654227Z",
       "silent_check": "ok"
     },
     {

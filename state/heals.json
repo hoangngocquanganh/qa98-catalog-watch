@@ -1,18 +1,58 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-17T22:28:54.5483366Z",
+  "updated_at": "2026-11-18T10:20:40.2510863Z",
   "last_run": {
-    "at": "2026-11-17T22:28:54.5483366Z",
-    "seconds": 7,
-    "failing": 11,
-    "healed": 0,
+    "at": "2026-11-18T10:20:40.2510863Z",
+    "seconds": 13,
+    "failing": 13,
+    "healed": 2,
     "blocked": 11,
-    "downloads": 4,
-    "downloaded_mb": 6,
+    "downloads": 6,
+    "downloaded_mb": 256,
     "harvested": 3,
-    "anchors": 453
+    "anchors": 456
   },
-  "heals": [],
+  "heals": [
+    {
+      "vkey": "w:google.chrome|157.0.8103.79",
+      "slug": "chrome",
+      "winget_id": "Google.Chrome",
+      "version": "157.0.8103.79",
+      "kind": "same_url_new_hash",
+      "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
+      "sha256": "ac5b9053c223dca21633fb4c4c9878a7ae5f3aebe13920d9523a432540db740c",
+      "size": 178565120,
+      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
+      "final_host": "dl.google.com",
+      "hosts": [
+        "dl.google.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\"; cùng chứng chỉ với bản tham chiếu 157.0.8103.51 (harvest, thumbprint trùng); 170.3 MB (tham chiếu 164.0 MB)",
+      "from_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
+      "checked_at": "2026-11-18T10:20:40.2510863Z"
+    },
+    {
+      "vkey": "w:sibersystems.goodsync|12.11.12.2",
+      "slug": "sibersystems-goodsync",
+      "winget_id": "SiberSystems.GoodSync",
+      "version": "12.11.12.2",
+      "kind": "same_url_new_hash",
+      "url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
+      "sha256": "b087f8c462d624068bbad64387609e9b31f0106524f70a389cef900a8c9746f3",
+      "size": 83608384,
+      "signer_subject": "CN=Siber Systems, O=Siber Systems, S=Virginia, C=US",
+      "signer_thumbprint": "B745796BD3492350C170EFF5691813F3C2FC298E",
+      "final_host": "services.goodsync.com",
+      "hosts": [
+        "www.goodsync.com",
+        "services.goodsync.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
+      "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
+      "checked_at": "2026-11-18T10:20:40.2510863Z"
+    }
+  ],
   "heal_blocked": [
     {
       "vkey": "w:ablaze.floorp|latest",
@@ -324,13 +364,13 @@
     },
     {
       "id": "w:amazon.awscli",
-      "version": "2.40.2",
-      "sha256": "9ed438e8c0f1f12ff4e415efe92aba49a9ded130efa435005ab9091a8f458431",
-      "size": 50565120,
+      "version": "2.41.0",
+      "sha256": "31dd42c72e0208440dd4bbf11ff0cc3562c53c599066d9b81d118a1ade3958ca",
+      "size": 50921472,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "source": "pin",
-      "at": "2026-11-13T09:38:58.78776Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:amazon.corretto.11.jdk",
@@ -344,33 +384,33 @@
     },
     {
       "id": "w:amazon.corretto.17.jdk",
-      "version": "17.0.21.0",
-      "sha256": "10572cd3b8d32ca30e1910d2a3840c60ef2566b43cc891233d3e7a67bf1284e2",
-      "size": 168902656,
+      "version": "17.0.21.1",
+      "sha256": "c9dbb603e5b4dc3566e1988417755cdebe5a44069cd83f94933c2c3429ab1851",
+      "size": 168919040,
       "subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "source": "pin",
-      "at": "2026-11-10T10:42:13.2283092Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:amazon.corretto.21.jdk",
-      "version": "21.0.13.0",
-      "sha256": "9b2470f031616c8ce92274ef64635551659e644af94b6bac8fd72a84f59211e3",
-      "size": 179888128,
+      "version": "21.0.13.1",
+      "sha256": "fd52d8bbc21f715e0f865f468f3420170a7bc3edf16aab0baeb630a3a432dff3",
+      "size": 179900416,
       "subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "source": "pin",
-      "at": "2026-11-10T10:42:13.2283092Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:amazon.corretto.25.jdk",
-      "version": "25.0.5.0",
-      "sha256": "d6b85a0562080ade28c7b757c0b1902cc8e71687b8fbad36c5a6c1b3c4f0f167",
-      "size": 198639616,
+      "version": "25.0.5.1",
+      "sha256": "ded32dedfc8a2e3d15017700e29ecb08edb29b3a852c82ee3d6443dc9c354b61",
+      "size": 198664192,
       "subject": "CN=Amazon.com Services LLC, OU=Amazon Corretto, O=Amazon.com Services LLC, L=Seattle, S=Washington, C=US, SERIALNUMBER=3482342, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "7B9F0B7BFB6A8E346C518D3970B37BC76C24A43A",
       "source": "pin",
-      "at": "2026-11-10T10:42:13.2283092Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:amazon.corretto.8.jdk",
@@ -404,13 +444,13 @@
     },
     {
       "id": "w:amazon.sam-cli",
-      "version": "1.172.1",
-      "sha256": "3fffa130797f0317b7538dd8145be547513ced2ee2f537a4aa79576de8eb4360",
-      "size": 98504704,
+      "version": "1.173.0",
+      "sha256": "6bb9f536bb68ba2d7fae27141c696e38e0d544f413cee444211fad2032e0f445",
+      "size": 98516992,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "source": "pin",
-      "at": "2026-11-11T21:27:51.6491038Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:andrewiethoff.exactaudiocopy",
@@ -754,13 +794,13 @@
     },
     {
       "id": "w:azul.zulu.21.jdk",
-      "version": "21.54.109",
-      "sha256": "03e4a852cf11e76abd4f988f1b06d47d956eed83e46f25adf082576dbeb2f6d7",
-      "size": 186527744,
+      "version": "21.54.201",
+      "sha256": "7a519262e5b850c57241a71c189972b86fa188b393d52b6045c8941b860857d0",
+      "size": 186523648,
       "subject": "CN=\"Azul Systems, Inc.\", O=\"Azul Systems, Inc.\", L=Sunnyvale, S=California, C=US, SERIALNUMBER=3500498, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "D4605D9421BA7A7AE70F4C82499E2C6B3F5C9BA9",
       "source": "pin",
-      "at": "2026-11-10T10:42:13.2283092Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:baidu.baidupinyin",
@@ -1483,6 +1523,16 @@
       "at": "2026-11-17T22:28:54.5483366Z"
     },
     {
+      "id": "w:deepl.deepl",
+      "version": "26.10.1",
+      "sha256": "c0a01c1361213d505fda9feb17dadd3b2a534a0a90bc86b62bc80e760da333b6",
+      "size": 4795096,
+      "subject": "E=eric.kruse@deepl.com, CN=DeepL SE, O=DeepL SE, STREET=Maarweg 165, L=Koeln, S=Nordrhein-Westfalen, C=DE, OID.1.3.6.1.4.1.311.60.2.1.1=Koeln, OID.1.3.6.1.4.1.311.60.2.1.2=Nordrhein-Westfalen, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=HRB 104617, OID.2.5.4.15=Private Organization",
+      "thumbprint": "34BF691C9E1D0018F5C59DA02661040C1EAD6BE4",
+      "source": "harvest",
+      "at": "2026-11-18T10:20:40.2510863Z"
+    },
+    {
       "id": "w:deezer.deezer",
       "version": "8.0.10",
       "sha256": "21215c49c3b7a3720fc8dad523cb6a384f2432fa5436e4399db8478e774dd96b",
@@ -1491,6 +1541,26 @@
       "thumbprint": "4088CA993E415C65033CC562862CBF3FC38B6B6A",
       "source": "pin",
       "at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "w:dell.commandupdate",
+      "version": "5.7.0",
+      "sha256": "b6d0d06edf25a7d9092208b2686502e031deda5ccb2d283ba8a434b27891f3cf",
+      "size": 90734216,
+      "subject": "CN=Dell Technologies Inc., OU=DUP Client Creation Service, O=Dell Technologies Inc., L=Round Rock, S=Texas, C=US",
+      "thumbprint": "22D29E118E0FEB341B46147AB8A6D5EA6F5C6ADC",
+      "source": "harvest",
+      "at": "2026-11-18T10:20:40.2510863Z"
+    },
+    {
+      "id": "w:dell.commandupdate.universal",
+      "version": "5.7.0",
+      "sha256": "98c20d9809d7469a760b42a9a258e8c67a35c6cf46aa6a9c173e29d39a056d89",
+      "size": 99946712,
+      "subject": "CN=Dell Technologies Inc., OU=DUP Client Creation Service, O=Dell Technologies Inc., L=Round Rock, S=Texas, C=US",
+      "thumbprint": "22D29E118E0FEB341B46147AB8A6D5EA6F5C6ADC",
+      "source": "harvest",
+      "at": "2026-11-18T10:20:40.2510863Z"
     },
     {
       "id": "w:descript.descript",
@@ -2044,13 +2114,13 @@
     },
     {
       "id": "w:google.cloudsdk",
-      "version": "593.0.0",
+      "version": "594.0.0",
       "sha256": "b4f156dafac3a316f625759570cba4e866abb0862faaa9b0db9f1ef69c4e5414",
       "size": 267040,
       "subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:google.japaneseime",
@@ -2324,13 +2394,13 @@
     },
     {
       "id": "w:jgraph.draw",
-      "version": "32.6.10",
-      "sha256": "e7ea99906304507ed0e2c14193f9aba578c47df38e93a5fe748b52a8b85aa88f",
-      "size": 144077080,
+      "version": "32.7.4",
+      "sha256": "f4d5cbfa71763c76c0d0834ff27064b55e6e42b28541101f091262002c608346",
+      "size": 144178400,
       "subject": "CN=draw.io Ltd, O=draw.io Ltd, L=Northampton, S=Northamptonshire, C=GB",
-      "thumbprint": "145B546AD357C6D87CF6F702D7BFCB2876635C47",
+      "thumbprint": "50576B630D8BB457C943F26C3336397A11C6B45B",
       "source": "pin",
-      "at": "2026-11-13T20:55:58.7181039Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:johnmacfarlane.pandoc",
@@ -2574,13 +2644,13 @@
     },
     {
       "id": "w:meltytech.shotcut",
-      "version": "26.9.27",
-      "sha256": "77e1ee1f713d92bdbaff23266f416e33cde3d367f7ef518b1841ddc961d05af9",
-      "size": 152926384,
+      "version": "26.11.15",
+      "sha256": "f440b9b9aa9e92040683d43094502f6dcfa8ff4800fb80299f9402d1ac0df624",
+      "size": 142844768,
       "subject": "CN=\"Meltytech, LLC\", O=\"Meltytech, LLC\", L=Oceanside, S=California, C=US",
       "thumbprint": "796DC3140F9A322B07BCA512A86EA4E37B79AB25",
       "source": "pin",
-      "at": "2026-11-13T11:46:19.970466Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:microsoft.azd",
@@ -3064,13 +3134,13 @@
     },
     {
       "id": "w:mullvadvpn.mullvadbrowser",
-      "version": "16.0.1",
-      "sha256": "72b997c487b4949e76a98a62ddc585d5a4b297eab6e54a608e36b6fb31c70462",
-      "size": 109991296,
+      "version": "16.0.2",
+      "sha256": "d2f8c8e98e619c1ac8cbae56ce4f5d0f599fd65f674ca4c9408bdf9be8ac35af",
+      "size": 110068184,
       "subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:mumble.mumble.client",
@@ -3814,13 +3884,13 @@
     },
     {
       "id": "w:rem0o.fancontrol",
-      "version": "285",
-      "sha256": "0ad1fca893a9e187e193c9bde4774b864116b78526c22471c0683c23d65d6081",
-      "size": 20894624,
+      "version": "286",
+      "sha256": "162121ae8c176e90f3447c6ae3f60df7af7c51d3ae5be0cd6fa36e01de0fe88c",
+      "size": 21074016,
       "subject": "CN=Rémi Mercier, O=Rémi Mercier, L=Québec, S=Québec, C=CA",
-      "thumbprint": "1BBC2992F6327CB949B19E4C3043121B67789D93",
+      "thumbprint": "12A6A5682985DC2EA86E3597F08654067EC8D087",
       "source": "pin",
-      "at": "2026-11-12T09:54:49.3674978Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:resplendence.whocrashed",
@@ -4044,23 +4114,23 @@
     },
     {
       "id": "w:steelseries.gg",
-      "version": "123.0.0",
-      "sha256": "e8846a8793b707e2829702112fe47314ed3dd2433ab80dc42099e33b68288bcc",
-      "size": 433651280,
+      "version": "124.0.0",
+      "sha256": "01af0c88c8e91fb932f26b2894ac73d1339f0e11903719fdcfd45067a19effc9",
+      "size": 438025280,
       "subject": "CN=GN Hearing A/S, O=GN Hearing A/S, L=Ballerup, C=DK, SERIALNUMBER=55082715, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DK",
       "thumbprint": "C540E47CE151E3301E14F5C54129920E5ECB60B3",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:streamlabs.streamlabs",
-      "version": "1.21.9",
-      "sha256": "57e0c280bc4a85e66411a1ed0f874d56b8f2a33590d42146c6d07bab96ca9ceb",
-      "size": 286640296,
+      "version": "1.22.5",
+      "sha256": "45d893eb0047ad6f4c3ff804255e7e85dff02eb0fd95f8aefc4d852d73eeca7b",
+      "size": 338928144,
       "subject": "CN=Logitech Inc, O=Logitech Inc, L=Newark, S=California, C=US, SERIALNUMBER=1067879, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=California, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "BFAB6EF922D0DDE848AE747B2AD58506E17D9ED1",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-18T10:16:40.654227Z"
     },
     {
       "id": "w:stremio.stremio",
