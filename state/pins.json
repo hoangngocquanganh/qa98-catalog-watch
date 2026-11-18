@@ -1,21 +1,22 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-18T10:16:40.654227Z",
-  "catalog_revision": 228,
+  "updated_at": "2026-11-18T22:02:36.1739667Z",
+  "catalog_revision": 238,
   "last_run": {
-    "at": "2026-11-18T10:16:40.654227Z",
-    "seconds": 239,
-    "checked": 254,
-    "downloads": 31,
-    "downloaded_mb": 3903,
-    "pinned": 13,
-    "skipped": 241,
+    "at": "2026-11-18T22:02:36.1739667Z",
+    "seconds": 16,
+    "checked": 37,
+    "downloads": 15,
+    "downloaded_mb": 1504,
+    "pinned": 7,
+    "skipped": 30,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 146,
-      "installer type … not supported by pinned route": 77,
-      "authenticode NotSigned": 18
+      "neutral version but installer differs by arch …; split versions per arch to pin": 12,
+      "installer type … not supported by pinned route": 10,
+      "authenticode NotSigned": 7,
+      "download larger than … MB": 1
     }
   },
   "entries": [
@@ -200,11 +201,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "adobe.acrobat.reader.64-bit|26.003.22075|neutral",
+      "key": "adobe.acrobat.reader.64-bit|26.003.22110|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Adobe.Acrobat.Reader.64-bit",
-      "version": "26.003.22075",
+      "version": "26.003.22110",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -214,7 +215,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -1611,22 +1612,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "beeper.beeper|4.3.308|neutral",
+      "key": "beeper.beeper|4.3.326|neutral",
       "status": "pinned",
       "id": "Beeper.Beeper",
-      "version": "4.3.308",
+      "version": "4.3.326",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.308.exe",
-      "sha256": "d19b09ba35ce4b4ab045e4bd52e152216a43b21ffba3f2ad1e4c7b2f96ec75fe",
-      "size": 214547232,
+      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.326.exe",
+      "sha256": "b85336f7b9ac06b44bb9fcbadec63aca63e8c2e0e1d9ebcccebdf8edbd9e59da",
+      "size": 209197864,
       "signer_subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "5E2C184D6B6C72279F6F675B0D699057B05C9D46",
+      "signer_thumbprint": "1B71A86B2EBE93C46019F9BCDAB212EDFDEACF94",
       "allowed_hosts": [
         "beeper-desktop.download.beeper.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -1703,22 +1704,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "bin-huang.chatbox|1.24.5|neutral",
+      "key": "bin-huang.chatbox|1.24.6|neutral",
       "status": "pinned",
       "id": "Bin-Huang.Chatbox",
-      "version": "1.24.5",
+      "version": "1.24.6",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.5-Setup.exe",
-      "sha256": "c68dfa9b2abd5d8bbcfef0ab330e08ffac450bc361996d9fe83fc43e3a5f1813",
-      "size": 241279304,
+      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.6-Setup.exe",
+      "sha256": "4944455be2ed0e7814b51050266c5ec6da55bbf556248bdad0cc2ad8eb2ce0e1",
+      "size": 241329448,
       "signer_subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "allowed_hosts": [
         "download.chatboxai.app"
       ],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -2922,23 +2923,24 @@
       "silent_check": "ok"
     },
     {
-      "key": "cryptomator.cryptomator|1.19.6|neutral",
+      "key": "cryptomator.cryptomator|1.19.7|neutral",
       "status": "pinned",
       "id": "Cryptomator.Cryptomator",
-      "version": "1.19.6",
+      "version": "1.19.7",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/cryptomator/cryptomator/releases/download/1.19.6/Cryptomator-1.19.6-x64.msi",
-      "sha256": "ad416a6dff6ad969c2c346a9050b650e49fe5da9ac30c948148ae6b8412ebbce",
-      "size": 53243904,
+      "url": "https://github.com/cryptomator/cryptomator/releases/download/1.19.7/Cryptomator-1.19.7-x64.msi",
+      "sha256": "e8079987c521549ed32ca37db2480417f31824ef847771428590f01c9e2442f5",
+      "size": 53231616,
       "signer_subject": "CN=Skymatic GmbH, O=Skymatic GmbH, L=Bonn, C=DE",
-      "signer_thumbprint": "C0F1E9D2FEAED456C8DB138E1753CD7ADD1CB484",
+      "signer_thumbprint": "B6EA7551219638742BF6FF9A40594B5DD228737F",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "silent_check": "ok"
     },
     {
       "key": "crystaldewworld.crystaldiskinfo.shizukuedition|9.9.5|neutral",
@@ -3642,11 +3644,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "discord.discord.canary|1.0.1334|neutral",
+      "key": "discord.discord.canary|1.0.1340|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Discord.Discord.Canary",
-      "version": "1.0.1334",
+      "version": "1.0.1340",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3656,7 +3658,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -5283,7 +5285,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -5526,11 +5528,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "github.copilot|1.0.113|neutral",
+      "key": "github.copilot|1.0.114|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "GitHub.Copilot",
-      "version": "1.0.113",
+      "version": "1.0.114",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5540,7 +5542,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -6799,22 +6801,22 @@
       "silent_check": "exe"
     },
     {
-      "key": "hulubulusoftware.advancedrenamer|4.29|neutral",
+      "key": "hulubulusoftware.advancedrenamer|4.29.1|neutral",
       "status": "pinned",
       "id": "HulubuluSoftware.AdvancedRenamer",
-      "version": "4.29",
+      "version": "4.29.1",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_setup_4_29.exe",
-      "sha256": "7fe8a1b728369db15c43eca7335db7480d82b740e2d31b4a21a956dd679ad6ec",
-      "size": 14716288,
+      "url": "https://www.advancedrenamer.com/down/win/advanced_renamer_setup_4_29_1.exe",
+      "sha256": "7554fd5ff3a0918341600071c1ceb2541bbb1f37e665bf52a9f025977323c06d",
+      "size": 14720560,
       "signer_subject": "CN=Hulubulu Software, O=Hulubulu Software, L=Hedehusene, C=DK",
-      "signer_thumbprint": "9CDF86E651E9C2A29EA92DFF04285065F4AA16B5",
+      "signer_thumbprint": "8D3FCF16EA228E2462BC58B81F0C9481FF146233",
       "allowed_hosts": [
         "www.advancedrenamer.com"
       ],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -7392,11 +7394,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jetbrains.dotpeek|2026.3|neutral",
+      "key": "jetbrains.dotpeek|2026.3.0.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "JetBrains.dotPeek",
-      "version": "2026.3",
+      "version": "2026.3.0.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7406,7 +7408,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -7574,11 +7576,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jetbrains.resharper|2026.3|neutral",
+      "key": "jetbrains.resharper|2026.3.0.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "JetBrains.ReSharper",
-      "version": "2026.3",
+      "version": "2026.3.0.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7588,7 +7590,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -7889,11 +7891,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "kakao.kakaotalk|26.9.2.5342|neutral",
+      "key": "kakao.kakaotalk|26.10.0.5364|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Kakao.KakaoTalk",
-      "version": "26.9.2.5342",
+      "version": "26.10.0.5364",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7903,7 +7905,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -8430,11 +8432,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "librewolf.librewolf|160.0-1|neutral",
+      "key": "librewolf.librewolf|160.0.1-1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "LibreWolf.LibreWolf",
-      "version": "160.0-1",
+      "version": "160.0.1-1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -8444,7 +8446,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -9303,7 +9305,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -10056,11 +10058,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "microsoft.openjdk.17|17.0.21.21|neutral",
+      "key": "microsoft.openjdk.17|17.0.21.102|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Microsoft.OpenJDK.17",
-      "version": "17.0.21.21",
+      "version": "17.0.21.102",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -10070,7 +10072,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -11068,7 +11070,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -11141,7 +11143,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12022,22 +12024,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "ndi.nditools|6.3.2.0|neutral",
+      "key": "ndi.nditools|6.4.0.2|neutral",
       "status": "pinned",
       "id": "NDI.NDITools",
-      "version": "6.3.2.0",
+      "version": "6.4.0.2",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
       "url": "https://downloads.ndi.tv/Tools/NDI%206%20Tools.exe",
-      "sha256": "605cb6128999778b38126ffef167c76d3d8648d39a582ffc71529dd26f64bf32",
-      "size": 565330112,
+      "sha256": "477973b489e84328ac026e7e0430ae3b89e18b871167ea08b02287507461579d",
+      "size": 385879904,
       "signer_subject": "CN=Vizrt AG, O=Vizrt AG, L=Zürich, C=CH",
-      "signer_thumbprint": "D5D721C160B3C125B77CBD404ACB030F5D746930",
+      "signer_thumbprint": "37ABA04F7FE8CF0625E1B7754665CDCD618BDF8D",
       "allowed_hosts": [
         "downloads.ndi.tv"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12174,11 +12176,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "nginxinc.nginx|1.31.8|neutral",
+      "key": "nginxinc.nginx|1.31.9|neutral",
       "status": "skipped",
       "reason": "installer type 'zip' not supported by pinned route",
       "id": "nginxinc.nginx",
-      "version": "1.31.8",
+      "version": "1.31.9",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12188,7 +12190,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12411,11 +12413,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "nlitesoft.ntlite|2026.10.12522|neutral",
+      "key": "nlitesoft.ntlite|2026.11.13094|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Nlitesoft.NTLite",
-      "version": "2026.10.12522",
+      "version": "2026.11.13094",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12425,7 +12427,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12501,10 +12503,10 @@
       "silent_check": "exe"
     },
     {
-      "key": "nordsecurity.nordpass|7.12.15|neutral",
+      "key": "nordsecurity.nordpass|7.13.5|neutral",
       "status": "pinned",
       "id": "NordSecurity.NordPass",
-      "version": "7.12.15",
+      "version": "7.13.5",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
@@ -12516,27 +12518,27 @@
       "allowed_hosts": [
         "downloads.npass.app"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
-      "key": "nordsecurity.nordvpn|8.15.2.0|neutral",
+      "key": "nordsecurity.nordvpn|8.16.1.0|neutral",
       "status": "pinned",
       "id": "NordSecurity.NordVPN",
-      "version": "8.15.2.0",
+      "version": "8.16.1.0",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.15.2.0/NordVPNInstall.exe",
-      "sha256": "db8286f09d749b285234cfe4bc487557d4c4a878d55fe9c56c1b5934f76a2e2f",
-      "size": 96634664,
+      "url": "https://downloads.nordcdn.com/apps/windows/NordVPN/8.16.1.0/NordVPNInstall.exe",
+      "sha256": "4efd0a60af586014762b0caa2e13f6ca5f5128cd6c0165b3621648bae3201d00",
+      "size": 96736752,
       "signer_subject": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "6C8460C71705A019F5F78AF957A57E55D564FB3A",
       "allowed_hosts": [
         "downloads.nordcdn.com",
         "downloads77-windows.nordcdn.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12610,7 +12612,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12850,7 +12852,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12868,7 +12870,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -12979,7 +12981,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -13162,7 +13164,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -13180,7 +13182,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -13679,7 +13681,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -14072,7 +14074,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -14244,11 +14246,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "postman.postman|12.37.1|neutral",
+      "key": "postman.postman|12.37.2|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Postman.Postman",
-      "version": "12.37.1",
+      "version": "12.37.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14258,7 +14260,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -14505,11 +14507,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "proton.protonpass|1.43.0|neutral",
+      "key": "proton.protonpass|1.44.0|neutral",
       "status": "skipped",
       "reason": "installer type 'msix' not supported by pinned route",
       "id": "Proton.ProtonPass",
-      "version": "1.43.0",
+      "version": "1.44.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14519,7 +14521,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -14617,11 +14619,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "pulumi.pulumi|3.276.0|neutral",
+      "key": "pulumi.pulumi|3.277.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Pulumi.Pulumi",
-      "version": "3.276.0",
+      "version": "3.277.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14631,7 +14633,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -16485,11 +16487,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "spotify.spotify|1.3.9.2055.g806b5b278de8|neutral",
+      "key": "spotify.spotify|1.3.10.2586.g81a118a22460|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Spotify.Spotify",
-      "version": "1.3.9.2055.g806b5b278de8",
+      "version": "1.3.10.2586.g81a118a22460",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16499,7 +16501,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-12T21:30:14.6167696Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -16980,11 +16982,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "synology.activebackupforbusinessagent|3.2.5554|neutral",
+      "key": "synology.activebackupforbusinessagent|3.2.5557|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Synology.ActiveBackupForBusinessAgent",
-      "version": "3.2.5554",
+      "version": "3.2.5557",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16994,7 +16996,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {
@@ -17551,7 +17553,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-11T21:27:51.6491038Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -18250,11 +18252,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "vivaldi.vivaldi|8.3.4191.44|neutral",
+      "key": "vivaldi.vivaldi|8.3.4191.45|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Vivaldi.Vivaldi",
-      "version": "8.3.4191.44",
+      "version": "8.3.4191.45",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -18264,7 +18266,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "exe"
     },
     {
@@ -19329,11 +19331,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "zedindustries.zed|1.28.1|neutral",
+      "key": "zedindustries.zed|1.29.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "ZedIndustries.Zed",
-      "version": "1.28.1",
+      "version": "1.29.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -19343,7 +19345,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-12T09:54:49.3674978Z",
+      "checked_at": "2026-11-18T22:02:36.1739667Z",
       "silent_check": "ok"
     },
     {

@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-18T10:20:40.2510863Z",
+  "updated_at": "2026-11-18T22:02:52.5825997Z",
   "last_run": {
-    "at": "2026-11-18T10:20:40.2510863Z",
-    "seconds": 13,
-    "failing": 13,
-    "healed": 2,
+    "at": "2026-11-18T22:02:52.5825997Z",
+    "seconds": 15,
+    "failing": 14,
+    "healed": 3,
     "blocked": 11,
-    "downloads": 6,
-    "downloaded_mb": 256,
-    "harvested": 3,
-    "anchors": 456
+    "downloads": 5,
+    "downloaded_mb": 257,
+    "harvested": 2,
+    "anchors": 458
   },
   "heals": [
     {
@@ -51,6 +51,25 @@
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
       "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
       "checked_at": "2026-11-18T10:20:40.2510863Z"
+    },
+    {
+      "vkey": "w:ubisoft.connect|175.1.0.13416",
+      "slug": "ubisoft-connect",
+      "winget_id": "Ubisoft.Connect",
+      "version": "175.1.0.13416",
+      "kind": "same_url_new_hash",
+      "url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+      "sha256": "551ab83c2bd11490c7f3316325e6bf1a63cbeda66c6a7ba52a8bf4ed00b2abfe",
+      "size": 263174264,
+      "signer_subject": "CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "504043247F6D6934E2551117A97F2118B180DB5B",
+      "final_host": "static3.cdn.ubi.com",
+      "hosts": [
+        "static3.cdn.ubi.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US\"; cùng người ký với bản tham chiếu 175.1.0.13416 (pin), chứng chỉ đã gia hạn; 251.0 MB (tham chiếu 250.9 MB)",
+      "from_url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+      "checked_at": "2026-11-18T22:02:52.5825997Z"
     }
   ],
   "heal_blocked": [
@@ -864,13 +883,13 @@
     },
     {
       "id": "w:beeper.beeper",
-      "version": "4.3.308",
-      "sha256": "d19b09ba35ce4b4ab045e4bd52e152216a43b21ffba3f2ad1e4c7b2f96ec75fe",
-      "size": 214547232,
+      "version": "4.3.326",
+      "sha256": "b85336f7b9ac06b44bb9fcbadec63aca63e8c2e0e1d9ebcccebdf8edbd9e59da",
+      "size": 209197864,
       "subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "thumbprint": "5E2C184D6B6C72279F6F675B0D699057B05C9D46",
+      "thumbprint": "1B71A86B2EBE93C46019F9BCDAB212EDFDEACF94",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:belledonnecommunications.linphone",
@@ -914,13 +933,13 @@
     },
     {
       "id": "w:bin-huang.chatbox",
-      "version": "1.24.5",
-      "sha256": "c68dfa9b2abd5d8bbcfef0ab330e08ffac450bc361996d9fe83fc43e3a5f1813",
-      "size": 241279304,
+      "version": "1.24.6",
+      "sha256": "4944455be2ed0e7814b51050266c5ec6da55bbf556248bdad0cc2ad8eb2ce0e1",
+      "size": 241329448,
       "subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "source": "pin",
-      "at": "2026-11-17T22:28:20.4091298Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:bitdefender.bitdefender",
@@ -1374,13 +1393,13 @@
     },
     {
       "id": "w:cryptomator.cryptomator",
-      "version": "1.19.6",
-      "sha256": "ad416a6dff6ad969c2c346a9050b650e49fe5da9ac30c948148ae6b8412ebbce",
-      "size": 53243904,
+      "version": "1.19.7",
+      "sha256": "e8079987c521549ed32ca37db2480417f31824ef847771428590f01c9e2442f5",
+      "size": 53231616,
       "subject": "CN=Skymatic GmbH, O=Skymatic GmbH, L=Bonn, C=DE",
-      "thumbprint": "C0F1E9D2FEAED456C8DB138E1753CD7ADD1CB484",
+      "thumbprint": "B6EA7551219638742BF6FF9A40594B5DD228737F",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:crystaldewworld.crystaldiskinfo",
@@ -1563,6 +1582,16 @@
       "at": "2026-11-18T10:20:40.2510863Z"
     },
     {
+      "id": "w:dell.systemupdate",
+      "version": "2.3.0.2",
+      "sha256": "b6d75e2d4245f17140d6a84eb5c8d2b31824cdbe1e198fc09a841bba7135f022",
+      "size": 30983200,
+      "subject": "CN=Dell Technologies Inc., OU=DUP Client Creation Service, O=Dell Technologies Inc., L=Round Rock, S=Texas, C=US",
+      "thumbprint": "470E77039C39FA88A5B01CD2210C78CF8F1FE86E",
+      "source": "harvest",
+      "at": "2026-11-18T22:02:52.5825997Z"
+    },
+    {
       "id": "w:descript.descript",
       "version": "2.22.1",
       "sha256": "a6061ebbbdecdf6ccc5441549003e3e35c5256c4e18525e6a47c0e608df1759e",
@@ -1571,6 +1600,16 @@
       "thumbprint": "49BA6E89EEB8461BF3C3021B379F90E0F8DF13D5",
       "source": "pin",
       "at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "w:devcom.lua",
+      "version": "5.4.6",
+      "sha256": "1087abb5aca89cad29283a17745ac2819aa46ca076084e8b3416db87d2694ed8",
+      "size": 4874240,
+      "subject": "",
+      "thumbprint": "",
+      "source": "harvest",
+      "at": "2026-11-18T22:02:52.5825997Z"
     },
     {
       "id": "w:devolutions.unigetui",
@@ -2254,13 +2293,13 @@
     },
     {
       "id": "w:hulubulusoftware.advancedrenamer",
-      "version": "4.29",
-      "sha256": "7fe8a1b728369db15c43eca7335db7480d82b740e2d31b4a21a956dd679ad6ec",
-      "size": 14716288,
+      "version": "4.29.1",
+      "sha256": "7554fd5ff3a0918341600071c1ceb2541bbb1f37e665bf52a9f025977323c06d",
+      "size": 14720560,
       "subject": "CN=Hulubulu Software, O=Hulubulu Software, L=Hedehusene, C=DK",
-      "thumbprint": "9CDF86E651E9C2A29EA92DFF04285065F4AA16B5",
+      "thumbprint": "8D3FCF16EA228E2462BC58B81F0C9481FF146233",
       "source": "pin",
-      "at": "2026-11-17T22:28:20.4091298Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:idrix.veracrypt",
@@ -3194,13 +3233,13 @@
     },
     {
       "id": "w:ndi.nditools",
-      "version": "6.3.2.0",
-      "sha256": "605cb6128999778b38126ffef167c76d3d8648d39a582ffc71529dd26f64bf32",
-      "size": 565330112,
+      "version": "6.4.0.2",
+      "sha256": "477973b489e84328ac026e7e0430ae3b89e18b871167ea08b02287507461579d",
+      "size": 385879904,
       "subject": "CN=Vizrt AG, O=Vizrt AG, L=Zürich, C=CH",
-      "thumbprint": "D5D721C160B3C125B77CBD404ACB030F5D746930",
+      "thumbprint": "37ABA04F7FE8CF0625E1B7754665CDCD618BDF8D",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:neo4j.neo4jdesktop",
@@ -3264,23 +3303,23 @@
     },
     {
       "id": "w:nordsecurity.nordpass",
-      "version": "7.12.15",
+      "version": "7.13.5",
       "sha256": "592f934b7de0c2e7d60d9ffbe0f1a0fb23f402a68e6faf6ad4304d562aaf3212",
       "size": 89653248,
       "subject": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., STREET=\"PH F&F Tower, 50th Street & 56th Street, Suite 32-D\", L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
       "thumbprint": "47B77B8D91FE90DEC43731694F8D2E561DBEED08",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:nordsecurity.nordvpn",
-      "version": "8.15.2.0",
-      "sha256": "db8286f09d749b285234cfe4bc487557d4c4a878d55fe9c56c1b5934f76a2e2f",
-      "size": 96634664,
+      "version": "8.16.1.0",
+      "sha256": "4efd0a60af586014762b0caa2e13f6ca5f5128cd6c0165b3621648bae3201d00",
+      "size": 96736752,
       "subject": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
       "thumbprint": "6C8460C71705A019F5F78AF957A57E55D564FB3A",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-18T22:02:36.1739667Z"
     },
     {
       "id": "w:notepad++.notepad++",
