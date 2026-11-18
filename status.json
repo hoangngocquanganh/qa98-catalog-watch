@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-18T16:44:09.2295166Z",
+  "checked_at": "2026-11-18T23:10:48.9068058Z",
   "enabled": true,
-  "config_from_server": true,
+  "config_from_server": false,
   "config": {
     "max_per_run": 100,
     "interval_hours": 6,
@@ -11,18 +11,18 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-18T16:44:09.2295166Z",
-  "catalog_revision": 235,
-  "total_keys": 1006,
-  "hidden": 11,
-  "cycle_position": 936,
-  "error": "",
+  "catalog_revision": 0,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
+  "error": "catalog rejected (BadEnvelope: envelope format / size)",
   "pages": {
-    "catalog_revision": 235,
-    "changed": true,
-    "freshness": "none",
-    "availability": "ok",
+    "catalog_revision": 0,
+    "changed": false,
+    "freshness": "skipped",
+    "availability": "skipped",
     "error": ""
   },
   "last_probe": {
