@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-18T23:10:48.9068058Z",
+  "checked_at": "2026-11-19T04:16:02.2466167Z",
   "enabled": true,
-  "config_from_server": false,
+  "config_from_server": true,
   "config": {
     "max_per_run": 100,
     "interval_hours": 6,
@@ -11,30 +11,30 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": false,
-  "last_probe_at": "2026-11-18T16:44:09.2295166Z",
-  "catalog_revision": 0,
-  "total_keys": 0,
-  "hidden": 0,
-  "cycle_position": 0,
-  "error": "catalog rejected (BadEnvelope: envelope format / size)",
+  "ran_probe": true,
+  "last_probe_at": "2026-11-19T04:16:02.2466167Z",
+  "catalog_revision": 242,
+  "total_keys": 1007,
+  "hidden": 13,
+  "cycle_position": 1,
+  "error": "",
   "pages": {
-    "catalog_revision": 0,
-    "changed": false,
-    "freshness": "skipped",
-    "availability": "skipped",
+    "catalog_revision": 242,
+    "changed": true,
+    "freshness": "none",
+    "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-18T16:44:09.2295166Z",
-    "seconds": 42,
-    "probed": 99,
-    "ok": 84,
-    "hashed": 14,
-    "transient": 1,
+    "at": "2026-11-19T04:16:02.2466167Z",
+    "seconds": 46,
+    "probed": 100,
+    "ok": 86,
+    "hashed": 15,
+    "transient": 0,
     "broken": 10,
     "hash_mismatch": 4,
-    "skipped": 1,
+    "skipped": 0,
     "wide_outage": false
   },
   "silent_missing": [
@@ -116,9 +116,9 @@
       "silent_switch": true
     },
     {
-      "slug": "adobe-acrobat-reader-32-bit",
-      "winget_id": "Adobe.Acrobat.Reader.32-bit",
-      "version": "26.002.22031",
+      "slug": "adobe-acrobat-reader-64-bit",
+      "winget_id": "Adobe.Acrobat.Reader.64-bit",
+      "version": "26.003.22110",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -496,14 +496,14 @@
     {
       "slug": "jetbrains-dotpeek",
       "winget_id": "JetBrains.dotPeek",
-      "version": "2026.3",
+      "version": "2026.3.0.1",
       "installer_type": "exe",
       "silent_switch": true
     },
     {
       "slug": "jetbrains-resharper",
       "winget_id": "JetBrains.ReSharper",
-      "version": "2026.3",
+      "version": "2026.3.0.1",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -893,6 +893,13 @@
       "silent_switch": true
     },
     {
+      "slug": "postman-postman",
+      "winget_id": "Postman.Postman",
+      "version": "12.37.2",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "privateinternetaccess-privateinternetaccess",
       "winget_id": "PrivateInternetAccess.PrivateInternetAccess",
       "version": "3.6.1+08339",
@@ -1000,7 +1007,7 @@
     {
       "slug": "spotify-spotify",
       "winget_id": "Spotify.Spotify",
-      "version": "1.3.9.2055.g806b5b278de8",
+      "version": "1.3.10.2586.g81a118a22460",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1084,7 +1091,7 @@
     {
       "slug": "vivaldi",
       "winget_id": "Vivaldi.Vivaldi",
-      "version": "8.3.4191.44",
+      "version": "8.3.4191.45",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1184,6 +1191,25 @@
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
       "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
       "checked_at": "2026-11-18T10:20:40.2510863Z"
+    },
+    {
+      "vkey": "w:ubisoft.connect|175.1.0.13416",
+      "slug": "ubisoft-connect",
+      "winget_id": "Ubisoft.Connect",
+      "version": "175.1.0.13416",
+      "kind": "same_url_new_hash",
+      "url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+      "sha256": "551ab83c2bd11490c7f3316325e6bf1a63cbeda66c6a7ba52a8bf4ed00b2abfe",
+      "size": 263174264,
+      "signer_subject": "CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US",
+      "signer_thumbprint": "504043247F6D6934E2551117A97F2118B180DB5B",
+      "final_host": "static3.cdn.ubi.com",
+      "hosts": [
+        "static3.cdn.ubi.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US\"; cùng người ký với bản tham chiếu 175.1.0.13416 (pin), chứng chỉ đã gia hạn; 251.0 MB (tham chiếu 250.9 MB)",
+      "from_url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
+      "checked_at": "2026-11-18T22:02:52.5825997Z"
     }
   ],
   "heal_blocked": [
