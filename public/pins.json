@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-19T10:27:50.0698934Z",
-  "catalog_revision": 245,
+  "generated_at": "2026-11-19T22:13:14.084533Z",
+  "catalog_revision": 254,
   "count": 365,
   "pins": [
     {
@@ -486,19 +486,19 @@
     },
     {
       "id": "Beeper.Beeper",
-      "version": "4.3.326",
+      "version": "4.3.334",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.326.exe",
-      "sha256": "b85336f7b9ac06b44bb9fcbadec63aca63e8c2e0e1d9ebcccebdf8edbd9e59da",
-      "size": 209197864,
+      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.334.exe",
+      "sha256": "1381e274525944390da9949a88d4e33bd588cef11e78bc315efcb882961e56be",
+      "size": 209238712,
       "signer_subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "1B71A86B2EBE93C46019F9BCDAB212EDFDEACF94",
+      "signer_thumbprint": "D61358C16BC79892D57C1FC4F34D884542248BB8",
       "allowed_hosts": [
         "beeper-desktop.download.beeper.com"
       ],
-      "checked_at": "2026-11-18T22:02:36.1739667Z"
+      "checked_at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "BelledonneCommunications.Linphone",
@@ -1461,19 +1461,19 @@
     },
     {
       "id": "Evernote.Evernote",
-      "version": "11.42.3",
+      "version": "11.43.4",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://win.desktop.evernote.com/builds/Evernote-11.42.3-win-ddl-stage-20261109120314-59b98c458b1a198f0c07138fdde4b619ec3c2870-setup.exe",
-      "sha256": "4dd45a4915fc9872668ebd95e3759eb3fc82cd0de2380e67e8412411384ea068",
-      "size": 417991680,
+      "url": "https://win.desktop.evernote.com/builds/Evernote-11.43.4-win-ddl-stage-20261117143522-11b5f3b0761ea7657f2bb46621948c31a02fa37a-setup.exe",
+      "sha256": "e128c2dc8e645ad514355b8a9eb97261648a2272cbd212b6eb4f04bb54a691e2",
+      "size": 423562768,
       "signer_subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
       "signer_thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
       "allowed_hosts": [
         "win.desktop.evernote.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z"
+      "checked_at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "Famatech.AdvancedIPScanner",
@@ -3621,20 +3621,20 @@
     },
     {
       "id": "NexusMods.Vortex",
-      "version": "2.10.1",
+      "version": "2.11.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v2.10.1/vortex-setup-2.10.1.exe",
-      "sha256": "01d62323acc37f0056a2752b82b26fa5992df818f4718f82ab3e3ea24d406030",
-      "size": 378341544,
+      "url": "https://github.com/Nexus-Mods/Vortex/releases/download/v2.11.0/vortex-setup-2.11.0.exe",
+      "sha256": "6b4bebc99bff7fac7f0a9ba9a1a5da76362e6bcc26994220a234323d14f2853e",
+      "size": 382846528,
       "signer_subject": "CN=Black Tree Gaming Ltd, O=Black Tree Gaming Ltd, L=Exeter, C=GB",
-      "signer_thumbprint": "0BE49CE68E00ED151B5C3BFD8EE84BABE286171E",
+      "signer_thumbprint": "5E09FEF1B0B0F225F0723C2D3B584D5D90FA8A5E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "NGWIN.PicPick",
@@ -3853,36 +3853,36 @@
     },
     {
       "id": "OpenVPNTechnologies.OpenVPN",
-      "version": "2.7.901",
+      "version": "2.7.902",
       "arch": "x64",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.9-I001-amd64.msi",
-      "sha256": "47abc38a15c217b848fe099332a8523500fcbf2ebf8a1eaa7d5648c6e75079aa",
-      "size": 5906432,
+      "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.9-I002-amd64.msi",
+      "sha256": "d050efadc6cabc4e304eb810dd7fedfc54b859d34730ab9cdcb22d61eb86ab7a",
+      "size": 5939200,
       "signer_subject": "CN=OpenVPN Inc., O=OpenVPN Inc., L=Pleasanton, S=California, C=US, SERIALNUMBER=3761256, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "32BF9F103192726DAA416FEF348066E5F2D831CF",
       "allowed_hosts": [
         "swupdate.openvpn.org",
         "swupdate.openvpn.net"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z"
+      "checked_at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "OpenWhisperSystems.Signal",
-      "version": "8.35.0",
+      "version": "8.36.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://updates.signal.org/desktop/signal-desktop-win-8.35.0.exe",
-      "sha256": "47509a9d5626efdc4bfffe938bf633e3b8c80d6798b43620ceb5d250f058e26f",
-      "size": 285995088,
+      "url": "https://updates.signal.org/desktop/signal-desktop-win-8.36.0.exe",
+      "sha256": "4ba887638e25bf0d8c178b62274fd6d011c10c104f8db76b8855d1ca1af6483f",
+      "size": 285322040,
       "signer_subject": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
       "allowed_hosts": [
         "updates.signal.org"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "Oracle.JDK.17",
@@ -4652,19 +4652,19 @@
     },
     {
       "id": "Readdle.Spark",
-      "version": "3.32.5",
+      "version": "3.33.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://downloads.sparkmailapp.com/Spark3/win/dist/3.32.5.141587/Spark.exe",
-      "sha256": "e8cb9103a406d2ad7eefa748546c962b75818767f4c4d132c1f05b3a591ce4d4",
-      "size": 229474840,
+      "url": "https://downloads.sparkmailapp.com/Spark3/win/dist/3.33.0.141673/Spark.exe",
+      "sha256": "9395f0af7e7b017834e0eb4c8431155c2b92bb0b2db842f7cd0d42866f5a3b0a",
+      "size": 240034888,
       "signer_subject": "CN=Spark Mail Limited, O=Spark Mail Limited, L=Dalkey, C=IE, SERIALNUMBER=630862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IE",
       "signer_thumbprint": "7BFB6B11B72A19FBA8451D1552B4FFED77C52E0D",
       "allowed_hosts": [
         "downloads.sparkmailapp.com"
       ],
-      "checked_at": "2026-11-14T09:02:40.6390042Z"
+      "checked_at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "RedisInsight.RedisInsight",

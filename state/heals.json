@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-19T10:28:20.7678331Z",
+  "updated_at": "2026-11-19T22:13:40.3453493Z",
   "last_run": {
-    "at": "2026-11-19T10:28:20.7678331Z",
-    "seconds": 11,
-    "failing": 13,
+    "at": "2026-11-19T22:13:40.3453493Z",
+    "seconds": 16,
+    "failing": 12,
     "healed": 1,
-    "blocked": 12,
-    "downloads": 5,
+    "blocked": 11,
+    "downloads": 4,
     "downloaded_mb": 132,
     "harvested": 1,
-    "anchors": 459
+    "anchors": 460
   },
   "heals": [
     {
@@ -76,12 +76,6 @@
       "slug": "razerinc-razerinstaller-synapse3",
       "version": "1.22.0.737",
       "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 1.22.0.737"
-    },
-    {
-      "vkey": "w:techpowerup.gpu-z|2.71.0",
-      "slug": "techpowerup-gpu-z",
-      "version": "2.71.0",
-      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 2.71.0"
     },
     {
       "vkey": "w:techpowerup.nvcleanstall|1.19.0",
@@ -851,13 +845,13 @@
     },
     {
       "id": "w:beeper.beeper",
-      "version": "4.3.326",
-      "sha256": "b85336f7b9ac06b44bb9fcbadec63aca63e8c2e0e1d9ebcccebdf8edbd9e59da",
-      "size": 209197864,
+      "version": "4.3.334",
+      "sha256": "1381e274525944390da9949a88d4e33bd588cef11e78bc315efcb882961e56be",
+      "size": 209238712,
       "subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "thumbprint": "1B71A86B2EBE93C46019F9BCDAB212EDFDEACF94",
+      "thumbprint": "D61358C16BC79892D57C1FC4F34D884542248BB8",
       "source": "pin",
-      "at": "2026-11-18T22:02:36.1739667Z"
+      "at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "w:belledonnecommunications.linphone",
@@ -1600,6 +1594,16 @@
       "at": "2026-11-19T10:28:20.7678331Z"
     },
     {
+      "id": "w:dialpad.dialpad",
+      "version": "2610.1.0",
+      "sha256": "7461d9b2fb1ddff36ea1e80ae3a55ccf0ec3d413ed07c3b218727d7ada1154f8",
+      "size": 164096080,
+      "subject": "CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US",
+      "thumbprint": "2712C15AB5F5D45DA57799670FCBA39BE8B19F9F",
+      "source": "harvest",
+      "at": "2026-11-19T22:13:40.3453493Z"
+    },
+    {
       "id": "w:digitalscholar.zotero",
       "version": "10.0.8",
       "sha256": "1ba5d091fd24b50db1159c71650f55303d99c82e66494dc09eddab76a4179d73",
@@ -1851,13 +1855,13 @@
     },
     {
       "id": "w:evernote.evernote",
-      "version": "11.42.3",
-      "sha256": "4dd45a4915fc9872668ebd95e3759eb3fc82cd0de2380e67e8412411384ea068",
-      "size": 417991680,
+      "version": "11.43.4",
+      "sha256": "e128c2dc8e645ad514355b8a9eb97261648a2272cbd212b6eb4f04bb54a691e2",
+      "size": 423562768,
       "subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
       "thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "w:famatech.advancedipscanner",
@@ -3251,13 +3255,13 @@
     },
     {
       "id": "w:nexusmods.vortex",
-      "version": "2.10.1",
-      "sha256": "01d62323acc37f0056a2752b82b26fa5992df818f4718f82ab3e3ea24d406030",
-      "size": 378341544,
+      "version": "2.11.0",
+      "sha256": "6b4bebc99bff7fac7f0a9ba9a1a5da76362e6bcc26994220a234323d14f2853e",
+      "size": 382846528,
       "subject": "CN=Black Tree Gaming Ltd, O=Black Tree Gaming Ltd, L=Exeter, C=GB",
-      "thumbprint": "0BE49CE68E00ED151B5C3BFD8EE84BABE286171E",
+      "thumbprint": "5E09FEF1B0B0F225F0723C2D3B584D5D90FA8A5E",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "w:ngwin.picpick",
@@ -3391,23 +3395,23 @@
     },
     {
       "id": "w:openvpntechnologies.openvpn",
-      "version": "2.7.901",
-      "sha256": "47abc38a15c217b848fe099332a8523500fcbf2ebf8a1eaa7d5648c6e75079aa",
-      "size": 5906432,
+      "version": "2.7.902",
+      "sha256": "d050efadc6cabc4e304eb810dd7fedfc54b859d34730ab9cdcb22d61eb86ab7a",
+      "size": 5939200,
       "subject": "CN=OpenVPN Inc., O=OpenVPN Inc., L=Pleasanton, S=California, C=US, SERIALNUMBER=3761256, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "32BF9F103192726DAA416FEF348066E5F2D831CF",
       "source": "pin",
-      "at": "2026-11-13T20:55:58.7181039Z"
+      "at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "w:openwhispersystems.signal",
-      "version": "8.35.0",
-      "sha256": "47509a9d5626efdc4bfffe938bf633e3b8c80d6798b43620ceb5d250f058e26f",
-      "size": 285995088,
+      "version": "8.36.0",
+      "sha256": "4ba887638e25bf0d8c178b62274fd6d011c10c104f8db76b8855d1ca1af6483f",
+      "size": 285322040,
       "subject": "CN=\"Signal Messenger, LLC\", O=\"Signal Messenger, LLC\", L=Mountain View, S=California, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=6703101, OID.2.5.4.15=Private Organization",
       "thumbprint": "8A5A56EFFDC462AE8A6CF732BB21E2541995BF36",
       "source": "pin",
-      "at": "2026-11-12T09:54:49.3674978Z"
+      "at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "w:oracle.jdk.17",
@@ -3881,13 +3885,13 @@
     },
     {
       "id": "w:readdle.spark",
-      "version": "3.32.5",
-      "sha256": "e8cb9103a406d2ad7eefa748546c962b75818767f4c4d132c1f05b3a591ce4d4",
-      "size": 229474840,
+      "version": "3.33.0",
+      "sha256": "9395f0af7e7b017834e0eb4c8431155c2b92bb0b2db842f7cd0d42866f5a3b0a",
+      "size": 240034888,
       "subject": "CN=Spark Mail Limited, O=Spark Mail Limited, L=Dalkey, C=IE, SERIALNUMBER=630862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IE",
       "thumbprint": "7BFB6B11B72A19FBA8451D1552B4FFED77C52E0D",
       "source": "pin",
-      "at": "2026-11-14T09:02:40.6390042Z"
+      "at": "2026-11-19T22:13:14.084533Z"
     },
     {
       "id": "w:redisinsight.redisinsight",
