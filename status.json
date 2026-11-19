@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-19T04:16:02.2466167Z",
+  "checked_at": "2026-11-19T13:31:19.8623652Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-19T04:16:02.2466167Z",
-  "catalog_revision": 242,
+  "last_probe_at": "2026-11-19T13:31:19.8623652Z",
+  "catalog_revision": 250,
   "total_keys": 1007,
-  "hidden": 13,
-  "cycle_position": 1,
+  "hidden": 12,
+  "cycle_position": 72,
   "error": "",
   "pages": {
-    "catalog_revision": 242,
+    "catalog_revision": 250,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-19T04:16:02.2466167Z",
-    "seconds": 46,
+    "at": "2026-11-19T13:31:19.8623652Z",
+    "seconds": 100,
     "probed": 100,
     "ok": 86,
-    "hashed": 15,
+    "hashed": 47,
     "transient": 0,
-    "broken": 10,
-    "hash_mismatch": 4,
+    "broken": 11,
+    "hash_mismatch": 3,
     "skipped": 0,
     "wide_outage": false
   },
@@ -62,7 +62,7 @@
     {
       "slug": "brave",
       "winget_id": "Brave.Brave",
-      "version": "157.1.99.56",
+      "version": "158.1.100.58",
       "installer_type": "exe",
       "silent_switch": false
     },
@@ -70,6 +70,13 @@
       "slug": "discord",
       "winget_id": "Discord.Discord",
       "version": "1.0.9269",
+      "installer_type": "exe",
+      "silent_switch": false
+    },
+    {
+      "slug": "discord-discord-canary",
+      "winget_id": "Discord.Discord.Canary",
+      "version": "1.0.1347",
       "installer_type": "exe",
       "silent_switch": false
     },
@@ -112,6 +119,13 @@
       "slug": "acronis-cyberprotecthomeoffice",
       "winget_id": "Acronis.CyberProtectHomeOffice",
       "version": "28.3.1.41126",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "adobe-acrobat-reader-32-bit",
+      "winget_id": "Adobe.Acrobat.Reader.32-bit",
+      "version": "26.003.22110",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -238,13 +252,6 @@
       "slug": "bytedance-capcut",
       "winget_id": "ByteDance.CapCut",
       "version": "9.8.0.4213",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "bytedance-lark",
-      "winget_id": "ByteDance.Lark",
-      "version": "8.5.12",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -440,7 +447,7 @@
     {
       "slug": "google-googledrive",
       "winget_id": "Google.GoogleDrive",
-      "version": "133.0.2.0",
+      "version": "134.0.1.0",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -846,7 +853,7 @@
     {
       "slug": "opera-opera",
       "winget_id": "Opera.Opera",
-      "version": "140.0.6074.18",
+      "version": "140.0.6074.36",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -895,7 +902,7 @@
     {
       "slug": "postman-postman",
       "winget_id": "Postman.Postman",
-      "version": "12.37.2",
+      "version": "12.37.3",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1133,7 +1140,7 @@
     {
       "slug": "wire-wire",
       "winget_id": "wire.wire",
-      "version": "3.45.5381",
+      "version": "3.46.5382",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1143,35 +1150,9 @@
       "version": "26.11.0.2027",
       "installer_type": "exe",
       "silent_switch": true
-    },
-    {
-      "slug": "zen-team-zen-browser",
-      "winget_id": "Zen-Team.Zen-Browser",
-      "version": "1.24.1b",
-      "installer_type": "exe",
-      "silent_switch": true
     }
   ],
   "heals": [
-    {
-      "vkey": "w:google.chrome|157.0.8103.79",
-      "slug": "chrome",
-      "winget_id": "Google.Chrome",
-      "version": "157.0.8103.79",
-      "kind": "same_url_new_hash",
-      "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
-      "sha256": "ac5b9053c223dca21633fb4c4c9878a7ae5f3aebe13920d9523a432540db740c",
-      "size": 178565120,
-      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
-      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
-      "final_host": "dl.google.com",
-      "hosts": [
-        "dl.google.com"
-      ],
-      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\"; cùng chứng chỉ với bản tham chiếu 157.0.8103.51 (harvest, thumbprint trùng); 170.3 MB (tham chiếu 164.0 MB)",
-      "from_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
-      "checked_at": "2026-11-18T10:20:40.2510863Z"
-    },
     {
       "vkey": "w:sibersystems.goodsync|12.11.12.2",
       "slug": "sibersystems-goodsync",
@@ -1191,25 +1172,6 @@
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
       "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
       "checked_at": "2026-11-18T10:20:40.2510863Z"
-    },
-    {
-      "vkey": "w:ubisoft.connect|175.1.0.13416",
-      "slug": "ubisoft-connect",
-      "winget_id": "Ubisoft.Connect",
-      "version": "175.1.0.13416",
-      "kind": "same_url_new_hash",
-      "url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
-      "sha256": "551ab83c2bd11490c7f3316325e6bf1a63cbeda66c6a7ba52a8bf4ed00b2abfe",
-      "size": 263174264,
-      "signer_subject": "CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "504043247F6D6934E2551117A97F2118B180DB5B",
-      "final_host": "static3.cdn.ubi.com",
-      "hosts": [
-        "static3.cdn.ubi.com"
-      ],
-      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=UBISOFT ENTERTAINMENT INC., O=UBISOFT ENTERTAINMENT INC., L=San Francisco, S=California, C=US\"; cùng người ký với bản tham chiếu 175.1.0.13416 (pin), chứng chỉ đã gia hạn; 251.0 MB (tham chiếu 250.9 MB)",
-      "from_url": "https://static3.cdn.ubi.com/orbit/launcher_installer/UbisoftConnectInstaller.exe",
-      "checked_at": "2026-11-18T22:02:52.5825997Z"
     }
   ],
   "heal_blocked": [
@@ -1272,6 +1234,12 @@
       "slug": "techpowerup-throttlestop",
       "version": "9.7",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:vsdc.editor|11.3.3.761",
+      "slug": "vsdc-editor",
+      "version": "11.3.3.761",
+      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=FLASH-INTEGRO LLC, O=FLASH-INTEGRO LLC, S=Toshkent, C=UZ\" (SHA-256 21d2b450d1c4f74e677a73682b8f73b03ba7066f3f5abfc6ef611b0c779140fd, 126.1 MB)"
     },
     {
       "vkey": "w:warp.warp|latest",
