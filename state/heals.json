@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-19T22:13:40.3453493Z",
+  "updated_at": "2026-11-20T10:07:50.9749725Z",
   "last_run": {
-    "at": "2026-11-19T22:13:40.3453493Z",
-    "seconds": 16,
+    "at": "2026-11-20T10:07:50.9749725Z",
+    "seconds": 14,
     "failing": 12,
     "healed": 1,
     "blocked": 11,
-    "downloads": 4,
-    "downloaded_mb": 132,
+    "downloads": 5,
+    "downloaded_mb": 212,
     "harvested": 1,
-    "anchors": 460
+    "anchors": 461
   },
   "heals": [
     {
@@ -31,7 +31,7 @@
       ],
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
       "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
-      "checked_at": "2026-11-18T10:20:40.2510863Z"
+      "checked_at": "2026-11-20T10:07:50.9749725Z"
     }
   ],
   "heal_blocked": [
@@ -345,13 +345,13 @@
     },
     {
       "id": "w:amazon.awscli",
-      "version": "2.41.1",
-      "sha256": "50bda4c22c4d6221cadf917814993e19527b03af148aa219bfb57cf0a9e3a0c5",
-      "size": 50954240,
+      "version": "2.41.2",
+      "sha256": "59a2bc7b0c9313faabf5862393759750df8ac0aeae928b564f9e3845e9c1a7e8",
+      "size": 51400704,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "source": "pin",
-      "at": "2026-11-19T10:27:50.0698934Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:amazon.corretto.11.jdk",
@@ -425,13 +425,13 @@
     },
     {
       "id": "w:amazon.sam-cli",
-      "version": "1.173.0",
-      "sha256": "6bb9f536bb68ba2d7fae27141c696e38e0d544f413cee444211fad2032e0f445",
-      "size": 98516992,
+      "version": "1.174.0",
+      "sha256": "834c12e952aa60a6e6a85645d861210fa6678653ae8ecbb3d827f73d2d05c57b",
+      "size": 99155968,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "source": "pin",
-      "at": "2026-11-18T10:16:40.654227Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:andrewiethoff.exactaudiocopy",
@@ -945,13 +945,13 @@
     },
     {
       "id": "w:bitwarden.bitwarden",
-      "version": "2026.10.4",
-      "sha256": "aaedfeaf73511b9095a5009454bb037a053c9a60e7c5ed23717b7b6047193a13",
-      "size": 734224,
+      "version": "2026.11.0",
+      "sha256": "c8e7ee33b43b9fd6baada11b4355a684bb8944ea58173423fa108d244bcbdf0a",
+      "size": 734264,
       "subject": "CN=Bitwarden Inc., O=Bitwarden Inc., L=Santa Barbara, S=California, C=US, SERIALNUMBER=7654941, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "80375A0C9630A51ECB7EC79B37A8174C8DACCCED",
       "source": "pin",
-      "at": "2026-11-13T11:46:19.970466Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:bleachbit.bleachbit",
@@ -1015,13 +1015,13 @@
     },
     {
       "id": "w:bytedance.trae",
-      "version": "3.6.13",
-      "sha256": "b9ab1d0c032671d3e33b7c188107a6f2333b3c760a10ceac1ad49bb5fd7b4e06",
-      "size": 462074064,
+      "version": "3.6.20",
+      "sha256": "1667f054e74c4800917b605e09878eb6d0c5c28ae593a7f241bb4f7173ff2a9f",
+      "size": 438418480,
       "subject": "CN=SPRING (SG) PTE. LTD, O=SPRING (SG) PTE. LTD, L=Singapore, C=SG, SERIALNUMBER=202325236K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
       "thumbprint": "54651F859DD2D0CA549DDEC1DCEE2683B975AECC",
       "source": "pin",
-      "at": "2026-11-14T09:02:40.6390042Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:calibre.calibre",
@@ -1614,6 +1614,16 @@
       "at": "2026-11-13T11:46:19.970466Z"
     },
     {
+      "id": "w:discord.discord.canary",
+      "version": "1.0.1353",
+      "sha256": "ba169c0b97ecfa3b4e853e06d45b162cb3f4b464410fe774bb037ec181103e29",
+      "size": 163806136,
+      "subject": "CN=Discord Inc., O=Discord Inc., L=San Francisco, S=California, C=US, SERIALNUMBER=5128862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "thumbprint": "6C7552617E892DFCA5CEB96FA2870F4F1904820E",
+      "source": "harvest",
+      "at": "2026-11-20T10:07:50.9749725Z"
+    },
+    {
       "id": "w:ditto.ditto",
       "version": "3.25.113.0",
       "sha256": "fc354f1e9b9d2984099d4da93b4c569866dfe9bf1f590c1313e85e07f41224d3",
@@ -2045,13 +2055,13 @@
     },
     {
       "id": "w:github.githubdesktop",
-      "version": "3.6.11",
-      "sha256": "30e8f88b559fd0cea5a4c3b5f50e0e6d56137405067a70f8ff1ce163d8403487",
-      "size": 269291520,
+      "version": "3.7.0",
+      "sha256": "a8fa288473c618fba1049e89d220a6a12b444b4bd388d86b35a6da261ef4577c",
+      "size": 269901824,
       "subject": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
-      "thumbprint": "133C44430E2BB1C1BC97CE779812CF49644B7980",
+      "thumbprint": "B841B4B7C73B6D4A0959765F47BE5411C7CB337B",
       "source": "pin",
-      "at": "2026-11-13T11:46:19.970466Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:github.gitlfs",
@@ -2435,13 +2445,13 @@
     },
     {
       "id": "w:joplin.joplin",
-      "version": "3.7.22",
-      "sha256": "ee11551239e7d680f76c6a4ddbc2362dda850981904fdb365298e4d43bf1df4d",
-      "size": 368820432,
+      "version": "3.7.24",
+      "sha256": "9b528527bf24c4657c35052309437d2798c2ab38f80e32b66f0dedb8daeb3ec9",
+      "size": 368947560,
       "subject": "CN=Joplin, O=Joplin, L=Nancy, C=FR",
       "thumbprint": "AF0C1B9451567F9AF077DD0646D2927153B05DAF",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:jrsoftware.innosetup",
@@ -3515,13 +3525,13 @@
     },
     {
       "id": "w:pdfsam.pdfsam",
-      "version": "6.0.10.0",
-      "sha256": "b61bc499398d892a3c849fc17e65797aeadb7615e1c624ebca663ad307e413e8",
-      "size": 96768000,
+      "version": "6.0.11.0",
+      "sha256": "0367f3afeeeea4b61750c06ded90b9df7059d3cd85b4d457e01cf9cf14689730",
+      "size": 96948224,
       "subject": "CN=Sober Lemur S.r.l., O=Sober Lemur S.r.l., L=Bibbiano, S=Reggio Emilia, C=IT",
-      "thumbprint": "4C5D6DB243B1033B419DDED4FC2B714EB05C6D07",
+      "thumbprint": "EB556D19405003F4B2CCE9A836F49E04933FD4B5",
       "source": "pin",
-      "at": "2026-11-11T21:27:51.6491038Z"
+      "at": "2026-11-20T10:06:56.3603107Z"
     },
     {
       "id": "w:perforce.p4merge",
