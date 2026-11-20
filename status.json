@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-20T10:37:37.076255Z",
+  "checked_at": "2026-11-20T18:52:42.8828692Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,26 +12,26 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-20T10:37:37.076255Z",
-  "catalog_revision": 260,
+  "last_probe_at": "2026-11-20T18:52:42.8828692Z",
+  "catalog_revision": 266,
   "total_keys": 1008,
   "hidden": 12,
-  "cycle_position": 209,
+  "cycle_position": 277,
   "error": "",
   "pages": {
-    "catalog_revision": 260,
+    "catalog_revision": 266,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-20T10:37:37.076255Z",
-    "seconds": 461,
+    "at": "2026-11-20T18:52:42.8828692Z",
+    "seconds": 36,
     "probed": 100,
-    "ok": 88,
-    "hashed": 58,
-    "transient": 0,
+    "ok": 87,
+    "hashed": 62,
+    "transient": 1,
     "broken": 9,
     "hash_mismatch": 3,
     "skipped": 0,
@@ -907,13 +907,6 @@
       "silent_switch": true
     },
     {
-      "slug": "postman-postman",
-      "winget_id": "Postman.Postman",
-      "version": "12.37.3",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
       "slug": "privateinternetaccess-privateinternetaccess",
       "winget_id": "PrivateInternetAccess.PrivateInternetAccess",
       "version": "3.6.1+08339",
@@ -994,13 +987,6 @@
       "slug": "seagate-seatools",
       "winget_id": "Seagate.SeaTools",
       "version": "5.3.1",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "smartbear-soapui",
-      "winget_id": "SmartBear.SoapUI",
-      "version": "5.10.0",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1099,13 +1085,6 @@
       "slug": "virtualdesktop-streamer",
       "winget_id": "VirtualDesktop.Streamer",
       "version": "1.34.25",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "vivaldi",
-      "winget_id": "Vivaldi.Vivaldi",
-      "version": "8.3.4191.45",
       "installer_type": "exe",
       "silent_switch": true
     },
