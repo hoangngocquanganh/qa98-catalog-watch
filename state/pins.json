@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-20T10:06:56.3603107Z",
-  "catalog_revision": 260,
+  "updated_at": "2026-11-20T21:51:47.5903605Z",
+  "catalog_revision": 268,
   "last_run": {
-    "at": "2026-11-20T10:06:56.3603107Z",
-    "seconds": 54,
+    "at": "2026-11-20T21:51:47.5903605Z",
+    "seconds": 22,
     "checked": 45,
     "downloads": 18,
-    "downloaded_mb": 2261,
-    "pinned": 7,
-    "skipped": 38,
+    "downloaded_mb": 2327,
+    "pinned": 9,
+    "skipped": 36,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 18,
-      "authenticode NotSigned": 9,
-      "installer type … not supported by pinned route": 9,
+      "neutral version but installer differs by arch …; split versions per arch to pin": 15,
+      "installer type … not supported by pinned route": 12,
+      "authenticode NotSigned": 7,
       "authenticode UnknownError": 1,
       "download larger than … MB": 1
     }
@@ -90,7 +90,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -472,7 +472,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -2575,7 +2575,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -3024,11 +3024,11 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "curl.curl|8.23.0.8|neutral",
+      "key": "curl.curl|8.23.0.9|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "cURL.cURL",
-      "version": "8.23.0.8",
+      "version": "8.23.0.9",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3038,7 +3038,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -3531,7 +3531,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -3896,7 +3896,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -4052,83 +4052,83 @@
       "silent_check": "ok"
     },
     {
-      "key": "eclipseadoptium.temurin.17.jdk|17.0.21.9|neutral",
+      "key": "eclipseadoptium.temurin.17.jdk|17.0.21.102|neutral",
       "status": "pinned",
       "id": "EclipseAdoptium.Temurin.17.JDK",
-      "version": "17.0.21.9",
+      "version": "17.0.21.102",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21_9.msi",
-      "sha256": "9f06b736ef2bd07aaf82f1bd575dc92108b442b97f5d4308eb3816613c086977",
-      "size": 168714240,
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2.msi",
+      "sha256": "28ef9ba7e252c9b16534694a070e0810fdcc7cdb26b72e7b1663c42f6453d45d",
+      "size": 168755200,
       "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "eclipseadoptium.temurin.17.jre|17.0.21.9|neutral",
+      "key": "eclipseadoptium.temurin.17.jre|17.0.21.102|neutral",
       "status": "pinned",
       "id": "EclipseAdoptium.Temurin.17.JRE",
-      "version": "17.0.21.9",
+      "version": "17.0.21.102",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21+9/OpenJDK17U-jre_x64_windows_hotspot_17.0.21_9.msi",
-      "sha256": "af68f37f3cf01baee071c44803f454e37add364d9dcc2550076efb5a04f6ca7b",
-      "size": 31674368,
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jre_x64_windows_hotspot_17.0.21.1_2.msi",
+      "sha256": "89a157f3e24fc4ef1e0783460a54d24669e2d779c6dc0f3b12b6ea1c7662dc9c",
+      "size": 31694848,
       "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "eclipseadoptium.temurin.21.jdk|21.0.13.9|neutral",
+      "key": "eclipseadoptium.temurin.21.jdk|21.0.13.102|neutral",
       "status": "pinned",
       "id": "EclipseAdoptium.Temurin.21.JDK",
-      "version": "21.0.13.9",
+      "version": "21.0.13.102",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13_9.msi",
-      "sha256": "9dcbb8ebe24aa9ee5a47a7fab2106a7c8988d7acee461260fef107411df91dc5",
-      "size": 179666944,
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13.1_2.msi",
+      "sha256": "24742e4539f122f0427e33b195c96c93a5369da1f5da95f642825ce3813ff815",
+      "size": 179687424,
       "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "eclipseadoptium.temurin.21.jre|21.0.13.9|neutral",
+      "key": "eclipseadoptium.temurin.21.jre|21.0.13.102|neutral",
       "status": "pinned",
       "id": "EclipseAdoptium.Temurin.21.JRE",
-      "version": "21.0.13.9",
+      "version": "21.0.13.102",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13+9/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.msi",
-      "sha256": "6a85618938fb3a1419455447a9250e15480da1d31fc5b399eb15212a905d50dc",
-      "size": 35004416,
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi",
+      "sha256": "edd761b200d7896fc40382bc14c3e077c3d4d3011682157d4db6f487e2bce081",
+      "size": 35024896,
       "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T12:29:04.7928657Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -4322,11 +4322,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "eloston.ungoogled-chromium|156.0.8078.47|neutral",
+      "key": "eloston.ungoogled-chromium|157.0.8103.78|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "eloston.ungoogled-chromium",
-      "version": "156.0.8078.47",
+      "version": "157.0.8103.78",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4336,7 +4336,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -5268,7 +5268,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -5414,15 +5414,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "git.git|2.56.0.4|neutral",
+      "key": "git.git|2.56.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Git.Git",
-      "version": "2.56.0.4",
+      "version": "2.56.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5432,27 +5432,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "git.git|2.56.0.4|x64",
+      "key": "git.git|2.56.1|x64",
       "status": "pinned",
       "id": "Git.Git",
-      "version": "2.56.0.4",
+      "version": "2.56.1",
       "arch": "x64",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/Git-2.56.0.4-64-bit.exe",
-      "sha256": "4961a4a8cc778d8b6e00a5819e5fe4d078b754555aff7aedc2d77a5d74c2de80",
-      "size": 66850032,
+      "url": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-64-bit.exe",
+      "sha256": "c330c72e10b408cc39994bfefdb63542b0d93d21699325c3e0bd874af8a5a559",
+      "size": 66870448,
       "signer_subject": "CN=Johannes Schindelin, O=Johannes Schindelin, L=Bruehl, C=DE",
       "signer_thumbprint": "5D068D19F18BDA12B5D08B7F9F86F072BA63A098",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -6023,7 +6023,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "exe"
     },
     {
@@ -6289,11 +6289,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "gyan.ffmpeg.shared|9.0.2|neutral",
+      "key": "gyan.ffmpeg.shared|9.1|neutral",
       "status": "skipped",
       "reason": "installer type 'zip' not supported by pinned route",
       "id": "Gyan.FFmpeg.Shared",
-      "version": "9.0.2",
+      "version": "9.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -6303,15 +6303,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "gyan.ffmpeg|9.0.2|neutral",
+      "key": "gyan.ffmpeg|9.1|neutral",
       "status": "skipped",
       "reason": "installer type 'zip' not supported by pinned route",
       "id": "Gyan.FFmpeg",
-      "version": "9.0.2",
+      "version": "9.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -6321,7 +6321,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -6579,7 +6579,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -6928,7 +6928,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -7481,7 +7481,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -8502,7 +8502,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -8726,11 +8726,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "luantiteam.luanti|5.17.0|neutral",
+      "key": "luantiteam.luanti|5.18.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "LuantiTeam.Luanti",
-      "version": "5.17.0",
+      "version": "5.18.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -8740,7 +8740,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -10544,7 +10544,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -11405,42 +11405,42 @@
       "silent_check": "ok"
     },
     {
-      "key": "mongodb.compass.full|1.53.2.0|neutral",
+      "key": "mongodb.compass.full|1.53.3.0|neutral",
       "status": "pinned",
       "id": "MongoDB.Compass.Full",
-      "version": "1.53.2.0",
+      "version": "1.53.3.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/mongodb-js/compass/releases/download/v1.53.2/mongodb-compass-1.53.2-win32-x64.msi",
-      "sha256": "d837afaf916809c777ac01ddbb1640d3231b8ced585a9437e5253675f0cf5025",
-      "size": 204144640,
+      "url": "https://github.com/mongodb-js/compass/releases/download/v1.53.3/mongodb-compass-1.53.3-win32-x64.msi",
+      "sha256": "5a9d8452eea1dd2a8a66d4d3dcb6fa53f965f9c24437a99a915c235057a0e786",
+      "size": 208695296,
       "signer_subject": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
       "signer_thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "mongodb.server|9.0.4|neutral",
+      "key": "mongodb.server|9.0.8|neutral",
       "status": "pinned",
       "id": "MongoDB.Server",
-      "version": "9.0.4",
+      "version": "9.0.8",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-9.0.4-signed.msi",
-      "sha256": "914085f58aaa9699d3bee720ef660db6bf83c478f4afa2aa40909ea773e5d476",
-      "size": 966684672,
+      "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-9.0.8-signed.msi",
+      "sha256": "4841753f49c1e3e25d12ff63a049894b7d56e397f27f05303ccde5144a6ae060",
+      "size": 970285056,
       "signer_subject": "CN=\"MongoDB, Inc.\", O=\"MongoDB, Inc.\", L=New York, S=New York, C=US",
       "signer_thumbprint": "A5BBE2A6DA1D2A6E057EF870267E6A91E4D56BAA",
       "allowed_hosts": [
         "fastdl.mongodb.org"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -11755,7 +11755,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -12745,11 +12745,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "obsproject.obsstudio|33.0.0|neutral",
+      "key": "obsproject.obsstudio|33.0.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "OBSProject.OBSStudio",
-      "version": "33.0.0",
+      "version": "33.0.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12759,27 +12759,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "obsproject.obsstudio|33.0.0|x64",
+      "key": "obsproject.obsstudio|33.0.1|x64",
       "status": "pinned",
       "id": "OBSProject.OBSStudio",
-      "version": "33.0.0",
+      "version": "33.0.1",
       "arch": "x64",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-x64-Installer.exe",
-      "sha256": "3bf55dae6d9db651505828090de74540296c742ed2a94a28cf055cb6ddc6bed3",
-      "size": 186671888,
+      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-Windows-x64-Installer.exe",
+      "sha256": "37ecde4d9a28e8aeeb07623c8469b5d558eb264e02ccf435bb859891c401758b",
+      "size": 186662440,
       "signer_subject": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "178EB178111547B52B3821A278653EEDC3E5B1F7",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -12801,11 +12801,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "ocbase.occt.personal|17.2.0.0|neutral",
+      "key": "ocbase.occt.personal|17.2.1.0|neutral",
       "status": "skipped",
       "reason": "installer type 'portable' not supported by pinned route",
       "id": "OCBase.OCCT.Personal",
-      "version": "17.2.0.0",
+      "version": "17.2.1.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12815,7 +12815,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -13022,11 +13022,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "openai.chatgpt|26.1111.9664.0|neutral",
+      "key": "openai.chatgpt|26.1117.3838.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "OpenAI.ChatGPT",
-      "version": "26.1111.9664.0",
+      "version": "26.1117.3838.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13036,15 +13036,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
-      "key": "openai.codex|0.170.0|neutral",
+      "key": "openai.codex|0.171.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "OpenAI.Codex",
-      "version": "0.170.0",
+      "version": "0.171.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13054,7 +13054,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T10:27:50.0698934Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -13219,7 +13219,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -14247,11 +14247,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "postman.postman|12.37.3|neutral",
+      "key": "postman.postman|12.37.4|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Postman.Postman",
-      "version": "12.37.3",
+      "version": "12.37.4",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14261,7 +14261,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T10:27:50.0698934Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "exe"
     },
     {
@@ -15155,7 +15155,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -15703,7 +15703,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -16248,11 +16248,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "smartbear.soapui|5.10.0|neutral",
+      "key": "smartbear.soapui|5.10.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "SmartBear.SoapUI",
-      "version": "5.10.0",
+      "version": "5.10.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16262,7 +16262,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "exe"
     },
     {
@@ -16298,7 +16298,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -16833,7 +16833,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -16893,11 +16893,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "swift.toolchain|6.4.2|neutral",
+      "key": "swift.toolchain|6.4.3|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Swift.Toolchain",
-      "version": "6.4.2",
+      "version": "6.4.3",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16907,7 +16907,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -17644,7 +17644,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "exe"
     },
     {
@@ -17918,7 +17918,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-13T11:46:19.970466Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -18253,11 +18253,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "vivaldi.vivaldi|8.3.4191.45|neutral",
+      "key": "vivaldi.vivaldi|8.3.4191.47|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Vivaldi.Vivaldi",
-      "version": "8.3.4191.45",
+      "version": "8.3.4191.47",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -18267,7 +18267,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "exe"
     },
     {
@@ -18621,23 +18621,23 @@
       "silent_check": "exe"
     },
     {
-      "key": "winfsp.winfsp|2.1.25156|neutral",
+      "key": "winfsp.winfsp|2.2.26323|neutral",
       "status": "pinned",
       "id": "WinFsp.WinFsp",
-      "version": "2.1.25156",
+      "version": "2.2.26323",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x86",
-      "url": "https://github.com/winfsp/winfsp/releases/download/v2.1/winfsp-2.1.25156.msi",
-      "sha256": "073a70e00f77423e34bed98b86e600def93393ba5822204fac57a29324db9f7a",
-      "size": 2191360,
+      "url": "https://github.com/winfsp/winfsp/releases/download/v2.2/winfsp-2.2.26323.msi",
+      "sha256": "36ce01f9eedbbe6842b7fb4bedc79d7d4f71983e8aceb6877b46a07b331c7e19",
+      "size": 2220032,
       "signer_subject": "CN=NAVIMATICS LLC, O=NAVIMATICS LLC, L=KIRKLAND, S=Washington, C=US, SERIALNUMBER=604 419 559, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Washington, OID.1.3.6.1.4.1.311.60.2.1.3=US",
-      "signer_thumbprint": "ECC9BCB47D6506452753F3DF19677B35AEB36E2B",
+      "signer_thumbprint": "75C6C88B0B6C4556F13FCE3B081FC9051EAE457E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "ok"
     },
     {
@@ -19239,11 +19239,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "yandex.browser|26.11.0.2027|neutral",
+      "key": "yandex.browser|26.11.1.1124|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Yandex.Browser",
-      "version": "26.11.0.2027",
+      "version": "26.11.1.1124",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -19253,7 +19253,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-20T21:51:47.5903605Z",
       "silent_check": "exe"
     },
     {
