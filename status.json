@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-20T02:41:10.1845575Z",
+  "checked_at": "2026-11-20T10:37:37.076255Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,29 +12,29 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-20T02:41:10.1845575Z",
-  "catalog_revision": 256,
+  "last_probe_at": "2026-11-20T10:37:37.076255Z",
+  "catalog_revision": 260,
   "total_keys": 1008,
   "hidden": 12,
-  "cycle_position": 140,
+  "cycle_position": 209,
   "error": "",
   "pages": {
-    "catalog_revision": 256,
+    "catalog_revision": 260,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-20T02:41:10.1845575Z",
-    "seconds": 37,
-    "probed": 98,
-    "ok": 86,
-    "hashed": 51,
+    "at": "2026-11-20T10:37:37.076255Z",
+    "seconds": 461,
+    "probed": 100,
+    "ok": 88,
+    "hashed": 58,
     "transient": 0,
     "broken": 9,
     "hash_mismatch": 3,
-    "skipped": 2,
+    "skipped": 0,
     "wide_outage": false
   },
   "silent_missing": [
@@ -70,6 +70,13 @@
       "slug": "discord",
       "winget_id": "Discord.Discord",
       "version": "1.0.9269",
+      "installer_type": "exe",
+      "silent_switch": false
+    },
+    {
+      "slug": "discord-discord-canary",
+      "winget_id": "Discord.Discord.Canary",
+      "version": "1.0.1353",
       "installer_type": "exe",
       "silent_switch": false
     },
@@ -139,7 +146,7 @@
     {
       "slug": "alex313031-thorium-avx2",
       "winget_id": "Alex313031.Thorium.AVX2",
-      "version": "156.0.8078.80",
+      "version": "158.0.8127.41",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -459,6 +466,13 @@
       "silent_switch": true
     },
     {
+      "slug": "hibbiki-chromium",
+      "winget_id": "Hibbiki.Chromium",
+      "version": "158.0.8127.37",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "hp-imageassistant",
       "winget_id": "HP.ImageAssistant",
       "version": "5.3.7",
@@ -601,7 +615,7 @@
     {
       "slug": "microsoft-edgewebview2runtime",
       "winget_id": "Microsoft.EdgeWebView2Runtime",
-      "version": "157.0.4341.42",
+      "version": "158.0.4370.33",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1164,7 +1178,7 @@
       ],
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
       "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
-      "checked_at": "2026-11-18T10:20:40.2510863Z"
+      "checked_at": "2026-11-20T10:07:50.9749725Z"
     }
   ],
   "heal_blocked": [
