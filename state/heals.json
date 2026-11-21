@@ -1,39 +1,18 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-20T21:52:10.054701Z",
+  "updated_at": "2026-11-21T09:55:09.2800603Z",
   "last_run": {
-    "at": "2026-11-20T21:52:10.054701Z",
-    "seconds": 11,
-    "failing": 12,
-    "healed": 1,
+    "at": "2026-11-21T09:55:09.2800603Z",
+    "seconds": 9,
+    "failing": 11,
+    "healed": 0,
     "blocked": 11,
     "downloads": 4,
     "downloaded_mb": 132,
-    "harvested": 1,
+    "harvested": 0,
     "anchors": 462
   },
-  "heals": [
-    {
-      "vkey": "w:sibersystems.goodsync|12.11.12.2",
-      "slug": "sibersystems-goodsync",
-      "winget_id": "SiberSystems.GoodSync",
-      "version": "12.11.12.2",
-      "kind": "same_url_new_hash",
-      "url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
-      "sha256": "b087f8c462d624068bbad64387609e9b31f0106524f70a389cef900a8c9746f3",
-      "size": 83608384,
-      "signer_subject": "CN=Siber Systems, O=Siber Systems, S=Virginia, C=US",
-      "signer_thumbprint": "B745796BD3492350C170EFF5691813F3C2FC298E",
-      "final_host": "services.goodsync.com",
-      "hosts": [
-        "www.goodsync.com",
-        "services.goodsync.com"
-      ],
-      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Siber Systems, O=Siber Systems, S=Virginia, C=US\"; cùng chứng chỉ với bản tham chiếu 12.11.12.2 (pin, thumbprint trùng); 79.7 MB (tham chiếu 79.5 MB)",
-      "from_url": "https://www.goodsync.com/download/GoodSync-vsub-Setup.exe",
-      "checked_at": "2026-11-20T10:07:50.9749725Z"
-    }
-  ],
+  "heals": [],
   "heal_blocked": [
     {
       "vkey": "w:ablaze.floorp|latest",
@@ -345,13 +324,13 @@
     },
     {
       "id": "w:amazon.awscli",
-      "version": "2.41.2",
-      "sha256": "59a2bc7b0c9313faabf5862393759750df8ac0aeae928b564f9e3845e9c1a7e8",
-      "size": 51400704,
+      "version": "2.42.1",
+      "sha256": "9cba09928c5f696bd6d70f9a79aaca67fd73879a1a04e047b01dce0bae596f83",
+      "size": 51654656,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "source": "pin",
-      "at": "2026-11-20T10:06:56.3603107Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:amazon.corretto.11.jdk",
@@ -605,13 +584,13 @@
     },
     {
       "id": "w:appflowy.appflowy",
-      "version": "0.15.0",
-      "sha256": "fad56ccdb0532ae49f9841410d67ed18f5d88091a8743663ea9e073517d24676",
-      "size": 94306136,
+      "version": "0.15.1",
+      "sha256": "7ca3952d876b2226b506156131ef390c5130c9372e974011649d90ac15094721",
+      "size": 96723728,
       "subject": "CN=APPFLOWY PTE. LTD., O=APPFLOWY PTE. LTD., STREET=\"20 Collyer Quay, #09-01, 20 Collyer Quay\", L=Singapore, S=Singapore, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202202623N, OID.2.5.4.15=Private Organization",
       "thumbprint": "7469246ABBA2D12731FE22868964CA74A59C9B99",
       "source": "pin",
-      "at": "2026-11-10T10:42:13.2283092Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:apple.icloud",
@@ -845,13 +824,13 @@
     },
     {
       "id": "w:beeper.beeper",
-      "version": "4.3.334",
-      "sha256": "1381e274525944390da9949a88d4e33bd588cef11e78bc315efcb882961e56be",
-      "size": 209238712,
+      "version": "4.3.340",
+      "sha256": "63afda9acfd1b4defbdb00eb6db58256ce5cd018267821a19bfa47e074cce23f",
+      "size": 209278336,
       "subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "thumbprint": "D61358C16BC79892D57C1FC4F34D884542248BB8",
+      "thumbprint": "02012E7B1DDA4CFF5B60DF695E8F4E0FC61601B9",
       "source": "pin",
-      "at": "2026-11-19T22:13:14.084533Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:belledonnecommunications.linphone",
@@ -1025,13 +1004,13 @@
     },
     {
       "id": "w:calibre.calibre",
-      "version": "9.18.0",
-      "sha256": "05c0f2223866f8082e05b2d4bc9c57b31a833de8355a1191fd79c260c2636d38",
-      "size": 291291136,
+      "version": "9.19.0",
+      "sha256": "241193d5045bdcbc3e7ec000c22ede0b5da1fd2e91e83fa0b17f0e1f67174480",
+      "size": 291713024,
       "subject": "CN=Kovid Goyal, O=Kovid Goyal, L=Mumbai, S=Maharashtra, C=IN",
       "thumbprint": "980637D5ACC6319BEAE773CAC5291EDC3E84DC8E",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:canva.canva",
@@ -2115,13 +2094,13 @@
     },
     {
       "id": "w:gnupg.gpg4win",
-      "version": "5.1.1",
-      "sha256": "ed19c0c89ec42fe32c52a7abd6e3da5f491752700546b9eed7ddf82fd303cddf",
-      "size": 44831736,
+      "version": "5.1.2",
+      "sha256": "6bd36865f951c299e559ecb891f22e19b6fa0f4dfedc596f73d259f8365408eb",
+      "size": 44836536,
       "subject": "E=code@g10code.com, CN=g10 Code GmbH, O=g10 Code GmbH, L=Erkrath, S=Nordrhein-Westfalen, C=DE",
       "thumbprint": "83CC4E382E5E4AF554C66E429E8F66FFE499910D",
       "source": "pin",
-      "at": "2026-11-10T14:21:52.6730199Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:gog.galaxy",
@@ -2205,13 +2184,13 @@
     },
     {
       "id": "w:grammarly.grammarly",
-      "version": "1.2.310.2001",
-      "sha256": "b88cfc0981ba8e105dc2a99fa1f315b704cf1d0755958c460e11f2055d08ed9e",
-      "size": 85417096,
+      "version": "1.2.314.2010",
+      "sha256": "50fa8312f342145b0209ddd9e1f192ea4246c323309f85c0c991448a0de82246",
+      "size": 89986256,
       "subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
       "thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
       "source": "pin",
-      "at": "2026-11-10T14:32:28.4341544Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:grammarly.grammarly.office",
@@ -2575,13 +2554,13 @@
     },
     {
       "id": "w:lengockhoa.laragon",
-      "version": "8.8.0",
-      "sha256": "e4490c1ef9d2d33088ddd9ee9f8707398b812de5910288b4fb85f52f79f2d8c4",
-      "size": 240498840,
+      "version": "8.9.0",
+      "sha256": "d1198a75fb4487039242508c54b96af7f0ef054a7cf202442154cd078253e555",
+      "size": 240591808,
       "subject": "CN=DEVYRA LABS LLC, O=DEVYRA LABS LLC, L=Sheridan, S=Wyoming, C=US",
       "thumbprint": "393A56C84CF00DBF2EA70AADE2873DE618A2A32C",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:lenovo.dockmanager",
@@ -3575,13 +3554,13 @@
     },
     {
       "id": "w:pinokiocomputer.pinokio",
-      "version": "8.3.1",
-      "sha256": "8202324e9edf7f550dec651c27dece299ff88b0ee654255f4a74d31d3f92f5f8",
-      "size": 146851960,
+      "version": "8.3.7",
+      "sha256": "387632356bf1851f267e8b41cbeb34b2b20110c383ca9b7460567d87ef8c4987",
+      "size": 155730736,
       "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
       "thumbprint": "0BB52F57C6B662F0651849858A6FCCC2C03ADA2D",
       "source": "pin",
-      "at": "2026-11-14T09:02:40.6390042Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:pinta.pinta",
@@ -4055,13 +4034,13 @@
     },
     {
       "id": "w:sibersystems.goodsync",
-      "version": "12.11.12.2",
-      "sha256": "d853127575f08026bce068b39ea9eb8d063e9a461e55157ac2e6b75a576ae6cf",
-      "size": 83409376,
+      "version": "12.11.14.4",
+      "sha256": "b087f8c462d624068bbad64387609e9b31f0106524f70a389cef900a8c9746f3",
+      "size": 83608384,
       "subject": "CN=Siber Systems, O=Siber Systems, S=Virginia, C=US",
       "thumbprint": "B745796BD3492350C170EFF5691813F3C2FC298E",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:sidequestvr.sidequest",
@@ -4215,13 +4194,13 @@
     },
     {
       "id": "w:tableplus.tableplus",
-      "version": "27.3.0",
-      "sha256": "4cfa924b3331cf6ac1140f8859a1162adc8da7907b24dcb6d4db33b2420f9384",
-      "size": 122203192,
+      "version": "27.4.1",
+      "sha256": "64c821450f2ef6da119abb2200742c49c67a5fcae9c2bd1516dffd1e8839140a",
+      "size": 124944128,
       "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=CA, OID.1.3.6.1.4.1.311.60.2.1.2=Nova Scotia, OID.2.5.4.15=Private Organization, CN=TablePlus Inc, SERIALNUMBER=3321629, O=TablePlus Inc, L=Toronto, S=Ontario, C=CA",
       "thumbprint": "346F0E3DF0458F9AD0EA4BB8511DD3DE43580CBE",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-21T09:54:50.0720291Z"
     },
     {
       "id": "w:tailscale.tailscale",
