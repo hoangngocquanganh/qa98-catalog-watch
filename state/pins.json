@@ -1,25 +1,21 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-21T09:54:50.0720291Z",
-  "catalog_revision": 272,
+  "updated_at": "2026-11-21T20:34:39.3887204Z",
+  "catalog_revision": 278,
   "last_run": {
-    "at": "2026-11-21T09:54:50.0720291Z",
-    "seconds": 19,
-    "checked": 62,
-    "downloads": 22,
-    "downloaded_mb": 1833,
-    "pinned": 10,
-    "skipped": 52,
+    "at": "2026-11-21T20:34:39.3887204Z",
+    "seconds": 5,
+    "checked": 15,
+    "downloads": 3,
+    "downloaded_mb": 159,
+    "pinned": 2,
+    "skipped": 13,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 31,
-      "authenticode NotSigned": 8,
-      "installer type … not supported by pinned route": 8,
-      "sha256 mismatch with manifest …": 2,
-      "download HTTP …": 1,
-      "winget manifest missing": 1,
-      "download larger than … MB": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 10,
+      "installer type … not supported by pinned route": 2,
+      "sha256 mismatch with manifest …": 1
     }
   },
   "entries": [
@@ -2054,11 +2050,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "bytedance.lark|8.6.18|neutral",
+      "key": "bytedance.lark|8.7.11|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "ByteDance.Lark",
-      "version": "8.6.18",
+      "version": "8.7.11",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -2068,7 +2064,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "exe"
     },
     {
@@ -6397,7 +6393,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "exe"
     },
     {
@@ -7215,11 +7211,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jandedobbeleer.ohmyposh|33.0.0|neutral",
+      "key": "jandedobbeleer.ohmyposh|33.1.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JanDeDobbeleer.OhMyPosh",
-      "version": "33.0.0",
+      "version": "33.1.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7229,7 +7225,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -8134,7 +8130,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "exe"
     },
     {
@@ -9163,7 +9159,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "exe"
     },
     {
@@ -9363,7 +9359,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -9695,7 +9691,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -9985,7 +9981,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -10963,7 +10959,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "exe"
     },
     {
@@ -11055,7 +11051,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-14T19:13:26.0855903Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "exe"
     },
     {
@@ -12416,11 +12412,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "nlitesoft.ntlite|2026.11.13094|neutral",
+      "key": "nlitesoft.ntlite|2026.11.13137|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Nlitesoft.NTLite",
-      "version": "2026.11.13094",
+      "version": "2026.11.13137",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12430,7 +12426,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -14304,11 +14300,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "prefix-dev.pixi|0.81.0|neutral",
+      "key": "prefix-dev.pixi|0.84.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "prefix-dev.pixi",
-      "version": "0.81.0",
+      "version": "0.84.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14318,7 +14314,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -15819,23 +15815,23 @@
       "silent_check": "exe"
     },
     {
-      "key": "sandboxie.classic|5.73.8|neutral",
+      "key": "sandboxie.classic|5.74.1|neutral",
       "status": "pinned",
       "id": "Sandboxie.Classic",
-      "version": "5.73.8",
+      "version": "5.74.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Classic-x64-v5.73.8.exe",
-      "sha256": "47b8dd6bc070d17c66e03a097df043214685208ea1c1522228e7ee009053fe5f",
-      "size": 3144024,
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.19.1/Sandboxie-Classic-x64-v5.74.1.exe",
+      "sha256": "4f97400854b7b984dedc5bd057b9f6886eb13a2cc29ed38b0094ebbe5483d57e",
+      "size": 3165320,
       "signer_subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -17429,23 +17425,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "texstudio.texstudio|4.9.8|neutral",
+      "key": "texstudio.texstudio|4.9.10|neutral",
       "status": "pinned",
       "id": "TeXstudio.TeXstudio",
-      "version": "4.9.8",
+      "version": "4.9.10",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/texstudio-org/texstudio/releases/download/4.9.8/texstudio-4.9.8-win-qt6-signed.exe",
-      "sha256": "243d64e65bbefff706c92b58fb1a56b6e024fbb1fb11dffc623e59c18b0ab397",
-      "size": 153249568,
+      "url": "https://github.com/texstudio-org/texstudio/releases/download/4.9.10/texstudio-4.9.10-win-qt6-signed.exe",
+      "sha256": "77aabe169b366b7eda73f98eafda9236d078a5f184c010f618a00ca5d3dd049e",
+      "size": 155221768,
       "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
       "signer_thumbprint": "B15B4CCA19CC15CBCA8013F69F39FA46FA444B4E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {
@@ -18794,11 +18790,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "wisecleaner.wisediskcleaner|12.0.0|neutral",
+      "key": "wisecleaner.wisediskcleaner|12.0.1|neutral",
       "status": "skipped",
-      "reason": "sha256 mismatch with manifest (manifest e31058789b350f54dbf004a93772fb470d41421cc8094815a98cfdbb1f709de4 got e218cd92d89f0323e6711f9f67d6896f3fc86e55e695f38f44b1e30f66a1222d)",
+      "reason": "sha256 mismatch with manifest (manifest cd317fa6f40eb91f6c6abdda878df25f3f35939f2b91e487d26ad1093c671977 got 84a36f245b6507d6f97b781f8d4e82f8130d8b9b115bae9f1aa002adfbead3d6)",
       "id": "WiseCleaner.WiseDiskCleaner",
-      "version": "12.0.0",
+      "version": "12.0.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -18808,7 +18804,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T09:54:50.0720291Z",
+      "checked_at": "2026-11-21T20:34:39.3887204Z",
       "silent_check": "ok"
     },
     {

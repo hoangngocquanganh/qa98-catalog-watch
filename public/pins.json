@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-21T09:54:50.0720291Z",
-  "catalog_revision": 272,
+  "generated_at": "2026-11-21T20:34:39.3887204Z",
+  "catalog_revision": 278,
   "count": 363,
   "pins": [
     {
@@ -4765,20 +4765,20 @@
     },
     {
       "id": "Sandboxie.Classic",
-      "version": "5.73.8",
+      "version": "5.74.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Classic-x64-v5.73.8.exe",
-      "sha256": "47b8dd6bc070d17c66e03a097df043214685208ea1c1522228e7ee009053fe5f",
-      "size": 3144024,
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.19.1/Sandboxie-Classic-x64-v5.74.1.exe",
+      "sha256": "4f97400854b7b984dedc5bd057b9f6886eb13a2cc29ed38b0094ebbe5483d57e",
+      "size": 3165320,
       "signer_subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-21T20:34:39.3887204Z"
     },
     {
       "id": "Sandboxie.Plus",
@@ -5319,20 +5319,20 @@
     },
     {
       "id": "TeXstudio.TeXstudio",
-      "version": "4.9.8",
+      "version": "4.9.10",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/texstudio-org/texstudio/releases/download/4.9.8/texstudio-4.9.8-win-qt6-signed.exe",
-      "sha256": "243d64e65bbefff706c92b58fb1a56b6e024fbb1fb11dffc623e59c18b0ab397",
-      "size": 153249568,
+      "url": "https://github.com/texstudio-org/texstudio/releases/download/4.9.10/texstudio-4.9.10-win-qt6-signed.exe",
+      "sha256": "77aabe169b366b7eda73f98eafda9236d078a5f184c010f618a00ca5d3dd049e",
+      "size": 155221768,
       "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
       "signer_thumbprint": "B15B4CCA19CC15CBCA8013F69F39FA46FA444B4E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z"
+      "checked_at": "2026-11-21T20:34:39.3887204Z"
     },
     {
       "id": "TGRMNSoftware.BulkRenameUtility",
