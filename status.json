@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-21T00:46:07.3370049Z",
+  "checked_at": "2026-11-21T07:46:34.9304012Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-21T00:46:07.3370049Z",
-  "catalog_revision": 269,
-  "total_keys": 1008,
+  "last_probe_at": "2026-11-21T07:46:34.9304012Z",
+  "catalog_revision": 271,
+  "total_keys": 1009,
   "hidden": 12,
-  "cycle_position": 346,
+  "cycle_position": 413,
   "error": "",
   "pages": {
-    "catalog_revision": 269,
+    "catalog_revision": 271,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-21T00:46:07.3370049Z",
-    "seconds": 336,
+    "at": "2026-11-21T07:46:34.9304012Z",
+    "seconds": 94,
     "probed": 100,
-    "ok": 85,
-    "hashed": 54,
-    "transient": 1,
+    "ok": 87,
+    "hashed": 52,
+    "transient": 0,
     "broken": 9,
-    "hash_mismatch": 5,
+    "hash_mismatch": 4,
     "skipped": 0,
     "wide_outage": false
   },
@@ -210,13 +210,6 @@
       "slug": "autodesk-fusion",
       "winget_id": "Autodesk.Fusion",
       "version": "2706.1.17",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "autohotkey-autohotkey",
-      "winget_id": "AutoHotkey.AutoHotkey",
-      "version": "2.0.31",
       "installer_type": "exe",
       "silent_switch": true
     },
