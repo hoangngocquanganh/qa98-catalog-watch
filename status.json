@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-20T18:52:42.8828692Z",
+  "checked_at": "2026-11-21T00:46:07.3370049Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-20T18:52:42.8828692Z",
-  "catalog_revision": 266,
+  "last_probe_at": "2026-11-21T00:46:07.3370049Z",
+  "catalog_revision": 269,
   "total_keys": 1008,
   "hidden": 12,
-  "cycle_position": 277,
+  "cycle_position": 346,
   "error": "",
   "pages": {
-    "catalog_revision": 266,
+    "catalog_revision": 269,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-20T18:52:42.8828692Z",
-    "seconds": 36,
+    "at": "2026-11-21T00:46:07.3370049Z",
+    "seconds": 336,
     "probed": 100,
-    "ok": 87,
-    "hashed": 62,
+    "ok": 85,
+    "hashed": 54,
     "transient": 1,
     "broken": 9,
-    "hash_mismatch": 3,
+    "hash_mismatch": 5,
     "skipped": 0,
     "wide_outage": false
   },
@@ -907,6 +907,13 @@
       "silent_switch": true
     },
     {
+      "slug": "postman-postman",
+      "winget_id": "Postman.Postman",
+      "version": "12.37.4",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "privateinternetaccess-privateinternetaccess",
       "winget_id": "PrivateInternetAccess.PrivateInternetAccess",
       "version": "3.6.1+08339",
@@ -987,6 +994,13 @@
       "slug": "seagate-seatools",
       "winget_id": "Seagate.SeaTools",
       "version": "5.3.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "smartbear-soapui",
+      "winget_id": "SmartBear.SoapUI",
+      "version": "5.10.1",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1089,6 +1103,13 @@
       "silent_switch": true
     },
     {
+      "slug": "vivaldi",
+      "winget_id": "Vivaldi.Vivaldi",
+      "version": "8.3.4191.47",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "waterfox-waterfox",
       "winget_id": "Waterfox.Waterfox",
       "version": "6.7.8",
@@ -1133,7 +1154,7 @@
     {
       "slug": "yandex-browser",
       "winget_id": "Yandex.Browser",
-      "version": "26.11.0.2027",
+      "version": "26.11.1.1124",
       "installer_type": "exe",
       "silent_switch": true
     }

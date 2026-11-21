@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T18:52:42.8828692Z",
-  "catalog_revision": 266,
+  "generated_at": "2026-11-21T00:46:07.3370049Z",
+  "catalog_revision": 269,
   "hidden": [
     {
       "winget_id": "Ablaze.Floorp",

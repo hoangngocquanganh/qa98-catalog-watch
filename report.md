@@ -1,9 +1,9 @@
 # Báo cáo dò link bộ cài QA98
 
-- Lượt chạy: 2026-11-20 18:52 UTC — catalog revision 266, 1008 khoá (gói × phiên bản) cần dò.
-- Đã dò lượt này: **100** — đạt 87 (tải cả file kiểm SHA-256: 62), lỗi tạm 1, link chết 9, sai file 3, bỏ qua (file quá giới hạn tải thử) 0.
+- Lượt chạy: 2026-11-21 00:46 UTC — catalog revision 269, 1008 khoá (gói × phiên bản) cần dò.
+- Đã dò lượt này: **100** — đạt 85 (tải cả file kiểm SHA-256: 54), lỗi tạm 1, link chết 9, sai file 5, bỏ qua (file quá giới hạn tải thử) 0.
 - Đang tạm ẩn: **12** (mới ẩn lượt này 0, vừa hiện lại 0).
-- Đề xuất (proposals.json, dữ liệu chưa tin cậy): healthy 87, needs_review 12, transient 1.
+- Đề xuất (proposals.json, dữ liệu chưa tin cậy): healthy 85, needs_review 14, transient 1.
 
 Ngưỡng: link chết / sai file ẩn sau 3 lượt lỗi, mỗi lượt cách lượt trước ≥ 6 giờ; lỗi tạm (timeout, 429, 5xx) không bao giờ ẩn; đang ẩn cần 2 lượt đạt (có kiểm SHA-256) mới hiện lại.
 
@@ -46,9 +46,14 @@ Không có.
 | TechPowerUp.ThrottleStop | 9.7 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/TechPowerUp/ThrottleStop/9.7/TechPowerUp.ThrottleStop.installer.yaml winget manifest exists but installer does not serve the expected file |
 | VSDC.Editor | 11.3.3.761 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/v/VSDC/Editor/11.3.3.761/VSDC.Editor.installer.yaml winget manifest exists but installer does not serve the expected file |
 | Warp.Warp | latest | needs_review | — | — | — | approved version missing from winget-pkgs, no newer version |
+| Google.Chrome.Dev | 160.0.8157.0 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/Dev/160.0.8157.0/Google.Chrome.Dev.installer.yaml winget manifest exists but installer does not serve the expected file |
+| Google.PlatformTools | 37.0.3 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/PlatformTools/37.0.3/Google.PlatformTools.installer.yaml winget manifest exists but installer does not serve the expected file |
 
 same_artifact = cùng SHA-256 đã tải kiểm, chỉ đổi URL; new_artifact = bản mới hơn trong winget-pkgs (chưa tải, phải kiểm file + chữ ký trên máy quản trị trước khi ký catalog); retire_candidate = cả thư mục gói mất khỏi winget-pkgs.
 
 ## Đang lỗi, chưa đủ ngưỡng ẩn
 
-Không có.
+| Gói | Bản | Lý do | Từ lúc | Số lần lỗi | Ghi chú | Link đã thử |
+|---|---|---|---|---|---|---|
+| Google.Chrome.Dev | 160.0.8157.0 | sha256 mismatch | 2026-11-21 00:46 UTC | 1 | https://dl.google.com/dl/chrome/install/dev/googlechromedevstandaloneenterprise64.msi expected 92d1d3fc8821c9a3bc5806d1a94a153366c8983b08224061ebb14fb22039fb69 got 5cd7f303b71a2055768e475ad90655fe097d72f91b88da20501810114c0f669e | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/Chrome/Dev/160.0.8157.0/Google.Chrome.Dev.installer.yaml<br>https://dl.google.com/dl/chrome/install/dev/googlechromedevstandaloneenterprise.msi<br>https://dl.google.com/dl/chrome/install/dev/googlechromedevstandaloneenterprise64.msi |
+| Google.PlatformTools | 37.0.3 | sha256 mismatch | 2026-11-21 00:46 UTC | 1 | https://dl.google.com/android/repository/platform-tools_r37.0.3-win.zip expected b5d2015f5d5b7a24a2ac646a245f20f63fb501e4174c61863c74bed1df6de4bd got 89d108360a3bf2924d3bea837239edaccc22fd6ff5befd3787c4348a9fe4f09d | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Google/PlatformTools/37.0.3/Google.PlatformTools.installer.yaml<br>https://dl.google.com/android/repository/platform-tools_r37.0.3-win.zip |
