@@ -1,21 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-22T09:52:13.2225408Z",
-  "catalog_revision": 283,
+  "updated_at": "2026-11-22T20:45:44.9165188Z",
+  "catalog_revision": 289,
   "last_run": {
-    "at": "2026-11-22T09:52:13.2225408Z",
-    "seconds": 11,
-    "checked": 16,
-    "downloads": 7,
-    "downloaded_mb": 265,
-    "pinned": 4,
-    "skipped": 12,
+    "at": "2026-11-22T20:45:44.9165188Z",
+    "seconds": 0,
+    "checked": 2,
+    "downloads": 0,
+    "downloaded_mb": 0,
+    "pinned": 0,
+    "skipped": 2,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 9,
-      "authenticode NotSigned": 2,
-      "download larger than … MB": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 1,
+      "installer type … not supported by pinned route": 1
     }
   },
   "entries": [
@@ -13829,7 +13828,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-15T19:50:12.6415113Z",
+      "checked_at": "2026-11-22T20:45:44.9165188Z",
       "silent_check": "exe"
     },
     {
@@ -19329,11 +19328,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "zedindustries.zed|1.29.2|neutral",
+      "key": "zedindustries.zed|1.29.3|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "ZedIndustries.Zed",
-      "version": "1.29.2",
+      "version": "1.29.3",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -19343,7 +19342,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T10:27:50.0698934Z",
+      "checked_at": "2026-11-22T20:45:44.9165188Z",
       "silent_check": "ok"
     },
     {
