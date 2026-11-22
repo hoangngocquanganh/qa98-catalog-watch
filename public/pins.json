@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-21T20:34:39.3887204Z",
-  "catalog_revision": 278,
+  "generated_at": "2026-11-22T09:52:13.2225408Z",
+  "catalog_revision": 283,
   "count": 363,
   "pins": [
     {
@@ -534,19 +534,19 @@
     },
     {
       "id": "Betterbird.Betterbird",
-      "version": "153.7.0",
+      "version": "153.8.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.7.0esr-bb13.en-US.win64.installer.exe",
-      "sha256": "cfe0cc21e06627611670a103635510f7386ec078d5ccee3b78e2f09977190a7c",
-      "size": 85999872,
+      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.8.0esr-bb14.en-US.win64.installer.exe",
+      "sha256": "8371cbe104110566eac63f64d5a737839fabdbf0960cdcf0fb982b1180ef6a7f",
+      "size": 86039176,
       "signer_subject": "CN=\"Open Source Developer, Jorg Knobloch\", O=Open Source Developer, L=Berlin, S=Berlin, C=DE",
       "signer_thumbprint": "C39501225A337C86F91E3BA7911ACB06FF48ACF3",
       "allowed_hosts": [
         "www.betterbird.eu"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-22T09:52:13.2225408Z"
     },
     {
       "id": "Bin-Huang.Chatbox",
@@ -1805,19 +1805,19 @@
     },
     {
       "id": "GlavSoft.TightVNC",
-      "version": "2.8.89",
+      "version": "2.8.90",
       "arch": "x64",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://www.tightvnc.com/download/2.8.89/tightvnc-2.8.89-gpl-setup-64bit.msi",
-      "sha256": "dff8d7e40a81e0b86ba1d9d5cc0d4f22d08354c50c9cbdc0825bbb6ccfb1073c",
+      "url": "https://www.tightvnc.com/download/2.8.90/tightvnc-2.8.90-gpl-setup-64bit.msi",
+      "sha256": "9693cb4cdc2e7e482e8e3f5890415b57ef87de3369fa5c337db516218a1170ce",
       "size": 2543616,
       "signer_subject": "E=info@glavsoft.com, CN=OOO GlavSoft, O=OOO GlavSoft, L=Tomsk, S=Tomsk Oblast, C=RU",
       "signer_thumbprint": "90513AC184484A36A6461CB7B834B68761761006",
       "allowed_hosts": [
         "www.tightvnc.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z"
+      "checked_at": "2026-11-22T09:52:13.2225408Z"
     },
     {
       "id": "glzr-io.glazewm",
@@ -4782,20 +4782,20 @@
     },
     {
       "id": "Sandboxie.Plus",
-      "version": "1.18.8",
+      "version": "1.19.1",
       "arch": "x64",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Plus-x64-v1.18.8.exe",
-      "sha256": "f27078ff74a07906fd51476079e1a7a8f5e20c8bb75a9d2ae86169d47179ae76",
-      "size": 24930680,
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.19.1/Sandboxie-Plus-x64-v1.19.1.exe",
+      "sha256": "443b528766f4e6448632fd94afa7df5d9e1c52e13940db79139d4070da3aa384",
+      "size": 25500688,
       "signer_subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z"
+      "checked_at": "2026-11-22T09:52:13.2225408Z"
     },
     {
       "id": "Scilab.Scilab",
@@ -5862,20 +5862,20 @@
     },
     {
       "id": "Yubico.Authenticator",
-      "version": "7.4.2",
+      "version": "7.5.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.4.2/yubico-authenticator-7.4.2-win64.msi",
-      "sha256": "9f252a0f2ef06c11a580bb95952ec4ebdc6f1e4d533341aee920f790f5c327f4",
-      "size": 61698048,
+      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.5.0/yubico-authenticator-7.5.0-win-x64.msi",
+      "sha256": "2a90a6ba3ce651baf58ffb9ca5a4e404b48daef1e0600089ae733dc58328d401",
+      "size": 21700608,
       "signer_subject": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
       "signer_thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z"
+      "checked_at": "2026-11-22T09:52:13.2225408Z"
     },
     {
       "id": "Yubico.YubikeyManager",

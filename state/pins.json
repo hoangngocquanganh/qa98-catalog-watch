@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-21T20:34:39.3887204Z",
-  "catalog_revision": 278,
+  "updated_at": "2026-11-22T09:52:13.2225408Z",
+  "catalog_revision": 283,
   "last_run": {
-    "at": "2026-11-21T20:34:39.3887204Z",
-    "seconds": 5,
-    "checked": 15,
-    "downloads": 3,
-    "downloaded_mb": 159,
-    "pinned": 2,
-    "skipped": 13,
+    "at": "2026-11-22T09:52:13.2225408Z",
+    "seconds": 11,
+    "checked": 16,
+    "downloads": 7,
+    "downloaded_mb": 265,
+    "pinned": 4,
+    "skipped": 12,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 10,
-      "installer type … not supported by pinned route": 2,
-      "sha256 mismatch with manifest …": 1
+      "neutral version but installer differs by arch …; split versions per arch to pin": 9,
+      "authenticode NotSigned": 2,
+      "download larger than … MB": 1
     }
   },
   "entries": [
@@ -787,11 +787,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "anthropic.claude|6.28899.2|neutral",
+      "key": "anthropic.claude|6.28899.6|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Anthropic.Claude",
-      "version": "6.28899.2",
+      "version": "6.28899.6",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -801,7 +801,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T09:54:50.0720291Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -1685,22 +1685,22 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "betterbird.betterbird|153.7.0|neutral",
+      "key": "betterbird.betterbird|153.8.0|neutral",
       "status": "pinned",
       "id": "Betterbird.Betterbird",
-      "version": "153.7.0",
+      "version": "153.8.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.7.0esr-bb13.en-US.win64.installer.exe",
-      "sha256": "cfe0cc21e06627611670a103635510f7386ec078d5ccee3b78e2f09977190a7c",
-      "size": 85999872,
+      "url": "https://www.betterbird.eu/downloads/WindowsInstaller/betterbird-153.8.0esr-bb14.en-US.win64.installer.exe",
+      "sha256": "8371cbe104110566eac63f64d5a737839fabdbf0960cdcf0fb982b1180ef6a7f",
+      "size": 86039176,
       "signer_subject": "CN=\"Open Source Developer, Jorg Knobloch\", O=Open Source Developer, L=Berlin, S=Berlin, C=DE",
       "signer_thumbprint": "C39501225A337C86F91E3BA7911ACB06FF48ACF3",
       "allowed_hosts": [
         "www.betterbird.eu"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -2630,7 +2630,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-15T09:32:42.1136043Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "exe"
     },
     {
@@ -3719,11 +3719,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "docker.dockerdesktop|4.99.0|neutral",
+      "key": "docker.dockerdesktop|4.100.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Docker.DockerDesktop",
-      "version": "4.99.0",
+      "version": "4.100.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3733,7 +3733,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "exe"
     },
     {
@@ -5657,11 +5657,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "glavsoft.tightvnc|2.8.89|neutral",
+      "key": "glavsoft.tightvnc|2.8.90|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "GlavSoft.TightVNC",
-      "version": "2.8.89",
+      "version": "2.8.90",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5671,26 +5671,26 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
-      "key": "glavsoft.tightvnc|2.8.89|x64",
+      "key": "glavsoft.tightvnc|2.8.90|x64",
       "status": "pinned",
       "id": "GlavSoft.TightVNC",
-      "version": "2.8.89",
+      "version": "2.8.90",
       "arch": "x64",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://www.tightvnc.com/download/2.8.89/tightvnc-2.8.89-gpl-setup-64bit.msi",
-      "sha256": "dff8d7e40a81e0b86ba1d9d5cc0d4f22d08354c50c9cbdc0825bbb6ccfb1073c",
+      "url": "https://www.tightvnc.com/download/2.8.90/tightvnc-2.8.90-gpl-setup-64bit.msi",
+      "sha256": "9693cb4cdc2e7e482e8e3f5890415b57ef87de3369fa5c337db516218a1170ce",
       "size": 2543616,
       "signer_subject": "E=info@glavsoft.com, CN=OOO GlavSoft, O=OOO GlavSoft, L=Tomsk, S=Tomsk Oblast, C=RU",
       "signer_thumbprint": "90513AC184484A36A6461CB7B834B68761761006",
       "allowed_hosts": [
         "www.tightvnc.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -5897,11 +5897,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "google.androidstudio|2026.2.2.9|neutral",
+      "key": "google.androidstudio|2026.2.2.10|neutral",
       "status": "skipped",
       "reason": "download larger than 1024 MB",
       "id": "Google.AndroidStudio",
-      "version": "2026.2.2.9",
+      "version": "2026.2.2.10",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5911,7 +5911,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-16T23:26:21.8587136Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -7211,11 +7211,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "jandedobbeleer.ohmyposh|33.1.0|neutral",
+      "key": "jandedobbeleer.ohmyposh|33.2.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JanDeDobbeleer.OhMyPosh",
-      "version": "33.1.0",
+      "version": "33.2.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7225,7 +7225,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T20:34:39.3887204Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -10039,11 +10039,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "microsoft.onedrive|26.183.0920.0005|neutral",
+      "key": "microsoft.onedrive|26.195.1006.0007|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Microsoft.OneDrive",
-      "version": "26.183.0920.0005",
+      "version": "26.195.1006.0007",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -10053,7 +10053,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "exe"
     },
     {
@@ -12268,11 +12268,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "nikkho.fileoptimizer|17.1.0.0|neutral",
+      "key": "nikkho.fileoptimizer|18.1.0.0|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "Nikkho.FileOptimizer",
-      "version": "17.1.0.0",
+      "version": "18.1.0.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -12282,7 +12282,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -15835,11 +15835,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "sandboxie.plus|1.18.8|neutral",
+      "key": "sandboxie.plus|1.19.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Sandboxie.Plus",
-      "version": "1.18.8",
+      "version": "1.19.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -15849,27 +15849,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
-      "key": "sandboxie.plus|1.18.8|x64",
+      "key": "sandboxie.plus|1.19.1|x64",
       "status": "pinned",
       "id": "Sandboxie.Plus",
-      "version": "1.18.8",
+      "version": "1.19.1",
       "arch": "x64",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.18.8/Sandboxie-Plus-x64-v1.18.8.exe",
-      "sha256": "f27078ff74a07906fd51476079e1a7a8f5e20c8bb75a9d2ae86169d47179ae76",
-      "size": 24930680,
+      "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.19.1/Sandboxie-Plus-x64-v1.19.1.exe",
+      "sha256": "443b528766f4e6448632fd94afa7df5d9e1c52e13940db79139d4070da3aa384",
+      "size": 25500688,
       "signer_subject": "CN=NOVASYNC LABS PTE. LTD., O=NOVASYNC LABS PTE. LTD., STREET=\"10 Selegie Road, #01-45, Selegie House\", L=SINGAPORE, S=SINGAPORE, C=SG, OID.1.3.6.1.4.1.311.60.2.1.3=SG, SERIALNUMBER=202406244E, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "16FB9B0FB8CDDB8D2CCF1F4B4ABEEA6FE793C88E",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -16319,11 +16319,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "softfever.orcaslicer|2.5.1|neutral",
+      "key": "softfever.orcaslicer|2.5.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "SoftFever.OrcaSlicer",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -16333,7 +16333,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-20T10:06:56.3603107Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -17773,11 +17773,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "transmission.transmission|4.1.3|neutral",
+      "key": "transmission.transmission|4.1.4|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Transmission.Transmission",
-      "version": "4.1.3",
+      "version": "4.1.4",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -17787,7 +17787,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -18993,7 +18993,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-15T09:32:42.1136043Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
@@ -19272,23 +19272,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "yubico.authenticator|7.4.2|neutral",
+      "key": "yubico.authenticator|7.5.0|neutral",
       "status": "pinned",
       "id": "Yubico.Authenticator",
-      "version": "7.4.2",
+      "version": "7.5.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.4.2/yubico-authenticator-7.4.2-win64.msi",
-      "sha256": "9f252a0f2ef06c11a580bb95952ec4ebdc6f1e4d533341aee920f790f5c327f4",
-      "size": 61698048,
+      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.5.0/yubico-authenticator-7.5.0-win-x64.msi",
+      "sha256": "2a90a6ba3ce651baf58ffb9ca5a4e404b48daef1e0600089ae733dc58328d401",
+      "size": 21700608,
       "signer_subject": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
       "signer_thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z",
+      "checked_at": "2026-11-22T09:52:13.2225408Z",
       "silent_check": "ok"
     },
     {
