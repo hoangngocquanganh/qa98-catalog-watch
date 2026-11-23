@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T16:42:23.4471478Z",
-  "catalog_revision": 289,
+  "generated_at": "2026-11-23T02:54:30.2189694Z",
+  "catalog_revision": 290,
   "hidden": [
     {
       "winget_id": "Ablaze.Floorp",
@@ -9,7 +9,7 @@
       "version": "latest",
       "reason": "winget manifest missing",
       "since": "2026-11-14T10:59:37.690715Z",
-      "fails": 23,
+      "fails": 24,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Ablaze/Floorp/latest/Ablaze.Floorp.installer.yaml"
     },
     {
@@ -18,7 +18,7 @@
       "version": "latest",
       "reason": "winget manifest missing",
       "since": "2026-11-14T10:59:37.690715Z",
-      "fails": 23,
+      "fails": 24,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/a/Anaconda/Miniconda3/latest/Anaconda.Miniconda3.installer.yaml"
     },
     {
@@ -27,7 +27,7 @@
       "version": "2.2.0",
       "reason": "url is not https",
       "since": "2026-11-10T11:35:40.4958045Z",
-      "fails": 33,
+      "fails": 34,
       "note": "http://download.deluge-torrent.org/windows/deluge-2.2.0-win32-setup.exe"
     },
     {
@@ -36,7 +36,7 @@
       "version": "latest",
       "reason": "winget manifest missing",
       "since": "2026-11-10T23:47:11.4997693Z",
-      "fails": 32,
+      "fails": 33,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/i/IridiumIO/CompactGUI/latest/IridiumIO.CompactGUI.installer.yaml"
     },
     {
@@ -45,7 +45,7 @@
       "version": "16.0.20228.20124",
       "reason": "sha256 mismatch",
       "since": "2026-11-11T18:46:14.3083732Z",
-      "fails": 30,
+      "fails": 31,
       "note": "https://officecdn.microsoft.com/pr/wsus/setup.exe expected f266bc16834fbfae5aa7aca7c27ed5f393cac0bb2acebc2d5bb2dd7813cf7497 got daea2a1c2beef16e88dded58916b9c4d816ff247e76ee5ebb41c3810fee16be1"
     },
     {
@@ -54,7 +54,7 @@
       "version": "1.8.9",
       "reason": "HTTP 404",
       "since": "2026-11-17T08:34:26.545491Z",
-      "fails": 14,
+      "fails": 15,
       "note": "https://pearai-app.nyc3.digitaloceanspaces.com/PearAI-latest/windows-x64/PearAISetup.exe"
     },
     {
@@ -63,7 +63,7 @@
       "version": "1.22.0.737",
       "reason": "HTTP 403 (repeated)",
       "since": "2026-11-12T22:41:19.3102232Z",
-      "fails": 27,
+      "fails": 28,
       "note": "https://dl.razerzone.com/drivers/Synapse3/win/RazerSynapseInstaller_V1.22.0.737.exe"
     },
     {
@@ -72,7 +72,7 @@
       "version": "1.19.0",
       "reason": "redirect to non-https",
       "since": "2026-11-13T18:16:16.8621763Z",
-      "fails": 25,
+      "fails": 26,
       "note": "https://closest-dl.techpowerup.com/files/NVCleanstall_1.19.0.exe"
     },
     {
@@ -81,7 +81,7 @@
       "version": "9.7",
       "reason": "HTTP 404",
       "since": "2026-11-13T18:16:16.8621763Z",
-      "fails": 25,
+      "fails": 26,
       "note": "https://uk2-dl.techpowerup.com/files/ThrottleStop_9.7.zip"
     },
     {
@@ -90,7 +90,7 @@
       "version": "11.3.3.761",
       "reason": "sha256 mismatch",
       "since": "2026-11-19T04:16:02.2466167Z",
-      "fails": 10,
+      "fails": 11,
       "note": "https://downloads.videosoftdev.com/video_tools/video_editor_x64.exe expected 55068a2fe08b99575770430662cf9cce9155e47dc8f90ba8d56554c264cfb292 got 21d2b450d1c4f74e677a73682b8f73b03ba7066f3f5abfc6ef611b0c779140fd"
     },
     {
@@ -99,7 +99,7 @@
       "version": "latest",
       "reason": "winget manifest missing",
       "since": "2026-11-14T03:39:05.9579368Z",
-      "fails": 24,
+      "fails": 25,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/Warp/Warp/latest/Warp.Warp.installer.yaml"
     }
   ]

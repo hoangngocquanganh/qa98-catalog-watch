@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-22T22:10:11.7008986Z",
+  "checked_at": "2026-11-23T02:54:30.2189694Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,12 +11,12 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": false,
-  "last_probe_at": "2026-11-22T16:42:23.4471478Z",
+  "ran_probe": true,
+  "last_probe_at": "2026-11-23T02:54:30.2189694Z",
   "catalog_revision": 290,
-  "total_keys": 0,
-  "hidden": 0,
-  "cycle_position": 0,
+  "total_keys": 1009,
+  "hidden": 11,
+  "cycle_position": 774,
   "error": "",
   "pages": {
     "catalog_revision": 290,
@@ -26,15 +26,15 @@
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-22T16:42:23.4471478Z",
-    "seconds": 80,
-    "probed": 99,
-    "ok": 87,
-    "hashed": 58,
+    "at": "2026-11-23T02:54:30.2189694Z",
+    "seconds": 65,
+    "probed": 100,
+    "ok": 88,
+    "hashed": 57,
     "transient": 0,
-    "broken": 10,
-    "hash_mismatch": 2,
-    "skipped": 1,
+    "broken": 9,
+    "hash_mismatch": 3,
+    "skipped": 0,
     "wide_outage": false
   },
   "silent_missing": [
