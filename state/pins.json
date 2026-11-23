@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-22T20:45:44.9165188Z",
-  "catalog_revision": 289,
+  "updated_at": "2026-11-23T10:51:51.5995551Z",
+  "catalog_revision": 290,
   "last_run": {
-    "at": "2026-11-22T20:45:44.9165188Z",
-    "seconds": 0,
+    "at": "2026-11-23T10:51:51.5995551Z",
+    "seconds": 4,
     "checked": 2,
-    "downloads": 0,
-    "downloaded_mb": 0,
+    "downloads": 1,
+    "downloaded_mb": 22,
     "pinned": 0,
     "skipped": 2,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 1,
-      "installer type … not supported by pinned route": 1
+      "authenticode NotSigned": 1,
+      "neutral version but installer differs by arch …; split versions per arch to pin": 1
     }
   },
   "entries": [
@@ -4933,7 +4933,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-16T09:51:25.1241658Z",
+      "checked_at": "2026-11-23T10:51:51.5995551Z",
       "silent_check": "ok"
     },
     {
@@ -9231,7 +9231,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-16T09:51:25.1241658Z",
+      "checked_at": "2026-11-23T10:51:51.5995551Z",
       "silent_check": "ok"
     },
     {
