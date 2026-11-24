@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-23T10:51:51.5995551Z",
-  "catalog_revision": 290,
-  "count": 363,
+  "generated_at": "2026-11-24T01:42:49.9208734Z",
+  "catalog_revision": 296,
+  "count": 364,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -108,19 +108,19 @@
     },
     {
       "id": "Amazon.AWSCLI",
-      "version": "2.42.1",
+      "version": "2.42.2",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.42.1.msi",
-      "sha256": "9cba09928c5f696bd6d70f9a79aaca67fd73879a1a04e047b01dce0bae596f83",
-      "size": 51654656,
+      "url": "https://awscli.amazonaws.com/AWSCLIV2-2.42.2.msi",
+      "sha256": "86fc85976eb10152b76ca716f7a93c950bdec3ee8af9d000c24ebad33d0e14bf",
+      "size": 51675136,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "allowed_hosts": [
         "awscli.amazonaws.com"
       ],
-      "checked_at": "2026-11-21T09:54:50.0720291Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Amazon.Corretto.17.JDK",
@@ -614,22 +614,6 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "id": "ByteDance.DoubaoInputMethod",
-      "version": "1.0.0.23",
-      "arch": "neutral",
-      "installer_type": "inno",
-      "installer_arch": "x64",
-      "url": "https://lf-wave.doubaocdn.com/obj/doubao-ime/app/windows/DoubaoIME_Installer_1.0.0.23_release.exe",
-      "sha256": "16cc266ca5818af98c3c8320478aa9e188ff93e36b5beefbbfa88405586c7e72",
-      "size": 317547744,
-      "signer_subject": "CN=北京春田知韵科技有限公司, O=北京春田知韵科技有限公司, S=北京市, C=CN, SERIALNUMBER=91110102MACQD9K640, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=西城区, OID.1.3.6.1.4.1.311.60.2.1.2=北京市, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
-      "signer_thumbprint": "5D37C15025DAF2656F152207714B7FA36753540A",
-      "allowed_hosts": [
-        "lf-wave.doubaocdn.com"
-      ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
-    },
-    {
       "id": "ByteDance.Trae",
       "version": "3.6.20",
       "arch": "neutral",
@@ -711,20 +695,20 @@
     },
     {
       "id": "chrisant996.Clink",
-      "version": "1.9.36",
+      "version": "1.9.37",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://github.com/chrisant996/clink/releases/download/v1.9.36/clink.1.9.36.af9152_setup.exe",
-      "sha256": "4c0da99518b9d0ca22da03d65c6c2f2ba09849bb85a5967fa1ddb9595acc1e71",
-      "size": 2868952,
+      "url": "https://github.com/chrisant996/clink/releases/download/v1.9.37/clink.1.9.37.7ac257_setup.exe",
+      "sha256": "fc98637f7aed51d152dd08f0d0edb8de63e5cd6ebccdb4a469924f98cd979f1e",
+      "size": 2869728,
       "signer_subject": "CN=Open Source Developer Christopher Antos, O=Open Source Developer, L=Issaquah, S=Washington, C=US",
       "signer_thumbprint": "8E430A0E72FD673912C99F22DDA9FBD3A3D4BBA4",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T10:47:18.4487002Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Clockify.Clockify",
@@ -777,19 +761,19 @@
     },
     {
       "id": "Comfy.ComfyUI-Desktop",
-      "version": "1.1.10",
+      "version": "1.2.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.todesktop.com/241130tqe9q3y/Comfy%20Desktop%20Setup%201.1.10%20-%20Build%20261118efu5bs6tj-x64.exe",
-      "sha256": "c7ff452a49e4dd2e4eb74fd170cbcd7bd43e2a8f76b09b6c5aa44ea670c0ce96",
-      "size": 180965632,
+      "url": "https://download.todesktop.com/241130tqe9q3y/Comfy%20Desktop%20Setup%201.2.1%20-%20Build%20261121uldis3ube-x64.exe",
+      "sha256": "2e54420af0c094040c902206e4ac66525736191ae3cebeab10045da3a6d2da43",
+      "size": 220792736,
       "signer_subject": "CN=Drip Artificial Inc, O=Drip Artificial Inc, L=San Francisco, S=California, C=US, SERIALNUMBER=7174150, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "1D402FC088C188225E418022A10EF440671A3728",
       "allowed_hosts": [
         "download.todesktop.com"
       ],
-      "checked_at": "2026-11-19T10:27:50.0698934Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Corel.WinZip",
@@ -1887,7 +1871,7 @@
     },
     {
       "id": "Google.CloudSDK",
-      "version": "594.0.0",
+      "version": "594.0.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
@@ -1899,7 +1883,7 @@
       "allowed_hosts": [
         "dl.google.com"
       ],
-      "checked_at": "2026-11-18T10:16:40.654227Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Google.JapaneseIME",
@@ -2231,19 +2215,19 @@
     },
     {
       "id": "IObit.DriverBooster",
-      "version": "14.1.0.557",
+      "version": "14.1.0.572",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
       "url": "https://cdn.iobit.com/dl/driver_booster_setup.exe",
-      "sha256": "6a979ee043cc6be0a6b117b9a640fb1b8249e2ab5d13c2b362ea20b8a56ccd22",
-      "size": 34485304,
+      "sha256": "1e467ecfdc585c746a322aae5600eabca76cd1b1b87c2f546c98c01293f1b5e4",
+      "size": 34484704,
       "signer_subject": "CN=\"lObit Co., Ltd\", O=\"lObit Co., Ltd\", L=成都市, S=四川省, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=Chengdu, OID.1.3.6.1.4.1.311.60.2.1.2=Sichuan, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91510107MABRWXYJ8B, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "0E658F343DDDF4EA2A3B87C58745FF61D596B89E",
       "allowed_hosts": [
         "cdn.iobit.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "IObit.MalwareFighter",
@@ -2985,19 +2969,19 @@
     },
     {
       "id": "Microsoft.PowerBI",
-      "version": "2.159.1231.0",
+      "version": "2.160.1151.0",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "x64",
-      "url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-10_x64.exe",
-      "sha256": "55e8ee44aa908d75edaed4bdb1a34863f41c047951f3724f298486fe07049f2d",
-      "size": 702986400,
+      "url": "https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2026-11_x64.exe",
+      "sha256": "89ace9881d43a350e205c93da9681a8211a521b2ccd63211e1baf6020efdcb85",
+      "size": 720229728,
       "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
       "allowed_hosts": [
         "download.microsoft.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Microsoft.SQLServerManagementStudio",
@@ -3621,19 +3605,19 @@
     },
     {
       "id": "NGWIN.PicPick",
-      "version": "7.6.2",
+      "version": "7.7.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://download.picpick.net/7.6.2/picpick_inst.exe",
-      "sha256": "1ca8ee0aadc84b849b21030ada2077932945fece1490d82e420f6613b5e83739",
-      "size": 68951880,
+      "url": "https://download.picpick.net/7.7.0/picpick_inst.exe",
+      "sha256": "d79b3480a87c07d4003a33fbf799b6086fd7fe9043ffa2f69f1b818facb88067",
+      "size": 105645264,
       "signer_subject": "CN=NGWIN Software co., O=NGWIN Software co., L=Burnaby, S=British Columbia, C=CA",
       "signer_thumbprint": "136A5635458DB1D6C83F6BDA48F2152C7588F677",
       "allowed_hosts": [
         "download.picpick.net"
       ],
-      "checked_at": "2026-11-11T09:31:06.8323988Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "NickeManarin.ScreenToGif",
@@ -3721,20 +3705,37 @@
     },
     {
       "id": "OBSProject.OBSStudio",
-      "version": "33.0.1",
-      "arch": "x64",
+      "version": "33.0.3",
+      "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-Windows-x64-Installer.exe",
-      "sha256": "37ecde4d9a28e8aeeb07623c8469b5d558eb264e02ccf435bb859891c401758b",
-      "size": 186662440,
+      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.3/OBS-Studio-33.0.3-Windows-x64-Installer.exe",
+      "sha256": "700be33c01468c2a1e43820bbcc49ba914f570f0f82250022bb680fba43b2a67",
+      "size": 193809816,
       "signer_subject": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "178EB178111547B52B3821A278653EEDC3E5B1F7",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-20T21:51:47.5903605Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
+    },
+    {
+      "id": "OBSProject.OBSStudio",
+      "version": "33.0.3",
+      "arch": "x64",
+      "installer_type": "nullsoft",
+      "installer_arch": "x64",
+      "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.3/OBS-Studio-33.0.3-Windows-x64-Installer.exe",
+      "sha256": "700be33c01468c2a1e43820bbcc49ba914f570f0f82250022bb680fba43b2a67",
+      "size": 193809816,
+      "signer_subject": "CN=\"OBS Project, LLC\", O=\"OBS Project, LLC\", L=Sheridan, S=Wyoming, C=US, SERIALNUMBER=2023-001272252, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Wyoming, OID.1.3.6.1.4.1.311.60.2.1.3=US",
+      "signer_thumbprint": "178EB178111547B52B3821A278653EEDC3E5B1F7",
+      "allowed_hosts": [
+        "github.com",
+        "release-assets.githubusercontent.com"
+      ],
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Ocenaudio.Ocenaudio",
@@ -4097,20 +4098,20 @@
     },
     {
       "id": "pinokiocomputer.pinokio",
-      "version": "8.3.7",
+      "version": "8.4.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.7/Pinokio.exe",
-      "sha256": "387632356bf1851f267e8b41cbeb34b2b20110c383ca9b7460567d87ef8c4987",
-      "size": 155730736,
+      "url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.4.0/Pinokio.exe",
+      "sha256": "753e4e7a51cad941407b4d1a0275f7517343a93e50e0a4d8f6d5127ab3d0ecad",
+      "size": 156457472,
       "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
       "signer_thumbprint": "0BB52F57C6B662F0651849858A6FCCC2C03ADA2D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-21T09:54:50.0720291Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Pinta.Pinta",
@@ -5206,20 +5207,20 @@
     },
     {
       "id": "Telegram.TelegramDesktop",
-      "version": "7.4.4",
+      "version": "7.4.6",
       "arch": "x64",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.4/td-setup-win-x64-7.4.4.exe",
-      "sha256": "5e19f664bb01fafe8e5cece28ed976a4cf667e05e12d5b363536be74bc7689d7",
-      "size": 65617296,
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.6/td-setup-win-x64-7.4.6.exe",
+      "sha256": "c4323c79b76b86e3b160953ec7ebeadce502d7e042ae7d7a407f423d21ad3d3f",
+      "size": 68694352,
       "signer_subject": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-14T09:02:40.6390042Z"
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "Telerik.Fiddler.Classic",
@@ -5515,6 +5516,22 @@
         "release-assets.githubusercontent.com"
       ],
       "checked_at": "2026-11-14T09:02:40.6390042Z"
+    },
+    {
+      "id": "VSDC.Editor",
+      "version": "11.3.4.765",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://downloads.videosoftdev.com/video_tools/video_editor_x64.exe",
+      "sha256": "21d2b450d1c4f74e677a73682b8f73b03ba7066f3f5abfc6ef611b0c779140fd",
+      "size": 132276096,
+      "signer_subject": "CN=FLASH-INTEGRO LLC, O=FLASH-INTEGRO LLC, S=Toshkent, C=UZ",
+      "signer_thumbprint": "688DF3EACCDE5A5FFF3E66D9A67FC5653D938DD5",
+      "allowed_hosts": [
+        "downloads.videosoftdev.com"
+      ],
+      "checked_at": "2026-11-24T01:42:49.9208734Z"
     },
     {
       "id": "VSDC.ScreenRecorder",
