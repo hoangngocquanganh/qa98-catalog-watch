@@ -1,21 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-24T01:42:49.9208734Z",
-  "catalog_revision": 296,
+  "updated_at": "2026-11-24T12:35:06.7731767Z",
+  "catalog_revision": 301,
   "last_run": {
-    "at": "2026-11-24T01:42:49.9208734Z",
-    "seconds": 30,
-    "checked": 46,
-    "downloads": 17,
-    "downloaded_mb": 2267,
-    "pinned": 12,
-    "skipped": 33,
-    "transient": 1,
+    "at": "2026-11-24T12:35:06.7731767Z",
+    "seconds": 11,
+    "checked": 21,
+    "downloads": 5,
+    "downloaded_mb": 685,
+    "pinned": 5,
+    "skipped": 16,
+    "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 17,
-      "installer type … not supported by pinned route": 12,
-      "authenticode NotSigned": 4
+      "neutral version but installer differs by arch …; split versions per arch to pin": 13,
+      "installer type … not supported by pinned route": 3
     }
   },
   "entries": [
@@ -1024,11 +1023,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "appest.ticktick|8.2.5.0|neutral",
+      "key": "appest.ticktick|8.2.6.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Appest.TickTick",
-      "version": "8.2.5.0",
+      "version": "8.2.6.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1038,7 +1037,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -1443,7 +1442,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "exe"
     },
     {
@@ -1554,7 +1553,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -1704,22 +1703,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "bin-huang.chatbox|1.24.6|neutral",
+      "key": "bin-huang.chatbox|1.24.7|neutral",
       "status": "pinned",
       "id": "Bin-Huang.Chatbox",
-      "version": "1.24.6",
+      "version": "1.24.7",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.6-Setup.exe",
-      "sha256": "4944455be2ed0e7814b51050266c5ec6da55bbf556248bdad0cc2ad8eb2ce0e1",
-      "size": 241329448,
+      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.7-Setup.exe",
+      "sha256": "2dbed9b591afa395b9d9bb3b1f388f450ac95ebf58bb670a1e518526059ace1d",
+      "size": 241419376,
       "signer_subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "allowed_hosts": [
         "download.chatboxai.app"
       ],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -2031,11 +2030,30 @@
       "silent_check": "exe"
     },
     {
-      "key": "bytedance.lark|8.7.11|neutral",
+      "key": "bytedance.doubaoinputmethod|1.1.1.12|neutral",
+      "status": "pinned",
+      "id": "ByteDance.DoubaoInputMethod",
+      "version": "1.1.1.12",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://lf-wave.doubaocdn.com/obj/doubao-ime/app/windows/DoubaoIME_Installer_1.1.1.12_release.exe",
+      "sha256": "296e5c334395cf230655d8835542dc7b8c4a1e6eb2a22d22213b5282b1c7b0db",
+      "size": 317948424,
+      "signer_subject": "CN=北京春田知韵科技有限公司, O=北京春田知韵科技有限公司, S=北京市, C=CN, SERIALNUMBER=91110102MACQD9K640, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=西城区, OID.1.3.6.1.4.1.311.60.2.1.2=北京市, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "5D37C15025DAF2656F152207714B7FA36753540A",
+      "allowed_hosts": [
+        "lf-wave.doubaocdn.com"
+      ],
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
+      "silent_check": "ok"
+    },
+    {
+      "key": "bytedance.lark|8.7.16|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "ByteDance.Lark",
-      "version": "8.7.11",
+      "version": "8.7.16",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -2045,7 +2063,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T20:34:39.3887204Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "exe"
     },
     {
@@ -3572,11 +3590,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "digitalocean.doctl|2.6.0|neutral",
+      "key": "digitalocean.doctl|2.7.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "DigitalOcean.Doctl",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3586,7 +3604,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -3627,11 +3645,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "discord.discord.canary|1.0.1355|neutral",
+      "key": "discord.discord.canary|1.0.1358|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Discord.Discord.Canary",
-      "version": "1.0.1355",
+      "version": "1.0.1358",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3641,7 +3659,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-24T01:42:49.9208734Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -5952,11 +5970,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "google.chrome|158.0.8127.37|neutral",
+      "key": "google.chrome|158.0.8127.89|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Google.Chrome",
-      "version": "158.0.8127.37",
+      "version": "158.0.8127.89",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5966,7 +5984,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T10:27:50.0698934Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -6708,23 +6726,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "hoppscotch.hoppscotch|26.10.1-0|neutral",
+      "key": "hoppscotch.hoppscotch|26.11.0-0|neutral",
       "status": "pinned",
       "id": "hoppscotch.Hoppscotch",
-      "version": "26.10.1-0",
+      "version": "26.11.0-0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/hoppscotch/releases/releases/download/v26.10.1-0/Hoppscotch_win_x64.msi",
-      "sha256": "7e1dfb1e1a5fb0b30777a3338c2d410b32810ec2bad3a76967beeb95df7383e8",
-      "size": 47538176,
+      "url": "https://github.com/hoppscotch/releases/releases/download/v26.11.0-0/Hoppscotch_win_x64.msi",
+      "sha256": "cf63c18a5cd1467a3437b4410eca5bcd3ba04eba552f26c628754f6cbb31a13b",
+      "size": 47554560,
       "signer_subject": "CN=HOPPSCOTCH LIMITED, O=HOPPSCOTCH LIMITED, STREET=12 New Fetter Lane, L=London, C=GB, PostalCode=EC4A 1JP",
-      "signer_thumbprint": "1C0B76DE466D64E64C407D14CEE29D3F7B5BD353",
+      "signer_thumbprint": "FDC9CFC15C6617BCB734AD99CCBB1E4597EF3A00",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T14:32:28.4341544Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -7575,11 +7593,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "jetbrains.rider|2026.2.4|neutral",
+      "key": "jetbrains.rider|2026.2.4.1|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "JetBrains.Rider",
-      "version": "2026.2.4",
+      "version": "2026.2.4.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7589,7 +7607,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-24T01:42:49.9208734Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -11555,11 +11573,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "mozilla.firefox.developeredition|160.0|neutral",
+      "key": "mozilla.firefox.developeredition|162.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Mozilla.Firefox.DeveloperEdition",
-      "version": "160.0",
+      "version": "162.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -11569,7 +11587,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -12484,10 +12502,10 @@
       "silent_check": "exe"
     },
     {
-      "key": "nordsecurity.nordpass|7.13.5|neutral",
+      "key": "nordsecurity.nordpass|7.13.7|neutral",
       "status": "pinned",
       "id": "NordSecurity.NordPass",
-      "version": "7.13.5",
+      "version": "7.13.7",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
@@ -12499,7 +12517,7 @@
       "allowed_hosts": [
         "downloads.npass.app"
       ],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -13004,11 +13022,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "openai.chatgpt|26.1117.4957.0|neutral",
+      "key": "openai.chatgpt|26.1120.5083.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "OpenAI.ChatGPT",
-      "version": "26.1117.4957.0",
+      "version": "26.1120.5083.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13018,15 +13036,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T09:54:50.0720291Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
-      "key": "openai.codex|0.171.0|neutral",
+      "key": "openai.codex|0.172.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "OpenAI.Codex",
-      "version": "0.171.0",
+      "version": "0.172.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13036,7 +13054,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-20T21:51:47.5903605Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -13831,7 +13849,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -14229,11 +14247,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "postman.postman|12.38.0|neutral",
+      "key": "postman.postman|12.38.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Postman.Postman",
-      "version": "12.38.0",
+      "version": "12.38.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14243,7 +14261,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-24T01:42:49.9208734Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "exe"
     },
     {
@@ -15631,7 +15649,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -16226,7 +16244,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -17936,7 +17954,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T10:48:31.6238053Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {
@@ -19257,23 +19275,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "yubico.authenticator|7.5.0|neutral",
+      "key": "yubico.authenticator|7.5.1|neutral",
       "status": "pinned",
       "id": "Yubico.Authenticator",
-      "version": "7.5.0",
+      "version": "7.5.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.5.0/yubico-authenticator-7.5.0-win-x64.msi",
-      "sha256": "2a90a6ba3ce651baf58ffb9ca5a4e404b48daef1e0600089ae733dc58328d401",
-      "size": 21700608,
+      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.5.1/yubico-authenticator-7.5.1-win-x64.msi",
+      "sha256": "1412e29174f84eadfc3c5e38adbdbfc3a03c45ef7f183a0c51a8e1285c977e10",
+      "size": 21909504,
       "signer_subject": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
       "signer_thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-22T09:52:13.2225408Z",
+      "checked_at": "2026-11-24T12:35:06.7731767Z",
       "silent_check": "ok"
     },
     {

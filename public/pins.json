@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-24T01:42:49.9208734Z",
-  "catalog_revision": 296,
-  "count": 364,
+  "generated_at": "2026-11-24T12:35:06.7731767Z",
+  "catalog_revision": 301,
+  "count": 365,
   "pins": [
     {
       "id": "AdGuard.AdGuardVPN",
@@ -550,19 +550,19 @@
     },
     {
       "id": "Bin-Huang.Chatbox",
-      "version": "1.24.6",
+      "version": "1.24.7",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.6-Setup.exe",
-      "sha256": "4944455be2ed0e7814b51050266c5ec6da55bbf556248bdad0cc2ad8eb2ce0e1",
-      "size": 241329448,
+      "url": "https://download.chatboxai.app/releases/Chatbox-1.24.7-Setup.exe",
+      "sha256": "2dbed9b591afa395b9d9bb3b1f388f450ac95ebf58bb670a1e518526059ace1d",
+      "size": 241419376,
       "signer_subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "allowed_hosts": [
         "download.chatboxai.app"
       ],
-      "checked_at": "2026-11-18T22:02:36.1739667Z"
+      "checked_at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "Bitwarden.Bitwarden",
@@ -612,6 +612,22 @@
         "e3.boxcdn.net"
       ],
       "checked_at": "2026-11-10T10:47:18.4487002Z"
+    },
+    {
+      "id": "ByteDance.DoubaoInputMethod",
+      "version": "1.1.1.12",
+      "arch": "neutral",
+      "installer_type": "inno",
+      "installer_arch": "x64",
+      "url": "https://lf-wave.doubaocdn.com/obj/doubao-ime/app/windows/DoubaoIME_Installer_1.1.1.12_release.exe",
+      "sha256": "296e5c334395cf230655d8835542dc7b8c4a1e6eb2a22d22213b5282b1c7b0db",
+      "size": 317948424,
+      "signer_subject": "CN=北京春田知韵科技有限公司, O=北京春田知韵科技有限公司, S=北京市, C=CN, SERIALNUMBER=91110102MACQD9K640, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=西城区, OID.1.3.6.1.4.1.311.60.2.1.2=北京市, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
+      "signer_thumbprint": "5D37C15025DAF2656F152207714B7FA36753540A",
+      "allowed_hosts": [
+        "lf-wave.doubaocdn.com"
+      ],
+      "checked_at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "ByteDance.Trae",
@@ -2084,20 +2100,20 @@
     },
     {
       "id": "hoppscotch.Hoppscotch",
-      "version": "26.10.1-0",
+      "version": "26.11.0-0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/hoppscotch/releases/releases/download/v26.10.1-0/Hoppscotch_win_x64.msi",
-      "sha256": "7e1dfb1e1a5fb0b30777a3338c2d410b32810ec2bad3a76967beeb95df7383e8",
-      "size": 47538176,
+      "url": "https://github.com/hoppscotch/releases/releases/download/v26.11.0-0/Hoppscotch_win_x64.msi",
+      "sha256": "cf63c18a5cd1467a3437b4410eca5bcd3ba04eba552f26c628754f6cbb31a13b",
+      "size": 47554560,
       "signer_subject": "CN=HOPPSCOTCH LIMITED, O=HOPPSCOTCH LIMITED, STREET=12 New Fetter Lane, L=London, C=GB, PostalCode=EC4A 1JP",
-      "signer_thumbprint": "1C0B76DE466D64E64C407D14CEE29D3F7B5BD353",
+      "signer_thumbprint": "FDC9CFC15C6617BCB734AD99CCBB1E4597EF3A00",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T14:32:28.4341544Z"
+      "checked_at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "HulubuluSoftware.AdvancedRenamer",
@@ -3638,7 +3654,7 @@
     },
     {
       "id": "NordSecurity.NordPass",
-      "version": "7.13.5",
+      "version": "7.13.7",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
@@ -3650,7 +3666,7 @@
       "allowed_hosts": [
         "downloads.npass.app"
       ],
-      "checked_at": "2026-11-18T22:02:36.1739667Z"
+      "checked_at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "NordSecurity.NordVPN",
@@ -5879,20 +5895,20 @@
     },
     {
       "id": "Yubico.Authenticator",
-      "version": "7.5.0",
+      "version": "7.5.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.5.0/yubico-authenticator-7.5.0-win-x64.msi",
-      "sha256": "2a90a6ba3ce651baf58ffb9ca5a4e404b48daef1e0600089ae733dc58328d401",
-      "size": 21700608,
+      "url": "https://github.com/Yubico/yubioath-flutter/releases/download/7.5.1/yubico-authenticator-7.5.1-win-x64.msi",
+      "sha256": "1412e29174f84eadfc3c5e38adbdbfc3a03c45ef7f183a0c51a8e1285c977e10",
+      "size": 21909504,
       "signer_subject": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
       "signer_thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-22T09:52:13.2225408Z"
+      "checked_at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "Yubico.YubikeyManager",

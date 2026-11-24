@@ -1,36 +1,36 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-24T01:43:20.4785059Z",
+  "updated_at": "2026-11-24T12:35:18.1849453Z",
   "last_run": {
-    "at": "2026-11-24T01:43:20.4785059Z",
-    "seconds": 36,
-    "failing": 14,
+    "at": "2026-11-24T12:35:18.1849453Z",
+    "seconds": 9,
+    "failing": 15,
     "healed": 1,
-    "blocked": 13,
-    "downloads": 7,
-    "downloaded_mb": 337,
+    "blocked": 14,
+    "downloads": 8,
+    "downloaded_mb": 176,
     "harvested": 0,
     "anchors": 463
   },
   "heals": [
     {
-      "vkey": "w:google.chrome|158.0.8127.37",
-      "slug": "chrome",
-      "winget_id": "Google.Chrome",
-      "version": "158.0.8127.37",
+      "vkey": "w:wisecleaner.wisediskcleaner|12.0.1",
+      "slug": "wisecleaner-wisediskcleaner",
+      "winget_id": "WiseCleaner.WiseDiskCleaner",
+      "version": "12.0.1",
       "kind": "same_url_new_hash",
-      "url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
-      "sha256": "7fd3e26f53e2e9536dcd906006745e68e087853fad27554c6f7a2bc6cc776387",
-      "size": 178262016,
-      "signer_subject": "CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
-      "signer_thumbprint": "607A3EDAA64933E94422FC8F0C80388E0590986C",
-      "final_host": "dl.google.com",
+      "url": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe",
+      "sha256": "84a36f245b6507d6f97b781f8d4e82f8130d8b9b115bae9f1aa002adfbead3d6",
+      "size": 9006064,
+      "signer_subject": "CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization",
+      "signer_thumbprint": "D148CE160096C9E7B425030F75C18C74CE4DE488",
+      "final_host": "downloads.wisecleaner.com",
       "hosts": [
-        "dl.google.com"
+        "downloads.wisecleaner.com"
       ],
-      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US\"; cùng chứng chỉ với bản tham chiếu 157.0.8103.51 (harvest, thumbprint trùng); 170.0 MB (tham chiếu 164.0 MB)",
-      "from_url": "https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise_arm64.msi",
-      "checked_at": "2026-11-24T01:43:20.4785059Z"
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization\"; cùng chứng chỉ với bản tham chiếu 11.4.0 (pin, thumbprint trùng); 8.6 MB (tham chiếu 11.9 MB)",
+      "from_url": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe",
+      "checked_at": "2026-11-24T12:35:18.1849453Z"
     }
   ],
   "heal_blocked": [
@@ -105,6 +105,12 @@
       "slug": "techpowerup-throttlestop",
       "version": "9.7",
       "reason_vi": "bộ cài là tệp zip: không có chữ ký Authenticode để kiểm người phát hành, không tự chữa (chủ xem SHA-256 mới rồi duyệt tay)"
+    },
+    {
+      "vkey": "w:wampserver.wampserver|3.4.0",
+      "slug": "wampserver-wampserver",
+      "version": "3.4.0",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 3.4.0"
     },
     {
       "vkey": "w:warp.warp|latest",
@@ -906,13 +912,13 @@
     },
     {
       "id": "w:bin-huang.chatbox",
-      "version": "1.24.6",
-      "sha256": "4944455be2ed0e7814b51050266c5ec6da55bbf556248bdad0cc2ad8eb2ce0e1",
-      "size": 241329448,
+      "version": "1.24.7",
+      "sha256": "2dbed9b591afa395b9d9bb3b1f388f450ac95ebf58bb670a1e518526059ace1d",
+      "size": 241419376,
       "subject": "CN=\"Mediocre, LLC\", O=\"Mediocre, LLC\", L=NEWARK, S=DELAWARE, C=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, SERIALNUMBER=10053229, OID.2.5.4.15=Private Organization",
       "thumbprint": "5DEDBB1C58FED1BB8FDE1DD6A807C931394AEF7D",
       "source": "pin",
-      "at": "2026-11-18T22:02:36.1739667Z"
+      "at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "w:bitdefender.bitdefender",
@@ -1016,13 +1022,13 @@
     },
     {
       "id": "w:bytedance.doubaoinputmethod",
-      "version": "1.0.0.23",
-      "sha256": "16cc266ca5818af98c3c8320478aa9e188ff93e36b5beefbbfa88405586c7e72",
-      "size": 317547744,
+      "version": "1.1.1.12",
+      "sha256": "296e5c334395cf230655d8835542dc7b8c4a1e6eb2a22d22213b5282b1c7b0db",
+      "size": 317948424,
       "subject": "CN=北京春田知韵科技有限公司, O=北京春田知韵科技有限公司, S=北京市, C=CN, SERIALNUMBER=91110102MACQD9K640, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.1=西城区, OID.1.3.6.1.4.1.311.60.2.1.2=北京市, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
       "thumbprint": "5D37C15025DAF2656F152207714B7FA36753540A",
       "source": "pin",
-      "at": "2026-11-11T09:31:06.8323988Z"
+      "at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "w:bytedance.trae",
@@ -2296,13 +2302,13 @@
     },
     {
       "id": "w:hoppscotch.hoppscotch",
-      "version": "26.10.1-0",
-      "sha256": "7e1dfb1e1a5fb0b30777a3338c2d410b32810ec2bad3a76967beeb95df7383e8",
-      "size": 47538176,
+      "version": "26.11.0-0",
+      "sha256": "cf63c18a5cd1467a3437b4410eca5bcd3ba04eba552f26c628754f6cbb31a13b",
+      "size": 47554560,
       "subject": "CN=HOPPSCOTCH LIMITED, O=HOPPSCOTCH LIMITED, STREET=12 New Fetter Lane, L=London, C=GB, PostalCode=EC4A 1JP",
-      "thumbprint": "1C0B76DE466D64E64C407D14CEE29D3F7B5BD353",
+      "thumbprint": "FDC9CFC15C6617BCB734AD99CCBB1E4597EF3A00",
       "source": "pin",
-      "at": "2026-11-10T14:32:28.4341544Z"
+      "at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "w:hulubulusoftware.advancedrenamer",
@@ -3316,13 +3322,13 @@
     },
     {
       "id": "w:nordsecurity.nordpass",
-      "version": "7.13.5",
+      "version": "7.13.7",
       "sha256": "592f934b7de0c2e7d60d9ffbe0f1a0fb23f402a68e6faf6ad4304d562aaf3212",
       "size": 89653248,
       "subject": "E=admin@nordvpn.com, CN=nordvpn s.a., O=nordvpn s.a., STREET=\"PH F&F Tower, 50th Street & 56th Street, Suite 32-D\", L=Panama City, S=Panama, C=PA, OID.1.3.6.1.4.1.311.60.2.1.3=PA, SERIALNUMBER=155694934, OID.2.5.4.15=Private Organization",
       "thumbprint": "47B77B8D91FE90DEC43731694F8D2E561DBEED08",
       "source": "pin",
-      "at": "2026-11-18T22:02:36.1739667Z"
+      "at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "w:nordsecurity.nordvpn",
@@ -4686,13 +4692,13 @@
     },
     {
       "id": "w:yubico.authenticator",
-      "version": "7.5.0",
-      "sha256": "2a90a6ba3ce651baf58ffb9ca5a4e404b48daef1e0600089ae733dc58328d401",
-      "size": 21700608,
+      "version": "7.5.1",
+      "sha256": "1412e29174f84eadfc3c5e38adbdbfc3a03c45ef7f183a0c51a8e1285c977e10",
+      "size": 21909504,
       "subject": "CN=Yubico AB, O=Yubico AB, L=STOCKHOLM, S=Stockholms län, C=SE",
       "thumbprint": "A1614CD84976030D49209B56162D9EFA69B73698",
       "source": "pin",
-      "at": "2026-11-22T09:52:13.2225408Z"
+      "at": "2026-11-24T12:35:06.7731767Z"
     },
     {
       "id": "w:yubico.yubikeymanager",
