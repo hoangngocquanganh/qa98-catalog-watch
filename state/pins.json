@@ -1,20 +1,24 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-24T12:35:06.7731767Z",
-  "catalog_revision": 301,
+  "updated_at": "2026-11-24T23:30:10.3372444Z",
+  "catalog_revision": 307,
   "last_run": {
-    "at": "2026-11-24T12:35:06.7731767Z",
-    "seconds": 11,
-    "checked": 21,
-    "downloads": 5,
-    "downloaded_mb": 685,
+    "at": "2026-11-24T23:30:10.3372444Z",
+    "seconds": 1219,
+    "checked": 257,
+    "downloads": 40,
+    "downloaded_mb": 2865,
     "pinned": 5,
-    "skipped": 16,
-    "transient": 0,
-    "deferred": 0,
+    "skipped": 248,
+    "transient": 1,
+    "deferred": 3,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 13,
-      "installer type … not supported by pinned route": 3
+      "neutral version but installer differs by arch …; split versions per arch to pin": 121,
+      "installer type … not supported by pinned route": 89,
+      "authenticode NotSigned": 32,
+      "winget manifest missing": 3,
+      "download larger than … MB": 2,
+      "manifest has no https installer with sha256": 1
     }
   },
   "entries": [
@@ -33,7 +37,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -69,7 +73,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -105,7 +109,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -123,7 +127,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z"
+      "checked_at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "key": "acronis.cyberprotecthomeoffice|28.3.1.41126|neutral",
@@ -140,7 +144,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -250,7 +254,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -306,7 +310,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -342,7 +346,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -360,7 +364,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -378,7 +382,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -433,7 +437,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -451,7 +455,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -599,7 +603,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -655,7 +659,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -673,7 +677,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -691,7 +695,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z"
+      "checked_at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "key": "andrewiethoff.exactaudiocopy|1.8|neutral",
@@ -744,7 +748,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -861,11 +865,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "antonreshetov.masscode|6.3.1|neutral",
+      "key": "antonreshetov.masscode|6.4.0|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "antonreshetov.massCode",
-      "version": "6.3.1",
+      "version": "6.4.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -875,7 +879,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -929,7 +933,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1001,7 +1005,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1019,7 +1023,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1075,7 +1079,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1093,7 +1097,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1129,7 +1133,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1224,7 +1228,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1242,7 +1246,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1260,7 +1264,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1278,7 +1282,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1296,7 +1300,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1334,7 +1338,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1370,7 +1374,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1388,7 +1392,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1406,7 +1410,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1498,7 +1502,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1571,7 +1575,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1648,11 +1652,11 @@
       "checked_at": "2026-11-10T10:47:18.4487002Z"
     },
     {
-      "key": "bellsoft.libericajdk.21|21.0.13.305|neutral",
+      "key": "bellsoft.libericajdk.21|21.0.13.10005|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "BellSoft.LibericaJDK.21",
-      "version": "21.0.13.305",
+      "version": "21.0.13.10005",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -1662,7 +1666,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1736,7 +1740,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -1882,7 +1886,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -1900,7 +1904,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1918,7 +1922,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -1972,7 +1976,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -1990,7 +1994,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2100,7 +2104,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2137,7 +2141,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2155,7 +2159,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2248,7 +2252,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2266,7 +2270,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2302,7 +2306,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2320,7 +2324,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2338,7 +2342,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2412,7 +2416,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2430,7 +2434,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2448,7 +2452,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2485,7 +2489,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2557,7 +2561,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2612,7 +2616,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -2648,7 +2652,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -2666,7 +2670,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2684,7 +2688,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2702,7 +2706,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2738,7 +2742,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -2756,7 +2760,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2793,7 +2797,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2884,7 +2888,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -2920,7 +2924,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3112,7 +3116,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -3130,7 +3134,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -3148,7 +3152,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3184,7 +3188,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3221,7 +3225,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3277,15 +3281,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "deepl.deepl|26.10.1|neutral",
+      "key": "deepl.deepl|26.11.1|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "DeepL.DeepL",
-      "version": "26.10.1",
+      "version": "26.11.1",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3295,7 +3299,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -3332,7 +3336,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -3350,7 +3354,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -3404,7 +3408,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3422,7 +3426,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3440,7 +3444,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3458,7 +3462,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3495,15 +3499,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "devolutions.remotedesktopmanager|2026.3.18.0|neutral",
+      "key": "devolutions.remotedesktopmanager|2026.3.19.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Devolutions.RemoteDesktopManager",
-      "version": "2026.3.18.0",
+      "version": "2026.3.19.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3513,7 +3517,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-20T10:06:56.3603107Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3568,7 +3572,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3622,7 +3626,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3751,7 +3755,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3769,7 +3773,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3787,7 +3791,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3878,7 +3882,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -3914,7 +3918,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4008,7 +4012,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4186,7 +4190,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4228,11 +4232,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "element.element|1.12.35|neutral",
+      "key": "element.element|1.12.36|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "Element.Element",
-      "version": "1.12.35",
+      "version": "1.12.36",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -4242,7 +4246,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-20T10:06:56.3603107Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -4260,7 +4264,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4410,7 +4414,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4447,27 +4451,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
-      "key": "erlang.erlangotp|29.1.2|neutral",
+      "key": "erlang.erlangotp|29.1.3|neutral",
       "status": "pinned",
       "id": "Erlang.ErlangOTP",
-      "version": "29.1.2",
+      "version": "29.1.3",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/erlang/otp/releases/download/OTP-29.1.2/otp_win64_29.1.2.exe",
-      "sha256": "38297ee6fa8cafbc016cb187ebda30f7bdae85618415d9dbbbe413e9b9e27a4e",
-      "size": 155770072,
+      "url": "https://github.com/erlang/otp/releases/download/OTP-29.1.3/otp_win64_29.1.3.exe",
+      "sha256": "d2107175ddf7bf410818c04db302ed63c413e77b5ee626ff27adb8eda16de248",
+      "size": 155802088,
       "signer_subject": "CN=Ericsson AB, O=Ericsson AB, L=Stockholm, C=SE",
       "signer_thumbprint": "B8705FFE42FEFA60B16FECA00BD4189817C0D681",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T14:21:52.6730199Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4485,7 +4489,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -4544,7 +4548,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4581,7 +4585,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe_no_switch"
     },
     {
@@ -4599,7 +4603,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4674,7 +4678,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -4692,7 +4696,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4748,7 +4752,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4784,7 +4788,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4802,7 +4806,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4878,7 +4882,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -4896,7 +4900,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -4952,7 +4956,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -4989,7 +4993,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -5007,7 +5011,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -5025,7 +5029,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5102,7 +5106,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -5177,7 +5181,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5213,7 +5217,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5250,7 +5254,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5304,7 +5308,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5322,7 +5326,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5340,7 +5344,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -5358,7 +5362,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5489,7 +5493,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5529,11 +5533,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "github.copilot|1.0.114|neutral",
+      "key": "github.copilot|1.0.115|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "GitHub.Copilot",
-      "version": "1.0.114",
+      "version": "1.0.115",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -5543,7 +5547,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5728,7 +5732,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5746,7 +5750,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5782,7 +5786,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5819,7 +5823,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5837,7 +5841,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -5855,7 +5859,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6151,7 +6155,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6265,7 +6269,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6283,7 +6287,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6355,7 +6359,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6411,7 +6415,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6429,7 +6433,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6465,7 +6469,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6559,7 +6563,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6595,7 +6599,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6613,7 +6617,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6631,7 +6635,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6668,7 +6672,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6704,7 +6708,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6760,7 +6764,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -6796,7 +6800,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -6833,7 +6837,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6908,7 +6912,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -6963,7 +6967,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -7077,7 +7081,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -7095,7 +7099,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z"
+      "checked_at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "key": "itchio.itch|26.22.0|neutral",
@@ -7112,7 +7116,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7150,7 +7154,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7168,7 +7172,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7263,7 +7267,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7281,7 +7285,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7299,7 +7303,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7353,7 +7357,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7371,7 +7375,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7389,15 +7393,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "jetbrains.dotpeek|2026.3.0.1|neutral",
+      "key": "jetbrains.dotpeek|2026.3.0.2|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "JetBrains.dotPeek",
-      "version": "2026.3.0.1",
+      "version": "2026.3.0.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -7407,7 +7411,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -7425,7 +7429,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7443,7 +7447,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7461,7 +7465,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7533,7 +7537,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7571,7 +7575,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7625,7 +7629,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7643,7 +7647,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -7775,7 +7779,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7850,7 +7854,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7886,7 +7890,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -7958,7 +7962,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8092,7 +8096,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8186,7 +8190,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -8223,7 +8227,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8279,7 +8283,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8391,7 +8395,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8409,7 +8413,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8427,7 +8431,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8518,7 +8522,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8554,15 +8558,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "lobehub.lobehub|2.3.5|neutral",
+      "key": "lobehub.lobehub|2.3.6|neutral",
       "status": "skipped",
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "LobeHub.LobeHub",
-      "version": "2.3.5",
+      "version": "2.3.6",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -8572,27 +8576,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-24T01:42:49.9208734Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "localsend.localsend|1.18.2|neutral",
+      "key": "localsend.localsend|1.19.0|neutral",
       "status": "pinned",
       "id": "LocalSend.LocalSend",
-      "version": "1.18.2",
+      "version": "1.19.0",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-windows-x86-64.exe",
-      "sha256": "122783e6abb4b0a1f1603d896f46a03aeda3004479ebd3175cab4ddac6b60919",
-      "size": 19901144,
+      "url": "https://github.com/localsend/localsend/releases/download/v1.19.0/LocalSend-1.19.0-windows-x86-64.exe",
+      "sha256": "0df76352124634c8d998867b813cb5ae96613f4a3b6e52d8d3e497dba63c01e0",
+      "size": 19907936,
       "signer_subject": "CN=Tien Do Nam, O=Tien Do Nam, L=Berlin, C=DE",
-      "signer_thumbprint": "D95D73B75580AF7B614F33F68D0EB1B5EBD65600",
+      "signer_thumbprint": "BA527E9781E568EF0BD194E18CD735B284D5E5D9",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8610,7 +8614,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8628,7 +8632,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -8646,7 +8650,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -8702,7 +8706,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8720,7 +8724,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -8775,7 +8779,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8793,7 +8797,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8811,7 +8815,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -8829,7 +8833,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8847,27 +8851,27 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
-      "key": "mariadb.server|13.0.2.0|neutral",
+      "key": "mariadb.server|13.1.2.0|neutral",
       "status": "pinned",
       "id": "MariaDB.Server",
-      "version": "13.0.2.0",
+      "version": "13.1.2.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://downloads.mariadb.org/rest-api/mariadb/13.0.2/mariadb-13.0.2-winx64.msi",
-      "sha256": "9fbee3a481f7cb133bde017f614c1e0c72d596992456983dbabde4374290d7bf",
-      "size": 93032448,
+      "url": "https://downloads.mariadb.org/rest-api/mariadb/13.1.2/mariadb-13.1.2-winx64.msi",
+      "sha256": "6440e27647148aa56de20c3d0d0d5495a3ece9daef04982e0be9e996fbbfdbc7",
+      "size": 95457280,
       "signer_subject": "CN=\"MariaDB USA, Inc.\", O=\"MariaDB USA, Inc.\", L=Milpitas, S=California, C=US",
       "signer_thumbprint": "975E907C551E09FA8669B5F555192A406A3908E6",
       "allowed_hosts": [
         "downloads.mariadb.org",
         "mirrors.xtom.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8885,7 +8889,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8903,7 +8907,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8939,7 +8943,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -8957,7 +8961,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -8975,7 +8979,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9067,7 +9071,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9105,7 +9109,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9123,7 +9127,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9141,7 +9145,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -9214,7 +9218,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9250,7 +9254,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9286,7 +9290,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9322,7 +9326,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9377,7 +9381,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9414,7 +9418,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9451,7 +9455,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9488,7 +9492,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9525,7 +9529,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9562,7 +9566,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9599,7 +9603,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9636,7 +9640,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -9654,7 +9658,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -9709,7 +9713,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9746,7 +9750,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9783,7 +9787,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9801,7 +9805,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9819,7 +9823,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9837,7 +9841,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9855,7 +9859,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9891,7 +9895,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9909,7 +9913,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9927,7 +9931,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -9945,7 +9949,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -9963,7 +9967,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10035,7 +10039,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10107,7 +10111,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10217,7 +10221,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10235,7 +10239,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10272,7 +10276,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10290,7 +10294,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10308,7 +10312,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10326,7 +10330,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10344,7 +10348,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10362,7 +10366,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10380,7 +10384,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10398,7 +10402,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10416,7 +10420,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10434,7 +10438,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10452,7 +10456,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10470,7 +10474,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10488,15 +10492,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "microsoft.teams|26288.2004.5269.3420|neutral",
+      "key": "microsoft.teams|26304.1207.5384.858|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Microsoft.Teams",
-      "version": "26288.2004.5269.3420",
+      "version": "26304.1207.5384.858",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -10506,7 +10510,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10524,7 +10528,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -10578,7 +10582,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10596,7 +10600,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10614,7 +10618,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10632,7 +10636,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10650,7 +10654,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -10668,7 +10672,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -11591,11 +11595,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "mozilla.firefox.esr|153.7.0|neutral",
+      "key": "mozilla.firefox.esr|153.8.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Mozilla.Firefox.ESR",
-      "version": "153.7.0",
+      "version": "153.8.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -11605,26 +11609,26 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
-      "key": "mozilla.firefox.esr|153.7.0|x64",
+      "key": "mozilla.firefox.esr|153.8.0|x64",
       "status": "pinned",
       "id": "Mozilla.Firefox.ESR",
-      "version": "153.7.0",
+      "version": "153.8.0",
       "arch": "x64",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.7.0esr/win64/en-US/Firefox%20Setup%20153.7.0esr.exe",
-      "sha256": "3d6fabd249aa1338c0667991fb73891fce941d7dc35ba278da24074874c67508",
-      "size": 90326816,
+      "url": "https://download-installer.cdn.mozilla.net/pub/firefox/releases/153.8.0esr/win64/en-US/Firefox%20Setup%20153.8.0esr.exe",
+      "sha256": "a32e94b7f43447cf76527fc27fad966c34d869e48095ea9b24462beb0b605eb8",
+      "size": 90339552,
       "signer_subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "signer_thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "allowed_hosts": [
         "download-installer.cdn.mozilla.net"
       ],
-      "checked_at": "2026-11-13T20:55:58.7181039Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -11833,23 +11837,23 @@
       "silent_check": "ok"
     },
     {
-      "key": "mullvadvpn.mullvadbrowser|16.0.2|neutral",
+      "key": "mullvadvpn.mullvadbrowser|16.0.3|neutral",
       "status": "pinned",
       "id": "MullvadVPN.MullvadBrowser",
-      "version": "16.0.2",
+      "version": "16.0.3",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/mullvad/mullvad-browser/releases/download/16.0.2/mullvad-browser-windows-x86_64-16.0.2.exe",
-      "sha256": "d2f8c8e98e619c1ac8cbae56ce4f5d0f599fd65f674ca4c9408bdf9be8ac35af",
-      "size": 110068184,
+      "url": "https://github.com/mullvad/mullvad-browser/releases/download/16.0.3/mullvad-browser-windows-x86_64-16.0.3.exe",
+      "sha256": "22d99048713e00ca8d5094feade7363f7c7653b131424df7149f419dc87ca530",
+      "size": 110171352,
       "signer_subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-18T10:16:40.654227Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -12844,24 +12848,6 @@
       "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
       "id": "OliverSchwendener.ueli",
       "version": "9.29.1",
-      "arch": "neutral",
-      "installer_type": "",
-      "installer_arch": "",
-      "url": "",
-      "sha256": "",
-      "size": 0,
-      "signer_subject": "",
-      "signer_thumbprint": "",
-      "allowed_hosts": [],
-      "checked_at": "2026-11-18T22:02:36.1739667Z",
-      "silent_check": "ok"
-    },
-    {
-      "key": "ollama.ollama|0.40.16|neutral",
-      "status": "skipped",
-      "reason": "download larger than 1024 MB",
-      "id": "Ollama.Ollama",
-      "version": "0.40.16",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13946,26 +13932,6 @@
       "silent_check": "ok"
     },
     {
-      "key": "pinokiocomputer.pinokio|8.4.0|neutral",
-      "status": "pinned",
-      "id": "pinokiocomputer.pinokio",
-      "version": "8.4.0",
-      "arch": "neutral",
-      "installer_type": "nullsoft",
-      "installer_arch": "x64",
-      "url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.4.0/Pinokio.exe",
-      "sha256": "753e4e7a51cad941407b4d1a0275f7517343a93e50e0a4d8f6d5127ab3d0ecad",
-      "size": 156457472,
-      "signer_subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
-      "signer_thumbprint": "0BB52F57C6B662F0651849858A6FCCC2C03ADA2D",
-      "allowed_hosts": [
-        "github.com",
-        "release-assets.githubusercontent.com"
-      ],
-      "checked_at": "2026-11-24T01:42:49.9208734Z",
-      "silent_check": "ok"
-    },
-    {
       "key": "pinta.pinta|3.1.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
@@ -14136,11 +14102,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "pnpm.pnpm|12.21.0|neutral",
+      "key": "pnpm.pnpm|12.23.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "pnpm.pnpm",
-      "version": "12.21.0",
+      "version": "12.23.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14150,7 +14116,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T09:54:50.0720291Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {
@@ -14247,11 +14213,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "postman.postman|12.38.1|neutral",
+      "key": "postman.postman|12.38.3|neutral",
       "status": "skipped",
       "reason": "installer type 'exe' not supported by pinned route",
       "id": "Postman.Postman",
-      "version": "12.38.1",
+      "version": "12.38.3",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14261,7 +14227,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-24T12:35:06.7731767Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "exe"
     },
     {
@@ -14912,24 +14878,6 @@
       "signer_thumbprint": "",
       "allowed_hosts": [],
       "checked_at": "2026-11-21T09:54:50.0720291Z",
-      "silent_check": "ok"
-    },
-    {
-      "key": "qbittorrent.qbittorrent|5.3.0|neutral",
-      "status": "skipped",
-      "reason": "authenticode NotSigned: The file <file> is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170",
-      "id": "qBittorrent.qBittorrent",
-      "version": "5.3.0",
-      "arch": "neutral",
-      "installer_type": "",
-      "installer_arch": "",
-      "url": "",
-      "sha256": "",
-      "size": 0,
-      "signer_subject": "",
-      "signer_thumbprint": "",
-      "allowed_hosts": [],
-      "checked_at": "2026-11-19T10:27:50.0698934Z",
       "silent_check": "ok"
     },
     {
@@ -18156,7 +18104,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-17T22:28:20.4091298Z",
+      "checked_at": "2026-11-24T23:30:10.3372444Z",
       "silent_check": "ok"
     },
     {

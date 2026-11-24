@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-24T12:35:18.1849453Z",
+  "updated_at": "2026-11-24T23:50:30.0690964Z",
   "last_run": {
-    "at": "2026-11-24T12:35:18.1849453Z",
-    "seconds": 9,
+    "at": "2026-11-24T23:50:30.0690964Z",
+    "seconds": 15,
     "failing": 15,
     "healed": 1,
     "blocked": 14,
-    "downloads": 8,
-    "downloaded_mb": 176,
+    "downloads": 7,
+    "downloaded_mb": 167,
     "harvested": 0,
     "anchors": 463
   },
@@ -1862,13 +1862,13 @@
     },
     {
       "id": "w:erlang.erlangotp",
-      "version": "29.1.2",
-      "sha256": "38297ee6fa8cafbc016cb187ebda30f7bdae85618415d9dbbbe413e9b9e27a4e",
-      "size": 155770072,
+      "version": "29.1.3",
+      "sha256": "d2107175ddf7bf410818c04db302ed63c413e77b5ee626ff27adb8eda16de248",
+      "size": 155802088,
       "subject": "CN=Ericsson AB, O=Ericsson AB, L=Stockholm, C=SE",
       "thumbprint": "B8705FFE42FEFA60B16FECA00BD4189817C0D681",
       "source": "pin",
-      "at": "2026-11-10T14:21:52.6730199Z"
+      "at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "id": "w:espanso.espanso",
@@ -2632,13 +2632,13 @@
     },
     {
       "id": "w:localsend.localsend",
-      "version": "1.18.2",
-      "sha256": "122783e6abb4b0a1f1603d896f46a03aeda3004479ebd3175cab4ddac6b60919",
-      "size": 19901144,
+      "version": "1.19.0",
+      "sha256": "0df76352124634c8d998867b813cb5ae96613f4a3b6e52d8d3e497dba63c01e0",
+      "size": 19907936,
       "subject": "CN=Tien Do Nam, O=Tien Do Nam, L=Berlin, C=DE",
-      "thumbprint": "D95D73B75580AF7B614F33F68D0EB1B5EBD65600",
+      "thumbprint": "BA527E9781E568EF0BD194E18CD735B284D5E5D9",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "id": "w:logitech.options",
@@ -2672,13 +2672,13 @@
     },
     {
       "id": "w:mariadb.server",
-      "version": "13.0.2.0",
-      "sha256": "9fbee3a481f7cb133bde017f614c1e0c72d596992456983dbabde4374290d7bf",
-      "size": 93032448,
+      "version": "13.1.2.0",
+      "sha256": "6440e27647148aa56de20c3d0d0d5495a3ece9daef04982e0be9e996fbbfdbc7",
+      "size": 95457280,
       "subject": "CN=\"MariaDB USA, Inc.\", O=\"MariaDB USA, Inc.\", L=Milpitas, S=California, C=US",
       "thumbprint": "975E907C551E09FA8669B5F555192A406A3908E6",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "id": "w:mediaarea.mediainfo.gui",
@@ -3142,13 +3142,13 @@
     },
     {
       "id": "w:mozilla.firefox.esr",
-      "version": "153.7.0",
-      "sha256": "3d6fabd249aa1338c0667991fb73891fce941d7dc35ba278da24074874c67508",
-      "size": 90326816,
+      "version": "153.8.0",
+      "sha256": "a32e94b7f43447cf76527fc27fad966c34d869e48095ea9b24462beb0b605eb8",
+      "size": 90339552,
       "subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "source": "pin",
-      "at": "2026-11-13T20:55:58.7181039Z"
+      "at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "id": "w:mozilla.thunderbird",
@@ -3192,13 +3192,13 @@
     },
     {
       "id": "w:mullvadvpn.mullvadbrowser",
-      "version": "16.0.2",
-      "sha256": "d2f8c8e98e619c1ac8cbae56ce4f5d0f599fd65f674ca4c9408bdf9be8ac35af",
-      "size": 110068184,
+      "version": "16.0.3",
+      "sha256": "22d99048713e00ca8d5094feade7363f7c7653b131424df7149f419dc87ca530",
+      "size": 110171352,
       "subject": "CN=\"THE TOR PROJECT, INC.\", O=\"THE TOR PROJECT, INC.\", L=Mansfield, S=Massachusetts, C=US, SERIALNUMBER=208096820, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Massachusetts, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "A9EEF4F01C4990EC9EE86A04BC9E3ED2C8576127",
       "source": "pin",
-      "at": "2026-11-18T10:16:40.654227Z"
+      "at": "2026-11-24T23:30:10.3372444Z"
     },
     {
       "id": "w:mumble.mumble.client",
