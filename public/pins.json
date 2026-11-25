@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-25T11:24:30.7987019Z",
-  "catalog_revision": 314,
+  "generated_at": "2026-11-25T23:08:36.5757528Z",
+  "catalog_revision": 327,
   "count": 365,
   "pins": [
     {
@@ -172,20 +172,20 @@
     },
     {
       "id": "Amazon.SAM-CLI",
-      "version": "1.174.0",
+      "version": "1.174.1",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.174.0/AWS_SAM_CLI_64_PY3.msi",
-      "sha256": "834c12e952aa60a6e6a85645d861210fa6678653ae8ecbb3d827f73d2d05c57b",
-      "size": 99155968,
+      "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.174.1/AWS_SAM_CLI_64_PY3.msi",
+      "sha256": "a4053ca2c15ab99780508fc06f8f0f31189d56b694d2cb554b4850755551595d",
+      "size": 99209216,
       "signer_subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-20T10:06:56.3603107Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "AndreWiethoff.ExactAudioCopy",
@@ -486,19 +486,19 @@
     },
     {
       "id": "Beeper.Beeper",
-      "version": "4.3.340",
+      "version": "4.3.352",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.340.exe",
-      "sha256": "63afda9acfd1b4defbdb00eb6db58256ce5cd018267821a19bfa47e074cce23f",
-      "size": 209278336,
+      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.352.exe",
+      "sha256": "123e22514b02e3f62fff01523efc85e41be53d06b3d0a0f646f7405238a314af",
+      "size": 198679264,
       "signer_subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "02012E7B1DDA4CFF5B60DF695E8F4E0FC61601B9",
+      "signer_thumbprint": "900DC97867D6A86B5DAADF29E1B3B2662204CA48",
       "allowed_hosts": [
         "beeper-desktop.download.beeper.com"
       ],
-      "checked_at": "2026-11-21T09:54:50.0720291Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "BelledonneCommunications.Linphone",
@@ -631,19 +631,19 @@
     },
     {
       "id": "ByteDance.Trae",
-      "version": "3.6.20",
+      "version": "3.6.24",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/2.3.103560/win32/TRAE-Setup-x64.exe",
-      "sha256": "1667f054e74c4800917b605e09878eb6d0c5c28ae593a7f241bb4f7173ff2a9f",
-      "size": 438418480,
+      "url": "https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/2.3.106769/win32/TRAE-Setup-x64.exe",
+      "sha256": "81196b545e6fdc8ca15a08b08a465940ce081e4774008e86b5b310dc04253e30",
+      "size": 389671368,
       "signer_subject": "CN=SPRING (SG) PTE. LTD, O=SPRING (SG) PTE. LTD, L=Singapore, C=SG, SERIALNUMBER=202325236K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
       "signer_thumbprint": "54651F859DD2D0CA549DDEC1DCEE2683B975AECC",
       "allowed_hosts": [
         "lf-cdn.trae.ai"
       ],
-      "checked_at": "2026-11-20T10:06:56.3603107Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "calibre.calibre",
@@ -777,19 +777,19 @@
     },
     {
       "id": "Comfy.ComfyUI-Desktop",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.todesktop.com/241130tqe9q3y/Comfy%20Desktop%20Setup%201.2.1%20-%20Build%20261121uldis3ube-x64.exe",
-      "sha256": "2e54420af0c094040c902206e4ac66525736191ae3cebeab10045da3a6d2da43",
-      "size": 220792736,
+      "url": "https://download.todesktop.com/241130tqe9q3y/Comfy%20Desktop%20Setup%201.2.2%20-%20Build%20261125wtbx8bz4v-x64.exe",
+      "sha256": "8a77914b198043ef303f663d9f84051c92bbf72f70a74fa79834a52909748fae",
+      "size": 219956272,
       "signer_subject": "CN=Drip Artificial Inc, O=Drip Artificial Inc, L=San Francisco, S=California, C=US, SERIALNUMBER=7174150, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "signer_thumbprint": "1D402FC088C188225E418022A10EF440671A3728",
       "allowed_hosts": [
         "download.todesktop.com"
       ],
-      "checked_at": "2026-11-24T01:42:49.9208734Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "Corel.WinZip",
@@ -1311,19 +1311,19 @@
     },
     {
       "id": "ElectronicArts.EADesktop",
-      "version": "13.832.0.6345",
+      "version": "13.836.0.6349",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "x64",
-      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.832.0.6345-16707552.exe",
-      "sha256": "e403aaae8099ad8cd37db0219a0cb964e0589306929315d9f5c5c5f24b7eb7b2",
-      "size": 2141216,
+      "url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.836.0.6349-16817646.exe",
+      "sha256": "a9874bfe31f058559a5a85b3b0dc349d8bc7f21df9b86092938471264cab54fd",
+      "size": 2141208,
       "signer_subject": "CN=\"Electronic Arts, Inc.\", OU=EAC, O=\"Electronic Arts, Inc.\", L=Redwood City, S=California, C=US",
       "signer_thumbprint": "E57750ADD3C6687D4E52466A23DFE2A3C2A22BF8",
       "allowed_hosts": [
         "origin-a.akamaihd.net"
       ],
-      "checked_at": "2026-11-19T10:27:50.0698934Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "Elgato.CameraHub",
@@ -2481,20 +2481,20 @@
     },
     {
       "id": "KDE.Krita",
-      "version": "5.3.4.1",
+      "version": "5.3.5.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download.kde.org/stable/krita/5.3.4.1/krita-x64-5.3.4.1-setup.exe",
-      "sha256": "025523cf1751ff209faf7ecfe1cff851f2cdab64acb8c555b307b349ad56ce8f",
-      "size": 165471576,
+      "url": "https://download.kde.org/stable/krita/5.3.5/krita-x64-5.3.5-setup.exe",
+      "sha256": "c21930c3d409519a873d3de9793068df954c21a4209c3ac42ef7732f82beaf27",
+      "size": 165679320,
       "signer_subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
       "signer_thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "allowed_hosts": [
         "download.kde.org",
-        "mirror.lyrahosting.com"
+        "mirror.fcix.net"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "KDE.Okular",
@@ -2969,19 +2969,19 @@
     },
     {
       "id": "Microsoft.PowerAutomateDesktop",
-      "version": "2.74.00191.26302",
+      "version": "2.74.00215.26322",
       "arch": "neutral",
       "installer_type": "burn",
       "installer_arch": "x64",
-      "url": "https://download.microsoft.com/download/a26b0f48-a6c0-40f7-ae02-a27ec7766ce2/Setup.Microsoft.PowerAutomate.exe",
-      "sha256": "1c19cae25102d8b9b4c0155044c3d307c8466631bd7ee4658f1a623731651f90",
-      "size": 501433816,
+      "url": "https://download.microsoft.com/download/75e1d0c4-ee7a-4a64-9d48-877ac54848a0/Setup.Microsoft.PowerAutomate.exe",
+      "sha256": "dc1d1ea652ff667ed0bb5ad18763d122324eb2f7b054ddcebf9c612fed551779",
+      "size": 501117008,
       "signer_subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "signer_thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "signer_thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "allowed_hosts": [
         "download.microsoft.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "Microsoft.PowerBI",
@@ -3178,19 +3178,19 @@
     },
     {
       "id": "MiniTool.PartitionWizard.Free",
-      "version": "13.9",
+      "version": "14",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x86",
       "url": "https://cdn2.minitool.com/download-center/release/products/pw/current-release/pw-free-offline.exe",
-      "sha256": "220294067657bf439f82f8bd88a7f79a73c352e0414f109e26bb1237d43b494e",
-      "size": 77437936,
+      "sha256": "d69fc04a531379abd4b0f49f3479c3ffed99b288321b1c9cce0bbf222e8a920d",
+      "size": 89830912,
       "signer_subject": "CN=MiniTool Software Limited, O=MiniTool Software Limited, L=Kowloon, C=HK",
       "signer_thumbprint": "5530CC5794FFAEEFA06F26270E1171A033487FA7",
       "allowed_hosts": [
         "cdn2.minitool.com"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "Mirantis.Lens",
@@ -3755,20 +3755,20 @@
     },
     {
       "id": "Ocenaudio.Ocenaudio",
-      "version": "3.22.2",
+      "version": "3.22.3",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
       "url": "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.exe",
-      "sha256": "83e7c30bb82ba5cc3a41a4c330a90b8d4bf15692442413fd1c79e8ad9a9ee432",
-      "size": 60772912,
+      "sha256": "819d3092849c5fb31935b98eebb37cbf901ed4de2462499f553a485b45b0d2a8",
+      "size": 60876536,
       "signer_subject": "CN=Rui Seara Junior, O=Rui Seara Junior, S=Santa Catarina, C=BR",
       "signer_thumbprint": "3C106B30200122F2401BAF61EECB33D6E9592D59",
       "allowed_hosts": [
         "www.ocenaudio.com",
         "3c80cb58ada14a02e3df326d2a3095cf.r2.cloudflarestorage.com"
       ],
-      "checked_at": "2026-11-11T21:27:51.6491038Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "OmicronLab.Avro",
@@ -4260,19 +4260,19 @@
     },
     {
       "id": "Posit.RStudio",
-      "version": "2026.11.0+203",
+      "version": "2026.11.1+204",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.11.0-203.exe",
-      "sha256": "6ce262e3f6cb5da729bcfc9ba6f007024fbeadf610f4ec62fcdf219a3616efdf",
-      "size": 378329176,
+      "url": "https://download1.rstudio.org/electron/windows/RStudio-2026.11.1-204.exe",
+      "sha256": "0f3f7b6b20313a5f97b0ecaaa796ca0aeee4db128bab2170218ff2b23c7b2423",
+      "size": 378323696,
       "signer_subject": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
       "signer_thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
       "allowed_hosts": [
         "download1.rstudio.org"
       ],
-      "checked_at": "2026-11-13T09:38:58.78776Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "PostgreSQL.pgAdmin",
@@ -4585,19 +4585,19 @@
     },
     {
       "id": "Rakuten.Viber",
-      "version": "29.5.0.0",
+      "version": "29.7.0.0",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://download.cdn.viber.com/desktop/windows/29.5.0/ViberSetup.msi",
-      "sha256": "856a79e863729714170a60b40eee53414d17b1cab4c6b6a1077123dc47ff49e7",
-      "size": 151568384,
+      "url": "https://download.cdn.viber.com/desktop/windows/29.7.0/ViberSetup.msi",
+      "sha256": "161e91908e30db20902649bb4fe1df9cbd27e2cc30b06e1d7b4168b8950923ff",
+      "size": 151744512,
       "signer_subject": "CN=Viber Media S.a r.l., O=Viber Media S.a r.l., L=Luxembourg City, C=LU, SERIALNUMBER=B184956, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=LU",
       "signer_thumbprint": "E2A763BE530E1ABDADD811A4E80661220502FE67",
       "allowed_hosts": [
         "download.cdn.viber.com"
       ],
-      "checked_at": "2026-11-12T09:54:49.3674978Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "Rambox.Rambox",
@@ -5977,20 +5977,20 @@
     },
     {
       "id": "Zulip.Zulip",
-      "version": "5.14.2",
+      "version": "5.14.3",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/zulip/zulip-desktop/releases/download/v5.14.2/Zulip-Web-Setup-5.14.2.exe",
-      "sha256": "af0dc5cc02df300ad443ff54ded9eecd932bf051c75a5b2eff8cac50f4ac6101",
+      "url": "https://github.com/zulip/zulip-desktop/releases/download/v5.14.3/Zulip-Web-Setup-5.14.3.exe",
+      "sha256": "2e6aa87ae1a587e35c700dfbb6b0ad21bb0891ecf64e2635c2ba0878caf5ea72",
       "size": 820736,
       "signer_subject": "CN=\"Kandra Labs, Inc.\", O=\"Kandra Labs, Inc.\", L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "9221BAADA4B49618E4890C83D3A3AE9636F6FBF4",
+      "signer_thumbprint": "DCCB2C1515D947848AC3555A8C12312C455D6D50",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-14T19:13:26.0855903Z"
+      "checked_at": "2026-11-25T23:08:36.5757528Z"
     }
   ]
 }

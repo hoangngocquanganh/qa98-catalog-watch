@@ -1,18 +1,37 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-25T11:41:06.3343731Z",
+  "updated_at": "2026-11-25T23:09:13.0549046Z",
   "last_run": {
-    "at": "2026-11-25T11:41:06.3343731Z",
-    "seconds": 10,
-    "failing": 15,
-    "healed": 1,
-    "blocked": 14,
-    "downloads": 7,
-    "downloaded_mb": 167,
+    "at": "2026-11-25T23:09:13.0549046Z",
+    "seconds": 14,
+    "failing": 17,
+    "healed": 2,
+    "blocked": 15,
+    "downloads": 9,
+    "downloaded_mb": 323,
     "harvested": 0,
     "anchors": 463
   },
   "heals": [
+    {
+      "vkey": "w:dialpad.dialpad|2610.1.0",
+      "slug": "dialpad-dialpad",
+      "winget_id": "Dialpad.Dialpad",
+      "version": "2610.1.0",
+      "kind": "same_url_new_hash",
+      "url": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe",
+      "sha256": "004252e86018347d560f935405cdbb5508e8711496c9f9e90eb25eae0653c30f",
+      "size": 164097616,
+      "signer_subject": "CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US",
+      "signer_thumbprint": "2712C15AB5F5D45DA57799670FCBA39BE8B19F9F",
+      "final_host": "download.dialpad.com",
+      "hosts": [
+        "download.dialpad.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US\"; cùng chứng chỉ với bản tham chiếu 2610.1.0 (harvest, thumbprint trùng); 156.5 MB (tham chiếu 156.5 MB)",
+      "from_url": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe",
+      "checked_at": "2026-11-25T23:09:13.0549046Z"
+    },
     {
       "vkey": "w:wisecleaner.wisediskcleaner|12.0.1",
       "slug": "wisecleaner-wisediskcleaner",
@@ -45,6 +64,12 @@
       "slug": "anaconda-miniconda3",
       "version": "latest",
       "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
+    {
+      "vkey": "w:codeium.windsurf|2.3.15",
+      "slug": "codeium-windsurf",
+      "version": "2.3.15",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 2.3.15"
     },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
@@ -442,13 +467,13 @@
     },
     {
       "id": "w:amazon.sam-cli",
-      "version": "1.174.0",
-      "sha256": "834c12e952aa60a6e6a85645d861210fa6678653ae8ecbb3d827f73d2d05c57b",
-      "size": 99155968,
+      "version": "1.174.1",
+      "sha256": "a4053ca2c15ab99780508fc06f8f0f31189d56b694d2cb554b4850755551595d",
+      "size": 99209216,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS Serverless App Experience, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "6C4EF05967DB0A2C69871731EC9E515D7CD6E952",
       "source": "pin",
-      "at": "2026-11-20T10:06:56.3603107Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:andrewiethoff.exactaudiocopy",
@@ -862,13 +887,13 @@
     },
     {
       "id": "w:beeper.beeper",
-      "version": "4.3.340",
-      "sha256": "63afda9acfd1b4defbdb00eb6db58256ce5cd018267821a19bfa47e074cce23f",
-      "size": 209278336,
+      "version": "4.3.352",
+      "sha256": "123e22514b02e3f62fff01523efc85e41be53d06b3d0a0f646f7405238a314af",
+      "size": 198679264,
       "subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "thumbprint": "02012E7B1DDA4CFF5B60DF695E8F4E0FC61601B9",
+      "thumbprint": "900DC97867D6A86B5DAADF29E1B3B2662204CA48",
       "source": "pin",
-      "at": "2026-11-21T09:54:50.0720291Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:belledonnecommunications.linphone",
@@ -1032,13 +1057,13 @@
     },
     {
       "id": "w:bytedance.trae",
-      "version": "3.6.20",
-      "sha256": "1667f054e74c4800917b605e09878eb6d0c5c28ae593a7f241bb4f7173ff2a9f",
-      "size": 438418480,
+      "version": "3.6.24",
+      "sha256": "81196b545e6fdc8ca15a08b08a465940ce081e4774008e86b5b310dc04253e30",
+      "size": 389671368,
       "subject": "CN=SPRING (SG) PTE. LTD, O=SPRING (SG) PTE. LTD, L=Singapore, C=SG, SERIALNUMBER=202325236K, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG",
       "thumbprint": "54651F859DD2D0CA549DDEC1DCEE2683B975AECC",
       "source": "pin",
-      "at": "2026-11-20T10:06:56.3603107Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:calibre.calibre",
@@ -1292,13 +1317,13 @@
     },
     {
       "id": "w:comfy.comfyui-desktop",
-      "version": "1.2.1",
-      "sha256": "2e54420af0c094040c902206e4ac66525736191ae3cebeab10045da3a6d2da43",
-      "size": 220792736,
+      "version": "1.2.2",
+      "sha256": "8a77914b198043ef303f663d9f84051c92bbf72f70a74fa79834a52909748fae",
+      "size": 219956272,
       "subject": "CN=Drip Artificial Inc, O=Drip Artificial Inc, L=San Francisco, S=California, C=US, SERIALNUMBER=7174150, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "1D402FC088C188225E418022A10EF440671A3728",
       "source": "pin",
-      "at": "2026-11-24T01:42:49.9208734Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:comodo.comododragon",
@@ -1792,13 +1817,13 @@
     },
     {
       "id": "w:electronicarts.eadesktop",
-      "version": "13.832.0.6345",
-      "sha256": "e403aaae8099ad8cd37db0219a0cb964e0589306929315d9f5c5c5f24b7eb7b2",
-      "size": 2141216,
+      "version": "13.836.0.6349",
+      "sha256": "a9874bfe31f058559a5a85b3b0dc349d8bc7f21df9b86092938471264cab54fd",
+      "size": 2141208,
       "subject": "CN=\"Electronic Arts, Inc.\", OU=EAC, O=\"Electronic Arts, Inc.\", L=Redwood City, S=California, C=US",
       "thumbprint": "E57750ADD3C6687D4E52466A23DFE2A3C2A22BF8",
       "source": "pin",
-      "at": "2026-11-19T10:27:50.0698934Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:elgato.camerahub",
@@ -2532,13 +2557,13 @@
     },
     {
       "id": "w:kde.krita",
-      "version": "5.3.4.1",
-      "sha256": "025523cf1751ff209faf7ecfe1cff851f2cdab64acb8c555b307b349ad56ce8f",
-      "size": 165471576,
+      "version": "5.3.5.0",
+      "sha256": "c21930c3d409519a873d3de9793068df954c21a4209c3ac42ef7732f82beaf27",
+      "size": 165679320,
       "subject": "CN=K Desktop Environment e.V., O=K Desktop Environment e.V., S=Berlin, C=DE, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=DE, SERIALNUMBER=VR 31685",
       "thumbprint": "725E0BEF48AF51B490CC4BB92B2352DE5FB75475",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:kde.okular",
@@ -2842,13 +2867,13 @@
     },
     {
       "id": "w:microsoft.powerautomatedesktop",
-      "version": "2.74.00191.26302",
-      "sha256": "1c19cae25102d8b9b4c0155044c3d307c8466631bd7ee4658f1a623731651f90",
-      "size": 501433816,
+      "version": "2.74.00215.26322",
+      "sha256": "dc1d1ea652ff667ed0bb5ad18763d122324eb2f7b054ddcebf9c612fed551779",
+      "size": 501117008,
       "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
-      "thumbprint": "1D77A9B9E8FE2075D9AD15123257FB90DB0DA4A1",
+      "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:microsoft.powerbi",
@@ -3032,13 +3057,13 @@
     },
     {
       "id": "w:minitool.partitionwizard.free",
-      "version": "13.9",
-      "sha256": "220294067657bf439f82f8bd88a7f79a73c352e0414f109e26bb1237d43b494e",
-      "size": 77437936,
+      "version": "14",
+      "sha256": "d69fc04a531379abd4b0f49f3479c3ffed99b288321b1c9cce0bbf222e8a920d",
+      "size": 89830912,
       "subject": "CN=MiniTool Software Limited, O=MiniTool Software Limited, L=Kowloon, C=HK",
       "thumbprint": "5530CC5794FFAEEFA06F26270E1171A033487FA7",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:mirantis.lens",
@@ -3372,13 +3397,13 @@
     },
     {
       "id": "w:ocenaudio.ocenaudio",
-      "version": "3.22.2",
-      "sha256": "83e7c30bb82ba5cc3a41a4c330a90b8d4bf15692442413fd1c79e8ad9a9ee432",
-      "size": 60772912,
+      "version": "3.22.3",
+      "sha256": "819d3092849c5fb31935b98eebb37cbf901ed4de2462499f553a485b45b0d2a8",
+      "size": 60876536,
       "subject": "CN=Rui Seara Junior, O=Rui Seara Junior, S=Santa Catarina, C=BR",
       "thumbprint": "3C106B30200122F2401BAF61EECB33D6E9592D59",
       "source": "pin",
-      "at": "2026-11-11T21:27:51.6491038Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:omicronlab.avro",
@@ -3682,13 +3707,13 @@
     },
     {
       "id": "w:posit.rstudio",
-      "version": "2026.11.0+203",
-      "sha256": "6ce262e3f6cb5da729bcfc9ba6f007024fbeadf610f4ec62fcdf219a3616efdf",
-      "size": 378329176,
+      "version": "2026.11.1+204",
+      "sha256": "0f3f7b6b20313a5f97b0ecaaa796ca0aeee4db128bab2170218ff2b23c7b2423",
+      "size": 378323696,
       "subject": "CN=\"Posit Software, PBC\", O=\"Posit Software, PBC\", L=Boston, S=Massachusetts, C=US",
       "thumbprint": "9BE4A6DCE51771582CA2F2D954DD3E079D08F3CF",
       "source": "pin",
-      "at": "2026-11-13T09:38:58.78776Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:postgresql.pgadmin",
@@ -3882,13 +3907,13 @@
     },
     {
       "id": "w:rakuten.viber",
-      "version": "29.5.0.0",
-      "sha256": "856a79e863729714170a60b40eee53414d17b1cab4c6b6a1077123dc47ff49e7",
-      "size": 151568384,
+      "version": "29.7.0.0",
+      "sha256": "161e91908e30db20902649bb4fe1df9cbd27e2cc30b06e1d7b4168b8950923ff",
+      "size": 151744512,
       "subject": "CN=Viber Media S.a r.l., O=Viber Media S.a r.l., L=Luxembourg City, C=LU, SERIALNUMBER=B184956, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=LU",
       "thumbprint": "E2A763BE530E1ABDADD811A4E80661220502FE67",
       "source": "pin",
-      "at": "2026-11-12T09:54:49.3674978Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     },
     {
       "id": "w:rambox.rambox",
@@ -4742,13 +4767,13 @@
     },
     {
       "id": "w:zulip.zulip",
-      "version": "5.14.2",
-      "sha256": "af0dc5cc02df300ad443ff54ded9eecd932bf051c75a5b2eff8cac50f4ac6101",
+      "version": "5.14.3",
+      "sha256": "2e6aa87ae1a587e35c700dfbb6b0ad21bb0891ecf64e2635c2ba0878caf5ea72",
       "size": 820736,
       "subject": "CN=\"Kandra Labs, Inc.\", O=\"Kandra Labs, Inc.\", L=San Francisco, S=California, C=US",
-      "thumbprint": "9221BAADA4B49618E4890C83D3A3AE9636F6FBF4",
+      "thumbprint": "DCCB2C1515D947848AC3555A8C12312C455D6D50",
       "source": "pin",
-      "at": "2026-11-14T19:13:26.0855903Z"
+      "at": "2026-11-25T23:08:36.5757528Z"
     }
   ]
 }
