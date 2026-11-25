@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-24T20:23:50.5644296Z",
+  "checked_at": "2026-11-25T03:42:59.3808523Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,25 +12,25 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-24T20:23:50.5644296Z",
-  "catalog_revision": 306,
+  "last_probe_at": "2026-11-25T03:42:59.3808523Z",
+  "catalog_revision": 309,
   "total_keys": 1007,
-  "hidden": 13,
-  "cycle_position": 46,
+  "hidden": 15,
+  "cycle_position": 113,
   "error": "",
   "pages": {
-    "catalog_revision": 306,
+    "catalog_revision": 309,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-24T20:23:50.5644296Z",
-    "seconds": 595,
+    "at": "2026-11-25T03:42:59.3808523Z",
+    "seconds": 19,
     "probed": 100,
     "ok": 85,
-    "hashed": 42,
+    "hashed": 27,
     "transient": 0,
     "broken": 11,
     "hash_mismatch": 4,
@@ -70,13 +70,6 @@
       "slug": "discord",
       "winget_id": "Discord.Discord",
       "version": "1.0.9270",
-      "installer_type": "exe",
-      "silent_switch": false
-    },
-    {
-      "slug": "discord-discord-canary",
-      "winget_id": "Discord.Discord.Canary",
-      "version": "1.0.1358",
       "installer_type": "exe",
       "silent_switch": false
     },
@@ -319,6 +312,13 @@
       "silent_switch": true
     },
     {
+      "slug": "deepl-deepl",
+      "winget_id": "DeepL.DeepL",
+      "version": "26.11.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "dell-commandupdate",
       "winget_id": "Dell.CommandUpdate",
       "version": "5.7.0",
@@ -357,6 +357,13 @@
       "slug": "docker-dockerdesktop",
       "winget_id": "Docker.DockerDesktop",
       "version": "4.100.1",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "element-element",
+      "winget_id": "Element.Element",
+      "version": "1.12.36",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -494,16 +501,16 @@
       "silent_switch": true
     },
     {
-      "slug": "jetbrains-resharper",
-      "winget_id": "JetBrains.ReSharper",
-      "version": "2026.3.0.1",
+      "slug": "jetbrains-dotpeek",
+      "winget_id": "JetBrains.dotPeek",
+      "version": "2026.3.0.2",
       "installer_type": "exe",
       "silent_switch": true
     },
     {
-      "slug": "jetbrains-toolbox",
-      "winget_id": "JetBrains.Toolbox",
-      "version": "3.9.1.0",
+      "slug": "jetbrains-resharper",
+      "winget_id": "JetBrains.ReSharper",
+      "version": "2026.3.0.1",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -886,6 +893,13 @@
       "silent_switch": true
     },
     {
+      "slug": "postman-postman",
+      "winget_id": "Postman.Postman",
+      "version": "12.38.3",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
       "slug": "proton-protonmail",
       "winget_id": "Proton.ProtonMail",
       "version": "1.16.1",
@@ -1106,13 +1120,6 @@
       "slug": "wire-wire",
       "winget_id": "wire.wire",
       "version": "3.46.5382",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "yandex-browser",
-      "winget_id": "Yandex.Browser",
-      "version": "26.11.1.1124",
       "installer_type": "exe",
       "silent_switch": true
     }
