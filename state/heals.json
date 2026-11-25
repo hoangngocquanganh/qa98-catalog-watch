@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-24T23:50:30.0690964Z",
+  "updated_at": "2026-11-25T11:41:06.3343731Z",
   "last_run": {
-    "at": "2026-11-24T23:50:30.0690964Z",
-    "seconds": 15,
+    "at": "2026-11-25T11:41:06.3343731Z",
+    "seconds": 10,
     "failing": 15,
     "healed": 1,
     "blocked": 14,
@@ -812,13 +812,13 @@
     },
     {
       "id": "w:bambulab.bambustudio",
-      "version": "02.09.01.70",
-      "sha256": "63f0362a1a8af079f6bb07fd61a2f1d11911de40f68be4f71644aefb99327a80",
-      "size": 456458448,
+      "version": "02.09.02.62",
+      "sha256": "f2c038305625c59c3cdf1cb30da7e8625e9bf1b132cc1be7c58a9e1e3903d022",
+      "size": 391369848,
       "subject": "CN=\"Shanghai Lunkuo Technology Co., Ltd\", O=\"Shanghai Lunkuo Technology Co., Ltd\", L=Shanghai, S=Shanghai, C=CN, OID.1.3.6.1.4.1.311.60.2.1.2=Shanghai, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91310120MA1J0TKL4G, OID.2.5.4.15=Private Organization",
       "thumbprint": "3DCA1E74C49CDCD6B6F551500F6F7667AF28D8DB",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-25T11:24:30.7987019Z"
     },
     {
       "id": "w:bandicamcompany.bandicam",
@@ -872,13 +872,13 @@
     },
     {
       "id": "w:belledonnecommunications.linphone",
-      "version": "6.2.4",
-      "sha256": "5b275f52f52e22b2180ad33c0f9b46cbc01c87fbd5afc072ef72d16895f15d54",
-      "size": 111872264,
+      "version": "6.2.5",
+      "sha256": "3a2ce575902443be03b669cde6f271c2586a8fbcc89c063844848e62c2a3ca67",
+      "size": 111887568,
       "subject": "CN=Belledonne Communications, O=Belledonne Communications, STREET=3 AVENUE MARIE REYNOARD, PostalCode=38100, L=Grenoble, S=Auvergne-Rhone-Alpes, C=FR, SERIALNUMBER=520318437, OID.1.3.6.1.4.1.311.60.2.1.1=Grenoble, OID.1.3.6.1.4.1.311.60.2.1.2=Auvergne-Rhône-Alpes, OID.1.3.6.1.4.1.311.60.2.1.3=FR, OID.2.5.4.15=Private Organization",
       "thumbprint": "62259AA5866061168F1531378CF333E1C77FC5BC",
       "source": "pin",
-      "at": "2026-11-10T10:47:18.4487002Z"
+      "at": "2026-11-25T11:24:30.7987019Z"
     },
     {
       "id": "w:bellsoft.libericajdk.21",
@@ -3152,13 +3152,13 @@
     },
     {
       "id": "w:mozilla.thunderbird",
-      "version": "160.0",
-      "sha256": "27c75ecb78609505b1c89e139fa172b634c74eb1b5e823c49aefee15286111a0",
-      "size": 85257664,
+      "version": "161.0",
+      "sha256": "8575ec2d844f68065ce2b0e7f86d0f8c4027610ddd5193b6a7af796d4bb40306",
+      "size": 88784168,
       "subject": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US",
       "thumbprint": "6663D5C4FDAF9EFD5F823A26C9C410DC9928C44A",
       "source": "pin",
-      "at": "2026-11-13T11:46:19.970466Z"
+      "at": "2026-11-25T11:24:30.7987019Z"
     },
     {
       "id": "w:mozilla.vpn",
@@ -3592,13 +3592,13 @@
     },
     {
       "id": "w:pinokiocomputer.pinokio",
-      "version": "8.4.0",
-      "sha256": "753e4e7a51cad941407b4d1a0275f7517343a93e50e0a4d8f6d5127ab3d0ecad",
-      "size": 156457472,
+      "version": "8.4.1",
+      "sha256": "17d5dccd7bb08f851857cd28de8bc51181e0530da4423675c5d4a4ea33e10071",
+      "size": 156466920,
       "subject": "CN=SignPath Foundation, O=SignPath Foundation, L=Lewes, S=Delaware, C=US",
       "thumbprint": "0BB52F57C6B662F0651849858A6FCCC2C03ADA2D",
       "source": "pin",
-      "at": "2026-11-24T01:42:49.9208734Z"
+      "at": "2026-11-25T11:24:30.7987019Z"
     },
     {
       "id": "w:pinta.pinta",
@@ -3732,13 +3732,13 @@
     },
     {
       "id": "w:processingfoundation.processing",
-      "version": "4.5.7",
-      "sha256": "27f88ededad83edb04ae04f7ff1c32e02552104b18b439384ac378d2da28467a",
-      "size": 474120192,
+      "version": "4.5.8",
+      "sha256": "e9cdfe6e37dd3c1d9723b4db8a895988fdf9315bf67c6df02f3b2fd947d752f0",
+      "size": 474484736,
       "subject": "CN=Processing Foundation Inc., O=Processing Foundation Inc., L=New York, S=New York, C=US",
-      "thumbprint": "0C7DF19EA667C8C7AC970B5DBBD28705B0308D09",
+      "thumbprint": "0EE20CC07700C712ADC571DE45C8E65C1AD8765D",
       "source": "pin",
-      "at": "2026-11-12T09:54:49.3674978Z"
+      "at": "2026-11-25T11:24:30.7987019Z"
     },
     {
       "id": "w:projectlibre.projectlibre",
