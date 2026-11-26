@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "baseRevision": 327,
-  "generated_at": "2026-11-25T22:50:08.7985393Z",
+  "baseRevision": 338,
+  "generated_at": "2026-11-26T14:22:47.949913Z",
   "items": [
     {
       "key": "w:ablaze.floorp|latest",
@@ -705,18 +705,18 @@
       "evidence": ""
     },
     {
-      "key": "w:crystalrich.lockhunter|3.4.3.146",
-      "winget_id": "CrystalRich.LockHunter",
-      "slug": "crystalrich-lockhunter",
-      "version": "3.4.3.146",
+      "key": "w:emclient.emclient|11.0.1725.0",
+      "winget_id": "eMClient.eMClient",
+      "slug": "emclient-emclient",
+      "version": "11.0.1725.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/CrystalRich/LockHunter/3.4.3.146/CrystalRich.LockHunter.installer.yaml",
-        "https://lockhunter.com/assets/exe/lockhuntersetup_3-4-3.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/eMClient/eMClient/11.0.1725.0/eMClient.eMClient.installer.yaml",
+        "https://cdn-dist.emclient.com/dist/v11.0.1725/setup.msixbundle"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -724,19 +724,18 @@
       "evidence": ""
     },
     {
-      "key": "w:curl.curl|8.23.0.10",
-      "winget_id": "cURL.cURL",
-      "slug": "curl-curl",
-      "version": "8.23.0.10",
+      "key": "w:emoacht.monitorian|4.16.14",
+      "winget_id": "emoacht.Monitorian",
+      "slug": "emoacht-monitorian",
+      "version": "4.16.14",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/cURL/cURL/8.23.0.10/cURL.cURL.installer.yaml",
-        "https://curl.se/windows/dl-8.23.0_10/curl-8.23.0_10-win64-mingw.zip",
-        "https://curl.se/windows/dl-8.23.0_10/curl-8.23.0_10-win64a-mingw.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/emoacht/Monitorian/4.16.14/emoacht.Monitorian.installer.yaml",
+        "https://github.com/emoacht/Monitorian/releases/download/4.16.14-Installer/MonitorianInstaller41614.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -744,19 +743,18 @@
       "evidence": ""
     },
     {
-      "key": "w:cxworld.capframex|1.9.2.4",
-      "winget_id": "CXWorld.CapFrameX",
-      "slug": "cxworld-capframex",
-      "version": "1.9.2.4",
+      "key": "w:ente-io.auth-desktop|4.4.27",
+      "winget_id": "ente-io.auth-desktop",
+      "slug": "ente-io-auth-desktop",
+      "version": "4.4.27",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/CXWorld/CapFrameX/1.9.2.4/CXWorld.CapFrameX.installer.yaml",
-        "https://github.com/CXWorld/CapFrameX/releases/download/v1.9.2/release_1.9.2_installer.zip",
-        "https://github.com/CXWorld/CapFrameX/releases/download/v1.9.2/release_1.9.2_portable.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ente-io/auth-desktop/4.4.27/ente-io.auth-desktop.installer.yaml",
+        "https://github.com/ente-io/ente/releases/download/auth-v4.4.27/ente-auth-v4.4.27-installer.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -764,40 +762,20 @@
       "evidence": ""
     },
     {
-      "key": "w:cyanfish.naps2|8.6.1",
-      "winget_id": "Cyanfish.NAPS2",
-      "slug": "cyanfish-naps2",
-      "version": "8.6.1",
-      "arch": "neutral,x64",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/Cyanfish/NAPS2/8.6.1/Cyanfish.NAPS2.installer.yaml",
-        "https://github.com/cyanfish/naps2/releases/download/v8.6.1/naps2-8.6.1-win-x64.exe",
-        "https://github.com/cyanfish/naps2/releases/download/v8.6.1/naps2-8.6.1-win-arm64.exe",
-        "https://github.com/cyanfish/naps2/releases/download/v8.6.1/naps2-8.6.1-win-x64.msi",
-        "https://github.com/cyanfish/naps2/releases/download/v8.6.1/naps2-8.6.1-win-x64.msix"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:cyberghost.cyberghost|8.4.15.14706",
-      "winget_id": "CyberGhost.CyberGhost",
-      "slug": "cyberghost-cyberghost",
-      "version": "8.4.15.14706",
+      "key": "w:enzo1982.freac|1.1.7",
+      "winget_id": "enzo1982.freac",
+      "slug": "enzo1982-freac",
+      "version": "1.1.7",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/CyberGhost/CyberGhost/8.4.15.14706/CyberGhost.CyberGhost.installer.yaml",
-        "https://download.cyberghostvpn.com/windows/webinstaller/8/WebInstaller.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/enzo1982/freac/1.1.7/enzo1982.freac.installer.yaml",
+        "https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-windows-x64.zip",
+        "https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-windows-arm64.zip",
+        "https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-windows-i686.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -805,19 +783,18 @@
       "evidence": ""
     },
     {
-      "key": "w:cygwin.cygwin|3.7.0-0.590.gdae171e433cd",
-      "winget_id": "Cygwin.Cygwin",
-      "slug": "cygwin-cygwin",
-      "version": "3.7.0-0.590.gdae171e433cd",
+      "key": "w:epicgames.epicgameslauncher|1.3.210.0",
+      "winget_id": "EpicGames.EpicGamesLauncher",
+      "slug": "epicgames-epicgameslauncher",
+      "version": "1.3.210.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/c/Cygwin/Cygwin/3.7.0-0.590.gdae171e433cd/Cygwin.Cygwin.installer.yaml",
-        "https://cygwin.com/setup/setup-2.937.x86.exe",
-        "https://cygwin.com/setup/setup-2.937.x86_64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EpicGames/EpicGamesLauncher/1.3.210.0/EpicGames.EpicGamesLauncher.installer.yaml",
+        "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Windows/EpicInstaller-20.3.3.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -825,18 +802,18 @@
       "evidence": ""
     },
     {
-      "key": "w:darktable.darktable|5.6.2",
-      "winget_id": "darktable.darktable",
-      "slug": "darktable-darktable",
-      "version": "5.6.2",
+      "key": "w:eraser.eraser|6.2.2996",
+      "winget_id": "Eraser.Eraser",
+      "slug": "eraser-eraser",
+      "version": "6.2.2996",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/darktable/darktable/5.6.2/darktable.darktable.installer.yaml",
-        "https://github.com/darktable-org/darktable/releases/download/release-5.6.2/darktable-5.6.2-win64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Eraser/Eraser/6.2.2996/Eraser.Eraser.installer.yaml",
+        "https://sourceforge.net/projects/eraser/files/Eraser%206/6.2/Eraser%206.2.0.2996.exe/download"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -844,18 +821,18 @@
       "evidence": ""
     },
     {
-      "key": "w:dashlane.dashlane|6.2148.0.52031",
-      "winget_id": "Dashlane.Dashlane",
-      "slug": "dashlane-dashlane",
-      "version": "6.2148.0.52031",
+      "key": "w:erlang.erlangotp|29.1.3",
+      "winget_id": "Erlang.ErlangOTP",
+      "slug": "erlang-erlangotp",
+      "version": "29.1.3",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dashlane/Dashlane/6.2148.0.52031/Dashlane.Dashlane.installer.yaml",
-        "https://d3qm0vl2sdkrc.cloudfront.net/releases/6.2148.0/6.2148.0.52031/release/DashlaneInst.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Erlang/ErlangOTP/29.1.3/Erlang.ErlangOTP.installer.yaml",
+        "https://github.com/erlang/otp/releases/download/OTP-29.1.3/otp_win64_29.1.3.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -863,20 +840,18 @@
       "evidence": ""
     },
     {
-      "key": "w:daum.potplayer|26.10.21.0",
-      "winget_id": "Daum.PotPlayer",
-      "slug": "daum-potplayer",
-      "version": "26.10.21.0",
+      "key": "w:eset.security|20.0.0.0",
+      "winget_id": "ESET.Security",
+      "slug": "eset-nod32",
+      "version": "20.0.0.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Daum/PotPlayer/26.10.21.0/Daum.PotPlayer.installer.yaml",
-        "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe",
-        "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe",
-        "https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetupARM64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ESET/Security/20.0.0.0/ESET.Security.installer.yaml",
+        "https://download.eset.com/com/eset/tools/installers/live_eis/latest/eset_internet_security_live_installer.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -884,18 +859,18 @@
       "evidence": ""
     },
     {
-      "key": "w:daxstudio.daxstudio|3.6.2",
-      "winget_id": "DaxStudio.DaxStudio",
-      "slug": "daxstudio-daxstudio",
-      "version": "3.6.2",
+      "key": "w:espanso.espanso|2.4.1",
+      "winget_id": "Espanso.Espanso",
+      "slug": "espanso-espanso",
+      "version": "2.4.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DaxStudio/DaxStudio/3.6.2/DaxStudio.DaxStudio.installer.yaml",
-        "https://github.com/DaxStudio/DaxStudio/releases/download/v3.6.2/DaxStudio_3_6_2_setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Espanso/Espanso/2.4.1/Espanso.Espanso.installer.yaml",
+        "https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -903,20 +878,18 @@
       "evidence": ""
     },
     {
-      "key": "w:dbbrowserforsqlite.dbbrowserforsqlite|3.13.1",
-      "winget_id": "DBBrowserForSQLite.DBBrowserForSQLite",
-      "slug": "dbbrowserforsqlite-dbbrowserforsqlite",
-      "version": "3.13.1",
+      "key": "w:eteks.sweethome3d|7.5",
+      "winget_id": "eTeks.SweetHome3D",
+      "slug": "eteks-sweethome3d",
+      "version": "7.5",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DBBrowserForSQLite/DBBrowserForSQLite/3.13.1/DBBrowserForSQLite.DBBrowserForSQLite.installer.yaml",
-        "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win32.msi",
-        "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi",
-        "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-arm64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/eTeks/SweetHome3D/7.5/eTeks.SweetHome3D.installer.yaml",
+        "https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-7.5/SweetHome3D-7.5-windows.exe/download"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -924,38 +897,19 @@
       "evidence": ""
     },
     {
-      "key": "w:dbeaver.dbeaver.community|26.2.5",
-      "winget_id": "DBeaver.DBeaver.Community",
-      "slug": "dbeaver-dbeaver-community",
-      "version": "26.2.5",
-      "arch": "neutral,x64",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DBeaver/DBeaver/Community/26.2.5/DBeaver.DBeaver.Community.installer.yaml",
-        "https://github.com/dbeaver/dbeaver/releases/download/26.2.5/dbeaver-ce-26.2.5-windows-x86_64.exe",
-        "https://github.com/dbeaver/dbeaver/releases/download/26.2.5/dbeaver-ce-26.2.5-windows-aarch64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:debaucheeopensourcegroup.barrier|2.4.0",
-      "winget_id": "DebaucheeOpenSourceGroup.Barrier",
-      "slug": "debaucheeopensourcegroup-barrier",
-      "version": "2.4.0",
+      "key": "w:eugeny.tabby|1.0.238",
+      "winget_id": "Eugeny.Tabby",
+      "slug": "eugeny-tabby",
+      "version": "1.0.238",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DebaucheeOpenSourceGroup/Barrier/2.4.0/DebaucheeOpenSourceGroup.Barrier.installer.yaml",
-        "https://github.com/debauchee/barrier/releases/download/v2.4.0/BarrierSetup-2.4.0-release.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Eugeny/Tabby/1.0.238/Eugeny.Tabby.installer.yaml",
+        "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe",
+        "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -963,18 +917,18 @@
       "evidence": ""
     },
     {
-      "key": "w:deepl.deepl|26.11.1",
-      "winget_id": "DeepL.DeepL",
-      "slug": "deepl-deepl",
-      "version": "26.11.1",
+      "key": "w:evernote.evernote|11.44.6",
+      "winget_id": "Evernote.Evernote",
+      "slug": "evernote-evernote",
+      "version": "11.44.6",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DeepL/DeepL/26.11.1/DeepL.DeepL.installer.yaml",
-        "https://appdownload.deepl.com/windows/0install/DeepLSetup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Evernote/Evernote/11.44.6/Evernote.Evernote.installer.yaml",
+        "https://win.desktop.evernote.com/builds/Evernote-11.44.6-win-ddl-stage-20261123123207-a56163311f15eccea2754f37d8707b42a04262a2-setup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -982,18 +936,19 @@
       "evidence": ""
     },
     {
-      "key": "w:deezer.deezer|8.0.10",
-      "winget_id": "Deezer.Deezer",
-      "slug": "deezer-deezer",
-      "version": "8.0.10",
+      "key": "w:expressvpn.expressvpn|14.3.1+15429",
+      "winget_id": "ExpressVPN.ExpressVPN",
+      "slug": "expressvpn-expressvpn",
+      "version": "14.3.1+15429",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Deezer/Deezer/8.0.10/Deezer.Deezer.installer.yaml",
-        "https://www.deezer.com/desktop/update/artifact-win32-x86-8.0.10"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ExpressVPN/ExpressVPN/14.3.1+15429/ExpressVPN.ExpressVPN.installer.yaml",
+        "https://www.expressvpn.works/clients/windows/expressvpn-windows-x64-14.3.1.15429_release.exe",
+        "https://www.expressvpn.works/clients/windows/expressvpn-windows-arm64-14.3.1.15429_release.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1001,18 +956,18 @@
       "evidence": ""
     },
     {
-      "key": "w:dell.commandupdate.universal|5.7.0",
-      "winget_id": "Dell.CommandUpdate.Universal",
-      "slug": "dell-commandupdate-universal",
-      "version": "5.7.0",
+      "key": "w:ezwinports.make|4.4.1",
+      "winget_id": "ezwinports.make",
+      "slug": "ezwinports-make",
+      "version": "4.4.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dell/CommandUpdate/Universal/5.7.0/Dell.CommandUpdate.Universal.installer.yaml",
-        "https://dl.dell.com/FOLDER14424601M/1/Dell-Command-Update-Windows-Universal-Application_FGK9X_WIN64_5.7.0_A00.EXE"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ezwinports/make/4.4.1/ezwinports.make.installer.yaml",
+        "https://downloads.sourceforge.net/project/ezwinports/make-4.4.1-without-guile-w32-bin.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1020,18 +975,18 @@
       "evidence": ""
     },
     {
-      "key": "w:dell.commandupdate|5.7.0",
-      "winget_id": "Dell.CommandUpdate",
-      "slug": "dell-commandupdate",
-      "version": "5.7.0",
+      "key": "w:famatech.advancedipscanner|2.5.4594.1",
+      "winget_id": "Famatech.AdvancedIPScanner",
+      "slug": "famatech-advancedipscanner",
+      "version": "2.5.4594.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dell/CommandUpdate/5.7.0/Dell.CommandUpdate.installer.yaml",
-        "https://dl.dell.com/FOLDER14424243M/1/Dell-Command-Update-Application_RXT5N_WIN64_5.7.0_A00.EXE"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Famatech/AdvancedIPScanner/2.5.4594.1/Famatech.AdvancedIPScanner.installer.yaml",
+        "https://download.advanced-ip-scanner.com/download/files/Advanced_IP_Scanner_2.5.4594.1.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1039,18 +994,19 @@
       "evidence": ""
     },
     {
-      "key": "w:dell.displayandperipheralmanager|2.2.2.8",
-      "winget_id": "Dell.DisplayAndPeripheralManager",
-      "slug": "dell-displayandperipheralmanager",
-      "version": "2.2.2.8",
+      "key": "w:famatech.radmin.client|3.5.2.1",
+      "winget_id": "Famatech.Radmin.Client",
+      "slug": "famatech-radmin-client",
+      "version": "3.5.2.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dell/DisplayAndPeripheralManager/2.2.2.8/Dell.DisplayAndPeripheralManager.installer.yaml",
-        "https://dl.dell.com/FOLDER14474164M/1/DDPM-Setup_2.2.2.8.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Famatech/Radmin/Client/3.5.2.1/Famatech.Radmin.Client.installer.yaml",
+        "https://download.radmin.com/download/files/Radmin_Viewer_3.5.2.1_ML.msi",
+        "https://download.radmin.com/download/files/Radmin_Viewer_3.5.2.1_Port.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1058,18 +1014,18 @@
       "evidence": ""
     },
     {
-      "key": "w:dell.systemupdate|2.3.0.2",
-      "winget_id": "Dell.SystemUpdate",
-      "slug": "dell-systemupdate",
-      "version": "2.3.0.2",
+      "key": "w:famatech.radminvpn|2.1.4952.2",
+      "winget_id": "Famatech.RadminVPN",
+      "slug": "famatech-radminvpn",
+      "version": "2.1.4952.2",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dell/SystemUpdate/2.3.0.2/Dell.SystemUpdate.installer.yaml",
-        "https://downloads.dell.com/FOLDER15213121M/1/Systems-Management_Application_RDVR3_WN64_2.3.0.2_A00.EXE"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Famatech/RadminVPN/2.1.4952.2/Famatech.RadminVPN.installer.yaml",
+        "https://download.radmin-vpn.com/download/files/Radmin_VPN_2.1.4952.2.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1077,19 +1033,18 @@
       "evidence": ""
     },
     {
-      "key": "w:denoland.deno|2.9.8",
-      "winget_id": "DenoLand.Deno",
-      "slug": "denoland-deno",
-      "version": "2.9.8",
+      "key": "w:fastcopy.fastcopy|5.12.0",
+      "winget_id": "FastCopy.FastCopy",
+      "slug": "fastcopy-fastcopy",
+      "version": "5.12.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DenoLand/Deno/2.9.8/DenoLand.Deno.installer.yaml",
-        "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip",
-        "https://github.com/denoland/deno/releases/download/v2.9.8/deno-aarch64-pc-windows-msvc.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FastCopy/FastCopy/5.12.0/FastCopy.FastCopy.installer.yaml",
+        "https://fastcopy.jp/archive/FastCopy5.12.0_installer.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1097,19 +1052,19 @@
       "evidence": ""
     },
     {
-      "key": "w:derailed.k9s|0.51.0",
-      "winget_id": "Derailed.k9s",
-      "slug": "derailed-k9s",
-      "version": "0.51.0",
+      "key": "w:fastfetch-cli.fastfetch|2.71.0",
+      "winget_id": "Fastfetch-cli.Fastfetch",
+      "slug": "fastfetch-cli-fastfetch",
+      "version": "2.71.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Derailed/k9s/0.51.0/Derailed.k9s.installer.yaml",
-        "https://github.com/derailed/k9s/releases/download/v0.51.0/k9s_Windows_amd64.zip",
-        "https://github.com/derailed/k9s/releases/download/v0.51.0/k9s_Windows_arm64.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Fastfetch-cli/Fastfetch/2.71.0/Fastfetch-cli.Fastfetch.installer.yaml",
+        "https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-windows-amd64.zip",
+        "https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-windows-aarch64.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1117,19 +1072,18 @@
       "evidence": ""
     },
     {
-      "key": "w:derceg.explorer++|1.4.0",
-      "winget_id": "derceg.Explorer++",
-      "slug": "derceg-explorerpp",
-      "version": "1.4.0",
+      "key": "w:faststone.capture|11.3",
+      "winget_id": "FastStone.Capture",
+      "slug": "faststone-capture",
+      "version": "11.3",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/derceg/Explorer++/1.4.0/derceg.Explorer++.installer.yaml",
-        "https://github.com/derceg/explorerplusplus/releases/download/version-1.4.0/explorerpp_x86.zip",
-        "https://github.com/derceg/explorerplusplus/releases/download/version-1.4.0/explorerpp_x64.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FastStone/Capture/11.3/FastStone.Capture.installer.yaml",
+        "https://www.faststonesoft.net/DN/FSCaptureSetup113.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1137,18 +1091,18 @@
       "evidence": ""
     },
     {
-      "key": "w:descript.descript|2.22.1",
-      "winget_id": "Descript.Descript",
-      "slug": "descript-descript",
-      "version": "2.22.1",
+      "key": "w:faststone.viewer|8.5",
+      "winget_id": "FastStone.Viewer",
+      "slug": "faststone-viewer",
+      "version": "8.5",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Descript/Descript/2.22.1/Descript.Descript.installer.yaml",
-        "https://static-cdn.descript.com/desktop/win32/x64/Descript%20Setup%202.22.1.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FastStone/Viewer/8.5/FastStone.Viewer.installer.yaml",
+        "https://www.faststonesoft.net/DN/FSViewerSetup85.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1156,18 +1110,20 @@
       "evidence": ""
     },
     {
-      "key": "w:devcom.lua|5.4.6",
-      "winget_id": "DEVCOM.Lua",
-      "slug": "devcom-lua",
-      "version": "5.4.6",
+      "key": "w:ferdium.ferdium|7.2.3",
+      "winget_id": "Ferdium.Ferdium",
+      "slug": "ferdium-ferdium",
+      "version": "7.2.3",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DEVCOM/Lua/5.4.6/DEVCOM.Lua.installer.yaml",
-        "https://github.com/DevelopersCommunity/cmake-lua/releases/download/v5.4.6/Lua-5.4.6-win64.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Ferdium/Ferdium/7.2.3/Ferdium.Ferdium.installer.yaml",
+        "https://github.com/ferdium/ferdium-app/releases/download/v7.2.3/Ferdium-win-AutoSetup-7.2.3-ia32.exe",
+        "https://github.com/ferdium/ferdium-app/releases/download/v7.2.3/Ferdium-win-AutoSetup-7.2.3-x64.exe",
+        "https://github.com/ferdium/ferdium-app/releases/download/v7.2.3/Ferdium-win-AutoSetup-7.2.3-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1175,20 +1131,20 @@
       "evidence": ""
     },
     {
-      "key": "w:devolutions.remotedesktopmanager|2026.3.19.0",
-      "winget_id": "Devolutions.RemoteDesktopManager",
-      "slug": "devolutions-remotedesktopmanager",
-      "version": "2026.3.19.0",
+      "key": "w:figma.figma|126.12.8",
+      "winget_id": "Figma.Figma",
+      "slug": "figma-figma",
+      "version": "126.12.8",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Devolutions/RemoteDesktopManager/2026.3.19.0/Devolutions.RemoteDesktopManager.installer.yaml",
-        "https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.2026.3.19.0.msi",
-        "https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.win-x64.2026.3.19.0.msi",
-        "https://cdn.devolutions.net/download/Setup.RemoteDesktopManager.win-arm64.2026.3.19.0.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Figma/Figma/126.12.8/Figma.Figma.installer.yaml",
+        "https://desktop.figma.com/win/build/Figma-126.12.8.exe",
+        "https://desktop.figma.com/win-arm/build/Figma-126.12.8.exe",
+        "https://desktop.figma.com/win/build/Figma-126.12.8.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1196,40 +1152,18 @@
       "evidence": ""
     },
     {
-      "key": "w:devolutions.unigetui|2026.3.4",
-      "winget_id": "Devolutions.UniGetUI",
-      "slug": "devolutions-unigetui",
-      "version": "2026.3.4",
-      "arch": "neutral,x64",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Devolutions/UniGetUI/2026.3.4/Devolutions.UniGetUI.installer.yaml",
-        "https://cdn.devolutions.net/download/Devolutions.UniGetUI.win-x64.2026.3.4.0.exe",
-        "https://cdn.devolutions.net/download/Devolutions.UniGetUI.win-arm64.2026.3.4.0.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:devtoys-app.devtoys|2.0-preview.9",
-      "winget_id": "DevToys-app.DevToys",
-      "slug": "devtoys-app-devtoys",
-      "version": "2.0-preview.9",
+      "key": "w:file-new-project.eartrumpet|2.3.0.0",
+      "winget_id": "File-New-Project.EarTrumpet",
+      "slug": "file-new-project-eartrumpet",
+      "version": "2.3.0.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DevToys-app/DevToys/2.0-preview.9/DevToys-app.DevToys.installer.yaml",
-        "https://github.com/DevToys-app/DevToys/releases/download/v2.0.9.0/devtoys_win_x86.exe",
-        "https://github.com/DevToys-app/DevToys/releases/download/v2.0.9.0/devtoys_win_x64.exe",
-        "https://github.com/DevToys-app/DevToys/releases/download/v2.0.9.0/devtoys_win_arm64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/File-New-Project/EarTrumpet/2.3.0.0/File-New-Project.EarTrumpet.installer.yaml",
+        "https://install.eartrumpet.app/master/EarTrumpet.Package_2.3.0.0_x86.appxbundle"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1237,40 +1171,308 @@
       "evidence": ""
     },
     {
-      "key": "w:dialpad.dialpad|2610.1.0",
-      "winget_id": "Dialpad.Dialpad",
-      "slug": "dialpad-dialpad",
-      "version": "2610.1.0",
+      "key": "w:filescommunity.files|4.3.0.0",
+      "winget_id": "FilesCommunity.Files",
+      "slug": "filescommunity-files",
+      "version": "4.3.0.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FilesCommunity/Files/4.3.0.0/FilesCommunity.Files.installer.yaml",
+        "https://cdn.files.community/files/stable/Files.Package_4.3.0.0_Test/Files.Package_4.3.0.0_x64_arm64.msixbundle"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:finalwire.aida64.extreme|8.40",
+      "winget_id": "FinalWire.AIDA64.Extreme",
+      "slug": "finalwire-aida64-extreme",
+      "version": "8.40",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FinalWire/AIDA64/Extreme/8.40/FinalWire.AIDA64.Extreme.installer.yaml",
+        "https://download.aida64.com/aida64extreme840.exe",
+        "https://download.aida64.com/aida64extreme840.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:firealpaca.firealpaca|2.16.4",
+      "winget_id": "FireAlpaca.FireAlpaca",
+      "slug": "firealpaca-firealpaca",
+      "version": "2.16.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FireAlpaca/FireAlpaca/2.16.4/FireAlpaca.FireAlpaca.installer.yaml",
+        "https://firealpaca.com/download/win64"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:flameshot.flameshot|15.0.0",
+      "winget_id": "Flameshot.Flameshot",
+      "slug": "flameshot",
+      "version": "15.0.0",
+      "arch": "x64,neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi",
+        "https://dl.hoangngocquanganh.com/flameshot/15.0.0/Flameshot-15.0.0-win64.msi",
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Flameshot/Flameshot/15.0.0/Flameshot.Flameshot.installer.yaml"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:florianheidenreich.mp3tag|3.37",
+      "winget_id": "FlorianHeidenreich.Mp3tag",
+      "slug": "florianheidenreich-mp3tag",
+      "version": "3.37",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FlorianHeidenreich/Mp3tag/3.37/FlorianHeidenreich.Mp3tag.installer.yaml",
+        "https://download.mp3tag.de/mp3tag-v3.37-setup.exe",
+        "https://download.mp3tag.de/mp3tag-v3.37-x64-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:flow-launcher.flow-launcher|2.1.4",
+      "winget_id": "Flow-Launcher.Flow-Launcher",
+      "slug": "flow-launcher-flow-launcher",
+      "version": "2.1.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Flow-Launcher/Flow-Launcher/2.1.4/Flow-Launcher.Flow-Launcher.installer.yaml",
+        "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.1.4/Flow-Launcher-Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:flux.flux|4.150",
+      "winget_id": "flux.flux",
+      "slug": "flux-flux",
+      "version": "4.150",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/flux/flux/4.150/flux.flux.installer.yaml",
+        "https://justgetflux.com/flux-setup4-150.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:forceautohdr.7gxycn08|1.0.0.6",
+      "winget_id": "ForceAutoHDR.7gxycn08",
+      "slug": "forceautohdr-7gxycn08",
+      "version": "1.0.0.6",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/ForceAutoHDR/7gxycn08/1.0.0.6/ForceAutoHDR.7gxycn08.installer.yaml",
+        "https://github.com/7gxycn08/ForceAutoHDR/releases/download/v1.0.0.6/ForceAutoHDR-win64-setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:fork.fork|2.24.0",
+      "winget_id": "Fork.Fork",
+      "slug": "fork-fork",
+      "version": "2.24.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Fork/Fork/2.24.0/Fork.Fork.installer.yaml",
+        "https://cdn.fork.dev/win/Fork-2.24.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:fotor.fotor|4.1.2",
+      "winget_id": "fotor.fotor",
+      "slug": "fotor-fotor",
+      "version": "4.1.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/fotor/fotor/4.1.2/fotor.fotor.installer.yaml",
+        "https://static.fotor.com/static/desktop/Fotor4.1.2(202.1)_x64_official.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:foundry376.mailspring|1.26.2",
+      "winget_id": "Foundry376.Mailspring",
+      "slug": "foundry376-mailspring",
+      "version": "1.26.2",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Foundry376/Mailspring/1.26.2/Foundry376.Mailspring.installer.yaml",
+        "https://github.com/Foundry376/Mailspring/releases/download/1.26.2/MailspringSetup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:foxit.foxitreader|2026.2.1.39815",
+      "winget_id": "Foxit.FoxitReader",
+      "slug": "foxit-reader",
+      "version": "2026.2.1.39815",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Foxit/FoxitReader/2026.2.1.39815/Foxit.FoxitReader.installer.yaml",
+        "https://cdn01.foxitsoftware.com/product/reader/desktop/win/2026.2.1/FoxitPDFReader202621_L10N_Setup_x64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:foxit.phantompdf|14.0.8.33807",
+      "winget_id": "Foxit.PhantomPDF",
+      "slug": "foxit-phantompdf",
+      "version": "14.0.8.33807",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Foxit/PhantomPDF/14.0.8.33807/Foxit.PhantomPDF.installer.yaml",
+        "https://cdn01.foxitsoftware.com/product/Editor/desktop/win/14.0.8/FoxitPDFEditor1408_L10N_Setup_x64.exe",
+        "https://cdn01.foxitsoftware.com/product/Editor/desktop/win/14.0.8/FoxitPDFEditor1408_L10N_Setup_x64.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:freecad.freecad|1.1.4",
+      "winget_id": "FreeCAD.FreeCAD",
+      "slug": "freecad-freecad",
+      "version": "1.1.4",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FreeCAD/FreeCAD/1.1.4/FreeCAD.FreeCAD.installer.yaml",
+        "https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311-installer.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:freeplane.freeplane|1.13.5",
+      "winget_id": "Freeplane.Freeplane",
+      "slug": "freeplane-freeplane",
+      "version": "1.13.5",
       "arch": "neutral",
       "kind": "needs_review",
       "outcome": "HashMismatch",
       "reason": "sha256 mismatch",
-      "note": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe expected 7461d9b2fb1ddff36ea1e80ae3a55ccf0ec3d413ed07c3b218727d7ada1154f8 got 004252e86018347d560f935405cdbb5508e8711496c9f9e90eb25eae0653c30f",
+      "note": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download expected 4261a47714ae3fcff1cf6ce33f4b186a10bc66baed605b60d167c598a0290816 got d4b65a2c9ad12dcfa7ec34e7a9cca6d1a08d6f2e5e023691d726365e24644959",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dialpad/Dialpad/2610.1.0/Dialpad.Dialpad.installer.yaml",
-        "https://download.dialpad.com/win32/ia32/DialpadSetup.exe",
-        "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Freeplane/Freeplane/1.13.5/Freeplane.Freeplane.installer.yaml",
+        "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download"
       ],
       "candidate_version": "",
       "candidate_url": "",
       "candidate_sha256": "",
-      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dialpad/Dialpad/2610.1.0/Dialpad.Dialpad.installer.yaml winget manifest exists but installer does not serve the expected file"
+      "evidence": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Freeplane/Freeplane/1.13.5/Freeplane.Freeplane.installer.yaml winget manifest exists but installer does not serve the expected file"
     },
     {
-      "key": "w:digitalocean.doctl|2.7.0",
-      "winget_id": "DigitalOcean.Doctl",
-      "slug": "digitalocean-doctl",
-      "version": "2.7.0",
+      "key": "w:freetube.freetube|0.26.0",
+      "winget_id": "FreeTube.FreeTube",
+      "slug": "freetube-freetube",
+      "version": "0.26.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DigitalOcean/Doctl/2.7.0/DigitalOcean.Doctl.installer.yaml",
-        "https://github.com/digitalocean/doctl/releases/download/v2.7.0/doctl-2.7.0-windows-386.zip",
-        "https://github.com/digitalocean/doctl/releases/download/v2.7.0/doctl-2.7.0-windows-amd64.zip",
-        "https://github.com/digitalocean/doctl/releases/download/v2.7.0/doctl-2.7.0-windows-arm64.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FreeTube/FreeTube/0.26.0/FreeTube.FreeTube.installer.yaml",
+        "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-setup-x64.exe",
+        "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-setup-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1278,20 +1480,181 @@
       "evidence": ""
     },
     {
-      "key": "w:digitalscholar.zotero|10.0.8",
-      "winget_id": "DigitalScholar.Zotero",
-      "slug": "digitalscholar-zotero",
-      "version": "10.0.8",
+      "key": "w:fxsound.fxsound|1.2.16.0",
+      "winget_id": "FxSound.FxSound",
+      "slug": "fxsound-fxsound",
+      "version": "1.2.16.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/FxSound/FxSound/1.2.16.0/FxSound.FxSound.installer.yaml",
+        "https://github.com/fxsound2/fxsound-app/releases/download/latest/fxsound_setup.exe",
+        "https://github.com/fxsound2/fxsound-app/releases/download/latest/fxsound_setup.arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:ganttproject.ganttproject|3.3.3330",
+      "winget_id": "GanttProject.GanttProject",
+      "slug": "ganttproject-ganttproject",
+      "version": "3.3.3330",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GanttProject/GanttProject/3.3.3330/GanttProject.GanttProject.installer.yaml",
+        "https://dl.ganttproject.biz/ganttproject-3.3.3330/ganttproject-3.3.3330.msi",
+        "https://dl.ganttproject.biz/ganttproject-3.3.3330/ganttproject-3.3.3330.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:garena.garena|2.0.1909.2618",
+      "winget_id": "Garena.Garena",
+      "slug": "garena-garena",
+      "version": "2.0.1909.2618",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Garena/Garena/2.0.1909.2618/Garena.Garena.installer.yaml",
+        "https://cdn.gxx.garenanow.com/gxx/pc/installer/Garena-v2.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:geany.geany|2.1.0",
+      "winget_id": "Geany.Geany",
+      "slug": "geany-geany",
+      "version": "2.1.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Geany/Geany/2.1.0/Geany.Geany.installer.yaml",
+        "https://github.com/geany/geany/releases/download/2.1.0/geany-2.1_setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:geeks3d.furmark.2|2.10.2.0",
+      "winget_id": "Geeks3D.FurMark.2",
+      "slug": "geeks3d-furmark-2",
+      "version": "2.10.2.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Geeks3D/FurMark/2/2.10.2.0/Geeks3D.FurMark.2.installer.yaml",
+        "https://gpumagick.com/downloads/files/2025/fm2/2_10_dbc69dd0a08da5ff09169a4fc759ddaa/FurMark_2.10.2_win32.zip",
+        "https://gpumagick.com/downloads/files/2025/fm2/2_10_dbc69dd0a08da5ff09169a4fc759ddaa/FurMark_2.10.2_win64.zip",
+        "https://geeks3d.com/downloads/2025/fm2/2_10_dbc69dd0a08da5ff09169a4fc759ddaa/FurMark_2.10.2_Win64_Setup.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:geeksoftwaregmbh.pdf24creator|11.35.0",
+      "winget_id": "geeksoftwareGmbH.PDF24Creator",
+      "slug": "pdf24",
+      "version": "11.35.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/geeksoftwareGmbH/PDF24Creator/11.35.0/geeksoftwareGmbH.PDF24Creator.installer.yaml",
+        "https://download.pdf24.org/pdf24-creator-11.35.0-x64.msi",
+        "https://download.pdf24.org/pdf24-creator-11.35.0-x64.exe",
+        "https://download.pdf24.org/pdf24-creator-11.35.0-x86.msi",
+        "https://download.pdf24.org/pdf24-creator-11.35.0-x86.exe",
+        "https://download.pdf24.org/pdf24-creator-11.35.0-arm64.msi",
+        "https://download.pdf24.org/pdf24-creator-11.35.0-arm64.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:geekuninstaller.geekuninstaller|1.6.0.200",
+      "winget_id": "GeekUninstaller.GeekUninstaller",
+      "slug": "geekuninstaller-geekuninstaller",
+      "version": "1.6.0.200",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GeekUninstaller/GeekUninstaller/1.6.0.200/GeekUninstaller.GeekUninstaller.installer.yaml",
+        "https://geekuninstaller.com/geek.zip"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:genymobile.genymotion|3.10.0",
+      "winget_id": "Genymobile.Genymotion",
+      "slug": "genymobile-genymotion",
+      "version": "3.10.0",
+      "arch": "neutral",
+      "kind": "healthy",
+      "outcome": "Ok",
+      "reason": "",
+      "note": "",
+      "tried": [
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Genymobile/Genymotion/3.10.0/Genymobile.Genymotion.installer.yaml",
+        "https://dl.genymotion.com/releases/genymotion-3.10.0/genymotion-3.10.0.exe"
+      ],
+      "candidate_version": "",
+      "candidate_url": "",
+      "candidate_sha256": "",
+      "evidence": ""
+    },
+    {
+      "key": "w:genymobile.scrcpy|5.0.1",
+      "winget_id": "Genymobile.scrcpy",
+      "slug": "genymobile-scrcpy",
+      "version": "5.0.1",
       "arch": "neutral,x64",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DigitalScholar/Zotero/10.0.8/DigitalScholar.Zotero.installer.yaml",
-        "https://download.zotero.org/client/release/10.0.8/Zotero-10.0.8_win32_setup.exe",
-        "https://download.zotero.org/client/release/10.0.8/Zotero-10.0.8_x64_setup.exe",
-        "https://download.zotero.org/client/release/10.0.8/Zotero-10.0.8_arm64_setup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Genymobile/scrcpy/5.0.1/Genymobile.scrcpy.installer.yaml",
+        "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-win32-v5.0.1.zip",
+        "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-win64-v5.0.1.zip",
+        "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-winarm64-v5.0.1.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1299,18 +1662,18 @@
       "evidence": ""
     },
     {
-      "key": "w:discord.discord.canary|1.0.1362",
-      "winget_id": "Discord.Discord.Canary",
-      "slug": "discord-discord-canary",
-      "version": "1.0.1362",
+      "key": "w:geogebra.geometry|6.0.937",
+      "winget_id": "GeoGebra.Geometry",
+      "slug": "geogebra-geometry",
+      "version": "6.0.937",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Discord/Discord/Canary/1.0.1362/Discord.Discord.Canary.installer.yaml",
-        "https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.1362/DiscordCanarySetup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GeoGebra/Geometry/6.0.937/GeoGebra.Geometry.installer.yaml",
+        "https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-937-0.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1318,18 +1681,21 @@
       "evidence": ""
     },
     {
-      "key": "w:discord.discord|1.0.9270",
-      "winget_id": "Discord.Discord",
-      "slug": "discord",
-      "version": "1.0.9270",
+      "key": "w:gerardog.gsudo|2.6.1",
+      "winget_id": "gerardog.gsudo",
+      "slug": "gerardog-gsudo",
+      "version": "2.6.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Discord/Discord/1.0.9270/Discord.Discord.installer.yaml",
-        "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9270/DiscordSetup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/gerardog/gsudo/2.6.1/gerardog.gsudo.installer.yaml",
+        "https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.setup.x86.msi",
+        "https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.setup.x64.msi",
+        "https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.setup.arm64.msi",
+        "https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.portable.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1337,18 +1703,19 @@
       "evidence": ""
     },
     {
-      "key": "w:ditto.ditto|3.25.113.0",
-      "winget_id": "Ditto.Ditto",
-      "slug": "ditto-ditto",
-      "version": "3.25.113.0",
+      "key": "w:germancoding.synctrayzor|2.2.0",
+      "winget_id": "GermanCoding.SyncTrayzor",
+      "slug": "germancoding-synctrayzor",
+      "version": "2.2.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Ditto/Ditto/3.25.113.0/Ditto.Ditto.installer.yaml",
-        "https://github.com/sabrogden/Ditto/releases/download/3.25.113.0/DittoSetup_3_25_113_0.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GermanCoding/SyncTrayzor/2.2.0/GermanCoding.SyncTrayzor.installer.yaml",
+        "https://github.com/GermanCoding/SyncTrayzor/releases/download/v2.2.0/SyncTrayzorSetup-x64.exe",
+        "https://github.com/GermanCoding/SyncTrayzor/releases/download/v2.2.0/SyncTrayzorSetup-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1356,19 +1723,19 @@
       "evidence": ""
     },
     {
-      "key": "w:docker.dockercli|29.10.1",
-      "winget_id": "Docker.DockerCLI",
-      "slug": "docker-dockercli",
-      "version": "29.10.1",
+      "key": "w:ghisler.totalcommander|11.58.1",
+      "winget_id": "Ghisler.TotalCommander",
+      "slug": "ghisler-totalcommander",
+      "version": "11.58.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Docker/DockerCLI/29.10.1/Docker.DockerCLI.installer.yaml",
-        "https://download.docker.com/win/static/stable/x86_64/docker-29.10.1.zip",
-        "https://download.docker.com/win/static/stable/aarch64/docker-29.10.1.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Ghisler/TotalCommander/11.58.1/Ghisler.TotalCommander.installer.yaml",
+        "https://totalcommander.ch/115801/tcmd115801x32.exe",
+        "https://totalcommander.ch/115801/tcmd115801x64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1376,19 +1743,18 @@
       "evidence": ""
     },
     {
-      "key": "w:docker.dockerdesktop|4.100.1",
-      "winget_id": "Docker.DockerDesktop",
-      "slug": "docker-dockerdesktop",
-      "version": "4.100.1",
+      "key": "w:gianlucapernigotto.videomass|4.0.1",
+      "winget_id": "GianlucaPernigotto.Videomass",
+      "slug": "gianlucapernigotto-videomass",
+      "version": "4.0.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Docker/DockerDesktop/4.100.1/Docker.DockerDesktop.installer.yaml",
-        "https://desktop.docker.com/win/main/amd64/247138/Docker%20Desktop%20Installer.exe",
-        "https://desktop.docker.com/win/main/arm64/247138/Docker%20Desktop%20Installer.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GianlucaPernigotto/Videomass/4.0.1/GianlucaPernigotto.Videomass.installer.yaml",
+        "https://github.com/jeanslack/Videomass/releases/download/v4.0.1/Videomass-v4.0.1-x86_64-Setup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1396,19 +1762,18 @@
       "evidence": ""
     },
     {
-      "key": "w:doist.todoist|9.36.4",
-      "winget_id": "Doist.Todoist",
-      "slug": "doist-todoist",
-      "version": "9.36.4",
+      "key": "w:gimp.gimp.3|3.2.8.0",
+      "winget_id": "GIMP.GIMP.3",
+      "slug": "gimp",
+      "version": "3.2.8.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Doist/Todoist/9.36.4/Doist.Todoist.installer.yaml",
-        "https://electron-dl.todoist.net/windows/Todoist-win32-9.36.4-x64-latest.exe",
-        "https://electron-dl.todoist.net/windows/Todoist-win32-9.36.4-arm64-latest.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GIMP/GIMP/3/3.2.8.0/GIMP.GIMP.3.installer.yaml",
+        "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.8-setup.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1416,161 +1781,21 @@
       "evidence": ""
     },
     {
-      "key": "w:dominikreichl.keepass|2.61.1",
-      "winget_id": "DominikReichl.KeePass",
-      "slug": "dominikreichl-keepass",
-      "version": "2.61.1",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DominikReichl/KeePass/2.61.1/DominikReichl.KeePass.installer.yaml",
-        "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.61.1/KeePass-2.61.1-Setup.exe/download",
-        "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.61.1/KeePass-2.61.1.msi/download"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:dosbox.dosbox|0.74-3",
-      "winget_id": "DOSBox.DOSBox",
-      "slug": "dosbox-dosbox",
-      "version": "0.74-3",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DOSBox/DOSBox/0.74-3/DOSBox.DOSBox.installer.yaml",
-        "https://sourceforge.net/projects/dosbox/files/dosbox/0.74-3/DOSBox0.74-3-win32-installer.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:dotpdn.paintdotnet|5.2",
-      "winget_id": "dotPDN.PaintDotNet",
-      "slug": "paint-net",
-      "version": "5.2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/dotPDN/PaintDotNet/5.2/dotPDN.PaintDotNet.installer.yaml",
-        "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.install.x64.zip",
-        "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.winmsi.x64.zip",
-        "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.portable.x64.zip",
-        "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.install.arm64.zip",
-        "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.winmsi.arm64.zip",
-        "https://github.com/paintdotnet/release/releases/download/v5.2/paint.net.5.2.portable.arm64.zip"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:dropbox.dropbox|280.4.5053",
-      "winget_id": "Dropbox.Dropbox",
-      "slug": "dropbox-dropbox",
-      "version": "280.4.5053",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Dropbox/Dropbox/280.4.5053/Dropbox.Dropbox.installer.yaml",
-        "https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20280.4.5053%20Offline%20Installer.x86.exe",
-        "https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20280.4.5053%20Offline%20Installer.x64.exe",
-        "https://edge.dropboxstatic.com/dbx-releng/client/omaha4/Dropbox%20280.4.5053%20Offline%20Installer.arm64.exe",
-        "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20280.4.5053%20Enterprise%20Installer.x86.msi",
-        "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20280.4.5053%20Enterprise%20Installer.x64.msi",
-        "https://edge.dropboxstatic.com/dbx-releng/client/Dropbox%20280.4.5053%20Enterprise%20Installer.arm64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:ducfabulous.ultraviewer|6.6.124",
-      "winget_id": "DucFabulous.UltraViewer",
-      "slug": "ducfabulous-ultraviewer",
-      "version": "6.6.124",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DucFabulous/UltraViewer/6.6.124/DucFabulous.UltraViewer.installer.yaml",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_en.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_es.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_ir.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_fr.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_id.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_it.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_jp.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_kr.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_pl.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_pt.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_ro.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_ru.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_sr.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_th.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_tr.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_vi.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_cn.exe",
-        "https://dl2.ultraviewer.net/UltraViewer_setup_6.6_tw.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:duckduckgo.desktopbrowser|0.181.4.0",
-      "winget_id": "DuckDuckGo.DesktopBrowser",
-      "slug": "duckduckgo-desktopbrowser",
-      "version": "0.181.4.0",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DuckDuckGo/DesktopBrowser/0.181.4.0/DuckDuckGo.DesktopBrowser.installer.yaml",
-        "https://windows-cdn.duck.com/d5c04536-5379-4709-8d19-d13fdd456ff6/0.181.4.0/DuckDuckGo_0.181.4.0.msixbundle"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:duongdieuphap.imageglass|10.0.906.0",
-      "winget_id": "DuongDieuPhap.ImageGlass",
-      "slug": "duongdieuphap-imageglass",
-      "version": "10.0.906.0",
+      "key": "w:giorgiotani.peazip|11.4.0",
+      "winget_id": "Giorgiotani.Peazip",
+      "slug": "peazip",
+      "version": "11.4.0",
       "arch": "neutral,x64",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DuongDieuPhap/ImageGlass/10.0.906.0/DuongDieuPhap.ImageGlass.installer.yaml",
-        "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-x64.msix",
-        "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-arm64.msix"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Giorgiotani/Peazip/11.4.0/Giorgiotani.Peazip.installer.yaml",
+        "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip-11.4.0.WINDOWS.exe",
+        "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip_portable-11.4.0.WINDOWS.zip",
+        "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip-11.4.0.WIN64.exe",
+        "https://github.com/peazip/PeaZip/releases/download/11.4.0/peazip_portable-11.4.0.WIN64.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1578,20 +1803,19 @@
       "evidence": ""
     },
     {
-      "key": "w:duplicati.duplicati|2.4.1.0",
-      "winget_id": "Duplicati.Duplicati",
-      "slug": "duplicati-duplicati",
-      "version": "2.4.1.0",
+      "key": "w:git.git|2.56.1",
+      "winget_id": "Git.Git",
+      "slug": "git-git",
+      "version": "2.56.1",
       "arch": "neutral,x64",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/Duplicati/Duplicati/2.4.1.0/Duplicati.Duplicati.installer.yaml",
-        "https://github.com/duplicati/duplicati/releases/download/v2.4.1.0_stable_2026-10-29/duplicati-2.4.1.0_stable_2026-10-29-win-x86-gui.msi",
-        "https://github.com/duplicati/duplicati/releases/download/v2.4.1.0_stable_2026-10-29/duplicati-2.4.1.0_stable_2026-10-29-win-x64-gui.msi",
-        "https://github.com/duplicati/duplicati/releases/download/v2.4.1.0_stable_2026-10-29/duplicati-2.4.1.0_stable_2026-10-29-win-arm64-gui.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Git/Git/2.56.1/Git.Git.installer.yaml",
+        "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-64-bit.exe",
+        "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/Git-2.56.1-arm64.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1599,18 +1823,18 @@
       "evidence": ""
     },
     {
-      "key": "w:dwango.opentoonz|1.8.0",
-      "winget_id": "DWANGO.OpenToonz",
-      "slug": "dwango-opentoonz",
-      "version": "1.8.0",
+      "key": "w:gitbutler.gitbutler|0.22.3",
+      "winget_id": "GitButler.GitButler",
+      "slug": "gitbutler-gitbutler",
+      "version": "0.22.3",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DWANGO/OpenToonz/1.8.0/DWANGO.OpenToonz.installer.yaml",
-        "https://github.com/opentoonz/opentoonz/releases/download/v1.8.0/OpenToonzSetup.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitButler/GitButler/0.22.3/GitButler.GitButler.installer.yaml",
+        "https://releases.gitbutler.com/releases/release/0.22.3-3234/windows/x86_64/GitButler_0.22.3_x64_en-US.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1618,18 +1842,19 @@
       "evidence": ""
     },
     {
-      "key": "w:easeus.partitionmaster|2080",
-      "winget_id": "EaseUS.PartitionMaster",
-      "slug": "easeus-partitionmaster",
-      "version": "2080",
+      "key": "w:gitextensionsteam.gitextensions|7.2.1.7",
+      "winget_id": "GitExtensionsTeam.GitExtensions",
+      "slug": "gitextensionsteam-gitextensions",
+      "version": "7.2.1.7",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EaseUS/PartitionMaster/2080/EaseUS.PartitionMaster.installer.yaml",
-        "https://d1.easeus.com/epm/free/epm2080_free.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitExtensionsTeam/GitExtensions/7.2.1.7/GitExtensionsTeam.GitExtensions.installer.yaml",
+        "https://github.com/gitextensions/gitextensions/releases/download/v7.2.1/GitExtensions-x64-7.2.1.7-0aea2d6df.msi",
+        "https://github.com/gitextensions/gitextensions/releases/download/v7.2.1/GitExtensions-arm64-7.2.1.7-0aea2d6df.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1637,18 +1862,23 @@
       "evidence": ""
     },
     {
-      "key": "w:easeus.todobackup|17.5.0",
-      "winget_id": "EaseUS.TodoBackup",
-      "slug": "easeus-todobackup",
-      "version": "17.5.0",
+      "key": "w:github.cli|2.106.0",
+      "winget_id": "GitHub.cli",
+      "slug": "github-cli",
+      "version": "2.106.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EaseUS/TodoBackup/17.5.0/EaseUS.TodoBackup.installer.yaml",
-        "https://d1.easeus.com/tb/free/TodoBackup17.5.0_free.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitHub/cli/2.106.0/GitHub.cli.installer.yaml",
+        "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_windows_386.msi",
+        "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_windows_386.zip",
+        "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_windows_amd64.msi",
+        "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_windows_amd64.zip",
+        "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_windows_arm64.msi",
+        "https://github.com/cli/cli/releases/download/v2.106.0/gh_2.106.0_windows_arm64.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1656,18 +1886,21 @@
       "evidence": ""
     },
     {
-      "key": "w:ebkr.r2modman|3.2.21",
-      "winget_id": "ebkr.r2modman",
-      "slug": "ebkr-r2modman",
-      "version": "3.2.21",
+      "key": "w:github.copilotapp|1.5.0",
+      "winget_id": "GitHub.CopilotApp",
+      "slug": "github-copilotapp",
+      "version": "1.5.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ebkr/r2modman/3.2.21/ebkr.r2modman.installer.yaml",
-        "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.21/r2modman-Setup-3.2.21.exe"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitHub/CopilotApp/1.5.0/GitHub.CopilotApp.installer.yaml",
+        "https://github.com/github/app/releases/download/v1.5.0/GitHub-Copilot-windows-x64-setup.exe",
+        "https://github.com/github/app/releases/download/v1.5.0/GitHub-Copilot-windows-x64.msi",
+        "https://github.com/github/app/releases/download/v1.5.0/GitHub-Copilot-windows-arm64-setup.exe",
+        "https://github.com/github/app/releases/download/v1.5.0/GitHub-Copilot-windows-arm64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1675,18 +1908,21 @@
       "evidence": ""
     },
     {
-      "key": "w:eclipseadoptium.temurin.11.jdk|11.0.33.10",
-      "winget_id": "EclipseAdoptium.Temurin.11.JDK",
-      "slug": "eclipseadoptium-temurin-11-jdk",
-      "version": "11.0.33.10",
+      "key": "w:github.copilot|1.0.116",
+      "winget_id": "GitHub.Copilot",
+      "slug": "github-copilot",
+      "version": "1.0.116",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/11/JDK/11.0.33.10/EclipseAdoptium.Temurin.11.JDK.installer.yaml",
-        "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jdk_x64_windows_hotspot_11.0.33_10.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitHub/Copilot/1.0.116/GitHub.Copilot.installer.yaml",
+        "https://github.com/github/copilot-cli/releases/download/v1.0.116/copilot-x64.msi",
+        "https://github.com/github/copilot-cli/releases/download/v1.0.116/copilot-win32-x64.zip",
+        "https://github.com/github/copilot-cli/releases/download/v1.0.116/copilot-arm64.msi",
+        "https://github.com/github/copilot-cli/releases/download/v1.0.116/copilot-win32-arm64.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1694,18 +1930,21 @@
       "evidence": ""
     },
     {
-      "key": "w:eclipseadoptium.temurin.11.jre|11.0.33.10",
-      "winget_id": "EclipseAdoptium.Temurin.11.JRE",
-      "slug": "eclipseadoptium-temurin-11-jre",
-      "version": "11.0.33.10",
-      "arch": "neutral",
+      "key": "w:github.githubdesktop|3.7.0",
+      "winget_id": "GitHub.GitHubDesktop",
+      "slug": "github-githubdesktop",
+      "version": "3.7.0",
+      "arch": "neutral,x64",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/11/JRE/11.0.33.10/EclipseAdoptium.Temurin.11.JRE.installer.yaml",
-        "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitHub/GitHubDesktop/3.7.0/GitHub.GitHubDesktop.installer.yaml",
+        "https://desktop.githubusercontent.com/releases/3.7.0-f13859b6/GitHubDesktopSetup-x64.exe",
+        "https://desktop.githubusercontent.com/releases/3.7.0-f13859b6/GitHubDesktopSetup-x64.msi",
+        "https://desktop.githubusercontent.com/releases/3.7.0-f13859b6/GitHubDesktopSetup-arm64.exe",
+        "https://desktop.githubusercontent.com/releases/3.7.0-f13859b6/GitHubDesktopSetup-arm64.msi"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1713,18 +1952,21 @@
       "evidence": ""
     },
     {
-      "key": "w:eclipseadoptium.temurin.17.jdk|17.0.21.102",
-      "winget_id": "EclipseAdoptium.Temurin.17.JDK",
-      "slug": "eclipseadoptium-temurin-17-jdk",
-      "version": "17.0.21.102",
+      "key": "w:github.gitlfs|3.8.1",
+      "winget_id": "GitHub.GitLFS",
+      "slug": "github-gitlfs",
+      "version": "3.8.1",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/17/JDK/17.0.21.102/EclipseAdoptium.Temurin.17.JDK.installer.yaml",
-        "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jdk_x64_windows_hotspot_17.0.21.1_2.msi"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/GitHub/GitLFS/3.8.1/GitHub.GitLFS.installer.yaml",
+        "https://github.com/git-lfs/git-lfs/releases/download/v3.8.1/git-lfs-windows-v3.8.1.exe",
+        "https://github.com/git-lfs/git-lfs/releases/download/v3.8.1/git-lfs-windows-386-v3.8.1.zip",
+        "https://github.com/git-lfs/git-lfs/releases/download/v3.8.1/git-lfs-windows-amd64-v3.8.1.zip",
+        "https://github.com/git-lfs/git-lfs/releases/download/v3.8.1/git-lfs-windows-arm64-v3.8.1.zip"
       ],
       "candidate_version": "",
       "candidate_url": "",
@@ -1732,272 +1974,18 @@
       "evidence": ""
     },
     {
-      "key": "w:eclipseadoptium.temurin.17.jre|17.0.21.102",
-      "winget_id": "EclipseAdoptium.Temurin.17.JRE",
-      "slug": "eclipseadoptium-temurin-17-jre",
-      "version": "17.0.21.102",
+      "key": "w:gitify.gitify|8.3.0",
+      "winget_id": "Gitify.Gitify",
+      "slug": "gitify-gitify",
+      "version": "8.3.0",
       "arch": "neutral",
       "kind": "healthy",
       "outcome": "Ok",
       "reason": "",
       "note": "",
       "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/17/JRE/17.0.21.102/EclipseAdoptium.Temurin.17.JRE.installer.yaml",
-        "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21.1+2/OpenJDK17U-jre_x64_windows_hotspot_17.0.21.1_2.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:eclipseadoptium.temurin.21.jdk|21.0.13.102",
-      "winget_id": "EclipseAdoptium.Temurin.21.JDK",
-      "slug": "eclipseadoptium-temurin-21-jdk",
-      "version": "21.0.13.102",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/21/JDK/21.0.13.102/EclipseAdoptium.Temurin.21.JDK.installer.yaml",
-        "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jdk_x64_windows_hotspot_21.0.13.1_2.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:eclipseadoptium.temurin.21.jre|21.0.13.102",
-      "winget_id": "EclipseAdoptium.Temurin.21.JRE",
-      "slug": "eclipseadoptium-temurin-21-jre",
-      "version": "21.0.13.102",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/21/JRE/21.0.13.102/EclipseAdoptium.Temurin.21.JRE.installer.yaml",
-        "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13.1+2/OpenJDK21U-jre_x64_windows_hotspot_21.0.13.1_2.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:eclipseadoptium.temurin.8.jdk|8.0.512.9",
-      "winget_id": "EclipseAdoptium.Temurin.8.JDK",
-      "slug": "eclipseadoptium-temurin-8-jdk",
-      "version": "8.0.512.9",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/8/JDK/8.0.512.9/EclipseAdoptium.Temurin.8.JDK.installer.yaml",
-        "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jdk_x64_windows_hotspot_8u512b09.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:eclipseadoptium.temurin.8.jre|8.0.512.9",
-      "winget_id": "EclipseAdoptium.Temurin.8.JRE",
-      "slug": "eclipseadoptium-temurin-8-jre",
-      "version": "8.0.512.9",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EclipseAdoptium/Temurin/8/JRE/8.0.512.9/EclipseAdoptium.Temurin.8.JRE.installer.yaml",
-        "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u512-b09/OpenJDK8U-jre_x64_windows_hotspot_8u512b09.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:efibooteditor.efibooteditor|1.5.7",
-      "winget_id": "EFIBootEditor.EFIBootEditor",
-      "slug": "efibooteditor-efibooteditor",
-      "version": "1.5.7",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/EFIBootEditor/EFIBootEditor/1.5.7/EFIBootEditor.EFIBootEditor.installer.yaml",
-        "https://github.com/Neverous/efibooteditor/releases/download/v1.5.7/EFIBootEditor-v1.5.7-windows-2025-qt-6.11.0-MSVC.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:elastic.elasticsearch|7.16.3",
-      "winget_id": "Elastic.Elasticsearch",
-      "slug": "elastic-elasticsearch",
-      "version": "7.16.3",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Elastic/Elasticsearch/7.16.3/Elastic.Elasticsearch.installer.yaml",
-        "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.3.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:electronicarts.eadesktop|13.836.0.6349",
-      "winget_id": "ElectronicArts.EADesktop",
-      "slug": "electronicarts-eadesktop",
-      "version": "13.836.0.6349",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ElectronicArts/EADesktop/13.836.0.6349/ElectronicArts.EADesktop.installer.yaml",
-        "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-13.836.0.6349-16817646.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:element.element|1.12.36",
-      "winget_id": "Element.Element",
-      "slug": "element-element",
-      "version": "1.12.36",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Element/Element/1.12.36/Element.Element.installer.yaml",
-        "https://packages.element.io/desktop/install/win32/x64/Element%20Setup%201.12.36.exe",
-        "https://packages.element.io/desktop/install/win32/arm64/Element%20Setup%201.12.36.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:elementlabs.lmstudio|0.4.28+2",
-      "winget_id": "ElementLabs.LMStudio",
-      "slug": "elementlabs-lmstudio",
-      "version": "0.4.28+2",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/ElementLabs/LMStudio/0.4.28+2/ElementLabs.LMStudio.installer.yaml",
-        "https://installers.lmstudio.ai/win32/x64/0.4.28-2/LM-Studio-0.4.28-2-x64.exe",
-        "https://installers.lmstudio.ai/win32/arm64/0.4.28-2/LM-Studio-0.4.28-2-arm64.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:elgato.camerahub|2.3.0.7295",
-      "winget_id": "Elgato.CameraHub",
-      "slug": "elgato-camerahub",
-      "version": "2.3.0.7295",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Elgato/CameraHub/2.3.0.7295/Elgato.CameraHub.installer.yaml",
-        "https://edge.elgato.com/egc/windows/echw/2.3.0/CameraHub_2.3.0.7295_x64.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:elgato.streamdeck|7.6.1.23033",
-      "winget_id": "Elgato.StreamDeck",
-      "slug": "elgato-streamdeck",
-      "version": "7.6.1.23033",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Elgato/StreamDeck/7.6.1.23033/Elgato.StreamDeck.installer.yaml",
-        "https://edge.elgato.com/egc/windows/sd/Stream_Deck_7.6.1.23033.msi"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:elixir.elixir|1.20.5",
-      "winget_id": "Elixir.Elixir",
-      "slug": "elixir-elixir",
-      "version": "1.20.5",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/Elixir/Elixir/1.20.5/Elixir.Elixir.installer.yaml",
-        "https://github.com/elixir-lang/elixir/releases/download/v1.20.5/elixir-otp-29.exe"
-      ],
-      "candidate_version": "",
-      "candidate_url": "",
-      "candidate_sha256": "",
-      "evidence": ""
-    },
-    {
-      "key": "w:eloston.ungoogled-chromium|157.0.8103.78",
-      "winget_id": "eloston.ungoogled-chromium",
-      "slug": "eloston-ungoogled-chromium",
-      "version": "157.0.8103.78",
-      "arch": "neutral",
-      "kind": "healthy",
-      "outcome": "Ok",
-      "reason": "",
-      "note": "",
-      "tried": [
-        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/e/eloston/ungoogled-chromium/157.0.8103.78/eloston.ungoogled-chromium.installer.yaml",
-        "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_installer_x86.exe",
-        "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_windows_x86.zip",
-        "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_installer_x64.exe",
-        "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_windows_x64.zip",
-        "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_installer_arm64.exe",
-        "https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/157.0.8103.78-1.1/ungoogled-chromium_157.0.8103.78-1.1_windows_arm64.zip"
+        "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/g/Gitify/Gitify/8.3.0/Gitify.Gitify.installer.yaml",
+        "https://github.com/gitify-app/gitify/releases/download/v8.3.0/Gitify-Setup-8.3.0.exe"
       ],
       "candidate_version": "",
       "candidate_url": "",
