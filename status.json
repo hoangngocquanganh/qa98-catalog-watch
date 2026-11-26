@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-25T22:50:08.7985393Z",
+  "checked_at": "2026-11-26T04:33:16.1061394Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-25T22:50:08.7985393Z",
-  "catalog_revision": 327,
-  "total_keys": 1014,
-  "hidden": 15,
-  "cycle_position": 252,
+  "catalog_revision": 331,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 327,
+    "catalog_revision": 331,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
@@ -238,6 +238,13 @@
       "slug": "bluestack-bluestacks",
       "winget_id": "BlueStack.BlueStacks",
       "version": "5.22.166.1003",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "bytedance-capcut",
+      "winget_id": "ByteDance.CapCut",
+      "version": "9.9.0.4252",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -476,6 +483,13 @@
       "slug": "hp-supportassistant",
       "winget_id": "HP.SupportAssistant",
       "version": "9.55.10.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "insomnia-insomnia",
+      "winget_id": "Insomnia.Insomnia",
+      "version": "13.5.0",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1040,13 +1054,6 @@
       "silent_switch": true
     },
     {
-      "slug": "tonec-internetdownloadmanager",
-      "winget_id": "Tonec.InternetDownloadManager",
-      "version": "6.43.18",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
       "slug": "trimble-sketchup-2026",
       "winget_id": "Trimble.SketchUp.2026",
       "version": "26.2.243",
@@ -1126,6 +1133,25 @@
   ],
   "heals": [
     {
+      "vkey": "w:dialpad.dialpad|2610.1.0",
+      "slug": "dialpad-dialpad",
+      "winget_id": "Dialpad.Dialpad",
+      "version": "2610.1.0",
+      "kind": "same_url_new_hash",
+      "url": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe",
+      "sha256": "004252e86018347d560f935405cdbb5508e8711496c9f9e90eb25eae0653c30f",
+      "size": 164097616,
+      "signer_subject": "CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US",
+      "signer_thumbprint": "2712C15AB5F5D45DA57799670FCBA39BE8B19F9F",
+      "final_host": "download.dialpad.com",
+      "hosts": [
+        "download.dialpad.com"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US\"; cùng chứng chỉ với bản tham chiếu 2610.1.0 (harvest, thumbprint trùng); 156.5 MB (tham chiếu 156.5 MB)",
+      "from_url": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe",
+      "checked_at": "2026-11-25T23:09:13.0549046Z"
+    },
+    {
       "vkey": "w:wisecleaner.wisediskcleaner|12.0.1",
       "slug": "wisecleaner-wisediskcleaner",
       "winget_id": "WiseCleaner.WiseDiskCleaner",
@@ -1157,6 +1183,12 @@
       "slug": "anaconda-miniconda3",
       "version": "latest",
       "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
+    {
+      "vkey": "w:codeium.windsurf|2.3.15",
+      "slug": "codeium-windsurf",
+      "version": "2.3.15",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 2.3.15"
     },
     {
       "vkey": "w:delugeteam.deluge|2.2.0",
