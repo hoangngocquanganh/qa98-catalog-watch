@@ -1,37 +1,18 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-25T23:09:13.0549046Z",
+  "updated_at": "2026-11-26T11:00:02.1762972Z",
   "last_run": {
-    "at": "2026-11-25T23:09:13.0549046Z",
-    "seconds": 14,
-    "failing": 17,
-    "healed": 2,
+    "at": "2026-11-26T11:00:02.1762972Z",
+    "seconds": 13,
+    "failing": 16,
+    "healed": 1,
     "blocked": 15,
     "downloads": 9,
-    "downloaded_mb": 323,
+    "downloaded_mb": 176,
     "harvested": 0,
     "anchors": 463
   },
   "heals": [
-    {
-      "vkey": "w:dialpad.dialpad|2610.1.0",
-      "slug": "dialpad-dialpad",
-      "winget_id": "Dialpad.Dialpad",
-      "version": "2610.1.0",
-      "kind": "same_url_new_hash",
-      "url": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe",
-      "sha256": "004252e86018347d560f935405cdbb5508e8711496c9f9e90eb25eae0653c30f",
-      "size": 164097616,
-      "signer_subject": "CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US",
-      "signer_thumbprint": "2712C15AB5F5D45DA57799670FCBA39BE8B19F9F",
-      "final_host": "download.dialpad.com",
-      "hosts": [
-        "download.dialpad.com"
-      ],
-      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=\"Dialpad, Inc.\", O=\"Dialpad, Inc.\", L=San Ramon, S=California, C=US\"; cùng chứng chỉ với bản tham chiếu 2610.1.0 (harvest, thumbprint trùng); 156.5 MB (tham chiếu 156.5 MB)",
-      "from_url": "https://download.dialpad.com/win32/x64/DialpadSetup_x64.exe",
-      "checked_at": "2026-11-25T23:09:13.0549046Z"
-    },
     {
       "vkey": "w:wisecleaner.wisediskcleaner|12.0.1",
       "slug": "wisecleaner-wisediskcleaner",
@@ -49,7 +30,7 @@
       ],
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization\"; cùng chứng chỉ với bản tham chiếu 11.4.0 (pin, thumbprint trùng); 8.6 MB (tham chiếu 11.9 MB)",
       "from_url": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe",
-      "checked_at": "2026-11-24T12:35:18.1849453Z"
+      "checked_at": "2026-11-26T11:00:02.1762972Z"
     }
   ],
   "heal_blocked": [
@@ -387,13 +368,13 @@
     },
     {
       "id": "w:amazon.awscli",
-      "version": "2.42.2",
-      "sha256": "86fc85976eb10152b76ca716f7a93c950bdec3ee8af9d000c24ebad33d0e14bf",
-      "size": 51675136,
+      "version": "2.42.4",
+      "sha256": "65b82923074b154e3ec5375716b886e3c5bd5483714cc94ba1e67a04dfbb6715",
+      "size": 51687424,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "source": "pin",
-      "at": "2026-11-24T01:42:49.9208734Z"
+      "at": "2026-11-26T10:59:15.2436904Z"
     },
     {
       "id": "w:amazon.corretto.11.jdk",
@@ -1697,13 +1678,13 @@
     },
     {
       "id": "w:duplicati.duplicati",
-      "version": "2.4.1.0",
-      "sha256": "b5574d08baf9782f43b961741814a111c5dc3a19f4ebb3f49fb1556d0bae8a0d",
-      "size": 109589504,
+      "version": "2.4.1.1",
+      "sha256": "11f908cb3c52e50215b97217d06eca752224aeb3010cecfe2e9ed867af1e7d6a",
+      "size": 110167552,
       "subject": "OID.1.3.6.1.4.1.311.60.2.1.3=US, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.2.5.4.15=Private Organization, CN=Duplicati Inc., SERIALNUMBER=2952188, O=Duplicati Inc., L=San Francisco, S=California, C=US",
       "thumbprint": "7812DFC61915A4BFC049834D63DBD2E9340D82FC",
       "source": "pin",
-      "at": "2026-11-13T20:55:58.7181039Z"
+      "at": "2026-11-26T10:59:15.2436904Z"
     },
     {
       "id": "w:easeus.partitionmaster",
@@ -2737,13 +2718,13 @@
     },
     {
       "id": "w:microsoft.azd",
-      "version": "1.39.200",
-      "sha256": "03cd6cb722b78eb6bb02ea17a4f5ced49dbc54178ba8f9cd8dac6a4b8cdd94e6",
-      "size": 21364736,
+      "version": "1.40.100",
+      "sha256": "d53b2e7adbbe9516f4f36e596f48fa96d9a075112de572f27a6be2af402f8929",
+      "size": 21512192,
       "subject": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
       "thumbprint": "AB172913A2960A224809EE8A0C371CD47A079B72",
       "source": "pin",
-      "at": "2026-11-19T10:27:50.0698934Z"
+      "at": "2026-11-26T10:59:15.2436904Z"
     },
     {
       "id": "w:microsoft.directx",
@@ -3507,13 +3488,13 @@
     },
     {
       "id": "w:oracle.mysqlworkbench",
-      "version": "26.10.0",
-      "sha256": "399e325b2492827eba3772fc5f0535a618503630d89864bbc265869c2557def9",
-      "size": 273432576,
+      "version": "26.10.0.1",
+      "sha256": "8ddb5b4f7db249cdcd820e8fa373cb6d52b820a996ea490e324d013325c78bde",
+      "size": 287358976,
       "subject": "CN=\"Oracle America, Inc.\", O=\"Oracle America, Inc.\", L=Redwood City, S=California, C=US, SERIALNUMBER=2101822, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "E8A8C17382A6DE62A3B443565E4A96843F834656",
       "source": "pin",
-      "at": "2026-11-11T21:27:51.6491038Z"
+      "at": "2026-11-26T10:59:15.2436904Z"
     },
     {
       "id": "w:osgeo.qgis",
@@ -4157,13 +4138,13 @@
     },
     {
       "id": "w:sogou.sogouinput",
-      "version": "16.10.0.5858",
-      "sha256": "3821ed439cb924563adfc7706d55c49f6255a9ec2db8ced466889af36d3cbe6e",
-      "size": 220401832,
+      "version": "16.11.0.6387",
+      "sha256": "5005766151d4173afd7ffb54a43c76601c2d4afa788d56a088aca21aae1c30a4",
+      "size": 224776080,
       "subject": "CN=\"Beijing Sogou Technology Development Co., Ltd.\", O=\"Beijing Sogou Technology Development Co., Ltd.\", S=Beijing, C=CN",
       "thumbprint": "4326AD24950A7740528E89EE68967CEBF7E71115",
       "source": "pin",
-      "at": "2026-11-12T21:30:14.6167696Z"
+      "at": "2026-11-26T10:59:15.2436904Z"
     },
     {
       "id": "w:sogou.sogouwbinput",
@@ -4657,13 +4638,13 @@
     },
     {
       "id": "w:wondershare.filmora",
-      "version": "16.0.16.22973",
-      "sha256": "4da2beb1ceffd330465698a6211ffd7c8531d4edcab37ac33108889a0ca393e8",
-      "size": 912291848,
+      "version": "16.1.11.23256",
+      "sha256": "62d6d17a79a4997cf415ef6fded83834b2a8d543915d6144d18bfaa1b6df60db",
+      "size": 805564752,
       "subject": "CN=\"Wondershare Technology Group Co.,Ltd\", O=\"Wondershare Technology Group Co.,Ltd\", L=拉萨市, S=西藏自治区, C=CN, SERIALNUMBER=91540195754285145H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=西藏自治区, OID.1.3.6.1.4.1.311.60.2.1.3=CN",
       "thumbprint": "991BF8D37DC065AB5368E58506B9E0421A9D78FC",
       "source": "pin",
-      "at": "2026-11-13T09:38:58.78776Z"
+      "at": "2026-11-26T10:59:15.2436904Z"
     },
     {
       "id": "w:wondershare.uniconverter.15",
