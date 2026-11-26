@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-26T14:22:47.949913Z",
+  "checked_at": "2026-11-26T23:15:19.2155645Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,28 +12,28 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-26T14:22:47.949913Z",
-  "catalog_revision": 338,
+  "last_probe_at": "2026-11-26T23:15:19.2155645Z",
+  "catalog_revision": 341,
   "total_keys": 1014,
   "hidden": 15,
-  "cycle_position": 317,
+  "cycle_position": 383,
   "error": "",
   "pages": {
-    "catalog_revision": 338,
+    "catalog_revision": 341,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-26T14:22:47.949913Z",
-    "seconds": 78,
+    "at": "2026-11-26T23:15:19.2155645Z",
+    "seconds": 135,
     "probed": 100,
-    "ok": 84,
-    "hashed": 20,
+    "ok": 85,
+    "hashed": 29,
     "transient": 0,
     "broken": 12,
-    "hash_mismatch": 4,
+    "hash_mismatch": 3,
     "skipped": 0,
     "wide_outage": false
   },
@@ -769,7 +769,7 @@
     {
       "slug": "microsoft-windowsappruntime-1-8",
       "winget_id": "Microsoft.WindowsAppRuntime.1.8",
-      "version": "1.8.10",
+      "version": "1.8.12",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -860,7 +860,14 @@
     {
       "slug": "opera-opera",
       "winget_id": "Opera.Opera",
-      "version": "140.0.6074.36",
+      "version": "141.0.6089.28",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "opera-operagx",
+      "winget_id": "Opera.OperaGX",
+      "version": "140.0.6074.73",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1140,6 +1147,27 @@
   ],
   "heals": [
     {
+      "vkey": "w:freeplane.freeplane|1.13.5",
+      "slug": "freeplane-freeplane",
+      "winget_id": "Freeplane.Freeplane",
+      "version": "1.13.5",
+      "kind": "same_url_new_hash",
+      "url": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download",
+      "sha256": "d4b65a2c9ad12dcfa7ec34e7a9cca6d1a08d6f2e5e023691d726365e24644959",
+      "size": 110605856,
+      "signer_subject": "CN=Open Source Developer Dmitry Polivaev, O=Open Source Developer, L=Munich, S=Bavaria, C=DE",
+      "signer_thumbprint": "A81DBAE0287FECA724BEDC9FEB5797ACA026E6CB",
+      "final_host": "gigenet.dl.sourceforge.net",
+      "hosts": [
+        "sourceforge.net",
+        "downloads.sourceforge.net",
+        "gigenet.dl.sourceforge.net"
+      ],
+      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Open Source Developer Dmitry Polivaev, O=Open Source Developer, L=Munich, S=Bavaria, C=DE\"; cùng chứng chỉ với bản tham chiếu 1.13.5 (pin, thumbprint trùng); 105.5 MB (tham chiếu 105.5 MB)",
+      "from_url": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download",
+      "checked_at": "2026-11-26T23:03:04.0917061Z"
+    },
+    {
       "vkey": "w:wisecleaner.wisediskcleaner|12.0.1",
       "slug": "wisecleaner-wisediskcleaner",
       "winget_id": "WiseCleaner.WiseDiskCleaner",
@@ -1213,12 +1241,6 @@
       "slug": "razerinc-razerinstaller-synapse3",
       "version": "1.22.0.737",
       "reason_vi": "máy chủ chặn bot: tải được với User-Agent trình duyệt + Referer trang chủ: HTTP 403; winget-pkgs chưa có bản mới hơn 1.22.0.737"
-    },
-    {
-      "vkey": "w:startisback.startallback|3.9.29",
-      "slug": "startisback-startallback",
-      "version": "3.9.29",
-      "reason_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới): chưa có chữ ký tham chiếu của gói (bản tốt đã ghim) để đối chiếu; tệp mới ký bởi \"CN=IP Zinukhov Stanislav Igorevich, O=IP Zinukhov Stanislav Igorevich, L=Moscow, S=Moscow, C=RU\" (SHA-256 f6ac577834e948c0145cb7bfe5744ae029106bb108d3df909097fda4f170e7b8, 2.0 MB); winget-pkgs chưa có bản mới hơn 3.9.29"
     },
     {
       "vkey": "w:techpowerup.gpu-z|2.72.0",
