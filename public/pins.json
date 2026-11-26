@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-26T10:59:15.2436904Z",
-  "catalog_revision": 335,
+  "generated_at": "2026-11-26T23:02:42.4560885Z",
+  "catalog_revision": 341,
   "count": 365,
   "pins": [
     {
@@ -1461,19 +1461,19 @@
     },
     {
       "id": "Evernote.Evernote",
-      "version": "11.43.4",
+      "version": "11.44.6",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://win.desktop.evernote.com/builds/Evernote-11.43.4-win-ddl-stage-20261117143522-11b5f3b0761ea7657f2bb46621948c31a02fa37a-setup.exe",
-      "sha256": "e128c2dc8e645ad514355b8a9eb97261648a2272cbd212b6eb4f04bb54a691e2",
-      "size": 423562768,
+      "url": "https://win.desktop.evernote.com/builds/Evernote-11.44.6-win-ddl-stage-20261123123207-a56163311f15eccea2754f37d8707b42a04262a2-setup.exe",
+      "sha256": "cb701fbe81f7003ffbfda42cd49013fba5440ecb5925b4f8cf5c311a7418305c",
+      "size": 424919776,
       "signer_subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
       "signer_thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
       "allowed_hosts": [
         "win.desktop.evernote.com"
       ],
-      "checked_at": "2026-11-19T22:13:14.084533Z"
+      "checked_at": "2026-11-26T23:02:42.4560885Z"
     },
     {
       "id": "Famatech.AdvancedIPScanner",
@@ -1985,19 +1985,19 @@
     },
     {
       "id": "Grammarly.Grammarly",
-      "version": "1.2.314.2010",
+      "version": "1.2.315.2011",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://download-windows.grammarly.com/versions/1.2.314.2010/net10/x64/GrammarlyInstaller.exe",
-      "sha256": "50fa8312f342145b0209ddd9e1f192ea4246c323309f85c0c991448a0de82246",
-      "size": 89986256,
+      "url": "https://download-windows.grammarly.com/versions/1.2.315.2011/net10/x64/GrammarlyInstaller.exe",
+      "sha256": "a0a7bf69fec0cadb8276eb8d0d2b766c8084a41567a5f17686270ab855901a29",
+      "size": 84197808,
       "signer_subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
       "signer_thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
       "allowed_hosts": [
         "download-windows.grammarly.com"
       ],
-      "checked_at": "2026-11-21T09:54:50.0720291Z"
+      "checked_at": "2026-11-26T23:02:42.4560885Z"
     },
     {
       "id": "Greenshot.Greenshot",

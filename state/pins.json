@@ -1,21 +1,22 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T10:59:15.2436904Z",
-  "catalog_revision": 335,
+  "updated_at": "2026-11-26T23:02:42.4560885Z",
+  "catalog_revision": 341,
   "last_run": {
-    "at": "2026-11-26T10:59:15.2436904Z",
-    "seconds": 46,
-    "checked": 59,
-    "downloads": 17,
-    "downloaded_mb": 3001,
-    "pinned": 6,
-    "skipped": 53,
+    "at": "2026-11-26T23:02:42.4560885Z",
+    "seconds": 21,
+    "checked": 32,
+    "downloads": 11,
+    "downloaded_mb": 1675,
+    "pinned": 2,
+    "skipped": 30,
     "transient": 0,
     "deferred": 0,
     "skip_reasons": {
-      "neutral version but installer differs by arch …; split versions per arch to pin": 34,
-      "authenticode NotSigned": 11,
-      "installer type … not supported by pinned route": 8
+      "neutral version but installer differs by arch …; split versions per arch to pin": 13,
+      "authenticode NotSigned": 8,
+      "installer type … not supported by pinned route": 8,
+      "download redirect to non-https": 1
     }
   },
   "entries": [
@@ -894,7 +895,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -2291,11 +2292,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "charlesmilette.translucenttb|2026.2.0.0|neutral",
+      "key": "charlesmilette.translucenttb|2026.4.0.0|neutral",
       "status": "skipped",
       "reason": "installer type 'msix' not supported by pinned route",
       "id": "CharlesMilette.TranslucentTB",
-      "version": "2026.2.0.0",
+      "version": "2026.4.0.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -2305,7 +2306,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-24T23:30:10.3372444Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -3593,11 +3594,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "digitalocean.doctl|2.10.0|neutral",
+      "key": "digitalocean.doctl|2.11.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "DigitalOcean.Doctl",
-      "version": "2.10.0",
+      "version": "2.11.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -3607,7 +3608,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-26T10:59:15.2436904Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -3808,7 +3809,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -4375,7 +4376,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -4551,22 +4552,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "evernote.evernote|11.43.4|neutral",
+      "key": "evernote.evernote|11.44.6|neutral",
       "status": "pinned",
       "id": "Evernote.Evernote",
-      "version": "11.43.4",
+      "version": "11.44.6",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://win.desktop.evernote.com/builds/Evernote-11.43.4-win-ddl-stage-20261117143522-11b5f3b0761ea7657f2bb46621948c31a02fa37a-setup.exe",
-      "sha256": "e128c2dc8e645ad514355b8a9eb97261648a2272cbd212b6eb4f04bb54a691e2",
-      "size": 423562768,
+      "url": "https://win.desktop.evernote.com/builds/Evernote-11.44.6-win-ddl-stage-20261123123207-a56163311f15eccea2754f37d8707b42a04262a2-setup.exe",
+      "sha256": "cb701fbe81f7003ffbfda42cd49013fba5440ecb5925b4f8cf5c311a7418305c",
+      "size": 424919776,
       "signer_subject": "CN=Evernote Corporation, SERIALNUMBER=3882795, OID.2.5.4.15=Private Organization, O=Evernote Corporation, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US, L=San Diego, S=California, C=US",
       "signer_thumbprint": "980E273B2DBC256396E334532EB8416E1F9B3151",
       "allowed_hosts": [
         "win.desktop.evernote.com"
       ],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -6215,22 +6216,22 @@
       "silent_check": "ok"
     },
     {
-      "key": "grammarly.grammarly|1.2.314.2010|neutral",
+      "key": "grammarly.grammarly|1.2.315.2011|neutral",
       "status": "pinned",
       "id": "Grammarly.Grammarly",
-      "version": "1.2.314.2010",
+      "version": "1.2.315.2011",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://download-windows.grammarly.com/versions/1.2.314.2010/net10/x64/GrammarlyInstaller.exe",
-      "sha256": "50fa8312f342145b0209ddd9e1f192ea4246c323309f85c0c991448a0de82246",
-      "size": 89986256,
+      "url": "https://download-windows.grammarly.com/versions/1.2.315.2011/net10/x64/GrammarlyInstaller.exe",
+      "sha256": "a0a7bf69fec0cadb8276eb8d0d2b766c8084a41567a5f17686270ab855901a29",
+      "size": 84197808,
       "signer_subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
       "signer_thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
       "allowed_hosts": [
         "download-windows.grammarly.com"
       ],
-      "checked_at": "2026-11-21T09:54:50.0720291Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -6725,7 +6726,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -7925,7 +7926,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -11058,11 +11059,11 @@
       "silent_check": "exe"
     },
     {
-      "key": "microsoft.windowsappruntime.1.8|1.8.10|neutral",
+      "key": "microsoft.windowsappruntime.1.8|1.8.12|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Microsoft.WindowsAppRuntime.1.8",
-      "version": "1.8.10",
+      "version": "1.8.12",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -11072,7 +11073,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-25T23:08:36.5757528Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -12949,7 +12950,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -13244,11 +13245,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "opentofu.tofu|1.13.9|neutral",
+      "key": "opentofu.tofu|1.13.10|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "OpenTofu.Tofu",
-      "version": "1.13.9",
+      "version": "1.13.10",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13258,7 +13259,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-25T11:24:30.7987019Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -13312,7 +13313,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -13373,11 +13374,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "opera.operagx|140.0.6074.48|neutral",
+      "key": "opera.operagx|140.0.6074.73|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (x64,x86); split versions per arch to pin",
       "id": "Opera.OperaGX",
-      "version": "140.0.6074.48",
+      "version": "140.0.6074.73",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13387,15 +13388,15 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
-      "key": "opera.opera|140.0.6074.36|neutral",
+      "key": "opera.opera|141.0.6089.28|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64,x86); split versions per arch to pin",
       "id": "Opera.Opera",
-      "version": "140.0.6074.36",
+      "version": "141.0.6089.28",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -13405,7 +13406,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-26T10:59:15.2436904Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -13555,7 +13556,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -14228,7 +14229,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -14246,7 +14247,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -14305,11 +14306,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "prefix-dev.pixi|0.84.2|neutral",
+      "key": "prefix-dev.pixi|0.85.0|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "prefix-dev.pixi",
-      "version": "0.84.2",
+      "version": "0.85.0",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -14319,7 +14320,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T20:34:39.3887204Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -15267,7 +15268,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -16152,7 +16153,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -16210,7 +16211,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -16523,7 +16524,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -16634,7 +16635,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -16688,7 +16689,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -16872,7 +16873,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -17036,7 +17037,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -17146,7 +17147,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -17164,7 +17165,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "exe"
     },
     {
@@ -17182,7 +17183,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -17469,11 +17470,11 @@
       "silent_check": "ok"
     },
     {
-      "key": "thebrowsercompany.arc|1.133.1.2|neutral",
+      "key": "thebrowsercompany.arc|1.133.2.2|neutral",
       "status": "skipped",
       "reason": "neutral version but installer differs by arch (arm64,x64); split versions per arch to pin",
       "id": "TheBrowserCompany.Arc",
-      "version": "1.133.1.2",
+      "version": "1.133.2.2",
       "arch": "neutral",
       "installer_type": "",
       "installer_arch": "",
@@ -17483,7 +17484,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-21T09:54:50.0720291Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
@@ -17501,7 +17502,7 @@
       "signer_subject": "",
       "signer_thumbprint": "",
       "allowed_hosts": [],
-      "checked_at": "2026-11-19T22:13:14.084533Z",
+      "checked_at": "2026-11-26T23:02:42.4560885Z",
       "silent_check": "ok"
     },
     {
