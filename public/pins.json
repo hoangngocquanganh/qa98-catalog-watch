@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-26T23:02:42.4560885Z",
-  "catalog_revision": 341,
+  "generated_at": "2026-11-27T10:57:12.8664958Z",
+  "catalog_revision": 346,
   "count": 365,
   "pins": [
     {
@@ -1773,19 +1773,19 @@
     },
     {
       "id": "GitHub.GitHubDesktop",
-      "version": "3.7.0",
+      "version": "3.7.1",
       "arch": "x64",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://desktop.githubusercontent.com/releases/3.7.0-f13859b6/GitHubDesktopSetup-x64.msi",
-      "sha256": "a8fa288473c618fba1049e89d220a6a12b444b4bd388d86b35a6da261ef4577c",
-      "size": 269901824,
+      "url": "https://desktop.githubusercontent.com/releases/3.7.1-534cde99/GitHubDesktopSetup-x64.msi",
+      "sha256": "75aa838ab0956a5c28e4f34a3bfee26d5e7eed115000146513766c2d1a2f06a1",
+      "size": 288919552,
       "signer_subject": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "B841B4B7C73B6D4A0959765F47BE5411C7CB337B",
+      "signer_thumbprint": "FD154DADBDD9D4020907754052099CF42DE1E96A",
       "allowed_hosts": [
         "desktop.githubusercontent.com"
       ],
-      "checked_at": "2026-11-20T10:06:56.3603107Z"
+      "checked_at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "Glarysoft.GlaryUtilities",
@@ -1985,19 +1985,19 @@
     },
     {
       "id": "Grammarly.Grammarly",
-      "version": "1.2.315.2011",
+      "version": "1.2.316.2014",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x86",
-      "url": "https://download-windows.grammarly.com/versions/1.2.315.2011/net10/x64/GrammarlyInstaller.exe",
-      "sha256": "a0a7bf69fec0cadb8276eb8d0d2b766c8084a41567a5f17686270ab855901a29",
-      "size": 84197808,
+      "url": "https://download-windows.grammarly.com/versions/1.2.316.2014/net10/x64/GrammarlyInstaller.exe",
+      "sha256": "495b24095db53d47deadc93c847e56ceba62d312b88652c5acd2e96595bcfd11",
+      "size": 84059072,
       "signer_subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
       "signer_thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
       "allowed_hosts": [
         "download-windows.grammarly.com"
       ],
-      "checked_at": "2026-11-26T23:02:42.4560885Z"
+      "checked_at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "Greenshot.Greenshot",
@@ -3194,19 +3194,19 @@
     },
     {
       "id": "Mirantis.Lens",
-      "version": "2026.11.91422-latest",
+      "version": "2026.11.261430-latest",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.11.91422-latest.exe",
-      "sha256": "948a47b3977cd0ba5415ccab7324875ebb7c169cde32e3da3c19595bb268d1c4",
-      "size": 209157256,
+      "url": "https://downloads.k8slens.dev/ide/Lens%20Setup%202026.11.261430-latest.exe",
+      "sha256": "b829c38a9b20f99600b05d4b77a72f822fb21c3f98037aadf304d9eb9468b9e9",
+      "size": 246529744,
       "signer_subject": "CN=\"Mirantis, Inc.\", O=\"Mirantis, Inc.\", L=Campbell, S=California, C=US",
-      "signer_thumbprint": "6D9CD35E51144E1DA02D3E72F6A6046F4E975F98",
+      "signer_thumbprint": "2F1A794EF5602F1E2E96464C592C6EC14C4D75AE",
       "allowed_hosts": [
         "downloads.k8slens.dev"
       ],
-      "checked_at": "2026-11-10T20:55:38.9607764Z"
+      "checked_at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "mIRC.mIRC",
@@ -5944,20 +5944,20 @@
     },
     {
       "id": "Zettlr.Zettlr",
-      "version": "4.10.0",
+      "version": "4.11.0",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-x64.exe",
-      "sha256": "80fe5a7ce88ce6b47bd71a669ac7a3cb63b2c0a868daddcfcd29e052056eb423",
-      "size": 166182008,
+      "url": "https://github.com/Zettlr/Zettlr/releases/download/v4.11.0/Zettlr-4.11.0-x64.exe",
+      "sha256": "c2a1cdac2d8b80e188470ff7fbd9f51626cab3fa602d3b297b20110a561fb984",
+      "size": 166195344,
       "signer_subject": "CN=Benjamin Milburn-Town, O=Benjamin Milburn-Town, L=Richmond, S=Virginia, C=US",
-      "signer_thumbprint": "F847EF2E7AC30EFC291E841F8B345B27622C1284",
+      "signer_thumbprint": "9AA1C8B4198F13C840650A204564DF9AD153B23D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-14T09:02:40.6390042Z"
+      "checked_at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "ZulerTechnology.DeskIn",

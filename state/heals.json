@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T23:03:04.0917061Z",
+  "updated_at": "2026-11-27T10:57:32.909073Z",
   "last_run": {
-    "at": "2026-11-26T23:03:04.0917061Z",
-    "seconds": 14,
+    "at": "2026-11-27T10:57:32.909073Z",
+    "seconds": 10,
     "failing": 16,
-    "healed": 2,
-    "blocked": 14,
+    "healed": 1,
+    "blocked": 15,
     "downloads": 8,
-    "downloaded_mb": 270,
+    "downloaded_mb": 165,
     "harvested": 0,
     "anchors": 463
   },
@@ -33,25 +33,6 @@
       "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=Open Source Developer Dmitry Polivaev, O=Open Source Developer, L=Munich, S=Bavaria, C=DE\"; cùng chứng chỉ với bản tham chiếu 1.13.5 (pin, thumbprint trùng); 105.5 MB (tham chiếu 105.5 MB)",
       "from_url": "https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download",
       "checked_at": "2026-11-26T23:03:04.0917061Z"
-    },
-    {
-      "vkey": "w:wisecleaner.wisediskcleaner|12.0.1",
-      "slug": "wisecleaner-wisediskcleaner",
-      "winget_id": "WiseCleaner.WiseDiskCleaner",
-      "version": "12.0.1",
-      "kind": "same_url_new_hash",
-      "url": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe",
-      "sha256": "84a36f245b6507d6f97b781f8d4e82f8130d8b9b115bae9f1aa002adfbead3d6",
-      "size": 9006064,
-      "signer_subject": "CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization",
-      "signer_thumbprint": "D148CE160096C9E7B425030F75C18C74CE4DE488",
-      "final_host": "downloads.wisecleaner.com",
-      "hosts": [
-        "downloads.wisecleaner.com"
-      ],
-      "evidence_vi": "nhà phát hành thay tệp tại chỗ (cùng link, SHA-256 mới); Authenticode hợp lệ, ký bởi \"CN=\"WiseCleaner Technology Co., Ltd.\", O=\"WiseCleaner Technology Co., Ltd.\", L=Kunming, S=Yunnan, C=CN, OID.1.3.6.1.4.1.311.60.2.1.1=KUNMING, OID.1.3.6.1.4.1.311.60.2.1.2=YUNNAN, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91530103MA7HELT97U, OID.2.5.4.15=Private Organization\"; cùng chứng chỉ với bản tham chiếu 11.4.0 (pin, thumbprint trùng); 8.6 MB (tham chiếu 11.9 MB)",
-      "from_url": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe",
-      "checked_at": "2026-11-26T11:00:02.1762972Z"
     }
   ],
   "heal_blocked": [
@@ -84,6 +65,12 @@
       "slug": "iridiumio-compactgui",
       "version": "latest",
       "reason_vi": "không sinh được link thay thế cho lỗi \"winget manifest missing\" (winget-pkgs chưa có bản mới hơn latest)"
+    },
+    {
+      "vkey": "w:kde.okular|26.11.80",
+      "slug": "kde-okular",
+      "version": "26.11.80",
+      "reason_vi": "link cố định không ghi số phiên bản: HTTP 404; winget-pkgs chưa có bản mới hơn 26.11.80"
     },
     {
       "vkey": "w:microsoft.office|16.0.20228.20124",
@@ -2103,13 +2090,13 @@
     },
     {
       "id": "w:github.githubdesktop",
-      "version": "3.7.0",
-      "sha256": "a8fa288473c618fba1049e89d220a6a12b444b4bd388d86b35a6da261ef4577c",
-      "size": 269901824,
+      "version": "3.7.1",
+      "sha256": "75aa838ab0956a5c28e4f34a3bfee26d5e7eed115000146513766c2d1a2f06a1",
+      "size": 288919552,
       "subject": "CN=\"GitHub, Inc.\", O=\"GitHub, Inc.\", L=San Francisco, S=California, C=US",
-      "thumbprint": "B841B4B7C73B6D4A0959765F47BE5411C7CB337B",
+      "thumbprint": "FD154DADBDD9D4020907754052099CF42DE1E96A",
       "source": "pin",
-      "at": "2026-11-20T10:06:56.3603107Z"
+      "at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "w:github.gitlfs",
@@ -2243,13 +2230,13 @@
     },
     {
       "id": "w:grammarly.grammarly",
-      "version": "1.2.315.2011",
-      "sha256": "a0a7bf69fec0cadb8276eb8d0d2b766c8084a41567a5f17686270ab855901a29",
-      "size": 84197808,
+      "version": "1.2.316.2014",
+      "sha256": "495b24095db53d47deadc93c847e56ceba62d312b88652c5acd2e96595bcfd11",
+      "size": 84059072,
       "subject": "CN=\"Grammarly, Inc.\", O=\"Grammarly, Inc.\", L=San Francisco, S=California, C=US",
       "thumbprint": "5F26C960EE0F5416EEEC88FB873AE0F43E661AAF",
       "source": "pin",
-      "at": "2026-11-26T23:02:42.4560885Z"
+      "at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "w:grammarly.grammarly.office",
@@ -3063,13 +3050,13 @@
     },
     {
       "id": "w:mirantis.lens",
-      "version": "2026.11.91422-latest",
-      "sha256": "948a47b3977cd0ba5415ccab7324875ebb7c169cde32e3da3c19595bb268d1c4",
-      "size": 209157256,
+      "version": "2026.11.261430-latest",
+      "sha256": "b829c38a9b20f99600b05d4b77a72f822fb21c3f98037aadf304d9eb9468b9e9",
+      "size": 246529744,
       "subject": "CN=\"Mirantis, Inc.\", O=\"Mirantis, Inc.\", L=Campbell, S=California, C=US",
-      "thumbprint": "6D9CD35E51144E1DA02D3E72F6A6046F4E975F98",
+      "thumbprint": "2F1A794EF5602F1E2E96464C592C6EC14C4D75AE",
       "source": "pin",
-      "at": "2026-11-10T20:55:38.9607764Z"
+      "at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "w:mirc.mirc",
@@ -4743,13 +4730,13 @@
     },
     {
       "id": "w:zettlr.zettlr",
-      "version": "4.10.0",
-      "sha256": "80fe5a7ce88ce6b47bd71a669ac7a3cb63b2c0a868daddcfcd29e052056eb423",
-      "size": 166182008,
+      "version": "4.11.0",
+      "sha256": "c2a1cdac2d8b80e188470ff7fbd9f51626cab3fa602d3b297b20110a561fb984",
+      "size": 166195344,
       "subject": "CN=Benjamin Milburn-Town, O=Benjamin Milburn-Town, L=Richmond, S=Virginia, C=US",
-      "thumbprint": "F847EF2E7AC30EFC291E841F8B345B27622C1284",
+      "thumbprint": "9AA1C8B4198F13C840650A204564DF9AD153B23D",
       "source": "pin",
-      "at": "2026-11-14T09:02:40.6390042Z"
+      "at": "2026-11-27T10:57:12.8664958Z"
     },
     {
       "id": "w:zulertechnology.deskin",
