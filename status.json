@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-27T15:18:41.2943305Z",
+  "checked_at": "2026-11-27T23:35:21.7766527Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,26 +12,26 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-27T15:18:41.2943305Z",
-  "catalog_revision": 349,
+  "last_probe_at": "2026-11-27T23:35:21.7766527Z",
+  "catalog_revision": 353,
   "total_keys": 1015,
-  "hidden": 15,
-  "cycle_position": 515,
+  "hidden": 16,
+  "cycle_position": 594,
   "error": "",
   "pages": {
-    "catalog_revision": 349,
+    "catalog_revision": 353,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-27T15:18:41.2943305Z",
-    "seconds": 76,
+    "at": "2026-11-27T23:35:21.7766527Z",
+    "seconds": 186,
     "probed": 100,
-    "ok": 83,
-    "hashed": 25,
-    "transient": 1,
+    "ok": 84,
+    "hashed": 20,
+    "transient": 0,
     "broken": 13,
     "hash_mismatch": 3,
     "skipped": 0,
@@ -853,7 +853,7 @@
     {
       "slug": "opera-opera",
       "winget_id": "Opera.Opera",
-      "version": "141.0.6089.28",
+      "version": "141.0.6089.33",
       "installer_type": "exe",
       "silent_switch": true
     },
@@ -1001,6 +1001,13 @@
       "slug": "splashtop-splashtoppersonal",
       "winget_id": "Splashtop.SplashtopPersonal",
       "version": "3.7.600.0",
+      "installer_type": "exe",
+      "silent_switch": true
+    },
+    {
+      "slug": "spotify-spotify",
+      "winget_id": "Spotify.Spotify",
+      "version": "1.3.11.2657.gab535a3f4acc",
       "installer_type": "exe",
       "silent_switch": true
     },
