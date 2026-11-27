@@ -1,9 +1,9 @@
 # Báo cáo dò link bộ cài QA98
 
-- Lượt chạy: 2026-11-26 23:15 UTC — catalog revision 341, 1014 khoá (gói × phiên bản) cần dò.
-- Đã dò lượt này: **100** — đạt 85 (tải cả file kiểm SHA-256: 29), lỗi tạm 0, link chết 12, sai file 3, bỏ qua (file quá giới hạn tải thử) 0.
-- Đang tạm ẩn: **15** (mới ẩn lượt này 0, vừa hiện lại 0).
-- Đề xuất (proposals.json, dữ liệu chưa tin cậy): healthy 85, needs_review 15.
+- Lượt chạy: 2026-11-27 05:09 UTC — catalog revision 344, 1015 khoá (gói × phiên bản) cần dò.
+- Đã dò lượt này: **100** — đạt 84 (tải cả file kiểm SHA-256: 34), lỗi tạm 0, link chết 13, sai file 3, bỏ qua (file quá giới hạn tải thử) 0.
+- Đang tạm ẩn: **14** (mới ẩn lượt này 0, vừa hiện lại 1).
+- Đề xuất (proposals.json, dữ liệu chưa tin cậy): healthy 84, needs_review 16.
 
 Ngưỡng: link chết / sai file ẩn sau 3 lượt lỗi, mỗi lượt cách lượt trước ≥ 6 giờ; lỗi tạm (timeout, 429, 5xx) không bao giờ ẩn; đang ẩn cần 2 lượt đạt (có kiểm SHA-256) mới hiện lại.
 
@@ -25,13 +25,14 @@ Ngưỡng: link chết / sai file ẩn sau 3 lượt lỗi, mỗi lượt cách 
 | TechPowerUp.ThrottleStop | 9.7 | HTTP 404 | 2026-11-13 18:16 UTC | 35 | https://uk2-dl.techpowerup.com/files/ThrottleStop_9.7.zip | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/TechPowerUp/ThrottleStop/9.7/TechPowerUp.ThrottleStop.installer.yaml<br>https://uk2-dl.techpowerup.com/files/ThrottleStop_9.7.zip |
 | Wampserver.Wampserver | 3.4.0 | HTTP 404 | 2026-11-24 09:45 UTC | 7 | https://wampserver.aviatechno.net/files/install/wampserver3.4.0_x64.exe | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/Wampserver/Wampserver/3.4.0/Wampserver.Wampserver.installer.yaml<br>https://wampserver.aviatechno.net/files/install/wampserver3.4.0_x64.exe |
 | Warp.Warp | latest | winget manifest missing | 2026-11-14 03:39 UTC | 34 | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/Warp/Warp/latest/Warp.Warp.installer.yaml | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/Warp/Warp/latest/Warp.Warp.installer.yaml |
-| WiseCleaner.WiseDiskCleaner | 12.0.1 | sha256 mismatch | — | 0 | https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe expected cd317fa6f40eb91f6c6abdda878df25f3f35939f2b91e487d26ad1093c671977 got 84a36f245b6507d6f97b781f8d4e82f8130d8b9b115bae9f1aa002adfbead3d6 | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/WiseCleaner/WiseDiskCleaner/12.0.1/WiseCleaner.WiseDiskCleaner.installer.yaml<br>https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe |
 
 Duyệt: sửa link / hash trong catalog rồi ký lại (bản mới => khoá mới, mục cũ tự hết tác dụng), hoặc chờ bot tự hiện lại khi link hết lỗi. Hiện lại bằng tay: xoá mục khỏi state.json (README).
 
 ## Vừa hiện lại
 
-Không có.
+| Gói | Bản | Đạt lần cuối |
+|---|---|---|
+| WiseCleaner.WiseDiskCleaner | 12.0.1 | 2026-11-27 05:09 UTC |
 
 ## Đề xuất cần duyệt
 
@@ -52,6 +53,7 @@ Không có.
 | TechPowerUp.ThrottleStop | 9.7 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/TechPowerUp/ThrottleStop/9.7/TechPowerUp.ThrottleStop.installer.yaml winget manifest exists but installer does not serve the expected file |
 | Wampserver.Wampserver | 3.4.0 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/Wampserver/Wampserver/3.4.0/Wampserver.Wampserver.installer.yaml winget manifest exists but installer does not serve the expected file |
 | Warp.Warp | latest | needs_review | — | — | — | approved version missing from winget-pkgs, no newer version |
+| KDE.Okular | 26.11.80 | needs_review | — | — | — | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Okular/26.11.80/KDE.Okular.installer.yaml winget manifest exists but installer does not serve the expected file |
 
 same_artifact = cùng SHA-256 đã tải kiểm, chỉ đổi URL; new_artifact = bản mới hơn trong winget-pkgs (chưa tải, phải kiểm file + chữ ký trên máy quản trị trước khi ký catalog); retire_candidate = cả thư mục gói mất khỏi winget-pkgs.
 
@@ -60,3 +62,4 @@ same_artifact = cùng SHA-256 đã tải kiểm, chỉ đổi URL; new_artifact 
 | Gói | Bản | Lý do | Từ lúc | Số lần lỗi | Ghi chú | Link đã thử |
 |---|---|---|---|---|---|---|
 | Freeplane.Freeplane | 1.13.5 | sha256 mismatch | 2026-11-26 14:22 UTC | 2 | https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download expected 4261a47714ae3fcff1cf6ce33f4b186a10bc66baed605b60d167c598a0290816 got d4b65a2c9ad12dcfa7ec34e7a9cca6d1a08d6f2e5e023691d726365e24644959 | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/f/Freeplane/Freeplane/1.13.5/Freeplane.Freeplane.installer.yaml<br>https://sourceforge.net/projects/freeplane/files/freeplane%20stable/Freeplane-Setup-1.13.5.exe/download |
+| KDE.Okular | 26.11.80 | HTTP 404 | 2026-11-27 05:09 UTC | 1 | https://cdn.kde.org/ci-builds/graphics/okular/release-26.12/windows/okular-release_26.12-8286-windows-cl-msvc2022-x86_64.exe | https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/k/KDE/Okular/26.11.80/KDE.Okular.installer.yaml<br>https://cdn.kde.org/ci-builds/graphics/okular/release-26.12/windows/okular-release_26.12-8286-windows-cl-msvc2022-x86_64.exe |

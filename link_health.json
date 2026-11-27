@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T23:15:19.2155645Z",
-  "catalog_revision": 341,
+  "generated_at": "2026-11-27T05:09:38.050704Z",
+  "catalog_revision": 344,
   "hidden": [
     {
       "winget_id": "Ablaze.Floorp",
@@ -128,15 +128,6 @@
       "since": "2026-11-14T03:39:05.9579368Z",
       "fails": 34,
       "note": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/w/Warp/Warp/latest/Warp.Warp.installer.yaml"
-    },
-    {
-      "winget_id": "WiseCleaner.WiseDiskCleaner",
-      "slug": "wisecleaner-wisediskcleaner",
-      "version": "12.0.1",
-      "reason": "sha256 mismatch",
-      "since": "2026-11-26T23:15:19.2155645Z",
-      "fails": 0,
-      "note": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.1.963.exe expected cd317fa6f40eb91f6c6abdda878df25f3f35939f2b91e487d26ad1093c671977 got 84a36f245b6507d6f97b781f8d4e82f8130d8b9b115bae9f1aa002adfbead3d6"
     }
   ]
 }

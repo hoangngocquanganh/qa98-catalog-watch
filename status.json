@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-26T23:15:19.2155645Z",
+  "checked_at": "2026-11-27T05:09:38.050704Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -12,27 +12,27 @@
     "run_now_after": ""
   },
   "ran_probe": true,
-  "last_probe_at": "2026-11-26T23:15:19.2155645Z",
-  "catalog_revision": 341,
-  "total_keys": 1014,
-  "hidden": 15,
-  "cycle_position": 383,
+  "last_probe_at": "2026-11-27T05:09:38.050704Z",
+  "catalog_revision": 344,
+  "total_keys": 1015,
+  "hidden": 14,
+  "cycle_position": 449,
   "error": "",
   "pages": {
-    "catalog_revision": 341,
+    "catalog_revision": 344,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
     "error": ""
   },
   "last_probe": {
-    "at": "2026-11-26T23:15:19.2155645Z",
-    "seconds": 135,
+    "at": "2026-11-27T05:09:38.050704Z",
+    "seconds": 87,
     "probed": 100,
-    "ok": 85,
-    "hashed": 29,
+    "ok": 84,
+    "hashed": 34,
     "transient": 0,
-    "broken": 12,
+    "broken": 13,
     "hash_mismatch": 3,
     "skipped": 0,
     "wide_outage": false
@@ -322,13 +322,6 @@
       "slug": "deepl-deepl",
       "winget_id": "DeepL.DeepL",
       "version": "26.11.1",
-      "installer_type": "exe",
-      "silent_switch": true
-    },
-    {
-      "slug": "dell-commandupdate",
-      "winget_id": "Dell.CommandUpdate",
-      "version": "5.7.0",
       "installer_type": "exe",
       "silent_switch": true
     },
