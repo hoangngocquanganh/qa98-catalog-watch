@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "untrusted": true,
-  "generated_at": "2026-11-27T10:57:12.8664958Z",
-  "catalog_revision": 346,
+  "generated_at": "2026-11-27T22:45:28.8866218Z",
+  "catalog_revision": 353,
   "count": 365,
   "pins": [
     {
@@ -486,19 +486,19 @@
     },
     {
       "id": "Beeper.Beeper",
-      "version": "4.3.352",
+      "version": "4.3.366",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.352.exe",
-      "sha256": "123e22514b02e3f62fff01523efc85e41be53d06b3d0a0f646f7405238a314af",
-      "size": 198679264,
+      "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.366.exe",
+      "sha256": "403dec1143e11b6882d2b44ab5a08fccd8d1ae1a843826e8ffd03b7399513864",
+      "size": 198681264,
       "signer_subject": "CN=Automattic Inc., O=Automattic Inc., L=San Francisco, S=California, C=US",
-      "signer_thumbprint": "900DC97867D6A86B5DAADF29E1B3B2662204CA48",
+      "signer_thumbprint": "27D65F60647B523E4E5851055E821EE419BDE84B",
       "allowed_hosts": [
         "beeper-desktop.download.beeper.com"
       ],
-      "checked_at": "2026-11-25T23:08:36.5757528Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "BelledonneCommunications.Linphone",
@@ -1159,37 +1159,37 @@
     },
     {
       "id": "EclipseAdoptium.Temurin.11.JDK",
-      "version": "11.0.33.10",
+      "version": "11.0.33.101",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jdk_x64_windows_hotspot_11.0.33_10.msi",
-      "sha256": "54cf7f8ade921c1a31cc590f80ae4df4be174af7385d874057dbe5d9e9f3c766",
-      "size": 175165440,
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1+1/OpenJDK11U-jdk_x64_windows_hotspot_11.0.33.1_1.msi",
+      "sha256": "d915e54159eff1a3bcc42ceb40509fe97c28e4d2012fef8e8b555deb8c708350",
+      "size": 175173632,
       "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-10T12:29:04.7928657Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "EclipseAdoptium.Temurin.11.JRE",
-      "version": "11.0.33.10",
+      "version": "11.0.33.101",
       "arch": "neutral",
       "installer_type": "wix",
       "installer_arch": "x64",
-      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33+10/OpenJDK11U-jre_x64_windows_hotspot_11.0.33_10.msi",
-      "sha256": "09542d212951bfcd1fa66978fba3c9c3a27fac01501b8887ddea89f56051a702",
-      "size": 31551488,
+      "url": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.33.1+1/OpenJDK11U-jre_x64_windows_hotspot_11.0.33.1_1.msi",
+      "sha256": "e2b1104ddacaaf3482482ca3b7a52729b89cd51d074eb35173daf8c1133b66c5",
+      "size": 31543296,
       "signer_subject": "CN=Eclipse Foundation, O=Eclipse Foundation, L=Bruxelles, C=BE",
       "signer_thumbprint": "F621CFCD35923BF836B2C2AED71EE689262AFE5D",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-14T19:13:26.0855903Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "EclipseAdoptium.Temurin.17.JDK",
@@ -3308,19 +3308,19 @@
     },
     {
       "id": "MoonshotAI.Kimi",
-      "version": "3.2.27",
+      "version": "3.2.29",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://kimi-img.moonshot.cn/app/upgrade/Kimi-Setup-3.2.27.exe",
-      "sha256": "91437498a5326b3d74ca98e19296ad440c0cc706392258a294f9d13a39731bac",
-      "size": 444020656,
+      "url": "https://kimi-img.moonshot.cn/app/upgrade/Kimi-Setup-3.2.29.exe",
+      "sha256": "2afd2550eec778c9bc0f01632ad3a2bdc6b344789b4a7ce847f6491640cd9bef",
+      "size": 449828288,
       "signer_subject": "CN=北京月之暗面科技有限公司, O=北京月之暗面科技有限公司, S=北京市, C=CN, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=CN, SERIALNUMBER=91110108MACG2KBH8F",
       "signer_thumbprint": "6DA99CCA99A69947C11F97395A55FD2DC683420D",
       "allowed_hosts": [
         "kimi-img.moonshot.cn"
       ],
-      "checked_at": "2026-11-14T09:02:40.6390042Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "MoritzBunkus.MKVToolNix",
@@ -4652,19 +4652,19 @@
     },
     {
       "id": "Readdle.Spark",
-      "version": "3.33.0",
+      "version": "3.33.1",
       "arch": "neutral",
       "installer_type": "nullsoft",
       "installer_arch": "x64",
-      "url": "https://downloads.sparkmailapp.com/Spark3/win/dist/3.33.0.141673/Spark.exe",
-      "sha256": "9395f0af7e7b017834e0eb4c8431155c2b92bb0b2db842f7cd0d42866f5a3b0a",
-      "size": 240034888,
+      "url": "https://downloads.sparkmailapp.com/Spark3/win/dist/3.33.1.141803/Spark.exe",
+      "sha256": "e0a61a8d3e23291eb556e26adda9d838519cfabf23cf843d813e4a6617703175",
+      "size": 240513888,
       "signer_subject": "CN=Spark Mail Limited, O=Spark Mail Limited, L=Dalkey, C=IE, SERIALNUMBER=630862, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=IE",
       "signer_thumbprint": "7BFB6B11B72A19FBA8451D1552B4FFED77C52E0D",
       "allowed_hosts": [
         "downloads.sparkmailapp.com"
       ],
-      "checked_at": "2026-11-19T22:13:14.084533Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "RedisInsight.RedisInsight",
@@ -4882,20 +4882,20 @@
     },
     {
       "id": "ShareX.ShareX",
-      "version": "22.4.0",
+      "version": "22.5.0",
       "arch": "neutral",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/ShareX/ShareX/releases/download/v22.4.0/ShareX-22.4.0-setup-x64.exe",
-      "sha256": "5fac6ee58600976586d706f164b0f8a992fff7679bf2724a1f678c4a63894a8e",
-      "size": 145391368,
+      "url": "https://github.com/ShareX/ShareX/releases/download/v22.5.0/ShareX-22.5.0-setup-x64.exe",
+      "sha256": "0ac699fde6d29c53ec135864509a7b802fa2e9004484f34165095e5a744d4c0f",
+      "size": 168213936,
       "signer_subject": "CN=Ember Swan, O=Ember Swan, L=Paris, S=Paris, C=FR",
-      "signer_thumbprint": "6AFCFB990161C3BDA704324632320988A9097163",
+      "signer_thumbprint": "809A120F80A264ABB533389501FA813EDCC9E809",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-12T21:30:14.6167696Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "SiberSystems.GoodSync",
@@ -5223,20 +5223,20 @@
     },
     {
       "id": "Telegram.TelegramDesktop",
-      "version": "7.4.6",
+      "version": "7.4.7",
       "arch": "x64",
       "installer_type": "inno",
       "installer_arch": "x64",
-      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.6/td-setup-win-x64-7.4.6.exe",
-      "sha256": "c4323c79b76b86e3b160953ec7ebeadce502d7e042ae7d7a407f423d21ad3d3f",
-      "size": 68694352,
+      "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v7.4.7/td-setup-win-x64-7.4.7.exe",
+      "sha256": "8a58bbbfc1eb6497e5c1fd62d1b7c9e6856de1533aba6f72790a5b057612a378",
+      "size": 68602112,
       "signer_subject": "E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization",
       "signer_thumbprint": "C8CB11E5352916312801039AEDC5F9E8C78E48D8",
       "allowed_hosts": [
         "github.com",
         "release-assets.githubusercontent.com"
       ],
-      "checked_at": "2026-11-24T01:42:49.9208734Z"
+      "checked_at": "2026-11-27T22:45:28.8866218Z"
     },
     {
       "id": "Telerik.Fiddler.Classic",
