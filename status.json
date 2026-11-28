@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "tool_version": "1.1.0",
-  "checked_at": "2026-11-27T23:35:21.7766527Z",
+  "checked_at": "2026-11-28T04:56:59.7867336Z",
   "enabled": true,
   "config_from_server": true,
   "config": {
@@ -11,15 +11,15 @@
     "concurrency_per_host": 2,
     "run_now_after": ""
   },
-  "ran_probe": true,
+  "ran_probe": false,
   "last_probe_at": "2026-11-27T23:35:21.7766527Z",
-  "catalog_revision": 353,
-  "total_keys": 1015,
-  "hidden": 16,
-  "cycle_position": 594,
+  "catalog_revision": 357,
+  "total_keys": 0,
+  "hidden": 0,
+  "cycle_position": 0,
   "error": "",
   "pages": {
-    "catalog_revision": 353,
+    "catalog_revision": 357,
     "changed": true,
     "freshness": "none",
     "availability": "ok",
