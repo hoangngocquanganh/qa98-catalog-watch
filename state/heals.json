@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T22:46:31.3471612Z",
+  "updated_at": "2026-11-28T10:32:55.1037274Z",
   "last_run": {
-    "at": "2026-11-27T22:46:31.3471612Z",
+    "at": "2026-11-28T10:32:55.1037274Z",
     "seconds": 11,
     "failing": 16,
     "healed": 1,
@@ -370,13 +370,13 @@
     },
     {
       "id": "w:amazon.awscli",
-      "version": "2.42.4",
-      "sha256": "65b82923074b154e3ec5375716b886e3c5bd5483714cc94ba1e67a04dfbb6715",
-      "size": 51687424,
+      "version": "2.42.5",
+      "sha256": "ee60dbabfa9c6d42c581bff830a8c2c249b3d21a8e09be5a90610d5566d826e2",
+      "size": 51691520,
       "subject": "CN=\"Amazon Web Services, Inc.\", OU=AWS, O=\"Amazon Web Services, Inc.\", L=Seattle, S=Washington, C=US, SERIALNUMBER=4152954, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "81A9EFB93199F2C7441EE14050360EDAB7E8242A",
       "source": "pin",
-      "at": "2026-11-26T10:59:15.2436904Z"
+      "at": "2026-11-28T10:32:42.6825384Z"
     },
     {
       "id": "w:amazon.corretto.11.jdk",
@@ -580,13 +580,13 @@
     },
     {
       "id": "w:aomei.partitionassistant",
-      "version": "10.12.2",
-      "sha256": "e07307520b539041f464dea4f0340c9d3d9440f6f03bbb17175b84c833ecca2f",
-      "size": 75314720,
+      "version": "11.0.0",
+      "sha256": "5eb0c44ca7bdf62b75759277371d55d90d147edd7240bc63c8bfc82ff5d63b57",
+      "size": 82082952,
       "subject": "CN=AOMEI International Network Limited, O=AOMEI International Network Limited, L=Kwun Tong, S=Kowloon, C=HK, OID.1.3.6.1.4.1.311.60.2.1.3=HK, SERIALNUMBER=67838642, OID.2.5.4.15=Private Organization",
       "thumbprint": "0349F62EB2E6DEC8B00A6E0E3CD49E5622E297FB",
       "source": "pin",
-      "at": "2026-11-10T10:42:13.2283092Z"
+      "at": "2026-11-28T10:32:42.6825384Z"
     },
     {
       "id": "w:apache.openoffice",
@@ -2120,13 +2120,13 @@
     },
     {
       "id": "w:glavsoft.tightvnc",
-      "version": "2.8.90",
-      "sha256": "9693cb4cdc2e7e482e8e3f5890415b57ef87de3369fa5c337db516218a1170ce",
-      "size": 2543616,
+      "version": "2.8.91",
+      "sha256": "1e62d0c6a61ea0cbe8427c1ed4a926e84c53b0da85bf97056bd2261a88ac8bf8",
+      "size": 2465792,
       "subject": "E=info@glavsoft.com, CN=OOO GlavSoft, O=OOO GlavSoft, L=Tomsk, S=Tomsk Oblast, C=RU",
       "thumbprint": "90513AC184484A36A6461CB7B834B68761761006",
       "source": "pin",
-      "at": "2026-11-22T09:52:13.2225408Z"
+      "at": "2026-11-28T10:32:42.6825384Z"
     },
     {
       "id": "w:glzr-io.glazewm",
@@ -3270,13 +3270,13 @@
     },
     {
       "id": "w:neo4j.neo4jdesktop",
-      "version": "2.3.1",
-      "sha256": "fdc9c86872fb0c4bc11b3e7358c215995eea3fe37232d5af526ab260d3703fac",
-      "size": 643993704,
+      "version": "2.3.2",
+      "sha256": "7f29430529e431084f01fcf649f3a57f24ea564e5dba5176d8d0ee74085aa189",
+      "size": 651208960,
       "subject": "CN=\"Neo4j, Inc.\", O=\"Neo4j, Inc.\", L=San Mateo, S=California, C=US, SERIALNUMBER=5007564, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US",
       "thumbprint": "99417414A122F81E59682735169C88234DD5B3B1",
       "source": "pin",
-      "at": "2026-11-15T09:32:42.1136043Z"
+      "at": "2026-11-28T10:32:42.6825384Z"
     },
     {
       "id": "w:nextcloud.nextclouddesktop",
@@ -3950,13 +3950,13 @@
     },
     {
       "id": "w:rem0o.fancontrol",
-      "version": "286",
-      "sha256": "162121ae8c176e90f3447c6ae3f60df7af7c51d3ae5be0cd6fa36e01de0fe88c",
-      "size": 21074016,
+      "version": "287",
+      "sha256": "f3abf93aa81d70db7b843daee339747f89c20b4c154bcd3cabbd815b70179469",
+      "size": 21075472,
       "subject": "CN=Rémi Mercier, O=Rémi Mercier, L=Québec, S=Québec, C=CA",
-      "thumbprint": "12A6A5682985DC2EA86E3597F08654067EC8D087",
+      "thumbprint": "F667C613E34317B353CAF4846B6733CF206E3B0D",
       "source": "pin",
-      "at": "2026-11-18T10:16:40.654227Z"
+      "at": "2026-11-28T10:32:42.6825384Z"
     },
     {
       "id": "w:resplendence.whocrashed",
@@ -4540,13 +4540,13 @@
     },
     {
       "id": "w:winmerge.winmerge",
-      "version": "2.16.60",
-      "sha256": "ed01097f60b63b3e7d58b3036064c40f05504a47c23c231a1081142295815f7f",
-      "size": 18697696,
+      "version": "2.16.60.2",
+      "sha256": "7b31e9fe35c8be9537237ba30a6b67941855ff0a47721432cc7dde1743f20b34",
+      "size": 18728120,
       "subject": "CN=Takashi Sawanaka, O=Takashi Sawanaka, L=Chiba, S=Chiba, C=JP",
       "thumbprint": "4F8C8F56C77DCC6C96FE293589E06E4411C230C9",
       "source": "pin",
-      "at": "2026-11-14T09:02:40.6390042Z"
+      "at": "2026-11-28T10:32:42.6825384Z"
     },
     {
       "id": "w:winscp.winscp",
